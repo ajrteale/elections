@@ -331,7 +331,7 @@
        sodipodi:role="line"
        x="64.592216"
        y="499.92572"
-       id="tspan4498">H = Harbour</tspan><tspan
+       id="tspan4498">H = Harbour*</tspan><tspan
        sodipodi:role="line"
        x="66.467216"
        y="514.92572"
@@ -343,7 +343,19 @@
        sodipodi:role="line"
        x="64.592216"
        y="544.92572"
-       id="tspan4504">K = Keptie</tspan></text>
+       id="tspan4504">K = Keptie</tspan><tspan
+       sodipodi:role="line"
+       x="64.592216"
+       y="559.92572"
+       id="tspan4769" /><tspan
+       sodipodi:role="line"
+       x="64.592216"
+       y="574.92572"
+       id="tspan4771">*includes</tspan><tspan
+       sodipodi:role="line"
+       x="64.592216"
+       y="589.92572"
+       id="tspan4773">Bell Rock</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
