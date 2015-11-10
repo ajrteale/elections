@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3770"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="446.43002"
    height="600.00006"
-   sodipodi:docname="s-ayrshire07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\ayrshire\s-ayrshire07cg.png"
+   sodipodi:docname="s-ayrshire12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\ayrshire\s-ayrshire12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,13 +152,13 @@
     <linearGradient
        id="linearGradient4416">
       <stop
-         style="stop-color:#0000ff;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop4418" />
       <stop
          id="stop4430"
          offset="0.333"
-         style="stop-color:#0000ff;stop-opacity:1;" />
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4428"
          offset="0.333"
@@ -238,10 +238,18 @@
          id="stop4370" />
       <stop
          id="stop4382"
-         offset="0.5"
+         offset="0.25"
          style="stop-color:#0000ff;stop-opacity:1;" />
       <stop
          id="stop4380"
+         offset="0.25"
+         style="stop-color:#008000;stop-opacity:1" />
+      <stop
+         style="stop-color:#008000;stop-opacity:1"
+         offset="0.5"
+         id="stop5301" />
+      <stop
+         id="stop5303"
          offset="0.5"
          style="stop-color:#ff0000;stop-opacity:1;" />
       <stop
@@ -339,8 +347,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3772"
      showgrid="false"
      fit-margin-top="0"
