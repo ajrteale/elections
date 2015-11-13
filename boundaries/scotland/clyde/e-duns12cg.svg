@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3770"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="895.70917"
    height="599.99994"
-   sodipodi:docname="e-duns07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\clyde\e-duns07cg.png"
+   sodipodi:docname="e-duns12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\clyde\e-duns12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,9 +54,9 @@
       <stop
          id="stop4523"
          offset="0.667"
-         style="stop-color:#0000ff;stop-opacity:1;" />
+         style="stop-color:#ff0000;stop-opacity:1" />
       <stop
-         style="stop-color:#0000ff;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1"
          offset="1"
          id="stop4519" />
     </linearGradient>
@@ -173,11 +173,11 @@
       <stop
          id="stop4451"
          offset="0.333"
-         style="stop-color:#0000ff;stop-opacity:1;" />
+         style="stop-color:#ff0000;stop-opacity:1" />
       <stop
          id="stop4449"
          offset="0.667"
-         style="stop-color:#0000ff;stop-opacity:1;" />
+         style="stop-color:#ff0000;stop-opacity:1" />
       <stop
          id="stop4447"
          offset="0.667"
@@ -217,13 +217,13 @@
     <linearGradient
        id="linearGradient4407">
       <stop
-         style="stop-color:#0000ff;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop4409" />
       <stop
          id="stop4421"
          offset="0.333"
-         style="stop-color:#0000ff;stop-opacity:1;" />
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4419"
          offset="0.333"
@@ -323,16 +323,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3772"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.86500009"
-     inkscape:cx="447.85458"
+     inkscape:zoom="0.86666675"
+     inkscape:cx="618.04687"
      inkscape:cy="299.99997"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
