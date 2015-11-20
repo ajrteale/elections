@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3789"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="750.64642"
    height="599.99976"
-   sodipodi:docname="midlothian07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\forth\midlothian07cg.png"
+   sodipodi:docname="midlothian12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\forth\midlothian12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,11 +46,11 @@
       <stop
          id="stop4427"
          offset="0.333"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4425"
          offset="0.667"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4423"
          offset="0.667"
@@ -81,9 +81,9 @@
       <stop
          id="stop4407"
          offset="0.667"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
-         style="stop-color:#ffff00;stop-opacity:1;"
+         style="stop-color:#008000;stop-opacity:1"
          offset="1"
          id="stop4403" />
     </linearGradient>
@@ -127,9 +127,9 @@
       <stop
          id="stop4379"
          offset="0.667"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
-         style="stop-color:#ffff00;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop4375" />
     </linearGradient>
@@ -160,8 +160,16 @@
          id="stop4349" />
       <stop
          id="stop4357"
-         offset="0.667"
+         offset="0.33000001"
          style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="0.33000001"
+         id="stop4193" />
+      <stop
+         id="stop4195"
+         offset="0.667"
+         style="stop-color:#00ff00;stop-opacity:1" />
       <stop
          id="stop4355"
          offset="0.667"
@@ -175,10 +183,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4347"
        id="linearGradient4353"
-       x1="283.7335"
-       y1="247.27714"
-       x2="487.91688"
-       y2="247.27714"
+       x1="399.67133"
+       y1="136.50797"
+       x2="399.67133"
+       y2="363.215"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -193,10 +201,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4371"
        id="linearGradient4377"
-       x1="320.50685"
-       y1="261.29694"
-       x2="749.6599"
-       y2="261.29694"
+       x1="723.11249"
+       y1="150.59308"
+       x2="573.31342"
+       y2="410.0527"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -211,10 +219,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4399"
        id="linearGradient4405"
-       x1="137.66514"
-       y1="258.01316"
-       x2="379.07223"
-       y2="258.01316"
+       x1="271.66348"
+       y1="125.06523"
+       x2="271.66348"
+       y2="392.01151"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -235,15 +243,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3791"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.86500035"
+     inkscape:zoom="0.86666702"
      inkscape:cx="375.32321"
      inkscape:cy="299.99988"
      inkscape:window-x="-8"
