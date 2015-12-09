@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3824"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="401.57388"
    height="600"
-   sodipodi:docname="w-duns07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\clyde\w-duns07cg.png"
+   sodipodi:docname="w-duns12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\clyde\w-duns12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,11 +41,11 @@
          id="stop4542" />
       <stop
          id="stop4550"
-         offset="0.667"
+         offset="0.333"
          style="stop-color:#008000;stop-opacity:1;" />
       <stop
          id="stop4548"
-         offset="0.667"
+         offset="0.333"
          style="stop-color:#ff0000;stop-opacity:1;" />
       <stop
          style="stop-color:#ff0000;stop-opacity:1;"
@@ -60,11 +60,11 @@
          id="stop4526" />
       <stop
          id="stop4538"
-         offset="0.5"
+         offset="0.25"
          style="stop-color:#008000;stop-opacity:1;" />
       <stop
          id="stop4536"
-         offset="0.5"
+         offset="0.25"
          style="stop-color:#ff0000;stop-opacity:1;" />
       <stop
          id="stop4534"
@@ -141,6 +141,14 @@
          style="stop-color:#008000;stop-opacity:1;" />
       <stop
          style="stop-color:#008000;stop-opacity:1;"
+         offset="0.75"
+         id="stop5036" />
+      <stop
+         id="stop5038"
+         offset="0.75"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop4488" />
     </linearGradient>
@@ -220,10 +228,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4540"
        id="linearGradient4546"
-       x1="2.556458"
-       y1="112.70731"
-       x2="203.94302"
-       y2="112.70731"
+       x1="110.74974"
+       y1="7.7073135"
+       x2="110.74974"
+       y2="218.74042"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -235,16 +243,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3826"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.865"
-     inkscape:cx="200.78694"
+     inkscape:zoom="0.86666667"
+     inkscape:cx="370.97925"
      inkscape:cy="300"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
