@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3777"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="686.87122"
    height="600"
-   sodipodi:docname="inverclyde07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\clyde\inverclyde07cg.png"
+   sodipodi:docname="inverclyde12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\clyde\inverclyde12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,11 +46,11 @@
       <stop
          id="stop4478"
          offset="0.333"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4476"
          offset="0.667"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4474"
          offset="0.667"
@@ -181,9 +181,9 @@
       <stop
          id="stop4398"
          offset="0.75"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#ff0000;stop-opacity:1" />
       <stop
-         style="stop-color:#ffff00;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1"
          offset="1"
          id="stop4394" />
     </linearGradient>
@@ -251,16 +251,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3779"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.865"
-     inkscape:cx="343.43561"
+     inkscape:zoom="0.86666667"
+     inkscape:cx="513.62792"
      inkscape:cy="300"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
