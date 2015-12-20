@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3764"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    width="752.9082"
    height="599.99994"
-   sodipodi:docname="clacks07cg.svg"
-   inkscape:export-filename="C:\Users\Andrew\Documents\elections\boundaries\scotland\forth\clacks07cg.png"
+   sodipodi:docname="clacks12cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\forth\clacks12cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,11 +65,11 @@
       <stop
          id="stop3823"
          offset="0.5"
-         style="stop-color:#ffffff;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop3821"
          offset="0.75"
-         style="stop-color:#ffffff;stop-opacity:1;" />
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop3819"
          offset="0.75"
@@ -100,9 +100,9 @@
       <stop
          id="stop3803"
          offset="0.75"
-         style="stop-color:#ffff00;stop-opacity:1;" />
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
-         style="stop-color:#ffff00;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop3799" />
     </linearGradient>
@@ -156,19 +156,19 @@
        inkscape:collect="always"
        xlink:href="#linearGradient3765"
        id="linearGradient3771"
-       x1="230.28558"
-       y1="318.56491"
-       x2="509.40509"
-       y2="318.56491"
+       x1="427.9537"
+       y1="205.27013"
+       x2="427.9537"
+       y2="432.68866"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3779"
        id="linearGradient3785"
-       x1="338.2476"
-       y1="344.64833"
-       x2="751.03788"
-       y2="344.64833"
+       x1="592.61963"
+       y1="92.625221"
+       x2="592.61963"
+       y2="599.02032"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -192,10 +192,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient3827"
        id="linearGradient3833"
-       x1="0.638877"
-       y1="296.3013"
-       x2="289.37835"
-       y2="296.3013"
+       x1="224.19936"
+       y1="72.023865"
+       x2="103.71164"
+       y2="521.69012"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -207,8 +207,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
      id="namedview3766"
      showgrid="false"
      fit-margin-top="0"
