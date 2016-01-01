@@ -1,0 +1,910 @@
+-----------------------------------------------
+TAMESIDE 
+
+ASHTON HURST
+Whitehead  Lab  1,506
+Peet  C  1,098
+Rolland  Grn  197
+Rainey  Ind  132
+
+ASHTON ST MICHAEL'S
+Highton  Lab  1,053
+Hastie  C  574
+Jackson  Ind  395
+Dean  Grn  159
+
+ASHTON ST PETER'S
+Davis  Lab  1,166
+Marsh  C  246
+Lewis  LD  198
+Clarke  Grn  182
+
+ASHTON WATERLOO
+Piddington  Lab  1,292
+Parker  C  583
+Mee  Ind  312
+Seabourne  Lib  258
+
+AUDENSHAW
+Wright  LD  1,623
+Smith  Lab  1,321
+
+DENTON NORTH EAST
+Ricci  Lab  1,300
+Greenwood  C  559
+Foster  LD  412
+
+DENTON SOUTH
+Downs  Lab  1,391
+Jones  C  526
+Craven  LD  324
+
+DENTON WEST
+Warrington  Lab  1,501
+Howarth  C  829
+Poole  LD  338
+Boyd  Grn  155
+
+DROYLSDEN EAST
+Quinn  Lab  1,819
+Bartley  LD  727
+
+DROYLSDEN WEST
+Cooney  Lab  1,898
+Gillis  LD  313
+Adderley  C  300
+
+DUKINFIELD
+Forth  Lab  1,271
+Craven  LD  456
+Marshall  Grn  440
+
+DUKINFIELD-STALYBRIDGE
+Sweeton  Lab  1,143
+Dickinson  C  557
+Marshall  Grn  291
+
+HYDE GODLEY
+Kitchen  Lab  1,111
+Pike  C  508
+Arathoon  LD  312
+
+HYDE NEWTON
+Robinson  Lab  1,124
+Welsby  C  582
+Ball-Foster  LD  326
+Fisher  Grn  120
+
+HYDE WERNETH
+Bell  C  1,472
+Bailey  Lab  1,049
+Wroe  LD  276
+
+LONGDENDALE
+Oldham  Lab  1,088
+Booth  Ind  622
+Greenwood  C  556
+
+MOSSLEY
+Etchells  Ind  1,106
+Brierley  Lab  1,009
+Owen  C  301
+Clark  Grn  179
+Dearnley  LD  134
+
+STALYBRIDGE NORTH
+Robinson  Lab  889
+Lee  C  550
+Shaw  LD  281
+Smee  Grn  145
+
+STALYBRIDGE SOUTH
+Grantham  C  1,538
+Miah  Lab  926
+
+--------------------------------------------------
+TAMWORTH 
+
+AMINGTON [3]
+John Garner  C  685
+Evelyn Rowe  C  644
+Michael Smith  Lab  637
+Michael Cooper  Lab  612
+John Wells  C  608
+Richard McDermid  Lab  589
+Zoe Blake  LD  232
+
+BELGRAVE [3]
+Nigel Brindley  Lab  658
+David Foster  Lab  630
+Kenneth Lewis  Lab  608
+James Ward  C  542
+Mary Oates  C  472
+John Lees  C  460
+
+BOLEHALL [3]
+Kenneth Norchi  Lab  893
+Philip Dix  Lab  846
+Peter Seekings  Lab  822
+Diane Wells  C  520
+Francis Worrell  C  508
+Ronald Gibson  C  485
+
+CASTLE [3]
+Marion Couchman  Lab  722
+John Faulkner  Lab  721
+Ian Trenfield  Lab  693
+Marie Booth  C  556
+Ian Cooper  C  553
+Alan Lees  C  504
+Jennifer Pinkett  LD  272
+Ian Gibbons  Ind  205
+
+GLASCOTE [3]
+Ronald Birbeck  Lab  566
+Dennis Powick  Lab  518
+Stephen Savage  Lab  507
+Christopher Cook  Ind  416
+Diana Reece  C  278
+James McKay  C  277
+Paul White  C  234
+
+MERCIAN [3]
+William Fuller  Lab  747
+John Garforth  Lab  726
+Gerald Latham  Lab  704
+Maureen Gant  C  699
+Wyonnie Boughton  C  658
+Geoffrey Parsons  C  646
+Geoffrey Blake  LD  294
+
+SPITAL [3]
+Kenneth Gant  C  1,085
+Ronald Cook  C  1,013
+Bruce Boughton  C  771
+Derek Thompson  Lab  674
+Garry Hirons  Lab  606
+Karen Hirons  Lab  603
+Jennifer Blake  LD  335
+
+STONYDELPH [3]
+Margaret Clarke  Lab  582
+John Tucker  Lab  516
+Brian Granger  Lab  495
+Andrew James  C  383
+Michael Oates  C  370
+Debra James  C  367
+
+TRINITY [3]
+Derek Jones  C  741
+Jeremy Oates  C  717
+Gerald Pinner  C  717
+Patricia Dix  Lab  702
+Audrey Poulton  Lab  652
+Kevan Garratt  Lab  648
+Roger Jones  LD  289
+
+WILNECOTE [3]
+Mary Lewis  Lab  844
+Joan Jenkins  Lab  835
+Alan Smith  Lab  775
+Brian Beale  C  569
+Christine Fidler  C  522
+Marguarite Jones  C  502
+
+-----------------------------------------------------
+TANDRIDGE 
+
+BLETCHINGLEY AND NUFFIELD
+Sally Herrtage  C  883 
+Richard Fowler  LD  537 
+Hubert Cockerham  Lab  125  
+    
+BURSTOW, HORNE AND OUTWOOD
+Alan Brown  C  778 
+John Brock  LD  548  
+Sandra Crittell  Grn  94  
+
+DORMANSLAND AND FELCOURT    
+Michael Sydney  C  708 
+Mavis Tettmar  LD  432  
+Ruth Allonby  Lab  55  
+
+GODSTONE
+Colin White  LD  848 
+Hamish Beaton  C  823  
+Maxine Mathews  Lab  116 
+    
+HARESTONE
+Stuart Sinclair-Smith  C  718 
+Anthea Hopkins  LD  607 
+John Ellis  Lab  53  
+
+LIMPSFIELD
+Eric Morgan  C  761 
+Mark Wilson  LD  338  
+Philip Gunner  Lab  54  
+
+LINGFIELD AND CROWHURST
+Brian Perkins  C  715 
+Anne Dalrymple  LD  644 
+Lynn Bappa  Lab  75  
+
+OXTED NORTH AND TANDRIDGE
+Antony Cherrett  C  854 
+Matthew Griffiths  LD  469  
+Joshua Cosnett  Ind  457 
+
+OXTED SOUTH
+Barry Compton  C  850 
+Katherine Saunders  Lab  763  
+Ceri Lewis  LD  298 
+Anthony Stone  UK Ind  243  
+
+QUEENS PARK
+Matthew Groves  C  705 
+John Orrick  LD  678  
+Victoria Kennedy  Lab  78 
+
+WARLINGHAM EAST, CHELSHAM AND FARLEIGH
+Simon Morrow  LD  770 
+John Aust  C  628  
+George Holman  Lab  135  
+Martin Haley  UK Ind  119 
+
+WARLINGHAM WEST
+Glynis Whittle  C  727 
+Barry Newsome  LD  285 
+Raymond Garwood  Lab  55  
+
+WESTWAY
+Rosalind Langham  C  477 
+Robin Clements  Lab  344 
+Sarah Burningham  LD  127  
+
+WHYTELEAFE
+Sakina Bradbury  LD  531 
+John Morriss  C  354  
+Charmaine Morgan  Lab  55 
+
+------------------------------------------------------
+THREE RIVERS
+
+ABBOTS LANGLEY 
+Sara Bedford  LD  882
+Christopher Bond  C  373
+John Sutton  Lab  191
+
+BEDMOND AND PRIMROSE HILL 
+Joy Mann  LD  480
+Roy Beach  C  367
+Stephen Cox  Lab  228
+
+CARPENDERS PARK 
+Leslie Winters  C  929
+Alison Scarth  LD  493
+
+CHORLEYWOOD EAST 
+Leonard Spencer  C  766
+Rodney Kipps  LD  302
+
+CHORLEYWOOD WEST 
+Martin Trevett  LD  1,146
+Maximin Green  C  612
+Joanna Trevor  Lab  224
+ 
+CROXLEY GREEN 
+Roger Seabourne  LD  897
+Graham Denman  C  373
+Vivian Rhodie  Lab  203
+
+CROXLEY GREEN NORTH 
+David Drury  LD  624
+Kerron Cross  Lab  185
+Lynda Lewis  C  167
+
+CROXLEY GREEN SOUTH 
+Brian White  LD  550
+Fiona Denman  C  199
+Beverley Hazell  Lab  118
+
+LANGLEYBURY 
+William Peutherer  LD  750
+Joanne Cox  Lab  231
+Clarence Sciville  C  181
+
+LEAVESDEN 
+Katherine Turner  LD  632
+Walter Tuck  C  210
+Peter Arthur  Lab  156
+
+MAPLE CROSS AND MILL END 
+Richard Struck  LD  711
+John Marsh  C  399
+Michael Lamport  Lab  188
+
+MOOR PARK AND EASTBURY 
+Elizabeth Boleat  C  940
+Anneliese Waugh  LD  388
+
+NORTHWICK 
+Francis Durham  Lab  437
+Ralph Sangster  C  166
+David Lowes  LD  90
+ 
+PENN 
+Sheila Taylor  LD  489
+John Hayden  C  338
+
+RICKMANSWORTH [2]
+John Hawxwell  C  654
+David Sansom  C  645
+Beryl Stevenson  LD  356
+Jeremy Asquith  LD  317
+Graham Dale  Lab  162
+
+RICKMANSWORTH WEST 
+Barbara Lamb  C  850
+Leslie Mead  LD  348
+Fiona Goble  Lab  87
+
+-----------------------------------------------------------------------
+THURROCK
+
+AVELEY
+Neil Pearce  C  889
+Wahidur Rahman  Lab  413
+Mark Meechan  LD  97
+Dean Hall  Grn  41
+Pauline Campbell  Ind  19
+
+BELHUS
+David Hooper  Lab  597
+Jane Atkins  C  306
+John Biddall  LD  138
+
+CHADWELL ST MARY
+Anthony Fish  Lab  974
+Yvonne Partridge  C  416
+
+CHAFFORD HUNDRED
+Earnshaw Palmer  LD  470
+Neil Rockliffe  C  407
+Ian Duffield  Lab  282
+
+CORINGHAM WEST
+Nigel Barron  Lab  399
+Nicola Stokes  C  230
+James Thompson  LD  134
+
+EAST TILBURY
+Barry Palmer  Ind  941
+Julian Norris  Lab  117
+Susan Harrison  C  110
+
+GRAYS RIVERSIDE
+John Kent  Lab  484
+Faye Rigby  C  282
+Brian Livermore  LD  182
+
+GRAYS THURROCK
+Yash Gupta  Lab  740
+Steven Mason  C  557
+
+THE HOMESTEADS
+Anthony Sharp  Lab  709
+Melanie Aung-Htut  C  674
+
+OCKENDON
+Michael Canavon  Lab  751
+Emma Woods  C  479
+
+STANFORD-LE-HOPE EAST
+Eunice Southam  Lab  521
+John Vesey  C  472
+
+STANFORD-LE-HOPE WEST
+Arthur Clarke  Lab  405
+Barry Dorrington  C  356
+
+STIFFORD
+Allan McPherson  Lab  719
+Robert Barnes  C  623
+Geoffrey Slocock  Ind  260
+
+TILBURY RIVERSIDE
+Rick Southam  Lab  433
+Jean Watts  C  94
+
+TILBURY ST CHAD'S
+Andrew Smith  Lab  447
+Maureen Pearce  C  123
+David Coward  LD  90
+
+WEST THURROCK
+Peter Harris  Lab  388
+Mark Harrison  C  378
+John Livermore  LD  99 
+
+-----------------------------------------------------
+TOWER HAMLETS
+
+BETHNAL GREEN NORTH [3]
+Azizur Khan  LD  1,224
+John Griffiths  LD  1,192
+James Sanderson  LD  1,097
+Stephen Beckett  Lab  878
+Raja Miah  Lab  866
+Diana Johnson  Lab  833
+David Cox  Grn  233
+Anna Hoad-Reddick  Grn  202
+Sajjadur Rahman  C  196
+David Ceasar  C  185
+Brajendra Chaudhuri  C  167
+Neil Thompson  Grn  166
+William Wren  BNP  162
+Glyn Robbins  Soc All  119
+
+BETHNAL GREEN SOUTH [3]
+Sirajul Islam  Lab  1,385
+Akikor Rahman  LD  1,384
+Salim Ullah  Lab  1,331
+Nurul Karim  LD  1,309
+Raymond Marney  Lab  1,281
+Robert Waites  LD  1,252
+Shahin Ahmed  C  239
+Anamul Haque  C  201
+Jonathan Hackett  Grn  190
+Nicholas Sellick  C  181
+Peter Howell  Grn  177
+Gizelle Rush  Grn  166
+ 
+BLACKWALL AND CUBITT TOWN [3]
+Lutfur Ali  Lab  876
+Julia Mainwaring  Lab  865
+Anthony Sharpe  Lab  793
+Timothy Archer  C  568
+Patricia Napier  C  534
+Simon Rouse  C  497
+Barrie Blandford  LD  350
+Alison Sanderson  LD  310
+Richard Ottaway  LD  248
+Eric Pemberton  Ind  215
+        
+BOW EAST [3]       
+Raymond Gipson  LD  1,248  
+Nigel McCollum  LD  1,204
+Marian Williams  LD  1,155
+Rupert Bawden  Lab  519   
+Alexander Heslop  Lab  493   
+David Guppy  Lab  475   
+Jessica Lack  Grn  136
+Benjamin Holt  Grn  125
+Alastair Holmes  C  120   
+Susanna Webb  C  116
+Volker Heineman  Grn  112   
+Timothy Hudspith  C  99
+        
+BOW WEST [3]
+Janet Ludlow  LD  1,350
+Hilary Phelps  LD  1,149
+Martin Rew  LD  1,115
+Ala Uddin  Lab  946
+Belle Harris  Lab  939
+Geoffrey Thorington-Hassel  Lab  887
+Janice Cartwright  Grn  280
+Sandra McLeod  Grn  275
+Kazi Alam  C  225
+Sheila McGregor  Soc All  168
+Francis Brown  C  155
+Simon Gordon-Clark  C  153
+
+BROMLEY-BY-BOW [3]
+David Edgar  Lab  1,650
+Abdul Sardar  Lab  1,641
+Khaled Khan  Lab  1,586
+Brian Abson  LD  353
+Abdul Mannan  LD  320
+Phyllis Sheehan  LD  310
+Matthew Corbishley  Grn  225
+James McLachlan  C  204
+Barbara Perrott  C  186
+Robert Neill  C  178
+Hidr Yildirim  Grn  132
+
+EAST INDIA AND LANSBURY [3]
+Ali Ahmed  Lab  1,015
+Rajib Ahmed  LD  869
+Kevin Morton  Lab  771
+Ron Harley  Lab  756
+Harry Pavitt  LD  583
+Robert Wallace  LD  583
+Kambiz Boomla  Soc All  261
+Peter Golds  C  253
+Gareth Kennedy  C  239
+Gillian Thomas  C  196
+Mohammed Haque  Ind  178
+
+LIMEHOUSE [3]
+Kumar Murshid  Lab  1,026
+Judith Gardiner  Lab  1,003
+Ashton McGregor  Lab  917
+Russell Neale  LD  414
+Elizabeth Langley  LD  413
+Mark Weeks  Soc All  391
+Philip Briscoe  C  377
+Antonio Bello  C  364
+Richard Winfield  LD  358
+Christopher Godfrey  C  339
+ 
+MILE END AND GLOBE [3]
+Jainal Chowdhury  LD  1,108
+Rofique Ahmed  Lab  1,042
+Barrie Duffey  LD  1,008
+Rosina Tucker  LD  950
+Sharmin Shajahan  Lab  778
+Graham Taylor  Lab  727
+Jahidul Hoque  C  326
+Christopher Coombes  Grn  267
+Amelia Gordon  Grn  218
+Michael Fletcher  C  217
+Mohammad Karim  C  174
+Jeremy Hicks  Grn  156
+ 
+MILE END EAST [3]
+Helal Rahman  Lab  1,326
+Morin Uz-Zaman  Lab  1,303
+Abdus Salique  Lab  1,254
+Mohammed Rahman  LD  792
+Bernard Cameron  LD  791
+Rick Pollock  LD  739
+John Livingstone  C  242
+Simon Armand-Smith  C  233
+Stephen Charge  C  213
+Bill Wakefield  Ind  103
+ 
+MILLWALL [3]
+Alan Amos  Lab  1,089
+Betheline Chattopadhyay  Lab  986
+Mumtaz Samad  Lab  970
+Philip Groves  C  446
+Paul Ingham  C  422
+Alison Newton  C  420
+Malcolm Cuthbert  LD  313
+Jean Stokes  LD  245
+Kevin McDonald  LD  241
+Gordon Callow  BNP  204
+Susan Gibson  Soc All  200
+
+ST DUNSTAN'S AND STEPNEY GREEN [3]
+Ataur Rahman  Lab  1,232
+Nasir Uddin  Lab  1,226
+Mohammed Uddin  Lab  1,105
+Hafizur Rahman  C  828
+Shamim Choudhury  C  566
+Muhammade Hoque  C  518
+Paula Palmer  LD  418
+George Crozier  LD  393
+Mohibur Rahman  LD  300
+Miriam Dodd  Grn  269
+Craig Williams  Grn  261
+Frances Schwartz  Grn  216
+ 
+ST KATHARINE'S AND WAPPING [3]
+Denise Jones  Lab  1,082
+Shafiqul Haque  Lab  1,049
+Richard Brooks  Lab  1,034
+Kevin Noles  C  842
+William Norton  C  766
+Toby Vintcent  C  733
+Mohammed Ahmed  LD  470
+Marian Elsden  LD  345
+Alexandra Sugden  LD  318
+Dennis Delderfield  New Britain  259
+John Divito  New Britain  211
+ 
+SHADWELL [3]
+Manir Ahmed  Lab  1,265
+Michael Keith  Lab  1,188
+Abdus Shukur  Lab  1,076
+Nanu Miah  LD  512
+William Crossey  C  429
+Richard Powell  C  402
+Catherine Buttimer  LD  395
+Maxwell Rumney  C  334
+Gary Marsh  LD  327
+
+SPITALFIELDS AND BANGLATOWN [3]
+Helal Abbas  Lab  936
+Ghulam Mortuza  Lab  848
+Lutfur Rahman  Lab  846
+Mohammed Rahman  C  400
+Pir Quium  C  345
+David Webb  C  272
+Ahmed Hussain  LD  255
+Keith Magnum  Grn  198
+Melvin Ramsay  LD  198
+Alas Uddin  LD  186
+Muhit Ahmed  Ind  157
+Annika Sanders  Grn  146
+Ismail Malik  Ind  137
+Kerry Seager  Grn  130
+Alexander Vracas  Ind  124
+Sultan Ahmed  Ind  53
+ 
+WEAVERS [3]
+Abdul Matin  LD  1,588
+Louise Alexander  LD  1,397
+Timothy O'Flaherty  LD  1,288
+Sirajul Islam  Lab  925
+Humaiun Kobir  Lab  919
+Eric Taylor  Lab  732
+Mohammed Kadir  C  295
+Benjamin Hancocks  Grn  204
+Marc Weaver  Grn  184
+Stephen Wood  Grn  159
+Jane Meehan  C  145
+Joanna Noles  C  137
+Matt Bass  Ind  51
+
+WHITECHAPEL [3]
+Abdul Asad  Lab  1,263
+Fanu Miah  Lab  1,142
+Doros Ullah  Lab  1,125
+Mostafa Miah  C  592
+Shafique Miah  C  475
+Monsur Ahmed  C  466
+Mohamed Ahmed  Ind  462
+Shamsuddin Ahmed  Ind  451
+Anu Miah  Ind  407
+Deborah O'Flaherty  LD  212
+Jacqueline Goodman  Grn  205
+Brendon O'Connor  Grn  200
+Sajaul Karim  LD  174
+Melina La Firenze  Grn  167
+Gulam Hossain  LD  162
+Philip Billows  Soc All  85
+ 
+-----------------------------------------------------------
+TRAFFORD 
+
+ALTRINCHAM
+Fildes  C  2,503
+Baugh  Lab  1,472
+Gaskell  LD  621
+
+BOWDON
+Harney  C  3,345
+Walsh  Lab  771
+Legge  LD  762
+Green  Grn  359
+
+BROADHEATH
+Baugh  Lab  2,454
+Williams  C  2,060
+Morgan  Ind  404
+
+BROOKLANDS
+Higgins  C  2,378
+Morgan  Lab  1,086
+Clarke  LD  737
+
+BUCKLOW
+Kanes  Lab  1,759
+Davies  C  576
+
+CLIFFORD
+Mitchell  Lab  2,256
+Kelly  C  428
+Power  Grn  294
+
+DAVYHULME EAST
+Eadie  C  2,126
+Roberts  Lab  1,581
+
+DAVYHULME WEST
+Reilley  C  2,189
+Mottley  Lab  2,049
+
+FLIXTON
+Somerfield  C  2,070
+Carter  Lab  1,946
+
+HALE
+Mullins  C  3,333
+Harrison  Lab  828
+Elliott  LD  664
+
+LONGFORD
+Lloyd  Lab  2,174
+Schofield  C  1,318
+
+MERSEY ST MARY'S
+Rigby  C  2,914
+Taylor  Lab  1,621
+Rogers  LD  687
+
+PARK
+McDermott  Lab  1,750
+Nakvi  C  1,038
+
+PRIORY
+Brotherton  Lab  1,909
+Garner  C  1,183
+Riley  LD  846
+
+ST MARTIN'S
+Murkin  Lab  2,727
+Butt  C  1,386
+
+SALE MOOR
+Gratrix  Lab  1,906
+Lynch  C  1,311
+Hurst  LD  564
+Hepburn  Ind  232
+
+STRETFORD
+Adshead  Lab  2,224
+Lamb  C  1,403
+Hibberd  Soc Lab  185
+
+TALBOT
+Beaumont  Lab  1,824
+Manley  C  538
+
+TIMPERLEY
+Bowker  C  2,426
+Smith  LD  2,120
+
+URMSTON
+Acton  Lab  2,323
+Turner  C  1,765
+
+VILLAGE
+Fishwick  LD  3,070
+Morris  C  1,648
+
+-----------------------------------------------------------
+TUNBRIDGE WELLS
+
+BENENDEN AND CRANBROOK [3]
+Peter Davies  C  1,014
+Tom Veitch  C  1,012
+Linda Hall  C  863
+Kim Fletcher  Ind  661
+Patricia Hoare  LD  607
+
+BRENCHLEY AND HORSMONDEN [2]
+Paul Oliver-Smith  C  911
+Nicholas Fairrie  C  870
+Paul Ratcliffe  LD  379
+ 
+BROADWATER [2]
+Peter Crawford  LD  481
+Barbara Cobbold  C  480
+Andrew Ollive  LD  455
+Jennifer Gregory  C  435
+
+CAPEL
+Hugh Patterson  LD  420
+Margaret Pemberton  C  238
+
+CULVERDEN [3]
+Leonard Price  C  804
+Eldred Wakefield  C  800
+Wilfred Ekins-Daukes  C  799
+Aileen Prendergast  LD  523
+Christopher Storr  LD  497
+Brian Leslie  Grn  388
+
+FRITTENDEN AND SISSINGHURST
+John Smith  C  468
+Graham Lee  LD  193
+
+GOUDHURST AND LAMBERHURST [2]
+Barry Noakes  C  784
+John Bullock  C  728
+Simon Fowler  Lab  269
+
+HAWKHURST AND SANDHURST [3]
+John Cunningham  C  945
+Beverley Palmer  C  912
+Ronald Weeden  C  861
+Keith Brown  LD  504
+David Burgess  Lab  276
+
+PADDOCK WOOD EAST [2]
+David Marriott  C  489
+Peter Waldock  C  359
+Lorraine Braam  LD  342
+Timothy Rich  Lab  229
+
+PADDOCK WOOD WEST [2]
+Elizabeth Thomas  C  453
+Stanley Ward  C  443
+Raymond Moon  Lab  222
+Walter Stone  LD  217
+
+PANTILES AND ST MARK'S [3]
+James Scholes  C  1,096
+Leonard Horwood  C  1,017
+Gillian Barber-Hughes  C  1,005
+Michael McDowall  LD  454
+Christopher Wigley  LD  428
+
+PARK [3]
+Catherine Mayhew  C  1,007
+Peter Bulman  C  952
+Henry Harrison  C  928
+Peter Hillier  LD  640
+Alan Bullion  LD  629
+Christopher Skelton  LD  620
+
+PEMBURY [3]
+Archibald Ballantine  LD  926
+Paul Barrington-King  C  911
+David Mills  LD  898
+Gillian Pavely  C  818
+Richard Harding  C  789
+Sonya Wratten  LD  687
+Sally Osborn  Lab  182
+Toby Birkett  Grn  142
+Barney Richardson  Grn  65
+Storm Poorun  Grn  50
+
+RUSTHALL [2]
+Robert Wratten  LD  530
+Barry Edwards  C  396
+Christopher Gillmore  LD  391
+James Perry  C  385
+David Kirkham  Lab  194
+Victor Webb  UK Ind  150
+
+ST JAMES' [2]
+David Neve  LD  803
+Beatrice Lewis  LD  764
+Rosemary Fitzherbert  C  226
+Roger Parkes  C  168
+David Osborn  Lab  123
+
+ST JOHN'S [3]
+Alfred Baker  LD  745
+Simon Bannister  LD  742
+Geoffrey Young  LD  664
+Sean Lockhart  C  558
+Christopher Reich  C  543
+Christine Dickens  C  531
+Peter Ross-Skedd  Lab  206
+Phyllis Leslie  Grn  183
+
+SHERWOOD [3]
+Ted Jolley  C  505
+Frank Williams  C  492
+Robert Mayall  C  456
+Ian Carvell  Lab  445
+Emma Collins  Lab  414
+John Hopkinson  Lab  340
+Cicilia Bannister  LD  321
+
+SOUTHBOROUGH AND HIGH BROOMS [3]
+Walter Clary  Lab  774
+Jemima Blackmore  Lab  726
+Ronnie Ooi  Lab  725
+Colin Bothwell  C  625
+Michael Scott  C  577
+Kevin Wilkinson  C  514
+ 
+SOUTHBOROUGH NORTH [2]
+Michael Rusbridge  C  618
+Trevor Poile  LD  545
+Pamela Howell  C  531
+John Billingham  LD  475
+
+SPELDHURST AND BIDBOROUGH [3]
+Melvyn Howell  C  1,128
+Jennifer Paulson-Ellis  C  1,126
+John Jukes  C  1,096
+Patrick Handcock  LD  420
+Jackie Cassidy  LD  415
+
+

@@ -1,0 +1,357 @@
+OLDHAM 
+
+ALEXANDRA
+Ali  Lab  1,591
+Lockett  BNP  788
+Riley  Ind  492
+Miah  LD  226
+Stephenson  C  177
+Roney  Grn  164
+
+CHADDERTON CENTRAL
+Greenwood  Lab  1,477
+Bennett  C  747
+McInnes  LD  453
+Stevens  Grn  384
+
+CHADDERTON NORTH
+Quinn  Lab  1,673
+Farquhar  C  919
+McGann  LD  422
+Lancaster  Grn  306
+
+CHADDERTON SOUTH
+Hibbert  Lab  1,575
+Fullard  BNP  965
+Bowling  C  325
+Renold  LD  224
+Turner  Soc All  139
+
+COLDHURST
+Jabbar  Lab  2,425
+Miah  LD  1,612
+Heeks  C  297
+Stevens  Grn  287
+
+CROMPTON
+Dillon  LD  1,797
+Dunning  C  717
+Jones  Lab  682
+Czernuszka  Grn  210
+
+FAILSWORTH EAST
+Currie  Lab  1,633
+Siddall  LD  1,104
+
+FAILSWORTH WEST
+Harrison  Lab  1,700
+Lewis  LD  552
+
+HOLLINWOOD
+Williams  Lab  1,246
+Joynes  LD  1,094
+Treacy  BNP  736
+
+LEES
+McDonald  Lab  1,458
+Ritchie  LD  1,253
+Boon  C  349
+
+ROYTON NORTH
+Judge  Lab  1,836
+Dobson  BNP  973
+Mills  LD  626
+Lees  C  512
+
+ROYTON SOUTH
+Harrison  Lab  1,623
+Phelan  LD  1,346
+Owens  C  547
+
+SADDLEWORTH EAST
+Knowles  LD  2,525
+Hudson  C  1,628
+Hickling  Lab  900
+
+SADDLEWORTH WEST
+Lord  LD  2,010
+Jackson  C  1,026
+Fryer  Lab  916
+
+ST JAMES'
+McCardle  LD  1,020
+Goodwin  BNP  929
+Fitzpatrick  Lab  599
+Hulme  C  105
+
+ST MARY'S
+Shah  Lab  1,693
+Iqbal  LD  1,146
+Atherton  C  462
+Swift  Soc All  233
+
+ST PAUL'S
+Ball  Lab  1,323
+Rogers  C  721
+Mohammed  Ind  645
+Roney  Grn  497
+Stocks  LD  408
+
+SHAW
+Farrell  LD  1,691
+Manning  Lab  693
+Drinkwater  C  425
+
+WATERHEAD
+Dugdale  LD  1,730
+Leyden  Lab  1,410
+Caddick  C  452
+
+WERNETH
+Hussain  Lab  2,028
+Raham  LD  1,363
+Walmsley  C  421
+Moughal  Ind  307
+
+------------------------------------------------------
+OXFORD
+
+BARTON AND SANDHILLS [2]
+Alexander Hollingsworth  Lab  580 
+Michael McAndrews  Lab  564 
+Prudence Dailey  C  270  
+Jeremy Wynne  LD  162  
+Jane Wyatt  LD  150  
+Raymond Hitchins  Grn  97  
+Pallas Reiss  Grn  54  
+
+BLACKBIRD LEYS [2]
+Valerie Smith  Lab  633 
+Patrick Stannard  Lab  438 
+Daphne Kingston  Ind Working Class Assoc  197  
+David Brown  C  111  
+Mark Hinnells  LD  34  
+John Lister  Soc All  33  
+Patrick Lingwood  Grn  22  
+Alexander MacFie  LD  19  
+Nuala Young  Grn  18  
+
+CARFAX [2]
+Michael Woodin  Grn  420 
+Paul Sargent  LD  355 
+Afia Ali  LD  341  
+Linda Losito  Grn  290  
+Timothy Waters  Lab  211  
+Karim Palant  Lab  208  
+Ann Dykes  C  153  
+Stephan Pritchard  C  144  
+
+CHURCHILL [2]
+Susan Brown  Lab  589 
+Peter Johnson  Lab  564 
+Harry Brack  C  205  
+Alan Edwards  LD  186  
+Rosemary Smith  LD  154  
+Alexis Kennedy  Grn  81  
+Daniel Rosenberg  Grn  71  
+George Roe  Soc All  64  
+
+COWLEY [2]
+Beryl Keen  Lab  693 
+Bryan Keen  Lab  668 
+Charles Hammond  LD  392  
+Nadeem Khan  LD  360  
+Ellen Smith  C  210  
+Martin Juckes  Grn  157  
+Jennifer Linsdell  Grn  146  
+
+COWLEY MARSH [2]
+Ruth Beer  LD  501 
+David Taylor  Lab  486 
+Mumtaz Fareed  Lab  469  
+Sajjad-Hussain Malik  LD  459  
+James Kemp  Grn  148  
+Ian Wanless  Grn  130  
+Elizabeth Wells  C  129  
+
+HEADINGTON [2]
+David Rundle  LD  637 
+Stephen Tall  LD  597 
+Richard Jeffery  C  459  
+Joseph Hannigan  C  427  
+Kathrin Luddecke  Lab  312  
+Terence Johnson  Lab  306  
+Dave Dalton  Grn  150  
+Xanthe Bevis  Grn  112  
+Tracy Ellicott  Soc All  64  
+
+HEADINGTON HILL AND NORTHWAY [2]
+Maureen Christian  Lab  552 
+Manawar Jan-Khan  Lab  487 
+Philip McKearney  C  342  
+Peter Salcombe  C  341  
+Nigel Hall  LD  210  
+Mark Whittaker  LD  199  
+Katherine Wedell  Grn  86  
+Tim Pizey  Grn  57  
+
+HINKSEY PARK [2]
+Robert Price  Lab  961 
+Richard Muir  Lab  836 
+Deborah Glass  Grn  649  
+Donald O'Neal  Grn  434  
+Simon Mort  C  226  
+Christopher Bones  LD  139  
+Ruth Penwarden  LD  125  
+
+HOLYWELL [2]
+Antony Brett  LD  464 
+Fiyaz Mughal  LD  426 
+Paul Williams  Grn  418  
+Laura Merrill  Grn  416  
+Sean Sullivan  C  190  
+Edmund Sutton  C  185  
+Siobhan McAndrew  Lab  143  
+Eleanor Reeves  Lab  125  
+
+IFFLEY FIELDS [2]
+William Baker  Lab  876 
+Richard Tarver  Lab  791 
+Elise Benjamin  Grn  654  
+Larry Sanders  Grn  559  
+Victoria Marsom  LD  124  
+Edward Parkin  C  118  
+Margaret Croft  C  109  
+Madeline Rowe  LD  102  
+
+JERICHO AND OSNEY [2]
+Susanna Pressel  Lab  1,092 
+Colin Cook  Lab  895 
+Sushila Dhall  Grn  325  
+Catherine Hilliard  LD  320  
+Lilia Patterson  Grn  223  
+Michael Smithson  LD  219  
+Patricia Jones  C  166  
+William Wilson  C  154  
+
+LITTLEMORE [2]
+Gillian Sanders  Lab  724 
+John Tanner  Lab  697 
+David Leake  C  393  
+John Young  C  363  
+Vicky Potter  LD  140  
+Mark Stevenson  Grn  118  
+Gail Percival  Grn  90  
+Aidan Thomson  LD  70  
+
+LYE VALLEY [2]
+Sabir-Hussain Mirza  Lab  627 
+Daniel Paskins  Lab  621 
+Robert Hoyle  LD  519  
+David Paintin  LD  462  
+Barbara Topley  Grn  111  
+David Brooks-Saxl  Grn  89  
+
+MARSTON [2]
+Mary Clarkson  Lab  837 
+Roy Darke  Lab  765 
+Duncan Hatfield  C  436  
+Anjana Tiwari  LD  400  
+Stuart Hand  C  388  
+Kenji Tiwari  LD  378  
+Judith Chipchase  Grn  167  
+Garry Budin  Grn  141  
+
+NORTH [2]
+Jean Fooks  LD  602 
+Stephen Brown  LD  586 
+Adrian Arbib  Grn  474  
+Miranda Carnegie  Grn  422  
+Suzanne Ledwith  Lab  209  
+John Rose  Local Government Reform  138  
+Andrew Small  Lab  126  
+
+NORTHFIELD BROOK [2]
+Molly Florey  Lab  406 
+Stuart Craft  Ind Working Class Assoc  354 
+Lee Cole  Ind Working Class Assoc  328  
+Jane Darke  Lab  308  
+Bernard Gowers  LD  70  
+Choudhary Zafar  LD  59  
+Susan Tibbles  Grn  44  
+Patricia Dickson  Grn  38  
+
+QUARRY AND RISINGHURST [2]
+Delia Sinclair  Lab  607 
+Julian Allison  LD  552 
+Noorjahan Sayani  Lab  531  
+Jonathan Coats  LD  418  
+Peter Logan  C  335  
+George Callaghan  C  304  
+Sarah Wild  Grn  106  
+Susan Miles  Grn  72  
+Andrew Gibbons  Soc All  70  
+
+ROSE HILL AND IFFLEY [2]
+William Buckingham  Lab  953 
+Edward Turner  Lab  791 
+David Penwarden  LD  534  
+Pamela Bones  LD  424  
+Gwendoline Fancutt  C  149  
+Julian Hicks  C  142  
+Oliver Tickell  Grn  120  
+Simon Brook  Grn  107  
+Ben Kenward  Soc All  60  
+
+ST CLEMENT'S [2]
+Sophia Bartleet  Lab  494 
+Claire Palmer  Grn  489 
+Robert Sykes  Grn  469  
+John Courouble  Lab  467  
+Owen Davies  LD  155  
+Jean Pocock  C  146  
+Margaret Young  C  138  
+Martin Stone  LD  132  
+
+ST MARGARET'S [2]
+James Campbell  LD  628 
+Corinna Redman  LD  628 
+Sally Bayley  Grn  330  
+Mary Franklin  Grn  324  
+Ursula Dreydel  C  254  
+Robert Porter  C  231  
+Benjamin Harris  Lab  127  
+Tim Boyd  Lab  115  
+
+ST MARY'S [2]
+Craig Simmons  Grn  433 
+Mohammed Abbasi  Lab  429 
+Annie Skinner  Grn  390  
+Peter Moss  Lab  389  
+Elizabeth Barker  LD  150  
+Darren Green  C  104  
+Pieter-Paul Barker  LD  96  
+Angelina Rai  Soc All  91  
+
+SUMMERTOWN [2]
+Alan Armitage  LD  811 
+Anthony Hollander  LD  788 
+Frank Bland  C  453  
+Sheila Buck  Grn  434  
+Malcolm Lee  Grn  412  
+Jason Tomes  C  390  
+Joel Brookfield  Lab  252  
+Benjamin Seifert  Lab  231  
+
+WOLVERCOTE [2]
+John Goddard  LD  801 
+Susan Roaf  LD  690 
+Graham Jones  C  616  
+Raoul Cerratti  C  578  
+Sheila Cameron  Grn  444  
+Michael Hamblett  Grn  444  
+Patricia Brown  Lab  244  
+Michael Taylor  Lab  238  
+
+
+
