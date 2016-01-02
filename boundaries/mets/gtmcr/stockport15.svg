@@ -170,21 +170,6 @@
   <text
      xml:space="preserve"
      style="font-size:12;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype"
-     x="224.71043"
-     y="508.49417"
-     id="text2397"
-     sodipodi:linespacing="100%"><tspan
-       sodipodi:role="line"
-       id="tspan2399"
-       x="226.9525"
-       y="508.49417">Bramhall </tspan><tspan
-       sodipodi:role="line"
-       x="224.71043"
-       y="526.43073"
-       id="tspan2401">S.</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype"
      x="392.66406"
      y="125.09652"
      id="text2403"
@@ -447,4 +432,19 @@
        id="tspan2490"
        x="315.77536"
        y="91.640541">Cheadle Hulme N.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="229.55078"
+     y="512.96246"
+     id="text2397"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       x="229.55078"
+       y="512.96246"
+       id="tspan2401">Bramhall S.</tspan><tspan
+       sodipodi:role="line"
+       x="229.55078"
+       y="524.96246"
+       id="tspan3415">&amp; Woodford</tspan></text>
 </svg>

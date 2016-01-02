@@ -160,17 +160,6 @@
   <text
      xml:space="preserve"
      style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype"
-     x="245.6201"
-     y="537.40137"
-     id="text2397"
-     sodipodi:linespacing="100%"><tspan
-       sodipodi:role="line"
-       x="245.6201"
-       y="537.40137"
-       id="tspan2401">Bramhall S.</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype"
      x="165.18121"
      y="435.38669"
      id="text2453"
@@ -395,4 +384,19 @@
        x="265.91791"
        y="60.499481"
        id="tspan2543-8">Reddish N.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="247.40578"
+     y="538.29449"
+     id="text2397"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       x="247.40578"
+       y="538.29449"
+       id="tspan2401">Bramhall S.</tspan><tspan
+       sodipodi:role="line"
+       x="247.40578"
+       y="550.29449"
+       id="tspan3400">&amp; Woodford</tspan></text>
 </svg>
