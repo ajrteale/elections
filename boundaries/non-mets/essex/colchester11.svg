@@ -11,10 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg7844"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    width="564.6178"
    height="600"
-   sodipodi:docname="colchester07.svg"
+   sodipodi:docname="colchester11.svg"
    inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\non-mets\essex\colchester07.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -50,10 +50,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="706"
      id="namedview7846"
      showgrid="false"
-     inkscape:zoom="0.84333333"
+     inkscape:zoom="0.86666667"
      inkscape:cx="282.3089"
      inkscape:cy="300"
      inkscape:window-x="-8"
@@ -414,7 +414,7 @@
        y="79.325607">Dedham &amp; Langham</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="512.09674"
      y="126.92347"
      id="text3077"
@@ -425,43 +425,43 @@
        id="tspan3145">COLCHESTER </tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="138.92348"
+       y="138.92346"
        id="tspan3163">TOWN</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="150.92348"
+       y="150.92346"
        id="tspan3097">And = St Andrew's</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="162.92348"
+       y="162.92346"
        id="tspan3133">Ann = St Anne's</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="174.92348"
+       y="174.92346"
        id="tspan3131">B = Berechurch</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="186.92348"
+       y="186.92346"
        id="tspan3153">C = Castle</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="198.92348"
-       id="tspan3105">CC = Christ Chuch</tspan><tspan
+       y="198.92346"
+       id="tspan3105">CC = Christ Church</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="210.92348"
+       y="210.92346"
        id="tspan3103">Ha = Harbour</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="222.92348"
+       y="222.92346"
        id="tspan3147">Hi = Highwoods</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="234.92348"
+       y="234.92346"
        id="tspan3139">J = St John's</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
-       y="246.92348"
+       y="246.92346"
        id="tspan3155">L = Lexden</tspan><tspan
        sodipodi:role="line"
        x="512.09674"
