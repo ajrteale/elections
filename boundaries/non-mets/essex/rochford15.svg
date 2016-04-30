@@ -11,11 +11,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3582"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    width="1000"
    height="469.62939"
-   sodipodi:docname="rochford11.svg"
-   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\non-mets\essex\rochford11.png"
+   sodipodi:docname="rochford15.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\non-mets\essex\rochford15.png"
    inkscape:export-xdpi="72.056816"
    inkscape:export-ydpi="72.056816">
   <metadata
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -50,10 +50,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="706"
      id="namedview3584"
      showgrid="false"
-     inkscape:zoom="1.0774453"
+     inkscape:zoom="1.1072561"
      inkscape:cx="500"
      inkscape:cy="234.8147"
      inkscape:window-x="-8"
@@ -112,7 +112,7 @@
      id="path3700" />
   <path
      id="path3690"
-     style="fill:#ffff00"
+     style="fill:#0000ff"
      d="m 64.02468,244.98894 c 0.975254,-0.0158 3.986831,1.07824 9.259325,1.87695 5.272494,0.79871 12.364369,0.4858 16.444006,-0.72556 7.130743,-2.11733 12.296639,-6.1476 18.930229,-14.76881 6.06362,-7.88046 6.57471,-9.77218 2.31803,-8.57983 -1.25667,0.35202 -2.47375,0.60837 -2.70461,0.56968 -0.23086,-0.0387 -1.32343,-0.28056 -2.42793,-0.5375 -2.57553,-0.59913 -4.74135,2.21607 -5.17592,6.7278 -0.43378,4.50347 -0.912488,5.04902 -3.53775,4.03169 -3.616338,-1.40141 -13.496929,-3.80492 -13.930421,-3.38866 -0.221703,0.21289 -0.45039,3.10509 -0.508183,6.42711 -0.05779,3.32202 -0.29599,6.23094 -0.529315,6.46428 -0.233332,0.23333 -2.53222,0.0346 -5.108638,-0.44173 -3.6356,-0.67207 -4.82835,-0.63923 -5.327358,0.14667 -0.499008,0.7859 -5.786115,2.24791 -7.950337,1.05017 -2.164222,-1.19774 -2.920478,-1.08262 -2.057778,0.31327 0.293404,0.47473 1.331396,0.85024 2.30665,0.83447 z"
      sodipodi:nodetypes="cscssssssssssscss" />
   <path
