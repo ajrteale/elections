@@ -5,8 +5,12 @@
 % We are using the T1 font enconding and Latin Modern fonts.  The
 % input encoding is cp1252.
 
+%\usepackage[marginwidth=3cm]{savetrees}
+
+\usepackage[lmargin=3cm,rmargin=3cm,tmargin=3cm,bmargin=3cm,includefoot,footskip=1.5em]{geometry}
+
 \usepackage[T1]{fontenc}
-\usepackage[cp1252]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{textcomp}
 \usepackage{lmodern}
 \usepackage[osf]{mathpazo}
@@ -43,6 +47,20 @@
     {1.5ex \@plus .2ex}%
     {\normalfont\normalsize\bfseries}}
   \begin{multicols}{2}\footnotesize}{
+  \end{multicols}
+}
+
+% Same as above but with three columns
+\newenvironment{resultsiii}{%
+	% This modification of the \subsubsection command is there
+	% as I want all wards to be on the same page.  I've therefore increased
+	% the stretchability of the beforeskip parameter from +3.25ex-0.2ex.
+	\renewcommand\subsubsection{
+	\@startsection{subsubsection}{3}{\z@}%
+    {-3.25ex\@plus -5ex \@minus -.5ex}%
+    {1.5ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+  \begin{multicols}{3}\footnotesize}{
   \end{multicols}
 }
 
@@ -396,10 +414,14 @@
 
 % Environment for showing STV transfers
 
-\newenvironment{transfers}[1]{
+\newenvironment{transfers}[2]{
   \subsubsection*{Transfers (Quota = #1)}\footnotesize
-  \VerbatimEnvironment\begin{Verbatim}}{
-\end{Verbatim}}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}#2@{\extracolsep{\fill}}}
+}{\end{tabular*}}
+
+% Command for identifying elected candidates
+
+\newcommand\el{\hspace{-5pt}\makebox[2.5pt][r]{*}\hspace{2.5pt}\itshape}
 
 % The environment for the consolidated results table.  Similar to the
 % ward- environments except that the table is typeset in normal size.
@@ -480,7 +502,7 @@
 
 \newcommand\councila[2]{
 \section{#1}
-\index{#1@#2|textbf}
+\index{#1@#2|textbf}-
 }
 
 \newcommand\councilfa[2]{
@@ -518,104 +540,298 @@
 
 % Various hyphenation exceptions which have been found necessary.
 
+\hyphenation{Ab-er-non}
+\hyphenation{A-herne}
 \hyphenation{All-ing-ton}
 \hyphenation{Ar-thur-lie}
 \hyphenation{Ash-ford}
+\hyphenation{Ba-bergh}
+\hyphenation{Bal-d-hu}
+\hyphenation{Ban-stead}
+\hyphenation{Ba-s-h-a-rat}
+\hyphenation{Bas-ing-stoke}
+\hyphenation{Bents-wood}
+\hyphenation{Ber-wick-shire}
+\hyphenation{Bish-ops-wood}
 \hyphenation{Bla-don}
-\hyphenation{Bols-over}
+\hyphenation{Blue-mel}
+\hyphenation{Bol-so-ver}
+\hyphenation{Bol-ton}
+\hyphenation{Bos-ton}
+\hyphenation{Bos-worth}
+\hyphenation{Bound-stone}
 \hyphenation{Bourne-mouth}
+\hyphenation{Brew-is}
+\hyphenation{Bridg-end}
+\hyphenation{Brigh-ton}
+\hyphenation{Brom-wich}
+\hyphenation{Brough-ton}
 \hyphenation{Broad-ley}
 \hyphenation{Broad-way}
 \hyphenation{Broom-haugh}
 \hyphenation{Buck-fast-leigh}
+\hyphenation{Buck-ing-ham-shire}
+\hyphenation{Bur-gess}
 \hyphenation{Cald-beck}
 \hyphenation{Cal-der-dale}
+\hyphenation{Cam-bridge-shire}
 \hyphenation{Car-harr-ack}
-\hyphenation{Che-shire}
+\hyphenation{Charles-worth}
+\hyphenation{Chelms-ford}
+\hyphenation{Chel-sham}
+\hyphenation{Chip-per-field}
+\hyphenation{Chil-tern}
 \hyphenation{Chil-terns}
+\hyphenation{Chob-ham}
+\hyphenation{Christ-church}
+\hyphenation{Clar-ence}
+\hyphenation{Coast-al}
+\hyphenation{Cots-wold}
 \hyphenation{Craig-ends}
+\hyphenation{Cra-v-en}
+\hyphenation{Cre-r-ar}
+\hyphenation{Crow-hurst}
 \hyphenation{Dag-en-ham}
+\hyphenation{Dav-ies}
 \hyphenation{De-la-val}
+\hyphenation{Demp-sey}
+\hyphenation{Dev-on}
+\hyphenation{Dha-l-i-wal}
+\hyphenation{Dhil-lon}
+\hyphenation{Don-o-ghue}
+\hyphenation{Do-sanjh}
+\hyphenation{Do-ver}
+\hyphenation{Dud-ley}
+\hyphenation{Dun-thorne}
 \hyphenation{Ea-ton}
+\hyphenation{Ecc-ardt}
+\hyphenation{Elm-bridge}
 \hyphenation{Elm-ton}
 \hyphenation{Elt-ham}
 \hyphenation{Ew-shot}
+\hyphenation{Fal-kirk}
+\hyphenation{Fras-sin-el-li}
+\hyphenation{Fi-gh-el-dean}
+\hyphenation{Fow-l-er}
+\hyphenation{Gan-llwyd}
 \hyphenation{Gates-head}
+\hyphenation{Ged-ling}
 \hyphenation{Geoff-rey}
 \hyphenation{Glass-hough-ton}
 \hyphenation{Great-er}
 \hyphenation{Green-wich}
+\hyphenation{Gwy-dd-el-wern}
+\hyphenation{Gwy-nedd}
+\hyphenation{Ham-mond}
+\hyphenation{Har-bo-rough}
 \hyphenation{Har-well}
 \hyphenation{Ha-th-er-ley}
+\hyphenation{Hawkes-worth}
 \hyphenation{Hell-ing-ly}
+\hyphenation{Herts-mere}
+\hyphenation{Hol-land}
+\hyphenation{Hol-ling-hurst}
+\hyphenation{Hol-lings-worth}
+\hyphenation{Hor-sham}
+\hyphenation{Hough-ton}
 \hyphenation{Houns-low}
+\hyphenation{How-arth}
+\hyphenation{Humph-reys}
+\hyphenation{Humph-ries}
 \hyphenation{Hut-ch-ens}
 \hyphenation{Imp-ing-ton}
 \hyphenation{Je-re-my}
+\hyphenation{Kam-pou-r-o-p-oul-os}
+\hyphenation{Ken-ne-dy}
 \hyphenation{Kes-te-ven}
 \hyphenation{Kes-ton}
 \hyphenation{Kings-wear}
+\hyphenation{Kings-wood}
 \hyphenation{Kirk-lees}
 \hyphenation{Knock-en-ti-ber}
 \hyphenation{Knows-ley}
+\hyphenation{Law-rence}
 \hyphenation{Lea-field}
+\hyphenation{Lei-ces-ter-shire}
+\hyphenation{Leics}
 \hyphenation{Leo-n-ards}
 \hyphenation{Lind-ford}
+\hyphenation{Llan-gyn-haf-al}
+\hyphenation{Llan-sil-in}
 \hyphenation{Loch-ab-er}
 \hyphenation{Long-hors-ley}
 \hyphenation{Loud-water}
 \hyphenation{Lough-ton}
-\hyphenation{Mc-Leish}
+\hyphenation{Love-dean}
+\hyphenation{Mac-Kay}
 \hyphenation{Mac-Leod}
 \hyphenation{Mai-den-bow-er}
+\hyphenation{Mall-ing}
 \hyphenation{Man-ches-ter}
+\hyphenation{Mar-bi-ah}
 \hyphenation{Mas-s-ie}
+\hyphenation{Matth-ews}
+\hyphenation{Mc-Conn-a-ch-ie}
+\hyphenation{Mc-Cutch-eon}
+\hyphenation{Mc-Don-ough}
+\hyphenation{Mc-Gea-r-y}
+\hyphenation{Mc-Ken-na}
+\hyphenation{Mc-Kimm}
+\hyphenation{Mc-Leish}
+\hyphenation{Mc-Naugh-ton}
+\hyphenation{Mc-Wil-l-iams}
+\hyphenation{Mea-d-ow-croft}
+\hyphenation{Mel-ton}
+\hyphenation{Men-dip}
+\hyphenation{Mi-ch-ael-i-des}
+\hyphenation{Mi-ch-aj-l-o-wicz}
+\hyphenation{Mich-el-mersh}
+\hyphenation{Mick-le-wright}
+\hyphenation{Mil-czan-ow-ski}
+\hyphenation{Mil-l-ing-ton}
+\hyphenation{Miln-thorpe}
+\hyphenation{Mo-ham-med}
 \hyphenation{Monk-ton}
+\hyphenation{Mon-te-mag-gi}
+\hyphenation{Mos-sop}
 \hyphenation{Mount-ness-ing}
 \hyphenation{Mul-grave}
+\hyphenation{Nad-eem}
 \hyphenation{Nan-ette}
+\hyphenation{Ne-th-er-a-von}
+\hyphenation{New-thorpe}
 \hyphenation{Nich-o-las}
-\hyphenation{North-ants}
+\hyphenation{Nor-th-amp-ton}
+\hyphenation{Nor-th-ants}
+\hyphenation{North-leach}
+\hyphenation{North-um-b-er-land}
+\hyphenation{Nott-ing-ham-shire}
+\hyphenation{Oad-by}
 \hyphenation{Oak-ridge}
+%\hyphenation{O'Don-o-ghue}
 \hyphenation{Pains-wick}
+\hyphenation{Pan-a-y-io-to-pou-los}
 \hyphenation{Par-ish-es}
 \hyphenation{Pem-broke-shire}
 \hyphenation{Ports-mouth}
 \hyphenation{Prest-bury}
+\hyphenation{Prime-thorpe}
+\hyphenation{Prit-ch-ard}
+\hyphenation{Pur-rier}
+\hyphenation{Ra-leigh}
+\hyphenation{Ran-na-chan}
+\hyphenation{Rei-gate}
+\hyphenation{Rey-nolds}
+\hyphenation{Rich-ards}
+\hyphenation{Rich-ard-son}
+\hyphenation{Riv-ers}
 \hyphenation{Rob-erts}
 \hyphenation{Roch-dale}
+\hyphenation{Roch-ford}
+\hyphenation{Ross-en-dale}
+\hyphenation{Roth-er-ham}
 \hyphenation{Row-ledge}
+\hyphenation{Rug-by}
 \hyphenation{Run-ny-mede}
+\hyphenation{Sand-bach}
+\hyphenation{Sand-ers}
 \hyphenation{Sand-ford}
 \hyphenation{Sand-well}
+\hyphenation{San-g-ha}
+\hyphenation{Sea-bourne}
+\hyphenation{Sev-en-oaks}
+\hyphenation{Shef-field}
 \hyphenation{Shen-ley}
 \hyphenation{Short-lanes-end}
+\hyphenation{Sleight-holme}
+\hyphenation{Som-er-set}
+\hyphenation{Som-er-ville}
+\hyphenation{Sou-ter}
 \hyphenation{South-town}
+\hyphenation{Spen-cer}
+\hyphenation{Spel-thorne}
+\hyphenation{Spruy-ten-burg}
+\hyphenation{Staf-ford}
+\hyphenation{Staf-ford-shire}
+\hyphenation{Steph-an-ie}
+\hyphenation{Ste-phen-son}
+\hyphenation{Ste-ven-ton}
 \hyphenation{Stif-ford}
+\hyphenation{Stow-up-land}
+\hyphenation{Swan-ley}
+\hyphenation{Tel-ford}
+\hyphenation{Than-et}
+\hyphenation{Theo-bald}
+\hyphenation{Theo-balds}
+\hyphenation{The-o-dou-lou}
+\hyphenation{The-o-phan-i-des}
+\hyphenation{Thi-stle-thwaite}
 \hyphenation{Thorn-ton}
+\hyphenation{Tom-a-sz-ew-ski}
+\hyphenation{Towns-end}
 \hyphenation{Trim-ley}
+\hyphenation{Twy-ford}
 \hyphenation{Tyne-side}
+\hyphenation{Val-ley}
 \hyphenation{Wad-d-ing-ton}
+\hyphenation{Wads-worth}
+\hyphenation{Wain-wright}
+\hyphenation{Wal-tham}
+\hyphenation{Wal-thams}
 \hyphenation{Wands-worth}
+\hyphenation{Wang-a-soo-ri-ya}
+\hyphenation{Weald-en}
+\hyphenation{Well-ing-bor-ough}
+\hyphenation{Whal-ley}
 \hyphenation{Wharfe-dale}
+\hyphenation{White-church}
 \hyphenation{Whit-well}
+\hyphenation{Wick-rem-a-rat-chi}
+\hyphenation{Wig-ston}
 \hyphenation{Will-iam}
+\hyphenation{Will-iams}
+\hyphenation{Will-iam-son}
+\hyphenation{Will-iam-wood}
+\hyphenation{Win-ches-ter}
 \hyphenation{Wir-ral}
 \hyphenation{Wol-ver-hamp-ton}
 \hyphenation{Wood-bury}
+\hyphenation{Wood-man-sterne}
+\hyphenation{Wood-thorpe}
 \hyphenation{Wood-ville}
+\hyphenation{Wre-kin}
 \hyphenation{Wrib-ben-hall}
+\hyphenation{Wych-avon}
 \hyphenation{Wy-combe}
 \hyphenation{Wy-lye}
 \hyphenation{Wyt-ham}
+\hyphenation{Yar-mouth}
 
 % Unopposed:
 
 \newcommand\unop{\emph{Unop.}}
 
+\newenvironment{wideconsolidatedresults}[1][Council Name]{
+\begin{table}
+	\subsubsection{Consolidated Results --- #1}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{0.47\textwidth}<{\dotfill} r r<{\%} p{0.23\textwidth} }}{
+	\end{tabular*}
+\hrule
+\end{table}}
+
+
+\flushbottom
 
 \title{Local Election Results 2003}
 
 \date{5th May 2003}
 
 \author{Andrew Teale}
+
+% More space for section numbers in the table of contents
+\makeatletter
+\renewcommand\l@section{\@dottedtocline{2}{1.5em}{3em}}
+\makeatother
+
+%Letterspacing
+\usepackage{soul}
