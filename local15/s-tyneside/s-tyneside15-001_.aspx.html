@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">			
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Elections | South Tyneside</title>
+		
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="GOSS iCM - Intelligent Content Management" />
+<meta name="DC.format.medium" content="html/text" />
+<meta name="DC.date.created" content="2011-03-24T11:01:46+00:00" scheme="W3CDTF" />
+<meta name="DC.date.issued" content="2013-11-15T10:02:21+01:00" scheme="W3CDTF" />
+<meta name="DC.date.modified" content="2013-11-15T10:02:21+01:00" scheme="W3CDTF" />
+<meta name="DC.date.disposal.review" content="2110-11-15T10:56:02+00:00" scheme="W3CDTF" />
+<meta name="eGMS.accessibility" content="Double-A" scheme="eGMS.WCAG20" />
+<meta name="DC.description" content="Community and Council Website for South Tyneside" />
+<meta name="description" content="Community and Council Website for South Tyneside" />
+<meta name="DC.language" content="en" scheme="ISO 639-3/T" />
+<meta name="DC.rights.copyright" content="Copyright 2013" />
+<meta name="DC.type" content="Reference" scheme="eGMS.TES" />
+<meta name="DC.contributor" content="Customer Contact Centre, Town Hall & Civic Offices,, Westoe Road, South Shields, Tyne & Wear, NE33 2RL, United Kingdom" />
+<meta name="DC.creator" content="Customer Contact Centre, Town Hall & Civic Offices,, Westoe Road, South Shields, Tyne & Wear, NE33 2RL, United Kingdom" />
+<meta name="DC.publisher" content="Customer Contact Centre, Town Hall & Civic Offices,, Westoe Road, South Shields, Tyne & Wear, NE33 2RL, United Kingdom" />
+<meta name="DC.Title" content="Elections | South Tyneside" lang="en" />
+
+        <link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/scripts/jquery/themes/base/jquery-ui.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/style.css" media="all" type="text/css" />
+<link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/styleprint.css" media="print" type="text/css" />
+<!--[if lte IE 6]><link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/ie6.css" media="all" type="text/css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/ie7.css" media="all" type="text/css" /><![endif]-->
+<link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/jquery.fancybox.css" media="all" type="text/css" />
+<link rel="stylesheet" href="http://www.southtyneside.info/southtyneside/css/eventstyleprint.css" media="print" type="text/css" />
+<link rel="stylesheet" href="css/enforcementregister.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="CSS/Election.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="CSS/Color.css" media="screen" type="text/css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="http://www.southtyneside.info/southtyneside/scripts/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+<script src="http://www.southtyneside.info/southtyneside/scripts/domready/1-0-0/scripts/domready.js" type="text/javascript"></script>
+<script src="http://www.southtyneside.info/southtyneside/scripts/javascripts.js" type="text/javascript"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<script src="http://www.southtyneside.info/southtyneside/scripts/maps/jquery.ui.map.js" type="text/javascript"></script>
+<script src="http://www.southtyneside.info/southtyneside/scripts/jquery.fancybox.js" type="text/javascript"></script>
+
+
+		<script type="text/javascript">
+			<!--
+				var dr = new SouthTynesideCouncil.ICT.ApplicationDevelopment.Utilities.DomReady();
+				dr.ready(function() {
+					// jQuery CSS
+					dr.getCss('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/ui-lightness/jquery-ui.css');
+
+					//jQuery scripts
+					dr.getScript('https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', function() {
+
+						// load the carousel scripts if there is a carousel on the current page
+						if ($('div#carousel > div#carousel-sleeve').length > 0) {
+							// carousel scripts
+						    dr.getScript('http://www.southtyneside.info/scripts/carousel/4-0-3/scripts/carousel.js');
+						}
+
+						// load the gallery viewer scripts if there is a gallery on the current page
+						if ($('ul.gallery li.thumbnail').length > 0) {
+							// gallery viewer scripts
+						    dr.getScript('http://www.southtyneside.info/southtyneside/scripts/galleryviewer/2-0-0/scripts/galleryviewer.js');
+						    dr.getCss('http://www.southtyneside.info/southtyneside/scripts/galleryviewer/2-0-0/css/galleryviewer.css');
+						}
+
+						// Add the placeholder text to the search boxes
+						var searchBoxes = 'div#google-search input#q,form#social-care-directory-search input#search';
+						if ($(searchBoxes).length > 0) {
+							// search box
+							$(searchBoxes).attr('placeholder', 'Search');
+						}
+
+						// load the jQueryUI script
+						dr.getScript('https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js', function() {
+
+							// load the autocomplete scripts if there is a search box on the current page
+							if ($('#q').length > 0) {
+							    dr.getScript('http://www.southtyneside.info/southtyneside/scripts/autocomplete/3-0-0/scripts/autocompletehtml.js', function() {
+							    dr.getScript('http://www.southtyneside.info/southtyneside/scripts/autocomplete/3-0-0/scripts/autocomplete.js', function() {
+							    dr.getScript('http://www.southtyneside.info/index.aspx?articleid=19524');
+									});
+								});
+
+								// load the autocomplete css
+								dr.getCss('http://www.southtyneside.info/southtyneside/scripts/autocomplete/3-0-0/css/autocomplete.css');
+							}
+						});
+					});
+				});
+			-->
+		</script>
+		
+		
+		<!-- Google Analytics. -->
+		<script type="text/javascript">
+			<!--
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-17413075-1']);
+				_gaq.push(['_setDomainName', '.southtyneside.info']);
+				_gaq.push(['_trackPageview']);
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			-->
+		</script>
+		<!-- End of Google Analytics. -->
+		
+
+
+	</head>
+	<body class="council-and-democracy default" onload="externalLinks();">
+		<img src="http://www.southtyneside.info/images/common/council-logo-print-only.gif" alt=" " class="printonly" />
+		<ul id="nav-site-tools">
+			<li class="offleft"><a accesskey="s" href="#content">Skip to content</a></li>
+		</ul>
+		
+		<div id="header">
+			<div id="site-logo">
+				<p class="logo"><strong><a title="South Tyneside Council" href="http://www.southtyneside.info/article/167/home"><span>South Tyneside Council</span></a></strong></p>						
+				<p>Council and community website</p>
+			</div><!-- END site-logo -->
+			       
+		    <p id="nav-register-login" style="float: right;">
+			    <a href="/article/10990/Login">Login</a> or <a href="http://www.southtyneside.info/article/10989/Register">register</a>
+		    </p>
+		
+		    <div id="google-search">
+			    <p id="PaymentButtonBox">
+				    <a href="http://www.southtyneside.info/payit" class="PaymentButton"><b>&pound;</b> - Make a payment</a>
+			    </p>
+				
+			    <form action="http://www.southtyneside.info/article/11242/" method="get">
+				    <div>
+					    <label class="offleft" for="q">Search the Site</label>
+					    <input type="text" id="q" name="q" class="ui-autocomplete-input" />
+					    <input type="image" src="http://www.southtyneside.info/southtyneside/images/common/button-search.png" id="search" name="search" value="Search" />
+				    </div>
+			    </form>						
+		    </div><!-- END google-search -->
+		    
+		    <div id="nav-container"> 
+			    <ul id="nav-primary">
+				    <li class="first"><a href="http://www.southtyneside.info/article/8267/Bins--recycling" class="bins-and-recycling" title="Bins &amp; recycling">Bins &amp; recycling</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/169/Business" class="business">Business</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/175/Housing--council-tax" class="housing" title="Housing &amp; council tax">Housing &amp; council tax</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/176/Jobs" class="jobs-and-employment">Jobs</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/177/Leisure--libraries" class="leisure-and-visiting-us" title="Leisure &amp; libraries">Leisure &amp; libraries</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/174/People--care" class="health-and-social-care" title="People &amp; care">People &amp; care</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/178/Planning--environment" class="planning-and-buildings" title="Planning &amp; environment">Planning &amp; environment</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/172/Schools--learning" class="education-and-learning" title="Schools &amp; learning">Schools &amp; learning</a></li>
+				    <li class="default"><a href="http://www.southtyneside.info/article/179/Transport--streets" class="transport-and-streets" title="Transport &amp; streets">Transport &amp; streets</a></li>
+				    <li class="last"><a href="http://www.southtyneside.info/article/171/Your-council" class="council-and-democracy">Your council</a></li>
+			    </ul>
+		    </div><!-- END nav-container -->			
+	    </div><!-- END header -->
+		<div id="wrapper" class="default">
+			<ul id="nav-breadcrumb"><li class="i0"><a href="/">Home</a></li><li class="i1"><a href="/article/171/Your-council">Your council</a></li><li class="i2"><a href="/article/7888/Elections">Elections</a></li><li class="i3"><span>Election results</span></li></ul>			
+			
+			<div id="content">
+			
+				<div id="content-inner">
+					
+						<!--[Page_Content_Start]-->
+        
+	<div id="container">
+  <h1>Election results</h1>
+  <h2>Beacon &amp; Bents Ward - 07 May 2015 Local Government Election
+			</h2>
+  <div id="ElectionContent">
+    <div id="Candidates" class="Table">
+      <table id="CandidateList" summary="list of Candidates." cellspacing="0" cellpadding="0">
+        <caption>Candidates</caption>
+        <tr>
+          <th class="Col1"> </th>
+          <th class="Col2">Candidate</th>
+          <th class="Col3">Party</th>
+          <th class="Col4">Votes</th>
+          <th class="Col5">Elected</th>
+        </tr>
+        <tr>
+          <td class="gBack Col1"> </td>
+          <td class="Undec Col2">Rhiannon Sian Curtis</td>
+          <td class="Undec Col3">Green Party</td>
+          <td class="Undec Col4">773</td>
+          <td class="Undec Col5">&#160;</td>
+        </tr>
+        <tr>
+          <td class="bBack Col1"> </td>
+          <td class="Undec Col2">Ali Hayder</td>
+          <td class="Undec Col3">Conservative Party</td>
+          <td class="Undec Col4">819</td>
+          <td class="Undec Col5">&#160;</td>
+        </tr>
+        <tr>
+          <td class="rBack Col1"> </td>
+          <td class="rBack Col2 bold">
+												 Audrey McMillan</td>
+          <td class="rBack Col3 bold">Labour Party</td>
+          <td class="rBack Col4 bold">2241</td>
+          <td class="rBack Col5 bold">Yes</td>
+        </tr>
+      </table>
+    </div>
+    <div id="Turnout" class="Table">
+      <table id="TurnoutList" summary="Ward turnout">
+        <caption>Ward turnout</caption>
+        <tr>
+          <th class="Col1"> </th>
+          <th class="Col2">Electorate</th>
+          <th class="Col3">Votes</th>
+          <th class="Col4">Turnout</th>
+        </tr>
+        <tr>
+          <td class="Col1">
+								 In person <a href="station.aspx?id=335">(see votes by station)</a></td>
+          <td class="Col2">4736</td>
+          <td class="Col3">2283</td>
+          <td class="Col4">48.2%
+									</td>
+        </tr>
+        <tr>
+          <td class="Col1">
+								 Postal</td>
+          <td class="Col2">2072</td>
+          <td class="Col3">1623</td>
+          <td class="Col4">78.3%
+									</td>
+        </tr>
+        <tr id="total">
+          <td class="Col1 bold">
+								 Overall
+							</td>
+          <td class="Col2 bold">6808</td>
+          <td class="Col3 bold">3906</td>
+          <td class="Col4 bold">57.4%
+											</td>
+        </tr>
+      </table>
+    </div>
+    <div id="Image">
+      <h3>Votes</h3>
+      <img id="piechart" src="DisplayImage.aspx?id=0_335_Ward_VotesByCandidate" height="330" width="330" alt="Votes cast at this Election by Candidate." />
+      <table id="graph" class="small">
+        <tr>
+          <th class="Col1"> </th>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+        <tr>
+          <td class="rBack Col1"> </td>
+          <td>Audrey McMillan (Lab)</td>
+          <td class="col3">58.5%
+								</td>
+        </tr>
+        <tr>
+          <td class="bBack Col1"> </td>
+          <td>Ali Hayder (Con)</td>
+          <td class="col3">21.4%
+								</td>
+        </tr>
+        <tr>
+          <td class="gBack Col1"> </td>
+          <td>Rhiannon Sian Curtis (Green Party)</td>
+          <td class="col3">20.2%
+								</td>
+        </tr>
+      </table>
+    </div>
+    <h3 id="see-also">See also</h3>
+    <ul id="see-also-list">
+      <li>
+        <a href="ward.aspx?id=316">22 May 2014 Local Government Election
+							</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+						<!--[Page_Content_End]-->
+					<!-- END content-main -->
+				</div><!-- END content-inner -->
+			</div><!-- END content -->
+			<br class="clear" />
+			
+			<div id="footer">
+				<div id="social">
+					<p><a href="http://www.southtyneside.info/16902"><span class="offleft">Social media</span></a></p>
+				</div>
+				
+				<div id="footer-main-content">
+				    <div id="a-to-z">	
+					    <p>A TO Z OF SERVICES</p>
+					    <ul>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=a">A</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=b">B</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=c">C</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=d">D</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=e">E</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=f">F</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=g">G</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=h">H</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=i">I</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=j">J</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=k">K</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=l">L</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=m">M</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=n">N</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=o">O</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=p">P</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=q">Q</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=r">R</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=s">S</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=t">T</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=u">U</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=v">V</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=w">W</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=x">X</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=y">Y</a></li>
+						    <li><a href="http://www.southtyneside.info/article/333/a-to-z?letter=z">Z</a></li>
+					    </ul>   
+				    </div><!-- End a-to-z -->
+				    
+					<div id="footer-address">
+						<p>
+							<span class="stc-logo"><span>South Tyneside Council</span></span> Town Hall &amp; Civic Offices, Westoe Road,<br />
+							South Shields, Tyne &amp; Wear <a href="http://g.co/maps/8fe8a">NE33 2RL</a>
+						</p>
+						<p>
+							Tel: <strong>0191 427 7000</strong><br />
+						</p>
+						<ul>
+							<li><a href="http://www.southtyneside.info/article/8601/Contact-us" class="call-to-action"><strong>Contact us</strong></a></li>
+							<li><a href="http://www.southtyneside.info/article/10419/Council-offices" class="find-us"><strong>Find our council offices</strong></a></li>
+							<li><a href="http://www.southtyneside.info/article/7785/emergencies" class="emergencies"><strong>Emergencies</strong></a></li>
+						</ul>
+					</div><!--  END footer-address  -->
+					
+					<div id="footer-email-subscription">
+						<h3>Sign up for our newsletters</h3>
+						<p>
+							By subscribing to our newsletters you will always stay up to date with the latest news in South Tyneside.</p>
+							<form id="subForm" method="post" action="http://southtynesidecouncil.createsend.com/t/y/s/bthet/">
+								<p>
+									<label for="bthet-bthet"><strong>Enter your email address</strong></label><br />
+									<input type="text" id="bthet-bthet" name="cm-bthet-bthet" />
+									<input type="submit" value="Subscribe" class="submit-large" id="submit-email-subscription" />
+								</p>
+						</form>
+					</div><!--  END footer-email-subscription  -->
+						
+					<div id="footer-eservices">
+						<h3><a href="https://portal.southtyneside.info/eservices/">E-services</a></h3>
+						<p>Online council services and payments</p>
+					</div><!--  END footer-eservices  -->	
+					
+				    <div id="footer-tagline">
+					    <p><strong>South Tyneside includes the towns of South Shields, Hebburn and Jarrow and the villages of Boldon, Cleadon and Whitburn.</strong></p>
+				    </div><!--  END footer-tagline  -->															
+				</div><!--  END footer-main-content  -->
+			</div><!--  END footer  -->
+		</div><!--  END wrapper  -->
+		
+		<div id="footer-links">
+			<ul>
+				<li>&copy; South Tyneside Council 2011</li>
+				<li><a href="http://www.southtyneside.info/article/8/Site-map">Site map</a></li>
+				<li><a href="http://www.southtyneside.info/article/11392/Accessibility">Accessibility</a></li>
+				<li><a href="http://www.southtyneside.info/article/8678/Help">Help</a></li>
+				<li><a href="http://www.southtyneside.info/article/404/Languages">Languages</a></li>
+				<li><a href="http://www.southtyneside.info/article/408/Disclaimer-and-privacy-statement">Disclaimer and privacy statement</a></li>
+				<li><a href="http://www.southtyneside.info/article/411/GOVUK">GOV.UK</a></li>
+			</ul>
+		</div><!-- END footer-links -->					
+
+		<!-- START Socitm Code -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+				var socitm_my_domains = "www.southtyneside.gov.uk,www.southtyneside.info,www.dev.southtyneside.gov.uk";
+				var socitm_custcode = "332";
+				var socitm_intro_file = "/socitmsurvey/intro.htm";
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="http://socitm.govmetric.com/js/socitm_wrapper.aspx"></script>
+		<noscript>
+			<div class="socitmlink">
+				<a href="http://socitm.govmetric.com/survey.aspx?code=332">Tell us what you think about our site...</a>
+				<img src="http://socitm.govmetric.com/imagecounter.aspx?code=332" height="1" width="1" alt="" />
+			</div>
+		</noscript>
+		<!-- END Socitm Code -->
+
+		<!-- Cookie Report Script -->
+		<a id="CookieReportsButton" href="https://policy.cookiereports.com/8fbdde70.pdf" style="z-index:32001; background: white url(https://policy.cookiereports.com/i/button.png) no-repeat scroll 0 0; text-decoration: none; display: block; position:fixed; bottom: 0; right: 20px; font: normal normal normal 10pt Arial,Helvetica, sans-serif; color: #333; border: 1px solid green;border-bottom: 0; border-radius: 5px 5px 0 0; padding: 4px 20px; cursor:pointer; opacity: 0.8">cookies</a>
+		<script type="text/javascript" defer="defer" src="//policy.cookiereports.com/8fbdde70_panel.js"></script>
+		<!-- END Cookie Report Script -->
+	</body>
+</html>
