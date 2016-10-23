@@ -1,0 +1,86 @@
+UKIP: its electoral rise and stall
+
+1. INTRODUCTION
+
+In a slight break from by-election previews, this edition of the column will look at how UKIP are doing as measured by those weekly barometers of public opinion: local council by-elections.
+
+It should be noted that there are many problems with trying to extrapolate national-level voting shares from local election results.  
+- Firstly, local by-elections are, well, local; local authority wards are not representative of the national electorate, turnouts are often low and swings can be exaggerated.  
+- Secondly, local by-elections are not evenly distributed through the year.  Normally there is a large peak in the autumn months, with smaller peaks in March and June; the winter months are affected by the weather, the summer months are unpopular because of holidays while April and May are too close to each year's May ordinary local elections, and the local parties like to call by-elections to coincide with another poll where possible.  
+- Thirdly, where do you measure the baseline from?  Piecemeal local government reforms since the 1960s have left Great Britain with one of the most complicated local electoral cycles in the world, and there are councillors now in office in various parts of the UK who started their terms in 2012, 2013, 2014, 2015 and May this year.
+
+However, by looking at local by-elections at the aggregate level you can get a feel of the trend in public opinion.  The initial rise of UKIP in the opinion polls around late 2012-early 2013 was marked by some consistently impressive performances in local by-elections, but that progress seems to have stalled a bit.  The party isn't consistently getting double-digit rises in shares of the vote any longer.  But can we quantify this?
+
+In this article I have looked at all the local by-elections held since the 2015 general election up to and including 20 October 2016, and examined the percentage change in the share of the vote for each party where they contested either the by-election or the ordinary local election.  I have then averaged each percentage change over the following periods:
+	- May 2015 to December 2015
+	- January 2016 to 22 June 2016
+	- 24 June 2016 to date
+
+Not included in this analysis are wards which were uncontested at the previous ordinary election or by-elections held on 5 May 2016, ordinary local election day: these are best considered as part of the ordinary elections, and in London in particular the popularity of Sadiq Khan led to some very good Labour scores and surprising gains in downballot races.  I have also excluded ordinary local elections which were postponed after a candidate death and the single by-election held on EU referendum day.  Don't worry, that still leaves plenty of material to work with.
+
+The rest of this article will look at each baseline year in turn to try and see where UKIP are at the moment.
+
+2. WARDS LAST CONTESTED IN 2012
+
+This sample is essentially Scotland and Wales plus a single English by-election to a ward which was redrawn in 2016 (Dedham and Langham ward in Colchester).  Local government in Scotland and Wales is a devolved matter, and both the Scottish and Welsh governments have been steadily postponing their local elections so that they don't coincide with the Holyrood and Senedd elections.  One of the knock-on effects of the Fixed Term Parliaments Act is that the electoral cycle for the devolved assemblies has effectively been increased to five years, so the Scottish and Welsh local cycle has also (in effect) gone up from four years to five.
+
+TABLE 1.  AVERAGE VOTE CHANGES IN LOCAL BY-ELECTIONS: WARDS LAST CONTESTED IN 2012 (SCOTLAND)
+			C	Lab	LD	Grn	UKIP	SNP	Number of polls
+May-December 2015	+3.3	-12.6	+0.2	+2.2	+1.4	+12.5	25
+2016 pre-referendum	+11.4	-8.9	+0.0	+5.2	+2.4	+3.8	5
+2016 post-referendum	+8.0	-10.1	+0.7	+3.2	+1.4	+8.4	6
+
+Scotland is the weakest part of the UK for UKIP - David Coburn MEP remains the only person ever to be elected as UKIP in Scotland - and recent local by-elections show no sign of that changing.  Of the six local by-elections held in Scotland since the referendum, UKIP have contested two and polled under 2% in both of them.  Even though Scottish local government uses proportional representation, it'll be an uphill struggle for UKIP to win anything in the 2017 Scottish local elections.  The by-election count in 2015 was inflated by a large number of newly elected SNP MPs being local councillors, while the eye-catching 11.4% Tory rise in 2016 pre-referendum is partly explained by three of the five polls in this period being to large rural wards in the Highlands; nonetheless it was an early harbinger of the good Conservative performance in the 2016 Holyrood elections.
+
+Since May 2015 Labour have made a net gain of two seats, the SNP a net gain of two, the Lib Dems and the Greens net losses of one seat each, and independents and other parties have lost two seats.
+
+TABLE 2.  AVERAGE VOTE CHANGES IN LOCAL BY-ELECTIONS: WARDS LAST CONTESTED IN 2012 (WALES)
+			C	Lab	LD	Grn	UKIP	PC	Number of polls
+May-December 2015	+3.5	-5.6	+12.4	-1.7	+9.7	+10.0	17
+2016 pre-referendum	-6.5	-2.3	+2.2	n/a	+15.2	-9.2	5
+2016 post-referendum	-4.5	-8.8	+7.6	-2.1	+8.9	+9.1	12
+
+This table includes the Colchester poll referred to above.  UKIP's problem in Welsh local elections is less to do with vote share and more with organisation; in the 2012 local elections UKIP contested none of the 34 wards included in the above table, so the changes above are the actual average vote share in by-elections UKIP has contested.  Welsh local elections can have weird contestation patterns: the large Lib Dem rise in 2015 is almost entirely down to eye-catching gains in two wards the party hadn't contested in 2012.
+
+Over this period the Lib Dems and Plaid have both made net gains of three seats, independents have lost one, the Conservatives two and Labour three.
+
+3. WARDS LAST CONTESTED IN 2013
+
+The councils last contested in 2013 were the English county councils plus a few unitary districts which used to be county councils.  With nearly all of England's large urban areas being covered by unitary councils, this sample is therefore concentrated in rural England.
+
+TABLE 3.  AVERAGE VOTE CHANGES IN LOCAL BY-ELECTIONS: WARDS LAST CONTESTED IN 2013
+			C	Lab	LD	Grn	UKIP	Number of polls
+May-December 2015	+6.1	-3.6	+5.0	+1.5	-6.0	25
+2016 pre-referendum	-5.4	-1.9	+2.9	+4.6	-6.3	13
+2016 post-referendum	+1.0	-1.6	+11.3	+0.6	-10.8	16
+
+2013 was the first local election that UKIP really did well in, and the first year in which Rallings and Thrasher calculated a national equivalent share for the party - 22%.  In that context the minus figures for UKIP in Table 3 are worrying, given that the party has significant numbers of county council seats to defend in 2017.  The party has performed particularly badly in Cornwall, where UKIP won six seats in 2013 and has since lost five of them in by-elections.  In the 13 county council by-elections UKIP has contested since the referendum, only three have seen a rise in the UKIP share: one of them was in a Wiltshire division the party didn't contest in 2013, and the other two are in Kent, while all the other county divisions UKIP have contested since the referendum have seen double-digit falls in the UKIP vote.  That suggests that the national equivalent share of around 11% since the referendum implied by this table is probably not too far off the mark.
+
+Over this period the Conservatives have made a net gain of one seat, but are clearly in reverse at the moment having gained seven seats in 2015 and lost six so far this year.  Labour have lost two seats, the Lib Dems have gained six - a net gain of nine this year cancelling out a loss of three in 2015 - the Greens have gained one and UKIP have lost five.
+
+4. WARDS LAST CONTESTED IN 2014
+
+This sample is almost entirely Greater London, plus a couple of by-elections in districts outside London which were affected by boundary changes in 2016.  As such it represents UKIP's weakest areas of England.
+
+TABLE 4.  AVERAGE VOTE CHANGES IN LOCAL BY-ELECTIONS: WARDS LAST CONTESTED IN 2014
+			C	Lab	LD	Grn	UKIP	Number of polls
+May-December 2015	+1.4	+3.0	+5.3	-5.0	-3.1	15
+2016 pre-referendum	-2.8	-2.5	+5.9	+5.0	-4.8	5
+2016 post-referendum	+1.8	+5.1	+2.6	-2.6	-4.2	16
+
+UKIP's national equivalent vote share in the 2014 local elections was 18%, so this table implies they are probably running at around 14% now.  The only by-election in London this Parliament to take place in a relatively UKIP-friendly ward ended up on GLA election day so it's not included in the table, and Sadiq Khan's popularity enabled Labour to gain that by-election from UKIP.  Excluding the by-elections on GLA election day there has been no net seat change in London since the general election, although the by-elections included in this table include a Tory gain from Labour in an Exeter ward which was abolished in 2016.
+
+5. WARDS LAST CONTESTED IN 2015
+
+2015 is the busiest year of the local electoral cycle, with nearly all of the metropolitan boroughs and non-metropolitan districts holding elections.  This table excludes the wards in "thirds" local councils which were also contested in 2016; since the thirds councils tend to be urban this leaves us with a rural sample similar to 2013 (but not quite the same).
+
+TABLE 5.  AVERAGE VOTE CHANGES IN LOCAL BY-ELECTIONS: WARDS LAST CONTESTED IN 2014
+			C	Lab	LD	Grn	UKIP	Number of polls
+May-December 2015	-2.4	-2.2	+9.3	-3.3	-0.8	34
+2016 pre-referendum	-5.0	+2.0	+6.1	-4.1	-2.8	30
+2016 post-referendum	-4.9	-2.9	+14.1	-5.9	-0.8	56
+
+UKIP polled 13% in the 2015 general election, so this table implies they are probably running around 12% now.  The party has seen some wild swings mostly depending on whether or not they had a candidate; there have been several occasions in recent months of UKIP not running a candidate in wards where they had a decent vote share in 2015.
+
+In terms the Tories have been the clear losers, having made a net loss of 15 seats in this sample since May 2015; UKIP have lost three, Labour and the Greens have gained one each and the Lib Dems have gained seven.
+
