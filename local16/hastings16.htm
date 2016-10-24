@@ -1,0 +1,708 @@
+
+
+<!DOCTYPE html>
+<html lang="en-gb" xml:lang="en-gb">
+<head>
+  <meta http-equiv="Content-Language" content="en-GB" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+
+  <link href="//www.hastings.gov.uk/Scripts/slick/slick.min.css" rel="stylesheet" type="text/css" />
+  <link href="//www.hastings.gov.uk/Scripts/slick/slick-theme.min.css" rel="stylesheet" type="text/css" />
+ 
+  <link href="//www.hastings.gov.uk/static/css/font-icons.min.css" rel="stylesheet" type="text/css" media="screen"/>
+  <link href="//www.hastings.gov.uk/static/css/holv2-1.1.min.css" rel="stylesheet" type="text/css" media="screen"/>
+  <link href="//www.hastings.gov.uk/static/css/responsive-1.0.min.css" rel="stylesheet" type="text/css" media="screen"/>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">    window.jQuery || document.write('<script src="//www.hastings.gov.uk/Scripts/jquery-1.8.3.min.js">\x3C/script>')</script>
+  
+  <script src="//www.hastings.gov.uk/Scripts/jquery.autocomplete-1.0.min.js" type="text/javascript"></script>
+  <script src="//www.hastings.gov.uk/Scripts/modernizr.min.js" type="text/javascript"></script>
+  <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <script src="//www.hastings.gov.uk/Scripts/hol.min.js" type="text/javascript"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicons/apple-touch-icon-60x60.png">  
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicons/apple-touch-icon-72x72.png">  
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicons/apple-touch-icon-76x76.png">  
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicons/apple-touch-icon-114x114.png">  
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicons/apple-touch-icon-120x120.png">  
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicons/apple-touch-icon-144x144.png">  
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicons/apple-touch-icon-152x152.png">  
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicons/apple-touch-icon-180x180.png">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-32x32.png" sizes="32x32">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/android-chrome-192x192.png" sizes="192x192">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-96x96.png" sizes="96x96">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-16x16.png" sizes="16x16">  
+  <link rel="manifest" href="/static/images/favicons/manifest.json">  
+  <meta name="msapplication-TileColor" content="#692d73">  
+  <meta name="msapplication-TileImage" content="/static/images/favicons/mstile-144x144.png">
+  
+  <meta name="theme-color" content="#692d73">
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
+  
+  <script src="http://www.google.com/jsapi?autoload=%7bmodules%3a%5b%7bname%3a%22maps%22%2cversion%3a3%2cother_params%3a%22sensor%3dfalse%22%7d%5d%7d%26key%3d" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.20/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="/Scripts/map-1.0.1.min.js" type="text/javascript"></script>
+  <title id="ctl00_header_PageTitle">
+	Election Results
+</title>
+
+</head>
+<body>
+
+<div id="pageHeader">
+  <div class="wrapper" style="padding:0.8em;">
+
+    <a href="//www.hastings.gov.uk/"><img class="headerImg" alt="Hastings Online" src="//www.hastings.gov.uk/static/images/header.jpg" /></a>
+    
+    <div id="ctl00_searchForm">
+      <div class="atoz"><a href="//www.hastings.gov.uk/a_z/">A-Z</a></div>
+      <form class="search" method="get" name="searchForm" action="//www.hastings.gov.uk/search/">
+		    <div>
+			    <label for="autocomplete-ajax">Search this site</label>
+          <label for="autocomplete-ajax-x">Search for this site</label>
+			    <input type="text" class="input" placeholder="Search (e.g. Council Tax)" title="Search this site" id="autocomplete-ajax" name="q" style="position:absolute; z-index:2; background: transparent;">				
+          <input type="text" class="input" id="autocomplete-ajax-x" name="q" disabled="disabled" title="Search this site" style="top:0; position: absolute; z-index: 1; color: #BBB;">
+			    <input type="image" class="submit" src="//www.hastings.gov.uk/static/images/search.png" name="search-submit" alt="search">
+		    </div>
+	    </form>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div id="subHeader">
+  <div class="wrapper" style="padding-bottom: 0.8em; padding-top: 0.8em;"> 
+    
+    
+
+    <span class="links">
+      <a href="//www.hastings.gov.uk/">Home</a> | 
+      <a href="//www.hastings.gov.uk/using_this_site/help/">Help</a> | 
+      <a href="https://my.hastings.gov.uk/service/Contact_Us?noLoginPrompt=1">Contact&nbsp;Us</a>
+      
+      | <a href="https://my.hastings.gov.uk/ssauth/register?return_url=https%3A%2F%2Fmy.hastings.gov.uk%2Fen&lang=en">Register</a>
+      | <a href="https://my.hastings.gov.uk/login?return_url=%2F&lang=en&appName=Self">Login</a>
+    </span>
+
+
+    <span class="social">
+      <a href="https://twitter.com/hastingsbc" title="link to Hastings council twitter feed"><span class="icon-hbc-twitter-2 socialIcon"></span><span class="hidden">Hastings council twitter feed</span></a>
+      <a href="https://www.facebook.com/#!/Hastingsboroughcouncil?fref=ts" title="link to Hastings council facebook page"><span class="icon-hbc-facebook-2 socialIcon"></span><span class="hidden">Hastings council facebook page</span></a>
+      
+      
+    </span>
+
+    <div class="clear"></div>
+
+  </div>
+</div>
+
+<div id="ctl00_PageContent" class="wrapper">
+  
+
+
+<div style="background-color:#fff; padding:0.7% 0;">
+
+  <ul class="breadcrumb">
+    
+        <li>
+          <a href="http://www.hastings.gov.uk/my_council/">My Council</a>
+          
+        </li>
+      
+        <li>
+          <a href="http://www.hastings.gov.uk/my_council/voting_elections/">Voting and Elections</a>
+          
+        </li>
+      
+        <li>
+          <a href="http://www.hastings.gov.uk/my_council/voting_elections/results/">Election Results</a>
+          
+        </li>
+      
+  </ul>
+
+
+
+</div>
+
+
+
+  <div class="main" id="top">
+    <ul>
+      <li class="leftCol contCol">     
+         
+  
+  <h1 id="ctl00_leftCol_ctl00">
+	Election Results
+</h1>
+
+  <div id="ctl00_leftCol_PageBody" class="pageBody"></div>
+
+
+  <div id="ctl00_leftCol_results"><h1 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">05 May 2016 Hastings Borough Council Election - Results</h1>
+<div class="toc" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+<p>Results for:</p>
+<ul title="list of Election Results for Wards in Hastings">
+<li><a href="&#xA;                      #ash" title="&#xA;                      inline link to Election Results - Ashdown Ward&#xA;                    ">Ashdown Ward</a></li>
+<li><a href="&#xA;                      #brd" title="&#xA;                      inline link to Election Results - Baird Ward&#xA;                    ">Baird Ward</a></li>
+<li><a href="&#xA;                      #brb" title="&#xA;                      inline link to Election Results - Braybrooke Ward&#xA;                    ">Braybrooke Ward</a></li>
+<li><a href="&#xA;                      #cas" title="&#xA;                      inline link to Election Results - Castle Ward&#xA;                    ">Castle Ward</a></li>
+<li><a href="&#xA;                      #csl" title="&#xA;                      inline link to Election Results - Central St Leonards Ward&#xA;                    ">Central St Leonards Ward</a></li>
+<li><a href="&#xA;                      #cnq" title="&#xA;                      inline link to Election Results - Conquest Ward&#xA;                    ">Conquest Ward</a></li>
+<li><a href="&#xA;                      #gen" title="&#xA;                      inline link to Election Results - Gensing Ward&#xA;                    ">Gensing Ward</a></li>
+<li><a href="&#xA;                      #hol" title="&#xA;                      inline link to Election Results - Hollington Ward&#xA;                    ">Hollington Ward</a></li>
+<li><a href="&#xA;                      #mhi" title="&#xA;                      inline link to Election Results - Maze Hill Ward&#xA;                    ">Maze Hill Ward</a></li>
+<li><a href="&#xA;                      #old" title="&#xA;                      inline link to Election Results - Old Hastings Ward&#xA;                    ">Old Hastings Ward</a></li>
+<li><a href="&#xA;                      #ore" title="&#xA;                      inline link to Election Results - Ore Ward&#xA;                    ">Ore Ward</a></li>
+<li><a href="&#xA;                      #sil" title="&#xA;                      inline link to Election Results - Silverhill Ward&#xA;                    ">Silverhill Ward</a></li>
+<li><a href="&#xA;                      #sth" title="&#xA;                      inline link to Election Results - St Helens Ward&#xA;                    ">St Helens Ward</a></li>
+<li><a href="&#xA;                      #trs" title="&#xA;                      inline link to Election Results - Tressell Ward&#xA;                    ">Tressell Ward</a></li>
+<li><a href="&#xA;                      #wsl" title="&#xA;                      inline link to Election Results - West St Leonards Ward&#xA;                    ">West St Leonards Ward</a></li>
+<li><a href="&#xA;                      #wtr" title="&#xA;                      inline link to Election Results - Wishing Tree Ward&#xA;                    ">Wishing Tree Ward</a></li>
+</ul>
+  <ul>
+    <li><a href="#overall" title="inline link to Overall Turnout">Overall Turnout</a></li>
+  </ul>
+</div>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="ash" name="ash">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Ashdown - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>31.2%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Cooke</strong>   (Con)   <strong>785</strong>   (56.2%)<br>
+<strong>Brotherston</strong>   (Lab)   <strong>419</strong>   (30.0%)<br>
+<strong>Carlyle</strong>   (Green)   <strong>97</strong>   (6.9%)<br>
+<strong>Seymour</strong>   (Lib Dem)   <strong>96</strong>   (6.9%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Con Hold         <img src="/static/images/rosette_Con.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 7.4% from Lab to Con</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="brd" name="brd">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Baird - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>34.6%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Davies</strong>   (Lab)   <strong>698</strong>   (58.1%)<br>
+<strong>Keen</strong>   (Con)   <strong>379</strong>   (31.5%)<br>
+<strong>Dixon</strong>   (Green)   <strong>66</strong>   (5.5%)<br>
+<strong>Faulkner</strong>   (Lib Dem)   <strong>59</strong>   (4.9%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 2.4% from Lab to Con</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="brb" name="brb">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Braybrooke - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>40.7%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Sabetian</strong>   (Lab)   <strong>984</strong>   (69.2%)<br>
+<strong>Grigg</strong>   (Con)   <strong>270</strong>   (19.0%)<br>
+<strong>Phillips</strong>   (Green)   <strong>113</strong>   (8.0%)<br>
+<strong>Brooker</strong>   (Lib Dem)   <strong>54</strong>   (3.8%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 1.7% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="cas" name="cas">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Castle - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>40.4%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Rogers</strong>   (Lab)   <strong>728</strong>   (44.9%)<br>
+<strong>Perry</strong>   (Lib Dem)   <strong>521</strong>   (32.1%)<br>
+<strong>Davies</strong>   (Con)   <strong>198</strong>   (12.2%)<br>
+<strong>Needham</strong>   (Green)   <strong>174</strong>   (10.7%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 3.1% from Lab to Lib Dem</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="csl" name="csl">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Central St Leonards - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>34.8%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Webb</strong>   (Lab)   <strong>622</strong>   (48.0%)<br>
+<strong>Gross</strong>   (Ind)   <strong>278</strong>   (21.4%)<br>
+<strong>Waterfall</strong>   (Con)   <strong>227</strong>   (17.5%)<br>
+<strong>Johns</strong>   (Green)   <strong>116</strong>   (8.9%)<br>
+<strong>Tait</strong>   (Lib Dem)   <strong>54</strong>   (4.2%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="cnq" name="cnq">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Conquest - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>37.4%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Rankin</strong>   (Con)   <strong>802</strong>   (56.4%)<br>
+<strong>Masters</strong>   (Lab)   <strong>478</strong>   (33.6%)<br>
+<strong>Fellows</strong>   (Lib Dem)   <strong>81</strong>   (5.7%)<br>
+<strong>Potter</strong>   (Green)   <strong>61</strong>   (4.3%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Con Hold         <img src="/static/images/rosette_Con.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 0.5% from Lab to Con</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="gen" name="gen">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Gensing - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>32.7%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Forward</strong>   (Lab)   <strong>832</strong>   (63.3%)<br>
+<strong>De-Roe</strong>   (Con)   <strong>220</strong>   (16.7%)<br>
+<strong>Misir</strong>   (UK Ind)   <strong>145</strong>   (11.0%)<br>
+<strong>Homer</strong>   (Green)   <strong>78</strong>   (5.9%)<br>
+<strong>Smith</strong>   (Lib Dem)   <strong>39</strong>   (3.0%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 5.1% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="hol" name="hol">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Hollington - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>27.3%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Westley</strong>   (Lab)   <strong>587</strong>   (52.2%)<br>
+<strong>Pankhurst</strong>   (UK Ind)   <strong>263</strong>   (23.4%)<br>
+<strong>Barry</strong>   (Con)   <strong>201</strong>   (17.9%)<br>
+<strong>Lewcock</strong>   (Lib Dem)   <strong>37</strong>   (3.3%)<br>
+<strong>Mason</strong>   (Green)   <strong>37</strong>   (3.3%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="mhi" name="mhi">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Maze Hill - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>36.0%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Patmore</strong>   (Con)   <strong>696</strong>   (52.7%)<br>
+<strong>Prentice</strong>   (Lab)   <strong>399</strong>   (30.2%)<br>
+<strong>Lushington</strong>   (Lib Dem)   <strong>116</strong>   (8.8%)<br>
+<strong>Petts</strong>   (Green)   <strong>110</strong>   (8.3%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Con Hold         <img src="/static/images/rosette_Con.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 9.5% from Lab to Con</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="old" name="old">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Old Hastings - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>40.9%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Poole</strong>   (Lab)   <strong>906</strong>   (29.6%)<br>
+<strong>Bacon</strong>   (Lab)   <strong>853</strong>   (27.8%)<br>
+<strong>Hamill</strong>   (Con)   <strong>392</strong>   (12.8%)<br>
+<strong>Pragnell</strong>   (Con)   <strong>372</strong>   (12.1%)<br>
+<strong>Shoesmith</strong>   (UK Ind)   <strong>218</strong>   (7.1%)<br>
+<strong>Barry</strong>   (Green)   <strong>216</strong>   (7.0%)<br>
+<strong>Rosenberg</strong>   (Lib Dem)   <strong>107</strong>   (3.5%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Win   2      <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="ore" name="ore">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Ore - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>34.7%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Street</strong>   (Lab)   <strong>512</strong>   (43.2%)<br>
+<strong>Loe</strong>   (Con)   <strong>414</strong>   (34.9%)<br>
+<strong>Millar</strong>   (UK Ind)   <strong>166</strong>   (14.0%)<br>
+<strong>Bowers</strong>   (Green)   <strong>64</strong>   (5.4%)<br>
+<strong>Tudgay</strong>   (Lib Dem)   <strong>29</strong>   (2.4%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 6.6% from Lab to Con</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="sil" name="sil">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Silverhill - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>39.3%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Sinden</strong>   (Lab)   <strong>645</strong>   (50.3%)<br>
+<strong>Sayer</strong>   (Con)   <strong>360</strong>   (28.1%)<br>
+<strong>Croft</strong>   (UK Ind)   <strong>168</strong>   (13.1%)<br>
+<strong>Collins</strong>   (Green)   <strong>62</strong>   (4.8%)<br>
+<strong>Milton</strong>   (Lib Dem)   <strong>47</strong>   (3.7%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 8.8% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="sth" name="sth">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">St Helens - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>47.2%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Batsford</strong>   (Lab)   <strong>931</strong>   (50.3%)<br>
+<strong>Adey</strong>   (Con)   <strong>737</strong>   (39.8%)<br>
+<strong>Rayment</strong>   (Lib Dem)   <strong>108</strong>   (5.8%)<br>
+<strong>Hilton</strong>   (Green)   <strong>76</strong>   (4.1%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 5.2% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="trs" name="trs">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Tressell - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>27.3%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Chowney</strong>   (Lab)   <strong>580</strong>   (66.2%)<br>
+<strong>Norton</strong>   (Con)   <strong>179</strong>   (20.4%)<br>
+<strong>Scott</strong>   (Green)   <strong>73</strong>   (8.3%)<br>
+<strong>Broad</strong>   (Lib Dem)   <strong>44</strong>   (5.0%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 2.3% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="wsl" name="wsl">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">West St Leonards - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>33.4%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Howard</strong>   (Lab)   <strong>553</strong>   (44.3%)<br>
+<strong>Williams</strong>   (Con)   <strong>475</strong>   (38.1%)<br>
+<strong>Montgomery</strong>   (Lib Dem)   <strong>167</strong>   (13.4%)<br>
+<strong>Skews</strong>   (Green)   <strong>53</strong>   (4.2%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><em>
+                    Swing (from 2012): 0.2% from Con to Lab</em></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Back to <a href="#top" id="wtr" name="wtr">top of page
+              </a>...
+            </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Wishing Tree - Election Result
+            </h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+              Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+                  Turnout: <strong>33.5%
+                  </strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Scott</strong>   (Lab)   <strong>757</strong>   (60.4%)<br>
+<strong>Day</strong>   (UK Ind)   <strong>223</strong>   (17.8%)<br>
+<strong>Rogers</strong>   (Con)   <strong>208</strong>   (16.6%)<br>
+<strong>Kennelly</strong>   (Lib Dem)   <strong>38</strong>   (3.0%)<br>
+<strong>Davis</strong>   (Green)   <strong>28</strong>   (2.2%)<br>
+</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>Lab Hold         <img src="/static/images/rosette_Lab.gif&#xA;                        " alt=" party rosette&#xA;                        "><br>
+</strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+            Back to <a href="#top" name="overall" id="overall">top of page</a>...
+          </p>
+<hr xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<h2 xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">Overall Turnout</h2>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+            Borough Council Election, 05 May 2016</p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>
+              Electorate: <totalelectorate>60,719</totalelectorate></strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>
+                  Total Votes Cast: <totalturnoutfigure>21,692</totalturnoutfigure></strong></p>
+<p xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dt="urn:schemas-microsoft-com:datatypes"><strong>
+                  Total Election Turnout: <totalturnoutpercentage>35.7</totalturnoutpercentage>%
+                </strong></p></div>
+
+
+
+
+
+
+
+
+  
+
+
+      </li>
+      <li class="rightCol contCol">
+        
+          
+
+  
+  <div style="text-align:center;background-color: #fff;">
+    <span class="icon-hbc-council_democracy pageIcon"></span>
+    <h2 id="ctl00_rightCol_PageIcon_piHead" class="pageIconHeader">Voting and Elections</h2>
+  </div>
+
+  
+<div id="contact" style="padding:0em 1em 1em 1em;">
+  
+    <h3>Actions <span class="icon-hbc-action contactIcons"></span></h3><ul class="contactUrls">
+
+
+
+      <li>
+        <a href="https://my.hastings.gov.uk/service/Electoral_registation_query">Electoral registration query</a>
+      </li>
+
+    
+
+
+
+      <li>
+        <a href="https://my.hastings.gov.uk/service/Electoral_absent_voting_query">Electoral absent voting query</a>
+      </li>
+
+    </ul><br /> <hr/>
+  
+
+  <h3>Contact <span class="icon-hbc-contact contactIcons"></span></h3>
+  <div id="ctl00_rightCol_ContactInfo_address">
+<p>
+This page is managed by the&nbsp;Electoral Services team. 
+</p>
+<p><a href="https://my.hastings.gov.uk/service/Contact_Us?noLoginPrompt=1">Contact us directly</a>
+</p></div>
+  
+  
+  <div id="ctl00_rightCol_ContactInfo_phone" style="margin:1em 0;">01424 451066</div>
+
+  <hr/>
+    
+  
+
+  <h3>Comments <span class="icon-hbc-comments contactIcons"></span></h3>
+  <div id="address">Can't find what you're looking for?<br /><br />
+  Spotted an issue with this page?
+  <a href="https://my.hastings.gov.uk/service/Tell_us_your_comments_about_the_website?noLoginPrompt=1">Tell us</a>
+  </div>
+  
+</div>
+
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('.contCol').equalheight();
+    });  
+  </script>
+
+        
+      </li>
+    </ul>
+  </div>
+</div>
+
+  
+
+<div id="footerAtoZ">
+  <div class="scc-atoz-picker" id="scc-atoz-picker">
+    <h2>A-Z of services</h2>
+    <ul>
+        <li><a href="//www.hastings.gov.uk/a_z/#A"><span class="offscreen">Services beginning with </span>A</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#B"><span class="offscreen">Services beginning with </span>B</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#C"><span class="offscreen">Services beginning with </span>C</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#D"><span class="offscreen">Services beginning with </span>D</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#E"><span class="offscreen">Services beginning with </span>E</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#F"><span class="offscreen">Services beginning with </span>F</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#G"><span class="offscreen">Services beginning with </span>G</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#H"><span class="offscreen">Services beginning with </span>H</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#I"><span class="offscreen">Services beginning with </span>I</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#J"><span class="offscreen">Services beginning with </span>J</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#K"><span class="offscreen">Services beginning with </span>K</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#L"><span class="offscreen">Services beginning with </span>L</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#M"><span class="offscreen">Services beginning with </span>M</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#N"><span class="offscreen">Services beginning with </span>N</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#O"><span class="offscreen">Services beginning with </span>O</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#P"><span class="offscreen">Services beginning with </span>P</a></li>
+        <li><span class="offscreen">Services beginning with </span><span>Q</span></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#R"><span class="offscreen">Services beginning with </span>R</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#S"><span class="offscreen">Services beginning with </span>S</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#T"><span class="offscreen">Services beginning with </span>T</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#U"><span class="offscreen">Services beginning with </span>U</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#V"><span class="offscreen">Services beginning with </span>V</a></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#W"><span class="offscreen">Services beginning with </span>W</a></li>
+        <li><span class="offscreen">Services beginning with </span><span>X</span></li>
+        <li><a href="//www.hastings.gov.uk/a_z/#Y"><span class="offscreen">Services beginning with </span>Y</a></li>
+        <li><span class="offscreen">Services beginning with </span><span>Z</span></li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<div id="sisterSites">
+<div class="scc-atoz-picker">
+  <h2>Hastings sites:</h2>
+  <ul>
+    <li><a href="http://www.hastingsfestivals.com" >Hastings Festivals</a></li>
+    <li><a href="http://www.famouslyhastings.com" >Famously Hastings</a></li>
+    <li><a href="http://www.hmag.org.uk" >Hastings Museum</a></li>
+    <li class="footerSocial">
+      <a href="https://twitter.com/hastingsbc" title="link to Hastings council twitter feed"><span class="icon-hbc-twitter-2 socialIcon"></span><span class="hidden">Hastings council twitter feed</span></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.facebook.com/#!/Hastingsboroughcouncil?fref=ts" title="link to Hastings council facebook page"><span class="icon-hbc-facebook-2 socialIcon"></span><span class="hidden">Hastings council facebook page</span></a>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+<div id="pageFooter">
+  <div class="wrapper" style="padding:1.8em 1em;"> 
+
+    
+    <span class="icon-hbc-logo" style=" color: #fff;font-size: 11em;line-height: 0;"></span>
+
+
+
+    <div class="copyright">
+      &copy; 2003 - 2016 Hastings Borough Council.<br />
+      Unless otherwise stated these pages are copyright protected.<br />
+      All rights reserved.
+    </div>
+
+  </div>
+</div>
+
+
+
+  <script type="text/javascript">
+    autoCompleteSearch();
+  </script>
+
+  
+  <!--[if lt IE 8]>
+	  <script src="/scripts/ie7.min.js"></script>
+	<![endif]-->
+
+  <!-- Google Analytics -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9468080-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <!-- End Google Analytics -->
+
+</body>
+</html>
