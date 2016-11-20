@@ -1,0 +1,766 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<title>
+	Elections results
+</title><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/cmis/Portals/_default/default.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/DesktopModules/CMIS_Elections/module.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/Portals/_default/Skins/warwickdc/skin.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/Portals/_default/Skins/warwickdc/index.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/Portals/_default/Containers/CMIS/container.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/Portals/_default/Containers/CMIS/Title_Blue.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><link href="/cmis/Portals/0/portal.css?cdv=128" media="all" type="text/css" rel="stylesheet"/><script src="/cmis/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=128" type="text/javascript"></script><script src="/cmis/Resources/libraries/jQuery-Migrate/01_02_01/jquery-migrate.js?cdv=128" type="text/javascript"></script><script src="/cmis/Resources/libraries/jQuery-UI/01_10_03/jquery-ui.js?cdv=128" type="text/javascript"></script><!--[if LT IE 7]><link id="IE6Minus" rel="stylesheet" type="text/css" href="/cmis/Portals/_default/Skins/warwickdc/css/ie6skin.css" /><![endif]--><link href="/cmis/Telerik.Web.UI.WebResource.axd?d=HSk-s8AZ6cdbDaccVJ2NAm_TPahQhMEMsGoQYYNjH7jluBNAbfu5eO1b2ksaBDZsw4jtUHHBHlBKRR30RnCnOpRLCS3YRSrFVMgySRIn4b2Gk34wXT4TkumC9ps1&amp;t=635328563960000000&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Web.UI%2c+Version%3d2016.1.113.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-GB%3acb3d1a3e-7303-48dc-a612-61700f912203%3aef4a543%3a9e1572d6%3bTelerik.Web.UI.Skins%2c+Version%3d2016.1.113.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-GB%3a8f40c2b8-544c-460d-9107-0c4403b904f2%3aa4012de0%3a3f3482cd" type="text/css" rel="stylesheet" /></head>
+<body id="Body">
+    
+    <form method="post" action="/cmis/Electionresults/tabid/63/ctl/ViewCandidates/mid/386/ID/299/Default.aspx" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU1MDYzMDgwNw9kFgICBg9kFgICAQ9kFgICBw9kFgJmD2QWAgIPD2QWAmYPZBYCZg9kFgICCQ9kFgJmD2QWAgIBDw8WAh4NTWVyZ2VkQ29sdW1uczKfKAABAAAA/////wEAAAAAAAAADAIAAABJQ01JU19FbGVjdGlvbnMsIFZlcnNpb249NS42LjYuMTgyMzQsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAARENNSVMuTW9kdWxlcy5FbGVjdGlvbnMuQ29tcG9uZW50cy5FbGVjdGlvbnNCYXNlUGFnZStNZXJnZWRDb2x1bW5JbmZvBQAAAA1NZXJnZWRDb2x1bW5zDFN0YXJ0Q29sdW1ucwZUaXRsZXMNUmVwbGFjZVRpdGxlcw9SZXBsYWNlZENvbHVtbnMDAwMDA35TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV3gAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1d4QFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV3iAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uQm9vbGVhbiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV1+U3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAgAAAAkDAAAACQQAAAAJBQAAAAkGAAAACQcAAAAEAwAAAH5TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgcAAAgICAkIAAAAAgAAAAEAAAAEBAAAAOABU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0EAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUNS2V5VmFsdWVQYWlycwADAAMIkQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCOQBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXVtdAQAAAAkJAAAAAwAAAAkKAAAABAUAAADhAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQQAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQ1LZXlWYWx1ZVBhaXJzAAMAAwiRAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0I5QFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXVtdAQAAAAkJAAAAAwAAAAkMAAAABAYAAADiAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uQm9vbGVhbiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0EAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUNS2V5VmFsdWVQYWlycwADAAMIkQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCOYBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLkJvb2xlYW4sIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dW10BAAAACQkAAAADAAAACQ4AAAABBwAAAAMAAAAJDwAAAAAAAAAAAAAADwgAAAAEAAAACAYAAAAHAAAAAAAAAAAAAAAECQAAAJEBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQAAAAAHCgAAAAABAAAAAQAAAAPiAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLktleVZhbHVlUGFpcmAyW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0E8P///+IBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQIAAAADa2V5BXZhbHVlAAAICAYAAAACAAAABwwAAAAAAQAAAAEAAAAD4wFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQTv////4wFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQIAAAADa2V5BXZhbHVlAAEIBgAAAAYSAAAACEVsZWN0ZWQ/Bw4AAAAAAQAAAAEAAAAD5AFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uQm9vbGVhbiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0E7f///+QBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLkJvb2xlYW4sIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAgAAAANrZXkFdmFsdWUAAAgBBgAAAAAPDwAAAAAAAAAIC2QWBGYPDxYGHhVFbmFibGVFbWJlZGRlZFNjcmlwdHNnHhxFbmFibGVFbWJlZGRlZEJhc2VTdHlsZXNoZWV0Zx4SUmVzb2x2ZWRSZW5kZXJNb2RlCylyVGVsZXJpay5XZWIuVUkuUmVuZGVyTW9kZSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxNi4xLjExMy40NSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0ARYCHgVzdHlsZQUNZGlzcGxheTpub25lO2QCAg8WBB4FYWJvdXQFN2h0dHA6Ly9vcGVuZWxlY3Rpb25kYXRhLm9yZy9pZC9wb2xscy8vMjAxNS0wNS0wNy9tZW1iZXIeBnR5cGVvZgURb3BlbmVsZWN0aW9uOlBvbGwWBAIBDxYCHgNyZWwFGW9wZW5lbGVjdGlvbjplbGVjdGlvbkFyZWEWAgIBDw8WAh4MR3JvdXBpbmdUZXh0BQxXYXJkIFN1bW1hcnlkFhICAQ9kFgICBQ8PFgIeB1Zpc2libGVoZGQCAw8WAh4EVGV4dAUnV2Fyd2ljayBEaXN0cmljdCBDb3VuY2lsIEVsZWN0aW9ucyAyMDE1ZAIFD2QWAgIFDw8WAh8JaGRkAgcPFgYeCGRhdGF0eXBlBQh4c2Q6ZGF0ZR4HY29udGVudAUKMjAxNS0wNS0wNx4IcHJvcGVydHkFC2NhbDpkdHN0YXJ0FgICAQ8WAh8KBQswNyBNYXkgMjAxNWQCCQ9kFgICBQ8PFgIfCWhkZAILDxYCHwUFNmh0dHA6Ly9zdGF0aXN0aWNzLmRhdGEuZ292LnVrL2lkL2xvY2FsLWF1dGhvcml0eS13YXJkLxYCAgEPFgIfCgUETGVhbWQCDw9kFgICBQ8PFgIfCWhkZAIRDxYEHw0FF29wZW5lbGVjdGlvbjplbGVjdG9yYXRlHwsFC3hzZDppbnRlZ2VyFgICAQ8WAh8KBQU0LDEwMGQCEw8PFgIfCWdkFgwCAQ9kFgICBQ8PFgIfCWhkZAIDDxYEHw0FGm9wZW5lbGVjdGlvbjpiYWxsb3RzSXNzdWVkHwsFC3hzZDppbnRlZ2VyFgICAQ8WAh8KBQUyLDc1OGQCBQ8WBB8NBRxvcGVuZWxlY3Rpb246cmVqZWN0ZWRCYWxsb3RzHwsFC3hzZDppbnRlZ2VyFgICAQ8WAh8KBQIzOWQCBw9kFgICBQ8PFgIfCWhkZAIJDxYCHwoFBTUsMDU2ZAILDxYCHwoFBjY3LjMgJWQCBw8PFgIfCgUNQmFjayB0byBXYXJkc2RkGAMFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBStkbm4kY3RyMzg2JFZpZXdDYW5kaWRhdGVzJFJhZEZvcm1EZWNvcmF0b3IxBSdkbm4kY3RyMzg2JFZpZXdDYW5kaWRhdGVzJGdyZENhbmRpZGF0ZXMFLWRubiRjdHIzODYkVmlld0NhbmRpZGF0ZXMkZ3JkQ2FuZGlkYXRlcyRjdGwwMA8UKwADFCsAAmQXAwULXyFJdGVtQ291bnQCBgUIXyFQQ291bnRkBQZfIURTSUMCBhYCHgNfc2UWAh4CX2NmFCsABhQrAAIUKwABBQJJZBQrAAECwx0UKwACFCsAAQUCSWQUKwABAsUdFCsAAhQrAAEFAklkFCsAAQLAHRQrAAIUKwABBQJJZBQrAAECwR0UKwACFCsAAQUCSWQUKwABAsQdFCsAAhQrAAEFAklkFCsAAQLCHWQFJ2RubiRjdHIzODYkVmlld0NhbmRpZGF0ZXMkZ3JkQ2FuZGlkYXRlcw8UKwACZBcCBQ9TZWxlY3RlZEluZGV4ZXMWAAULRWRpdEluZGV4ZXMWAGQDAxfiMzjfJyGwbkqzkUOg12sgXQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/cmis/WebResource.axd?d=FwMPAeP_baGEkJzpbV3n_4V44BtorHlI1ddFAbCnYZWeKpN_vALsU9eGVGgx3keYhAAkv90sLQ5-jLNf0&amp;t=635802961220000000" type="text/javascript"></script>
+
+<script type="text/javascript">DDRjQuery=window.DDRjQuery||jQuery;</script><script type="text/javascript">if (!(window.DDR && window.DDR.Menu && window.DDR.Menu.Providers && window.DDR.Menu.Providers.DNNMenu)) document.write(unescape('%3Cscript src="/cmis/DesktopModules/DDRMenu/DNNMenu/DNNMenu.min.js" type="text/javascript"%3E%3C/script%3E'));</script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]},"eras":[1,"A.D.",null,0]};//]]>
+</script>
+
+<script src="/cmis/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3ad28568d3-e53e-4706-928f-3765912b66ca%3aea597d4b%3ab25378d2%3bTelerik.Web.UI%2c+Version%3d2016.1.113.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-GB%3acb3d1a3e-7303-48dc-a612-61700f912203%3a16e4e7cd%3a4877f69a%3a86526ba7%3a874f8ea2%3a58366029" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="386731EC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAVUiO5WECLhWw4qjaZyy9iahyd7oXq1NTCLBZnlH+PZSLp1r3KXMGX6P06QBXTh8IJXyfNnC2LjR4Gt1Zo90L2sIJWE4Jsg+tfguQrQbLlbQGw6IQA+IQkPzXY0Ro6XdSdHxXpu" />
+</div><script src="/cmis/js/dnn.js?cdv=128" type="text/javascript"></script><script src="/cmis/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=128" type="text/javascript"></script><script src="/cmis/Resources/Shared/Scripts/dnn.jquery.js?cdv=128" type="text/javascript"></script><script src="/cmis/js/dnncore.js?cdv=128" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+
+
+
+<div class="RapidFlowNormal Main">
+
+<!-- **************************************************** Cookie Code added 2/5/12 **************************************************** -->
+
+<!-- **************************************************** End Cookie code *****************************************************-->
+
+    
+    <div id="dnn_ControlPanel"></div>
+    <div class="RapidFlowNormal TopBarRight">
+        <div class="RapidFlowNormal TopBar">
+            <div class="RapidFlowNormal TopGlobal">
+                <div class="RapidFlowNormal">
+                    <a href="#MainContent" class="skipToContent">Skip to Main Content</a>
+                </div>
+                <div class="RapidFlowNormal">
+                    <ul>
+                        <li class="Item1">
+                            <a href="http://www.warwickdc.gov.uk/Accessibility">Accessibility</a>
+                        </li>
+                        <li class="Item2">
+                            <a href="http://www.warwickdc.gov.uk/Site_Map">Site Map</a>
+                        </li>
+
+                     
+                        <li class="Item3">
+                            
+                            <a id="dnn_dnnUSER_registerLink" title="Register" class="TopLinks" rel="nofollow" href="https://estates4.warwickdc.gov.uk/cmis/register.aspx?returnurl=https%3a%2f%2festates4.warwickdc.gov.uk%2fcmis%2fElectionresults.aspx">Register</a>
+  
+                        </li>
+                        <li class="Item4">
+                            
+                            <a id="dnn_dnnLOGIN_loginLink" title="Login" class="TopLinks" rel="nofollow" onclick="this.disabled=true;" href="https://estates4.warwickdc.gov.uk/cmis/login.aspx?ReturnUrl=%2fcmis%2fElectionresults%2ftabid%2f63%2fctl%2fViewCandidates%2fmid%2f386%2fID%2f299%2fDefault.aspx">Login</a>
+ 
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="RapidFlowNormal QuickSearch">
+                <div class="RapidFlowNormal"></div>
+            </div>
+        </div>
+    </div>
+    <div class="RapidFlowNormal BannerLeft">
+        <div class="RapidFlowNormal Banner">
+            <div class="RapidFlowNormal">
+                <div>
+                    <img alt='' src='/cmis/Portals/_default/Skins/Warwickdc/images/oldwarwickbuildings.jpg'/>
+                </div>
+            </div>
+            <div class="RapidFlowNormal">
+                <div class="WdcLogo">
+                    
+                    
+                    <a href="http://www.warwickdc.gov.uk/WDC/default.htm" class="mainAreaPostingHeaderLogo" title="Link to Home Page" accesskey="1" tabindex="0">
+                        <img src="/cmis/Portals/_default/Skins/Warwickdc/images/WDC_logo.gif" alt="Warwick District Council Home" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="RapidFlowNormal MiddleLinksRight">
+        <div class="RapidFlowNormal MiddleLinks">
+            <div class="RapidFlowNormal BGContainer">
+                <div class="RapidFlowNormal Links">
+                    <div class="RapidFlowNormal">
+                    <br />
+                        <ul>
+                            <li class="Item1">
+                                <a href="http://www.warwickdc.gov.uk">Home</a>
+                            </li>
+                            <li class="Item2">
+                                <a href="http://www.warwickdc.gov.uk/a_to_z">A To Z</a>
+                            </li>
+                            <li class="Item3">
+                                <a href="http://www.warwickdc.gov.uk/DIO">Do It Online</a>
+                            </li>
+                            <li class="Item4">
+                                <a href="http://www.warwickdc.gov.uk/ContactUs">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="RapidFlowNormal SectionalLogoAndText">
+                    <div class="RapidFlowNormal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="RapidFlowNormal RightShadow">
+        <div class="RapidFlowNormal CentralContainer">
+            <div class="RapidFlowNormal CentralPadding">
+                <div class="RapidFlowNormal Breadcrumb">
+                    <div class="RapidFlowNormal">
+                        
+                        <span id="dnn_dnnTEXT_lblText" class="Breadcrumb_text">You are here:</span>
+
+                        <span><span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="https://estates4.warwickdc.gov.uk/cmis/Electionresults.aspx" class="Breadcrumb_link">Election results</a></span>
+</span>
+                    </div>
+                </div>
+                <div class="RapidFlowNormal LeftNavigation">
+                    <div class="RapidFlowNormal">
+                        
+                        
+                        
+				        
+                        <script type="text/javascript">
+			DDR.Menu.registerMenu('dnn_NAV1_ctlNAV1', {MenuStyle:"DNNMenu",ControlID:"ctlNAV1",PathImage:"/cmis/Portals/0/",PathSystemImage:"/cmis/images/",PathSystemScript:"/cmis/controls/SolpartMenu/",IndicateChildImageSub:"/cmis/images/spacer.gif",CSSControl:"mainMenu",StyleControlHeight:0,StyleBorderWidth:0,StyleNodeHeight:0,StyleIconWidth:0,StyleFontSize:0,EffectsDuration:0,EffectsShadowStrength:0,ControlOrientation:"Vertical",ControlAlignment:"Left",ForceDownLevel:"False",MouseOutHideDelay:0,MouseOverDisplay:"Highlight",MouseOverAction:"Expand",ForceCrawlerDisplay:"False",IndicateChildren:false,PopulateNodesFromClient:false});
+		</script><div id="dnn_NAV1_ctlNAV1">
+  <ul>
+    <li nid="106"><a href="http://www.warwickdc.gov.uk/info/20594/councillors"><span>Councillors Home</span></a></li>
+    <li nid="39"><a href="https://estates4.warwickdc.gov.uk/cmis/CouncillorsAtoZ.aspx"><span>Councillors A to Z</span></a></li>
+    <li nid="149"><a href="https://estates4.warwickdc.gov.uk/cmis/MeetingDates.aspx"><span>Meeting Dates</span></a></li>
+    <li nid="103"><a href="https://estates4.warwickdc.gov.uk/cmis/Committees.aspx"><span>Committees</span></a></li>
+    <li nid="90"><a href="https://estates4.warwickdc.gov.uk/cmis/Petitions.aspx"><span>Petitions</span></a></li>
+    <li nid="104"><a href="https://estates4.warwickdc.gov.uk/cmis/WorkingPartiesForums.aspx"><span>Working Parties &amp; Forums</span></a></li>
+    <li nid="63" class="selected breadcrumb"><a href="https://estates4.warwickdc.gov.uk/cmis/Electionresults.aspx"><span>Election results</span></a></li>
+    <li nid="76"><a href="https://estates4.warwickdc.gov.uk/cmis/OutsideBodies.aspx"><span>Outside Bodies</span></a></li>
+    <li nid="107"><a href="https://estates4.warwickdc.gov.uk/cmis/FormerCommittees.aspx"><span>Former Committees</span></a></li>
+    <li nid="79"><a href="https://estates4.warwickdc.gov.uk/cmis/SearchCommitteePapers.aspx"><span>Search Committee Papers</span></a></li>
+  </ul>
+</div>
+                    </div>
+                    
+                    <div class="RapidFlowNormal">
+	                    <div class="queryStringRedirectPH">
+		                    <h3>Your councillors</h3>
+		                    <label for="SearchText" class="searchBox">Enter your postcode to find your local councillors</label>
+		                    <div class="inputText">
+		                        <input name="SearchText" size="13" 
+		                        type="text" value="Enter postcode" 
+		                        id="CtrlSearchText" class="searchBox" 
+		                        onfocus="ClearSearchText();"
+		                        onkeypress="return OnEnter(event,this.form);" />
+		                        <script type="text/javascript">
+                                
+		                            function ClearSearchText() 
+		                            {
+		                                var myVal = document.getElementById("CtrlSearchText");
+		                                if (myVal.value == "Enter postcode") { myVal.value = ""; }
+		                            }
+		                            function SearchSubmit() {
+		                                var myVal, myUrl;
+		                                myVal = document.getElementById("CtrlSearchText");
+		                                myUrl = "http://estates5.warwickdc.gov.uk/PropertyPortal/Forms/Search.aspx?pcd_PoliticalServices=" + myVal.value;
+		                                window.location.href = myUrl;
+		                            }
+		                            function OnEnter(evt, frm) {
+		                                var keyCode = null;
+
+		                                if (evt.which) {
+		                                    keyCode = evt.which;
+		                                }
+		                                else if (evt.keyCode) {
+		                                    keyCode = evt.keyCode;
+		                                }
+
+		                                if (13 == keyCode) {
+		                                    //enter pressed so re-direct
+		                                    SearchSubmit();
+		                                    return false;
+		                                }
+
+		                                return true;
+		                            }
+                                
+                                </script>
+                		    </div>
+                            <div class="submitButton">
+		                        <a class="searchButton" onclick="SearchSubmit()">Go</a>
+		                    </div>
+		                    <noscript>Please focus on the next submit button (for example by clicking it or tabbing to it and pressing space).</noscript>
+	                    </div>
+                    </div>
+                    <div class="RapidFlowNormal">
+                        <a class="hiddenLink" href="http://www.warwickdc.gov.uk/WDC/Council_x2c_+government+and+democracy/Information+management/Warwick+District+Council+Online+Services/Frequently+asked+questions+%28FAQs%29.htm" id="WDC_header1_hrefFAQs" title="FAQ's" accesskey="5">FAQs</a>
+                        <br />
+                        <a class="hiddenLink" href="http://www.warwickdc.gov.uk/WDC/Council_x2c_+government+and+democracy/Councils/Contacts_x2c_+consultation+_x26_+feedback/Compliments+and+complaints+%28council%29/" id="WDC_header1_hrefComplaints" title="Complaints procedure" accesskey="7">Complaints procedure</a>
+                        <br />
+                        <a class="hiddenLink" href="http://www.warwickdc.gov.uk/WDC/Council_x2c_+government+and+democracy/Information+management/Whats+new/" id="WDC_header1_hrefWhatsNew" title="What's new" accesskey="2">What's new</a>
+                    </div>
+                </div>
+                <div class="RapidFlowNormal ContentContainer">
+                    <div class="RapidFlowNormal SavedPageMessage">
+                        <div class="RapidFlowNormal"></div>
+                    </div>
+                    <div class="RapidFlowNormal MainContent">
+                        <div class="RapidFlowNormal">
+                            <a id="MainContent" class="MainContent">Main Content Starts Here</a>
+                        </div>
+                    </div>
+                    <div class="RapidFlowNormal metadata">
+                        <div class="RapidFlowNormal box">
+                            <div class="RapidFlowNormal">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="RapidFlowNormal box">
+                        <div class="RapidFlowNormal">
+                            <div class="mainAreaPageTitle" id="mainAreaPageTitle"> 
+                                <span></span>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="RapidFlowNormal box">
+                        <div class="RapidFlowNormal">
+                            <div class="mainAreaContent" id="mainAreaContent">
+			                    <div class="FlexNoTables">
+                                    <div>
+
+                                        
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div id="dnn_LeftPane" class="LeftPane DNNEmptyPane"></div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div id="dnn_ContentPane" class="ContentPane"><div class="DnnModule DnnModule-CMISCMIS_Elections DnnModule-386">
+<div class="c_head c_head_blue">
+    <div class="head_title">
+        <div class="c_actions">
+			
+        </div>
+        <div class="c_icon">			
+			
+			<h1>
+				<span id="dnn_ctr386_dnnTITLE_titleLabel" class="TitleHead">Election Ward Candidates</span>
+
+
+				
+			</h1>
+            </div>
+            <div class="title_vis">
+								
+            </div>
+            <div class="clear_float"></div>
+        </div>
+        <div class="c_content">
+            <div id="dnn_ctr386_ContentPane" class="Normal c_contentpane"><div id="dnn_ctr386_ModuleContent" class="DNNModuleContent ModCMISCMISElectionsC">
+	<div id="dnn_ctr386_ViewCandidates_RadFormDecorator1" class="RadFormDecorator" style="display:none;">
+		<!-- 2016.1.113.45 --><script type="text/javascript">
+//<![CDATA[
+
+if (typeof(WebForm_AutoFocus) != 'undefined' && !isWebFormAutoFocusMethodCalled)
+{   
+	var old_WebForm_AutoFocus = WebForm_AutoFocus;
+	WebForm_AutoFocus = function(arg)
+	{
+		Sys.Application.add_load(function()
+		{            
+			old_WebForm_AutoFocus(arg);
+			WebForm_AutoFocus = old_WebForm_AutoFocus;
+		});
+	}
+    var isWebFormAutoFocusMethodCalled = true;
+}
+if (typeof(Telerik) != 'undefined' && Type.isNamespace(Telerik.Web))
+{
+	if (Telerik.Web.UI.RadFormDecorator)
+	{
+		Telerik.Web.UI.RadFormDecorator.initializePage("dnn_ctr386_ViewCandidates_RadFormDecorator1", "ViewCandidates.ascx", "Windows7", 65471);
+	}
+}
+//]]>
+</script><input id="dnn_ctr386_ViewCandidates_RadFormDecorator1_ClientState" name="dnn_ctr386_ViewCandidates_RadFormDecorator1_ClientState" type="hidden" />
+	</div>
+<div id="ViewCandidates.ascx">
+    
+<div class="CMIS_ModuleWrapper ElectionWrapper ViewCandidates">
+    
+    <div id="OpenDataContent" xmlns:openelection="http://openelectiondata.org/0.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:cal="http://www.w3.org/2002/12/cal#" xmlns:v="http://www.w3.org/2006/vcard/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <div id="dnn_ctr386_ViewCandidates_OpenDataElectionPoll" about="http://openelectiondata.org/id/polls//2015-05-07/member" typeof="openelection:Poll">
+    
+        <div id="dnn_ctr386_ViewCandidates_OpenDataElectionArea" class="Summary" rel="openelection:electionArea">
+            <div id="dnn_ctr386_ViewCandidates_pnlCandidatesSummary">
+		<fieldset>
+			<legend>
+				Ward Summary
+			</legend>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblName_label">
+        <span id="dnn_ctr386_ViewCandidates_lblName_lblLabel">Election Name:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        Warwick District Council Elections 2015</div>
+                </div>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblDate_label">
+        <span id="dnn_ctr386_ViewCandidates_lblDate_lblLabel">Election Date:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr386_ViewCandidates_OpenDataElectionDate" datatype="xsd:date" content="2015-05-07" property="cal:dtstart">
+                            07 May 2015
+                        </span>
+                    </div>
+                </div>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblWard_label">
+        <span id="dnn_ctr386_ViewCandidates_lblWard_lblLabel">Ward:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr386_ViewCandidates_OpenDataWard" about="http://statistics.data.gov.uk/id/local-authority-ward/">
+                            Leam
+                        </span>
+                        
+                    </div>
+                </div>
+                
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblRegisteredVoters_label">
+        <span id="dnn_ctr386_ViewCandidates_lblRegisteredVoters_lblLabel">Registered Voters:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr386_ViewCandidates_OpenDataElectorate" property="openelection:electorate" datatype="xsd:integer">
+                            4,100
+                        </span>
+                    </div>
+                </div>
+                
+                <div id="dnn_ctr386_ViewCandidates_pnlResults">
+				
+                    <div class="LabelWrapper">
+                        <div class="DNNLabel">
+                            
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblBallotPapers_label">
+        <span id="dnn_ctr386_ViewCandidates_lblBallotPapers_lblLabel">Ballots Papers Issued:</span>   
+    </label>
+    
+    
+</div>
+
+
+                        </div>
+                        <div class="Value">
+                            <span id="dnn_ctr386_ViewCandidates_OpenDataBallotPapersIssued" property="openelection:ballotsIssued" datatype="xsd:integer">
+                                2,758
+                            </span> 
+                            (<span id="dnn_ctr386_ViewCandidates_OpenDataBallotPapersSpoilt" property="openelection:rejectedBallots" datatype="xsd:integer">
+                                39
+                            </span> spoilt papers)                        
+                        </div>
+                    </div>
+                    
+                    <div class="LabelWrapper">
+                        <div class="DNNLabel">
+                            
+<div class="dnnLabel">    
+    <label id="dnn_ctr386_ViewCandidates_lblVotesCastTurnout_label">
+        <span id="dnn_ctr386_ViewCandidates_lblVotesCastTurnout_lblLabel">Votes Cast:</span>   
+    </label>
+    
+    
+</div>
+
+
+                        </div>
+                        <div class="Value">
+                            5,056  
+                            (67.3 % Turnout)
+                        </div>
+                    </div>
+                
+			</div>
+                
+            
+		</fieldset>
+	</div>
+        </div>
+        
+        <div class="RadGridWrapper CandidatesGrid">
+            <div id="dnn_ctr386_ViewCandidates_grdCandidates" class="RadGrid RadGrid_Windows7">
+
+	<table class="rgMasterTable" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00" style="width:100%;table-layout:auto;empty-cells:show;">
+		<colgroup>
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+	</colgroup>
+<thead>
+			<tr>
+				<th scope="col" class="CandidateName rgHeader" rowspan="2">Candidate Name</th><th scope="col" class="Party rgHeader" rowspan="2">Party</th><th scope="col" class="VoteCount rgHeader" rowspan="2"><a onclick="Telerik.Web.UI.Grid.Sort($find(&#39;dnn_ctr386_ViewCandidates_grdCandidates_ctl00&#39;), &#39;VoteCount&#39;); return false;" title="Click here to sort" href="javascript:__doPostBack(&#39;dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl02$ctl00$ctl00&#39;,&#39;&#39;)">Vote Count</a></th><th scope="col" class="rgHeader" rowspan="2">Percentage of Votes</th><th scope='col' style='text-align:center;' colspan='2' class='rgHeader'>Elected?</th>
+			</tr>
+		</thead><tbody>
+		<tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__0">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Red;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_OpenDataName" property="foaf:name">Colin Quinney</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_OpenDataParty" property="rdfs:label">Labour Party</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">1050</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=ff4d8e7e-6d51-421f-8619-17d37f33c580_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl04$crtResults&amp;imageFormat=Png&amp;random=db1c11cf-bfda-47d5-85c2-1d028b870da2'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"><img id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl04_imgimgElected" title="This Member is Elected" src="../../../../../../../../../DesktopModules/CMIS_Elections/images/confirm_smaller.gif" alt="This Member is Elected" /></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="True">
+                                Yes
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__1">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Red;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_OpenDataName" property="foaf:name">Barbara Weed</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_OpenDataParty" property="rdfs:label">Labour Party</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">1049</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=af88501d-a327-464c-9e3a-fe973db1b994_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl06$crtResults&amp;imageFormat=Png&amp;random=2c8902a7-1b04-4dd4-a687-4ac1fd5ac590'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"><img id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl06_imgimgElected" title="This Member is Elected" src="../../../../../../../../../DesktopModules/CMIS_Elections/images/confirm_smaller.gif" alt="This Member is Elected" /></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="True">
+                                Yes
+                            </td>
+		</tr><tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__2">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Blue;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_OpenDataName" property="foaf:name">Jackie David</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_OpenDataParty" property="rdfs:label">Conservative</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">842</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=81d4244a-f203-4dfe-bfe0-85a02ba041e9_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl08$crtResults&amp;imageFormat=Png&amp;random=4ca4d213-0554-4454-a388-0fb336bae94c'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__3">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Blue;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_OpenDataName" property="foaf:name">Jack McCann</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_OpenDataParty" property="rdfs:label">Conservative</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">776</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=0cce0cac-ee9c-4abc-9ad8-e2c5ae48563e_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl10$crtResults&amp;imageFormat=Png&amp;random=f1c50f0b-5853-474d-a3ca-937a68559f20'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr><tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__4">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Darkolivegreen;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_OpenDataName" property="foaf:name">Sarah Richards</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_OpenDataParty" property="rdfs:label">Green Party</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">697</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=1cd7fc55-212e-4a0c-8bdd-b077fa68dd39_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl12$crtResults&amp;imageFormat=Png&amp;random=12987501-fd91-4728-a7cb-0c279a0d8f1e'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00__5">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Darkolivegreen;'></div>
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_OpenDataName" property="foaf:name">Azzees Dee Minott</span>
+                                
+                            </td><td class="Party" rel="openelection:party">
+                                <span id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_OpenDataParty" property="rdfs:label">Green Party</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">642</td><td>
+                                <div id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults' src='/cmis/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=518fa0b3-7c2f-4ec5-9dec-76a4433f723c_chart_dnn$ctr386$ViewCandidates$grdCandidates$ctl00$ctl14$crtResults&amp;imageFormat=Png&amp;random=40601a4d-6676-49d9-b716-0ff74fc76391'  /><input id="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr>
+		</tbody>
+
+	</table><div id="dnn_ctr386_ViewCandidates_grdCandidates_SharedCalendarContainer" style="display:none;">
+
+	</div><input id="dnn_ctr386_ViewCandidates_grdCandidates_ClientState" name="dnn_ctr386_ViewCandidates_grdCandidates_ClientState" type="hidden" />	</div>
+	
+        </div>
+        
+        
+        
+        <div class="ButtonWrapper BackButton">
+            <input type="submit" name="dnn$ctr386$ViewCandidates$btnCancel" value="Back to Wards" id="dnn_ctr386_ViewCandidates_btnCancel" />
+        </div>
+        
+    </div>
+    </div>
+        
+</div>
+</div>
+
+</div></div>
+        </div>
+        <div class="c_footer">
+				
+				
+								
+								
+        </div>        </div>
+    
+
+</div></div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div id="dnn_RightPane" class="RightPane DNNEmptyPane"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                            
+                                        
+                                   
+                                        
+                                        
+                                        
+
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="RapidFlowNormal box">
+                    <div class="RapidFlowNormal">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="RapidFlowNormal">
+      
+            </div>
+        </div>
+        <div class="RapidFlowNormal HomePageOnly">
+            <div class="RapidFlowNormal levelOneAndTwoOverview">
+                <div class="RapidFlowNormal">
+     
+                </div>
+            </div>
+        <div class="RapidFlowNormal associateLogos">
+            <div class="RapidFlowNormal">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="RapidFlowNormal"></div>
+    <div class="RapidFlowNormal BottomLinks">
+         <div class="RapidFlowNormal BottomLinksLeft">
+            <div class="RapidFlowNormal">
+		        <span>Share this:</span>
+	        </div>
+	        <div class="RapidFlowNormal">
+		        <ul>
+		            <li class="Item1"><a href="http://twitter.com/home?status=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/twitter.gif" alt="Twitter" title="Tweet this post on Twitter"/>Twitter</a></li>
+		            <li class="Item2"><a href="http://digg.com/submit?phase=2&amp;url=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/digg.gif" alt="Digg" title="Digg this post"/>Digg</a></li>
+		            <li class="Item3"><a href="http://www.stumbleupon.com/submit?url=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/stumbleupon.gif" alt="StumbleUpon" title="Tweet this post on StumbleUpon"/>StumbleUpon</a></li>
+		            <li class="Item4"><a href="http://www.reddit.com/submit?url=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/reddit.gif" alt="Reddit" title="Submit this post to Reddit"/>Reddit</a></li>
+		            <li class="Item5"><a href="http://del.icio.us/post?url=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/delicious.gif" alt="Delicious" title="Share this post on Delicious"/>Delicious</a></li>
+		            <li class="Item6"><a href="http://www.facebook.com/share.php?u=http://www.warwickdc.gov.uk"><img src="/cmis/Portals/_default/Skins/Warwickdc/images/facebook.gif" alt="Facebook" title="Share this post on Facebook"/>Facebook</a></li>
+		        </ul>
+	        </div>
+	    </div>
+        <div class="RapidFlowNormal BottomLinksRight">
+            <div class="RapidFlowNormal">
+                <script type="text/javascript" src="/cmis/Portals/_default/Skins/Warwickdc/javascript/commonFunctions.js">
+                    <!--comment-->
+                </script>
+                <noscript></noscript>
+                <ul class="PrintAndBook">
+                    <li>
+                        <a href="#" class="item1" onclick="window.print();return false;" onkeypress="window.print(); return false;">Print</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="createBookmark(this, document.title, location.href);return false;" onkeypress="createBookmark(this, document.title, location.href);return false;">Bookmark</a>
+                    </li>
+                    <li>
+                        <a href="mailto:contactus@warwickdc.gov.uk">Email</a>
+                    </li>
+                </ul>
+                <noscript>
+                    Please use your browser's standard functionality to print pages and bookmark.
+                </noscript>
+            </div>
+            <div class="RapidFlowNormal">
+                <ul>
+                    <li class="Item1"><a href="http://www.warwickdc.gov.uk/Terms">Terms and Privacy</a></li>
+                    <li class="Item2"><a href="http://www.warwickdc.gov.uk/Feedback">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="RapidFlowNormal FooterRight">
+        <div class="RapidFlowNormal FooterLeft">
+            <div class="RapidFlowNormal Footer">
+                <div class="RapidFlowNormal">
+                    <img src="/cmis/Portals/_default/Skins/Warwickdc/images/ShadowMidLeftCorner.jpg" alt="" class="bottomCorner" />
+                    <span>
+                        Warwick District Council, Riverside House, Milverton Hill, Leamington Spa, CV32 5HZ
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="RapidFlowNormal">
+            <img src="/cmis/Portals/_default/Skins/Warwickdc/images/ShadowMidRightCorner.jpg" alt="" class="ShadowMidRightCorner" />
+        </div>
+    </div>
+    <div class="RapidFlowNormal FooterBottom">
+        <div class="RapidFlowNormal FooterBottomLeft">
+            <div class="RapidFlowNormal">
+                <img src="/cmis/Portals/_default/Skins/Warwickdc/images/ShadowBottomLeftCorner.jpg" alt="" />
+            </div>
+        </div>
+        <div class="RapidFlowNormal FooterBottomRight">
+            <div class="RapidFlowNormal">
+                <img src="/cmis/Portals/_default/Skins/Warwickdc/images/ShadowBottomRightCorner.jpg" alt="" class="ShadowBottomBottomRightCorner" />
+            </div>
+        </div>
+    </div>
+    <div class="RapidFlowNormal">
+        <!--Script added for Google Analytics--><script> 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-8471735-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+<noscript></noscript><!-- Script end -->
+
+        <br class="clear" />
+    </div>
+</div>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/cmis/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('StylesheetManager_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2016.1.113.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-GB:cb3d1a3e-7303-48dc-a612-61700f912203:ef4a543:9e1572d6;Telerik.Web.UI.Skins, Version=2016.1.113.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-GB:8f40c2b8-544c-460d-9107-0c4403b904f2:a4012de0:3f3482cd';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadFormDecorator, {"_renderMode":1,"clientStateFieldID":"dnn_ctr386_ViewCandidates_RadFormDecorator1_ClientState","decoratedControls":65471,"decorationZoneID":"ViewCandidates.ascx","enabled":true,"skin":"Windows7"}, null, null, $get("dnn_ctr386_ViewCandidates_RadFormDecorator1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadGrid, {"ClientID":"dnn_ctr386_ViewCandidates_grdCandidates","ClientSettings":{"AllowAutoScrollOnDragDrop":true,"ShouldCreateRows":true,"DataBinding":{},"Selecting":{"CellSelectionMode":0},"Scrolling":{},"Resizing":{},"ClientMessages":{},"KeyboardNavigationSettings":{"AllowActiveRowCycle":false,"EnableKeyboardShortcuts":true,"FocusKey":89,"InitInsertKey":73,"RebindKey":82,"ExitEditInsertModeKey":27,"UpdateInsertItemKey":13,"DeleteActiveRow":127,"ExpandDetailTableKey":39,"CollapseDetailTableKey":37,"SaveChangesKey":85,"CancelChangesKey":81},"Animation":{},"Virtualization":{}},"Skin":"Windows7","UniqueID":"dnn$ctr386$ViewCandidates$grdCandidates","_activeRowIndex":"","_controlToFocus":"","_currentPageIndex":0,"_defaultDateTimeFormat":"dd/MM/yyyy HH:mm:ss","_editIndexes":"[]","_embeddedSkin":true,"_freezeText":"Freeze","_gridTableViewsData":"[{\"ClientID\":\"dnn_ctr386_ViewCandidates_grdCandidates_ctl00\",\"UniqueID\":\"dnn$ctr386$ViewCandidates$grdCandidates$ctl00\",\"PageSize\":10,\"PageCount\":1,\"EditMode\":\"EditForms\",\"AllowPaging\":false,\"CurrentPageIndex\":0,\"VirtualItemCount\":0,\"AllowMultiColumnSorting\":false,\"AllowNaturalSort\":true,\"AllowFilteringByColumn\":false,\"PageButtonCount\":10,\"HasDetailTables\":false,\"HasMultiHeaders\":false,\"CheckListWebServicePath\":\"\",\"GroupLoadMode\":\"Server\",\"PagerAlwaysVisible\":false,\"IsItemInserted\":false,\"clientDataKeyNames\":[],\"hasDetailItemTemplate\":false,\"_dataBindTemplates\":false,\"_selectedItemStyle\":\"\",\"_selectedItemStyleClass\":\"rgSelectedRow\",\"_columnsData\":[{\"UniqueName\":\"CandidateName\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"Party\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"VoteCount\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridBoundColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"SortExpression\":\"VoteCount\",\"DataTypeName\":\"System.Int32\",\"DataField\":\"VoteCount\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"ChartColumn\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"Display\":true},{\"UniqueName\":\"imgElected\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridImageColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataAlternateTextField\":\"\",\"DataAlternateTextFormatString\":\"\",\"DataImageUrlFields\":[],\"AlternateText\":\"This Member is Elected\",\"ImageUrl\":\"/cmis/Electionresults/tabid/63/ctl/ViewCandidates/mid/386/ID/299/images/confirm_smaller.gif\",\"DataImageUrlFormatString\":\"\",\"Display\":true},{\"UniqueName\":\"Elected\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true}]}]","_masterClientID":"dnn_ctr386_ViewCandidates_grdCandidates_ctl00","_shouldFocusOnPage":false,"_unfreezeText":"Unfreeze","allowMultiRowSelection":false,"clientStateFieldID":"dnn_ctr386_ViewCandidates_grdCandidates_ClientState","expandItems":{},"renderMode":1}, null, null, $get("dnn_ctr386_ViewCandidates_grdCandidates"));
+});
+//]]>
+</script>
+</form>
+    
+    
+</body>
+</html>
