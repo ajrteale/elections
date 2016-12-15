@@ -1,0 +1,2879 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link href="demo.css" rel="stylesheet" type="text/css" />
+
+<script src="Chart.js"></script>
+
+<script src="legend.js"></script>
+<script src="jquery.min.js"></script>
+
+    <title>
+	Elections
+</title>
+<style>
+table,tr,td { border:solid 1px #000000; padding:5px; border-collapse:collapse;}
+
+   a.menuhref:link { COLOR: #7F0000; TEXT-DECORATION: none; font-weight: normal; padding:4px;  }
+a.menuhref:visited { COLOR: #7F0000; TEXT-DECORATION: none; font-weight: normal; padding:4px; }
+a.menuhref:active { COLOR: #7F0000; TEXT-DECORATION: none;font-weight: normal; padding:4px; }
+a.menuhref:hover { COLOR: #7F0000; background-color: #DDDDDD; TEXT-DECORATION: none; font-weight: normal; padding:4px;}	
+
+body {  min-width:250px; color: #000000; background-color:#CCCCCC; margin:0; font-size:14px; font-family: Arial, helvetica, sans-serif; line-height:18px;}
+#titleleft { display:none;}
+.padd { padding-left:10px;}
+
+.parrishtable { width:100% }
+#main-wrapper 
+{
+
+    max-width:1200px;
+    background-color:#FFFFFF;	
+    margin: auto auto;
+    padding:0;
+    background-image:url(pics/newlogomain.png);
+  background-repeat:no-repeat;
+    background-position:15px 15px;
+    min-height:200px;
+}
+#newlogo 
+{
+width:24%;	
+padding:20px;
+}
+.menudiv { margin-left:340px; padding-top:10px; margin-right:5px; height:100px; }
+.menudiv2 { margin-left:10px; padding-top:10px; margin-right:5px;}
+ul 
+{
+	 list-style:none;
+    display:inline;	
+   padding:0px;
+}
+li
+{
+    list-style:none;
+    display:inline-block;	
+    background-image:url(pics/rightarrow.png);
+    background-repeat:no-repeat;
+    background-position:left 2px;
+    padding-left:5px;
+    padding-right:10px;
+    margin:0;
+  margin-bottom:4px;
+
+    
+}
+
+.menuunselected 
+{
+	list-style:none;
+    display:inline-block;	
+    background-image:none;
+    background-repeat:no-repeat;
+    font-weight:bold;
+  padding-left:0px;
+    padding-right:10px;
+    margin:0;
+  margin-bottom:4px;
+}
+
+#pie { float:left; }
+
+#resultmap {float:right; width:400px; position:relative;}
+.rightmap { display:block; width:350px;}
+.rmapimg { width:350px; }
+.resulttable { width:500px }
+.resulttable2 { width:500px; padding-left:10px; }
+@media screen and (max-width:910px) {
+.rmapimg { width:250px; }
+.rightmap { width:250px;}
+
+}
+@media screen and (max-width:780px) {
+.rightmap { display:none; width:0px;}
+.resulttable { width:100%;}
+.resulttable2 { width:100%; max-width:500px; padding-right:10px;}
+.parrishtable { width:auto;}
+}
+
+@media screen and (max-width:700px) {
+#titleright { display:none; }
+#titleleft { display:block; padding-top:10px;}
+}
+@media screen and (max-width:760px) {
+#resultmap {float:left; margin-bottom:15px;}
+}
+@media screen and (max-width: 980px) {
+#pie { clear:left; }
+}
+@media screen and (max-width: 580px) 
+{
+	
+	
+	#main-wrapper 
+{
+	  background-image:url(pics/newlogo2.png);
+}
+.menudiv { margin-left:265px; padding-top:10px; margin-right:0px; height:85px; }
+}
+
+@media screen and (max-width: 520px) 
+{
+	
+	#titleleft {  padding-top:12px; }
+	#main-wrapper 
+{
+	  background-image:url(pics/newlogo3.png);
+}
+.menudiv { margin-left:210px; padding-top:10px; margin-right:0px; height:75px; }
+}
+
+@media screen and (max-width: 470px) 
+{
+	.padd { padding-left:3px; padding-right:3px;}
+	.resulttable2 { padding-left:3px; padding-right:3px;}
+	.menudiv2 {font-size:12px;}
+	#titleleft {  padding-top:7px; }
+	#main-wrapper 
+{
+	  background-image:url(pics/newlogo3.png);
+}
+.menudiv { margin-left:10px; padding-top:80px;  margin-right:0px; height:auto; }
+}
+@media screen and (max-width: 375px) 
+{
+	#main-wrapper 
+{
+	  background-image:url(pics/newlogo3.png);
+}
+.menudiv { margin-left:10px; padding-top:80px;  margin-right:0px; height:80px; }
+}
+
+</style>
+
+</head>
+<body>
+    <form name="form1" method="post" action="./?type=borough" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQwOTc0MDExNWRk8k5cipreM2lpEnloteSYIyswbEnsTLO0yuqbO/6g7gM=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D32F6A1D" />
+</div>
+    <div id="main-wrapper">
+  
+    <div class="menudiv">
+    <ul class="menu">
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/">Home</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/Housing">Housing</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/living-here">Living Here</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/sport-and-leisure">Sport/Leisure</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/your-council">Your&nbsp;Council</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/taxbenefits">Benefits/Advice</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/business">Business</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/planning-and-building-control">Planning</a></li>
+    <li><a class="menuhref" target="_top" href="http://www.chesterfield.gov.uk/bins-and-recycling">Bins</a></li>
+    </ul>
+    <div id="titleright" style="padding-top:10px;"><b>2015 Election Results Website</b></div>
+    </div>
+     <div id="titleleft" style="padding-left:10px;"><b>2015 Election Results Website</b></div>
+    <div style="padding:0px;">
+    
+     
+    <div class="menudiv2">
+    <ul class="menu">
+    
+    <li><a class="menuhref" target="_top" href=".?type=general">General Election</a></li>
+    <li class="menuunselected">Borough Elections</li>
+    <li><a class="menuhref" target="_top" href=".?type=parish">Parish Elections</a></li>
+    
+    </ul>
+    </div>
+    
+  
+
+      
+      <hr />
+     
+      <div class="padd" style="padding-top:5px; padding-bottom:5px;">
+      <b>Chesterfield Borough Elections 2015</b>
+      </div><hr />
+    <div class="padd">
+
+    
+
+    Select a ward:
+    <select onchange="location.href = '.?ward=' + this.options[this.selectedIndex].value">
+     <option value="0">ALL WARDS</option>
+     
+       <option value="declared">ALL DECLARED WARDS</option>
+     
+      <option value="1">Barrow Hill and New Whittington</option>
+    
+      <option value="2">Brimington North</option>
+    
+      <option value="3">Brimington South</option>
+    
+      <option value="4">Brockwell</option>
+    
+      <option value="5">Dunston</option>
+    
+      <option value="6">Hasland</option>
+    
+      <option value="7">Hollingwood and Inkersall</option>
+    
+      <option value="8">Holmebrook</option>
+    
+      <option value="9">Linacre</option>
+    
+      <option value="10">Loundsley Green</option>
+    
+      <option value="11">Lowgates and Woodthorpe</option>
+    
+      <option value="12">Middlecroft and Poolsbrook</option>
+    
+      <option value="13">Moor</option>
+    
+      <option value="14">Old Whittington</option>
+    
+      <option value="15">Rother</option>
+    
+      <option value="16">St Helen’s</option>
+    
+      <option value="17">St Leonard’s</option>
+    
+      <option value="18">Walton</option>
+    
+      <option value="19">West</option>
+    
+    </select></div>
+    <hr />
+    
+    <script>
+
+
+    function isIE () {
+  var myNav = navigator.userAgent.toLowerCase();
+  return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : 10;
+}
+
+      var resultsin = 19;
+		var pieData = [
+				{ value: 38, color:'#FF0000', highlight: '#FF0000', label: 'Labour Party'},{ value: 9, color:'#FFCE2D', highlight: '#FFCE2D', label: 'Liberal Democrats'},{ value: 1, color:'#80007F', highlight: '#80007F', label: 'UK Independence Party'}
+
+			];
+
+				window.onload = function () {
+
+				    if (resultsin > 0) {
+                    
+                    if (isIE() > 8 )
+                    {
+                       var ctx = document.getElementById("chart-area").getContext("2d");
+				        window.myPie = new Chart(ctx).Pie(pieData);
+				        legend(document.getElementById("pieLegend"), pieData);
+
+                        }
+                         else
+                    {
+				         document.getElementById("canvas-holder").innerHTML = '<table style="width:400px;"><tr><td>Labour Party</td><td>38</td></tr><tr><td>Liberal Democrats</td><td>9</td></tr><tr><td>UK Independence Party</td><td>1</td></tr></table>';
+
+				    }
+				        $(".wardsquare").fadeIn(1000);
+                    }
+
+                   
+				};
+
+
+$(document).ready(function(){
+   
+        
+       
+    
+});
+
+
+
+	</script>
+	
+
+ 
+
+  
+	<div id="summary" style="max-width:1000px;">
+    <div class="padd" style="padding-bottom:10px; padding-top:10px;"><b><u>Results Summary</u></b></div>
+
+    
+
+     <div id="resultmap" id="Div1">
+     <img src="pics/map.png" style="width:400px;"/>
+     
+     <img src="pics/map1.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map2.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map3.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map4.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map5.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map6.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map7.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map8.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map9.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map10.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map11.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map12.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map13.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map14.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map15.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map16.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map17.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map18.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <img src="pics/map19.png" style="visibility:visible; width:400px; float:right; position:absolute; top:0px; left:0px;"/>
+     
+     <!--Barrow Hill and New Whittington-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:70px; left:200px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:70px; left:214px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:70px; left:228px; width:10px; height:10px; background-color:#80007F; border:solid 1px #000000;"></div>
+     <!--Brimmington North-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:119px; left:175px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:119px; left:189px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Brimmington South-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:168px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:182px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:196px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Brockwell-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:176px; left:85px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:190px; left:85px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:204px; left:85px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Dunston-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:125px; left:50px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:125px; left:64px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:125px; left:78px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Hasland-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:284px; left:135px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:284px; left:149px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:284px; left:163px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Hollingwood and Inkersall-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:261px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:275px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:171px; left:289px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Holmebrook-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:224px; left:73px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:224px; left:87px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Linacre-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:164px; left:30px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:164px; left:44px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <!--Loundsley Green-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:188px; left:38px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:188px; left:52px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Lowgates and Woodthorpe-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:88px; left:315px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:88px; left:329px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Middlecroft and Poolsbrook-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:140px; left:265px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:140px; left:279px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Moor-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:153px; left:100px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:153px; left:114px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Old Whittington-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:75px; left:80px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:75px; left:94px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Rother-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:260px; left:107px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:274px; left:107px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:288px; left:107px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--St Helen's-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:186px; left:112px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:186px; left:126px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--St Leonard's-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:233px; left:131px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:233px; left:145px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:233px; left:159px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <!--Walton-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:263px; left:47px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:263px; left:61px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:263px; left:75px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <!--West-->
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:238px; left:13px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:238px; left:27px; width:10px; height:10px; background-color:#FF0000; border:solid 1px #000000;"></div>
+     <div class="wardsquare" style="display:none; visibility:visible; position:absolute; top:238px; left:41px; width:10px; height:10px; background-color:#FFCE2D; border:solid 1px #000000;"></div>
+   
+    
+     </div>
+	
+    <div class="padd" style="width:60%; height:300px;">
+   
+    <div id="canvas-holder" style="padding-bottom:20px; float:left;">
+			<canvas id="chart-area" width="300" height="300"></canvas>
+			
+		</div>
+		<div id="pie">
+		<div id="pieLegend" style="width:210px; margin-left:8px;"></div>
+		</div>
+		</div>
+		
+		
+		</div>
+		<div style="clear:both;"></div>
+
+        
+        <hr style="margin-bottom:15px;"/>
+        
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Barrow Hill and New Whittington</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Barry Bingham</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Lisa-Marie Derbyshire</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Richard Bexton</td>
+   <td style="width:55%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Barry Bingham</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>975</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lisa-Marie Derbyshire</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>853</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Richard Bexton</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>795</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Joanne Iris Barnett</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>708</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Marion Thorpe</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>700</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Christopher Stone</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>660</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Christopher Kevin Edward Heels</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>634</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Jane Stephanie Collins</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>517</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andy Jakins</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>499</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lewis Mark Preston</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>266</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Linda Rowley</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>245</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Susan Gibbons</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>243</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Phillip Bailey</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>48</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Matt Whale</td>
+   <td style="width:45%; background-color:#7F0000; color:#FFFFFF">Trade Unionist and Socialist Coalition</td>
+   
+   <td>43</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Shelton Joseph Mann</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>15</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sissy McMahon</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>11</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>7212</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 59.87%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map1.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Brimington North</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">John Burrows</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Terry Frank Gilby</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">John Burrows</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1166</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Terry Frank Gilby</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1045</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Richard Gingell</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>275</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Harry Edward Holloway</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>234</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Jolyon James Favreau</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>208</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>2928</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 55.69%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map2.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Brimington South</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Ian William Callan</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Tricia Gilby</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Andy Bellamy</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Ian William Callan</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1763</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Tricia Gilby</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1699</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andy Bellamy</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1697</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Gibbons</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>849</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Joanne Favreau</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>740</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Keith Doran Shutler</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>649</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>7397</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 64.37%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map3.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Brockwell</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Maureen Davenport</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Steve Brunt</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">John Anthony Dickinson</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Maureen Davenport</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1382</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Steve Brunt</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1380</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">John Anthony Dickinson</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1317</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Ray Russell</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1291</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Jill Mannion-Brunt</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1273</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Chris Slack</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1047</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Stuart David Yeowart</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>664</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Simon John Temperton</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>566</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>8920</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 69.91%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map4.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Dunston</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Gordon Simmons</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Sarah Hollingworth</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Mark David Rayner</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Gordon Simmons</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1412</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sarah Hollingworth</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1404</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Mark David Rayner</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1401</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lee Anthony Cooper</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>653</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Alexander Joseff Millward</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>633</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Irene Wilkinson</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>499</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sue Christopher</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>476</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Patrick Proctor</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>475</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>6953</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 58.39%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map5.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Hasland</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Mick Brady</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Amanda Jayne Serjeant</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Andy Slack</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Mick Brady</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1649</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Amanda Jayne Serjeant</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1568</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andy Slack</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1502</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andrew Hollyer</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1114</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lorna Hall</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>859</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Steve Cadywould</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>839</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Anne Margaret Sterland</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>693</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>8224</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 65.72%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map6.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Hollingwood and Inkersall</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Helen Ann Elliott</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Barry Dyke</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Anthony Hill</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Helen Ann Elliott</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1803</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Barry Dyke</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1685</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Anthony Hill</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1507</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Mick Bagshaw</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>971</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Alan Mann</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>875</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Ruth Marina Perry</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>792</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andrew Jervis</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>661</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Claire Gratton</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>437</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>8731</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 60.72%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map7.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Holmebrook</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Stephen Paul Hitchin</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Suzie Perkins</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Stephen Paul Hitchin</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>997</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Suzie Perkins</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>973</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Keith Falconer</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>555</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Glenys Falconer</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>515</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Annetta Jean Woodhead</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>258</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Tommy Holgate</td>
+   <td style="width:45%; background-color:#00FFFF; color:#000000">Peace Party</td>
+   
+   <td>140</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3438</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 60.23%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map8.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Linacre</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Jeannie Barr</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Peter Ian Barr</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Jeannie Barr</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>773</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Peter Ian Barr</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>765</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Andrew Oakley</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>719</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Diane Marie Oakley</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>670</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Ian Leslie Jerram</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>441</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sharon Buxton</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>390</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Gordon Franklin Partington</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>354</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>4112</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 71.27%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map9.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Loundsley Green</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Avis Joan Murphy</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Mick Wall</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Avis Joan Murphy</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>984</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Mick Wall</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>902</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Christopher John Patrick Beirne</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>365</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Kevin John Maher</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>337</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Terry McMahon</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>307</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Richard Frederick Woodhead</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>270</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Luigi Postiglione</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>227</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3392</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 61.25%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map10.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Lowgates and Woodthorpe</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Dean Collins</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Lisa Kelly Collins</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Dean Collins</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1143</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lisa Kelly Collins</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1078</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Christopher Robert Austin</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>378</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Malcolm Benjamin Rowley</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>357</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Joe Mann</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>186</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Michelle Joan Mann</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>146</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3288</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 56.3%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map11.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Middlecroft and Poolsbrook</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Chris Ludlow</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Donald Parsons</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Chris Ludlow</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1302</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Donald Parsons</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1289</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Margaret Ann Moss</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>359</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Alice Georgina Blyth</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>344</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3294</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 54.45%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map12.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Moor</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Kate Caulfield</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Keith Brown</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Kate Caulfield</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>943</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Keith Brown</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>927</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Tony Rogers</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>669</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sonia Marie Allen</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>551</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lisa Kate Gingell</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>301</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3391</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 59.92%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map13.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Old Whittington</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Jean Mary Innes</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Peter Innes</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Jean Mary Innes</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>880</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Peter Innes</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>833</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Joan Bentley</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>498</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Laura Bentley</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>350</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Norman Andrews</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>324</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">John Arthur Rimington</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>317</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sean Vickers</td>
+   <td style="width:45%; background-color:#7F0000; color:#FFFFFF">Trade Unionist and Socialist Coalition</td>
+   
+   <td>65</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3267</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 57.5%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map14.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Rother</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Jenny Flood</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Stuart Brittain</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Keith Miles</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Jenny Flood</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1496</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Stuart Brittain</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1433</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Keith Miles</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1374</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Carl Walters</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>735</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Stella Louise Hunt</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>528</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Clive Archer</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>497</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Lisa Danielle Pritchard</td>
+   <td style="width:45%; background-color:#7F0000; color:#FFFFFF">Trade Unionist and Socialist Coalition</td>
+   
+   <td>313</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>6376</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 55.04%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map15.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>St Helen’s</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 2</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Helen Claire Bagley</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Tom Murphy</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Helen Claire Bagley</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1206</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Tom Murphy</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1148</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Keith Lomas</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>464</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Fran Lomas</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>398</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Daniel Wayne Marshall</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>223</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Michelle Elizabeth Stevenson-Briggs</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>221</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Jonathan James Wilkinson</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>215</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>3875</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 59.34%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map16.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>St Leonard’s</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Sharon Lesley Blank</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Ken Huckle</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Kate Sarvent</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Sharon Lesley Blank</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>2071</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Ken Huckle</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1832</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Kate Sarvent</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1715</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Shelley Dale</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>1020</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Maggie Cannon</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>966</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Yvette Denise Nicole Marsden</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>665</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Adrian Mather</td>
+   <td style="width:45%; background-color:#DDDDDD; color:#000000">Independent</td>
+   
+   <td>591</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>8860</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 64.75%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map17.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>Walton</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Alexis Saliou Diouf</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Vickey Diouf</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Nick Redihough</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Alexis Saliou Diouf</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1467</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Vickey Diouf</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1318</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Nick Redihough</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1165</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Helen Blair</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1131</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Graham Frederick Barnett</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1025</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Gordon Alexander McLaren</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1013</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Dale</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>990</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">James Liam Hunt</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>762</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Bentley Strafford-Stephenson</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>739</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>9610</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 75.54%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map18.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+   <div class="padd" style="padding-top:5px; padding-bottom:5px;"><b><u>West</u></b></div>
+   <div class="padd" style="float:left;">
+   
+   
+    <div style="padding-top:5px; padding-bottom:15px;">Seats: 3</div>
+    
+   
+  <div class="resulttable" style="width:100%;">
+   <table style="width:100%;">
+  <tr>
+  <td colspan="2" style="background-color:#666666; color:#FFFFFF;"><b>Elected Candidates</b></td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Howard Borrell</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Ray Catt</td>
+   <td style="width:55%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   </tr>
+   
+   <tr>
+   <td style="width:45%;">Shirley Anne Niblock</td>
+   <td style="width:55%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   </tr>
+   
+   </table></div>
+   <div style="padding-bottom:5px; padding-top:15px;"><b>Full Result</b></div>
+   
+ <div class="resulttable"><table style="width:100%;">
+  
+  <tr>
+  <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Candidate</b></td>
+   
+   
+    <td style="width:45%; background-color:#666666; color:#FFFFFF;"><b>Party</b></td>
+   <td style="width:10%; background-color:#666666; color:#FFFFFF;"><b>Votes</b></td>
+   
+  </tr>
+   
+   <tr>
+   <td style="width:45%">Howard Borrell</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1292</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Ray Catt</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1174</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Shirley Anne Niblock</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1115</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Adam Niblock</td>
+   <td style="width:45%; background-color:#FFCE2D; color:#000000">Liberal Democrats</td>
+   
+   <td>1051</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">John David Lee Boult</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>1011</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Sharon Wall</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>1008</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Rachel Rush</td>
+   <td style="width:45%; background-color:#FF0000; color:#FFFFFF">Labour Party</td>
+   
+   <td>985</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Marcus Stanton Linsey</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>865</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Nigel Robert Sterland</td>
+   <td style="width:45%; background-color:#0000FF; color:#FFFFFF">Conservative Party</td>
+   
+   <td>836</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Rod Harrison</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>559</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Robert Christopher Warwick</td>
+   <td style="width:45%; background-color:#80007F; color:#FFFFFF">UK Independence Party</td>
+   
+   <td>469</td>
+   
+   </tr>
+  
+   
+   <tr>
+   <td style="width:45%">Paul Packham</td>
+   <td style="width:45%; background-color:#7F0000; color:#FFFFFF">Trade Unionist and Socialist Coalition</td>
+   
+   <td>155</td>
+   
+   </tr>
+  
+   
+          <tr>
+          <td colspan="2"><b>Total Votes Cast</b></td>
+          <td>10520</td>
+          </tr>
+          
+          
+   
+    </table>
+      <div style="padding-top:10px;"><b>Voter turn out: 75.96%</b></div>
+   
+    </div>
+    </div>
+    <div class="rightmap" style="float:right;  position:relative;">
+     <img src="pics/map.png" class="rmapimg"/>
+   <img src="pics/map19.png" style="position:absolute; top:0px; left:0px;" class="rmapimg"/>
+  
+    
+    </div>
+    <div style="clear:both;"></div>
+    <hr style="margin-top:25px; margin-bottom:15px;"/>
+     
+ 
+    </div>
+  </div>
+  
+    </form>
+</body>
+</html>
