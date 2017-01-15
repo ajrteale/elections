@@ -1,17 +1,17 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Bromsgrove","Norton","C","Pete Lammas","Death",2017-01-19,
-"E Ayrshire","Kilmarnock E/Hurlford","SNP","James Buchanan","Death",2017-01-26,
-"E Staffs","Town","C","Karen Haberfield","Resignation",2017-02-02,
-"Rotherham","Brinsworth/Catcliffe","Lab","Andrew Roddison","Resignation",2017-02-02,
-"Rotherham","Dinnington","UKIP","Ian Finnie","Resignation",2017-02-02,
-"Corby","Kingswood/Hazel Leys","Lab","Kenneth Carratt","DQ (Non-attendance)",2017-02-09,
-"Cotswold","Fairford N","C","Abagail Beccle","Resignation",2017-02-09,
-"Fylde","St Johns","Fylde Ratepayers","Mark Bamforth","DQ (Non-attendance)",2017-02-09,
-"N Norfolk","Waterside","C","Ben Jarvis","DQ (Non-attendance)",2017-02-09,
-"Tendring","Gt/Lt Oakley","Ind","Tom Howard","Resignation",2017-02-09,
-"Dudley","St Thomas's","Lab","Glenis Simms","Resignation",2017-02-16,
-"Uttlesford","Elsenham/Henham","LD","Rory Gleeson","Resignation",2017-02-16,"Double vacancy"
-"Uttlesford","Elsenham/Henham","LD","Lizzie Parr","Resignation",2017-02-16,"Double vacancy"
+"Bromsgrove","Norton","C","Pete Lammas","Death","2017-01-19",
+"E Ayrshire","Kilmarnock E/Hurlford","SNP","James Buchanan","Death","2017-01-26",
+"E Staffs","Town","C","Karen Haberfield","Resignation","2017-02-02",
+"Rotherham","Brinsworth/Catcliffe","Lab","Andrew Roddison","Resignation","2017-02-02",
+"Rotherham","Dinnington","UKIP","Ian Finnie","Resignation","2017-02-02",
+"Corby","Kingswood/Hazel Leys","Lab","Kenneth Carratt","DQ (Non-attendance)","2017-02-09",
+"Cotswold","Fairford N","C","Abagail Beccle","Resignation","2017-02-09",
+"Fylde","St Johns","Fylde Ratepayers","Mark Bamforth","DQ (Non-attendance)","2017-02-09",
+"N Norfolk","Waterside","C","Ben Jarvis","DQ (Non-attendance)","2017-02-09",
+"Tendring","Gt/Lt Oakley","Ind","Tom Howard","Resignation","2017-02-09",
+"Dudley","St Thomas's","Lab","Glenis Simms","Resignation","2017-02-16",
+"Uttlesford","Elsenham/Henham","LD","Rory Gleeson","Resignation","2017-02-16","Double vacancy"
+"Uttlesford","Elsenham/Henham","LD","Lizzie Parr","Resignation","2017-02-16","Double vacancy"
 "Aylesbury Vale","Elmhurst","UKIP","Andy Hetherington","Resignation","Not yet called",
 "Basingstoke/Deane","Winklebury","C","Joseph Smith","Resignation","Not yet called",
 "Blackburn/Darwen","Hr Croft","Lab","Don McKinlay","Death","Not yet called",
@@ -22,6 +22,7 @@
 "Doncaster","Norton/Askern","Lab","Alan Jones","Death","Not yet called",
 "E Herts","Hertford Castle","C","Kevin Brush","Resignation","Not yet called",
 "Forest of Dean","Lydbrook/Ruardean","UKIP","Colin Guyton","Resignation","Not yet called","Cllr had left party"
+"Harrow","Roxbourne","Lab","Bob Currie","Death","Not yet called",
 "Havant","Emsworth S","C","Colin Mackey","Death","Not yet called",
 "Herefordshire","Leominster S","Ind","Peter McCaull","Death","Not yet called",
 "Oldham","Failsworth E","Lab","Jim McMahon MP","Resignation","Not yet called",
