@@ -1,8 +1,4 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Basingstoke/Deane","Winklebury","C","Joseph Smith","Resignation","2017-02-21",
-"Epping Forest","Chigwell Village","C","Lesley Wagland","Resignation","2017-02-23",
-"Kettering","Barton","C","Stephen Bellamy","Resignation","2017-02-23","Cllr had left party"
-"S Hams","Charterlands","C","Lindsay Ward","Resignation","2017-02-23",
 "Christchurch","Mudeford/Friars Cliff","C","Andy Barfield","Resignation","2017-03-02",
 "Redcar/Cleveland","Hutton","C","Valerie Halton","Resignation","2017-03-02",
 "Redcar/Cleveland","Newcomen","LD","Chris Abbott","Death","2017-03-02",
@@ -28,6 +24,8 @@
 "Exeter","St Thomas","Lab","Paul Bull","Death","Not yet called",
 "Havant","Emsworth","C","Colin Mackey","Death","Not yet called",
 "Kings Lynn/W Norfolk","Fairstead","Lab","Ian Gourlay","Death","Not yet called",
+"Melton","Melton Sysonby","C","Valerie Manderson","Death","Not yet called",
+"Mid Sussex","Bolney","C","John Allen","Death","Not yet called",
 "Preston","Preston Rural E","C","Tom Davies","Death","Not yet called",
 "Rugby","Coton/Boughton","C","Helen Taylor","Resignation","Not yet called",
 "Rugby","New Bilton","Lab","Steve Birkett","Resignation","Not yet called",
@@ -35,4 +33,5 @@
 "Stevenage","Roebuck","Lab","Sherma Batson","Death","Not yet called",
 "Stratford-on-Avon","Ettington","C","Philip Seccombe","Resignation","Not yet called",
 "Tendring","St James","UKIP","John Hughes","Death","Not yet called","Cllr had left party"
+"W Devon","Bere Ferrers","C","Mike Benson","Death","Not yet called",
 "Wirral","Claughton","Lab","Denise Roberts","Death","Not yet called",
