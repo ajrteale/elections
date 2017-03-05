@@ -1,8 +1,4 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Christchurch","Mudeford/Friars Cliff","C","Andy Barfield","Resignation","2017-03-02",
-"Redcar/Cleveland","Hutton","C","Valerie Halton","Resignation","2017-03-02",
-"Redcar/Cleveland","Newcomen","LD","Chris Abbott","Death","2017-03-02",
-"Salford","Kersal","Lab","Harry Davies","Death","2017-03-02",
 "Broxbourne","Waltham X","Lab","Malcolm Aitken","Death","2017-03-09",
 "Derby","Derwent","UKIP","Bill Wright","Death","2017-03-09",
 "E Herts","Hertford Castle","C","Kevin Brush","Resignation","2017-03-09",
@@ -20,6 +16,10 @@
 "Aylesbury Vale","Elmhurst","UKIP","Andy Hetherington","Resignation","2017-04-06",
 "Bath/NE Somerset","Walcot","LD","Lisa Brett","Resignation","2017-04-06",
 "Calderdale","Hipperholme/Lightcliffe","C","Graham Hall","Death","2017-04-06",
+"Tendring","St James","UKIP","John Hughes","Death","2017-04-06","Cllr had left party"
+"Blackburn/Darwen","Marsh House","Lab","John Roberts","Death","Not yet called",
+"C Beds","Shefford","C","Lewis Birt","Death","Not yet called",
+"Ches W/Chester","Blacon","Lab","Reg Jones","Resignation","Not yet called",
 "Doncaster","Norton/Askern","Lab","Alan Jones","Death","Not yet called",
 "Exeter","St Thomas","Lab","Paul Bull","Death","Not yet called",
 "Harrow","Kenton E","Lab","Mitzi Green","Death","Not yet called",
@@ -27,6 +27,7 @@
 "Ipswich","Stoke Park","C","Robin Hyde-Chambers","Resignation","Not yet called",
 "Kings Lynn/W Norfolk","Fairstead","Lab","Ian Gourlay","Death","Not yet called",
 "Malvern Hills","West","Grn","Julian Roskams","Resignation","Not yet called",
+"Manchester","Rusholme","Lab","Kate Chappell","Resignation","Not yet called","To be confirmed"
 "Melton","Melton Sysonby","C","Valerie Manderson","Death","Not yet called",
 "Mid Suffolk","Eye","Ind","Charles Flatman","Resignation","Not yet called",
 "Mid Sussex","Bolney","C","John Allen","Death","Not yet called",
@@ -35,11 +36,14 @@
 "Rugby","Coton/Boughton","C","Helen Taylor","Resignation","Not yet called",
 "Rugby","New Bilton","Lab","Steve Birkett","Resignation","Not yet called",
 "S Derbys","Woodville","C","Gill Farrington","Death","Not yet called",
+"S Somerset","Blackmoor Vale","C","Tim Inglefield","Not known","Not yet called",
 "Slough","Haymill/Lynch Hill","C","Darren Morris","Death","Not yet called",
+"Stafford","Highfields/Wn Downs","Lab","Maureen Bowen","Not known","Not yet called","Double vacancy"
+"Stafford","Highfields/Wn Downs","Lab","Stephen O'Connor","Not known","Not yet called","Double vacancy"
 "Stevenage","Roebuck","Lab","Sherma Batson","Death","Not yet called",
 "Stratford-on-Avon","Ettington","C","Philip Seccombe","Resignation","Not yet called",
-"Tendring","St James","UKIP","John Hughes","Death","Not yet called","Cllr had left party"
 "W Devon","Bere Ferrers","C","Mike Benson","Death","Not yet called",
+"W Dorset","Piddle Vy","C","Peter Hiscock","Not known","Not yet called",
 "Wirral","Claughton","Lab","Denise Roberts","Death","Not yet called",
 "Wyre Forest","Mitton","C","Sara Fearn","Resignation","Not yet called",
 "York","Micklegate","Lab","Julie Gunnell","Resignation","Not yet called","Resignation effective by 2017-03-31"
