@@ -1,0 +1,19 @@
+"Election for","Ward 6 - Mid Berwickshire"
+"Date","08 May 2017"
+"Number to be elected",3
+"Valid votes",4541
+"Invalid votes",0
+"Quota",1136.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","John GREENWELL (C)",,"Mark ROWLEY (C)",,"David SMITH (Lab)",,"Pauline STEWART (Grn)",,"Frances RENTON (LD)",
+"John GREENWELL (C)",1592,-456.00000,1136.00000,,1136.00000,,1136.00000,,1136.00000,,1136.00000,"Elected"
+"Donald MOFFAT (SNP)",962,+21.19582,983.19582,+12.06668,995.26250,+27.62120,1022.88370,+101.77243,1124.65613,+311.05589,1435.71202,"Elected"
+"Frances RENTON (LD)",539,+37.52233,576.52233,+88.45828,664.98061,+63.62493,728.60554,+87.60347,816.20901,-816.20901,"-",
+"Mark ROWLEY (C)",1096,+338.27383,1434.27383,-298.27383,1136.00000,,1136.00000,,1136.00000,,1136.00000,"Elected"
+"David SMITH (Lab)",175,+5.44217,180.44217,+19.35328,199.79545,-199.79545,"-",,"-",,"-",
+"Pauline STEWART (Grn)",177,+4.01002,181.01002,+19.97316,200.98318,+48.01851,249.00169,-249.00169,"-",,"-",
+"Non-transferable", ,+49.55583,49.55583,+158.42243,207.97826,+60.53081,268.50907,+59.62579,328.13486,+505.15312,833.28798,
+"Totals",4541,,4541.00000,,4541.00000,,4541.00000,,4541.00000,,4541.00000
