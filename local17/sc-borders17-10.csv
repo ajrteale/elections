@@ -1,0 +1,19 @@
+"Election for","Ward 10 - Hawick and Denholm"
+"Date","08 May 2017"
+"Number to be elected",3
+"Valid votes",3605
+"Invalid votes",0
+"Quota",902.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Stuart MARSHALL (Ind)",,"Neil RICHARDS (C)",,"Kevin FERGUSON (Grn)",,"David BYRNE (Lab)",,"Ian TURNBULL (LD)",
+"David BYRNE (Lab)",57,+41.13320,98.13320,+2.87008,101.00328,+12.86370,113.86698,-113.86698,"-",,"-",
+"Kevin FERGUSON (Grn)",51,+42.34300,93.34300,+2.11590,95.45890,-95.45890,"-",,"-",,"-",
+"Stuart MARSHALL (Ind)",2283,-1381.00000,902.00000,,902.00000,,902.00000,,902.00000,,902.00000,"Elected"
+"Clair RAMAGE (SNP)",478,+218.36890,696.36890,+1.07228,697.44118,+40.54954,737.99072,+25.80850,763.79922,+141.07766,904.87688,"Elected"
+"Neil RICHARDS (C)",596,+356.28610,952.28610,-50.28610,902.00000,,902.00000,,902.00000,,902.00000,"Elected"
+"Ian TURNBULL (LD)",140,+252.84820,392.84820,+17.36972,410.21792,+21.34394,431.56186,+38.94440,470.50626,-470.50626,"-",
+"Non-transferable", ,+470.02060,470.02060,+26.85812,496.87872,+20.70172,517.58044,+49.11408,566.69452,+329.42860,896.12312,
+"Totals",3605,,3605.00000,,3605.00000,,3605.00000,,3605.00000,,3605.00000
