@@ -10,9 +10,9 @@
    id="svg3776"
    viewBox="0 0 613.33 600"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="borders12cg.svg"
-   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\border\borders12cg.png"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="borders17cg.svg"
+   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\scotland\border\borders17cg.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,11 +59,13 @@
       <stop
          id="stop4445"
          stop-color="#FFF"
-         offset="0" />
+         offset="0"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4457"
          stop-color="#FFF"
-         offset="0.333" />
+         offset="0.333"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4455"
          stop-color="#00F"
@@ -93,11 +95,13 @@
       <stop
          id="stop4461"
          stop-color="#008000"
-         offset="0" />
+         offset="0"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4477"
          stop-color="#008000"
-         offset="0.25" />
+         offset="0.25"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4475"
          stop-color="#FF0"
@@ -121,11 +125,13 @@
       <stop
          id="stop4467"
          stop-color="#F0F"
-         offset="0.75" />
+         offset="0.75"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4463"
          stop-color="#F0F"
-         offset="1" />
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient4485"
@@ -187,11 +193,13 @@
       <stop
          id="stop4503"
          stop-color="#FF0"
-         offset="0.667" />
+         offset="0.667"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4499"
          stop-color="#FF0"
-         offset="1" />
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient4517"
@@ -212,9 +220,9 @@
          offset="0.33329999"
          stop-color="#00F"
          id="stop4249"
-         style="stop-color:#ffffff;stop-opacity:1" />
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:1"
+         style="stop-color:#0000ff;stop-opacity:1"
          id="stop4251"
          stop-color="#00F"
          offset="0.667" />
@@ -289,11 +297,13 @@
       <stop
          id="stop4547"
          stop-color="#F0F"
-         offset="0.667" />
+         offset="0.667"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4543"
          stop-color="#F0F"
-         offset="1" />
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient4561"
@@ -313,19 +323,23 @@
       <stop
          id="stop4567"
          stop-color="#FF0"
-         offset="0.333" />
+         offset="0.333"
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4565"
          stop-color="#FF0"
-         offset="0.667" />
+         offset="0.667"
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4563"
          stop-color="#008000"
-         offset="0.667" />
+         offset="0.667"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
          id="stop4559"
          stop-color="#008000"
-         offset="1" />
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient4577"
@@ -337,11 +351,13 @@
       <stop
          id="stop4573"
          stop-color="#FF0"
-         offset="0" />
+         offset="0"
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4585"
          stop-color="#FF0"
-         offset="0.333" />
+         offset="0.333"
+         style="stop-color:#008000;stop-opacity:1" />
       <stop
          id="stop4583"
          stop-color="#00F"
@@ -371,11 +387,13 @@
       <stop
          id="stop4589"
          stop-color="#FF0"
-         offset="0" />
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4601"
          stop-color="#FF0"
-         offset="0.333" />
+         offset="0.333"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4599"
          stop-color="#008000"
@@ -477,7 +495,7 @@
      d="m520.25,170.56c1.3281-0.52543,4.8837-0.92253,7.9014-0.88244l5.4866,0.0729-0.22129-2.5685c-0.20114-2.3347,0.0167-2.6507,2.3927-3.472,1.4377-0.49695,3.2753-1.2762,4.0835-1.7317,1.1572-0.6521,1.6565-0.57237,2.3493,0.3751,0.80634,1.1028,1.2568,1.0984,5.3937-0.0518,4.0819-1.1349,4.7342-1.1451,6.8156-0.10674,1.8322,0.91403,2.6382,0.96818,3.9513,0.26543,1.0693-0.57229,3.2905-0.7147,6.3147-0.40486,4.7917,0.49092,7.4041,0.0544,6.6806-1.1163-0.22552-0.36491,0.14327-1.8295,0.81954-3.2546,0.87908-1.8525,1.7994-2.6571,3.2284-2.8224,1.8912-0.21875,1.9988-0.4507,1.9988-4.3088,0-3.8295,0.15262-4.1672,2.5079-5.5499,1.3794-0.80975,3.7432-1.5074,5.2529-1.5505l2.745-0.0781,0.55343-6.0033c0.30438-3.3018,0.3791-8.1983,0.16604-10.881-0.43322-5.4549-0.0942-6.3085,2.785-7.0126,1.102-0.26949,3.5236-2.0099,5.3813-3.8676,2.3902-2.3902,3.9901-3.3776,5.4727-3.3776,1.5696,0,3.0876-1.0496,6.0522-4.1846,3.9331-4.1592,3.9502-4.1981,2.8099-6.4031-0.63097-1.2202-1.411-2.0554-1.7334-1.8562-0.32241,0.19925-1.0269-1.3937-1.5656-3.5399-0.53865-2.1462-1.236-4.2399-1.5496-4.6526-0.3136-0.41273-1.0035-2.7113-1.5331-5.1079-0.60515-2.7386-1.4726-4.6303-2.3348-5.0917-0.75453-0.40382-1.3719-1.2289-1.3719-1.8334,0-0.60457-0.54874-1.0992-1.2194-1.0992-0.92957,0-1.1218-0.49053-0.80872-2.0636,0.22589-1.135-0.0576-2.9078-0.63002-3.9397-0.5724-1.0318-1.0527-2.6358-1.0673-3.5645-0.0146-0.92864-0.33901-1.6884-0.72086-1.6884s-0.6817-2.1783-0.66635-4.8407c0.0216-3.7459-0.35449-5.4595-1.663-7.5767-1.4849-2.4026-1.9611-2.682-3.9076-2.2927-1.7721,0.35443-2.2924,0.15367-2.5943-1.0011-0.48289-1.8466-2.1964-2.5038-4.0048-1.536-1.1202,0.59954-1.5833,0.44269-2.2233-0.75311-0.44457-0.8307-1.2616-1.5104-1.8157-1.5104-0.55403,0-1.4277-0.50653-1.9415-1.1256-0.5138-0.61909-1.5766-1.1256-2.3617-1.1256-0.82602,0-1.7233-0.77785-2.1294-1.8461-0.38603-1.0153-1.4182-2.5624-2.2937-3.4379-1.4599-1.4599-1.4935-1.7005-0.40517-2.9031,1.5638-1.7279,1.4977-3.2218-0.24028-5.4312-1.2256-1.5582-1.2917-2.0668-0.46812-3.6057,0.86186-1.6104,0.69812-2.1545-1.6188-5.3795-2.9106-4.0514-5.2717-5.2521-6.6422-3.3778-1.7565,2.4022-9.9478,0.7058-16.108-3.336-1.0318-0.67697-2.8857-1.4757-4.1198-1.775-1.234-0.29927-2.416-0.78847-2.6265-1.0871-0.80411-1.1408-6.244-4.9151-7.4126-5.1429-0.67358-0.13135-3.2458-0.23638-5.716-0.23341-3.4107,0.004-4.9454,0.37596-6.3785,1.5455-4.0366,3.2943-7.8868,4.5504-12.342,4.0268-2.2981-0.27009-4.1783-0.79062-4.1783-1.1567,0-1.4038-4.451-2.263-12.757-2.4627-9.6098-0.23104-11.256-0.64482-11.256-2.8289,0-1.0138-0.35883-1.3631-1.1058-1.0765-0.60818,0.23338-1.368,0.0162-1.6884-0.48253-0.32046-0.49877-1.4269-0.90685-2.4587-0.90685-1.1035,0-1.876-0.43057-1.876-1.0456,0-0.65431-0.98281-1.1248-2.6264-1.2573-2.3918-0.19285-2.9952,0.21356-6.7537,4.549-2.27,2.6184-4.8539,4.9552-5.7419,5.1928-1.7831,0.47709-5.5143,6.2532-5.5143,8.5363,0,0.79755-0.84422,2.6941-1.876,4.2146s-1.876,3.2728-1.876,3.894c0,0.62123-1.1819,2.3465-2.6264,3.8339-1.4446,1.4874-2.6265,2.9379-2.6265,3.2234,0,1.3236,2.8004,2.915,4.3956,2.4978,1.6107-0.4212,1.6834-0.28597,1.208,2.2478-0.76013,4.0518,1.054,10.252,3.2989,11.275,1,0.45564,2.2183,1.78,2.7073,2.9429,0.48899,1.163,2.5512,3.201,4.5826,4.529,3.3838,2.212,3.7276,2.7101,4.0998,5.9391,0.47066,4.084,0.0987,3.6232,4.6787,5.794,4.4494,2.1088,6.6775,1.6603,10.051-2.023,2.4138-2.6352,2.5323-2.6769,3.599-1.2665,1.4045,1.857,1.4017,2.3308-0.0391,6.5593-1.5621,4.5845-0.52603,7.8558,3.8852,12.267,2.9663,2.9663,3.4336,3.1837,5.3105,2.4701,1.7191-0.65362,2.2488-0.5419,3.217,0.67851,0.63747,0.80352,1.9188,1.6885,2.8475,1.9666,0.92864,0.27814,1.6884,1.0833,1.6884,1.7892,0,1.7773,2.6412,3.8683,4.8863,3.8683,2.0488,0,2.3041,0.78371,1.0304,3.1635-0.81989,1.532-0.7364,1.5537,4.0786,1.0604l4.9156-0.50361,0.23633,2.4352c0.17655,1.8191-0.28573,3.0045-1.8273,4.6856-1.135,1.2378-2.0636,2.8741-2.0636,3.6362,0,1.008-0.46031,1.3203-1.6884,1.1456-1.0691-0.15207-1.6502-0.72171-1.5842-1.553,0.12771-1.6087-1.4606-1.7176-2.7307-0.18724-0.5138,0.61909-1.886,1.1256-3.0492,1.1256-1.1633,0-2.3272,0.34319-2.5864,0.76265-0.25924,0.41946-0.79015,0.56564-1.1798,0.32483-0.38963-0.2408-2.5897,0.10909-4.8891,0.77753-2.8492,0.82829-4.4703,0.97502-5.09,0.46071-1.5836-1.3142-4.2196-0.67099-4.1932,1.0232,0.0366,2.3463,1.7993,4.1552,4.0491,4.1552,1.6542,0,1.9474,0.26475,1.5791,1.4254-0.3102,0.97736,0.13634,1.8885,1.4206,2.8987l1.873,1.4733-1.8685,1.7554c-1.0277,0.96544-1.6839,2.2365-1.4582,2.8245,0.22565,0.58804,0.0597,1.4916-0.36892,2.008-0.57335,0.69084-0.0812,1.5517,1.8631,3.2588,2.6312,2.3102,3.3757,4.2475,1.8302,4.7627-0.45519,0.15173,0.35602,2.0065,1.8458,4.2204,2.2895,3.4021,2.5525,4.2269,1.8977,5.9493-0.64355,1.6927-0.5065,2.1911,0.89262,3.2464,1.2465,0.94023,1.3947,1.3366,0.60286,1.6122-0.85551,0.29775-0.80675,0.64,0.26318,1.8474,0.72228,0.81507,1.3132,2.3251,1.3132,3.3557,0,2.8937,2.9652,5.2569,5.8676,4.6764,2.305-0.461,6.8895,0.82487,6.8895,1.9324,0,0.29659,1.3866,0.99689,3.0814,1.5562,1.6948,0.55932,3.2505,1.4576,3.4572,1.9961,0.46062,1.2004,0.45491,1.2003,3.4286,0.0239z" />
   <text
      id="text3812"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -486,9 +504,7 @@
      font-variant="normal"
      y="458.81354"
      x="258.79282"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3814"
        x="260.29282"
        y="458.81354">Hawick &amp; </tspan><tspan
@@ -497,7 +513,7 @@
        y="470.81354">Hermitage</tspan></text>
   <text
      id="text3816"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -506,15 +522,13 @@
      font-variant="normal"
      y="409.02481"
      x="334.78903"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3820"
        x="334.78903"
        y="409.02481">Hawick &amp; Denholm</tspan></text>
   <text
      id="text3822"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -523,9 +537,7 @@
      font-variant="normal"
      y="340.78049"
      x="394.59167"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3824"
        x="396.09167"
        y="340.78049">Jedburgh </tspan><tspan
@@ -534,7 +546,7 @@
        y="352.78049">&amp; District</tspan></text>
   <text
      id="text3832"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -543,15 +555,13 @@
      font-variant="normal"
      y="349.37225"
      x="194.3922"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3834"
        x="194.3922"
        y="349.37225">Selkirkshire</tspan></text>
   <text
      id="text3836"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -560,9 +570,7 @@
      font-variant="normal"
      y="314.86856"
      x="492.45557"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3840"
        x="493.95557"
        y="314.86856">Kelso &amp; </tspan><tspan
@@ -571,25 +579,23 @@
        y="326.86856">District</tspan></text>
   <text
      id="text3842"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
-     transform="matrix(0.1707218,-0.98531927,0.98531927,0.1707218,0,0)"
+     transform="rotate(-80.170211)"
      font-style="normal"
      font-stretch="normal"
      font-size="12px"
      font-variant="normal"
      y="96.280174"
      x="-225.42412"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3844"
        x="-225.42412"
        y="96.280174">Tweeddale W.</tspan></text>
   <text
      id="text3846"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -598,15 +604,13 @@
      font-variant="normal"
      y="265.53296"
      x="180.44199"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3848"
        x="180.44199"
        y="265.53296">Tweeddale E.</tspan></text>
   <text
      id="text3856"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -615,15 +619,13 @@
      font-variant="normal"
      y="165.2267"
      x="219.66838"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3860"
        x="219.66838"
        y="165.2267">Galashiels &amp; District</tspan></text>
   <text
      id="text3850"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -632,9 +634,7 @@
      font-variant="normal"
      y="176.28299"
      x="343.54105"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3852"
        x="343.54105"
        y="176.28299">Leaderdale</tspan><tspan
@@ -643,7 +643,7 @@
        y="188.28299">&amp; Melrose</tspan></text>
   <text
      id="text3862"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -652,15 +652,13 @@
      font-variant="normal"
      y="149.10828"
      x="435.19586"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3864"
        x="435.19586"
        y="149.10828">Mid Berwickshire</tspan></text>
   <text
      id="text3866"
-     style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
      font-weight="normal"
      xml:space="preserve"
      font-size="12px"
@@ -669,9 +667,7 @@
      font-variant="normal"
      y="76.536209"
      x="541.10565"
-     font-family="Palatino Linotype"
-     line-height="100%"
-     fill="#000000"><tspan
+     line-height="100%"><tspan
        id="tspan3870"
        x="541.10565"
        y="76.536209">East Berwickshire</tspan></text>
