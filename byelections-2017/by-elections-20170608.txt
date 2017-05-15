@@ -11,7 +11,7 @@ James Angus GALLOWAY, 21 Jemmett Road, Ashford TN23 4QD [Liberal Democrats]
 Serge GOLDENBERG, 42 Beaver Road, Ashford TN23 7RP [UKIP]
 Maria Ann PIZZEY, 24 Lynsted Close, Ashford TN23 5RZ [The Green Party]
 David ROBEY, The Old Farmhouse, Faversham Road, Throwley, Faversham ME13 0JN [The Conservative Party Candidate]
-Charles SUDDARDS, 35 Queen Street, Ashford [Labour Party Candidate]
+Charles SUDDARDS, 35 Queen Street, Ashford TN23 1RF [Labour Party Candidate]
 
 BLACKBURN WITH DARWEN, HIGHER CROFT
 
@@ -23,29 +23,29 @@ BROADLAND, COLTISHALL
 
 Jo COPPLESTONE, Breck Farm, Reepham Road, Swannington, Norwich NR9 5TB [The Conservative Party Candidate]
 Bob GRINDROD, 4 Westbourne Road, Coltishall, Norwich NR12 7HT [Independent]
-Stephen MCNAIR, 14 The Street, Coltishall NR12 7AW [Labour Party]
+Stephen MCNAIR, 14 The Street, St James, Coltishall, Norwich NR12 7AW [Labour Party]
 James Henry SPARSHATT, Lodge Cottage, 3 Great Hautbois Road, Coltishall, Norwich NR12 7JN [Liberal Democrats]
 
 BROMSGROVE, ALVECHURCH VILLAGE
 
 Siobhan Amy HUGHES, 4a West Road, Bromsgrove B60 2NQ [Liberal Democrats]
-Luisa Jane NIXON, 1 St Laurence Close, Alvechurch B48 7RD [The Conservative Party Candidate]
-Kate VAN DER PLANK, 11 Swan Street, Alvechurch B48 7RR [Independent]
-Kenneth Donald WHEATLEY, 24 Buckleys Green, Alvechurch B48 7NG [Independent]
+Luisa Jane NIXON, 1 St Laurence Close, Alvechurch, Birmingham B48 7RD [The Conservative Party Candidate]
+Kate VAN DER PLANK, 11 Swan Street, Alvechurch, Birmingham B48 7RR [Independent]
+Kenneth Donald WHEATLEY, 24 Buckleys Green, Alvechurch, Birmingham B48 7NG [Independent]
 
 BURY, RADCLIFFE EAST
 
-Robert Andrew GRAHAM, 114 Cross Lane, Radcliffe M26 2RF [Liberal Democrats]
+Robert Andrew GRAHAM, 114 Cross Lane, Radcliffe, Manchester M26 2RF [Liberal Democrats]
 Nicole Paule HAYDOCK, 18 Guiseley Close, Bury BL9 5JR [The Green Party]
 Karen Ann LEACH, 49 Queens Place, Bury BL9 5PH [Labour Party]
-James Anthony MASON, 109 Bury and Bolton Road, Radcliffe M26 4JY [The Conservative Party Candidate]
+James Anthony MASON, 109 Bury and Bolton Road, Radcliffe, Manchester M26 4JY [The Conservative Party Candidate]
 
 CALDERDALE, RASTRICK
 
 Barry Edward CROSSLAND, 101 Elland Lane, Elland HX5 9EP [Green Party]
-Kathy HAIGH-HUTCHINSON, 127 Halifax Road, Brighouse HD6 3ED [Liberal Democrats]
+Kathy HAIGH-HUTCHINSON, 127 Halifax Road, Brighouse HD6 2ED [Liberal Democrats]
 Colin Hugh HUTCHINSON, 11 Heath Villas, Halifax HX3 0BB [Labour Party]
-Sophie Jane WHITTAKER, 1 The Orchards, Rastrick, Brighouse HD6 3NZ [The Conservative Party Candidate]
+Sophie Jane WHITTAKER, 1 The Orchards, Brighouse HD6 3NZ [The Conservative Party Candidate]
 
 CALDERDALE, TODMORDEN
 
@@ -70,21 +70,21 @@ CORNWALL, BODMIN ST PETROC
 
 Sylvia BERRY, Kismet, 1 Gwel-an-Nans Close, Liskeard PL14 4JQ [The Conservative Party Candidate]
 Leigh Lansbury FROST, 4 Western Terrace, Bodmin PL31 1LB [Liberal Democrats]
-John Ronald GIBBS, Liddells, 6 Church Square, Bodmin [Mebyon Kernow - The Party For Cornwall]
-Marc Leslie THORNE, Lanet Farmhouse, St Lawrence Road, Bodmin PL30 5JL [Labour Party]
+John Ronald GIBBS, Liddells, 6 Church Square, Bodmin PL31 2DP [Mebyon Kernow - The Party For Cornwall]
+Marc Leslie THORNE, Lanet Farmhouse, Bodmin PL30 5JL [Labour Party]
 
 CRAWLEY, POUND HILL SOUTH AND WORTH
 
-Daniel ELLIOTT, 7 The Pasture, Pound Hill, Crawley RH10 7AP [Green Party]
-Colin FLACK, 9 Newbury Road, Pound Hill, Crawley RH10 7SF [The Labour Party Candidate]
+Daniel ELLIOTT, 7 The Pasture, Crawley RH10 7AP [Green Party]
+Colin FLACK, 9 Newbury Road, Crawley RH10 7SF [The Labour Party Candidate]
 Harry OLD, 69 Arden Road, Crawley RH10 6HL [Liberal Democrat]
-Alison PENDLINGTON, 30 Westfield Road, Crawley RH11 7BY [The Conservative Party Candidate]
-Janet Elizabeth SETFORD-THOMPSON, 54 Jewel Walk, Bewbush, Crawley RH11 8NZ [UK Independence PArty (UKIP)]
+Alison PENDLINGTON, 30 Westfield Road, Crawley RH11 7BT [The Conservative Party Candidate]
+Janet Elizabeth SETFORD-THOMPSON, 54 Jewel Walk, Crawley RH11 8NZ [UK Independence PArty (UKIP)]
 
 DACORUM, BOVINGDON FLAUNDEN AND CHPPERFIELD
 
 Graham BARRETT, Green Farm, Bovingdon Green, Bovingdon, Hemel Hempstead HP3 0LF [The Conservative Party Candidate]
-Michael CHAPMAN, Greenacres, Stoney Lane, Bovingdon HP3 0DP [Liberal Democrats]
+Michael CHAPMAN, Greenacres, Stoney Lane, Bovingdon, Hemel Hempstead HP3 0DP [Liberal Democrats]
 
 HAMMERSMITH AND FULHAM, AVONMORE AND BROOK GREEN
 
@@ -95,7 +95,7 @@ Irina VON WIESE, 87 Cardross Street, London W6 0DP [Liberal Democrats]
 HAMMERSMITH AND FULHAM, SANDS END
 
 Jackie BORLAND, 959a Fulham Road, London SW6 5HY [The Conservative Pary Candidate]
-Ray BURNET, 25 Dwyer House, Townmead Road, London SW6 2NZ [Liberal Democrats]
+Ray BURNET, Flat 25, Dwyer House, 2 Townmead Road, London SW6 2NZ [Liberal Democrats]
 Ann ROSENBERG, 72 Peterborough Road, London SW6 3EB [Labour Party]
 
 LEICESTER, CASTLE
@@ -116,9 +116,9 @@ Eric WOODWARD, Malvern House, Alfriston Road, Seaford BN25 3QG [Uk Independence 
 LIVERPOOL, KIRKDALE
 
 Lisa GAUGHAN, 5 Fleming Court, Liverpool L3 6LE [Labour Party]
-Chris HALL, Flat 5, 38 Ullet Road, Sefton Park, Liverpool L17 3BP [The Conservative Party Candidate]
-Martyn Paul MADELEY, 32 Cottesbrook Close, Norris Green, Liverpool L11 3AB [Green Party]
-Robert Charles MCALLISTER-BELL, 76 Church Road West, Walton, Liverpool L4 5UF [Liberal Democrats]
+Chris HALL, Flat 5, 38 Ullet Road, Liverpool L17 3BP [The Conservative Party Candidate]
+Martyn Paul MADELEY, 32 Cottesbrook Close, Liverpool L11 3AB [Green Party]
+Robert Charles MCALLISTER-BELL, 76 Church Road West, Liverpool L4 5UF [Liberal Democrats]
 
 LUTON, SUNDON PARK
 
@@ -130,10 +130,10 @@ Martin ROGERS, 92 Rossfold Road, Luton LU3 3HJ [Labour Party]
 MERTHYR TYDFIL, CYFARTHFA [3]
 
 Paul BROWN, 11 Salisbury Close, Heolgerrig, Merthyr Tydfil CF48 1SD [Merthyr Independents]
-David CHAPLIN, 21 Monmouth Drive, Castle Park, Merthyr Tydfil CF48 1JA [Welsh Labour / Llafur Cymru]
-Margaret Gwlithyn DAVIES, 306 Twyncarmel, Swansea Road, Merthyr Tydfil CF48 1PP [Welsh Labour / Llafur Cymru]
+David CHAPLIN, 21 Monmouth Drive, Merthyr Tydfil CF48 1JA [Welsh Labour / Llafur Cymru]
+Margaret Gwlithyn DAVIES, 306 Twyn Carmel, Merthyr Tydfil CF48 1PP [Welsh Labour / Llafur Cymru]
 Carol Barbara ESTEBANEZ, 12 St Davids Close, Heolgerrig, Merthyr Tydfil CF48 1SH [Welsh Labour / Llafur Cymru]
-Mark John EVANS, 5 Shirley Drive, Heolgerrig CF48 1SE [Plaid Cymru - The Party of Wales]
+Mark John EVANS, 5 Shirley Drive, Heolgerrig, Merthyr Tydfil CF48 1SE [Plaid Cymru - The Party of Wales]
 Bleddyn William HANCOCK, Seren y Nos, 3 Cae Deri, Heolgerrig, Merthyr Tydfil CF48 1BY [Independent / Annibynnol]
 Geraint Vaughan THOMAS, 77 Heolgerrig, Merthyr Tydfil CF48 1SB [Independent]
 Terry THOMAS, 22 Harlech Drive, Merthyr Tydfil CF48 1JX [Merthyr Independents]
@@ -142,10 +142,10 @@ MID SUSSEX, HASSOCKS [2]
 
 Viv ALOY, 6 Hannington Place, Hurstpierpoint, Hassocks BN6 9XY [Green Party Candidate]
 Michelle BINKS, 5 Clayton Park, Hassocks BN6 8JQ [Conservative Party Candidate]
-Jessica EDWARDS, 2 Challow Close, Clayton, Hassocks BN6 8JW [Conservative Party Candidate]
+Jessica EDWARDS, 2 Challow Close, Hassocks BN6 8JW [Conservative Party Candidate]
 Susan Margaret HATTON, 40 Wilmington Close, Hassocks BN6 8QB [Liberal Democrats]
 Will MATTHEWS, 19 Friars Close, Hassocks BN6 8PL [Labour Party]
-Gemma Jane STOCKFORD, Luearn, Brighton Road, Hassocks BN6 9LQ [Liberal Democrats]
+Gemma Jane STOCKFORD, Luearn, Brighton Road, Hassocks BN6 9LY [Liberal Democrats]
 Harry William Mitchell YOUNG, 2 Beards Folly Cottages, New Way Lane, Hurstpierpoint, Hassocks BN6 9BD [Labour Party]
 
 NORTH KESTEVEN, ASHBY DE LA LAUNDE AND CRANWELL
@@ -155,12 +155,12 @@ Dan GRAY, 18 Longcroft Drive, Cranwell, Sleaford NG34 8EA [The Conservative Part
 
 NORTH KESTEVEN, HEIGHINGTON AND WASHINGBOROUGH
 
-Edward HERRING, Washingborough Hall Hotel, Church Hill, Washingborough, Lincoln LN4 1BE [The Conservative Party Candidate]
+Edward HERRING, Washingborough Hall Hotel, Washingborough, Lincoln LN4 1BE [The Conservative Party Candidate]
 Les WHITFIELD, 3 Burland Court, Washingborough, Lincoln LN4 1HL [Liberal Democrats]
 
 NORTH LINCOLNSHIRE, BRUMBY
 
-Dave CARSWELL, 313 Grange Lane Sough, Bottesford, Scunthorpe DN16 3HL [UK Independence Party (UKIP)]
+Dave CARSWELL, 313 Grange Lane South, Scunthorpe DN16 3NL [UK Independence Party (UKIP)]
 Paul ELSOM, 19 Ferriby Road, Scunthorpe DN17 2ER
 Janet LONGCAKE, 9 Inglewood Court, Scunthorpe DN16 3LE [Conservative]
 Stephen John SWIFT, 85 Valley View Drive, Scunthorpe DN16 3SY [Labour Party]
@@ -168,23 +168,23 @@ Graham WAGSTAFFE, 89 Kingsway, Scunthorpe DN15 7ER
 
 OLDHAM, ROYTON NORTH
 
-Alan Robert FISH, Sandpiper, Perth Street, Heyside, Royton OL2 6LY [The Conservative Party Candidate]
-Russ GOSLING, 29 Albert Street, Royton OL2 5UF [Liberal Democrats]
+Alan Robert FISH, Sandpiper, Perth Street, Royton, Oldham OL2 6LY [The Conservative Party Candidate]
+Russ GOSLING, 29 Albert Street, Royton, Oldham OL2 5UF [Liberal Democrats]
 Clint PHYTHIAN, 4 Stottfield, Royton, Oldham OL2 5EJ [Labour Party]
 Lina SHAW, 39 Scafell Close, Oldham OL1 3JR [Green Party]
 
 PETERBOROUGH, EAST
 
-Jay BEECHER, 7 Seargeant's Close, Newborough PE6 7QU [The Conservative Party Candidate]
+Jay BEECHER, 7 Seargeants Close, Newborough, Peterborough PE6 7QU [The Conservative Party Candidate]
 Matthew MAHABADI, 18 Grafton Avenue, Peterborough PE3 9PD [Labour and Co-operative Party]
-Jelana STEVIC, 12 St Michael Gate, Parnwell, Peterborough PE1 4YJ [Liberal Democrats]
+Jelana STEVIC, 12 St Michaels Gate, Peterborough PE1 4YJ [Liberal Democrats]
 Graham John WHITEHEAD, 25 Sallows Road, Peterborough PE1 4EX [UK Independence Party (UKIP)]
 
 SALFORD, CLAREMONT
 
-Stuart CREMINS, 13 Copeland Avenue, Salford M27 8SH [The Republic Party]
-Stef LORENZ, 34 Algernon Street, Eccles M30 9QA [Liberal Democrats]
-Neil Andrew REYNOLDS, 30 Stancliffe Drive, Pendlebury, Salford M27 4FU [Labour Party]
+Stuart CREMINS, 13 Copeland Avenue, Clifton, Swinton, Manchester M27 8SH [The Republic Party]
+Stef LORENZ, 34 Algernon Street, Eccles, Manchester M30 9QA [Liberal Democrats]
+Neil Andrew REYNOLDS, 30 Stancliffe Drive, Pendlebury, Swinton, Manchester M27 4FU [Labour Party]
 Daniel TOWERS, 3 Velour Close, Salford M3 6AQ [The Green Party]
 Charlotte WOODS, Apartment 45, Walker House, 6 Elmira Way, Salford M5 3DU [The Conservative Party Candidate]
 
@@ -194,30 +194,30 @@ Becky CRAWFORD, 36 Lowfield Road, Stockport SK3 8JS [Labour Party]
 Ros LLOYD, 26 Roundcroft, Romiley, Stockport SK6 4LL [The Conservative Party Candidate]
 Alex ORNDAL, 7 Pendle Walk, Stockport SK5 7JL [Liberal Democrats]
 John Chapman PEARSON, 21 Goyt Avenue, Marple, Stockport SK6 7JR [End Austerity]
-James Thomas PELHAM, 29 Charles Street, Hillgate, Stockport SK1 3JR [The Green Party]
+James Thomas PELHAM, 29 Charles Street, Stockport SK1 3JR [The Green Party]
 
 TORRIDGE, HARTLAND AND BRADWORTHY
 
-Jane LEAPER, 2 Coastguard Houses, Stoke EX39 6DU [Liberal Democrats]
+Jane LEAPER, 2 Coastguard Houses, Stoke, Hartland, Bideford EX39 6DU [Liberal Democrats]
 John Edward SANDERS, 20 Langdon Road, Bradworthy, Holsworthy EX22 7SF [Green Party]
 
 WELWYN HATFIELD, HATFIELD VILLAGES
 
 Peter HEBDEN, 10 Lowlands, Hatfield AL9 5DY [The Conservative Party Candidate]
 Tara-Mary LYONS, 42 Wild Hill, Hatfield AL9 6DS [Labour Party]
-Jane QUINTON, 29 Lemsford Village, Welwyn Garden City AL8 7TN [Liberal Democrats]
+Jane QUINTON, 29 Lemsford Village, Lemsford, Welwyn Garden City AL8 7TN [Liberal Democrats]
 
 WEST BERKSHIRE, THATCHAM SOUTH AND CROOKHAM
 
 Jason Paul COLLIS, 23 Cowslip Crescent, Thatcham RG18 4DF [The Conservative Party Candidate]
 Nick EAST, 6 Thames Road, Thatcham RG18 3DP [Labour Party]
 Owen Edward JEFFERY, The Cottage, 20 Park Lane, Thatcham RG18 3PJ [Liberal Democrats]
-Steve MASTERS, Bottle Cottage, Station Road, Woolhampton RG7 5SF [The Green Party Candidate]
+Steve MASTERS, Bottle Cottage, Station Road, Woolhampton, Reading RG7 5SF [The Green Party Candidate]
 
 WEST LANCASHIRE, AUGHTON PARK
 
-Bernie GREEN, 93a Hallbridge Gardens, Up Holland WN8 0EP [Labour Party]
-Doreen Joan STEPHENSON, Turbury Farm, 10 Shaw Close, Shirdley Hill, Halsall, Ormskirk L39 8SJ [The Conservative Party Candidate]
+Bernie GREEN, 93a Hallbridge Gardens, Upholland, Skelmersdale WN8 0EP [Labour Party]
+Doreen Joan STEPHENSON, Turberry Farm, 10 Shaw Close, Halsall, Ormskirk L39 8SJ [The Conservative Party Candidate]
 
 YORK, HULL ROAD
 
