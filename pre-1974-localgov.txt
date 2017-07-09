@@ -4,13 +4,20 @@ ANGLESEY
 
 Boroughs reformed by MCA 1835: Beaumaris
 
+Urban districts created by LGA 1894: Amlwch, Holyhead, Llangefni, Menai Bridge
+
 BEDFORDSHIRE
 
 Boroughs reformed by MCA 1835: Bedford
 
 Dunstable MB incorporated 1864
 Luton MB incorporated 1876
+
+Urban districts created by LGA 1894: Biggleswade, Leighton Buzzard
+
 Luton became CB 1964
+
+Leighton Buzzard UD absorbed by Leighton-Linslade UD 1965
 
 BERKSHIRE
 
@@ -22,15 +29,21 @@ CBs in 1889: Reading
 
 Boundary adjusted 1889 to exclude part of Oxford CB
 
+Urban districts created by LGA 1894: Wantage
+
 BRECKNOCKSHIRE
 
 Boroughs reformed by MCA 1835: Brecknock
 
 Boundary adjusted 1889 to exclude parts of Ebbw Vale USD (to Monmouthshire), Merthyr Tydfil USD (to Glamorgan), Tredegar USD (to Monmouthshire)
 
+Urban districts created by LGA 1894: Brynmawr, Builth Wells, Hay, Llanwrtyd Wells
+
 BUCKINGHAMSHIRE
 
 Boroughs reformed by MCA 1835: Buckingham, Chepping Wycombe
+
+Urban districts created by LGA 1894: Aylesbury, Beaconsfield, Chesham, Eton, Slough
 
 Aylesbury MB incorporated 1917
 
@@ -45,6 +58,10 @@ Boroughs reformed by MCA 1835: Caernarfon (earlier Carnarvon), Pwllheli
 Bangor MB incorporated 1883
 Conway MB incorporated 1885
 
+Urban districts created by LGA 1894: Bethesda, Betws-y-Coed, Criccieth, Llandudno (or Llandudno cum Eglwys Rhos), Llanfairfechan, Penmaenmawr, Ynyscynhaiarn
+
+Ynyscynhaiarn UD renamed Porthmadog UD 1915
+
 CAMBRIDGESHIRE
 
 Boroughs reformed by MCA 1835: Cambridge, Wisbech
@@ -53,19 +70,29 @@ Boundary adjusted 1889 to exclude part of Newmarket USD (to West Suffolk)
 
 Wisbech MB transferred to Isle of Ely 1889-1965
 
+Urban districts created by LGA 1894: Chesterton
+
+Chesterton UD absorbed by Cambridge MB 1912
+
 CARDIGANSHIRE
 
 Boroughs reformed by MCA 1835: Aberystwyth, Cardigan
 
 Lampeter MB incorporated 1884
 
+Urban districts created by LGA 1894: Aberayron, New Quay
+
+Aberayron UD renamed Aberaeron UD 1966
+
 CARMARTHENSHIRE
 
 Boroughs reformed by MCA 1835: Carmarthen, Llandovery
 
 Kidwelly MB incorporated 1885
-Llanelly MB incorporated 1913
 
+Urban districts created by LGA 1894: Ammanford, Burry Port, Cwmamman, Llandeilo, Llanelly, Newcastle Emlyn
+
+Llanelly MB incorporated 1913
 Llanelly MB renamed Llanelli MB 1966
 
 CHESHIRE
@@ -81,12 +108,24 @@ CBs in 1889: Birkenhead, Chester, part of Stockport
 
 Boundary adjusted 1889 to exclude part of Mossley USD (to Lancashire), New Mills USD (to Derbyshire), Warrington USD (to Lancashire)
 
+Urban districts created by LGA 1894: Alderley Edge, Alsager, Altrincham, Ashton upon Mersey, Bollington, Bowdon, Bredbury and Romiley, Bromborough, Buglawton, Cheadle and Gatley, Dukinfield, Higher Bebington, Hollingworth, Hoole, Lower Bebington, Lymm, Marple, Middlewich, Mottram in Longdendale, Nantwich, Neston and Parkgate, Northwich, Runcorn, Sale, Sandbach, Tarporley, Wallasey, West Kirby and Hoylake, Wilmslow, Winsford, Yeardsley cum Whaley
+
+West Kirby and Hoylake UD renamed Hoylake and West Kirby UD 1897
 Dukinfield MB incorporated 1899
 Wallasey MB incorporated 1910
 Wallasey became CB 1913
+Bromborough UD, Higher Bebington UD and Lower Bebington UD merged into Bebington and Bromborough UD 1922
+Ashton upon Mersey UD absorbed by Sale UD 1930
+Hoylake and West Kirby UD renamed Hoylake UD 1933
+Neston and Parkgate UD renamed Neston UD 1933
 Sale MB incorporated 1935
+Buglawton UD abolished 1936, absorbed by Congleton MB and Macclesfield RD
+Hollingworth UD and Mottram in Longdendale UD merged into Longdendale UD 1936
+Tarporley UD abolished 1936, absorbed by Northwich RD
+Yeardsley cum Whaley UD abolished 1936, absorbed by Whaley Bridge UD (Derbyshire) and Disley RD
 Altrincham MB incorporated 1937
 Bebington MB incorporated 1937
+Hoole UD abolished 1954, absorbed by Chester CB and Chester RD
 Ellesmere Port MB incorporated 1955
 
 CORNWALL
@@ -95,11 +134,16 @@ Boroughs reformed by MCA 1835: Bodmin, Famlmouth, Helston, Launceston (or Launce
 
 Lostwithiel MB incorporated 1885
 Saltash MB incorporated 1885
+
+Urban districts created by LGA 1894: Camborne, Hayle, Ludgvan, Madron, Newquay, Padstow, Paul, Phillack, Redruth, St Austell
+
 Fowey MB incorporated 1913
-
+Camborne UD and Redruth UD merged into Camborne-Redruth UD 1934
+Hayle UD, Ludgvan UD and Phillack UD abolished 1934, absorbed by West Penwith RD
+Madron UD abolished 1934, absorbed by Penzance MB and West Penwith RD
 Lostwithiel MB absorbed by St Austell RD 1967
-
-Fowey MB absorbed by St Austell with Fowey MB 1968
+Fowey MB and St Austell UD absorbed by St Austell with Fowey MB 1968
+Padstow UD absorbed by Wadebridge and Padstow UD 1968
 
 CUMBERLAND
 
