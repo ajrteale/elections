@@ -933,12 +933,13 @@ CBs in 1889: Birmingham, Coventry
 
 Boundary adjusted 1889 to exclude part of Hinckley USD (to Leicestershire), Redditch USD (to Worcestershire), Tamworth USD (to Staffordshire)
 
+Urban districts created by LGA 1894: Aston Manor, Bulkington, Erdington, Kenilworth, Nuneaton and Chilvers Cotton, Rugby
+
 Aston Manor MB incorporated 1903
-Nuneaton MB incorporated 1907
-
-Aston Manor MB absorbed by Birmingham BC 1911
-
+Nuneaton and Chilvers Cotton UD incorporated as Nuneaton MB 1907
+Aston Manor MB and Erdington UD absorbed by Birmingham BC 1911
 Rugby MB incorporated 1932
+Bulkington UD abolished 1932, absorbed by Rugby RD
 Solihull MB incorporated 1954
 Solihull became CB 1964
 
@@ -1036,15 +1037,57 @@ Boundary adjusted 1889 to exclude part of Crowle USD (to Lincolnshire Lindsey), 
 Ossett MB incorporated 1890
 Brighouse MB incorporated 1893
 
-Urban districts created by LGA 1894: Todmorden
+Urban districts created by LGA 1894: Altofts, Ardsley, Baildon, Barkisland, Barnoldswick, Bingley, Bingley Outer, Birkenshaw, Birstall, Burley in Wharfedale, Calverley, Castleford, Clayton, Clayton West, Cleckheaton, Darton, Denby and Cumberworth, Denholme, Dodworth, Drighlington, Eccleshill, Elland, Emley, Farnley Tyas, Farsley, Featherstone, Flockton, Fulstone, Gildersome, Golcar, Gomersal, Goole, Greasborough, Greetland, Guiseley, Gunthwaite and Ingbirchworth, Handsworth, Haworth, Hebden Bridge, Heckmondwike, Hepworth, Hipperholme, Holme, Holmfirth, Honley, Horbury, Horsforth, Hoyland Nether, Hoyland Swaine, Hunsworth, Idle, Ilkley, Kirkburton, Kirkheaton, Knaresborough and Tentergate, Knottingley, Lepton, Linthwaite, Liversedge, Luddenden Foot, Marsden, Meltham, Methley, Mexborough, Midgley, Monk Bretton, Mytholmroyd, Netherthong, Normanton, North Bierley, Northowram, Oakworth, Otley, Oxenhope, Penistone, Pudsey, Queensbury, Quickmere Middle Division, Ravensthorpe, Rawdon,  Rawmarsh, Rishworth, Rothwell, Sandal Magna, Scammonden, Scholes, Selby, Shelf, Shelley, Shepley, Shipley, Silsden, Skelmanthorpe, Skipton, Slaithwaite, Soothill Nether, Soothill Upper, South Crosland, Southowram, Sowerby, Sowerby Bridge, Soyland, Stainland, Stocksbridge, Swinton, Thornhill, Thornton, Thurlstone, Thurstonland, Tickhill, Todmorden, Tong, Upper Mill, Warley, Wath upon Dearne, Whitley Upper, Whitwood, Wilsden, Wombwell, Worsborough, Yeadon
 
+Fulstone UD, Hepworth UD and Scholes UD merged into New Mill UD 1895
+Knaresborough and Tentergate UD renamed Knaresborough UD 1895
+Quickmere Middle Division UD abolished 1895, absorbed by Springhead UD
 Todmorden MB incorporated 1896
+Bingley Outer UD and Wilsden UD abolished 1898, absorbed by Bingley UD
+Eccleshill UD, Idle UD, North Bierley UD, Thornton UD and Tong UD abolished 1899, absorbed by Bradford CB
+Northowram UD and Warley UD abolished 1900, absorbed by Halifax CB
 Pudsey MB incorporated 1900
+Upper Mill UD abolished 1900, aborbed by Saddleworth UD
 Rotherham became CB 1902
+Sandal Magna UD abolished 1909, absorbed by Wakefield MB
+Ravensthorpe UD, Soothill Nether UD and Thornhill UD abolished 1910, absorbed by Dewsbury MB
+Soothill Upper UD abolished 1910, divided between Batley MB and Dewsbury MB
+Netherthong UD abolished 1912, absorbed by Holmfirth UD
 Barnsley became CB 1913
 Dewsbury became CB 1913
+Cleckheaton UD, Gomersal UD and Liversedge UD merged into Spenborough UD 1915
 Wakefield became CB 1915
-oncaster became CB 1927
+Ardsley UD and Monk Bretton UD abolished 1921, absorbed by Barnsley CB
+Handsworth UD abolished 1921, absorbed by Sheffield CB
+Farnley Tyas UD and Thurstonland UD merged into Thurstonland and Farnley Tyas UD 1925
+Sowerby Bridge UD abolished 1926, absorbed by Sowerby UD
+Doncaster became CB 1927
+Clayton UD abolished 1930, absorbed by Bradford CB
 Goole MB incorporated 1933
+Greasbrough UD abolished 1936, divided between Rotherham CB, Rawmarsh UD and Rotherham RD
+Barkisland UD, Rishworth UD and Soyland UD abolished 1937, absorbed by Ripponden UD
+Birkenshaw UD and Hunsworth UD abolished 1937, absorbed by Spenborough UD
+Birstall UD abolished 1937, absorbed by Batley MB
+Burley in Wharfedale UD abolished 1937, absorbed by Ilkley UD
+Calverley UD and Farsley UD abolished 1937, absorbed by Pudsey MB
+Drighlington UD and Gildersome UD abolished 1937, absorbed by Morley MB
+Golcar UD, Linthwaite UD, Marsden UD, Scammonden UD and Slaithwaite UD abolished 1937, absorbed by Colne Valley UD with parts of Golcar UD and Linthwaite UD transferred to Hudersfield CB
+Greetland UD and Stainland UD abolished 1937, absorbed by Elland UD (part of Stainland UD transferred to Hudderfield CB)
+Guiseley UD, Rawdon UD and Yeadon UD merged into Aireborough UD 1938 (part of Guiseley UD transferred to Ilkley UD, part of Rawdon UD transferred to Bradford CB and Horsforth UD, part of Yeadon UD transferred to Bradford CB)
+Hebden Bridge UD and Mytholmroyd UD merged into Hebden Royd UD 1937
+Hipperholme UD abolished 1937, absorbed by Brighouse MB
+Luddenden Foot UD and Sowerby UD abolished 1937, absorbed by Sowerby Bridge UD (part of Sowerby UD transferred to Ripponden UD)
+Methley UD abolished 1937, divided between Castleford UD and Rothwell UD
+Queensbury UD and Shelf UD merged into Queensbury and Shelf UD 1937
+Altofts UD abolished 1938, absorbed by Normanton MB (UD?)
+Clayton West UD, Denby and Cumberworth UD, Emley UD and Skelmanthorpe UD merged into Denby Dale UD 1938
+Flockton UD, Kirkheaton UD, Lepton UD, Shelley UD, Shepley UD and Whitley Upper UD abolished 1938, absorbed by Kirkburton UD (parts of Kirkheaton UD and Lepton UD transferred to Huddersfield CB)
+Haworth UD, Oakworth UD and Oxenhope UD abolished 1938, absorbed by Keighley MB
+Gunthwaite and Ingbirchworth UD abolished 1938, absorbed by Penistone RD
+Holme UD, Honley UD and South Crosland UD abolished 1938, absorbed by Holmfirth UD (part of Holme UD transferred to Penistone RD, part of South Crosland UD transferred to Huddersfield CB and Meltham UD)
+Hoyland Swaine UD and Thurlstone UD abolished 1938, absorbed by Penistone UD (part of Thurlstone UD transferred to Penistone RD)
+Whitwood UD abolished 1937, divided between Castleford UD and Rothwell UD
+Midgley UD abolished 1939, divided between Sowerby Bridge UD and Hepton RD
 Castleford MB incorporated 1955
 Spenborough MB incorporated 1955
+Worsborough UD renamed Worsbrough UD 1956
