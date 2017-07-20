@@ -124,6 +124,7 @@ Hale UD created 1900
 Hazel Grove and Bramhall UD created 1900
 Compstall UD created 1902
 Ellesmere Port and Whitby UD created 1902
+Handforth UD created 1904
 Wallasey MB incorporated 1910
 Wallasey became CB 1913
 Bromborough UD, Higher Bebington UD and Lower Bebington UD merged into Bebington and Bromborough UD 1922
@@ -134,6 +135,7 @@ Neston and Parkgate UD renamed Neston UD 1933
 Sale MB incorporated 1935
 Buglawton UD abolished 1936, absorbed by Congleton MB and Macclesfield RD
 Compstall UD abolished 1936, divided between Hyde MB and Bredbury and Romiley UD
+Handforth UD abolished 1936, divided between Cheadle and Gatley UD and Wilmslow UD
 Hollingworth UD and Mottram in Longdendale UD merged into Longdendale UD 1936
 Tarporley UD abolished 1936, absorbed by Northwich RD
 Yeardsley cum Whaley UD abolished 1936, absorbed by Whaley Bridge UD (Derbyshire) and Disley RD
@@ -156,6 +158,7 @@ Looe UD created 1898
 Wadebridge UD created 1898
 Stratton and Bude UD created 1900
 Callington UD created 1901
+Torpoint UD created 1904
 Fowey MB incorporated 1913
 Callington UD abolished 1934, absorbed by St Germans RD
 Camborne UD and Redruth UD merged into Camborne-Redruth UD 1934
@@ -402,6 +405,7 @@ Itchen UD created 1898
 Eastleigh UD renamed Eastleigh and Bishopstoke UD 1899
 Bournemouth became CB 1900
 Pokesdown UD abolished 1901, absorbed by Bournemouth CB
+Fleet UD created 1904
 Itchen UD abolished 1920, absorbed by Southampton CB
 Aldershot MB incorporated 1922
 Gosport and Alverstoke UD incorporated as Gosport MB 1922
@@ -693,10 +697,14 @@ Urban districts created by LGA 1894: Acton, Brentford, Chiswick, Ealing, Edmonto
 South Hornsey UD abolished 1900, transferred to County of London and absorbed by Islington MetB and Stoke Newington MetB
 Ealing MB incorporated 1901
 Hornsey MB incorporated 1903
+Feltham UD created 1904
+Hayes UD created 1904
+Ruislip-Northwood UD created 1904
 Acton MB incorporated 1921
 Twickenham MB incorporated 1926
 Greenford UD abolished 1926, absorbed by Ealing MB
 Brentford UD and Chiswick UD merged into Brentford and Chiswick UD 1927
+Hayes UD renamed Hayes and Harlington UD 1930
 Brentford and Chiswick MB incorporated 1932
 Hendon MB incorporated 1932
 Heston and Isleworth MB incorporated 1932
@@ -909,6 +917,7 @@ Uttoxeter UD created 1896
 Amblecote UD created 1898
 Smethwick MB incorporated 1899
 Burton upon Trent became CB 1901
+Wolstanton United UD created 1904
 Smethwick became CB 1907
 Burslem MB, Hanley MB, Longton MB, Stoke upon Trent MB, Fenton UD and Tunstall UD absorbed by Stoke-on-Trent CB 1910
 Handswoth UD abolished 1911, absorbed by Birmingham CB
@@ -916,6 +925,7 @@ Smallthorne UD abolished 1922, absorbed by Stoke-on-Trent CB
 Wednesfield Heath UD abolished 1927, absorbed by Wolverhampton CB
 Perry Barr UD abolished 1928, divided between Birmingham CB, West Bromwich CB and Sutton Coldfield MB
 Audley UD abolished 1932, divided between Newcastle-under-Lyme MB, Kidsgrove UD and Newcastle-under-Lyme RD
+WOlstanton United UD abolished 1932, absorbed by Newcastle-under-Lyme MB
 Bilston MB incorporated 1933
 Rowley Regis MB incorporated 1933
 Quarry Bank UD abolished 1934, absorbed by Brierley Hill UD
@@ -951,6 +961,8 @@ Urban districts created by LGA 1894: Felixstowe, Stowmarket, Woodbridge
 Leiston-cum-Sizewell UD created 1895
 Halesworth UD created 1900
 Saxmundham UD created 1900
+Oulton Broad UD created 1904
+Oulton Broad UD abolished 1919, absorbed by Lowestoft MB
 
 WEST SUFFOLK
 
