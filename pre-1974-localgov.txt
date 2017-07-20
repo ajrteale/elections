@@ -287,6 +287,7 @@ Tanfield UD created 1895
 Annfield Plain UD created 1896
 Crook UD created 1898
 West Hartlepool became CB 1902
+Chester-le-Street UD created 1909
 Darlington became CB 1915
 Southwick on Wear UD abolished 1928, absorbed by Sunderland CB
 Benfieldside UD abolished 1937, absorbed by Consett UD
@@ -358,6 +359,7 @@ CBs in 1889: Cardiff, Swansea
 Urban districts created by LGA 1894: Aberdare, Barry, Bridgend, Briton Ferry, Caerphilly, Glyncorwg, Maesteg, Margam, Merthyr Tydfil, Mountain Ash, Ogmore and Garw, Oystermouth, Penarth, Pontypridd, Porthcawl, Rhondda
 
 Merthyr Tydfil MB incorporated 1905
+Gelligaer UD created 1908
 Merthyr Tydfil became CB 1908
 Oystermouth UD absorbed by Swansea CB 1918
 Aberavon MB and Margam UD merged to form Port Talbot MB 1921
@@ -998,6 +1000,7 @@ Caterham UD created 1899
 Wimbledon MB incorporated 1905
 Egham UD created 1906
 Merton UD created 1907
+Windlesham UD created 1909
 Merton UD renamed Merton and Morden UD 1913
 Sutton UD renamed Sutton and Cheam UD 1928
 Caterham UD renamed Caterham and Warlingham UD 1929
@@ -1006,6 +1009,7 @@ Barnes MB incorporated 1932
 East and West Molesey UD and Esher and the Dittons UD merged into Esher UD 1933
 Ham UD abolished 1933, divided between Kingston-upon-Thames MB and Richmond MB
 Walton upon Thames UD and Weybridge UD merged as Walton and Weybridge UD 1933
+Windlesham UD abolished 1933, absorbed by Bagshot RD
 Epsom UD renamed Epsom and Ewell UD 1934
 Mitcham MB incorporated 1934
 Sutton and Cheam MB incorporated 1934
@@ -1209,6 +1213,9 @@ Pudsey MB incorporated 1900
 Upper Mill UD abolished 1900, absorbed by new Saddleworth UD
 Wheatley UD created 1900
 Rotherham became CB 1902
+Garforth UD created 1908
+Thurnscoe UD created 1908
+Earby UD created 1909
 Sandal Magna UD abolished 1909, absorbed by Wakefield MB
 Ravensthorpe UD, Soothill Nether UD and Thornhill UD abolished 1910, absorbed by Dewsbury MB
 Soothill Upper UD abolished 1910, divided between Batley MB and Dewsbury MB
@@ -1230,7 +1237,7 @@ Ardsley East and West UD, Drighlington UD and Gildersome UD abolished 1937, abso
 Barkisland UD, Rishworth UD and Soyland UD abolished 1937, absorbed by Ripponden UD
 Birkenshaw UD and Hunsworth UD abolished 1937, absorbed by Spenborough UD
 Birstall UD abolished 1937, absorbed by Batley MB
-Bolton upon Dearne UD abolishe 1937, absorbed by Dearne UD
+Bolton upon Dearne UD and Thurnscoe UD merged into Dearne UD 1937
 Burley in Wharfedale UD abolished 1937, absorbed by Ilkley UD
 Calverley UD and Farsley UD abolished 1937, absorbed by Pudsey MB
 Golcar UD, Linthwaite UD, Marsden UD, Scammonden UD and Slaithwaite UD abolished 1937, absorbed by Colne Valley UD with parts of Golcar UD and Linthwaite UD transferred to Hudersfield CB
