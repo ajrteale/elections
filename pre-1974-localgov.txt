@@ -54,6 +54,8 @@ Linslade UD created 1897
 Newport Pagnell UD created 1897
 Fenny Stratford UD renamed Bletchley UD 1911
 Aylesbury MB incorporated 1917
+Stratford and Wolverton UD created 1919
+Stratford and Wolverton UD renamed Wolverton UD 1920
 Slough MB incorporated 1938
 Chepping Wycombe MB renamed High Wycombe MB 1946
 Linslade UD abolished 1965, absorbed by Leighton-Linslade UD and transferred to Bedfordshire
@@ -216,6 +218,7 @@ Urban districts created by LGA 1894: Alfreton, Alvaston and Boulton, Ashbourne, 
 
 Newbold and Dunston UD and Whittington UD merged into Whittington and Newbold UD 1911
 Buxton UD and Fairfield UD incorporated as Buxton MB 1917
+Whittington and Newbold UD abolished 1920, absorbed by Chesterfield MB
 Matlock UD and Matlock Bath and Scarthin Nick UD merged as The Matlocks UD 1924
 Alvaston and Boulton UD abolished 1934, absorbed by Shardlow RD
 Baslow and Bubnell UD abolished 1934, absorbed by Bakewell RD
@@ -249,8 +252,10 @@ St Mary Church UD abolished 1900, absorbed by Torquay MB
 St Thomas the Apostle UD abolished 1900, absorbed by Exeter CB
 Heavitree UD abolished 1913, absorbed by Exeter CB
 Devonport MB and East Stonehouse UD abolished 1914, absorbed by Plymouth CB
+Axminster UD created 1915
 Bampton UD abolished 1935, absorbed by Tiverton RD
 Ivybridge UD abolished 1935, absorbed by Plympton St Mary RD
+Axminster UD abolished 1953, absorbed by Axminster RD
 Holsworthy UD abolished 1964, absorbed by Holsworthy RD
 Tavistock UD abolished 1966, absorbed by Tavistock RD
 Torquay MB, Brixham UD, Paignton UD absorbed by Torbay CB 1968
@@ -323,6 +328,7 @@ Brentwood UD created 1899
 Loughton UD created 1900
 Frinton on Sea UD created 1901
 East Ham MB incorporated 1904
+Tilbury UD created 1912
 Leigh-on-Sea UD abolished 1913, absorbed by Southend-on-Sea MB
 Southend-on-Sea became CB 1914
 East Ham became CB 1915
@@ -335,7 +341,7 @@ Shoeburyness UD abolished 1933, absorbed by Southend on Sea CB
 Braintree UD renamed Braintree and Bocking UD 1934
 Frinton on Sea UD and Walton on the Naze UD merged into Frinton and Walton UD 1934
 Wanstead UD and Woodford UD merged into Wanstead and Woodford UD 1934
-Grays Thurrock UD abolished 1936, absorbed by new Thurrock UD
+Grays Thurrock UD and Tilbury UD merged into Thurrock UD 1936
 Romford MB incorporated 1937
 Wanstead and Woodford MB incorporated 1937
 Chingford MB incorporated 1938
@@ -437,6 +443,8 @@ Hemel Hempstead MB incorporated 1898
 Rickmansworth UD created 1898
 Sawbridgeworth UD created 1901
 Bushey UD created 1906
+Chorleywood UD created 1913
+Letchworth UD created 1919
 Watford MB incorporated 1922
 East Barnet Valley UD renamed East Barnet UD 1935
 Great Berkhampstead UD renamed Berkhamsted UD 1937
@@ -605,6 +613,7 @@ CBs in 1889: Leicester
 
 Urban districts created by LGA 1894: Ashby de la Zouch, Ashby Woulds, Coalville, Hinckley, Market Harborough (transferred from Northamptonshire 1896), Melton Mowbray, Quorndon, Shepshed, Thurmaston, Wigston Magna
 
+Oadby UD created 1913
 Wigston Magna UD renamed Wigston UD 1930
 Quorndon UD abolished 1935, absorbed by Loughborough MB
 Thurmaston UD abolished 1935, absorbed by Leicester CB
@@ -705,10 +714,12 @@ Hornsey MB incorporated 1903
 Feltham UD created 1904
 Hayes UD created 1904
 Ruislip-Northwood UD created 1904
+Yiewsley UD created 1911
 Acton MB incorporated 1921
 Twickenham MB incorporated 1926
 Greenford UD abolished 1926, absorbed by Ealing MB
 Brentford UD and Chiswick UD merged into Brentford and Chiswick UD 1927
+Yiewsley UD renamed Yiewsley and West Drayton UD 1929
 Hayes UD renamed Hayes and Harlington UD 1930
 Brentford and Chiswick MB incorporated 1932
 Hendon MB incorporated 1932
@@ -804,9 +815,12 @@ Wallsend MB incorporated 1901
 Tynemouth became CB 1904
 Benwell and Fenham UD and Walker UD abolished 1904, absorbed by Newcastle upon Tyne CB
 Cowpen UD abolished 1907, absorbed by Blyth UD
+Prudhoe UD created 1910
 Willington Quay UD abolished 1910, absorbed by Wallsend MB
+Longbenton UD created 1912
+Seaton Delaval UD created 1912
 Blyth MB incorporated 1922
-Cramlington UD, Earsdon UD and Seghill UD merged into Seaton Valley UD 1935 (parts of Earsdon UD transferred to Tynemouth CB and Whitley Bay UD)
+Cramlington UD, Earsdon UD, Seaton Delaval UD and Seghill UD merged into Seaton Valley UD 1935 (parts of Earsdon UD transferred to Tynemouth CB and Whitley Bay UD, parts of Seaton Delaval UD transferred to Blyth MB and Whitley Bay UD)
 Rothbury UD abolished 1935, absorbed by Rothbury RD
 Weetslade UD abolished 1935, absorbed by Longbenton UD
 Whitley and Monkseaton UD renamed Whitley Bay UD 1944
@@ -859,6 +873,8 @@ Urban districts created by LGA 1894: Knighton, Llandrindod Wells, Presteigne
 
 RUTLAND
 
+Oakham UD created 191
+
 SHROPSHIRE
 
 Boroughs reformed by MCA 1835: Bridgnorth, Ludlow, Oswestry, Shrewsbury, Wenlock (or Much Wenlock)
@@ -870,6 +886,8 @@ Urban districts created by LGA 1894: Dawley, Ellesmere, Newport, Wellington, Whi
 Whitchurch and Dodington UD renamed Whitchurch UD 1895
 Oakengates UD created 1898
 Wem UD created 1900
+Market Drayton UD created 1914
+Market Drayton UD abolished 1966, absorbed by Market Drayton RD
 Bishop's Castle MB absorbed by Clun RD 1967
 Bridgnorth MB absorbed by Bridgnorth RD 1967
 Ellesmere UD, Wem UD and Whitchurch UD absorbed by North Shropshire RD 1967
@@ -967,6 +985,7 @@ Leiston-cum-Sizewell UD created 1895
 Halesworth UD created 1900
 Saxmundham UD created 1900
 Oulton Broad UD created 1904
+Bungay UD created 1910
 Oulton Broad UD abolished 1919, absorbed by Lowestoft MB
 
 WEST SUFFOLK
@@ -1001,7 +1020,11 @@ Wimbledon MB incorporated 1905
 Egham UD created 1906
 Merton UD created 1907
 Windlesham UD created 1909
+Haslemere UD created 1913
 Merton UD renamed Merton and Morden UD 1913
+Beddington and Wallington UD created 1915
+Coulsdon and Pudley UD created 1915
+Mitcham UD created 1915
 Sutton UD renamed Sutton and Cheam UD 1928
 Caterham UD renamed Caterham and Warlingham UD 1929
 Frimley UD renamed Frimley and Camberley UD 1929
@@ -1219,10 +1242,12 @@ Earby UD created 1909
 Sandal Magna UD abolished 1909, absorbed by Wakefield MB
 Ravensthorpe UD, Soothill Nether UD and Thornhill UD abolished 1910, absorbed by Dewsbury MB
 Soothill Upper UD abolished 1910, divided between Batley MB and Dewsbury MB
+Bentley with Arksey UD created 1911
 Netherthong UD abolished 1912, absorbed by Holmfirth UD
 Barnsley became CB 1913
 Dewsbury became CB 1913
 Balby with Hexthorpe UD and Wheatley UD abolished 1914, absorbed by Doncaster MB
+Adwick le Street UD created 1915
 Cleckheaton UD, Gomersal UD and Liversedge UD merged into Spenborough UD 1915
 Wakefield became CB 1915
 Ardsley UD and Monk Bretton UD abolished 1921, absorbed by Barnsley CB
