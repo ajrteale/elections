@@ -120,6 +120,8 @@ Urban districts created by LGA 1894: Alderley Edge, Alsager, Altrincham, Ashton 
 Knutsford UD created 1895
 West Kirby and Hoylake UD renamed Hoylake and West Kirby UD 1897
 Dukinfield MB incorporated 1899
+Hale UD created 1900
+Hazel Grove and Bramhall UD created 1900
 Wallasey MB incorporated 1910
 Wallasey became CB 1913
 Bromborough UD, Higher Bebington UD and Lower Bebington UD merged into Bebington and Bromborough UD 1922
@@ -148,10 +150,12 @@ Urban districts created by LGA 1894: Camborne, Hayle, Ludgvan, Madron, Newquay, 
 St Just UD created 1897
 Looe UD created 1898
 Wadebridge UD created 1898
+Stratton and Bude UD created 1900
 Fowey MB incorporated 1913
 Camborne UD and Redruth UD merged into Camborne-Redruth UD 1934
 Hayle UD, Ludgvan UD and Phillack UD abolished 1934, absorbed by West Penwith RD
 Madron UD abolished 1934, absorbed by Penzance MB and West Penwith RD
+Stratton and Bude UD renamed Bude-Stratton UD 1934
 Wadebridge UD abolished 1934, absorbed by Wadebridge RD
 Lostwithiel MB absorbed by St Austell RD 1967
 Fowey MB and St Austell UD absorbed by St Austell with Fowey MB 1968
@@ -231,12 +235,14 @@ Heavitree UD created 1896
 Ashburton UD created 1898
 Tavistock UD created 1898
 Cockington UD abolished 1900, absorbed by Newton Abbot RD
+Holsworthy UD created 1900
 St Mary Church UD abolished 1900, absorbed by Torquay MB
 St Thomas the Apostle UD abolished 1900, absorbed by Exeter CB
 Heavitree UD abolished 1913, absorbed by Exeter CB
 Devonport MB and East Stonehouse UD abolished 1914, absorbed by Plymouth CB
 Bampton UD abolished 1935, absorbed by Tiverton RD
 Ivybridge UD abolished 1935, absorbed by Plympton St Mary RD
+Holsworthy UD abolished 1964, absorbed by Holsworthy RD
 Tavistock UD abolished 1966, absorbed by Tavistock RD
 Torquay MB, Brixham UD, Paignton UD absorbed by Torbay CB 1968
 South Molton MB absorbed by South Molton RD 1968
@@ -304,6 +310,7 @@ Leigh-on-Sea UD created 1897
 Burnham-on-Crouch UD created 1898
 Wivenhoe UD created 1898
 Brentwood UD created 1899
+Loughton UD create 1900
 East Ham MB incorporated 1904
 Leigh-on-Sea UD abolished 1913, absorbed by Southend-on-Sea MB
 Southend-on-Sea became CB 1914
@@ -312,7 +319,7 @@ Ilford MB incorporated 1926
 Leyton MB incorporated 1926
 Walthamstow MB incorporated 1926 or 1929 (?)
 Barking Town UD incorporated 1931 as Barking MB
-Buckhurst Hill UD abolished 1933, absorbed by new Chigwell UD
+Buckhurst Hill UD and Loughton UD abolished 1933, absorbed by new Chigwell UD
 Shoeburyness UD abolished 1933, absorbed by Southend on Sea CB
 Braintree UD renamed Braintree and Bocking 1934
 Walton on the Naze UD abolished 1934, absorbed by new Frinton and Walton UD
@@ -469,6 +476,7 @@ Urban districts created by LGA 1894: Ashford, Beckenham, Bexley, Broadstairs and
 
 Cheriton UD created 1898
 Penge UD created 1899
+Chislehurst UD created 1900
 Bromley MB incorporated 1903
 Gillingham MB incorporated 1903
 Milton next Sittingbourne UD renamed Milton Regis UD 1907
@@ -476,6 +484,7 @@ Tunbridge Wells MB renamed Royal Tunbridge Wells MB 1909
 Milton Regis UD and Sittingbourne UD merged into Sittingbourne and Milton UD 1930
 Dartford MB incorporated 1933
 Cheriton UD and Sandgate UD abolished 1934, absorbed by Folkestone MB and Hythe MB
+Chislehurst UD abolished 1934, absorbed by Chislehurst and Sidcup UD
 Wrotham UD abolished 1934, absorbed by Dartford RD and Malling RD
 Beckenham MB incorporated 1935
 Walmer UD abolished 1935, absorbed by Deal MB
@@ -528,6 +537,9 @@ Astley Bridge UD abolished 1898, absorbed by Bolton CB
 Heysham UD created 1899
 Leigh MB incorporated 1899
 Tottington UD created 1899
+Poulton-le-Fylde UD created 1900
+Preesall with Hackensall UD created 1900
+Thornton Cleveleys UD created 1900
 Warrington became CB 1900
 Castleton by Rochdale UD abolished 1900, absorbed by Rochdale CB
 Reddish UD abolished 1901, absorbed by Stockport CB
@@ -538,6 +550,7 @@ Moss Side UD and Withington UD abolished 1904, absorbed by Manchester CB
 Pemberton UD abolished 1904, absorbed by Wigan CB
 Southport became CB 1905
 Gorton UD and Levenshulme UD abolished 1909, absorbed by Manchester CB
+Preesall with Hackensall UD renamed Preesall UD 1910
 Birkdale UD abolished 1912, absorbed by Southport CB
 Allerton UD, Childwall UD, Little Woolton UD and Much Woolton UD abolished 1913, absorbed by Liverpool CB
 Heaton Norris UD abolished 1913, absorbed by Stockport CB
@@ -829,9 +842,10 @@ Urban districts created by LGA 1894: Dawley, Ellesmere, Newport, Wellington, Whi
 
 Whitchurch and Dodington UD renamed Whitchurch UD 1895
 Oakengates UD created 1898
+Wem UD created 1900
 Bishop's Castle MB absorbed by Clun RD 1967
 Bridgnorth MB absorbed by Bridgnorth RD 1967
-Ellesmere UD and Whitchurch UD absorbed by North Shropshire RD 1967
+Ellesmere UD, Wem UD and Whitchurch UD absorbed by North Shropshire RD 1967
 Ludlow MB absorbed by Ludlow RD 1967
 Much Wenlock MB absorbed by Bridgnorth RD 1967
 Oswestry MB absorbed by Oswestry RD 1967
@@ -920,6 +934,8 @@ CBs in 1889: Ipswich, part of Great Yarmouth
 Urban districts created by LGA 1894: Felixstowe, Stowmarket, Woodbridge
 
 Leiston-cum-Sizewell UD created 1895
+Halesworth UD created 1900
+Saxmundham UD created 1900
 
 WEST SUFFOLK
 
@@ -1152,9 +1168,11 @@ Bingley Outer UD and Wilsden UD abolished 1898, absorbed by Bingley UD
 Bolton upon Dearne UD created 1899
 Stanley UD created 1899
 Eccleshill UD, Idle UD, North Bierley UD, Thornton UD and Tong UD abolished 1899, absorbed by Bradford CB
+Cudworth UD created 1900
 Northowram UD and Warley UD abolished 1900, absorbed by Halifax CB
 Pudsey MB incorporated 1900
-Upper Mill UD abolished 1900, aborbed by Saddleworth UD
+Upper Mill UD abolished 1900, absorbed by new Saddleworth UD
+Wheatley UD created 1900
 Rotherham became CB 1902
 Sandal Magna UD abolished 1909, absorbed by Wakefield MB
 Ravensthorpe UD, Soothill Nether UD and Thornhill UD abolished 1910, absorbed by Dewsbury MB
@@ -1162,7 +1180,7 @@ Soothill Upper UD abolished 1910, divided between Batley MB and Dewsbury MB
 Netherthong UD abolished 1912, absorbed by Holmfirth UD
 Barnsley became CB 1913
 Dewsbury became CB 1913
-Balby with Hexthorpe UD abolished 1914, absorbed by Doncaster MB
+Balby with Hexthorpe UD and Wheatley UD abolished 1914, absorbed by Doncaster MB
 Cleckheaton UD, Gomersal UD and Liversedge UD merged into Spenborough UD 1915
 Wakefield became CB 1915
 Ardsley UD and Monk Bretton UD abolished 1921, absorbed by Barnsley CB
