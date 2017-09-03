@@ -4,9 +4,11 @@
 
 Fourteen by-elections on 7th September 2017:
 
-HEDNESFORD AND RAWNSLEY (Staffordshire county council);
-HEDNESFORD GREEN HEATH (Cannock Chase council); and
-HEDNESFORD SOUTH (Cannock Chase council)
+<hr>
+
+<h2>Hednesford and Rawnsley (Staffordshire county council);<br/>
+HEDNESFORD GREEN HEATH (Cannock Chase council); and<br/>
+HEDNESFORD SOUTH (Cannock Chase council)</h2>
 
 The first and second vacancies are caused by the death of Conservative county and district councillor Graham Burnett at the age of 59.  The third vacancy is caused by the disqualification of Conservative councillor Joanne Christian, who failed to attend any council meetings in six months.  Burnett, who had co-founded a company supplying equipment and training to people working at height using ropes, had served on Cannock Chase council from 2008 to 2012 from Hednesford North ward and since 2015 from Hednesford Green Heath ward; he had been a Staffordshire county councillor for less than two months, having been elected in May for the first time.  Christian had served since gaining her seat from Labour in 2015.
 
@@ -36,7 +38,7 @@ Bryan Jones is also the defending Conservative candidate in Green Heath ward for
 
 Finally, we come to the Hednesford South ballot paper where Philip Hewitt is the defending Tory candidate; he is the remaining county councillor for Hednesford and Rawnsley.  The Green candidate is Stuart Crabtree who is secretary of the party's Cannock Chase branch.  Labour have selected Patrick Frondigoun, who fought Cannock West (a reliable Conservative ward) in last year's district elections.  UKIP's John Bernard completes the ballot paper.
 
-Hednesford and Rawnsley
+<h4>Hednesford and Rawnsley</h4>
 
 Parliamentary constituency: Cannock Chase
 Cannock Chase district wards: Hawks Green, Hednesford Green Heath, Hednesford North, Hednesford South, Rawnsley
@@ -62,7 +64,7 @@ Bryan JONES, 44 Corsican Drive, Hednesford, Cannock WS12 4SS [The Conservative P
 Ron TURVILLE, 113 Greenheath Road, Hednesford, Cannock WS12 4AU [The Chase Independent Party]
 Paul Edward WOODHEAD, 46 Uxbridge Street, Hednesford, Cannock WS12 1DB [Green Party]
 
-Hednesford Green Heath
+<h4>Hednesford Green Heath</h4>
 
 Parliamentary constituency: Cannock Chase
 Staffordshire county council division: Hednesford and Rawnsley
@@ -90,7 +92,7 @@ David Trevor PERCOX, 1 Fieldhouse Road, Hednesford, Cannock WS12 4HU [UK Indepen
 Linda TAIT, 55 Langdale Drive, Cannock WS11 1QU [Labour Party]
 Ron TURVILLE, 113 Greenheath Road, Hednesford, Cannock WS12 4AU [The Chase Independent Party]
 
-Hednesford South
+<h4>Hednesford South</h4>
 
 Parliamentary constituency: Cannock Chase
 Staffordshire county council division: Hednesford and Rawnsley
@@ -117,8 +119,9 @@ Stuart Karl CRABTREE, 16 Church Hill Mews, Hednesford, Cannock WS12 1DP [Green P
 Patrick Jozef Pawlek FRONDIGOUN, 17 Langdale Drive, Cannock WS11 1QW [Labour Party]
 Philip HEWITT, 6 Callaghan Grove, Cannock WS11 7GX [The Conservative Party Candidate]
 
+<hr>
 
-EYE, THORNEY AND NEWBOROUGH
+<h4>Eye, Thorney and Newborough</h4>
 
 Peterborough council, Cambridgeshire; caused by the resignation of Conservative councillor David Sanders, who has retired from politics after 20 years' service on Peterborough council, the last of those years as Mayor of Peterborough.  He had served since 1997.
 
@@ -148,8 +151,9 @@ Mary HERDMAN, 142 Wisbech Road, Thorney, Peterborough PE6 0SE [UK Independence P
 Callum ROBERTSON, 86a Lincoln Road, Deeping Gate, Peterborough PE6 9BA [Liberal Democrats]
 Nigel SIMONS, Oak Barn, French Drove, Thorney, Peterborough PE6 0PE [The Conservative Party Candidate]
 
+<hr>
 
-ELY SOUTH
+<h2>Ely South</h2>
 
 East Cambridgeshire council; caused by the resignation of Conservative councillor Tom Hunt, who had served since 2011, in order to take up a new politically-restricted role as an advisor to the Mayor of Cambridgeshire and Peterborough, James Palmer.  Hunt was fifth on the Conservatives' Eastern list at the 2014 European Parliament elections, and fought Doncaster Central in June's general election.
 
@@ -179,8 +183,9 @@ Sarah Louise BELLOW, Elm Farm, Ely Road, Prickwillow, Ely CB7 4UJ [The Conservat
 Rebecca Anne DENNESS, 9 West Fen Road, Ely CB6 1AL [Labour Party]
 Christine WHELAN, 119 Kings Avenue, Ely CB7 4QW [Liberal Democrats]
 
+<hr>
 
-ST JOHN'S
+<h2>St John's</h2>
 
 Suffolk county council; caused by the resignation of Labour county councillor Sandy Martin, who was elected as MP for Ipswich in June's general election.  He had served on Suffolk county council since 1997.
 
@@ -216,8 +221,9 @@ Charlotte ARMSTRONG, 41 Belstead Road, Ipswich IP2 8AU [The Green Party]
 James Anthony Lymer HARDING, 95 Grove Lane, Ipswich IP4 1NZ [Conservative Party Candidate]
 Edward Frederick PACKARD, 160 Cemetery Road, Ipswich IP4 2HL [Liberal Democrats]
 
+<hr>
 
-SUDBURY SOUTH
+<h2>Sudbury South</h2>
 
 Babergh council, Suffolk; caused by the resignation of Conservative councillor David Holland, after he had been passed over for the role of lead councillor for Sudbury Development.  A former Babergh cabinet member, he had served since 2015.
 
@@ -249,8 +255,9 @@ Luke Matthew CRESSWELL, 18 Borehamgate, King Street, Sudbury CO10 2EG [Labour Pa
 Simon SUDBURY, 1 Acton Place, Croft Road, Sudbury CO10 1JE [The Conservative Party Candidate]
 Andrew John WELSH, 4 Robin Way, Sudbury CO10 7PF [Liberal Democrats]
 
+<hr>
 
-SHRUB END
+<h2>Shrub End</h2>
 
 Colchester council, Essex; caused by the resignation of Liberal Democrat councillor Karen Chaplin who had served since 2015.
 
@@ -287,8 +294,9 @@ Bruno Paul HICKMAN, 7 Mill Lane, Birch, Colchester CO2 0NG [UK Independence Part
 Sam MCCARTHY, 8 Cherrywood Court, Straight Road, Colchester CO3 9DN [Liberal Democrats]
 Victoria WEAVER, 303 Ipswich Road, Colchester CO4 0HN [Green Party]
 
+<hr>
 
-SOUTH NORWOOD
+<h2>South Norwood</h2>
 
 Croydon council, South London; caused by the resignation of Labour councillor Kathy Bee who is taking up a new job in the civil service.  She had served since 2010.
 
@@ -324,8 +332,9 @@ Rebecca NATRAJAN, Flat 3, 153 Cobden Road, London SE25 5NU [The Conservative Par
 Michael SWADLING, 81 Chipstead Valley Road, Coulsdon CR5 3BP [UK Independence Party (UKIP)]
 Peter UNDERWOOD, 12a Abbey Road, South Croydon CR2 8NG [Green Party]
 
+<hr>
 
-OUSE VALLEY AND RINGMER
+<h2>Ouse Valley and Ringmer</h2>
 
 Lewes council, East Sussex; caused by the death of Conservative councillor Paul Gander at the age of 59.  A former kitchen fitter, he had served since 2007; his death from heart failure came the day before June's general election and the re-elected Conservative MP for Lewes, Maria Caulfield, paid tribute to him in her acceptance speech.
 
@@ -360,8 +369,9 @@ Clare HERBERT, 21 Broyleside Cottages, Ringmer, Lewes BN8 5NS [The Conservative 
 Phil HOWSON, 19 Bolney Avenue, Peacehaven BN10 8NA [Uk Independence Party]
 Tim TELFORD, 2 Paygate Cottages, New Road, Ringmer, Lewes BN8 5HA [Labour Party]
 
+<hr>
 
-GOLDEN VALLEY SOUTH
+<h2>Golden Valley South</h2>
 
 Herefordshire council; caused by the resignation of Conservative councillor Graham Powell.  A former Herefordshire cabinet member, he had served since 2011.
 
@@ -389,8 +399,9 @@ Simeon Wood COLE, Orchard House, Coughton, Ross-on-Wye HR9 5SF [Conservative and
 Peter Charles JINMAN, Spring Bank, Ewyas Harold, Hereford HR2 0JD [Independent]
 Jeremy James MILLN, 43 Villa Street, Hereford HR2 7AU [Green Party]
 
+<hr>
 
-SKERTON WEST
+<h2>Skerton West</h2>
 
 Lancaster council; caused by the resignation of Labour councillor Karen Leytham who had served since 2007.
 
@@ -418,8 +429,9 @@ Andy KAY, 27 Prince Avenue, Carnforth LA5 9AD [The Conservative Party Candidate]
 Derek John KAYE, 46 Norfolk Street, Lancaster LA1 2BW [Liberal Democrats]
 Hilda Jean PARR, 9 Birkdale Close, Lancaster LA1 2SG [Labour Party]
 
+<hr>
 
-FORTISSAT
+<h2>Fortissat</h2>
 
 North Lanarkshire council; caused by the resignation of Conservative councillor Sandy Thornton, who appears to have had second thoughts about becoming a councillor and did not sign his acceptance of office.  He was elected in May.
 
@@ -448,8 +460,9 @@ Norma MCNAB, 44 Cypress Road, Motherwell ML1 5FJ [Scottish Conservative and Unio
 Mags MURPHY, 59 Inverkip Drive, Shotts ML7 4DF [Scottish National Party (SNP)]
 Clare QUIGLEY, 88 Main Street, Shotts ML7 5HA [Scottish Labour Party]
 
+<hr>
 
-CARDONALD
+<h2>Cardonald</h2>
 
 Glasgow council; caused by the death of Labour councillor Alistair Watson at the age of 59.  A former train driver, he had served on Glasgow council since 1995, representing North Cardonald ward until 2007, Craigton ward from 2007 until May and Cardonald ward since May.
 
