@@ -1,6 +1,6 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
 "Babergh","Sudbury S","C","David Holland","Resignation","2017-09-07",
-"Cannock Chase","Hednesford Grn Heath","C","Graham Burnet","Death","2017-09-07",
+"Cannock Chase","Hednesford Grn Heath","C","Graham Burnett","Death","2017-09-07",
 "Cannock Chase","Hednesford S","C","Joanne Christian","Disqualification","2017-09-07","Non-attendance"
 "Colchester","Shrub End","LD","Karen Chaplin","Resignation","2017-09-07",
 "Croydon","S Norwood","Lab","Kathy Bee","Resignation","2017-09-07",
@@ -11,7 +11,7 @@
 "Lewes","Ouse Vy/Ringmer","C","Paul Gander","Death","2017-09-07",
 "N Lanarks","Fortissat","C","Sandy Thornton","Resignation","2017-09-07",
 "Peterborough","Eye/Thorney/Newborough","C","David Sanders","Resignation","2017-09-07",
-"Staffs CC","Hednesford/Rawnsley","C","Graham Burnet","Death","2017-09-07",
+"Staffs CC","Hednesford/Rawnsley","C","Graham Burnett","Death","2017-09-07",
 "Suffolk CC","St John's","Lab","Sandy Martin MP","Resignation","2017-09-07",
 "M Devon","Westexe","UKIP","Jonathan Smith","Resignation","2017-09-14","Sitting as Ind"
 "Trafford","Bucklow-St Martins","Lab","John Smith","Resignation","2017-09-14","Sitting as C"
@@ -22,6 +22,7 @@
 "Barnsley","Kingstone","Lab","Donna Green","Resignation","2017-09-28",
 "Breckland","Thetford Priory","C","Jane Bishop","Resignation","2017-09-28",
 "Durham","Trimdon/Thornley","Lab","Morris Nicholls","Death","2017-09-28",
+"E Staffs","Stretton","C","Not known","Not known","2017-09-28",
 "Harlow","Toddbrook","Lab","Rod Truan","Resignation","2017-09-28",
 "Harrogate","Washburn","C","Christine Ryder","Resignation","2017-09-28",
 "Highland","Tain/Easter Ross","LD","Jamie Stone MP","Resignation","2017-09-28",
@@ -39,9 +40,13 @@
 "Salford","Claremont","Lab","Joe Murphy","Death","2017-10-05",
 "Warwick","Stoneleigh/Cubbington","C","Nick Harrington","Resignation","2017-10-05","Twitter"
 "Aberdeenshire","Inverurie/District","C","Colin Clark MP","Resignation","2017-10-12",
+"Three Rivers","Oxhey Hall/Hayling","C","Ty Harris","Resignation","2017-10-12",
+"Wakefield","Stanley/Outwood E","Lab ","Clive Hudson","Resignation","2017-10-12",
 "Warrington","Chapelford/Old Hall","Lab","Faisal Rashid MP","Resignation","2017-10-12",
 "Arun","Aldwick W","C","Jacquie Maconachie","Death","Not yet called",
 "Camden","Gospel Oak","Lab","Theo Blackwell","Resignation","Not yet called","Now Chief Digital Officer for London"
+"Charnwood","Loughborough Hastings","Lab","Sarah Maynard Smith","Resignation","Not yet called","Double vacancy"
+"Charnwood","Loughborough Hastings","Lab","Anne Williams","Resignation","Not yet called","Double vacancy"
 "Chiltern","Penn/Coleshill","C","Alan Hardie","Resignation","Not yet called",
 "Copeland","Egremont S","Lab","Lena Hogg","Resignation","Not yet called","Resignation effective 2017-08-29"
 "Darlington","Eastbourne","Lab","Roddy Francis","Resignation","Not yet called",
@@ -55,6 +60,7 @@
 "Newcastle-u-Lyme","Bradwell","Lab","Trevor Hambleton","Death","Not yet called",
 "Nottingham","Bulwell Forest","Lab","Alan Clark","Death","Not yet called",
 "S Holland","Whaplode/Holbeach St John's","C","Mike Pullen","Death","Not yet called",
-"Three Rivers","Oxhey Hall/Hayling","C","Ty Harris","Resignation","Not yet called",
+"Salford","Langworthy","Lab","Paul Longshaw","Death","Not yet called",
+"Sheffield","Beighton","Lab","Helen Mirfin-Boukouris","Resignation","Not yet called",
 "W Lindsey","Sudbrooke","C","Stuart Curtis","Resignation","Not yet called",
 "Wyre","Rossall","Lab","Ted Taylor","Death","Not yet called",
