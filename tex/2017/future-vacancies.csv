@@ -1,7 +1,4 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Chesterfield","Holmebrook","Lab","Stephen Hitchin","Resignation","2017-09-21",
-"Oadby/Wigston","Oadby Uplands","Lab","Gurpal Atwal","Resignation","2017-09-21",
-"Waveney","Oulton Broad","C","Colin Law","Death","2017-09-21",
 "Barnsley","Kingstone","Lab","Donna Green","Resignation","2017-09-28",
 "Breckland","Thetford Priory","C","Jane Bishop","Resignation","2017-09-28",
 "Durham","Trimdon/Thornley","Lab","Morris Nicholls","Death","2017-09-28",
@@ -38,20 +35,22 @@
 "Nottingham","Bestwood","Lab","Mick Wildgust","Resignation","2017-10-19",
 "Nottingham","Bulwell Forest","Lab","Alan Clark","Death","2017-10-19",
 "Wigan","Astley Mosley Common","Lab","Joanne Platt MP","Resignation","2017-10-19",
+"Charnwood","Loughborough Hastings","Lab","Sarah Maynard Smith","Resignation","2017-10-26","Double vacancy"
+"Charnwood","Loughborough Hastings","Lab","Anne Williams","Resignation","2017-10-26","Double vacancy"
+"Derbys Dales","Ashbourne S","C","Phil Chell","Resignation","2017-10-26",
 "Herefordshire","Kings Acre","IOCH","Mark Mansell","Resignation","2017-10-26",
+"Kirklees","Batley E","Lab","Amanda Stubley","Disqualification","2017-10-26","Non-attendance; sitting as Ind"
 "M Sussex","E Grinstead Imberhorne","C","Bob Mainstone","Death","2017-10-26",
+"Arun","Aldwick W","C","Jacquie Maconachie","Death","2017-11-02",
+"N Devon","Braunton E","C","Roy Lucas","Resignation","2017-11-02",
+"Sefton","Dukes","C","Patricia Ball","Resignation","2017-11-02",
 "S Lanarks","Rutherglen C/N","Lab","Ged Killen MP","Resignation","2017-11-23",
-"Arun","Aldwick W","C","Jacquie Maconachie","Death","Not yet called",
 "Bucks CC","Beaconsfield","C","Alan Walters","Death","Not yet called",
 "Camden","Gospel Oak","Lab","Theo Blackwell","Resignation","Not yet called","Now Chief Digital Officer for London"
-"Charnwood","Loughborough Hastings","Lab","Sarah Maynard Smith","Resignation","Not yet called","Double vacancy"
-"Charnwood","Loughborough Hastings","Lab","Anne Williams","Resignation","Not yet called","Double vacancy"
 "Chiltern","Penn/Coleshill","C","Alan Hardie","Resignation","Not yet called",
 "Copeland","Egremont S","Lab","Lena Hogg","Resignation","Not yet called","Resignation effective 2017-08-29"
 "Darlington","Eastbourne","Lab","Roddy Francis","Resignation","Not yet called",
-"Derbys Dales","Ashbourne S","C","Phil Chell","Resignation","Not yet called",
 "Flintshire","Buckley Bistre W","Lab","Ron Hampson","Death","Not yet called",
-"Kirklees","Batley E","Lab","Amanda Stubley","Disqualification","Not yet called","Non-attendance; sitting as Ind"
 "Neath Port Talbot","Bryncoch S","PC","Janice Dudley","Death","Not yet called",
 "Newcastle-u-Lyme","Bradwell","Lab","Trevor Hambleton","Death","Not yet called",
 "S Bucks","Beaconsfield N","C","Alan Walters","Death","Not yet called",
