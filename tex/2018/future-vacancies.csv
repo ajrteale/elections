@@ -1,8 +1,4 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Kent CC","Birchington/Rural","C","Ken Gregory","Death","2018-01-11",
-"Lancs CC","Wyre Rural C","C","Vivien Taylor","Death","2018-01-11",
-"Thanet","Thanet Villages","C","Ken Gregory","Death","2018-01-11",
-"Wyre","Preesall","C","Vivien Taylor","Death","2018-01-11",
 "Bolton","Hulton","Lab","Darren Whitehead","Death","2018-01-18",
 "Bournemouth","Throop/Muscliff","Ind","Anne Rey","Resignation","2018-01-18","Retiring to Spain"
 "Milton Keynes","Newport Pagnell N/Hanslope","C","Jeannette Green","Death","2018-01-18",
@@ -17,48 +13,51 @@
 "Staffs CC","Codsall","C","Robert Marshall","Death","2018-02-08",
 "Weymouth/Portland","Tophill E","Ind","David Hawkins","Resignation","2018-02-08",
 "Weymouth/Portland","Tophill W","C","Jason Webb","Resignation","2018-02-08",
+"Doncaster","Armthorpe","Lab","Tony Corden","Death","2018-02-15",
+"E Northants","Higham Ferrers Lancaster","C","Glenn Harwood","Death","2018-02-15",
 "Epsom/Ewell","Ruxley","WERRA","Keith Partridge","Resignation","2018-02-15",
 "Falkirk","Bonnybridge/Larbert","SNP","Tom Coleman","Death","2018-02-15","Provost"
+"Halton","Halton Castle","Lab","Arthur Cole","Death","2018-02-15",
 "Lancs CC","Morecambe N","Ind","Tony Jones","Resignation","2018-02-15","Elected as C"
 "N Norfolk","Worstead","C","Glyn Williams","Resignation","2018-02-15","Health"
+"Northants CC","Higham Ferrers","C","Glenn Harwood","Death","2018-02-15",
 "Teignbridge","Chudleigh","C","Doug Laing","Disqualification","2018-02-15","Sentenced to 3yrs, wounding with intent to cause grievous bodily harm"
 "Teignbridge","Dawlish C/NE","C","Graham Price","Resignation","2018-02-15",
 "Tendring","St Pauls","Ind","Jack Parsons","Resignation","2018-02-15","Elected as UKIP"
 "W Oxon","Carterton S","C","Mick Brennan","Resignation","2018-02-15",
+"York","Holgate","Lab","Sonja Crisp","Resignation","2018-02-15",
 "Chichester","Fishbourne","LD","Sandra Westacott","Resignation","2018-02-22",
 "Sc Borders","Selkirkshire","C","Michelle Ballantyne MSP","Resignation","2018-02-22",
 "Torfaen","Trevethin","Lab","Matt Ford","Resignation","2018-02-22","Now employed by the council"
 "Wigan","Bryn","Ind","Steve Jones","Resignation","2018-02-22","Unsuccessfully attempted to revoke postdated resignation letter"
 "Arun","Marine","C","Dougal Maconachie","Death","Not yet called",
 "Basingstoke/Deane","Kempshott","C","Rita Burgess","Death","Not yet called",
+"Bolton","Farnworth","Lab","Asif Ibrahim","Resignation","Not yet called",
 "Boston","Old Leake/Wrangle","C","Maureen Dennis","Resignation","Not yet called",
 "Ches E","Bunbury","C","Michael Jones","Resignation","Not yet called",
 "City of London","Bishopsgate","Ind","Prem Goyal","Aldermanic","Not yet called",
 "Clacks","Clacks N","SNP","Archie Drummond","Resignation","Not yet called",
 "Crawley","Ifield","Lab","John Stanley","Death","Not yet called","Term expires 2018"
 "Dacorum","Northchurch","C","Alan Fantham","Death","Not yet called",
-"Doncaster","Armthorpe","Lab","Tony Corden","Death","Not yet called",
-"Dorset CC","Bridport","C","Keith Day","Not known","Not yet called",
+"Dorset CC","Bridport","LD","Ros Kayes","Resignation","Not yet called",
 "E Devon","Exmouth Tn","LD","Pat Graham","Resignation","Not yet called","Health"
 "E Hants","Petersfield Bell Hill","C","Thomas Spencer","Resignation","Not yet called",
-"E Northants","Higham Ferrers Lancaster","C","Glenn Harwood","Death","Not yet called",
 "Fylde","Heyhouses","C","Barbara Nash","Death","Not yet called",
-"Halton","Halton Castle","Lab","Arthur Cole","Death","Not yet called",
 "Herts CC","Goffs Oak/Bury Grn","C","Robert Gordon","Death","Not yet called","Leader of the Council"
 "Hyndburn","St Oswald's","Ind","Paul Thompson","Death","Not yet called","Elected as UKIP; term expires 2018"
 "Lancaster","Skerton W","Lab","Roger Sherlock","Death","Not yet called",
 "Leics CC","Stoney Stanton/Croft","C","Ernie White","Death","Not yet called",
-"Lichfield","Stowe","C","David Smedley","Not known","Not yet called",
+"Lichfield","Stowe","C","David Smedley","Resignation","Not yet called",
 "Midlothian","Penicuik","Lab","Adam Montgomery","Death","Not yet called","Provost"
 "N Kesteven","Eagle/Swinderby/Witham St Hughs","Ind","Barbara Wells","Death","Not yet called",
-"Northants CC","Higham Ferrers","C","Glenn Harwood","Death","Not yet called",
 "Nottingham","Wollaton W","C","Georgina Culley","Death","Not yet called",
 "Rochford","Hockley","Rochford","Irena Cassar","Resignation","Not yet called",
 "Rushmoor","West Heath","UKIP","Mark Staplehurst","Resignation","Not yet called","Went Ind shortly before resignation"
 "Rutland","Oakham SE","C","Tony Mathias","Resignation","Not yet called","Leader of the Council"
 "S Kesteven","Stamford St John's","C","Terl Bryant","Death","Not yet called",
-"Solihull","Blythe","C","Alex Insley","Not known","Not yet called",
+"Solihull","Blythe","C","Alex Insley","Resignation","Not yet called",
 "Staffs Moorlands","Leek W","C","Robert Plant","Death","Not yet called",
 "Tameside","Droylsden E","Lab","Kieran Quinn","Death","Not yet called","Leader of the Council"
-"W Dorset","Bridport N","C","Keith Day","Not known","Not yet called",
+"W Dorset","Bridport N","LD","Ros Kayes","Resignation","Not yet called",
+"W Somerset","Minehead S","UKIP","Tom Hall","Resignation","Not yet called","Elected as Ind"
 "Wyre","Breck","Ind","Peter Gibson","Resignation","Not yet called","Elected as C"
