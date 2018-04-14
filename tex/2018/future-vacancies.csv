@@ -1,7 +1,4 @@
 "Council","Ward","Defending","Outgoing councillor","Cause","Polling","Remarks"
-"Chichester","Rogate","C","Gillian Keegan MP","Resignation","2018-04-12",
-"S Northants","Middleton Cheney","C","Judith Baxter","Resignation","2018-04-12",
-"St Edmundsbury","St Olaves","Lab","Bob Cockle","Resignation","2018-04-12",
 "Perth/Kinross","Highland","C","Ian Campbell","Death","2018-04-19","Leader of the Council"
 "W Berks","Thatcham W","C","Nick Goodes","Disqualification","2018-04-19","Non-attendance"
 "Warrington","Lymm S","C","Sheila Woodyatt","Death","2018-04-19",
@@ -14,9 +11,9 @@
 "Cheltenham","Leckhampton","Ind","Ian Bickerton","Resignation","2018-05-03","Double vacancy"
 "Cherwell","Cropredy/Sibfords/Wroxton","C","Ken Atack","Resignation","2018-05-03","Double vacancy"
 "Ches W/Chester","Ellesmere Port Tn","Lab","Lynn Clare","Death","2018-05-03",
-"Daventry","Walgrave","C","Ann Carter","Resignation","2018-05-03",
+"Daventry","Walgrave","C","Ann Carter","Resignation","2018-05-03","Combined with ordinary election"
 "Epping Forest","Loughton Bdwy","Loughton","Leon Girling","Resignation","2018-05-03","Double vacancy"
-"Epping Forest","Moreton/Fyfield","C","Tony Boyce","Resignation","2018-05-03",
+"Epping Forest","Moreton/Fyfield","C","Tony Boyce","Resignation","2018-05-03","Combined with ordinary election"
 "Epping Forest","Waltham Abbey Honey Ln","C","Glynis Sheill","Resignation","2018-05-03","Double vacancy"
 "Gateshead","Ryton/Crookhill/Stella","Lab","Liz Twist MP","Resignation","2018-05-03","Double vacancy"
 "Gosport","Leesland","LD","Maria Diffey","Resignation","2018-05-03","Double vacancy"
@@ -24,6 +21,7 @@
 "Halton","Halton View","Lab","Stan Parker","Resignation","2018-05-03","Double vacancy"
 "Havant","Hayling W","C","Andy Lenaghan","Resignation","2018-05-03","Double vacancy"
 "Herts CC","St Albans N","LD","Charlotte Hogg","Resignation","2018-05-03",
+"House of Commons","W Tyrone","SF","Barry McElduff","Resignation","2018-05-03",
 "Kirklees","Birstall/Birkenshaw","C","Andrew Palfreeman","Resignation","2018-05-03","Double vacancy"
 "Leics CC","Stoney Stanton/Croft","C","Ernie White","Death","2018-05-03",
 "Liverpool","Knotty Ash","Lab","Jacqui Taylor","Resignation","2018-05-03","Double vacancy"
@@ -31,6 +29,7 @@
 "N Herts","Letchworth Grange","Lab","Clare Billing","Resignation","2018-05-03","Double vacancy"
 "NE Lincs","Immingham","Lab","Mike Burton","Death","2018-05-03","Double vacancy"
 "Oldham","Chadderton C","Lab","Susan Dearden","Death","2018-05-03","Double vacancy"
+"Oldham","Hollinwood","Lab","Brian Ames","Death","2018-05-03","Double vacancy"
 "Preston","Greyfriars","C","Damian Moore MP","Resignation","2018-05-03","Double vacancy"
 "Reading","Church","Lab","Paul Woodward","Resignation","2018-05-03","Double vacancy"
 "Reading","Katesgrove","Lab","Matt Rodda MP","Resignation","2018-05-03","Double vacancy"
@@ -63,9 +62,9 @@
 "Lancaster","Skerton W","Lab","Roger Sherlock","Death","2018-05-17",
 "Lancaster","University/Scotforth Rural","Lab","Sam Armstrong","Resignation","2018-05-17","Elected as Grn"
 "Lancaster","University/Scotforth Rural","Lab","Lucy Atkinson","Resignation","2018-05-17",
+"Bristol","Wesbury-on-Trym/Henleaze","LD","Clare Campion-Smith","Resignation","2018-05-24",
+"Horsham","Cowfold/Shermanbury/W Grinstead","C","Roger Clarke","Death","2018-05-24",
+"N Kesteven","Kirkby la Thorpe/S Kyme","C","Julia Harrison","Resignation","2018-05-24",
 "Waverley","Farnham Castle","Farnham","John Williamson","Resignation","2018-05-24",
-"Bristol","Wesbury-on-Trym/Henleaze","LD","Clare Campion-Smith","Resignation","Not yet called",
-"Horsham","Cowfold/Shermanbury/W Grinstead","C","Roger Clarke","Death","Not yet called",
-"House of Commons","W Tyrone","SF","Barry McElduff","Resignation","Not yet called",
 "M Devon","Cranmore","C","Clarissa Slade","Death","Not yet called",
-"Oldham","Hollinwood","Lab","Brian Ames","Death","Not yet called",
+"New Forest","Fawley/Blackfield/Langley","C","Bob Wappett","Death","Not yet called",
