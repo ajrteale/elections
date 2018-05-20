@@ -35,11 +35,6 @@ Teresa Stratford (Lab)
 
 May 2016 result C 4019/3683/3207 LD 3277/2382/1887 Lab 1589/1232/1230 Grn 1305/820
 
-Graham Christopher DONALD, 39 Woodland Grove, Bristol BS9 2BD [Liberal Democrat]
-Ian Edward MOSS, 17 Kelston Road, Bristol BS10 3ES [Green Party]
-Steve SMITH, 98 Westover Road, Bristol BS9 3LP [The Conservative Party Candidate]
-Teresa Ann STRATFORD, 81 Sandyleaze, Bristol BS9 3PX [Labour Party]
-
 <hr/>
 
 <h2>Cowfold, Shermanbury and West Grinstead</h2>
@@ -55,16 +50,16 @@ Defending for the Conservatives is Lynn Lambert who is the only candidate to liv
 Parliamentary constituency: Arundel and South Downs
 West Sussex county council division: Henfield
 
+Lynn Lambert (C)
+David Perry (LD)
+Kenneth Tyzack (Lab)
+
 May 2015 result C 2087/2071 LD 837
 May 2013 by-election C 873 LD 243
 May 2011 result C 1242/1127 LD 628
 May 2007 result C 1131/1124 LD 394
 June 2005 by-election C 742 LD 253
 May 2003 result C 863/746 LD 262/248 Lab 129
-
-Lynn Audrey LAMBERT, Hatherton, Mill Lane, Partridge Green, Horsham RH13 8JU [The Conservative Party Candidate]
-David George PERRY, Demerara, East Street, West Chiltington, Pulborough RH20 2JY [Liberal Democrats]
-Kenneth Frederick TYZACK, Gainsborough, Wheatsheaf Road, Henfield BN5 9AP [Labour Party]
 
 <hr/>
 
@@ -83,17 +78,17 @@ Defending for the Farnham Residents is David Beaman, who works in the transport 
 Parliamentary constituency: South West Surrey
 Surrey county council division: Farnham Central
 
+Jo Aylwin (LD)
+David Beaman (Farnham ResidentS)
+Rebecca Kaye (Lab)
+Rashida Nasir (C)
+Mark Westcott (Ind)
+
 August 2016 by-election Farnham Residents 386 LD 292 C 229 UKIP 43
 May 2015 result Farnham Residents 1043 C 797/641 LD 736 Lab 438
 May 2011 result C 669/600 Ind 218/201 LD 204 Lab 152
 May 2007 result C 489/466 Ind 417/387 LD 303/258 UKIP 101 Lab 84
 May 2003 result LD 631/630 C 424/402 Lab 78
-
-Jo AYLWIN, 1 Stoke Hills, Farnham GU9 7TE [Liberal Democrats]
-David BEAMAN, 3 Highfield Close, Farnham GU9 8EZ [Farnham Residents]
-Rebecca Louise KAYE, Boundaries, The Green, Farnham GU9 0HL [The Labour Party Candidate]
-Rashida Ahmad NASIR, 1 Water Lane, Farnham GU9 9NH [The Conservative Party Candidate]
-Mark Edward WESTCOTT, 2a School Road, Rowledge, Farnham GU10 4BW [Independent]
 
 <hr/>
 
@@ -112,16 +107,16 @@ The defending Conservative candidate is Hal Turkmen, who will be hoping to make 
 Parliamentary constituency: Broadland
 Norfolk county council division: Aylsham
 
+Sue Catchpole (LD)
+Peter Harwood (Lab)
+Hal Turkmen (C)
+
 March 2016 by-election LD 829 C 654 Lab 243
 May 2015 result C 1588/1513/1125 LD 1521/1065/926 Lab 1082 UKIP 719/658
 July 2013 by-election LD 688 C 501 Lab 181
 May 2011 result C 1336/1253/1010 LD 1182/846/752 Lab 542/471 Grn 446
 May 2007 result LD 1137/1067/1024 C 1124/1082/1027 Lab 246/230/199
 June 2004 result LD 918/907/845 C 854/822/797 Lab 719/461/421
-
-Sue CATCHPOLE, 25 Burgh Road, Aylsham, Norwich NR11 6AT [Liberal Democrats]
-Peter HARWOOD, 88 South Hill Road, Norwich NR7 0LT [Labour Party]
-Hal TURKMEN, 83 Cawston Road, Aylsham, Norwich NR11 6ED [The Conservative Party Candidate]
 
 <hr/>
 
@@ -138,14 +133,14 @@ Defending for the Conservatives is Dean Harlow, who lives in the village of Cran
 Parliamentary constituency: Sleaford and North Hykeham
 Lincolnshire county council division: Heckington
 
+Dean Harlow (C)
+Mervyn Head (Lincs Ind)
+Sue Hislop (LD)
+James Thomas (Lab)
+
 May 2015 result C 838 Lincs Ind 462
 May 2011 result C 491 Ind 254 LD 98
 May 2007 result C unopposed
-
-Dean Robert HARLOW, 17 Bristow Road, Cranwell Village, Sleaford NG34 8FG [The Conservative Party Candidate]
-Mervyn Paul HEAD, 52 High Street, South Kyme, Lincoln LN4 4AE [Lincolnshire Independents]
-Sue HISLOP, 3 Hawks Way, Sleaford NG34 7UR [Liberal Democrats]
-James David THOMAS, 26 Ripon Drive, Sleaford NG34 8UF [Labour Party]
 
 <hr/>
 
@@ -167,6 +162,12 @@ Outgoing Labour councillor Philip Harding is seeking re-election for a seventh t
 
 Parliamentary constituency: Stockport
 
+Peter Behan (UKIP)
+Philip Harding (Lab)
+Oliver Harrison (LD)
+Pat Leck (C)
+Camilla Luff (Grn)
+
 May 2016 result Lab 2214 UKIP 393 C 252 Grn 198 LD 192
 May 2015 result Lab 3466 C 945 UKIP 857 LD 549 Grn 506
 May 2014 result Lab 1884 UKIP 579 Grn 297 C 267 LD 240
@@ -177,12 +178,6 @@ May 2008 result Lab 1447 LD 972 C 481 Grn 199
 May 2007 result Lab 1558 LD 1139 C 444 BNP 285
 May 2006 result Lab 1486 C 548 C 439 Ind 344 Grn 280
 June 2004 result Lab 2098/2021/1794 LD 853/835/765 C 565/542/533 BNP 384
-
-Peter Gerald BEHAN, 7 Lismore Avenue, Stockport SK3 0UH [UK Independence Party (UKIP)]
-Philip HARDING, 27 Albert Road, Stockport SK4 4EG [Labour Party]
-Oliver John HARRISON, 12 School Drive, Stockport SK2 7EP [Liberal Democrats]
-Pat LECK, 236 Church Lane, Woodford, Stockport SK7 1PQ [The Conservative Party Candidate]
-Camilla Helen Anne LUFF, 21 Shaftesbury Road, Stockport SK3 0SH [Green Party]
 
 <hr/>
 
@@ -198,10 +193,15 @@ Another way Tamworth resembles a New Town is that it has volatile voting pattern
 
 Omens since 2016 look good for the Conservatives.  They won both of the county divisions covering this ward in the 2017 county elections, gaining Amington division from Labour (by 15 votes) and Stonydelph division from Cooke who didn't seek re-election.  The Tamworth constituency swung to the Conservatives in June 2017, and earlier this month in the Tamworth borough elections the Tories won eight of the nine Tamworth wards up for election, making a net gain of two seats.
 
-This delayed poll will complete Tamworth's 2018 borough elections by pitting two defending councillors against each other.  The defending Labour candidate is Simon Peaple who is seeking re-election for a fourth term of office; he was first elected in 2006 and was leader of the council's Labour group going into May's elections.  Also seeking re-election is Conservative councillor Allan Lunn, who has represented the town's Castle ward since 2010 but is trying his luck here this time.  The UKIP candidate is Dennis Box, who was runner-up in Bolehall ward in the 2016 borough elections.  Completing the ballot paper is the replacement Green candidate, Kevin Jones.
+This delayed poll will complete Tamworth's 2018 borough elections by pitting two defending councillors against each other.  Hoping that Glascote's voters are people who need Peaple is the defending Labour candidate Simon Peaple, who is seeking re-election for a fourth term of office; he was first elected in 2006 and was leader of the council's Labour group going into May's elections.  Also seeking re-election is Conservative councillor Allan Lunn, who has represented the town's Castle ward since 2010 but is trying his luck here this time.  The UKIP candidate is Dennis Box, who was runner-up in Bolehall ward in the 2016 borough elections.  Completing the ballot paper is the replacement Green candidate, Kevin Jones.
 
 Parliamentary constituency: Tamworth
 Staffordshire county council division: Stonydelph (part), Amington (part)
+
+Dennis Box (UKIP)
+Kevin Jones (Grn)
+Allan Lunn (C)
+Simon Peaple (Lab)
 
 May 2016 result UKIP 544 Lab 448 C 386 Ind 77
 May 2015 result Lab 1003 C 973 UKIP 927 Grn 154
@@ -215,8 +215,3 @@ May 2006 result Lab 728 C 630
 June 2004 result Lab 593 Ind 568 C 369
 May 2003 result Ind 576 Lab 370 C 186
 May 2002 result Lab 566/518/507 Ind 416 C 278/277/234
-
-Dennis BOX, 1 Clifford Close, Glascote, Tamworth B77 2DD [UK Independence Party (UKIP)]
-Kevin JONES, 32 Sunset Close, Tamworth B79 7QJ [The Green Party Candidate]
-Allan Edward LUNN, 79 Hockley Road, Wilnecote, Tamworth B77 3EB [The Conservative Party Candidate]
-Simon PEAPLE, 13 Sharpe Street, Tamworth B77 3HY [Labour and Co-operative Party]
