@@ -33,10 +33,10 @@
 "2017-09-11","Langbourn","Sir David Wootton","Yes","No","Sir David Wootton",
 "2017-09-12","Tower","Sir Paul Judge","Died","Yes","Nicholas Lyons",
 "2017-12-14","Portsoken","Michael Bear","Retired","Yes","Prem Goyal","Contested by official Labour candidate"
-"2018-07-05","Candlewick","Fiona Woolf","Retired",,,
-"2018-07-05","Cheap","Lord Mountevans","Retired",,,
+"2018-07-05","Candlewick","Fiona Woolf","Retired","Yes","Emma Edhem",
+"2018-07-05","Cheap","Lord Mountevans","Retired","Yes","Robert Hughes-Penney",
 "2018-07-12","Aldgate","Peter Hewitt","Yes",,,
-"2018-07-12","Bridge/Bridge Wt","Sir Alan Yarrow","Yes",,,
+"2018-07-12","Bridge/Bridge Wt","Sir Alan Yarrow","Yes","No","Sir Alan Yarrow",
 ,"Billingsgate","Matthew Richardson",,,,"By 2018-11-30"
 ,"Bread St","William Russell",,,,"By 2019-05-07"
 ,"Lime St","Charles Bowman",,,,"By 2019-05-07"
@@ -58,3 +58,7 @@
 ,"Langbourn","Sir David Wootton",,,,"By 2023-09-11"
 ,"Tower","Nicholas Lyons",,,,"By 2023-09-12"
 ,"Portsoken","Prem Goyal",,,,"By 2023-12-14"
+,"Candlewick","Emma Edhem",,,,"By 2024-07-05"
+,"Cheap","Robert Hughes-Penney",,,,"By 2024-07-05"
+,"Aldgate",,,,,"By 2024-07-12"
+,"Bridge/Bridge Wt","Sir Alan Yarrow",,,,"By 2024-07-12"
