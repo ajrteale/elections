@@ -1,0 +1,363 @@
+Election Type,Year,Ward,Party,Representative,Number of votes,Turnout,% of vote,Elected
+Parliamentary ,2010,N/A,Labour,Derek Twigg,23843,Unknown,57.7,E
+Parliamentary ,2010,N/A,Liberal Democrats,Frank Harasiwaka,5718,Unknown,13.8,
+Parliamentary ,2010,N/A,Conservative,Ben Jones,8339,Unknown,20.2,
+Parliamentary ,2010,N/A,Green Party,Jim Craig,647,Unknown,1.6,
+Parliamentary ,2010,N/A,UKIP,John Hamilton Moore,1228,Unknown,3,
+Parliamentary ,2010,N/A,British National Party,Andrew Anthony Taylor,1563,Unknown,3.8,
+Local,2011,Appleton,Labour,Ged Philbin,1197,Unknown,84.4,E
+Local,2011,Appleton,Conservative,Geoffrey Charles Swift,222,Unknown,15.6,
+Local,2011,Beechwood,Conservative,Keith Davies,371,Unknown,26.7,
+Local,2011,Beechwood,Labour,Christopher Anthony Loftus,521,Unknown,37.4,E
+Local,2011,Beechwood,Liberal Democrats,Ulfar Norddahl,500,Unknown,35.9,
+Local,2011,Birchfield,Labour,Sandra Baker,1072,Unknown,57.1,E
+Local,2011,Birchfield,Conservative,David John Findon,804,Unknown,42.9,
+Local,2011,Broadheath,Liberal Democrats,Geoff Brown,81,Unknown,5.2,
+Local,2011,Broadheath,Labour,Bob Gilligan,1220,Unknown,79,E
+Local,2011,Broadheath,Conservative,Ruth Elizabeth Rowan,244,Unknown,15.8,
+Local,2011,Daresbury,Conservative,John Christopher Bradshaw,727,Unknown,53.8,E
+Local,2011,Daresbury,Labour,Mike Eakins,463,Unknown,34.2,
+Local,2011,Daresbury,Liberal Democrats,Joanne King,162,Unknown,12,
+Local,2011,Ditton,Labour,Shaun Michael Osborne,1372,Unknown,73.5,E
+Local,2011,Ditton,Conservative,Colin David Rowan,494,Unknown,26.5,
+Local,2011,Farnworth,Labour,Angela Mcinerney,1256,Unknown,57,E
+Local,2011,Farnworth,Conservative,Richard Peter Murray,948,Unknown,43,
+Local,2011,Grange,Labour,Joan Lowe,1004,Unknown,71.9,E
+Local,2011,Grange,Liberal Democrats,Gareth Stockton,393,Unknown,28.1,
+Local,2011,Halton Brook,Halton Local Independent Party,Peter William Cumpper,323,Unknown,20.7,
+Local,2011,Halton Brook,Labour,Carol Patricia Plumpton Walsh,991,Unknown,63.4,E
+Local,2011,Halton Brook,Liberal Democrats,Louise Jane Whitley,250,Unknown,16,
+Local,2011,Halton Castle,Halton Local Independent Party,Peter Blackmore,281,Unknown,18.5,
+Local,2011,Halton Castle,Liberal Democrats,Simon Balfour Charlesworth,175,Unknown,11.5,
+Local,2011,Halton Castle,Labour,Arthur Roy Cole,1067,Unknown,70.1,E
+Local,2011,Halton Lea,Conservative,Anthony James Dalton,200,Unknown,13.1,
+Local,2011,Halton Lea,Labour,Kathleen Bernadette Loftus,1228,Unknown,80.6,E
+Local,2011,Halton Lea,Liberal Democrats,Marina Thornhill,96,Unknown,6.3,
+Local,2011,Halton View,Conservative,Paul Raymond Doherty,391,Unknown,20.6,
+Local,2011,Halton View,Labour,Stan Parker,1508,Unknown,79.4,E
+Local,2011,Heath,Labour,Pauline Hignett,698,Unknown,35.9,
+Local,2011,Heath,Liberal Democrats,Margaret Anna Ratcliffe,856,Unknown,44.1,E
+Local,2011,Heath,Conservative,Bill Ring,388,Unknown,20,
+Local,2011,Hough Green,Conservative,Paul David Griffiths,405,Unknown,22.6,
+Local,2011,Hough Green,Labour,Kevan Peter Wainwright,1391,Unknown,77.4,E
+Local,2011,Mersey,Labour,Norman Plumpton Walsh,984,Unknown,62.6,E
+Local,2011,Mersey,Liberal Democrats,Ernest Ratcliffe,589,Unknown,37.4,
+Local,2011,Norton North,Conservative,Kay Christine Alexander,281,Unknown,16.1,
+Local,2011,Norton North,Liberal Democrats,Diane Marie Inch,613,Unknown,35.1,
+Local,2011,Norton North,Labour,Geoff Zygadllo,850,Unknown,48.7,E
+Local,2011,Norton South,Conservative,Pam Bleasdale,137,Unknown,9.5,
+Local,2011,Norton South,Labour,David Edward Cargill,1223,Unknown,84.8,E
+Local,2011,Norton South,Liberal Democrats,Andrew Whitley,82,Unknown,5.7,
+Local,2011,Riverside,Liberal Democrats,Paul Nicholas Meara,175,Unknown,17.2,
+Local,2011,Riverside,Labour,Pamela Wallace,843,Unknown,82.8,E
+Local,2012,Appleton,Labour,Eddie Jones,1043,27% (Overall Halton Turnout),90.8,E
+Local,2012,Appleton,Conservative,Mary Noreen Taylor,106,27% (Overall Halton Turnout),9.2,
+Local,2012,Beechwood,Conservative,Tony Dalton,156,27% (Overall Halton Turnout),13.4,
+Local,2012,Beechwood,Labour,Geoffrey Logan,528,27% (Overall Halton Turnout),45.5,E
+Local,2012,Beechwood,Liberal Democrats,Linda Redhead,477,27% (Overall Halton Turnout),41.1,
+Local,2012,Birchfield,Conservative,Peter William Browne,468,27% (Overall Halton Turnout),35.4,
+Local,2012,Birchfield,Labour,Bill Woolfall,854,27% (Overall Halton Turnout),64.6,E
+Local,2012,Broadheath,Conservative,Duncan James Robert Harper,135,27% (Overall Halton Turnout),10.8,
+Local,2012,Broadheath,Labour,Anthony McDermott,1114,27% (Overall Halton Turnout),89.2,E
+Local,2012,Daresbury,Conservative,Majorie Bradshaw,502,27% (Overall Halton Turnout),47.9,E
+Local,2012,Daresbury,Labour,Michael James Eakins,443,27% (Overall Halton Turnout),42.3,
+Local,2012,Daresbury,Liberal Democrats,Jayne Lesley Anne Hughes,103,27% (Overall Halton Turnout),9.8,
+Local,2012,Ditton,Conservative,Carl Robert Cross,286,27% (Overall Halton Turnout),19.1,
+Local,2012,Ditton,Labour,Marie Wright,1209,27% (Overall Halton Turnout),80.9,E
+Local,2012,Farnworth,Independent,Phil Balmer,699,27% (Overall Halton Turnout),43.7,
+Local,2012,Farnworth,Labour,Valerie Hill,900,27% (Overall Halton Turnout),56.3,E
+Local,2012,Grange,Labour,Darren Lea,1147,27% (Overall Halton Turnout),90.5,E
+Local,2012,Grange,Liberal Democrats,Marina Mary Thornhill,121,27% (Overall Halton Turnout),9.5,
+Local,2012,Halton Brook,Independent,Christopher Martin Carlin,418,27% (Overall Halton Turnout),29.1,
+Local,2012,Halton Brook,Labour,Stefan Michael Nelson,930,27% (Overall Halton Turnout),64.7,E
+Local,2012,Halton Brook,Liberal Democrats,Granville Spencer,90,27% (Overall Halton Turnout),6.3,
+Local,2012,Halton Castle,Liberal Democrats,Laura Borne,195,27% (Overall Halton Turnout),14.8,
+Local,2012,Halton Castle,Labour,Harry Neil Howard,1124,27% (Overall Halton Turnout),85.2,E
+Local,2012,Halton Lea,Labour,David Thompson,1044,27% (Overall Halton Turnout),84,E
+Local,2012,Halton Lea,Liberal Democrats,David John Woods,199,27% (Overall Halton Turnout),16,
+Local,2012,Halton View,Conservative,Patricia Parkinson,183,27% (Overall Halton Turnout),12.4,
+Local,2012,Halton View,Labour,Rob Polhill,1288,27% (Overall Halton Turnout),87.6,E
+Local,2012,Heath,Conservative,William Hill Dowdle,244,27% (Overall Halton Turnout),14.4,
+Local,2012,Heath,Liberal Democrats,Gareth Charles Stockton,829,27% (Overall Halton Turnout),48.9,E
+Local,2012,Heath,Labour,Paul Robert Wignall,622,27% (Overall Halton Turnout),36.7,
+Local,2012,Hough Green,Conservative,Carl Michael Helps,182,27% (Overall Halton Turnout),13.2,
+Local,2012,Hough Green,Labour,Paul Christopher Nolan,1199,27% (Overall Halton Turnout),86.8,E
+Local,2012,Kingsway,Labour,Margaret Horabin,883,27% (Overall Halton Turnout),90.3,E
+Local,2012,Kingsway,Liberal Democrats,James Edward Staniford-Payne,95,27% (Overall Halton Turnout),9.7,
+Local,2012,Mersey,Liberal Democrats,Ernest Radcliffe,347,27% (Overall Halton Turnout),28.6,
+Local,2012,Mersey,Labour,Pauline Theresa Sinnott,865,27% (Overall Halton Turnout),71.4,E
+Local,2012,Norton North,Labour,Lauren Rhea Cassidy,776,27% (Overall Halton Turnout),53.3,E
+Local,2012,Norton North,Liberal Democrats,Diane Inch,539,27% (Overall Halton Turnout),37,
+Local,2012,Norton North,Conservative,Willian John Ring,140,27% (Overall Halton Turnout),9.6,
+Local,2012,Norton South,Labour,Ronald John Hignett,1103,27% (Overall Halton Turnout),92.4,E
+Local,2012,Norton South,Liberal Democrats,Gregory Michael Inch,91,27% (Overall Halton Turnout),7.6,
+Local,2012,Riverside,Labour,Stan Hill,685,27% (Overall Halton Turnout),91.2,E
+Local,2012,Riverside,Liberal Democrats,Paul Nicholas Meara,66,27% (Overall Halton Turnout),8.8,
+Local,2012,Windmill Hill,Labour,Pauline Hignett,322,27% (Overall Halton Turnout),72.4,E
+Local,2012,Windmill Hill,Liberal Democrats,Kelly Jane Marlow,28,27% (Overall Halton Turnout),6.3,
+Local,2012,Windmill Hill,Independent,Mike Shepherd,95,27% (Overall Halton Turnout),21.3,
+PCC,2012,N/A,Liberal Democrats,Ainsley Arnold,10653,,10,
+PCC,2012,N/A,UKIP,Louise Bours,8557,,8,
+PCC,2012,N/A,Conservative Party,John Vincent Dwyer,48591,,37,E
+PCC,2012,N/A,Independent,Sarah Catherine Flannery,18596,,17,
+PCC,2012,N/A,Labour,John Robert Stockton,37350,,28,
+European Parlimentary,2014,N/A,An Independent from Europe,N/A,466,28.50%,1.8,
+European Parlimentary,2014,N/A,British National Party,N/A,475,28.50%,1.8,
+European Parlimentary,2014,N/A,Conservative Party,N/A,3108,28.50%,11.7,
+European Parlimentary,2014,N/A,English Democrats,N/A,294,28.50%,1.1,
+European Parlimentary,2014,N/A,Green Party,N/A,1423,28.50%,5.4,
+European Parlimentary,2014,N/A,Labour Party,N/A,12096,28.50%,45.7,E
+European Parlimentary,2014,N/A,Liberal Democrats,N/A,821,28.50%,3.1,
+European Parlimentary,2014,N/A,NO2EU,N/A,89,28.50%,0.3,
+European Parlimentary,2014,N/A,Pirate Party UK,N/A,119,28.50%,0.4,
+European Parlimentary,2014,N/A,Socialist Equality Party,N/A,87,28.50%,0.3,
+European Parlimentary,2014,N/A,UKIP,N/A,7519,28.50%,28.4,
+Kingsway By-Election,2014,Kingsway,UKIP,Brad Bradshaw,164,14.70%,22.3,
+Kingsway By-Election,2014,Kingsway,Conservative,Duncan James Robert Harper,22,14.70%,3,
+Kingsway By-Election,2014,Kingsway,Liberal Democrats,Paul Nicholas Meara,11,14.70%,1.5,
+Kingsway By-Election,2014,Kingsway,Labour,Andrea Wall,537,14.70%,73.2,E
+Local,2014,Appleton,Labour,Sue Edge,N/A,N/A,N/A,E
+Local,2014,Birchfield,Labour,Michael Fry,855,28.00%,59,E
+Local,2014,Birchfield,Conservative,Philip Harper,593,28.00%,41,
+Local,2014,Broadheath,Labour,Keith Morley,N/A,N/A,N/A,E
+Local,2014,Ditton,Conservative,Paul David Griffiths,318,29.00%,20.3,
+Local,2014,Ditton,Labour,Joe Roberts,1251,29.00%,79.7,E
+Local,2014,Farnworth,Conservative,Colleen Mary Harper,666,27.30%,40.3,
+Local,2014,Farnworth,Labour,Andrew Joseph Macmanus,986,27.30%,59.7,E
+Local,2014,Grange,Labour,Mark David Dennett,933,25.30%,77.6,E
+Local,2014,Grange,Conservative,William Hill Dowdle,187,25.30%,15.5,
+Local,2014,Grange,Liberal Democrats,Paul Nicholas Meara,83,25.30%,6.9,
+Local,2014,Hale,Labour,Mike Wharton,N/A,N/A,N/A,E
+Local,2014,Halton Brook,UKIP,Kevin Barry Horne,454,30.00%,31.8,
+Local,2014,Halton Brook,Labour,John Robert Stockton,973,30.00%,68.2,E
+Local,2014,Halton Castle,Labour,Ellen Cargill,956,31.80%,66.3,E
+Local,2014,Halton Castle,UKIP,Rochelle Carney,413,31.80%,28.7,
+Local,2014,Halton Castle,Trade Unionists and Socialists Against Cuts,Darrin Whyte,72,31.80%,5,
+Local,2014,Halton Lea,UKIP,Luke Jon Hanson,345,30.00%,25.2,
+Local,2014,Halton Lea,Labour,Alan Archie Lowe,885,30.00%,64.7,E
+Local,2014,Halton Lea,Conservative,Colin David Rowan,83,30.00%,6.1,
+Local,2014,Halton Lea,Liberal Democrats,David John Woods,55,30.00%,4,
+Local,2014,Halton View,Conservative,Duncan James Robert Harper,273,30.20%,17.7,
+Local,2014,Halton View,Labour,Tom McInerney,1267,30.20%,82.3,E
+Local,2014,Heath,UKIP,Philip Frank Busow,416,36.70%,24.4,
+Local,2014,Heath,Conservative,Tony Dalton,232,36.70%,13.6,
+Local,2014,Heath,Labour,Charlotte Mary Gerrard,513,36.70%,30.1,
+Local,2014,Heath,Liberal Democrats,Christopher Rowe,541,36.70%,31.8,E
+Local,2014,Hough Green,Labour,Phil Harris,1135,29.90%,79.3,E
+Local,2014,Hough Green,Conservative,Joanne Mclean,297,29.90%,20.7,
+Local,2014,Kingsway,UKIP,Brad Bradshaw,287,24.00%,24.5,
+Local,2014,Kingsway,Labour,June Agnes Roberts,886,24.00%,75.5,E
+Local,2014,Mersey,Labour,John Paul Gerrard,765,27.60%,52.6,E
+Local,2014,Mersey,UKIP,Glyn Redican,451,27.60%,31,
+Local,2014,Mersey,Liberal Democrats,Granville Spencer,142,27.60%,9.8,
+Local,2014,Mersey,Trade Unionists and Socialists Against Cuts,Joe Whyte,97,27.60%,6.7,
+Local,2014,Norton North,Conservative,Adam Robert Burnett,257,32.20%,16.1,
+Local,2014,Norton North,Liberal Democrats,Diane Marie Inch,491,32.20%,30.7,
+Local,2014,Norton North,Labour,Peter Lloyd Jones,850,32.20%,53.2,E
+Local,2014,Norton South,Labour,Martha Lloyd Jones,1129,27.70%,89.4,E
+Local,2014,Norton South,Conservative,Ruth Elizabeth Rowan,134,27.70%,10.6,
+Parliamentary ,2015,N/A,Liberal Democrats,Ryan Stephen Robert Bate,1097,62%,2.4,
+Parliamentary ,2015,N/A,Conservative,Matthew Dominic Lloyd,8007,62%,17.8,
+Parliamentary ,2015,N/A,Green,David Robert Melvin,1017,62%,2.3,
+Parliamentary ,2015,N/A,UKIP,Glyn Redican,6333,62%,14.1,
+Parliamentary ,2015,N/A,Independent,Vic Turton,277,62%,0.6,
+Parliamentary ,2015,N/A,Labour,Derek Twigg,28292,62%,62.8,E
+Local,2015,Appleton,Labour,Ged Philbin,2223,55.70%,81.3,E
+Local,2015,Appleton,Independent,Vic Turton,511,55.70%,18.7,
+Local,2015,Beechwood,Conservative,Adam Robert Burnett,551,74.30%,24.5,
+Local,2015,Beechwood,UKIP,Philip Frank Busow,326,74.30%,14.5,
+Local,2015,Beechwood,Green,Dave Heath,113,74.30%,5,
+Local,2015,Beechwood,Labour,Chris Loftus,962,74.30%,42.7,E
+Local,2015,Beechwood,Liberal Democrats,Linda Redhead,300,74.30%,13.3,
+Local,2015,Birchfield,Labour,Sandra Marie Baker,1943,68.70%,52.8,E
+Local,2015,Birchfield,Conservative,Philip Harper,1247,68.70%,33.9,
+Local,2015,Birchfield,UKIP,Jonathan David Mackie,492,68.70%,13.4,
+Local,2015,Broadheath,Labour,Robert Gilligan,N/A,N/A,N/A,N/A
+Local,2015,Daresbury,Labour,John Bernard Abbot,919,74.50%,35.5,
+Local,2015,Daresbury,Conservative,John Christopher Bradshaw,1473,74.50%,56.9,E
+Local,2015,Daresbury,Liberal Democrats,Miriam Lorraine Hodge,195,74.50%,7.5,
+Local,2015,Ditton,Labour,Shaun Michael Osborne,2678,61.80%,78.2,E
+Local,2015,Ditton,Conservative,Ruth Elizabeth Rowan,748,61.80%,21.8,
+Local,2015,Farnworth,Conservative,Colleen Mary Harper,1418,65.70%,32.8,
+Local,2015,Farnworth,Labour,Angela Mcinerney,2386,65.70%,55.2,E
+Local,2015,Farnworth,UKIP,Roy Radley,516,65.70%,11.9,
+Local,2015,Grange,UKIP,Peter Hallwood,707,58.70%,24.4,
+Local,2015,Grange,Labour,Joan Margaret Lowe,1912,58.70%,66.1,E
+Local,2015,Grange,Liberal Democrats,Tracey Spencer,273,58.70%,9.4,
+Local,2015,Halton Brook,UKIP,Annalea Clare,587,60.90%,19.7,
+Local,2015,Halton Brook,Labour,Carol Patricia Plumpton Walsh,2114,60.90%,70.8,E
+Local,2015,Halton Brook,Liberal Democrats,Granville Spencer,286,60.90%,9.6,
+Local,2015,Halton Castle,UKIP,Rochelle Carney,487,60.50%,17.2,
+Local,2015,Halton Castle,Labour,Arthur Roy Cole,1985,60.50%,70,E
+Local,2015,Halton Castle,Liberal Democrats,Maureen Preston,220,60.50%,7.8,
+Local,2015,Halton Castle,Trade Unionists and Socialists Against Cuts,Darrin Whyte,142,60.50%,5,
+Local,2015,Halton Lea,UKIP,Luke Jon Hanson,389,62.60%,13.3,
+Local,2015,Halton Lea,Labour,Kath Loftus,2281,62.60%,78,E
+Local,2015,Halton Lea,Conservative,Colin David Rowan,256,62.60%,8.7,
+Local,2015,Halton View,UKIP,Jayne Irene Busow,518,63.70%,15.5,
+Local,2015,Halton View,Conservative,Duncan James Robert Harper,441,63.70%,13.2,
+Local,2015,Halton View,Labour,Stan Parker,2384,63.70%,71.3,E
+Local,2015,Heath,UKIP,Joan Theresa Byrne,467,71.00%,13.9,
+Local,2015,Heath,Conservative,Anthony James Dalton,582,71.00%,17.3,
+Local,2015,Heath,Labour,Charlotte Mary Gerrard,1225,71.00%,36.4,E
+Local,2015,Heath,Trade Unionists and Socialists Against Cuts,Mike Powell,92,71.00%,2.7,
+Local,2015,Heath,Liberal Democrats,Margaret Radcliffe,996,71.00%,29.6,
+Local,2015,Hough Green,Conservative,Paul David Griffiths,682,60.10%,21.7,
+Local,2015,Hough Green,Labour,Kevan Peter Wainwright,2465,60.10%,78.3,E
+Local,2015,Kingsway,UKIP,Brad Bradshaw,424,57.30%,14.9,
+Local,2015,Kingsway,Conservative,Joanne Mclean,303,57.30%,10.6,
+Local,2015,Kingsway,Labour,Andrea Wall,2126,57.30%,74.5,E
+Local,2015,Mersey,Conservative,Danny Clarke,356,56.30%,11.8,
+Local,2015,Mersey,Labour,Norman Plumpton Walsh,1786,56.30%,59.4,E
+Local,2015,Mersey,Liberal Democrats,Ernest Ratcliffe,271,56.30%,9,
+Local,2015,Mersey,UKIP,Glyn Redican,593,56.30%,19.7,
+Local,2015,Norton North,UKIP,Mary Hanson,428,67.00%,12.6,
+Local,2015,Norton North,Liberal Democrats,Diane Marie Inch,546,67.00%,16,
+Local,2015,Norton North,Conservative,Matthew Keith Lambert,630,67.00%,18.5,
+Local,2015,Norton North,Labour,Geoff Zygadllo,1803,67.00%,52.9,E
+Local,2015,Norton South,Liberal Democrats,Laura Borne,81,64.90%,2.7,
+Local,2015,Norton South,Labour,Dave Cargill,2375,64.90%,77.8,E
+Local,2015,Norton South,Conservative,David Lawrence Masheder,241,64.90%,7.9,
+Local,2015,Norton South,UKIP,Chris Ryan,355,64.90%,11.6,
+Local,2015,Riverside,UKIP,Thomas Glynn,416,53.80%,20.8,
+Local,2015,Riverside,Trade Unionists and Socialists Against Cuts,Paul McCann,125,53.80%,6.3,
+Local,2015,Riverside,Liberal Democrats,Paul Nicholas Meara,86,53.80%,4.3,
+Local,2015,Riverside,Labour,Pamela Wallace,1371,53.80%,68.6,E
+PCC,2016,N/A,Conservative,John Dwyer,81652,Unknown,,
+PCC,2016,N/A,Labour,David Keane,84601,Unknown,,E
+PCC,2016,N/A,Liberal Democrats,Neil Christopher Lewis,18530,Unknown,,
+PCC,2016,N/A,UKIP,Jonathan Charles Starkey,21991,Unknown,,
+Local,2016,Appleton,Labour,Eddie Jones,947,24.4,79.2,E
+Local,2016,Appleton,Conservative,Colin David Rowan,96,24.4,8,
+Local,2016,Appleton,Independent,Victor Turton,152,24.4,12.7,
+Local,2016,Beechwood,Conservative,Adam Burnett,163,35.3,15.7,
+Local,2016,Beechwood,UKIP,Philip Busow,181,35.3,17.4,
+Local,2016,Beechwood,Labour,Geoffrey Michael Logan,483,35.3,46.4,E
+Local,2016,Beechwood,Liberal Democrats,Linda Redhead,214,35.3,20.6,
+Local,2016,Birchfield,Conservative,Callum Hough,559,27,40.5,
+Local,2016,Birchfield,Labour,Bill Woolfall,821,27,59.5,E
+Local,2016,Broadheath,Labour,Tony McDermott,N/A,N/A,Unopposed,
+Local,2016,Daresbury,Conservative,Marjorie Bradshaw,636,34.1,54,E
+Local,2016,Daresbury,Liberal Democrats,Miriam Lorraine Hodge,96,34.1,8.2,
+Local,2016,Daresbury,Labour Party,Colin William Hughes,445,34.1,37.8,
+Local,2016,Ditton,Conservative,Paul David Griffiths,171,26.9,11.6,
+Local,2016,Ditton,Independent,Kieran Reed,202,26.9,13.7,
+Local,2016,Ditton,Labour,Marie Wright,1105,26.9,74.8,E
+Local,2016,Farnworth,Conservative,Colleen Mary Harper,698,28,38.6,
+Local,2016,Farnworth,Labour,Val Hill,1111,28,61.4,E
+Local,2016,Grange,Labour,John Bernard Abbot,798,24,69.2,E
+Local,2016,Grange,UKIP,Peter Hallwood,222,24,19.3,
+Local,2016,Grange,Liberal Democrats,Joanne Allison Rowe,133,24,11.5,
+Local,2016,Halton Brook,Labour,Stef Nelson,1050,26.6,82.5,E
+Local,2016,Halton Brook,Liberal Democrats,Tracey Spencer,222,26.6,17.5,
+Local,2016,Halton Castle,UKIP,Rochelle Carney,211,29.4,15.5,
+Local,2016,Halton Castle,Labour,Harry Neil Howard,1035,29.4,76,E
+Local,2016,Halton Castle,Independent,Darrin Whyte,115,29.4,8.4,
+Local,2016,Halton Lea,Conservative,Ruth Elizabeth Rowan,148,26.7,12.3,
+Local,2016,Halton Lea,Labour,Dave Thompson,1053,26.7,87.7,E
+Local,2016,Halton View,UKIP,Jayne Busow,188,29,12.5,
+Local,2016,Halton View,Conservative,Duncan James Robert Harper,113,29,7.5,
+Local,2016,Halton View,Labour,Rob Polhill,1205,29,80,E
+Local,2016,Heath,Conservative,Ian John Adams,146,37.4,8.4,
+Local,2016,Heath,Labour,Rosie Leck,542,37.4,31.3,
+Local,2016,Heath,Liberal Democrats,Gareth Charles Stockton,821,37.4,47.5,E
+Local,2016,Heath,UKIP,Michelle Watson,221,37.4,12.8,
+Local,2016,Hough Green,Conservative,Joanne Mclean,226,26.3,16.8,
+Local,2016,Hough Green,Labour,Paul Nolan,1118,26.3,83.2,E
+Local,2016,Kingsway,UKIP,Brad Bradshaw,152,22.2,14.2,
+Local,2016,Kingsway,Labour,Margaret Horabin,840,22.2,78.7,E
+Local,2016,Kingsway,Conservative,John Robert Powell,76,22.2,7.1,
+Local,2016,Mersey,Conservative,Danny Clarke,135,25,10.4,
+Local,2016,Mersey,UKIP,Glyn Redican,300,25,23.1,
+Local,2016,Mersey,Labour,Pauline Sinnott,732,25,56.4,E
+Local,2016,Mersey,Liberal Democrats,Granville Spencer,130,25,10,
+Local,2016,Norton North,Labour,Lauren Rhea Cassidy,903,28.8,62.6,E
+Local,2016,Norton North,Liberal Democrats,Diane Marie Inch,304,28.8,21.1,
+Local,2016,Norton North,Conservative,Matthew Keith Lambert,235,28.8,16.3,
+Local,2016,Norton South,Labour,Ronald John Hignett,1021,25.4,87,E
+Local,2016,Norton South,Conservative,William John Ring,152,25.4,13,
+Local,2016,Riverside,UKIP,Thomas Michael Glynn,185,19.8,25.8,
+Local,2016,Riverside,Labour,Stan Hill,532,19.8,74.2,E
+Local,2016,Windmill Hill,Conservative,Philip Harper,31,24.2,7.8,
+Local,2016,Windmill Hill,Labour,Pauline Hignett,365,24.2,92.2,E
+EU Referendum,2016,N/A,Remain,N/A,27678,68.26,42.6,
+EU Referendum,2016,N/A,Leave,N/A,37327,68.26,57.4,E
+LCR Combined Authority Mayor,2017,N/A,Trade Unionists and Socialists Coalition,Roger Bannister,7881,26.1,2.73,
+LCR Combined Authority Mayor,2017,N/A,Get The Coppers Off The Jury,Paul Breen,729,26.1,0.25,
+LCR Combined Authority Mayor,2017,N/A,Conservative,Tony Caldeira,58805,26.1,20.37,
+LCR Combined Authority Mayor,2017,N/A,Liberal Democrats,Carl Cashman,19751,26.1,6.84,
+LCR Combined Authority Mayor,2017,N/A,Green Party,Tom Crone,14094,26.1,4.88,
+LCR Combined Authority Mayor,2017,N/A,Women's Equality Party,Tabitha Morton,4287,26.1,1.49,
+LCR Combined Authority Mayor,2017,N/A,Labour,Steve Rotheram,171167,26.1,59.3,
+LCR Combined Authority Mayor,2017,N/A,UKIP,Paula Walters,11946,26.1,4.14,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Trade Unionists and Socialists Coalition,Roger Bannister,503,20.5,2.6,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Get The Coppers Off The Jury,Paul Breen,64,20.5,0.3,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Conservative,Tony Caldeira,3928,20.5,20.5,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Liberal Democrats,Carl Cashman,943,20.5,4.9,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Green Party,Tom Crone,677,20.5,3.5,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Women's Equality Party,Tabitha Morton,245,20.5,1.3,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,Labour,Steve Rotheram,11636,20.5,60.6,
+LCR Combined Authority Mayor (Halton Only),2017,N/A,UKIP,Paula Walters,1191,20.5,6.2,
+Parliamentary ,2017,N/A,Liberal Democrats,Ryan Stephen Robert Bate,896,67.2,1.8,
+Parliamentary ,2017,N/A,Conservative,Matthew Lloyd,10710,67.2,21.6,
+Parliamentary ,2017,N/A,UKIP,Glyn Redican,1488,67.2,3,
+Parliamentary ,2017,N/A,Independent,Vic Turton,309,67.2,0.6,
+Parliamentary ,2017,N/A,Labour,Derek Twigg,36115,67.2,72.9,E
+Local,2018,Halton Castle,Labour,Christopher Martin Carlin,522,16,70.3,E
+Local,2018,Halton Castle,Conservative,Ian John Adams,88,16,11.8,
+Local,2018,Halton Castle,Independent,Darrin Whyte,133,16,17.9,
+Local,2018,Appleton,Conservative,Philip Harper,172,22.32,15.2,
+Local,2018,Appleton,Labour,Angela Teeling,860,22.32,76.2,E
+Local,2018,Appleton,Socialist Labour Party,Vic Turton,97,22.32,8.6,
+Local,2018,Birchfield,Liberal Democrats,Romana Aleksandra Dworak,142,28.35,9.1,
+Local,2018,Birchfield,Labour,Mike Fry,798,28.35,51.4,E
+Local,2018,Birchfield,Conservative and Unionist Party,John Robert Powell,613,28.35,39.5,
+Local,2018,Broadheath,Labour,Keith Morley,988,24.15,83.4,E
+Local,2018,Broadheath,Conservative,Richard Peter Murray,196,24.15,16.6,
+Local,2018,Ditton,Labour,Joe Roberts,934,27.12,61.9,E
+Local,2018,Ditton,Independent,Colin David Rowan,575,27.12,38.1,
+Local,2018,Farnworth,UKIP,Barry Cromer,196,27.01,10.5,
+Local,2018,Farnworth,Conservative and Unionist Party,Colleen Mary Harper,643,27.01,34.4,
+Local,2018,Farnworth,Labour,Andrew Joseph Macmanus,1031,27.01,55.1,E
+Local,2018,Grange,Labour,Mark David Dennett,783,20.89,74.9,E
+Local,2018,Grange,Conservative,Phil Drakeley,101,20.89,9.7,
+Local,2018,Grange,Liberal Democrats,Linda Redhead,161,20.89,15.4,
+Local,2018,Hale,Conservative and Unionist Party,Ruth Elizabeth Rowan,21,56.46,2.4,
+Local,2018,Hale,Independent,Luke Gerald Trevaskis,388,56.46,44.2,
+Local,2018,Hale,Labour,Mike Wharton,468,56.46,53.4,E
+Local,2018,Halton Brook,Trade Union and Socialist Coalition,Stephen Armstrong,106,24.66,8.6,
+Local,2018,Halton Brook,Conservative,David James Dorian,135,24.66,11,
+Local,2018,Halton Brook,Liberal Democrats,Granville Spencer,105,24.66,8.6,
+Local,2018,Halton Brook,Labour,John Robert Stockton,882,24.66,71.8,E
+Local,2018,Halton Castle,UKIP,Philip Busow,45,24.93,3.8,
+Local,2018,Halton Castle,Labour,Ellen Cargill,856,24.93,71.6,E
+Local,2018,Halton Castle,Conservative and Unionist Party,Julie Powell,110,24.93,9.2,
+Local,2018,Halton Castle,Independent,Darrin Whyte,185,24.93,15.5,
+Local,2018,Halton Lea,Conservative,Sandra Margarett Davidson,150,25.85,12.7,
+Local,2018,Halton Lea,UKIP,Mary Elizabeth Hanson,72,25.85,6.1,
+Local,2018,Halton Lea,Labour,Alan Archie Lowe,908,25.85,76.8,E
+Local,2018,Halton Lea,Liberal Democrats,Ernest Ratcliffe,52,25.85,4.4,
+Local,2018,Halton View,Conservative,Tania Joni Clarke,283,27.77,10.6,
+Local,2018,Halton View,Conservative and Unionist Party,Duncan James Robert Harper,250,27.77,9.4,
+Local,2018,Halton View,Labour,Tom McInerney,1139,27.77,42.8,E
+Local,2018,Halton View,Labour,Louise Whitley,990,27.77,37.2,E
+Local,2018,Heath,Conservative,Ian John Adams,265,35.62,16,
+Local,2018,Heath,Labour,Irene Bramwell,555,35.62,33.5,
+Local,2018,Heath,UKIP,Dave Myers,102,35.62,6.2,
+Local,2018,Heath,Liberal Democrats,Chris Rowe,735,35.62,44.4,E
+Local,2018,Hough Green,UKIP,Thomas Michael Glynn,127,24.7,10,
+Local,2018,Hough Green,Labour,Phil Harris,896,24.7,70.6,E
+Local,2018,Hough Green,Conservative and Unionist Party,Joanne Lesley Mclean,247,24.7,19.4,
+Local,2018,Kingsway,UKIP,Brad Bradshaw,74,22.66,6.7,
+Local,2018,Kingsway,Conservative,Paul David Griffiths,113,22.66,10.2,
+Local,2018,Kingsway,Labour,June Roberts,918,22.66,83.1,E
+Local,2018,Mersey,Conservative and Unionist Party,Daniel David Clarke,205,24.09,16,
+Local,2018,Mersey,Labour,Rosie Leck,845,24.09,65.8,E
+Local,2018,Mersey,UKIP,Glyn Redican,85,24.09,6.6,
+Local,2018,Mersey,Liberal Democrats,Joanne Rowe,150,24.09,11.7,
+Local,2018,Norton North,Conservative,Sian Fiona Alexandra Davidson,302,28.3,21.3,
+Local,2018,Norton North,Liberal Democrats,Diane Marie Inch,326,28.3,23,
+Local,2018,Norton North,Labour,Peter Lloyd Jones,791,28.3,55.7,E
+Local,2018,Norton South,Conservative,Adam Robert Burnett,148,23.04,13.8,
+Local,2018,Norton South,Liberal Democrats,Miriam Lorraine Hodge,36,23.04,3.3,
+Local,2018,Norton South,Labour,Martha Lloyd Jones,892,23.04,82.9,E
