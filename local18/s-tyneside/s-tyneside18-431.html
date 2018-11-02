@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE HTML>
+<!--[if IE 7]><html class="ie7" lang="en-GB"><![endif]-->
+<!--[if IE 8]><html class="ie8" lang="en-GB"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en-GB"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en-GB">
+<!--<![endif]-->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
+
+		
+		<title>Elections | South Tyneside</title>
+            
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/website-old.css" media="all" type="text/css" />
+<!--[if IE 7]><link rel="stylesheet" href="css/website-old-ie7.css" media="all" type="text/css" /><![endif]-->
+<!--[if lte IE 6]><link rel="stylesheet" href="css/website-old-ie6.css" media="all" type="text/css" /><![endif]-->
+<link rel="stylesheet" href="css/election.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/color.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/templatebody.css" media="all" type="text/css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="css/templatebody-ie7" media="all" type="text/css" /><![endif]-->
+
+		<!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+<![endif]-->
+
+		
+
+
+	</head>
+    
+	<body class="">
+		
+		    <!-- Google Tag Manager - Added to Template Sept 2016 -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TRNVHF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>
+                (function(w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+                    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-TRNVHF');
+            </script>
+            <!-- End Google Tag Manager -->
+				
+
+		<!-- START HEADER AREA -->
+
+		<!-- BROWSER MESSAGES-->
+		<div id="browserMessage">
+		</div>
+				
+		<script>
+			//
+			// This script set to warn of upgrade to TLS 1.2
+			// Will output Browser type and version to Console Log (f12 in Chrome)
+			// and issue message on Page if browser is non-compliant.
+			// December 2016.
+			//
+			navigator.browserSpecs = (function(){
+				var ua= navigator.userAgent, tem, 
+				M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+				if(/trident/i.test(M[1])){
+					tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+					return {name:'IE',version:(tem[1] || '')};
+				}
+				if(M[1]=== 'Chrome'){
+					tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+					if(tem!= null) return {name:tem[1].replace('OPR', 'Opera'),version:tem[2]};
+				}
+				M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+				if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+				return {name:M[0],version:M[1]};
+			})();
+			//
+			console.log(navigator.browserSpecs);
+			//
+			var theBrowser = navigator.browserSpecs.name;
+			theBrowser = theBrowser.toLowerCase();
+			//
+			function tlsMessage (browserType) {
+				var output = "";
+				output += "<h2>Your browser is out of date</h2>";
+				output += "<p>We are updating security on e-services</p>";
+				output += "<p>To make sure you continue to access e-services, please update your browser.</p>";
+				output += "<a href='https://www.southtyneside.gov.uk/58232' class='btn'>Get help to update your browser</a>";				
+				return output;
+			}
+			//
+			switch (theBrowser) {
+				case "chrome":
+					if (navigator.browserSpecs.version < 30) {
+						document.getElementById("browserMessage").innerHTML = tlsMessage("Chrome");
+						document.getElementById("browserMessage").setAttribute("class", "highlight failure");
+					}
+					break;
+				case "edge":
+					// You have not got a problem.
+					break;
+				case "firefox":
+					if (navigator.browserSpecs.version < 34) {
+						document.getElementById("browserMessage").innerHTML = tlsMessage("FireFox");
+						document.getElementById("browserMessage").setAttribute("class", "highlight failure");
+					}
+					break;
+				case "ie":
+					if (navigator.browserSpecs.version < 11) {
+						document.getElementById("browserMessage").innerHTML = tlsMessage("IE");
+						document.getElementById("browserMessage").setAttribute('class', 'highlight failure');
+					}
+					break;
+				case "opera":
+					if (navigator.browserSpecs.version < 17) {
+						document.getElementById("browserMessage").innerHTML = tlsMessage("Opera");
+						document.getElementById("browserMessage").setAttribute('class', 'highlight failure');
+					}
+					break;
+				case "safari":
+					if (navigator.browserSpecs.version < 10) {
+						document.getElementById("browserMessage").innerHTML = tlsMessage("Safari");
+						document.getElementById("browserMessage").setAttribute('class', 'highlight failure');
+					}
+					break;
+				default:
+					tslText = "Your Browser is <strong>" + navigator.browserSpecs.name + "</strong> version " + navigator.browserSpecs.version + ".<br />";
+					document.getElementById("browserMessage").innerHTML = tlsMessage("your browser");
+					document.getElementById("browserMessage").setAttribute('class', 'highlight failure');
+					break;
+			}
+		</script>
+		
+
+		<!-- HEADER -->
+		<header class="id-header">
+			<div class="container">
+				<a href="https://www.southtyneside.gov.uk/"><h1>South Tyneside Council</h1></a>
+				<form role="search" method="get" action="https://www.southtyneside.gov.uk/article/55008/Search">
+					<fieldset>
+						<legend class="hidden">Search South Tyneside Council website</legend>
+						<div class="field">
+							<label for="search-field" class="hidden"><span>Search</span></label>
+							<input type="search" placeholder="Enter search term" id="search-field" name="q" class="text" />
+						</div>
+						<div class="submitfield">
+							<input type="submit" title="Search for entered keyword" value="Search" name="go" class="btn submit" />
+						</div>
+					</fieldset>
+				</form>
+				
+				<div class="id-myaccount">
+					<ul>
+						<li><a href="https://www.southtyneside.gov.uk/article/54997/My-account" class="btn">My account</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<!-- BREADCRUMB -->
+		<div class="id-breadcrumb"><div class="container"><ul><li><a href="https://www.southtyneside.gov.uk/">Home</a></li><li><span>Election results</span></li></ul></div></div>			
+		
+		
+		<!-- END HEADER AREA -->
+
+		<div id="content">
+			
+			<div id="content-inner">
+				<!--[Page_Content_Start]-->
+					
+					
+			
+				
+
+    
+    <div class="container">
+        
+	<div id="container">
+  <h1>Election results</h1>
+  <h2>Hebburn North Ward - 03 May 2018 Local Government Election
+			</h2>
+  <div id="ElectionContent">
+    <div id="Candidates" class="Table">
+      <table id="CandidateList" summary="list of Candidates." cellspacing="0" cellpadding="0">
+        <caption>Candidates</caption>
+        <tr>
+          <th class="Col1"> </th>
+          <th class="Col2">Candidate</th>
+          <th class="Col3">Party</th>
+          <th class="Col4">Votes</th>
+          <th class="Col5">Elected</th>
+        </tr>
+        <tr>
+          <td class="rBack Col1"> </td>
+          <td class="rBack Col2 bold">
+												 Richie Porthouse</td>
+          <td class="rBack Col3 bold">Labour Party</td>
+          <td class="rBack Col4 bold">1430</td>
+          <td class="rBack Col5 bold">Yes</td>
+        </tr>
+        <tr>
+          <td class="gBack Col1"> </td>
+          <td class="Undec Col2">Steve Richards</td>
+          <td class="Undec Col3">Green Party</td>
+          <td class="Undec Col4">259</td>
+          <td class="Undec Col5">&#160;</td>
+        </tr>
+        <tr>
+          <td class="bBack Col1"> </td>
+          <td class="Undec Col2">Keith Campbell Sumby</td>
+          <td class="Undec Col3">Conservative Party</td>
+          <td class="Undec Col4">273</td>
+          <td class="Undec Col5">&#160;</td>
+        </tr>
+      </table>
+    </div>
+    <div id="Turnout" class="Table">
+      <table id="TurnoutList" summary="Ward turnout">
+        <caption>Ward turnout</caption>
+        <tr>
+          <th class="Col1"> </th>
+          <th class="Col2">Electorate</th>
+          <th class="Col3">Votes</th>
+          <th class="Col4">Turnout</th>
+        </tr>
+        <tr>
+          <td class="Col1">
+								 In person <a href="station.aspx?id=431">(see votes by station)</a></td>
+          <td class="Col2">5130</td>
+          <td class="Col3">806</td>
+          <td class="Col4">15.7%
+									</td>
+        </tr>
+        <tr>
+          <td class="Col1">
+								 Postal</td>
+          <td class="Col2">1969</td>
+          <td class="Col3">1162</td>
+          <td class="Col4">59%
+									</td>
+        </tr>
+        <tr id="total">
+          <td class="Col1 bold">
+								 Overall
+							</td>
+          <td class="Col2 bold">7099</td>
+          <td class="Col3 bold">1968</td>
+          <td class="Col4 bold">27.7%
+											</td>
+        </tr>
+      </table>
+    </div>
+    <div id="Image">
+      <h3>Votes</h3>
+      <img id="piechart" src="DisplayImage.aspx?id=0_431_Ward_VotesByCandidate" height="330" width="330" alt="Votes cast at this Election by Candidate." />
+      <table id="graph" class="small">
+        <tr>
+          <th class="Col1"> </th>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+        <tr>
+          <td class="rBack Col1"> </td>
+          <td>Richie Porthouse (Lab)</td>
+          <td class="col3">72.9%
+								</td>
+        </tr>
+        <tr>
+          <td class="bBack Col1"> </td>
+          <td>Keith Campbell Sumby (Con)</td>
+          <td class="col3">13.9%
+								</td>
+        </tr>
+        <tr>
+          <td class="gBack Col1"> </td>
+          <td>Steve Richards (Green Party)</td>
+          <td class="col3">13.2%
+								</td>
+        </tr>
+      </table>
+    </div>
+    <h3 id="see-also">See also</h3>
+    <ul id="see-also-list">
+      <li>
+        <a href="ward.aspx?id=389">05 May 2016 Local Government Election
+							</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    </div>
+    
+
+
+				<!-- [Page Content End ]-->
+			</div> <!-- End content-inner -->
+		</div> <!-- End content -->
+				
+		<!-- FOOTER -->
+		<footer class="id-footer">
+			<section class="id-buttons">
+				<div class="container">
+
+					<ul class="id-btns">
+						<li><a href="https://www.southtyneside.gov.uk/article/55002/Contact-us" class="btn">Contact us</a></li>
+						<li><a href="https://www.southtyneside.gov.uk/article/55003/A-to-Z" class="btn">A to Z</a></li>
+					</ul>
+
+					<form id="subForm" method="post" action="https://southtynesidecouncil.createsend.com/t/y/s/bthet/">
+						<fieldset>
+							<legend>Subscribe to our newsletters</legend>
+							<div class="field">
+								<label for="bthet-bthet">Email Address</label>
+								<input type="text" placeholder="Enter your email address" id="bthet-bthet" name="cm-bthet-bthet" />
+							</div>
+							<div class="submitfield">
+								<input type="submit" class="btn submit" value="Subscribe" id="submit-email-subscription" />
+							</div>
+						</fieldset>
+					</form>
+
+					<ul class="id-socialmedia">
+						<li><a class="twitter" href="./socialmedia">Twitter</a></li>
+						<li><a class="facebook" href="./socialmedia">Facebook</a></li>
+						<li><a class="pinterest" href="./socialmedia">Pinterest</a></li>
+						<li><a class="youtube" href="./socialmedia">Youtube</a></li>
+						<li><a class="instagram" href="./socialmedia">Instagram</a></li>
+					</ul>
+				</div>
+			</section>
+
+			<aside class="id-sentence">
+				<div class="container">
+					<p>South Tyneside includes the towns of South Shields, Hebburn and Jarrow and the villages of Boldon, Cleadon and Whitburn.</p>
+				</div>
+			</aside>
+
+			<aside role="navigation" class="id-sublinks">
+				<ul>
+					<li>&copy;&nbsp;South Tyneside Council</li>
+
+					<li><a href="https://www.southtyneside.gov.uk/article/55004/Sitemap">Sitemap</a></li>
+					<li><a href="https://www.southtyneside.gov.uk/article/55006/Help">Help</a></li>
+					<li><a href="https://www.southtyneside.gov.uk/article/38665/Accessibility">Accessibility</a></li>
+					<li><a href="https://www.southtyneside.gov.uk/article/55007/Disclaimer-">Disclaimer </a></li>
+					<li><a href="https://www.southtyneside.gov.uk/article/56213/Cookies">Cookies</a></li>
+				</ul>
+			</aside>
+		</footer>
+
+		<!-- END FOOTER AREA -->
+	</body>
+</html>	
