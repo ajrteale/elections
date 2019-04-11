@@ -1,0 +1,373 @@
+<!--
+::::::::::::::::::::::::::
+NLC Website 2018
+::::::::::::::::::::::::::
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://www.northlincs.gov.uk/wp-content/themes/NLC/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.northlincs.gov.uk/wp-content/themes/NLC/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://www.northlincs.gov.uk/wp-content/themes/NLC/css/font-awesome.min.css">
+
+    <!-- jquery1.12.4 required for "Bin Collection dates" page to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  	<!-- local info script disabled 05sep as per Matt's instructions-->
+  	<!--<script>$.getScript( "http://maps.northlincs.gov.uk/public/new_website/localinfo.min.js", function() {});</script> -->
+
+
+    <!-- Data tables -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
+    <!-- Theme Files -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="https://www.northlincs.gov.uk/wp-content/themes/NLC/style.css" rel="stylesheet">
+
+    <title>North Lincolnshire Council |   Page not found</title>
+	<!--<title>North Lincolnshire Council</title>-->
+ 
+    <meta name="google-site-verification" content="NATPTB05W0dyMF_aJtlua0cKauLkq93JqQ-MbWh1Yps" />
+	      <!-- Bing Webmaster 15nov2018-->
+	  <meta name="msvalidate.01" content="B8B6967B4809D22217D7B9CB57DEEF86" />
+      <!-- end of Bing Webmster-->
+    <!-- WP head -->
+    		<script type="text/javascript">
+		var ajaxurl = 'https://www.northlincs.gov.uk/wp-admin/admin-ajax.php';
+		</script>
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.northlincs.gov.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=b68379d83f2a80be7510dd32c2187abb"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.northlincs.gov.uk/wp-includes/css/dist/block-library/style.min.css?ver=b68379d83f2a80be7510dd32c2187abb' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css'  href='https://www.northlincs.gov.uk/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css?ver=1.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='https://www.northlincs.gov.uk/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css?ver=1.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='https://www.northlincs.gov.uk/wp-content/plugins/user-access-manager/assets/css/uamLoginForm.css?ver=2.1.12' type='text/css' media='screen' />
+<!--n2css--><script type='text/javascript' src='https://www.northlincs.gov.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.northlincs.gov.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gadwpUAEventsData = {"options":{"event_tracking":"1","event_downloads":"zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*","event_bouncerate":0,"aff_tracking":1,"event_affiliates":"\/out\/","hash_tracking":"1","root_domain":"northlincs.gov.uk","event_timeout":100,"event_precision":0,"event_formsubmit":1,"ga_pagescrolldepth_tracking":1,"ga_with_gtag":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.northlincs.gov.uk/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js?ver=5.3.7'></script>
+<script type='text/javascript' src='https://www.northlincs.gov.uk/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-scrolldepth.js?ver=5.3.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[]};
+var log_object = {"ajax_url":"https:\/\/www.northlincs.gov.uk\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.northlincs.gov.uk/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js?ver=1.7.6'></script>
+<link rel='https://api.w.org/' href='https://www.northlincs.gov.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.northlincs.gov.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.northlincs.gov.uk/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.northlincs.gov.uk/?wordfence_lh=1&hid=CFF9426A43842880F4D2675FE5CC7F32');
+</script><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.northlincs.gov.uk/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->		<script type="text/javascript">
+			var cli_flush_cache=2;
+		</script>
+		<style type="text/css">.broken_link, a.broken_link {
+	<!--text-decoration: line-through; -->
+text-decoration: none;
+}</style><link rel="icon" href="https://www.northlincs.gov.uk/wp-content/uploads/2019/01/nlc-logo-512x374-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.northlincs.gov.uk/wp-content/uploads/2019/01/nlc-logo-512x374.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.northlincs.gov.uk/wp-content/uploads/2019/01/nlc-logo-512x374.png" />
+<meta name="msapplication-TileImage" content="https://www.northlincs.gov.uk/wp-content/uploads/2019/01/nlc-logo-512x374.png" />
+
+<!-- BEGIN ExactMetrics v5.3.7 Universal Analytics - https://exactmetrics.com/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-44542419-1', 'auto');
+  ga('set', 'dimension1', 'guest');
+  ga('send', 'pageview');
+</script>
+<!-- END ExactMetrics Universal Analytics -->
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+  </head>
+  <body class="error404 nlc wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+
+    
+    <h1 class="hidden">North Lincolnshire Council</h1>
+
+    <!-- Code Snippets START -->
+
+      <!-- CAN Adverts START -->
+        <div class="can-top-advert">
+          <script type="text/javascript">
+          document.write('\x3Cscript type="text/javascript" src="//ads.counciladvertising.net/code/northlincolnshirec/adunit1/public">\x3C/script>');
+          document.write('\x3Cscript type="text/javascript" src="//ads.counciladvertising.net/code/northlincolnshirec/adunit2/public">\x3C/script>');
+          </script>
+        </div>
+      <!-- CAN Adverts END -->
+
+    <!-- Code Snippets END -->
+
+    <div id="__ba_panel" class="hidden-xs" style="position:fixed;top:20px;right:0;z-index:9999;"></div>
+
+    <nav class="navbar navbar-nlc visible-lg visible-md">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.northlincs.gov.uk" title="North Lincolnshire Council Home Page">North Lincolnshire <span>Council</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://public.govdelivery.com/accounts/UKNOLC/subscriber/new"><img src="https://www.northlincs.gov.uk/wp-content/themes/NLC/img/icons/govdelivery.png" alt="" class="navbar-logo" /></a></li>
+            <li><a href="https://northlincs-self.achieveservice.com/" target="_blank" title="Do it online">My Account</a></li>
+          </ul>
+
+          <!-- Used for normal wordpress searching -->
+          <form role="search" method="get" class="navbar-form navbar-right gcs-nlc" action="https://www.northlincs.gov.uk/">
+            <div class="input-group">
+              <input type="text" class="form-control" name="s" placeholder="Search" value="" autocomplete="off" title="Website search"/>
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="nlc-mobile-nav visible-sm visible-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1><a href="https://www.northlincs.gov.uk">North Lincolnshire <span>Council</span></a></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+
+            <form class="gcs-nlc" method="get" role="search" action="https://www.northlincs.gov.uk/">
+              <div class="input-group">
+                <input type="text" class="form-control" name="s" placeholder="Search" value="" autocomplete="off" title="Website search"/>
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+            </form>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul>
+              <li><a href="https://public.govdelivery.com/accounts/UKNOLC/subscriber/new">
+                <img src="https://www.northlincs.gov.uk/wp-content/themes/NLC/img/icons/govdelivery.png" alt="" class="navbar-logo" /></a>
+              </li>
+              <li>
+                <a href="https://northlincs-self.achieveservice.com/" class="my-account">My Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-wrapper">
+
+      <div class="sub-navbar">
+        <div class="sub-navbar-link">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="https://www.northlincs.gov.uk/your-council/have-your-say/councillors/">Your Councillors</a>
+                <a href="https://www.northlincs.gov.uk/your-council/about-your-council/council-committees/">Council Decisions</a>
+                <a href="https://www.northlincs.gov.uk/news">Council News</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="page-container">
+          	<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+			<!-- Breadcrumb NavXT 6.2.1 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.northlincs.gov.uk" class="home"><span property="name">North Lincolnshire Council</span></a><meta property="position" content="1"></span><span class="breadcrumb-separator"><i class="fa fa-angle-right"></i></span><span property="itemListElement" typeof="ListItem"><span property="name">404</span><meta property="position" content="2"></span>	</div>
+	          <div class="page-content">
+            <h2 class="page-title">
+              404
+            </h2>
+            <p>We appear to have lost you...</p>
+            <p>We recently updated our structure, if you expected to see a webpage here please go back to the homepage and navigate or use the search bar</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        	<!-- CAN Adverts START -->
+	 <div class="can-sky-advert">
+		<script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="//ads.counciladvertising.net/code/northlincolnshirec/supersky/public">\x3C/script>');
+		</script>
+	</div>
+	<!-- CAN Adverts END -->
+	      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+        <div class="problem">
+      <form class="" action="https://www.northlincs.gov.uk/site/found-a-problem-with-this-page/" method="get">
+        <input type="hidden" name="url" value="http://www.northlincs.gov.uk/wp-content/uploads/2019/04/Statement-of-Persons-Nominated-North-Lincolnshire-Council-elections-2019.pdf">
+        <button type="submit">Found a problem with this page?</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="footer-links">
+              <ul>
+                <div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://www.northlincs.gov.uk/website-accessibility/">Accessibility</a></li>
+<li id="menu-item-12460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12460"><a href="https://www.northlincs.gov.uk/site/help-on-using-our-website/">Help</a></li>
+<li id="menu-item-12400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12400"><a href="https://www.northlincs.gov.uk/community-advice-and-support/contact-us/">Contact us</a></li>
+<li id="menu-item-12447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12447"><a href="https://www.northlincs.gov.uk/community-advice-and-support/local-link-offices/social-media/">Social media</a></li>
+<li id="menu-item-12851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12851"><a href="https://www.northlincs.gov.uk/site/privacy/">Privacy Statement</a></li>
+<li id="menu-item-12255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12255"><a href="https://www.northlincs.gov.uk/site/terms-and-conditions/">Terms and conditions</a></li>
+<li id="menu-item-13388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13388"><a href="https://www.northlincs.gov.uk/site/website-statistics/">Website statistics</a></li>
+</ul></div>              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-links">
+              <ul>
+                <li><a href="http://www.twitter.com/NorthLincsCNews" style="background-color: #55acee;"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://www.facebook.com/northlincscouncil" style="background-color: #3b5999;"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://www.youtube.com/NorthLincsCouncil" style="background-color: #cd201f;"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/northlincolnshirecouncil" style="background-color: #0077B5;"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://public.govdelivery.com/accounts/UKNOLC/subscriber/new" style="background-color: #ff3300;"><i class="fa fa-envelope-o"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+    <script src="https://www.northlincs.gov.uk/wp-content/themes/NLC/js/bootstrap.min.js" ></script>
+
+    <script src="https://www.northlincs.gov.uk/wp-content/themes/NLC/js/main.js"></script>
+
+    <!-- Code Snippets START -->
+
+      <!-- Google Tag Manager 20-08-15 -->
+       <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-56NBD4"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-56NBD4');</script>
+      <!-- End Google Tag Manager -->
+
+      <!-- START Crazy Egg Analytics [UPDATED 16 JUNE 15] -->
+      <script type="text/javascript">
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName("script")[0];
+      a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0014/3764.js?"+Math.floor(new Date().getTime()/3600000);
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      </script>
+
+      <!-- END Crazy Egg Analytics -->
+      <!-- SiteImprove tracking code BEGIN -->
+      <script type="text/javascript">
+      /*<![CDATA[*/
+      (function() {
+      var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+      sz.src = '//uk1.siteimprove.com/js/siteanalyze_470669.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+      })();
+      /*]]>*/
+      </script>
+      <!-- SiteImprove tracking code END -->
+
+      <!-- GovDelivery Subscription Overlay -->
+      <script src='https://content.govdelivery.com/overlay/js/2193.js'></script>
+      <!-- End GovDelivery Overlay -->
+
+
+      	<script type="text/javascript">var _baTheme=0, _baUseCookies=true, _baHideOnLoad=true;</script>
+	<script type="text/javascript" src="//www.browsealoud.com/plus/scripts/ba.js"></script>
+	
+    <!-- Code Snippets END -->
+<!-- pingdom test for 14 days starting 22Mar19 to 5April19 -->
+<script src="//rum-static.pingdom.net/pa-5c94c9aecea07b0016000fe2.js" async></script>
+    <div id="cookie-law-info-bar"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. <a  data-cli_action="accept" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" style="display:inline-block; ">Accept</a> <a href='https://www.northlincs.gov.uk/site/privacy/' id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  style="display:inline-block;" >Read More</a></span></div><div id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Privacy Policy</span></div><div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"button_2_hidebar":false,"button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":true,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"top","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"}';
+  /* ]]> */
+</script><script type='text/javascript' src='https://www.northlincs.gov.uk/wp-includes/js/wp-embed.min.js?ver=b68379d83f2a80be7510dd32c2187abb'></script>
+
+
+  </body>
+</html>
