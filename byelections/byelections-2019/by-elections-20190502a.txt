@@ -1,3 +1,5 @@
+<html>
+
 <blockquote>
 "All the right votes, but not necessarily in the right order..."
 </blockquote>
@@ -38,7 +40,7 @@ Three other candidates complete the ballot paper.  The Lib Dems have nominated J
 
 This mayoral election will be combined with elections to a third of Newcastle and North Tyneside councils and a by-election to the <em>Holywell</em> division of Northumberland council.  This is the eastern half of Seaton Delaval, a village just outside Whitley Bay which is the home of a large factory making beauty products.  The by-election has been caused by the death of Bernard Pidcock, whose daughter Laura was elected two years ago as the Labour MP for North West Durham; he leaves behind a division where Labour led the Tories 50-39 in the 2017 election.  It may be a long shot for the Tories to gain this one, but if they can win the Holywell by-election they will get an overall majority on Northumberland county council.
 
-<h4>The rest of the North East</h4>
+<h2>The rest of the North East</h2>
 
 <img src="https://www.andrewteale.me.uk/2015/hartlepool15.png" />
 
@@ -58,7 +60,7 @@ Another Labour versus Independent race appears in <em>Middlesbrough</em> where t
 
 Durham council is not up this year but does have two by-elections.  Labour are defending the <em>Shildon and Dene Valley</em> division in the south of the county, covering the mining and railway town of Shildon together with some outlying parts of Bishop Auckland; Samantha Townsend defends against challenges from the Lib Dems' James Huntington and independent candidate Robert Ingledew, both of whom were not that far off winning a seat in 2017.  A few miles to the north is the <em>Spennymoor</em> division which at local level has been taken over by an independent slate; Ronald Highley defends for the Spennymoor Independents, but with three other independent candidates on the ballot (one of whom was top of the Labour slate here two years ago) don't rule out a split in the vote letting another party in.  The Lib Dems ran second here in 2017 and their candidate is Martin Jones.
 
-<h4>North West</h4>
+<h2>North West</h2>
 
 Cumbria has a large number of councils which look interesting.  Labour are defending a small majority in the city of <em>Carlisle</em>, which gets radical new ward boundaries this year with 13 councillors disappearing from the chamber.  The party is just short of a majority in <em>Allerdale</em>, with strength in Workington and Maryport balanced by independent- and Tory-voting areas in the northern Lake District and in the rich agricultural land between Maryport and Carlisle.
 
@@ -92,7 +94,7 @@ In 2015 Labour won fourteen of Bolton's twenty wards.  A repeat of the 2018 resu
 
 As can be seen there is little chance of Labour getting a majority back in Bolton in 2019, but as there are fewer realistic Tory targets than realistic Labour losses (the Conservative vote in Bolton is inefficiently distributed) the likelihood is that Labour will remain as the largest party on a hung council.  It will be interesting to see what happens to the administration after the election, though.
 
-<h4>Yorkshire and the Humber</h4>
+<h2>Yorkshire and the Humber</h2>
 
 <img src="https://www.andrewteale.me.uk/2015/calderdale15.png" />
 
@@ -106,7 +108,7 @@ In North Yorkshire, <em>York</em> council has been <a href="https://britainelect
 
 The most interesting contest in the old Humberside area would appear to be for <em>North East Lincolnshire</em> council, covering Grimsby, Cleethorpes and their hinterland.  This has a Labour minority administration at the moment, but Labour and the Tories are tied on 18 seats each with 22 necessary for a majority.  Four net gains for either party to gain overall control looks like a big ask, but if the Conservatives become the largest party they may seek to take control of the leadership.
 
-<h4>East Midlands</h4>
+<h2>East Midlands</h2>
 
 <img src="https://www.andrewteale.me.uk/2015/boston15.png" />
 
@@ -138,7 +140,7 @@ Things are the other way round in the city of <em>Derby</em>, where Labour did v
 
 Finally, spare a thought for the electors of Northamptonshire.  The gross financial incompetence of Northamptonshire county council means that the Northamptonshire district council elections have been cancelled, pending reorganisation of local government in the county.  Andrew's Previews is likely to be there next in 2020 when two new unitary councils are expected to hold their first elections.
 
-<h4>West Midlands</h4>
+<h2>West Midlands</h2>
 
 <img src="https://www.andrewteale.me.uk/2015/dudley15.png" />
 
@@ -164,7 +166,7 @@ In the EU referendum there was only one local government district in the West Mi
 
 Finally, a mention needs to be made for the large <em>Herefordshire</em> council, where the Conservatives go into this election with a narrow lead of 27 seats (one of which is vacant) to 25 for the opposition.  The Tory administration in Herefordshire has been controversial and polarising, and so a hard-fought campaign can be expected between the Conservatives and the opposition, which is led by localist party It's Our County and is particularly strong in Hereford.  With large independent and Green groups on the council we could have a chaotic result, and the outcome may not be clear until June when Ross North ward goes to the polls; that contest has been postponed after the UKIP candidate died.
 
-<h4>East of England</h4>
+<h2>East of England</h2>
 
 We enter East Anglia by way of what may be one of the most hotly contested councils in this cycle: <em>Peterborough</em>.  This was a Conservative gain in the 2018 election with a majority of just two, 31 out of 60 councillors; but that majority looks in some danger here, as the Tories stand to make a net loss of two seats if the 2018 results are repeated this year.  On the other hand, Peterborough Labour (who form the main opposition) have problems of their own, exemplified by the disgraceful case of their MP Fiona Onasanya who has now completed her sentence of three months' imprisonment for perverting the course of justice.  If Onasanya had been a local councillor, that sentence would have in and of itself have disqualified her from public office, and we would be having a by-election around now to replace her; instead this sorry figure continues to draw a generous salary at public expense, and the electors of the Peterborough constituency (which is smaller and more Labour-inclined than this district) have been inconvenienced by a recall petition to decide whether their MP should continue in office.  Helpfully that petition closes at 5pm on Wednesday 1st May and the result is due to be announced on polling day.  The expectation is that the recall petition against Onasanya will succeed; the expectations for the Peterborough local elections may need to be revised at the last moment in consequence.
 
@@ -200,7 +202,7 @@ To the north of London, there are two councils where the Conservatives are on th
 
 The Tories are in an even worse position in next-door <em>St Albans</em>, where their ruling group has 30 of the district's 58 seats to 17 for the Lib Dems (plus a vacancy), 6 Labour, 3 independents and a Green councillor.  Again, one net loss and the majority is gone; and this year the St Albans Conservatives have fifteen wards and half their council group to defend.  Six of those wards voted for other parties last year: Batchwood and London Colney went to Labour, Marshalswick North, Marshalswick South, St Peters and Verulam to the Liberal Democrats.  If the Lib Dems can repeat those results and also gain Park Street ward, which was close in 2018, they will draw level with the Conservatives on the council.
 
-<h4>South East</h4>
+<h2>South East</h2>
 
 Normally I would continue perambulating around London with Buckinghamshire, but Buckinghamshire's district councils have had their elections cancelled this year, pending a reorganisation which should see them swept away in 2020 in favour of a Buckinghamshire unitary council.  This may be a relief for the Tories particularly in Aylesbury Vale, where the party has lost several rock-solid wards in recent by-elections along the proposed High Speed 2 route.
 
@@ -262,7 +264,7 @@ The other hung council in Hampshire is <em>Hart</em> district, based on obscure 
 
 Further down the M3, the Conservatives are in serious trouble in the <em>Winchester</em> district.  This includes a large rural area outside the city itself, which provides most of the Tory councillors; but overall the council is finely balanced with 23 Conservative councillors against 22 Lib Dems.  If the wards vote the same way this year as they did last year, the Lib Dems would gain six seats and have quite a large majority.
 
-<h4>South West</h4>
+<h2>South West</h2>
 
 Our final English region is the South West which has been the focus of much reorganisation this year.  The present local government structure in Dorset - unitary Bournemouth and Poole councils, a county council and six district councils - is being swept away and replaced by two new unitary councils.  One of these is for the <em>Bournemouth, Christchurch and Poole</em> conurbation, while the other covers the rest of the county and has been imaginatively named "<em>Dorset</em>".  The old Weymouth and Portland council was a psephological mess which could elect pretty much any party and often had chaotic election results; but all the other old bodies had Conservative majorities and it seems likely that the two new unitaries will follow that.  The new Dorset council is intended to have its elections in the county council years in future, and as a result its next two elections will be in 2024 then 2029 to get it onto the right four-year cycle.
 
@@ -288,7 +290,7 @@ Another area frequented by dog lovers - although only 79 of them according to th
 
 We finish our tour of the ordinary local elections in England in the city where Rallings and Thrasher, the semi-official collators of UK local election results, are based.  This is Plymouth, a city which is closely fought between Labour and the Conservatives; Labour are on top at the moment with 30 seats, to 26 Conservatives and an independent Labour councillor, and if last year's results are any guide look set to increase their majority.  If you watch Plymouth for nothing else, keep an eye on the <a href="https://twitter.com/PetsForLabour">Pets for Labour Twitter account</a>, run from Plymouth by Labour councillor and diehard Andrew's Previews fan Jonny Morris; he will inject a bit of animal magic into your life as a respite from these stressful political times.  Sadly this election we will be without Morris' own feline "special adviser" Max, who passed away earlier this year; Max was due to have a starring role in the forthcoming <em>Andrew's Previews 2018</em> book, and I know from Morris that Max was thrilled at the prospect.
 
-<h4>Scotland and London</h4>
+<h2>Scotland and London</h2>
 
 That leaves just three local by-elections to consider.  Our Scottish by-election is in the <em>North East</em> ward of the city of Dundee, a series of estates on the northern edge of the city; this returned two SNP councillors and one Labour councillor in 2017, and the Labour seat is up in this by-election.  The SNP had a big lead here in the 2017 council elections and this should be an easy pickup for their candidate Steven Rome; Jim Malone has the task of defending for Labour.
 
@@ -299,4 +301,4 @@ A final mention goes to Northern Ireland, whose eleven district councils will ho
 The Britain Elects team will of course endeavour to keep you updated with the election results, cutting through the Wild Twitter Rumours from the counts to bring you solid hard facts.  Get ready for what's likely to be a bumpy Thursday night and Friday which will most likely confound whatever expectations you might have.  And once you've digested it all, before you know it Andrew's Previews will return next week with the first by-elections of the 2019-20 electoral year, in East London and East Lothian.  It might be a very different political context.  Stay tuned.
 
 <em>Andrew Teale</em>
-
+</html>
