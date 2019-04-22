@@ -24,16 +24,16 @@ Parliamentary constituency: Shrewsbury and Atcham
 ONS Travel to Work Area: Shrewsbury
 Postcode district: SY3
 
+Ross George (C)
+Kate Halliday (Lab)
+Dave Latham (Grn)
+James McLeod (LD)
+Bob Oakley (UKIP)
+
 May 2017 result Lab 643 LD 423 C 362 Grn 67
 Nov 2015 by-election Lab 546 C 282 LD 240 Grn 75
 May 2013 result Lab 939 C 289
 June 2009 result Lab 797 C 571 Grn 161 LD 117
-
-Ross Christopher GEORGE, 21 Oaklands, Bicton Heath, Shrewsbury SY3 5BG [The Conservative Party Candidate]
-Mary Kate HALLIDAY, 14 Greyfriars Road, Shrewsbury SY3 7EP [The Labour Party Candidate]
-TDave LATHAM, 9 King Street, Shrewsbury SY2 5ER [Green Party]
-James MCLEOD, 111 Hereford Road, Shrewsbury SY3 7QZ [Liberal Democrat]
-Bob OAKLEY, Pool View, Lower Pulley Lane, Bayston Hill, Shrewsbury SY3 0DW [UKIP]
 
 -----------------------
 
@@ -67,8 +67,8 @@ Parliamentary constituecy: Cities of London and Westminster
 ONS Travel to Work Area: London
 Postcode district: EC2R, EC2V, EC2Y
 
-Ian BISHOP-LAGGETT, 62 Uvedale Road, Enfield EN2 6HD [Independent]
-Timothy Russell HAILES, 32 Guildford Grove, London SE10 8JT [Independent]
+Ian Bishop-Laggett (Ind)
+Timothy Hailes (Ind)
 
 <h4>Cordwainer</h4>
 
@@ -76,6 +76,6 @@ Parliamentary constituecy: Cities of London and Westminster
 ONS Travel to Work Area: London
 Postcide districts: EC2R, EC2V, EC4M, EC4N, EC4R
 
-Timothy George Christie BECKER, 1 Delamere Road, London SW20 8PS [Independent]
-Tracey GRAHAM, 11 Grove Shaw, Kingswood, Tadworth KT20 6QL [Independent]
+Timothy Becker (Ind)
+Tracey Graham (Ind)
 
