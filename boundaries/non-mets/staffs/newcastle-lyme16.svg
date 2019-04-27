@@ -11,11 +11,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4852"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    width="476.50528"
    height="600"
-   sodipodi:docname="newcastle-lyme12.svg"
-   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\non-mets\staffs\newcastle-lyme12.png"
+   sodipodi:docname="newcastle-lyme16.svg"
+   inkscape:export-filename="/home/andrewteale/eln/boundaries/non-mets/staffs/newcastle-lyme16.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,15 +49,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
      id="namedview4854"
      showgrid="false"
-     inkscape:zoom="0.84"
+     inkscape:zoom="1.3983333"
      inkscape:cx="238.25264"
      inkscape:cy="300"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4852" />
   <path
@@ -113,7 +113,7 @@
      d="m 356.01909,250.60811 c 0.5588,-0.76419 1.03466,-0.82481 2.40001,-0.3057 2.83159,1.07657 3.45687,0.8349 3.466,-1.33961 0.005,-1.0929 0.17254,-2.59958 0.3732,-3.34817 0.31469,-1.17394 0.54471,-1.26654 1.67304,-0.67343 0.71951,0.3782 2.11091,1.35562 3.092,2.17204 2.20971,1.83882 2.32607,1.65693 3.66107,-5.7228 1.48928,-8.23261 1.45406,-11.84419 -0.14186,-14.54908 -0.73085,-1.2387 -1.32882,-2.87084 -1.32882,-3.62698 0,-0.75614 -0.68784,-2.30712 -1.52854,-3.44662 -0.84069,-1.1395 -1.52853,-2.39737 -1.52853,-2.79528 0,-0.39791 -0.41652,-1.06915 -0.92558,-1.49164 -0.50907,-0.42248 -1.50956,-2.778 -2.22332,-5.23447 l -1.29775,-4.46632 -3.73797,-1.78363 c -6.13158,-2.92579 -6.48933,-2.96868 -6.48933,-0.77805 0,1.0315 -0.28037,1.87545 -0.62306,1.87545 -0.72286,0 -0.37376,1.86102 1.29076,6.88084 1.48061,4.46521 1.50123,4.34441 -0.6677,3.91062 -2.09177,-0.41835 -2.00411,-0.73674 -1.95265,7.09241 l 0.0311,4.73846 -1.94346,-0.007 c -1.06891,-0.004 -3.10542,-0.67175 -4.5256,-1.48378 l -2.58212,-1.47641 -0.62439,2.24805 c -0.96092,3.45969 -0.79453,4.20369 1.51075,6.75536 1.87049,2.07042 2.02409,2.46871 1.21195,3.14272 -0.80781,0.67043 -0.60725,1.06978 1.52654,3.03968 1.7492,1.61485 2.45652,2.76357 2.45652,3.98945 0,0.94688 0.68978,2.8986 1.53283,4.33717 1.30133,2.22054 1.87846,2.65176 3.82134,2.85515 1.25868,0.13177 2.53332,0.28583 2.83253,0.34236 0.2992,0.0565 0.85765,-0.32616 1.24099,-0.85041 z"
      id="path4892" />
   <path
-     style="fill:#ffff00"
+     style="fill:#0000ff"
      d="m 154.70821,248.50614 c 4.06116,-3.47316 4.3507,-3.62231 6.93167,-3.57051 1.44105,0.0289 2.98632,-0.17374 3.43392,-0.45037 1.48855,-0.91997 7.98612,-0.86449 9.33414,0.0797 0.69274,0.48521 1.83357,0.88221 2.53516,0.88221 0.7016,0 1.80971,0.40395 2.46247,0.89767 1.69545,1.28237 2.64036,1.14263 3.03998,-0.44959 0.19134,-0.76239 1.29713,-2.31429 2.4573,-3.44865 1.25862,-1.23063 2.1094,-2.66081 2.1094,-3.54595 0,-1.48892 1.97554,-4.58294 4.85962,-7.61094 l 1.54629,-1.62347 3.06405,1.23233 c 6.71083,2.69904 11.19062,4.32841 14.8819,5.41277 2.12822,0.62519 5.11047,1.83031 6.62722,2.67803 2.61833,1.46342 2.8264,1.48953 4.11604,0.51676 2.25636,-1.70197 3.63261,-5.23587 3.27493,-8.40924 -0.27675,-2.45527 -0.12767,-2.94383 1.22222,-4.00566 0.84557,-0.66513 1.93934,-1.20932 2.43059,-1.20932 1.96994,0 4.43976,-2.17296 5.63939,-4.96156 1.376,-3.1986 3.76187,-5.43249 5.80211,-5.43249 0.73107,0 1.84458,-0.37684 2.47448,-0.83743 0.99404,-0.72686 1.55442,-0.64692 4.24391,0.60544 1.70425,0.79358 3.41825,1.44557 3.80888,1.44885 0.67477,0.005 3.1779,6.26911 3.54542,8.87148 0.30005,2.12458 0.98846,3.23247 2.20648,3.551 0.67003,0.17521 1.18054,0.83752 1.18054,1.53154 0,0.89468 0.30767,1.14237 1.14652,0.92301 0.63058,-0.1649 2.23198,0.25393 3.55864,0.93074 1.88675,0.96255 2.57456,1.77275 3.15792,3.71985 0.80522,2.68757 2.52448,3.44124 2.54032,1.11359 0.0179,-2.62835 0.73379,-3.04262 3.88621,-2.24882 2.71336,0.68323 3.01859,0.62703 5.75192,-1.05913 2.51306,-1.55026 5.36745,-5.03037 8.63869,-10.53241 0.27724,-0.46629 1.61904,-0.95929 2.98179,-1.09557 2.32449,-0.23245 2.72762,-0.014 6.51854,3.53221 4.78222,4.47354 5.38444,4.42623 8.80447,-0.69168 3.23376,-4.83916 4.15636,-4.56874 6.31332,1.85049 1.19372,3.55257 2.34826,5.77398 3.65437,7.03127 1.31143,1.26241 1.78828,1.48911 1.52277,0.72393 -0.65273,-1.88116 0.91826,-6.72666 2.61203,-8.05641 0.85721,-0.67299 2.17419,-1.77388 2.92661,-2.44644 l 1.36805,-1.22283 -3.03341,-3.97419 c -1.66837,-2.18581 -3.03524,-4.31811 -3.03749,-4.73846 -0.005,-0.93359 -1.2036,-0.97532 -3.45267,-0.12023 -1.46512,0.55703 -1.83648,0.45509 -2.74896,-0.75461 -1.61118,-2.136 -2.47992,-8.09541 -1.87764,-12.88044 l 0.51925,-4.12551 -2.52921,-1.22437 c -1.39107,-0.6734 -2.78627,-1.21963 -3.10044,-1.21384 -0.31418,0.005 -2.56597,-0.74564 -5.00399,-1.66983 -4.96172,-1.88088 -5.00069,-1.96124 -3.56549,-7.35233 l 0.85275,-3.2032 -3.11965,-0.92644 c -2.08853,-0.62023 -3.32259,-0.7235 -3.73365,-0.31244 -0.94662,0.94662 -9.06691,0.72655 -12.06229,-0.32689 -1.47146,-0.51749 -3.73994,-1.64365 -5.04107,-2.50255 -2.17846,-1.43808 -2.34171,-1.74029 -2.06293,-3.81879 0.30202,-2.25168 0.29776,-2.25656 -1.76136,-2.01616 -1.84823,0.21577 -2.06412,0.0844 -2.06412,-1.25632 0,-1.48843 -1.96739,-2.9164 -4.01809,-2.9164 -0.49692,0 -1.17793,-0.72182 -1.51335,-1.60405 -0.48181,-1.26726 -0.40136,-1.75651 0.38314,-2.33016 0.8235,-0.60216 0.63914,-0.68479 -1.08007,-0.48408 -2.51898,0.29407 -4.77709,3.20433 -4.77709,6.1567 0,1.24032 -0.36183,2.10731 -0.97817,2.34382 -0.538,0.20645 -1.62603,1.02322 -2.41787,1.81506 -0.79183,0.79183 -1.82263,1.43969 -2.29067,1.43969 -0.46804,0 -1.70853,0.4278 -2.75665,0.95067 -1.49777,0.74719 -2.18595,0.80069 -3.21504,0.24993 -2.92597,-1.56593 -9.19883,-3.5137 -10.34809,-3.21316 -0.92807,0.2427 -1.22725,0.0214 -1.22725,-0.90779 0,-1.29953 -1.09713,-1.97097 -3.22053,-1.97097 -0.70744,0 -1.9345,-0.60898 -2.72677,-1.35328 -1.69323,-1.59071 -5.49263,-2.77397 -11.59731,-3.61179 -3.63388,-0.49873 -4.71885,-0.43847 -6.23663,0.34641 -1.01059,0.5226 -2.27087,0.95018 -2.80063,0.95018 -0.85292,0 -0.86412,-0.19248 -0.0978,-1.68139 0.47595,-0.92477 1.14545,-2.70145 1.48777,-3.94819 0.5568,-2.02787 0.45188,-2.48556 -0.99546,-4.34245 -1.55062,-1.98939 -1.78897,-2.07647 -5.73527,-2.09552 -3.05116,-0.0147 -4.79465,-0.37471 -6.73262,-1.39012 -1.43837,-0.75365 -3.71331,-1.69093 -5.05543,-2.08285 -1.41613,-0.41353 -2.72055,-1.27488 -3.1082,-2.05242 -0.36739,-0.73691 -1.95187,-2.32015 -3.52107,-3.51833 -1.5692,-1.19817 -2.85309,-2.57859 -2.85309,-3.06761 0,-0.95787 -0.73586,-1.17228 -1.47759,-0.43055 -0.451,0.45101 -0.7486,0.53566 -2.41784,0.68784 -0.53392,0.0487 -0.99038,1.24203 -1.25701,3.28635 -0.7299,5.59622 -0.84945,5.81713 -3.3059,6.10873 -1.23278,0.14634 -2.7229,0.4776 -3.31139,0.73615 -0.84071,0.36935 -1.06997,0.17623 -1.06997,-0.90128 0,-1.29941 -0.15236,-1.3448 -2.90422,-0.86531 -1.59732,0.27833 -4.48625,0.45241 -6.41985,0.38685 -2.03142,-0.0689 -3.51563,0.14073 -3.51563,0.49651 0,0.33864 -0.75663,0.56434 -1.68139,0.50156 -4.08313,-0.2772 -5.51672,0.085 -5.87765,1.48518 -0.45113,1.75001 -2.9581,2.90422 -6.30803,2.90422 -2.28446,0 -2.66682,0.19521 -3.00258,1.53299 -0.23988,0.95574 -0.0141,2.09878 0.59976,3.03556 1.34575,2.05386 1.2416,2.70095 -0.54401,3.37983 -0.84069,0.31963 -1.52853,0.84456 -1.52853,1.1665 0,0.32194 -0.54106,0.75707 -1.20236,0.96695 -1.14729,0.36414 -1.11999,0.51301 0.59638,3.25113 1.58832,2.53387 1.68755,2.95305 0.84831,3.58367 -0.73956,0.55572 -0.80404,0.98766 -0.29067,1.94691 0.36287,0.678 0.65975,1.85035 0.65975,2.60521 0,2.01731 -1.36061,5.43348 -2.16408,5.43348 -0.49163,0 -0.64372,2.19625 -0.5187,7.48982 0.0973,4.11941 0.0204,8.66739 -0.17086,10.10664 -0.29429,2.21443 -0.52469,2.56065 -1.49843,2.2516 -2.67571,-0.84924 -0.16261,2.60232 3.89847,5.35427 1.37816,0.93389 4.12209,7.15019 4.12209,9.33847 0,0.37157 -0.90713,1.0036 -2.01584,1.40452 -1.10871,0.40091 -2.52524,1.10141 -3.14783,1.55666 -1.07944,0.7893 -1.04038,0.95279 0.84116,3.52094 1.08524,1.48126 3.25839,4.90076 4.82922,7.5989 1.57083,2.69813 3.68016,5.99976 4.68738,7.33697 5.12699,6.80666 7.80626,10.07396 8.26089,10.07396 0.27702,0 1.1461,-0.54942 1.93129,-1.22093 z"
      id="path4890" />
   <path
@@ -162,164 +162,167 @@
      id="path4866" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="180.09758"
      y="435.92532"
-     id="text4918"
-     sodipodi:linespacing="100%"><tspan
+     id="text4918"><tspan
        sodipodi:role="line"
        id="tspan4920"
        x="180.09758"
-       y="435.92532">Loggerheads &amp; Whitmore</tspan></text>
+       y="435.92532"
+       style="font-size:12px;line-height:1">Loggerheads &amp; Whitmore</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="192.91592"
      y="295.56458"
-     id="text4922"
-     sodipodi:linespacing="100%"><tspan
+     id="text4922"><tspan
        sodipodi:role="line"
        id="tspan4924"
        x="192.91592"
-       y="295.56458">Madeley</tspan></text>
+       y="295.56458"
+       style="font-size:12px;line-height:1">Madeley</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="387.11368"
      y="373.75641"
-     id="text4926"
-     sodipodi:linespacing="100%"><tspan
+     id="text4926"><tspan
        sodipodi:role="line"
        id="tspan4928"
        x="387.11368"
-       y="373.75641">Seabridge</tspan></text>
+       y="373.75641"
+       style="font-size:12px;line-height:1">Seabridge</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 366.60435,334.66048 5.12734,28.20034"
      id="path4930" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="376.52054"
      y="-317.0802"
      id="text4932"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.17880356,0.98388479,-0.98388479,0.17880356,0,0)"><tspan
+     transform="rotate(79.699922)"><tspan
        sodipodi:role="line"
        id="tspan4934"
        x="376.52054"
-       y="-317.0802">Clayton</tspan></text>
+       y="-317.0802"
+       style="font-size:12px;line-height:1">Clayton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="33.540874"
      y="463.52322"
      id="text4936"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.70343434,-0.71076024,0.71076024,0.70343434,0,0)"><tspan
+     transform="rotate(-45.296805)"><tspan
        sodipodi:role="line"
        id="tspan4938"
        x="33.540874"
-       y="463.52322">Westlands</tspan></text>
+       y="463.52322"
+       style="font-size:12px;line-height:1">Westlands</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-203.5757"
      y="385.02869"
      id="text4940"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.19032489,-0.98172116,0.98172116,0.19032489,0,0)"><tspan
+     transform="rotate(-79.028255)"><tspan
        sodipodi:role="line"
        id="tspan4942"
        x="-203.5757"
-       y="385.02869">Thistle-</tspan><tspan
+       y="385.02869"
+       style="font-size:12px;line-height:1">Thistle-</tspan><tspan
        sodipodi:role="line"
        x="-203.5757"
        y="397.02869"
-       id="tspan4944">berry</tspan></text>
+       id="tspan4944"
+       style="font-size:12px;line-height:1">berry</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="283.49655"
      y="286.41367"
-     id="text4946"
-     sodipodi:linespacing="100%"><tspan
+     id="text4946"><tspan
        sodipodi:role="line"
        id="tspan4948"
        x="283.49655"
-       y="286.41367">Keele</tspan></text>
+       y="286.41367"
+       style="font-size:12px;line-height:1">Keele</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="444.52045"
      y="-98.190369"
      id="text4950"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.66712769,0.74494338,-0.74494338,0.66712769,0,0)"><tspan
+     transform="rotate(48.154236)"><tspan
        sodipodi:role="line"
        id="tspan4952"
        x="444.52045"
-       y="-98.190369">Town</tspan></text>
+       y="-98.190369"
+       style="font-size:12px;line-height:1">Town</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="206.27818"
      y="259.04285"
-     id="text4954"
-     sodipodi:linespacing="100%"><tspan
+     id="text4954"><tspan
        sodipodi:role="line"
        id="tspan4956"
        x="206.27818"
-       y="259.04285">Silverdale</tspan><tspan
+       y="259.04285"
+       style="font-size:12px;line-height:1">Silverdale</tspan><tspan
        sodipodi:role="line"
        x="206.27818"
        y="271.04285"
-       id="tspan4958">&amp; Parksite</tspan></text>
+       id="tspan4958"
+       style="font-size:12px;line-height:1">&amp; Parksite</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 285.30918,241.09773 -52.20397,21.38912"
      id="path4960" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="441.91141"
      y="240.4903"
-     id="text4962"
-     sodipodi:linespacing="100%"><tspan
+     id="text4962"><tspan
        sodipodi:role="line"
        x="441.91141"
        y="240.4903"
-       id="tspan4966">May Bank</tspan></text>
+       id="tspan4966"
+       style="font-size:12px;line-height:1">May Bank</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 393.34239,237.83498 19.57649,-0.72506"
      id="path4968" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="274.43872"
      y="202.12828"
-     id="text4970"
-     sodipodi:linespacing="100%"><tspan
+     id="text4970"><tspan
        sodipodi:role="line"
        x="274.43872"
        y="202.12828"
-       id="tspan4974">Knutton &amp;</tspan><tspan
+       id="tspan4974"
+       style="font-size:12px;line-height:1">Knutton &amp;</tspan><tspan
        sodipodi:role="line"
        x="274.43872"
        y="214.12828"
-       id="tspan4976">Silverdale</tspan></text>
+       id="tspan4976"
+       style="font-size:12px;line-height:1">Silverdale</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="443.82755"
      y="228.44093"
-     id="text4980"
-     sodipodi:linespacing="100%"><tspan
+     id="text4980"><tspan
        sodipodi:role="line"
        x="443.82755"
        y="228.44093"
-       id="tspan4984">Cross Heath</tspan></text>
+       id="tspan4984"
+       style="font-size:12px;line-height:1">Cross Heath</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 365.34292,229.76955 43.37683,-5.193"
@@ -331,166 +334,169 @@
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="189.69728"
      y="201.05531"
-     id="text4994"
-     sodipodi:linespacing="100%"><tspan
+     id="text4994"><tspan
        sodipodi:role="line"
        id="tspan4996"
        x="189.69728"
-       y="201.05531">Halmerend</tspan></text>
+       y="201.05531"
+       style="font-size:12px;line-height:1">Halmerend</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="333.5661"
      y="203.49313"
-     id="text4998"
-     sodipodi:linespacing="100%"><tspan
+     id="text4998"><tspan
        sodipodi:role="line"
        id="tspan5000"
        x="333.5661"
-       y="203.49313">Hol-</tspan><tspan
+       y="203.49313"
+       style="font-size:12px;line-height:1">Hol-</tspan><tspan
        sodipodi:role="line"
        x="333.5661"
        y="215.49313"
-       id="tspan5002">ditch</tspan></text>
+       id="tspan5002"
+       style="font-size:12px;line-height:1">ditch</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="435.98309"
      y="214.62679"
-     id="text5004"
-     sodipodi:linespacing="100%"><tspan
+     id="text5004"><tspan
        sodipodi:role="line"
        id="tspan5006"
        x="435.98309"
-       y="214.62679">Wolstanton</tspan></text>
+       y="214.62679"
+       style="font-size:12px;line-height:1">Wolstanton</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 392.01576,211.99085 12.86335,-1.15981"
      id="path5008" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="413.52496"
      y="194.48828"
-     id="text5010"
-     sodipodi:linespacing="100%"><tspan
+     id="text5010"><tspan
        sodipodi:role="line"
        id="tspan5012"
        x="413.52496"
-       y="194.48828">Porthill</tspan></text>
+       y="194.48828"
+       style="font-size:12px;line-height:1">Porthill</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 383.79166,193.75021 9.0676,-3.16312"
      id="path5014" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="252.38184"
      y="-296.99911"
      id="text5016"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.27420971,0.96166992,-0.96166992,0.27420971,0,0)"><tspan
+     transform="rotate(74.085076)"><tspan
        sodipodi:role="line"
        id="tspan5018"
        x="252.38184"
-       y="-296.99911">Bradwell</tspan></text>
+       y="-296.99911"
+       style="font-size:12px;line-height:1">Bradwell</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-33.632793"
      y="360.71954"
      id="text5020"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.3768705,-0.92626596,0.92626596,0.3768705,0,0)"><tspan
+     transform="rotate(-67.860032)"><tspan
        sodipodi:role="line"
        x="-33.632793"
        y="360.71954"
-       id="tspan5024">Chesterton</tspan></text>
+       id="tspan5024"
+       style="font-size:12px;line-height:1">Chesterton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="248.62076"
      y="128.08885"
-     id="text5028"
-     sodipodi:linespacing="100%"><tspan
+     id="text5028"><tspan
        sodipodi:role="line"
        id="tspan5030"
        x="250.12076"
-       y="128.08885">Audley &amp; </tspan><tspan
+       y="128.08885"
+       style="font-size:12px;line-height:1">Audley &amp; </tspan><tspan
        sodipodi:role="line"
        x="248.62076"
        y="140.08885"
-       id="tspan5032">Bignall End</tspan></text>
+       id="tspan5032"
+       style="font-size:12px;line-height:1">Bignall End</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="319.50323"
      y="117.44584"
-     id="text5034"
-     sodipodi:linespacing="100%"><tspan
+     id="text5034"><tspan
        sodipodi:role="line"
        id="tspan5036"
        x="319.50323"
-       y="117.44584">Talke</tspan></text>
+       y="117.44584"
+       style="font-size:12px;line-height:1">Talke</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="389.95993"
      y="112.76292"
-     id="text5038"
-     sodipodi:linespacing="100%"><tspan
+     id="text5038"><tspan
        sodipodi:role="line"
        id="tspan5040"
        x="389.95993"
-       y="112.76292">Ravenscliffe</tspan></text>
+       y="112.76292"
+       style="font-size:12px;line-height:1">Ravenscliffe</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 361.01097,88.071125 7.66296,16.603095"
      id="path5042" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="252.8327"
      y="-225.56322"
      id="text5044"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.57579487,0.8175942,-0.8175942,0.57579487,0,0)"><tspan
+     transform="rotate(54.844684)"><tspan
        sodipodi:role="line"
        id="tspan5046"
        x="254.3327"
-       y="-225.56322">Butt </tspan><tspan
+       y="-225.56322"
+       style="font-size:12px;line-height:1">Butt </tspan><tspan
        sodipodi:role="line"
        x="252.8327"
        y="-213.56322"
-       id="tspan5048">Lane</tspan></text>
+       id="tspan5048"
+       style="font-size:12px;line-height:1">Lane</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="309.9245"
      y="48.904842"
-     id="text5050"
-     sodipodi:linespacing="100%"><tspan
+     id="text5050"><tspan
        sodipodi:role="line"
        id="tspan5052"
        x="309.9245"
-       y="48.904842">Kidsgrove</tspan></text>
+       y="48.904842"
+       style="font-size:12px;line-height:1">Kidsgrove</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 354.83802,54.864927 -15.5388,-7.662968"
      id="path5054" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="348.55731"
      y="-206.50737"
      id="text5056"
-     sodipodi:linespacing="100%"
-     transform="matrix(0.80089944,0.59879887,-0.59879887,0.80089944,0,0)"><tspan
+     transform="rotate(36.783921)"><tspan
        sodipodi:role="line"
        id="tspan5058"
        x="348.55731"
-       y="-206.50737">Newchapel</tspan></text>
+       y="-206.50737"
+       style="font-size:12px;line-height:1">Newchapel</tspan></text>
 </svg>
