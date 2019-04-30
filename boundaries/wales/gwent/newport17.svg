@@ -15,7 +15,7 @@
    width="783.99902"
    height="600.00006"
    sodipodi:docname="newport17.svg"
-   inkscape:export-filename="/home/andrewteale/elections/boundaries/wales/gwent/newport17.png"
+   inkscape:export-filename="/home/andrewteale/eln/boundaries/wales/gwent/newport17.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -285,17 +285,6 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     x="258.41608"
-     y="236.30669"
-     id="text13442"><tspan
-       sodipodi:role="line"
-       id="tspan13444"
-       x="258.41608"
-       y="236.30669"
-       style="font-size:12px;line-height:1">Allt-yr-yn</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="379.10806"
      y="264.94717"
      id="text13496"><tspan
@@ -430,4 +419,25 @@
      d="m 311.59138,186.1959 22.9641,-40.52489"
      id="path4072"
      inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="260.43353"
+     y="222.92714"
+     id="text13442"><tspan
+       sodipodi:role="line"
+       id="tspan13444"
+       x="260.43353"
+       y="225.57106"
+       style="font-size:12px;line-height:1" /><tspan
+       sodipodi:role="line"
+       x="260.43353"
+       y="231.57106"
+       style="font-style:italic;font-size:12px;line-height:1"
+       id="tspan81">Allt-yr-ynn</tspan><tspan
+       sodipodi:role="line"
+       x="260.43353"
+       y="243.57106"
+       style="font-size:12px;line-height:1"
+       id="tspan83">Allt-yr-yn</tspan></text>
 </svg>
