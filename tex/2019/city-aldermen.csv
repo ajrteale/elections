@@ -38,12 +38,12 @@
 "2018-07-12","Aldgate","Peter Hewitt","Yes","Yes","Susan Langley",
 "2018-07-12","Bridge/Bridge Wt","Sir Alan Yarrow","Yes","No","Sir Alan Yarrow",
 "2018-08-30","Bread St","William Russell","Yes","No","William Russell",
-"2018-12-13","Broad St","Michael Mainelli","tbc","tbc","tbc",
-,"Billingsgate","Matthew Richardson",,,,"By 2018-11-30"
-,"Lime St","Charles Bowman",,,,"By 2019-05-07"
-,"Bassishaw","Timothy Hailes",,,,"By 2019-05-08"
+"2018-12-13","Broad St","Michael Mainelli","Yes","No","Michael Mainelli",
+"2019-01-31","Billingsgate","Matthew Richardson","Retired","Yes","Bronek Masojada",
+"2019-04-30","Bassishaw","Timothy Hailes","Yes","Yes","Timothy Hailes",
+"2019-08-07","Lime St","Sir Charles Bowman","Yes",,,
+"2019-08-07","Vintry","Sir Andrew Parmley","Yes",,,
 ,"Farringdon Wn","Vincent Keaveny",,,,"By 2019-10-23"
-,"Vintry","Andrew Parmley",,,,"By 2019-10-29"
 ,"Coleman St","Peter Estlin",,,,"By 2019-11-29"
 ,"Cripplegate","David Graves",,,,"By 2020-06-19"
 ,"Dowgate","Alison Gowman",,,,"By 2020-12-05"
@@ -63,4 +63,8 @@
 ,"Aldgate","Susan Langley",,,,"By 2024-07-12"
 ,"Bridge/Bridge Wt","Sir Alan Yarrow",,,,"By 2024-07-12"
 ,"Bread St","William Russell",,,,"By 2024-08-30"
-,"Broad St","tbc",,,,"By 2024-12-13"
+,"Broad St","Michael Mainelli",,,,"By 2024-12-13"
+,"Billingsgate","Bronek Masojada",,,,"By 2025-01-31"
+,"Bassishaw","Timothy Hailes",,,,"By 2025-04-30"
+,"Lime St",,,,,"By 2025-08-07"
+,"Vintry",,,,,"By 2025-08-07"
