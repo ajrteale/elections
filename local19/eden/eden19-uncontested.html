@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Eden District elections uncontested election results for May 2019</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="List of uncontested election results by ward in the district elections in May 2019.">
+    <!--the robots to be automatically populated-->
+    <meta NAME="ROBOTS" CONTENT="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Js Render -->
+    <script src="/DependencyHandler.axd?s=L1NjcmlwdHMvanF1ZXJ5LTIuMS40Lm1pbi5qczsvU2NyaXB0cy9zbGltYWdlL3NsaW1tYWdlLmpzOy9TY3JpcHRzL2Jvb3RzdHJhcC0zLjMuNS1kaXN0L2pzL2Jvb3RzdHJhcC5qczsvc2NyaXB0cy9qcXVlcnkuY29va2llLm1pbi5qczs&amp;t=Javascript&amp;cdv=1373389933" type="text/javascript"></script>
+
+    <!-- CSS Render -->
+    <link href="/DependencyHandler.axd?s=L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC5jc3M7L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC10aGVtZS5jc3M7L2Nzcy9ib290c3RyYXBfNDgwLTc2N3B4LmNzczsvY3NzL2ZvbnQtYXdlc29tZS5taW4uY3NzOy9zY3JpcHRzL0RhdGFUYWJsZS9kYXRhdGFibGVzLm1pbi5jc3M7&amp;t=Css&amp;cdv=1373389933" type="text/css" rel="stylesheet"/><link href="/css/styles.css?v=1.1" type="text/css" rel="stylesheet"/><link href="/DependencyHandler.axd?s=L2Nzcy9wcmludC5jc3M7L2Nzcy9icmFuZGluZy5jc3M7&amp;t=Css&amp;cdv=1373389933" type="text/css" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+
+
+    <style>
+        @media (max-width: 479px) {
+            #mobile-view {
+                display: none;
+            }
+        }
+
+        @media (min-width: 480px) and (max-width: 767px) {
+            #medium-small-view {
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #desktop-view {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="primaryBackground" role="banner">
+        <div id="pop-up-spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div id="siteHeader" class="col-xs-12">
+                    <div class="skip-content pull-right">
+                        <a href="#skipLinks">Skip Navigation</a>
+                    </div>
+                    <div class="logo-holder col-xs-4 col-sm-2">
+                        <a href="/">
+                            <img src="/img/Logo.png" id="logo-image" alt="Eden District Council Logo" />
+                        </a>
+                    </div><!-- /logo-holder -->
+
+                    <div class="contact-holder col-xs-6 col-sm-3 col-md-3 col-g-2 text-right pull-right">
+                        <div>
+                            <a href="/find-or-contact-us/">Contact us</a><br /><a href="tel:01768817817" aria-label="Contact us telephone">01768&nbsp;817817</a>
+                        </div>
+                    </div><!-- /contact-holder -->
+
+                    <div class="search-holder col-xs-12 col-ms-12 col-sm-6 col-md-6 col-lg-6 col-lg-push-1 col-md-push-1 col-sm-push-1 ">
+                        <!-- <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="search" placeholder="Search eg. Council Tax, Benefits" required/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary-meritec" type="submit">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    <span style="margin-left:10px;">Search</span>
+                                </button>
+                            </span>
+
+                        </div>
+                    </div> -->
+                        <form id="SearchForm" class="main-search-holder" method="get" action="https://www.eden.gov.uk/content-searcher" style="border:none; padding:0px; box-shadow:none;width:0px;">
+    <div id="SearchAheadControl" class="pull-left">
+        <input id="textSearch" style="margin:0px;" type="text" title="Search Box" autocomplete="off" aria-labelledby="searchBox" class="form-control" name="q" placeholder="Search eg. Council Tax, Benefits" required>
+        <div class="searchAutoCompleteWrapper">
+            <ul id="searchAutoComplete" style="list-style-type: none; margin: 0;"></ul>
+        </div>
+    </div>
+
+    <span class="input-group-btn">
+        <button class="btn btn-primary-meritec" type="submit" title="Search Button">
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span style="margin-left:10px;" id="searchBox">Search</span>
+        </button>
+    </span>
+
+</form>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    (function ($) {
+        // Hides predictions div on load.
+        $('#searchAutoCompleteWrapper').hide();
+
+        // if the text entered is longer than 2 characters it searches the API. Else it hides and empties the predictions box.
+        // Displays upto 10 predictions in the div. Empties old results before putting new ones in.
+        $('#SearchAheadControl').on('input', function () {
+            if (($('#textSearch').val().length) > 2) {
+                $('#searchAutoCompleteWrapper').show();
+                var querySearch = $('#textSearch').val();
+                return $.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + querySearch,
+                function (data) {
+                    $('#searchAutoComplete').empty();
+                    var PredictionCount = 0;
+                    $.each(data, function (index, value) {
+                        PredictionCount++;
+                        if (PredictionCount <= 10 && value.Phrase != '') $('#searchAutoComplete').append('<li class="listPrediction">' + value.Phrase + '</li>')
+                    });
+                })
+            } else {
+                $('#searchAutoCompleteWrapper').hide();
+                $('#searchAutoComplete').empty();
+            }
+        });
+
+        // When the prediction is clicked, it sets the search text to the prediction and submits the form.
+        $(document).on('click', '.listPrediction', function () {
+            $('#searchText').text($(this).text());
+            $('#SearchForm').submit();
+        });
+
+    })(jQuery);
+
+
+
+    //angular.module('TypeAheadSearch', ['ngAnimate', 'ngSanitize', 'mgcrea.ngStrap']).config(function ($typeaheadProvider) {
+    //    angular.extend($typeaheadProvider.defaults, {
+    //        animation: 'am-flip-x',
+    //        minLength: 3,
+    //        onSelect: function (data) {
+    //            jQuery('#SearchForm').submit();
+    //            console.log(data);
+    //            // window.location = data.Url;
+    //        }
+    //    });
+    //})
+
+    //    .controller('TypeAheadSearchController', function ($scope, $templateCache, $http) {
+
+
+    //        $scope.selectedPhrase = '';
+
+    //        //$scope.searchMore = [{ Phrase: "xxx", Url: "#" }];
+
+
+    //        $scope.searchPhrase = function (viewValue) {
+
+    //            if (viewValue.length >= 3) {
+    //                return $http.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + encodeURI(viewValue))
+    //                    .then(function (res) {
+    //                        //    res.data.push({ Phrase: "Search more...", Url: "~/Search?q=" + viewValue, PageID: 0 })
+    //                        return res.data;
+    //                    });
+    //            }
+    //        }
+    //    });
+
+</script>
+
+                    </div><!-- /search-holder -->
+
+
+                </div><!-- /#siteHeader -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <div id="pop-up" class="text-center">
+            <div class="cookie-holder">
+                This website puts small files, known as cookies, onto your computer to collect information about how you browse the site. <a href="https://www.eden.gov.uk/about-this-site/website-legal-statements/cookies/">Read about cookies we use</a>
+                <button id="hide" class="cookie-button btn btn-secondary-meritec dismiss">Dismiss</button>
+            </div>
+        </div><!-- /text-center -->
+
+    </div><!-- /primaryBackground -->
+    <div role="main" class="content-main">
+        <div class="container">
+            <div class="row">
+                <div class="action-button-holder col-xs-12">
+                    <span class="hidden-xs pull-left save-time">Save time, do it online:</span>
+                    <a href="/pay" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Pay">Pay</a>
+                    <a href="/apply" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Apply">Apply</a>
+                    <a href="/report" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Report">Report</a>
+                </div><!-- /button-holder -->
+            </div>
+            <a id="skipLinks"></a>
+            
+<div class="row">
+ 	
+    <div class="breadcrumbs col-xs-12">
+        <ul title="Breadcrumbs" aria-label="Breadcrumb">
+            <li>You are here:</li>
+            
+                <li><a href="https://www.eden.gov.uk/">Home</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/">Voting and elections</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/election-results/">Election results</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/election-results/district-council-election-results/">District council election results</a></li>
+            
+            
+                <li class="active">District election 2019 uncontested election results</li>
+            
+        </ul>
+    </div>
+ 
+</div><!-- /row -->
+<div class="row">
+    <div class="col-xs-12 content-page-holder">
+        <h1>District election 2019 uncontested election results</h1>
+        <p>I, the undersigned, being the returning officer, do hereby certify that at the election of a Councillor for the mentioned Wards below, the following person stood validly nominated at the latest time for delivery of notices of withdrawal of candidature, namely 4pm on Wednesday, 3rd April 2019 and has been duly elected Councillor for the said Ward without contest.</p>
+<h2>Election of Councillor for the Greystoke Ward</h2>
+<table summary="Uncontested election result for a district Councillor in Eden District">
+<thead>
+<tr>
+<th>Name of Person Elected</th>
+<th>Home Address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wicks, </strong>Debra Ann</td>
+<td>Pine Lodge, Lowood, Armathwaite CA4 9RB</td>
+</tr>
+</tbody>
+</table>
+<h2> Election of Councillor for the Hartside Ward</h2>
+<table summary="Uncontested election result for a district Councillor in Eden District">
+<thead>
+<tr>
+<th>Name of Person Elected</th>
+<th>Home Address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Orchard,</strong> Robin</td>
+<td>Yew Tree Cottage, Melmerby, Penrith, Cumbria CA10 1HF</td>
+</tr>
+</tbody>
+</table>
+<h2>Election of Councillor for the Long Marton Ward</h2>
+<table summary="Uncontested election result for a district Councillor in Eden District">
+<thead>
+<tr>
+<th>Name of Person Elected</th>
+<th>Home Address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Armstrong,</strong> Maurice Allan</td>
+<td>Garth House, Crackenthorpe, Appleby-in-Westmorland CA16 6AH</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</div><!-- /row -->
+
+<div class="row">
+    <div class="footer-contacts-holder">
+        
+
+
+<div id="contactdetails">
+</div>
+    </div><!-- /col-xs-12 -->
+</div><!-- /row -->
+
+
+
+
+        </div><!-- /container -->
+            <div class="feedback-holder pull-right text-right col-xs-12">
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/good.png" alt="Positive Feedback" />
+                </a>
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/average.png" alt="Okay Feedback" />
+                </a>
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/poor.png" alt="Negative Feedback" />
+                </a>
+                    <br />
+                    <span><a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97" >
+            Web page feedback</a></span>
+                
+            </div>
+
+        <!-- here -->
+    </div><!-- /main -->
+    <div class="footer-holder footer-margin" role="contentinfo">
+        <div class="container">
+            <div class="row equal-height-holder">
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    
+                    <ul>
+                        <li>Eden District Council<br />Town Hall<br />Corney Square<br />Penrith<br />Cumbria <br />CA11 7QF </li>
+
+                    </ul>
+                </div><!-- /footer-column -->
+
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <ul>
+                            <li>
+                                <a href="tel:01768817817" aria-label="Telephone Number">01768 817817</a>
+                            </li>
+                            <li>
+                                <a href="mailto:customer.services@eden.gov.uk">customer.services@eden.gov.uk</a>
+                            </li>
+                            <li><br /></li>
+                            <li>Opening hours: <br />Monday to Thursday: <br />8.45am to 5.15pm <br />Friday: 8.45am to 4.45pm </li>
+                        </ul>
+                    </div>
+                </div><!-- /footer-column -->
+
+
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <div class="footer-icon pull-left fa fa-twitter-square" aria-hidden="true"></div>
+                        <div class="footer-text pull-left">
+                            <div>
+                                <a href="https://twitter.com/EdenCouncil">@edencouncil</a>
+                            </div>
+                            
+                        </div>
+                    </div><!-- /footer-inner -->
+
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <div class="footer-icon pull-left fa fa-facebook-square"></div>
+                        <div class="footer-text pull-left">
+                            <div>
+                                <a href="https://en-gb.facebook.com/EdenDistrictCouncil/">Eden Council Facebook</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <a href="/rss/" aria-label="RSS">
+                            <div class="footer-icon pull-left fa fa-rss-square"></div>
+                        </a>
+                        <div class="footer-text pull-left">
+
+                            <div>
+                                <a href="/rss/">RSS</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div><!-- /footer-column -->
+                
+
+
+            </div><!-- /footer-holder -->
+        </div><!-- /row -->
+    </div><!-- /footer-holder -->
+
+    <div class="copyright-holder col-xs-12" role="complementary">
+        <ul>
+            <li>Copyright &copy; 2005 to 2019</li>
+                    <li>
+                        <a href="/about-this-site/website-help/site-map/">Site map</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/">About this site</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-legal-statements/data-protection/">Data protection</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-legal-statements/cookies/">Cookies</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-help/acronyms-and-abbreviations/">Acronyms and abbreviations</a>
+                    </li>
+
+        </ul>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        (function () {
+            function downloadJSAtOnload() {
+
+                var customScriptsJs = document.createElement("script");
+                customScriptsJs.src = window.location.origin + '/scripts/CustomScripts.js';
+                document.body.appendChild(customScriptsJs);
+
+                // Google Analytics //
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] ||
+                        function () {
+                            (i[r].q = i[r].q || []).push(arguments);
+                        }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m);
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-663010-1', 'auto');
+                ga('send', 'pageview');
+
+
+                // Crazy Egg //
+                setTimeout(function () {
+                    var a = document.createElement("script");
+                    var b = document.getElementsByTagName("script")[0];
+                    a.src = document.location.protocol +
+                        "//script.crazyegg.com/pages/scripts/0009/7838.js?" +
+                        Math.floor(new Date().getTime() / 3600000);
+                    a.async = true;
+                    a.type = "text/javascript";
+                    b.parentNode.insertBefore(a, b);
+                },
+                    1);
+
+                // Siteimprove //
+                (function () {
+                    var sz = document.createElement('script');
+                    sz.type = 'text/javascript';
+                    sz.async = true;
+                    sz.src = '//uk1.siteimprove.com/js/siteanalyze_418953.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sz, s);
+                })();
+            }
+
+            if (window.addEventListener) {
+                window.addEventListener("load", downloadJSAtOnload, false);
+            } else if (window.attachEvent) {
+                window.attachEvent("onload", downloadJSAtOnload);
+            } else {
+                window.onload = downloadJSAtOnload;
+            }
+
+        })();
+    </script>
+
+    <div id="mobile-view" aria-hidden="true"></div>
+</body>
+</html>
