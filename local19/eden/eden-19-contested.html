@@ -1,0 +1,1290 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Eden District ward election 2 May 2019 results</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Results of District and Parish elections held on 2 May 2019.">
+    <!--the robots to be automatically populated-->
+    <meta NAME="ROBOTS" CONTENT="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Js Render -->
+    <script src="/DependencyHandler.axd?s=L1NjcmlwdHMvanF1ZXJ5LTIuMS40Lm1pbi5qczsvU2NyaXB0cy9zbGltYWdlL3NsaW1tYWdlLmpzOy9TY3JpcHRzL2Jvb3RzdHJhcC0zLjMuNS1kaXN0L2pzL2Jvb3RzdHJhcC5qczsvc2NyaXB0cy9qcXVlcnkuY29va2llLm1pbi5qczs&amp;t=Javascript&amp;cdv=1373389933" type="text/javascript"></script>
+
+    <!-- CSS Render -->
+    <link href="/DependencyHandler.axd?s=L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC5jc3M7L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC10aGVtZS5jc3M7L2Nzcy9ib290c3RyYXBfNDgwLTc2N3B4LmNzczsvY3NzL2ZvbnQtYXdlc29tZS5taW4uY3NzOy9zY3JpcHRzL0RhdGFUYWJsZS9kYXRhdGFibGVzLm1pbi5jc3M7&amp;t=Css&amp;cdv=1373389933" type="text/css" rel="stylesheet"/><link href="/css/styles.css?v=1.1" type="text/css" rel="stylesheet"/><link href="/DependencyHandler.axd?s=L2Nzcy9wcmludC5jc3M7L2Nzcy9icmFuZGluZy5jc3M7&amp;t=Css&amp;cdv=1373389933" type="text/css" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+
+
+    <style>
+        @media (max-width: 479px) {
+            #mobile-view {
+                display: none;
+            }
+        }
+
+        @media (min-width: 480px) and (max-width: 767px) {
+            #medium-small-view {
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #desktop-view {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="primaryBackground" role="banner">
+        <div id="pop-up-spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div id="siteHeader" class="col-xs-12">
+                    <div class="skip-content pull-right">
+                        <a href="#skipLinks">Skip Navigation</a>
+                    </div>
+                    <div class="logo-holder col-xs-4 col-sm-2">
+                        <a href="/">
+                            <img src="/img/Logo.png" id="logo-image" alt="Eden District Council Logo" />
+                        </a>
+                    </div><!-- /logo-holder -->
+
+                    <div class="contact-holder col-xs-6 col-sm-3 col-md-3 col-g-2 text-right pull-right">
+                        <div>
+                            <a href="/find-or-contact-us/">Contact us</a><br /><a href="tel:01768817817" aria-label="Contact us telephone">01768&nbsp;817817</a>
+                        </div>
+                    </div><!-- /contact-holder -->
+
+                    <div class="search-holder col-xs-12 col-ms-12 col-sm-6 col-md-6 col-lg-6 col-lg-push-1 col-md-push-1 col-sm-push-1 ">
+                        <!-- <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="search" placeholder="Search eg. Council Tax, Benefits" required/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary-meritec" type="submit">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    <span style="margin-left:10px;">Search</span>
+                                </button>
+                            </span>
+
+                        </div>
+                    </div> -->
+                        <form id="SearchForm" class="main-search-holder" method="get" action="https://www.eden.gov.uk/content-searcher" style="border:none; padding:0px; box-shadow:none;width:0px;">
+    <div id="SearchAheadControl" class="pull-left">
+        <input id="textSearch" style="margin:0px;" type="text" title="Search Box" autocomplete="off" aria-labelledby="searchBox" class="form-control" name="q" placeholder="Search eg. Council Tax, Benefits" required>
+        <div class="searchAutoCompleteWrapper">
+            <ul id="searchAutoComplete" style="list-style-type: none; margin: 0;"></ul>
+        </div>
+    </div>
+
+    <span class="input-group-btn">
+        <button class="btn btn-primary-meritec" type="submit" title="Search Button">
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span style="margin-left:10px;" id="searchBox">Search</span>
+        </button>
+    </span>
+
+</form>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    (function ($) {
+        // Hides predictions div on load.
+        $('#searchAutoCompleteWrapper').hide();
+
+        // if the text entered is longer than 2 characters it searches the API. Else it hides and empties the predictions box.
+        // Displays upto 10 predictions in the div. Empties old results before putting new ones in.
+        $('#SearchAheadControl').on('input', function () {
+            if (($('#textSearch').val().length) > 2) {
+                $('#searchAutoCompleteWrapper').show();
+                var querySearch = $('#textSearch').val();
+                return $.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + querySearch,
+                function (data) {
+                    $('#searchAutoComplete').empty();
+                    var PredictionCount = 0;
+                    $.each(data, function (index, value) {
+                        PredictionCount++;
+                        if (PredictionCount <= 10 && value.Phrase != '') $('#searchAutoComplete').append('<li class="listPrediction">' + value.Phrase + '</li>')
+                    });
+                })
+            } else {
+                $('#searchAutoCompleteWrapper').hide();
+                $('#searchAutoComplete').empty();
+            }
+        });
+
+        // When the prediction is clicked, it sets the search text to the prediction and submits the form.
+        $(document).on('click', '.listPrediction', function () {
+            $('#searchText').text($(this).text());
+            $('#SearchForm').submit();
+        });
+
+    })(jQuery);
+
+
+
+    //angular.module('TypeAheadSearch', ['ngAnimate', 'ngSanitize', 'mgcrea.ngStrap']).config(function ($typeaheadProvider) {
+    //    angular.extend($typeaheadProvider.defaults, {
+    //        animation: 'am-flip-x',
+    //        minLength: 3,
+    //        onSelect: function (data) {
+    //            jQuery('#SearchForm').submit();
+    //            console.log(data);
+    //            // window.location = data.Url;
+    //        }
+    //    });
+    //})
+
+    //    .controller('TypeAheadSearchController', function ($scope, $templateCache, $http) {
+
+
+    //        $scope.selectedPhrase = '';
+
+    //        //$scope.searchMore = [{ Phrase: "xxx", Url: "#" }];
+
+
+    //        $scope.searchPhrase = function (viewValue) {
+
+    //            if (viewValue.length >= 3) {
+    //                return $http.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + encodeURI(viewValue))
+    //                    .then(function (res) {
+    //                        //    res.data.push({ Phrase: "Search more...", Url: "~/Search?q=" + viewValue, PageID: 0 })
+    //                        return res.data;
+    //                    });
+    //            }
+    //        }
+    //    });
+
+</script>
+
+                    </div><!-- /search-holder -->
+
+
+                </div><!-- /#siteHeader -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <div id="pop-up" class="text-center">
+            <div class="cookie-holder">
+                This website puts small files, known as cookies, onto your computer to collect information about how you browse the site. <a href="https://www.eden.gov.uk/about-this-site/website-legal-statements/cookies/">Read about cookies we use</a>
+                <button id="hide" class="cookie-button btn btn-secondary-meritec dismiss">Dismiss</button>
+            </div>
+        </div><!-- /text-center -->
+
+    </div><!-- /primaryBackground -->
+    <div role="main" class="content-main">
+        <div class="container">
+            <div class="row">
+                <div class="action-button-holder col-xs-12">
+                    <span class="hidden-xs pull-left save-time">Save time, do it online:</span>
+                    <a href="/pay" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Pay">Pay</a>
+                    <a href="/apply" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Apply">Apply</a>
+                    <a href="/report" class="btn btn-primary-meritec col-xs-4" aria-label="Button to Report">Report</a>
+                </div><!-- /button-holder -->
+            </div>
+            <a id="skipLinks"></a>
+            
+<div class="row">
+ 	
+    <div class="breadcrumbs col-xs-12">
+        <ul title="Breadcrumbs" aria-label="Breadcrumb">
+            <li>You are here:</li>
+            
+                <li><a href="https://www.eden.gov.uk/">Home</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/">Voting and elections</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/election-results/">Election results</a></li>
+                <li><a href="https://www.eden.gov.uk/voting-and-elections/election-results/district-council-election-results/">District council election results</a></li>
+            
+            
+                <li class="active">District election 2019 results</li>
+            
+        </ul>
+    </div>
+ 
+</div><!-- /row -->
+<div class="row">
+    <div class="col-xs-12 content-page-holder">
+        <h1>District election 2019 results</h1>
+        <p>I, the undersigned, being the Returning Officer at the elections held on Thursday 2 May 2019, do hereby give notice that the number of vote cast for each candidate at the election is as follows and the candidates marked have been duly elected as Councillors for the said wards:</p>
+<h2>Alston Moor</h2>
+<p><strong>Seats:</strong> 2<strong> Electorate:</strong> 1663 <strong>Ballot papers issued:</strong> 875<strong> Ballot papers rejected:</strong> 3<strong> Turnout:</strong> 52%</p>
+<table summary="2011 Local Election results for Alston Moor">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hanley</strong>, Michael Timothy</td>
+<td>Labour Party</td>
+<td>575</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Holt</strong>, Andy</td>
+<td>Independent</td>
+<td>239</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Lincoln</strong>, Paul</td>
+<td>Conservative Party Candidate</td>
+<td>193</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Sharp</strong>, Lissie</td>
+<td>Labour Party</td>
+<td>584</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Appleby (Appleby)</h2>
+<p><strong>Seats: </strong>1<strong> Electorate:</strong> 1005<strong> Ballot papers issued: </strong>273<strong> Ballot papers rejected:</strong> 2<strong> Turnout:</strong> 27%</p>
+<table summary="Election results for Appleby (Appleby)">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Greenwood</strong>, Karen Elizabeth</td>
+<td>Independent</td>
+<td>232</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Kenyon</strong>, Ronald James</td>
+<td>Conservative Party Candidate</td>
+<td>39</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Appleby (Bongate)</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1530 <strong>Ballot papers issued:</strong> 484<strong> Ballot papers rejected:</strong> 12<strong> Turnout: </strong>31%</p>
+<table summary="2011 Local Election results for Appleby (Bongate)">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Connell</strong>, Andy</td>
+<td>Liberal Democrats</td>
+<td>293</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Kendall,</strong> Valerie</td>
+<td>Conservative Party Candidate</td>
+<td>146</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Myler</strong>, Tony</td>
+<td>Labour Party</td>
+<td>33</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Askham</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1047 <strong>Ballot papers issued:</strong> 409<strong> Ballot papers rejected:</strong> 11<strong> Turnout:</strong> 39%</p>
+<table summary="2011 Local Election results for Askham">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fearon</strong>, Henry</td>
+<td>Conservative Party Candidate</td>
+<td>162</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Harker</strong>, Laura</td>
+<td>Liberal Democrats</td>
+<td>236</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Brough</h2>
+<p><strong>Seats: 1 Electorate: </strong>1096<strong> Ballot papers issued:</strong> 469<strong> Ballot papers rejected: </strong>8<strong> Turnout: </strong>42%</p>
+<table summary="Election results for Brough">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cheetham</strong>, Chistopher William</td>
+<td>Labour Party</td>
+<td>33</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Hall,</strong> Maurice Edward</td>
+<td>Conservative Patry Candidate</td>
+<td>194</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Simpkins</strong>, Graham</td>
+<td>Liberal Democrats</td>
+<td>234</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Crosby Ravensworth</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1187 <strong>Ballot papers issued:</strong> 528 <strong>Ballot papers rejected:</strong> 18<strong> Turnout:</strong> 44%</p>
+<table summary="2011 Local Election results for Crosby Ravensworth">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kerrey,</strong> Liz</td>
+<td>Liberal Democrats</td>
+<td>189</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Raine</strong>, Joan Elizabeth</td>
+<td>Conservative Party Candidate</td>
+<td>321</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Dacre</h2>
+<p><strong>Seats: 1 Electorate: </strong>1185<strong> Ballot papers issued: </strong>484<strong> Ballot papers rejected: </strong>7 <strong>Turnout: </strong>41%<strong><br /></strong></p>
+<table summary="Election results for Dacre">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Derbyshire,</strong> Judith Margaret</td>
+<td>Liberal Democrats</td>
+<td>370</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Shaw</strong>, Jason Ewart Elder</td>
+<td>Conservative Party Candidate</td>
+<td>107</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Eamont</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1263 <strong>Ballot papers issued:</strong> 489<strong> Ballot papers rejected:</strong> 8<strong> Turnout:</strong> 39%</p>
+<table summary="2011 Local Election results for Eamont">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Banks</strong>, John Campbell</td>
+<td>Liberal Democrats</td>
+<td>101</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Chambers</strong>, Ian Edmund</td>
+<td>Conservative Party Candidate</td>
+<td>228</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Davies</strong>, Jonathan</td>
+<td>Putting Cumbria First</td>
+<td>152</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Greystoke</h2>
+<p><strong>Uncontested Election.<br /></strong></p>
+<h2>Hartside</h2>
+<p><strong>Uncontested Election.<br /></strong></p>
+<h2>Hesket</h2>
+<p><strong>Seats:</strong> 2<strong> Electorate:</strong> 2490<strong> Ballot papers issued:</strong> 872<strong> Ballot papers rejected:</strong> 3<strong> Turnout:</strong> 35%</p>
+<table summary="2011 Local Election results for  Hesket">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Grisedale,</strong> Lesley Ann</td>
+<td>Conservative Party Candidate</td>
+<td>336</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Martin,</strong> Elaine Mary</td>
+<td>Conservative Party Candidate</td>
+<td>443</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>O'Brien</strong>, Richard Kevin</td>
+<td>The Green Party</td>
+<td>269</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Ryland,</strong> David Benson</td>
+<td>Independent</td>
+<td>372</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Kirkby Thore</h2>
+<p><strong>Seats: </strong>1<strong> Electorate</strong>: 1182<strong> Ballot papers issued: </strong>504<strong> Ballot papers rejected: </strong>9<strong> Turnout: </strong>42%<strong><br /></strong></p>
+<table summary="Election results for Kirby Thore">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Baker,</strong> Lorna Ann</td>
+<td>Liberal Democrats</td>
+<td>167</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Quinn,</strong> Sean William</td>
+<td>Conservative Party Candidate</td>
+<td>85</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Sawrey-Cookson</strong>, Henry</td>
+<td>Independent</td>
+<td>243</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Kirkby Stephen</h2>
+<p><strong>Seats: </strong>2<strong> Electorate: </strong>2043<strong> Ballot papers issued: </strong>816<strong>  Ballot papers rejected: </strong>3<strong> Turnout: </strong>39%</p>
+<table summary="Election results for Kirkby Stephen">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cleeveley,</strong> Neil John</td>
+<td>Labour Party</td>
+<td>96</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Dew,</strong> Phil</td>
+<td>Conservative Party Candidate</td>
+<td>494</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Garner,</strong> Donna Jane</td>
+<td>Liberal Democrats</td>
+<td>173</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Lancaster,</strong> Sandy</td>
+<td>Independent</td>
+<td>368</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Simkins,</strong> Ian Daniel</td>
+<td>Labour Party</td>
+<td>104</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Kirkoswald</h2>
+<p><strong>Seats: </strong>1<strong> Electorate: </strong>1160<strong> Ballot papers issued: </strong>457<strong> Ballot papers rejected: </strong>10<strong> Turnout: </strong>39%</p>
+<table summary="Election results for Kirkoswald">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bateman,</strong> Olivia</td>
+<td>Conservative Party Candidate</td>
+<td>54</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Potts,</strong> John</td>
+<td>Labour Party</td>
+<td>68</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Robinson</strong>, Mary</td>
+<td>Independent</td>
+<td>325</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Langwathby</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1228 <strong>Ballot papers issued:</strong> 503<strong> Ballot papers rejected: </strong>2 <strong>Turnout:</strong> 41%</p>
+<table summary="2011 Local Election results for Langwathby">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Banks,</strong> Douglas Hugh</td>
+<td>Independent</td>
+<td>347</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Beveridge,</strong> Michael Richard</td>
+<td>Conservative Party Candidate</td>
+<td>52</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Henry,</strong> Richard Gordon</td>
+<td>The Green Party</td>
+<td>102</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Lazonby</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1227 <strong>Ballot papers issued:</strong> 470<strong> Ballot papers rejected:</strong> 11 <strong>Turnout:</strong> 38%</p>
+<table summary="2011 Local Election results for Lazonby">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nicolson,</strong> Gordon MacPherson</td>
+<td>Conservative Party Candidate</td>
+<td>232</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Tidbury</strong>, Wade</td>
+<td>The Green Party</td>
+<td>227</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Long Marton</h2>
+<p><strong>Uncontested Election.<br /></strong></p>
+<h2>Morland</h2>
+<p><strong>Seats: 1 Electorate: </strong>1057<strong> Ballot papers issued: </strong>422<strong> Ballot papers rejected: </strong>4<strong> Turnout: </strong>40%</p>
+<table summary="Election results for Morland">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Henderson</strong>, Isa</td>
+<td>Conservative Party Candidate</td>
+<td>83</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Hughes,</strong> Neil</td>
+<td>Liberal Democrats</td>
+<td>87</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Tonkin,</strong> Michael Christopher</td>
+<td>Independent</td>
+<td>248</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Orton with Tebay</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1129 <strong>Ballot papers issued:</strong> 407<strong> Ballot papers rejected:</strong> 15<strong> Turnout:</strong> 36%</p>
+<table summary="2011 Local Election results for Orton with Tebay">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Medic</strong>, Shelagh</td>
+<td>Liberal Democrats</td>
+<td>142</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Todd,</strong> John Adrian</td>
+<td>Conservative Party Candidate</td>
+<td>250</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith Carleton</h2>
+<p><strong>Seats: 1 Electorate: </strong>1419<strong> Ballot papers issued: </strong>572<strong> Ballot papers rejected: </strong>1<strong> Turnout: </strong>40%</p>
+<table summary="Election results for Penrith Carleton">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Breen</strong>, Paula</td>
+<td>Conservative Party Candidate</td>
+<td>132</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Lawson</strong>, Douglas</td>
+<td>The Green Party</td>
+<td>439</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith East</h2>
+<p><strong>Seats: 2 Electorate: </strong>2315<strong> Ballot papers issued: </strong>611 <strong>Ballot papers rejected: </strong>16<strong> Turnout: </strong>26%</p>
+<table summary="Election results for Penrith East">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Eyles</strong>, Michael Denis</td>
+<td>Liberal Democrats</td>
+<td>375</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Fallows</strong>, James</td>
+<td>Labour Party</td>
+<td>176</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Lynch</strong>, John Charles</td>
+<td>Conservative Party Candidate</td>
+<td>271</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith North</h2>
+<p><strong>Seats:</strong> 3<strong> Electorate:</strong> 3327 <strong>Ballot papers issued: </strong>1183<strong> Ballot papers rejected: </strong>8<strong> Turnout:</strong> 35%</p>
+<table summary="2011 Local Election results for Penrith North">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Holden</strong>, Deb</td>
+<td>Liberal Democrats</td>
+<td>898</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Jackson,</strong> Scott Michael</td>
+<td>Conservative Party Candidate</td>
+<td>311</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Ross,</strong> Ali</td>
+<td>The Green Party</td>
+<td>679</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Rudhall,</strong> Mark Brian</td>
+<td>Liberal Democrats</td>
+<td>736</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Toma</strong>, Lucian</td>
+<td>Putting Cumbria First</td>
+<td>223</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Whipp</strong>, David</td>
+<td>Conservative Party Candidate</td>
+<td>236</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith Pategill</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate: </strong>1022  <strong>Ballot papers issued: </strong>265<strong> Ballot papers rejected: </strong>2<strong> Turnout:</strong> 26%</p>
+<table summary="2011 Local Election results for  Penrith Pategill">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Baker,</strong> Peter Graham</td>
+<td>Liberal Democrats</td>
+<td>164</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Barnes,</strong> Gillian Elizabeth</td>
+<td>Conservative Party Candidate</td>
+<td>65</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Snell,</strong> Hilary Jane</td>
+<td>Labour Party</td>
+<td>34</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith South</h2>
+<p><strong>Seats: 2 Electorate: </strong>2048<strong> Ballot papers issued:</strong> 546<strong> Ballot papers rejected: </strong>3<strong> Turnout: </strong>26%<strong><br /></strong></p>
+<table summary="Election results for Penrith South">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Clark</strong>, Margaret</td>
+<td>Independent</td>
+<td>256</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Connor</strong>, Paul</td>
+<td>Independent</td>
+<td>261</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Fearon</strong>, Helen Jane</td>
+<td>Conservative Party Candidate</td>
+<td>210</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Hawkins</strong>, Nicola Sarah</td>
+<td>Labour Party</td>
+<td>94</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Penrith West</h2>
+<p><strong>Seats:</strong> 2<strong> Electorate:</strong> 2298 <strong>Ballot papers issued:</strong> 555<strong> Ballot papers rejected:</strong> 1<strong>Turnout:</strong> 24%</p>
+<table summary="2011 Local Election results for Penrith West">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dixon</strong>, Mary Elizabeth</td>
+<td>UK Independence Party</td>
+<td>100</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Knaggs,</strong> Dave</td>
+<td>Labour Party</td>
+<td>154</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Taylor</strong>, Virginia Christine</td>
+<td>Liberal Democrats</td>
+<td>283</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Thompson,</strong> John George</td>
+<td>Conservative Party Candidate</td>
+<td>159</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Thompson</strong>, Neil Colin</td>
+<td>Labour Party</td>
+<td>108</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Ravenstonedale</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate </strong>794<strong> Ballot papers issued:</strong> 260<strong> Ballot papers rejected: </strong>10<strong> Turnout: </strong>32%</p>
+<table summary="2011 Local Election results for Ravenstonedale">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>James,</strong> Kelvyn Justin Simon</td>
+<td>Liberal Democrats</td>
+<td>123</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Meadowcroft</strong>, Angela Marie</td>
+<td>Conservative Party Candidate</td>
+<td>127</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Shap</h2>
+<p><strong>Seats:</strong> 1<strong> Electorate:</strong> 1089<strong> Ballot papers issued: </strong>544<strong> Ballot papers rejected:</strong> 10<strong> Turnout:</strong> 50%</p>
+<table summary="2011 Local Election results for Shap">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>McCall,</strong> Neil</td>
+<td>Liberal Democrats</td>
+<td>167</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Owen,</strong> John Mervyn</td>
+<td>Conservative Party Candidate</td>
+<td>273</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Wilde,</strong> Kerryanne</td>
+<td>Putting Cumbria First</td>
+<td>94</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Skelton</h2>
+<p><strong>Seats: 1 Electorate: </strong>1172<strong> Ballot papers issued: </strong>463<strong> Ballot papers rejected: </strong>6<strong> Turnout: </strong>40%</p>
+<table summary="Election results for Skelton">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Beaty</strong>, Kevin</td>
+<td>Conservative Party Candidate</td>
+<td>275</td>
+<td>E</td>
+</tr>
+<tr>
+<td><strong>Strevens,</strong> Tim</td>
+<td>Liberal Democrats</td>
+<td>182</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2>Ullswater</h2>
+<p><strong>Seats: 1 Electorate:</strong> 1058<strong> Ballot papers issued: </strong>423<strong> Ballot papers rejected: </strong>13<strong> Turnout: </strong>40%</p>
+<table summary="Election results for Ullswater">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hogg,</strong> Alistair Richard</td>
+<td>Conservative Party Candidate</td>
+<td>196</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Smith,</strong> Darrell Jon</td>
+<td>Liberal Democrats</td>
+<td>214</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<h2>Warcop</h2>
+<p><strong>Seats: 1 Electorate: </strong>1075<strong> Ballot papers issued: </strong>375<strong> Ballot papers rejected: </strong>6<strong> Turnout: </strong>35%<strong><br /></strong></p>
+<table summary="Election results for Warcop">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cox,</strong> Graham John</td>
+<td>Conservative Party Candidate</td>
+<td>72</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Lawson</strong>, Kimberley Jane</td>
+<td>The Green Party</td>
+<td>71</td>
+<td> </td>
+</tr>
+<tr>
+<td><strong>Patterson</strong>, William</td>
+<td>Independent</td>
+<td>226</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+    </div>
+</div><!-- /row -->
+
+<div class="row">
+    <div class="footer-contacts-holder">
+        
+
+
+<div id="contactdetails">
+        <div class="col-xs-12 contact-information">
+            <h2>Contact details:</h2>
+            <ul>
+                    <li>
+                        <strong>Contact:</strong> Matthew Neal, Returning Officer</li>
+                                                                                                                    <li>
+                        <strong>Address:</strong> Eden District Council, Town Hall, Corney Square, Penrith, Cumbria CA11 7QF</li>
+                            </ul>
+        </div>
+</div>
+    </div><!-- /col-xs-12 -->
+</div><!-- /row -->
+
+
+
+
+        </div><!-- /container -->
+            <div class="feedback-holder pull-right text-right col-xs-12">
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/good.png" alt="Positive Feedback" />
+                </a>
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/average.png" alt="Okay Feedback" />
+                </a>
+                <a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97">
+                    <img src="/img/poor.png" alt="Negative Feedback" />
+                </a>
+                    <br />
+                    <span><a href="https://selfservice.eden.gov.uk/renderform.aspx?noheader=1&amp;t=120&amp;k=414B5FC4F72D343ED303C46667460E38D6A2CC97" >
+            Web page feedback</a></span>
+                
+            </div>
+
+        <!-- here -->
+    </div><!-- /main -->
+    <div class="footer-holder footer-margin" role="contentinfo">
+        <div class="container">
+            <div class="row equal-height-holder">
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    
+                    <ul>
+                        <li>Eden District Council<br />Town Hall<br />Corney Square<br />Penrith<br />Cumbria <br />CA11 7QF </li>
+
+                    </ul>
+                </div><!-- /footer-column -->
+
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <ul>
+                            <li>
+                                <a href="tel:01768817817" aria-label="Telephone Number">01768 817817</a>
+                            </li>
+                            <li>
+                                <a href="mailto:customer.services@eden.gov.uk">customer.services@eden.gov.uk</a>
+                            </li>
+                            <li><br /></li>
+                            <li>Opening hours: <br />Monday to Thursday: <br />8.45am to 5.15pm <br />Friday: 8.45am to 4.45pm </li>
+                        </ul>
+                    </div>
+                </div><!-- /footer-column -->
+
+
+                <div class="footer-column col-xs-12 col-ms-6 col-sm-6 col-md-4 equal-height-element">
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <div class="footer-icon pull-left fa fa-twitter-square" aria-hidden="true"></div>
+                        <div class="footer-text pull-left">
+                            <div>
+                                <a href="https://twitter.com/EdenCouncil">@edencouncil</a>
+                            </div>
+                            
+                        </div>
+                    </div><!-- /footer-inner -->
+
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <div class="footer-icon pull-left fa fa-facebook-square"></div>
+                        <div class="footer-text pull-left">
+                            <div>
+                                <a href="https://en-gb.facebook.com/EdenDistrictCouncil/">Eden Council Facebook</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                        <a href="/rss/" aria-label="RSS">
+                            <div class="footer-icon pull-left fa fa-rss-square"></div>
+                        </a>
+                        <div class="footer-text pull-left">
+
+                            <div>
+                                <a href="/rss/">RSS</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div><!-- /footer-column -->
+                
+
+
+            </div><!-- /footer-holder -->
+        </div><!-- /row -->
+    </div><!-- /footer-holder -->
+
+    <div class="copyright-holder col-xs-12" role="complementary">
+        <ul>
+            <li>Copyright &copy; 2005 to 2019</li>
+                    <li>
+                        <a href="/about-this-site/website-help/site-map/">Site map</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/">About this site</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-legal-statements/data-protection/">Data protection</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-legal-statements/cookies/">Cookies</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/website-help/acronyms-and-abbreviations/">Acronyms and abbreviations</a>
+                    </li>
+
+        </ul>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        (function () {
+            function downloadJSAtOnload() {
+
+                var customScriptsJs = document.createElement("script");
+                customScriptsJs.src = window.location.origin + '/scripts/CustomScripts.js';
+                document.body.appendChild(customScriptsJs);
+
+                // Google Analytics //
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] ||
+                        function () {
+                            (i[r].q = i[r].q || []).push(arguments);
+                        }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m);
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-663010-1', 'auto');
+                ga('send', 'pageview');
+
+
+                // Crazy Egg //
+                setTimeout(function () {
+                    var a = document.createElement("script");
+                    var b = document.getElementsByTagName("script")[0];
+                    a.src = document.location.protocol +
+                        "//script.crazyegg.com/pages/scripts/0009/7838.js?" +
+                        Math.floor(new Date().getTime() / 3600000);
+                    a.async = true;
+                    a.type = "text/javascript";
+                    b.parentNode.insertBefore(a, b);
+                },
+                    1);
+
+                // Siteimprove //
+                (function () {
+                    var sz = document.createElement('script');
+                    sz.type = 'text/javascript';
+                    sz.async = true;
+                    sz.src = '//uk1.siteimprove.com/js/siteanalyze_418953.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sz, s);
+                })();
+            }
+
+            if (window.addEventListener) {
+                window.addEventListener("load", downloadJSAtOnload, false);
+            } else if (window.attachEvent) {
+                window.attachEvent("onload", downloadJSAtOnload);
+            } else {
+                window.onload = downloadJSAtOnload;
+            }
+
+        })();
+    </script>
+
+    <div id="mobile-view" aria-hidden="true"></div>
+</body>
+</html>

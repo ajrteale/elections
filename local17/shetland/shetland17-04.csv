@@ -1,0 +1,18 @@
+"Election for","Ward 4 - Shetland Central"
+"Date","22 Jul 2019"
+"Number to be elected",3
+"Valid votes",973
+"Invalid votes",0
+"Quota",244.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Davie SANDISON",,"Mark Robert BURGESS",,"Brian NUGENT",
+"Julie Jemima BUCHAN",118,+21.61250,139.61250,+7.26054,146.87304,+22.52392,169.39696,
+"Mark Robert BURGESS",260,,260.00000,-16.00000,244.00000,,244.00000,"Elected"
+"Brian NUGENT",84,+9.26250,93.26250,+2.52273,95.78523,-95.78523,"-",
+"Davie SANDISON",320,-76.00000,244.00000,,244.00000,,244.00000,"Elected"
+"Ian SCOTT",191,+23.03750,214.03750,+3.13803,217.17553,+46.34224,263.51777,"Elected"
+"Non-transferable", ,+22.08750,22.08750,+3.07870,25.16620,+26.91907,52.08527,
+"Totals",973,,973.00000,,973.00000,,973.00000

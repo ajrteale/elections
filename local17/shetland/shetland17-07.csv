@@ -1,0 +1,18 @@
+"Election for","Ward 7 - Lerwick South"
+"Date","22 Jul 2019"
+"Number to be elected",4
+"Valid votes",1492
+"Invalid votes",0
+"Quota",299.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Cecil Laing SMITH",,"Beatrice WISHART",,"Frances VALENTE",
+"Peter CAMPBELL",299,,299.00000,,299.00000,,299.00000,"Elected"
+"Cecil Laing SMITH",429,-130.00000,299.00000,,299.00000,,299.00000,"Elected"
+"Frances VALENTE",180,+40.60602,220.60602,+47.73978,268.34580,-268.34580,"-",
+"Amanda WESTLAKE",190,+52.42419,242.42419,+28.69209,271.11628,+137.71565,408.83193,"Elected"
+"Beatrice WISHART",394,,394.00000,-95.00000,299.00000,,299.00000,"Elected"
+"Non-transferable", ,+36.96979,36.96979,+18.56813,55.53792,+130.63015,186.16807,
+"Totals",1492,,1492.00000,,1492.00000,,1492.00000
