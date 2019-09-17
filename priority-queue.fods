@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2012-07-12T21:22:19.36</meta:creation-date><meta:editing-duration>P817DT4H2M20S</meta:editing-duration><meta:editing-cycles>2367</meta:editing-cycles><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><dc:date>2019-09-06T23:26:27.980348086</dc:date><meta:document-statistic meta:table-count="1" meta:cell-count="8623" meta:object-count="0"/><meta:user-defined meta:name="qrichtext">1</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2012-07-12T21:22:19.36</meta:creation-date><meta:editing-duration>P817DT20H45M57S</meta:editing-duration><meta:editing-cycles>2371</meta:editing-cycles><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><dc:date>2019-09-13T15:11:40.194002846</dc:date><meta:document-statistic meta:table-count="1" meta:cell-count="8623" meta:object-count="0"/><meta:user-defined meta:name="qrichtext">1</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -13,8 +13,8 @@
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="PriorityQueue">
-       <config:config-item config:name="CursorPositionX" config:type="int">27</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">22</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">12</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -726,14 +726,17 @@
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N151"/>
+  <style:style style:name="ce42" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
   <style:style style:name="ce40" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="ce41" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-style="italic" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
-  </style:style>
-  <style:style style:name="ce42" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties fo:font-style="normal" fo:font-weight="bold" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce43" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
    <style:text-properties fo:font-style="italic" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
@@ -784,7 +787,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2019-09-06">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="22:11:27.342722944">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2019-09-13">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="13:24:52.697571846">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -913,7 +916,7 @@
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string">
       <text:p>Daventry</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce33" office:value-type="float" office:value="63923" calcext:value-type="float">
@@ -971,7 +974,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N2]*[.N$398]+[.O2]*[.O$398]+[.P2]*[.P$398]+[.Q2]*[.Q$398]+[.R2]*[.R$398]+[.S2]*[.S$398]+[.T2]*[.T$398]+[.U2]*[.U$398]" office:value-type="float" office:value="43.3505107797774" calcext:value-type="float">
       <text:p>43.35</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce40" table:formula="of:=46+56" office:value-type="float" office:value="102" calcext:value-type="float">
+     <table:table-cell table:style-name="ce42" table:formula="of:=46+56" office:value-type="float" office:value="102" calcext:value-type="float">
       <text:p>102</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" table:formula="of:=[.$AD$1]" office:value-type="float" office:value="44463" calcext:value-type="float">
@@ -983,7 +986,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y2]/[.Y$397]" office:value-type="float" office:value="17.0628567153457" calcext:value-type="float">
       <text:p>17.06</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D2]+[.M2]+[.V2]+[.Z2]" office:value-type="float" office:value="95.9851288025993" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D2]+[.M2]+[.V2]+[.Z2]" office:value-type="float" office:value="95.9851288025994" calcext:value-type="float">
       <text:p>95.99</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA2];[.AA$2:.AA$395];0)" office:value-type="float" office:value="1" calcext:value-type="float">
@@ -1045,7 +1048,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N3]*[.N$398]+[.O3]*[.O$398]+[.P3]*[.P$398]+[.Q3]*[.Q$398]+[.R3]*[.R$398]+[.S3]*[.S$398]+[.T3]*[.T$398]+[.U3]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=60+86+10202" office:value-type="float" office:value="10348" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=60+86+10202" office:value-type="float" office:value="10348" calcext:value-type="float">
       <text:p>10348</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
@@ -1120,7 +1123,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N4]*[.N$398]+[.O4]*[.O$398]+[.P4]*[.P$398]+[.Q4]*[.Q$398]+[.R4]*[.R$398]+[.S4]*[.S$398]+[.T4]*[.T$398]+[.U4]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce33" table:formula="of:=1123+1156+1156" office:value-type="float" office:value="3435" calcext:value-type="float">
+     <table:table-cell table:style-name="ce42" table:formula="of:=1123+1156+1156" office:value-type="float" office:value="3435" calcext:value-type="float">
       <text:p>3435</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -1195,17 +1198,17 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N5]*[.N$398]+[.O5]*[.O$398]+[.P5]*[.P$398]+[.Q5]*[.Q$398]+[.R5]*[.R$398]+[.S5]*[.S$398]+[.T5]*[.T$398]+[.U5]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=39+2790+6460" office:value-type="float" office:value="9289" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=39+2790+6460" office:value-type="float" office:value="9289" calcext:value-type="float">
       <text:p>9289</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
      <table:table-cell table:formula="of:=[.W5]+[.X5]" office:value-type="float" office:value="9289" calcext:value-type="float">
       <text:p>9289</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y5]/[.Y$397]" office:value-type="float" office:value="3.55653261592834" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y5]/[.Y$397]" office:value-type="float" office:value="3.55653261592833" calcext:value-type="float">
       <text:p>3.56</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D5]+[.M5]+[.V5]+[.Z5]" office:value-type="float" office:value="85.6419468029957" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D5]+[.M5]+[.V5]+[.Z5]" office:value-type="float" office:value="85.6419468029956" calcext:value-type="float">
       <text:p>85.64</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA5];[.AA$2:.AA$395];0)" office:value-type="float" office:value="4" calcext:value-type="float">
@@ -1270,14 +1273,14 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N6]*[.N$398]+[.O6]*[.O$398]+[.P6]*[.P$398]+[.Q6]*[.Q$398]+[.R6]*[.R$398]+[.S6]*[.S$398]+[.T6]*[.T$398]+[.U6]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce33" table:formula="of:=101+912+32" office:value-type="float" office:value="1045" calcext:value-type="float">
+     <table:table-cell table:style-name="ce42" table:formula="of:=101+912+32" office:value-type="float" office:value="1045" calcext:value-type="float">
       <text:p>1045</text:p>
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.W6]+[.X6]" office:value-type="float" office:value="1045" calcext:value-type="float">
       <text:p>1045</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y6]/[.Y$397]" office:value-type="float" office:value="0.400105133345367" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y6]/[.Y$397]" office:value-type="float" office:value="0.400105133345366" calcext:value-type="float">
       <text:p>0.40</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D6]+[.M6]+[.V6]+[.Z6]" office:value-type="float" office:value="85.5729597146232" calcext:value-type="float">
@@ -1345,7 +1348,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N7]*[.N$398]+[.O7]*[.O$398]+[.P7]*[.P$398]+[.Q7]*[.Q$398]+[.R7]*[.R$398]+[.S7]*[.S$398]+[.T7]*[.T$398]+[.U7]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=36+2816+6086" office:value-type="float" office:value="8938" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=36+2816+6086" office:value-type="float" office:value="8938" calcext:value-type="float">
       <text:p>8938</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -1355,7 +1358,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y7]/[.Y$397]" office:value-type="float" office:value="3.42214323621137" calcext:value-type="float">
       <text:p>3.42</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D7]+[.M7]+[.V7]+[.Z7]" office:value-type="float" office:value="85.5610251143654" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D7]+[.M7]+[.V7]+[.Z7]" office:value-type="float" office:value="85.5610251143653" calcext:value-type="float">
       <text:p>85.56</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA7];[.AA$2:.AA$395];0)" office:value-type="float" office:value="6" calcext:value-type="float">
@@ -1426,7 +1429,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N8]*[.N$398]+[.O8]*[.O$398]+[.P8]*[.P$398]+[.Q8]*[.Q$398]+[.R8]*[.R$398]+[.S8]*[.S$398]+[.T8]*[.T$398]+[.U8]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce33" table:formula="of:=46+44+60" office:value-type="float" office:value="150" calcext:value-type="float">
+     <table:table-cell table:style-name="ce42" table:formula="of:=46+44+60" office:value-type="float" office:value="150" calcext:value-type="float">
       <text:p>150</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
@@ -1501,7 +1504,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N9]*[.N$398]+[.O9]*[.O$398]+[.P9]*[.P$398]+[.Q9]*[.Q$398]+[.R9]*[.R$398]+[.S9]*[.S$398]+[.T9]*[.T$398]+[.U9]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce33" table:formula="of:=56+60+60" office:value-type="float" office:value="176" calcext:value-type="float">
+     <table:table-cell table:style-name="ce42" table:formula="of:=56+60+60" office:value-type="float" office:value="176" calcext:value-type="float">
       <text:p>176</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -1573,7 +1576,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N10]*[.N$398]+[.O10]*[.O$398]+[.P10]*[.P$398]+[.Q10]*[.Q$398]+[.R10]*[.R$398]+[.S10]*[.S$398]+[.T10]*[.T$398]+[.U10]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=392+2096+8910" office:value-type="float" office:value="11398" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=392+2096+8910" office:value-type="float" office:value="11398" calcext:value-type="float">
       <text:p>11398</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
@@ -1648,7 +1651,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N11]*[.N$398]+[.O11]*[.O$398]+[.P11]*[.P$398]+[.Q11]*[.Q$398]+[.R11]*[.R$398]+[.S11]*[.S$398]+[.T11]*[.T$398]+[.U11]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce41" table:formula="of:=236+2386+8751" office:value-type="float" office:value="11373" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=236+2386+8751" office:value-type="float" office:value="11373" calcext:value-type="float">
       <text:p>11373</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
@@ -1723,7 +1726,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N12]*[.N$398]+[.O12]*[.O$398]+[.P12]*[.P$398]+[.Q12]*[.Q$398]+[.R12]*[.R$398]+[.S12]*[.S$398]+[.T12]*[.T$398]+[.U12]*[.U$398]" office:value-type="float" office:value="43.728164752993" calcext:value-type="float">
       <text:p>43.73</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=79+105+10518" office:value-type="float" office:value="10702" calcext:value-type="float">
+     <table:table-cell table:style-name="ce11" table:formula="of:=79+105+10518" office:value-type="float" office:value="10702" calcext:value-type="float">
       <text:p>10702</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
@@ -1808,7 +1811,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y13]/[.Y$397]" office:value-type="float" office:value="1.7968357806601" calcext:value-type="float">
       <text:p>1.80</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D13]+[.M13]+[.V13]+[.Z13]" office:value-type="float" office:value="84.7976185392166" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D13]+[.M13]+[.V13]+[.Z13]" office:value-type="float" office:value="84.7976185392165" calcext:value-type="float">
       <text:p>84.80</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA13];[.AA$2:.AA$395];0)" office:value-type="float" office:value="12" calcext:value-type="float">
@@ -2033,7 +2036,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y16]/[.Y$397]" office:value-type="float" office:value="1.8221055785556" calcext:value-type="float">
       <text:p>1.82</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D16]+[.M16]+[.V16]+[.Z16]" office:value-type="float" office:value="84.5708081496439" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D16]+[.M16]+[.V16]+[.Z16]" office:value-type="float" office:value="84.5708081496438" calcext:value-type="float">
       <text:p>84.57</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA16];[.AA$2:.AA$395];0)" office:value-type="float" office:value="15" calcext:value-type="float">
@@ -2183,7 +2186,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y18]/[.Y$397]" office:value-type="float" office:value="3.44396715257567" calcext:value-type="float">
       <text:p>3.44</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D18]+[.M18]+[.V18]+[.Z18]" office:value-type="float" office:value="84.2995394403716" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D18]+[.M18]+[.V18]+[.Z18]" office:value-type="float" office:value="84.2995394403715" calcext:value-type="float">
       <text:p>84.30</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA18];[.AA$2:.AA$395];0)" office:value-type="float" office:value="17" calcext:value-type="float">
@@ -2411,7 +2414,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y21]/[.Y$397]" office:value-type="float" office:value="0.174591330914342" calcext:value-type="float">
       <text:p>0.17</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D21]+[.M21]+[.V21]+[.Z21]" office:value-type="float" office:value="83.780647053513" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D21]+[.M21]+[.V21]+[.Z21]" office:value-type="float" office:value="83.7806470535129" calcext:value-type="float">
       <text:p>83.78</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA21];[.AA$2:.AA$395];0)" office:value-type="float" office:value="20" calcext:value-type="float">
@@ -2486,7 +2489,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y22]/[.Y$397]" office:value-type="float" office:value="1.88374857039158" calcext:value-type="float">
       <text:p>1.88</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D22]+[.M22]+[.V22]+[.Z22]" office:value-type="float" office:value="83.7345509491932" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D22]+[.M22]+[.V22]+[.Z22]" office:value-type="float" office:value="83.7345509491931" calcext:value-type="float">
       <text:p>83.73</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA22];[.AA$2:.AA$395];0)" office:value-type="float" office:value="21" calcext:value-type="float">
@@ -2783,7 +2786,7 @@
      <table:table-cell table:formula="of:=[.W26]+[.X26]" office:value-type="float" office:value="4901" calcext:value-type="float">
       <text:p>4901</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y26]/[.Y$397]" office:value-type="float" office:value="1.87647393160349" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y26]/[.Y$397]" office:value-type="float" office:value="1.87647393160348" calcext:value-type="float">
       <text:p>1.88</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D26]+[.M26]+[.V26]+[.Z26]" office:value-type="float" office:value="82.8083375592249" calcext:value-type="float">
@@ -2933,7 +2936,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y28]/[.Y$397]" office:value-type="float" office:value="0.335016259978178" calcext:value-type="float">
       <text:p>0.34</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D28]+[.M28]+[.V28]+[.Z28]" office:value-type="float" office:value="82.6774408826584" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D28]+[.M28]+[.V28]+[.Z28]" office:value-type="float" office:value="82.6774408826583" calcext:value-type="float">
       <text:p>82.68</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA28];[.AA$2:.AA$395];0)" office:value-type="float" office:value="27" calcext:value-type="float">
@@ -3077,7 +3080,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y30]/[.Y$397]" office:value-type="float" office:value="0.0892100440856176" calcext:value-type="float">
       <text:p>0.09</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D30]+[.M30]+[.V30]+[.Z30]" office:value-type="float" office:value="82.5941203448456" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D30]+[.M30]+[.V30]+[.Z30]" office:value-type="float" office:value="82.5941203448455" calcext:value-type="float">
       <text:p>82.59</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA30];[.AA$2:.AA$395];0)" office:value-type="float" office:value="29" calcext:value-type="float">
@@ -3149,7 +3152,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y31]/[.Y$397]" office:value-type="float" office:value="0.296345811683554" calcext:value-type="float">
       <text:p>0.30</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D31]+[.M31]+[.V31]+[.Z31]" office:value-type="float" office:value="82.5137291409004" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D31]+[.M31]+[.V31]+[.Z31]" office:value-type="float" office:value="82.5137291409003" calcext:value-type="float">
       <text:p>82.51</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA31];[.AA$2:.AA$395];0)" office:value-type="float" office:value="30" calcext:value-type="float">
@@ -3221,7 +3224,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y32]/[.Y$397]" office:value-type="float" office:value="0.0788723994920053" calcext:value-type="float">
       <text:p>0.08</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D32]+[.M32]+[.V32]+[.Z32]" office:value-type="float" office:value="82.2970207672141" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D32]+[.M32]+[.V32]+[.Z32]" office:value-type="float" office:value="82.297020767214" calcext:value-type="float">
       <text:p>82.30</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA32];[.AA$2:.AA$395];0)" office:value-type="float" office:value="31" calcext:value-type="float">
@@ -3290,7 +3293,7 @@
      <table:table-cell table:formula="of:=[.W33]+[.X33]" office:value-type="float" office:value="383" calcext:value-type="float">
       <text:p>383</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y33]/[.Y$397]" office:value-type="float" office:value="0.14664140293902" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y33]/[.Y$397]" office:value-type="float" office:value="0.146641402939019" calcext:value-type="float">
       <text:p>0.15</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D33]+[.M33]+[.V33]+[.Z33]" office:value-type="float" office:value="82.1234201222659" calcext:value-type="float">
@@ -3365,7 +3368,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y34]/[.Y$397]" office:value-type="float" office:value="0.107205203193017" calcext:value-type="float">
       <text:p>0.11</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D34]+[.M34]+[.V34]+[.Z34]" office:value-type="float" office:value="81.8470769987385" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D34]+[.M34]+[.V34]+[.Z34]" office:value-type="float" office:value="81.8470769987384" calcext:value-type="float">
       <text:p>81.85</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA34];[.AA$2:.AA$395];0)" office:value-type="float" office:value="33" calcext:value-type="float">
@@ -3512,10 +3515,10 @@
      <table:table-cell table:formula="of:=[.W36]+[.X36]" office:value-type="float" office:value="2241" calcext:value-type="float">
       <text:p>2241</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y36]/[.Y$397]" office:value-type="float" office:value="0.858024501269825" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y36]/[.Y$397]" office:value-type="float" office:value="0.858024501269824" calcext:value-type="float">
       <text:p>0.86</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D36]+[.M36]+[.V36]+[.Z36]" office:value-type="float" office:value="81.2417840150169" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D36]+[.M36]+[.V36]+[.Z36]" office:value-type="float" office:value="81.2417840150168" calcext:value-type="float">
       <text:p>81.24</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA36];[.AA$2:.AA$395];0)" office:value-type="float" office:value="35" calcext:value-type="float">
@@ -3587,7 +3590,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y37]/[.Y$397]" office:value-type="float" office:value="0.109502457547153" calcext:value-type="float">
       <text:p>0.11</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D37]+[.M37]+[.V37]+[.Z37]" office:value-type="float" office:value="81.1171048971849" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D37]+[.M37]+[.V37]+[.Z37]" office:value-type="float" office:value="81.1171048971848" calcext:value-type="float">
       <text:p>81.12</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA37];[.AA$2:.AA$395];0)" office:value-type="float" office:value="36" calcext:value-type="float">
@@ -3738,7 +3741,7 @@
      <table:table-cell table:formula="of:=[.W39]+[.X39]" office:value-type="float" office:value="2253" calcext:value-type="float">
       <text:p>2253</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y39]/[.Y$397]" office:value-type="float" office:value="0.862619009978097" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y39]/[.Y$397]" office:value-type="float" office:value="0.862619009978096" calcext:value-type="float">
       <text:p>0.86</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D39]+[.M39]+[.V39]+[.Z39]" office:value-type="float" office:value="80.8191381520033" calcext:value-type="float">
@@ -3969,10 +3972,10 @@
      <table:table-cell table:formula="of:=[.W42]+[.X42]" office:value-type="float" office:value="938" calcext:value-type="float">
       <text:p>938</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y42]/[.Y$397]" office:value-type="float" office:value="0.359137430696607" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y42]/[.Y$397]" office:value-type="float" office:value="0.359137430696606" calcext:value-type="float">
       <text:p>0.36</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D42]+[.M42]+[.V42]+[.Z42]" office:value-type="float" office:value="78.6383096500391" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D42]+[.M42]+[.V42]+[.Z42]" office:value-type="float" office:value="78.6383096500392" calcext:value-type="float">
       <text:p>78.64</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA42];[.AA$2:.AA$395];0)" office:value-type="float" office:value="41" calcext:value-type="float">
@@ -4254,7 +4257,7 @@
      <table:table-cell table:formula="of:=[.W46]+[.X46]" office:value-type="float" office:value="89961" calcext:value-type="float">
       <text:p>89961</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y46]/[.Y$397]" office:value-type="float" office:value="34.4438831587393" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y46]/[.Y$397]" office:value-type="float" office:value="34.4438831587392" calcext:value-type="float">
       <text:p>34.44</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D46]+[.M46]+[.V46]+[.Z46]" office:value-type="float" office:value="65.757196968097" calcext:value-type="float">
@@ -4328,7 +4331,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y47]/[.Y$397]" office:value-type="float" office:value="34.5729122782966" calcext:value-type="float">
       <text:p>34.57</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D47]+[.M47]+[.V47]+[.Z47]" office:value-type="float" office:value="56.6949582810065" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D47]+[.M47]+[.V47]+[.Z47]" office:value-type="float" office:value="56.6949582810066" calcext:value-type="float">
       <text:p>56.69</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA47];[.AA$2:.AA$395];0)" office:value-type="float" office:value="46" calcext:value-type="float">
@@ -4464,7 +4467,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y49]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D49]+[.M49]+[.V49]+[.Z49]" office:value-type="float" office:value="48.0698257230925" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D49]+[.M49]+[.V49]+[.Z49]" office:value-type="float" office:value="48.0698257230926" calcext:value-type="float">
       <text:p>48.07</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA49];[.AA$2:.AA$395];0)" office:value-type="float" office:value="48" calcext:value-type="float">
@@ -4528,7 +4531,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y50]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D50]+[.M50]+[.V50]+[.Z50]" office:value-type="float" office:value="46.9667252028516" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D50]+[.M50]+[.V50]+[.Z50]" office:value-type="float" office:value="46.9667252028517" calcext:value-type="float">
       <text:p>46.97</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA50];[.AA$2:.AA$395];0)" office:value-type="float" office:value="49" calcext:value-type="float">
@@ -5081,7 +5084,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y58]/[.Y$397]" office:value-type="float" office:value="17.0238033913254" calcext:value-type="float">
       <text:p>17.02</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D58]+[.M58]+[.V58]+[.Z58]" office:value-type="float" office:value="39.792955704192" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D58]+[.M58]+[.V58]+[.Z58]" office:value-type="float" office:value="39.7929557041921" calcext:value-type="float">
       <text:p>39.79</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA58];[.AA$2:.AA$395];0)" office:value-type="float" office:value="57" calcext:value-type="float">
@@ -5151,7 +5154,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y59]/[.Y$397]" office:value-type="float" office:value="0.0382875725689346" calcext:value-type="float">
       <text:p>0.04</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D59]+[.M59]+[.V59]+[.Z59]" office:value-type="float" office:value="39.4333406445948" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D59]+[.M59]+[.V59]+[.Z59]" office:value-type="float" office:value="39.4333406445947" calcext:value-type="float">
       <text:p>39.43</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA59];[.AA$2:.AA$395];0)" office:value-type="float" office:value="58" calcext:value-type="float">
@@ -5218,7 +5221,7 @@
      <table:table-cell table:formula="of:=[.W60]+[.X60]" office:value-type="float" office:value="912" calcext:value-type="float">
       <text:p>912</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y60]/[.Y$397]" office:value-type="float" office:value="0.349182661828684" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y60]/[.Y$397]" office:value-type="float" office:value="0.349182661828683" calcext:value-type="float">
       <text:p>0.35</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D60]+[.M60]+[.V60]+[.Z60]" office:value-type="float" office:value="39.2032685063895" calcext:value-type="float">
@@ -5418,7 +5421,7 @@
      <table:table-cell table:formula="of:=[.W63]+[.X63]" office:value-type="float" office:value="3830" calcext:value-type="float">
       <text:p>3830</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y63]/[.Y$397]" office:value-type="float" office:value="1.4664140293902" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y63]/[.Y$397]" office:value-type="float" office:value="1.46641402939019" calcext:value-type="float">
       <text:p>1.47</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D63]+[.M63]+[.V63]+[.Z63]" office:value-type="float" office:value="37.7526027532743" calcext:value-type="float">
@@ -5887,7 +5890,7 @@
      <table:table-cell table:formula="of:=[.W70]+[.X70]" office:value-type="float" office:value="238" calcext:value-type="float">
       <text:p>238</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y70]/[.Y$397]" office:value-type="float" office:value="0.0911244227140644" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y70]/[.Y$397]" office:value-type="float" office:value="0.0911244227140643" calcext:value-type="float">
       <text:p>0.09</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D70]+[.M70]+[.V70]+[.Z70]" office:value-type="float" office:value="32.6467303823374" calcext:value-type="float">
@@ -6380,7 +6383,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y77]/[.Y$397]" office:value-type="float" office:value="17.089658016144" calcext:value-type="float">
       <text:p>17.09</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D77]+[.M77]+[.V77]+[.Z77]" office:value-type="float" office:value="29.6754140470773" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D77]+[.M77]+[.V77]+[.Z77]" office:value-type="float" office:value="29.6754140470772" calcext:value-type="float">
       <text:p>29.68</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA77];[.AA$2:.AA$395];0)" office:value-type="float" office:value="76" calcext:value-type="float">
@@ -6514,7 +6517,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y79]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D79]+[.M79]+[.V79]+[.Z79]" office:value-type="float" office:value="29.1570113207115" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D79]+[.M79]+[.V79]+[.Z79]" office:value-type="float" office:value="29.1570113207116" calcext:value-type="float">
       <text:p>29.16</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA79];[.AA$2:.AA$395];0)" office:value-type="float" office:value="78" calcext:value-type="float">
@@ -7005,7 +7008,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y86]/[.Y$397]" office:value-type="float" office:value="6.80446739695106" calcext:value-type="float">
       <text:p>6.80</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D86]+[.M86]+[.V86]+[.Z86]" office:value-type="float" office:value="28.278440781466" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D86]+[.M86]+[.V86]+[.Z86]" office:value-type="float" office:value="28.2784407814659" calcext:value-type="float">
       <text:p>28.28</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA86];[.AA$2:.AA$395];0)" office:value-type="float" office:value="85" calcext:value-type="float">
@@ -7210,7 +7213,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y89]/[.Y$397]" office:value-type="float" office:value="17.0238033913254" calcext:value-type="float">
       <text:p>17.02</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D89]+[.M89]+[.V89]+[.Z89]" office:value-type="float" office:value="27.6479694339124" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D89]+[.M89]+[.V89]+[.Z89]" office:value-type="float" office:value="27.6479694339125" calcext:value-type="float">
       <text:p>27.65</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA89];[.AA$2:.AA$395];0)" office:value-type="float" office:value="88" calcext:value-type="float">
@@ -7420,7 +7423,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y92]/[.Y$397]" office:value-type="float" office:value="0.395510624637094" calcext:value-type="float">
       <text:p>0.40</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D92]+[.M92]+[.V92]+[.Z92]" office:value-type="float" office:value="26.9873014190002" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D92]+[.M92]+[.V92]+[.Z92]" office:value-type="float" office:value="26.9873014190003" calcext:value-type="float">
       <text:p>26.99</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA92];[.AA$2:.AA$395];0)" office:value-type="float" office:value="91" calcext:value-type="float">
@@ -7554,7 +7557,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y94]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D94]+[.M94]+[.V94]+[.Z94]" office:value-type="float" office:value="26.3876144339743" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D94]+[.M94]+[.V94]+[.Z94]" office:value-type="float" office:value="26.3876144339744" calcext:value-type="float">
       <text:p>26.39</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA94];[.AA$2:.AA$395];0)" office:value-type="float" office:value="93" calcext:value-type="float">
@@ -7749,7 +7752,7 @@
      <table:table-cell table:formula="of:=[.W97]+[.X97]" office:value-type="float" office:value="1516" calcext:value-type="float">
       <text:p>1516</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y97]/[.Y$397]" office:value-type="float" office:value="0.580439600145049" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y97]/[.Y$397]" office:value-type="float" office:value="0.580439600145048" calcext:value-type="float">
       <text:p>0.58</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D97]+[.M97]+[.V97]+[.Z97]" office:value-type="float" office:value="26.0882162105437" calcext:value-type="float">
@@ -7819,7 +7822,7 @@
      <table:table-cell table:formula="of:=[.W98]+[.X98]" office:value-type="float" office:value="101" calcext:value-type="float">
       <text:p>101</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y98]/[.Y$397]" office:value-type="float" office:value="0.038670448294624" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y98]/[.Y$397]" office:value-type="float" office:value="0.0386704482946239" calcext:value-type="float">
       <text:p>0.04</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D98]+[.M98]+[.V98]+[.Z98]" office:value-type="float" office:value="25.9529771441512" calcext:value-type="float">
@@ -7889,7 +7892,7 @@
      <table:table-cell table:formula="of:=[.W99]+[.X99]" office:value-type="float" office:value="1120" calcext:value-type="float">
       <text:p>1120</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y99]/[.Y$397]" office:value-type="float" office:value="0.428820812772068" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y99]/[.Y$397]" office:value-type="float" office:value="0.428820812772067" calcext:value-type="float">
       <text:p>0.43</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D99]+[.M99]+[.V99]+[.Z99]" office:value-type="float" office:value="25.9333672605931" calcext:value-type="float">
@@ -8032,7 +8035,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y101]/[.Y$397]" office:value-type="float" office:value="0.772260338715411" calcext:value-type="float">
       <text:p>0.77</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D101]+[.M101]+[.V101]+[.Z101]" office:value-type="float" office:value="25.8757991033866" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D101]+[.M101]+[.V101]+[.Z101]" office:value-type="float" office:value="25.8757991033865" calcext:value-type="float">
       <text:p>25.88</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA101];[.AA$2:.AA$395];0)" office:value-type="float" office:value="100" calcext:value-type="float">
@@ -8170,7 +8173,7 @@
      <table:table-cell table:formula="of:=[.W103]+[.X103]" office:value-type="float" office:value="44495" calcext:value-type="float">
       <text:p>44495</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y103]/[.Y$397]" office:value-type="float" office:value="17.0360554145475" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y103]/[.Y$397]" office:value-type="float" office:value="17.0360554145474" calcext:value-type="float">
       <text:p>17.04</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D103]+[.M103]+[.V103]+[.Z103]" office:value-type="float" office:value="25.7789429219151" calcext:value-type="float">
@@ -8383,7 +8386,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y106]/[.Y$397]" office:value-type="float" office:value="0.0444135841799641" calcext:value-type="float">
       <text:p>0.04</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D106]+[.M106]+[.V106]+[.Z106]" office:value-type="float" office:value="25.6648179876166" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D106]+[.M106]+[.V106]+[.Z106]" office:value-type="float" office:value="25.6648179876167" calcext:value-type="float">
       <text:p>25.66</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA106];[.AA$2:.AA$395];0)" office:value-type="float" office:value="105" calcext:value-type="float">
@@ -8450,7 +8453,7 @@
      <table:table-cell table:formula="of:=[.W107]+[.X107]" office:value-type="float" office:value="138" calcext:value-type="float">
       <text:p>138</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y107]/[.Y$397]" office:value-type="float" office:value="0.0528368501451298" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y107]/[.Y$397]" office:value-type="float" office:value="0.0528368501451297" calcext:value-type="float">
       <text:p>0.05</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D107]+[.M107]+[.V107]+[.Z107]" office:value-type="float" office:value="25.6499925834511" calcext:value-type="float">
@@ -8874,7 +8877,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y113]/[.Y$397]" office:value-type="float" office:value="0.445667344702399" calcext:value-type="float">
       <text:p>0.45</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D113]+[.M113]+[.V113]+[.Z113]" office:value-type="float" office:value="24.9971429477977" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D113]+[.M113]+[.V113]+[.Z113]" office:value-type="float" office:value="24.9971429477978" calcext:value-type="float">
       <text:p>25.00</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA113];[.AA$2:.AA$395];0)" office:value-type="float" office:value="112" calcext:value-type="float">
@@ -8944,7 +8947,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y114]/[.Y$397]" office:value-type="float" office:value="0.439924208817059" calcext:value-type="float">
       <text:p>0.44</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D114]+[.M114]+[.V114]+[.Z114]" office:value-type="float" office:value="24.966323549797" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D114]+[.M114]+[.V114]+[.Z114]" office:value-type="float" office:value="24.9663235497971" calcext:value-type="float">
       <text:p>24.97</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA114];[.AA$2:.AA$395];0)" office:value-type="float" office:value="113" calcext:value-type="float">
@@ -9011,7 +9014,7 @@
      <table:table-cell table:formula="of:=[.W115]+[.X115]" office:value-type="float" office:value="1178" calcext:value-type="float">
       <text:p>1178</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y115]/[.Y$397]" office:value-type="float" office:value="0.45102760486205" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y115]/[.Y$397]" office:value-type="float" office:value="0.451027604862049" calcext:value-type="float">
       <text:p>0.45</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D115]+[.M115]+[.V115]+[.Z115]" office:value-type="float" office:value="24.7671688633256" calcext:value-type="float">
@@ -9081,7 +9084,7 @@
      <table:table-cell table:formula="of:=[.W116]+[.X116]" office:value-type="float" office:value="1201" calcext:value-type="float">
       <text:p>1201</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y116]/[.Y$397]" office:value-type="float" office:value="0.459833746552905" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y116]/[.Y$397]" office:value-type="float" office:value="0.459833746552904" calcext:value-type="float">
       <text:p>0.46</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D116]+[.M116]+[.V116]+[.Z116]" office:value-type="float" office:value="24.6227576690629" calcext:value-type="float">
@@ -9359,7 +9362,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y120]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D120]+[.M120]+[.V120]+[.Z120]" office:value-type="float" office:value="24.3489143239953" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D120]+[.M120]+[.V120]+[.Z120]" office:value-type="float" office:value="24.3489143239954" calcext:value-type="float">
       <text:p>24.35</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA120];[.AA$2:.AA$395];0)" office:value-type="float" office:value="119" calcext:value-type="float">
@@ -9429,7 +9432,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y121]/[.Y$397]" office:value-type="float" office:value="0.465576882438245" calcext:value-type="float">
       <text:p>0.47</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D121]+[.M121]+[.V121]+[.Z121]" office:value-type="float" office:value="24.2496338605251" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D121]+[.M121]+[.V121]+[.Z121]" office:value-type="float" office:value="24.2496338605252" calcext:value-type="float">
       <text:p>24.25</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA121];[.AA$2:.AA$395];0)" office:value-type="float" office:value="120" calcext:value-type="float">
@@ -9496,7 +9499,7 @@
      <table:table-cell table:formula="of:=[.W122]+[.X122]" office:value-type="float" office:value="62" calcext:value-type="float">
       <text:p>62</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y122]/[.Y$397]" office:value-type="float" office:value="0.0237382949927395" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y122]/[.Y$397]" office:value-type="float" office:value="0.0237382949927394" calcext:value-type="float">
       <text:p>0.02</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D122]+[.M122]+[.V122]+[.Z122]" office:value-type="float" office:value="24.1901870192693" calcext:value-type="float">
@@ -9639,7 +9642,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y124]/[.Y$397]" office:value-type="float" office:value="0.47400014840341" calcext:value-type="float">
       <text:p>0.47</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D124]+[.M124]+[.V124]+[.Z124]" office:value-type="float" office:value="24.0668400023258" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D124]+[.M124]+[.V124]+[.Z124]" office:value-type="float" office:value="24.0668400023259" calcext:value-type="float">
       <text:p>24.07</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA124];[.AA$2:.AA$395];0)" office:value-type="float" office:value="123" calcext:value-type="float">
@@ -9709,7 +9712,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y125]/[.Y$397]" office:value-type="float" office:value="0.477063154208925" calcext:value-type="float">
       <text:p>0.48</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D125]+[.M125]+[.V125]+[.Z125]" office:value-type="float" office:value="24.0543047230528" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D125]+[.M125]+[.V125]+[.Z125]" office:value-type="float" office:value="24.0543047230529" calcext:value-type="float">
       <text:p>24.05</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA125];[.AA$2:.AA$395];0)" office:value-type="float" office:value="124" calcext:value-type="float">
@@ -9983,7 +9986,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y129]/[.Y$397]" office:value-type="float" office:value="0.485486420174091" calcext:value-type="float">
       <text:p>0.49</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D129]+[.M129]+[.V129]+[.Z129]" office:value-type="float" office:value="23.7532699136587" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D129]+[.M129]+[.V129]+[.Z129]" office:value-type="float" office:value="23.7532699136588" calcext:value-type="float">
       <text:p>23.75</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA129];[.AA$2:.AA$395];0)" office:value-type="float" office:value="128" calcext:value-type="float">
@@ -10049,7 +10052,7 @@
      <table:table-cell table:formula="of:=[.W130]+[.X130]" office:value-type="float" office:value="18158" calcext:value-type="float">
       <text:p>18158</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y130]/[.Y$397]" office:value-type="float" office:value="6.95225742706715" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y130]/[.Y$397]" office:value-type="float" office:value="6.95225742706714" calcext:value-type="float">
       <text:p>6.95</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D130]+[.M130]+[.V130]+[.Z130]" office:value-type="float" office:value="23.6957852231451" calcext:value-type="float">
@@ -10189,7 +10192,7 @@
      <table:table-cell table:formula="of:=[.W132]+[.X132]" office:value-type="float" office:value="1276" calcext:value-type="float">
       <text:p>1276</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y132]/[.Y$397]" office:value-type="float" office:value="0.488549425979606" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y132]/[.Y$397]" office:value-type="float" office:value="0.488549425979605" calcext:value-type="float">
       <text:p>0.49</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D132]+[.M132]+[.V132]+[.Z132]" office:value-type="float" office:value="23.6511430007825" calcext:value-type="float">
@@ -10538,7 +10541,7 @@
      <table:table-cell table:formula="of:=[.W137]+[.X137]" office:value-type="float" office:value="276" calcext:value-type="float">
       <text:p>276</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y137]/[.Y$397]" office:value-type="float" office:value="0.10567370029026" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y137]/[.Y$397]" office:value-type="float" office:value="0.105673700290259" calcext:value-type="float">
       <text:p>0.11</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D137]+[.M137]+[.V137]+[.Z137]" office:value-type="float" office:value="22.9703272794513" calcext:value-type="float">
@@ -11022,7 +11025,7 @@
      <table:table-cell table:formula="of:=[.W144]+[.X144]" office:value-type="float" office:value="18266" calcext:value-type="float">
       <text:p>18266</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y144]/[.Y$397]" office:value-type="float" office:value="6.9936080054416" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y144]/[.Y$397]" office:value-type="float" office:value="6.99360800544159" calcext:value-type="float">
       <text:p>6.99</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D144]+[.M144]+[.V144]+[.Z144]" office:value-type="float" office:value="22.2534711270737" calcext:value-type="float">
@@ -11231,7 +11234,7 @@
      <table:table-cell table:formula="of:=[.W147]+[.X147]" office:value-type="float" office:value="43744" calcext:value-type="float">
       <text:p>43744</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y147]/[.Y$397]" office:value-type="float" office:value="16.7485157445548" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y147]/[.Y$397]" office:value-type="float" office:value="16.7485157445547" calcext:value-type="float">
       <text:p>16.75</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D147]+[.M147]+[.V147]+[.Z147]" office:value-type="float" office:value="22.185862307536" calcext:value-type="float">
@@ -11304,7 +11307,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y148]/[.Y$397]" office:value-type="float" office:value="0.496972691944771" calcext:value-type="float">
       <text:p>0.50</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D148]+[.M148]+[.V148]+[.Z148]" office:value-type="float" office:value="22.1341616158431" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D148]+[.M148]+[.V148]+[.Z148]" office:value-type="float" office:value="22.1341616158432" calcext:value-type="float">
       <text:p>22.13</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA148];[.AA$2:.AA$395];0)" office:value-type="float" office:value="147" calcext:value-type="float">
@@ -11514,7 +11517,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y151]/[.Y$397]" office:value-type="float" office:value="0.503098703555801" calcext:value-type="float">
       <text:p>0.50</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D151]+[.M151]+[.V151]+[.Z151]" office:value-type="float" office:value="21.948900494733" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D151]+[.M151]+[.V151]+[.Z151]" office:value-type="float" office:value="21.9489004947331" calcext:value-type="float">
       <text:p>21.95</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA151];[.AA$2:.AA$395];0)" office:value-type="float" office:value="150" calcext:value-type="float">
@@ -11580,7 +11583,7 @@
      <table:table-cell table:formula="of:=[.W152]+[.X152]" office:value-type="float" office:value="44298" calcext:value-type="float">
       <text:p>44298</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y152]/[.Y$397]" office:value-type="float" office:value="16.9606288965867" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y152]/[.Y$397]" office:value-type="float" office:value="16.9606288965866" calcext:value-type="float">
       <text:p>16.96</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D152]+[.M152]+[.V152]+[.Z152]" office:value-type="float" office:value="21.9323220227274" calcext:value-type="float">
@@ -11652,7 +11655,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y153]/[.Y$397]" office:value-type="float" office:value="7.05601674872896" calcext:value-type="float">
       <text:p>7.06</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D153]+[.M153]+[.V153]+[.Z153]" office:value-type="float" office:value="21.7117797845703" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D153]+[.M153]+[.V153]+[.Z153]" office:value-type="float" office:value="21.7117797845702" calcext:value-type="float">
       <text:p>21.71</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA153];[.AA$2:.AA$395];0)" office:value-type="float" office:value="152" calcext:value-type="float">
@@ -11718,7 +11721,7 @@
      <table:table-cell table:formula="of:=[.W154]+[.X154]" office:value-type="float" office:value="18570" calcext:value-type="float">
       <text:p>18570</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y154]/[.Y$397]" office:value-type="float" office:value="7.11000222605116" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y154]/[.Y$397]" office:value-type="float" office:value="7.11000222605115" calcext:value-type="float">
       <text:p>7.11</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D154]+[.M154]+[.V154]+[.Z154]" office:value-type="float" office:value="21.6070622741996" calcext:value-type="float">
@@ -11856,7 +11859,7 @@
      <table:table-cell table:formula="of:=[.W156]+[.X156]" office:value-type="float" office:value="18893" calcext:value-type="float">
       <text:p>18893</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y156]/[.Y$397]" office:value-type="float" office:value="7.23367108544882" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y156]/[.Y$397]" office:value-type="float" office:value="7.23367108544881" calcext:value-type="float">
       <text:p>7.23</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D156]+[.M156]+[.V156]+[.Z156]" office:value-type="float" office:value="21.4780984183198" calcext:value-type="float">
@@ -12195,7 +12198,7 @@
      <table:table-cell table:formula="of:=[.W161]+[.X161]" office:value-type="float" office:value="18692" calcext:value-type="float">
       <text:p>18692</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y161]/[.Y$397]" office:value-type="float" office:value="7.15671306458526" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y161]/[.Y$397]" office:value-type="float" office:value="7.15671306458525" calcext:value-type="float">
       <text:p>7.16</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D161]+[.M161]+[.V161]+[.Z161]" office:value-type="float" office:value="20.7875116936415" calcext:value-type="float">
@@ -12606,7 +12609,7 @@
      <table:table-cell table:formula="of:=[.W167]+[.X167]" office:value-type="float" office:value="20251" calcext:value-type="float">
       <text:p>20251</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y167]/[.Y$397]" office:value-type="float" office:value="7.75361632093495" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y167]/[.Y$397]" office:value-type="float" office:value="7.75361632093494" calcext:value-type="float">
       <text:p>7.75</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D167]+[.M167]+[.V167]+[.Z167]" office:value-type="float" office:value="20.4477103046344" calcext:value-type="float">
@@ -12812,7 +12815,7 @@
      <table:table-cell table:formula="of:=[.W170]+[.X170]" office:value-type="float" office:value="44683" calcext:value-type="float">
       <text:p>44683</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y170]/[.Y$397]" office:value-type="float" office:value="17.1080360509771" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y170]/[.Y$397]" office:value-type="float" office:value="17.108036050977" calcext:value-type="float">
       <text:p>17.11</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D170]+[.M170]+[.V170]+[.Z170]" office:value-type="float" office:value="20.1769084060927" calcext:value-type="float">
@@ -12950,7 +12953,7 @@
      <table:table-cell table:formula="of:=[.W172]+[.X172]" office:value-type="float" office:value="10314" calcext:value-type="float">
       <text:p>10314</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y172]/[.Y$397]" office:value-type="float" office:value="3.94898023475992" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y172]/[.Y$397]" office:value-type="float" office:value="3.94898023475991" calcext:value-type="float">
       <text:p>3.95</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D172]+[.M172]+[.V172]+[.Z172]" office:value-type="float" office:value="19.9780045691068" calcext:value-type="float">
@@ -13019,7 +13022,7 @@
      <table:table-cell table:formula="of:=[.W173]+[.X173]" office:value-type="float" office:value="20650" calcext:value-type="float">
       <text:p>20650</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y173]/[.Y$397]" office:value-type="float" office:value="7.906383735485" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y173]/[.Y$397]" office:value-type="float" office:value="7.90638373548499" calcext:value-type="float">
       <text:p>7.91</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D173]+[.M173]+[.V173]+[.Z173]" office:value-type="float" office:value="19.9459872779735" calcext:value-type="float">
@@ -13088,7 +13091,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y174]/[.Y$397]" office:value-type="float" office:value="17.0238033913254" calcext:value-type="float">
       <text:p>17.02</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D174]+[.M174]+[.V174]+[.Z174]" office:value-type="float" office:value="19.9451365569273" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D174]+[.M174]+[.V174]+[.Z174]" office:value-type="float" office:value="19.9451365569272" calcext:value-type="float">
       <text:p>19.95</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA174];[.AA$2:.AA$395];0)" office:value-type="float" office:value="173" calcext:value-type="float">
@@ -13295,7 +13298,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y177]/[.Y$397]" office:value-type="float" office:value="7.53844016309753" calcext:value-type="float">
       <text:p>7.54</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D177]+[.M177]+[.V177]+[.Z177]" office:value-type="float" office:value="19.7982301070247" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D177]+[.M177]+[.V177]+[.Z177]" office:value-type="float" office:value="19.7982301070246" calcext:value-type="float">
       <text:p>19.80</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA177];[.AA$2:.AA$395];0)" office:value-type="float" office:value="176" calcext:value-type="float">
@@ -13364,7 +13367,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y178]/[.Y$397]" office:value-type="float" office:value="15.700584883343" calcext:value-type="float">
       <text:p>15.70</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D178]+[.M178]+[.V178]+[.Z178]" office:value-type="float" office:value="19.7524892155201" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D178]+[.M178]+[.V178]+[.Z178]" office:value-type="float" office:value="19.75248921552" calcext:value-type="float">
       <text:p>19.75</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA178];[.AA$2:.AA$395];0)" office:value-type="float" office:value="177" calcext:value-type="float">
@@ -13982,7 +13985,7 @@
      <table:table-cell table:formula="of:=[.W187]+[.X187]" office:value-type="float" office:value="20084" calcext:value-type="float">
       <text:p>20084</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y187]/[.Y$397]" office:value-type="float" office:value="7.68967607474483" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y187]/[.Y$397]" office:value-type="float" office:value="7.68967607474482" calcext:value-type="float">
       <text:p>7.69</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D187]+[.M187]+[.V187]+[.Z187]" office:value-type="float" office:value="19.6959154379782" calcext:value-type="float">
@@ -14465,7 +14468,7 @@
      <table:table-cell table:formula="of:=[.W194]+[.X194]" office:value-type="float" office:value="39746" calcext:value-type="float">
       <text:p>39746</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y194]/[.Y$397]" office:value-type="float" office:value="15.2177785932488" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y194]/[.Y$397]" office:value-type="float" office:value="15.2177785932487" calcext:value-type="float">
       <text:p>15.22</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D194]+[.M194]+[.V194]+[.Z194]" office:value-type="float" office:value="19.6317586490881" calcext:value-type="float">
@@ -15155,10 +15158,10 @@
      <table:table-cell table:formula="of:=[.W204]+[.X204]" office:value-type="float" office:value="21321" calcext:value-type="float">
       <text:p>21321</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y204]/[.Y$397]" office:value-type="float" office:value="8.16329334742255" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y204]/[.Y$397]" office:value-type="float" office:value="8.16329334742254" calcext:value-type="float">
       <text:p>8.16</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D204]+[.M204]+[.V204]+[.Z204]" office:value-type="float" office:value="19.3687074042531" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D204]+[.M204]+[.V204]+[.Z204]" office:value-type="float" office:value="19.368707404253" calcext:value-type="float">
       <text:p>19.37</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA204];[.AA$2:.AA$395];0)" office:value-type="float" office:value="203" calcext:value-type="float">
@@ -15638,7 +15641,7 @@
      <table:table-cell table:formula="of:=[.W211]+[.X211]" office:value-type="float" office:value="37080" calcext:value-type="float">
       <text:p>37080</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y211]/[.Y$397]" office:value-type="float" office:value="14.197031908561" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y211]/[.Y$397]" office:value-type="float" office:value="14.1970319085609" calcext:value-type="float">
       <text:p>14.20</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D211]+[.M211]+[.V211]+[.Z211]" office:value-type="float" office:value="19.0923061884586" calcext:value-type="float">
@@ -16262,7 +16265,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y220]/[.Y$397]" office:value-type="float" office:value="13.5943855163259" calcext:value-type="float">
       <text:p>13.59</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D220]+[.M220]+[.V220]+[.Z220]" office:value-type="float" office:value="18.6434325357717" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D220]+[.M220]+[.V220]+[.Z220]" office:value-type="float" office:value="18.6434325357716" calcext:value-type="float">
       <text:p>18.64</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA220];[.AA$2:.AA$395];0)" office:value-type="float" office:value="219" calcext:value-type="float">
@@ -16673,7 +16676,7 @@
      <table:table-cell table:formula="of:=[.W226]+[.X226]" office:value-type="float" office:value="20344" calcext:value-type="float">
       <text:p>20344</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y226]/[.Y$397]" office:value-type="float" office:value="7.78922376342406" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y226]/[.Y$397]" office:value-type="float" office:value="7.78922376342405" calcext:value-type="float">
       <text:p>7.79</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D226]+[.M226]+[.V226]+[.Z226]" office:value-type="float" office:value="18.476264549187" calcext:value-type="float">
@@ -17642,7 +17645,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y240]/[.Y$397]" office:value-type="float" office:value="1.25851251034088" calcext:value-type="float">
       <text:p>1.26</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D240]+[.M240]+[.V240]+[.Z240]" office:value-type="float" office:value="18.1158220059725" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D240]+[.M240]+[.V240]+[.Z240]" office:value-type="float" office:value="18.1158220059726" calcext:value-type="float">
       <text:p>18.12</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA240];[.AA$2:.AA$395];0)" office:value-type="float" office:value="239" calcext:value-type="float">
@@ -18191,7 +18194,7 @@
      <table:table-cell table:formula="of:=[.W248]+[.X248]" office:value-type="float" office:value="32415" calcext:value-type="float">
       <text:p>32415</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y248]/[.Y$397]" office:value-type="float" office:value="12.4109166482202" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y248]/[.Y$397]" office:value-type="float" office:value="12.4109166482201" calcext:value-type="float">
       <text:p>12.41</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D248]+[.M248]+[.V248]+[.Z248]" office:value-type="float" office:value="17.9194967964647" calcext:value-type="float">
@@ -18260,7 +18263,7 @@
      <table:table-cell table:formula="of:=[.W249]+[.X249]" office:value-type="float" office:value="21796" calcext:value-type="float">
       <text:p>21796</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y249]/[.Y$397]" office:value-type="float" office:value="8.34515931712499" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y249]/[.Y$397]" office:value-type="float" office:value="8.34515931712498" calcext:value-type="float">
       <text:p>8.35</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D249]+[.M249]+[.V249]+[.Z249]" office:value-type="float" office:value="17.8765669386223" calcext:value-type="float">
@@ -18329,7 +18332,7 @@
      <table:table-cell table:formula="of:=[.W250]+[.X250]" office:value-type="float" office:value="32246" calcext:value-type="float">
       <text:p>32246</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y250]/[.Y$397]" office:value-type="float" office:value="12.3462106505787" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y250]/[.Y$397]" office:value-type="float" office:value="12.3462106505786" calcext:value-type="float">
       <text:p>12.35</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D250]+[.M250]+[.V250]+[.Z250]" office:value-type="float" office:value="17.8572134207564" calcext:value-type="float">
@@ -18538,7 +18541,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y253]/[.Y$397]" office:value-type="float" office:value="0.563975943940407" calcext:value-type="float">
       <text:p>0.56</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D253]+[.M253]+[.V253]+[.Z253]" office:value-type="float" office:value="17.8241207147066" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D253]+[.M253]+[.V253]+[.Z253]" office:value-type="float" office:value="17.8241207147067" calcext:value-type="float">
       <text:p>17.82</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA253];[.AA$2:.AA$395];0)" office:value-type="float" office:value="252" calcext:value-type="float">
@@ -18737,7 +18740,7 @@
      <table:table-cell table:formula="of:=[.W256]+[.X256]" office:value-type="float" office:value="31908" calcext:value-type="float">
       <text:p>31908</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y256]/[.Y$397]" office:value-type="float" office:value="12.2167986552957" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y256]/[.Y$397]" office:value-type="float" office:value="12.2167986552956" calcext:value-type="float">
       <text:p>12.22</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D256]+[.M256]+[.V256]+[.Z256]" office:value-type="float" office:value="17.7445472683098" calcext:value-type="float">
@@ -18947,7 +18950,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y259]/[.Y$397]" office:value-type="float" office:value="12.0877695357383" calcext:value-type="float">
       <text:p>12.09</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D259]+[.M259]+[.V259]+[.Z259]" office:value-type="float" office:value="17.6811839537834" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D259]+[.M259]+[.V259]+[.Z259]" office:value-type="float" office:value="17.6811839537833" calcext:value-type="float">
       <text:p>17.68</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA259];[.AA$2:.AA$395];0)" office:value-type="float" office:value="258" calcext:value-type="float">
@@ -19227,7 +19230,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y263]/[.Y$397]" office:value-type="float" office:value="6.63293907184223" calcext:value-type="float">
       <text:p>6.63</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D263]+[.M263]+[.V263]+[.Z263]" office:value-type="float" office:value="17.5507836549905" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D263]+[.M263]+[.V263]+[.Z263]" office:value-type="float" office:value="17.5507836549904" calcext:value-type="float">
       <text:p>17.55</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA263];[.AA$2:.AA$395];0)" office:value-type="float" office:value="262" calcext:value-type="float">
@@ -19569,7 +19572,7 @@
      <table:table-cell table:formula="of:=[.W268]+[.X268]" office:value-type="float" office:value="30566" calcext:value-type="float">
       <text:p>30566</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y268]/[.Y$397]" office:value-type="float" office:value="11.7029794314206" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y268]/[.Y$397]" office:value-type="float" office:value="11.7029794314205" calcext:value-type="float">
       <text:p>11.70</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D268]+[.M268]+[.V268]+[.Z268]" office:value-type="float" office:value="17.4511016360756" calcext:value-type="float">
@@ -19710,7 +19713,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y270]/[.Y$397]" office:value-type="float" office:value="11.4483670738371" calcext:value-type="float">
       <text:p>11.45</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D270]+[.M270]+[.V270]+[.Z270]" office:value-type="float" office:value="17.292586615175" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D270]+[.M270]+[.V270]+[.Z270]" office:value-type="float" office:value="17.2925866151749" calcext:value-type="float">
       <text:p>17.29</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA270];[.AA$2:.AA$395];0)" office:value-type="float" office:value="269" calcext:value-type="float">
@@ -20193,7 +20196,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y277]/[.Y$397]" office:value-type="float" office:value="11.068937229679" calcext:value-type="float">
       <text:p>11.07</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D277]+[.M277]+[.V277]+[.Z277]" office:value-type="float" office:value="17.1261774925799" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D277]+[.M277]+[.V277]+[.Z277]" office:value-type="float" office:value="17.1261774925798" calcext:value-type="float">
       <text:p>17.13</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA277];[.AA$2:.AA$395];0)" office:value-type="float" office:value="276" calcext:value-type="float">
@@ -20741,7 +20744,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y285]/[.Y$397]" office:value-type="float" office:value="10.6313102752161" calcext:value-type="float">
       <text:p>10.63</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D285]+[.M285]+[.V285]+[.Z285]" office:value-type="float" office:value="16.9088611995302" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D285]+[.M285]+[.V285]+[.Z285]" office:value-type="float" office:value="16.9088611995301" calcext:value-type="float">
       <text:p>16.91</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA285];[.AA$2:.AA$395];0)" office:value-type="float" office:value="284" calcext:value-type="float">
@@ -21078,7 +21081,7 @@
      <table:table-cell table:formula="of:=[.W290]+[.X290]" office:value-type="float" office:value="27281" calcext:value-type="float">
       <text:p>27281</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y290]/[.Y$397]" office:value-type="float" office:value="10.4452326725311" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y290]/[.Y$397]" office:value-type="float" office:value="10.445232672531" calcext:value-type="float">
       <text:p>10.45</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D290]+[.M290]+[.V290]+[.Z290]" office:value-type="float" office:value="16.7358946838007" calcext:value-type="float">
@@ -21633,7 +21636,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y298]/[.Y$397]" office:value-type="float" office:value="8.57526762826428" calcext:value-type="float">
       <text:p>8.58</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D298]+[.M298]+[.V298]+[.Z298]" office:value-type="float" office:value="16.5305259204631" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D298]+[.M298]+[.V298]+[.Z298]" office:value-type="float" office:value="16.530525920463" calcext:value-type="float">
       <text:p>16.53</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA298];[.AA$2:.AA$395];0)" office:value-type="float" office:value="297" calcext:value-type="float">
@@ -21771,7 +21774,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y300]/[.Y$397]" office:value-type="float" office:value="8.75177333780707" calcext:value-type="float">
       <text:p>8.75</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D300]+[.M300]+[.V300]+[.Z300]" office:value-type="float" office:value="16.5036163918972" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D300]+[.M300]+[.V300]+[.Z300]" office:value-type="float" office:value="16.5036163918971" calcext:value-type="float">
       <text:p>16.50</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA300];[.AA$2:.AA$395];0)" office:value-type="float" office:value="299" calcext:value-type="float">
@@ -21979,7 +21982,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y303]/[.Y$397]" office:value-type="float" office:value="9.95285448929455" calcext:value-type="float">
       <text:p>9.95</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D303]+[.M303]+[.V303]+[.Z303]" office:value-type="float" office:value="16.3876412545188" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D303]+[.M303]+[.V303]+[.Z303]" office:value-type="float" office:value="16.3876412545187" calcext:value-type="float">
       <text:p>16.39</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA303];[.AA$2:.AA$395];0)" office:value-type="float" office:value="302" calcext:value-type="float">
@@ -22252,7 +22255,7 @@
      <table:table-cell table:formula="of:=[.W307]+[.X307]" office:value-type="float" office:value="23632" calcext:value-type="float">
       <text:p>23632</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y307]/[.Y$397]" office:value-type="float" office:value="9.04811914949063" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y307]/[.Y$397]" office:value-type="float" office:value="9.04811914949062" calcext:value-type="float">
       <text:p>9.05</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D307]+[.M307]+[.V307]+[.Z307]" office:value-type="float" office:value="16.3588325010462" calcext:value-type="float">
@@ -22390,7 +22393,7 @@
      <table:table-cell table:formula="of:=[.W309]+[.X309]" office:value-type="float" office:value="24256" calcext:value-type="float">
       <text:p>24256</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y309]/[.Y$397]" office:value-type="float" office:value="9.28703360232078" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y309]/[.Y$397]" office:value-type="float" office:value="9.28703360232077" calcext:value-type="float">
       <text:p>9.29</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D309]+[.M309]+[.V309]+[.Z309]" office:value-type="float" office:value="16.3483869033156" calcext:value-type="float">
@@ -22532,7 +22535,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y311]/[.Y$397]" office:value-type="float" office:value="0.26916163515961" calcext:value-type="float">
       <text:p>0.27</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D311]+[.M311]+[.V311]+[.Z311]" office:value-type="float" office:value="16.3424766715031" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D311]+[.M311]+[.V311]+[.Z311]" office:value-type="float" office:value="16.3424766715032" calcext:value-type="float">
       <text:p>16.34</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA311];[.AA$2:.AA$395];0)" office:value-type="float" office:value="310" calcext:value-type="float">
@@ -22805,7 +22808,7 @@
      <table:table-cell table:formula="of:=[.W315]+[.X315]" office:value-type="float" office:value="23477" calcext:value-type="float">
       <text:p>23477</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y315]/[.Y$397]" office:value-type="float" office:value="8.98877341200878" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y315]/[.Y$397]" office:value-type="float" office:value="8.98877341200877" calcext:value-type="float">
       <text:p>8.99</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D315]+[.M315]+[.V315]+[.Z315]" office:value-type="float" office:value="16.3166576277925" calcext:value-type="float">
@@ -22874,7 +22877,7 @@
      <table:table-cell table:formula="of:=[.W316]+[.X316]" office:value-type="float" office:value="25359" calcext:value-type="float">
       <text:p>25359</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y316]/[.Y$397]" office:value-type="float" office:value="9.70934552775613" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y316]/[.Y$397]" office:value-type="float" office:value="9.70934552775612" calcext:value-type="float">
       <text:p>9.71</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D316]+[.M316]+[.V316]+[.Z316]" office:value-type="float" office:value="16.3165209694887" calcext:value-type="float">
@@ -23012,7 +23015,7 @@
      <table:table-cell table:formula="of:=[.W318]+[.X318]" office:value-type="float" office:value="24885" calcext:value-type="float">
       <text:p>24885</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y318]/[.Y$397]" office:value-type="float" office:value="9.52786243377938" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y318]/[.Y$397]" office:value-type="float" office:value="9.52786243377937" calcext:value-type="float">
       <text:p>9.53</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D318]+[.M318]+[.V318]+[.Z318]" office:value-type="float" office:value="16.2978210685659" calcext:value-type="float">
@@ -23081,7 +23084,7 @@
      <table:table-cell table:formula="of:=[.W319]+[.X319]" office:value-type="float" office:value="25677" calcext:value-type="float">
       <text:p>25677</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y319]/[.Y$397]" office:value-type="float" office:value="9.83110000852534" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y319]/[.Y$397]" office:value-type="float" office:value="9.83110000852533" calcext:value-type="float">
       <text:p>9.83</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D319]+[.M319]+[.V319]+[.Z319]" office:value-type="float" office:value="16.2972533524633" calcext:value-type="float">
@@ -23428,7 +23431,7 @@
      <table:table-cell table:formula="of:=[.W324]+[.X324]" office:value-type="float" office:value="3494" calcext:value-type="float">
       <text:p>3494</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y324]/[.Y$397]" office:value-type="float" office:value="1.33776778555858" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y324]/[.Y$397]" office:value-type="float" office:value="1.33776778555857" calcext:value-type="float">
       <text:p>1.34</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D324]+[.M324]+[.V324]+[.Z324]" office:value-type="float" office:value="15.7608947661545" calcext:value-type="float">
@@ -23637,7 +23640,7 @@
      <table:table-cell table:formula="of:=[.W327]+[.X327]" office:value-type="float" office:value="16630" calcext:value-type="float">
       <text:p>16630</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y327]/[.Y$397]" office:value-type="float" office:value="6.36722331821383" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y327]/[.Y$397]" office:value-type="float" office:value="6.36722331821382" calcext:value-type="float">
       <text:p>6.37</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D327]+[.M327]+[.V327]+[.Z327]" office:value-type="float" office:value="15.2212964216727" calcext:value-type="float">
@@ -23777,7 +23780,7 @@
      <table:table-cell table:formula="of:=[.W329]+[.X329]" office:value-type="float" office:value="3708" calcext:value-type="float">
       <text:p>3708</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y329]/[.Y$397]" office:value-type="float" office:value="1.4197031908561" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y329]/[.Y$397]" office:value-type="float" office:value="1.41970319085609" calcext:value-type="float">
       <text:p>1.42</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D329]+[.M329]+[.V329]+[.Z329]" office:value-type="float" office:value="15.1165536171684" calcext:value-type="float">
@@ -24190,7 +24193,7 @@
      <table:table-cell table:formula="of:=[.W335]+[.X335]" office:value-type="float" office:value="16752" calcext:value-type="float">
       <text:p>16752</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y335]/[.Y$397]" office:value-type="float" office:value="6.41393415674793" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y335]/[.Y$397]" office:value-type="float" office:value="6.41393415674792" calcext:value-type="float">
       <text:p>6.41</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D335]+[.M335]+[.V335]+[.Z335]" office:value-type="float" office:value="14.1505835190627" calcext:value-type="float">
@@ -25028,7 +25031,7 @@
      <table:table-cell table:formula="of:=[.W347]+[.X347]" office:value-type="float" office:value="568" calcext:value-type="float">
       <text:p>568</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y347]/[.Y$397]" office:value-type="float" office:value="0.217473412191549" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y347]/[.Y$397]" office:value-type="float" office:value="0.217473412191548" calcext:value-type="float">
       <text:p>0.22</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D347]+[.M347]+[.V347]+[.Z347]" office:value-type="float" office:value="12.5508977157942" calcext:value-type="float">
@@ -25236,7 +25239,7 @@
      <table:table-cell table:formula="of:=[.W350]+[.X350]" office:value-type="float" office:value="17012" calcext:value-type="float">
       <text:p>17012</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y350]/[.Y$397]" office:value-type="float" office:value="6.51348184542716" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y350]/[.Y$397]" office:value-type="float" office:value="6.51348184542715" calcext:value-type="float">
       <text:p>6.51</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D350]+[.M350]+[.V350]+[.Z350]" office:value-type="float" office:value="12.3116086398068" calcext:value-type="float">
@@ -25585,7 +25588,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y355]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D355]+[.M355]+[.V355]+[.Z355]" office:value-type="float" office:value="11.5941627579576" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D355]+[.M355]+[.V355]+[.Z355]" office:value-type="float" office:value="11.5941627579577" calcext:value-type="float">
       <text:p>11.59</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA355];[.AA$2:.AA$395];0)" office:value-type="float" office:value="354" calcext:value-type="float">
@@ -25850,7 +25853,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y359]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D359]+[.M359]+[.V359]+[.Z359]" office:value-type="float" office:value="10.6328789811186" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D359]+[.M359]+[.V359]+[.Z359]" office:value-type="float" office:value="10.6328789811187" calcext:value-type="float">
       <text:p>10.63</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA359];[.AA$2:.AA$395];0)" office:value-type="float" office:value="358" calcext:value-type="float">
@@ -26190,7 +26193,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y364]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D364]+[.M364]+[.V364]+[.Z364]" office:value-type="float" office:value="9.61003539468392" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D364]+[.M364]+[.V364]+[.Z364]" office:value-type="float" office:value="9.61003539468393" calcext:value-type="float">
       <text:p>9.61</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA364];[.AA$2:.AA$395];0)" office:value-type="float" office:value="363" calcext:value-type="float">
@@ -26333,7 +26336,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y366]/[.Y$397]" office:value-type="float" office:value="4.15343587227803" calcext:value-type="float">
       <text:p>4.15</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D366]+[.M366]+[.V366]+[.Z366]" office:value-type="float" office:value="9.39914028970306" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D366]+[.M366]+[.V366]+[.Z366]" office:value-type="float" office:value="9.39914028970305" calcext:value-type="float">
       <text:p>9.40</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA366];[.AA$2:.AA$395];0)" office:value-type="float" office:value="365" calcext:value-type="float">
@@ -26930,7 +26933,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y375]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D375]+[.M375]+[.V375]+[.Z375]" office:value-type="float" office:value="8.22833335212743" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D375]+[.M375]+[.V375]+[.Z375]" office:value-type="float" office:value="8.22833335212742" calcext:value-type="float">
       <text:p>8.23</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA375];[.AA$2:.AA$395];0)" office:value-type="float" office:value="374" calcext:value-type="float">
@@ -26996,7 +26999,7 @@
      <table:table-cell table:formula="of:=[.W376]+[.X376]" office:value-type="float" office:value="276" calcext:value-type="float">
       <text:p>276</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y376]/[.Y$397]" office:value-type="float" office:value="0.10567370029026" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.Y376]/[.Y$397]" office:value-type="float" office:value="0.105673700290259" calcext:value-type="float">
       <text:p>0.11</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D376]+[.M376]+[.V376]+[.Z376]" office:value-type="float" office:value="7.99564870671073" calcext:value-type="float">
@@ -27471,7 +27474,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y383]/[.Y$397]" office:value-type="float" office:value="0.0306300580551477" calcext:value-type="float">
       <text:p>0.03</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D383]+[.M383]+[.V383]+[.Z383]" office:value-type="float" office:value="5.81572912379555" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D383]+[.M383]+[.V383]+[.Z383]" office:value-type="float" office:value="5.81572912379556" calcext:value-type="float">
       <text:p>5.82</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA383];[.AA$2:.AA$395];0)" office:value-type="float" office:value="382" calcext:value-type="float">
@@ -28252,7 +28255,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.Y395]/[.Y$397]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0.00</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.D395]+[.M395]+[.V395]+[.Z395]" office:value-type="float" office:value="0.844803461062861" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.D395]+[.M395]+[.V395]+[.Z395]" office:value-type="float" office:value="0.844803461062862" calcext:value-type="float">
       <text:p>0.84</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=RANK([.AA395];[.AA$2:.AA$395];0)" office:value-type="float" office:value="394" calcext:value-type="float">
