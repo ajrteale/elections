@@ -1,0 +1,1098 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- noindex -->
+<!-- PageId: 20334 -->
+<!-- /noindex -->
+<!-- noindex -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <meta name="apple-mobile-web-app-capable" content="yes" /><meta name="Robots" content="INDEX, FOLLOW" /><meta name="dcterms.creator" content="Slough Borough Council" /><meta name="dcterms.publisher" content="Slough Borough Council" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link type="text/css" rel="stylesheet" href="/SBCMaster/css/iconsSBC.min.css" media="screen" /><link type="text/css" rel="stylesheet" href="/SBCMaster/css/foundation.min.css" media="screen" /><link type="text/css" rel="stylesheet" href="/SBCMaster/css/foundation_plus.min.css" media="screen and (min-device-width : 721px)" />
+    <!--[if !IEMobile&(lt IE 9)]>
+    <link type="text/css" rel="stylesheet" href="/SBCMaster/css/foundation_plus.css" media="screen" />
+    <![endif]-->
+    <!--[if !IEMobile&(IE)]>
+    <link type="text/css" rel="stylesheet" href="/SBCMaster/css/ie.min.css" media="screen" />
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="/SBCMaster/css/print.min.css" media="print" />
+
+
+    <script type="text/javascript" src="/ajax/libs/headjs/1.0.3/head.load.min.js"></script>
+    <script type="text/javascript" src="/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/ajax/libs/jquery.migrate/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        DelayedLoad();
+    });
+    function DelayedLoad() {
+        $(window).load(function () {
+            head.load('/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js', '/SBCMaster/scripts/megaMenus.min.js', function () { applyMegaMenus(); });
+            if ($('.slidesjs').length || ($('#home_news_slider').length) && $('.slideitem').length > 1) {
+                head.load('/ajax/libs/slidesjs/3.0/jquery.slides.edited.min.js', function () {
+                    $(".slidesjs").each(function () {
+                        var width = $(this).find('img').first().attr('width');
+                        var height = $(this).find('img').first().attr('height');
+                        $(this).find('img').each(function () {
+                            $(this).attr('width', '100%');
+                            $(this).removeAttr('height');
+                        });
+                        $(this).slidesjs({
+                            width: width,
+                            height: height,
+                            play: { active: false, auto: true, pauseOnHover: true },
+                            pagination: { active: true },
+                            navigation: { active: false }
+                        });
+                    });
+                    if ($('#home_news_slider').length) {
+                        $("#slides").slidesjs({ height: 235, width: 100, navigation: { active: true, effect: "slide" }, pagination: { active: false} });
+                    }
+                });
+            }
+            if ($('#DateCountdown').length) {
+                head.load('/ajax/libs/countdown/TimeCircles_1.5.3.min.js', function () {
+                    $("#DateCountdown").TimeCircles({ "animation": "ticks", "fg_width": 0.03 });
+                });
+            }            
+            if ($('#busTableRows').length) {
+                head.load('/SbcServices/scripts/Sbc.TfS.min.js', function () {
+                    TfS.Bus.BusInit($('#busTableRows'));
+                    TfS.TfL.TubeInit($('#tubeStatus'));
+                    TfS.Train.TrainInit($('#trainTableRows'));
+                });
+            }
+            if ($('#twitterFeedHolder').length) { head.load('/SBCMaster/scripts/twWidget.min.js', '/SBCMaster/scripts/twitterWidget.min.js', function () { displayTwitterWidget(); }); }
+            if ($('.colorBox').length) { head.load('/SBCMaster/scripts/jflickrfeed.min.js', '/ajax/libs/jquery.colorbox/1.4.33/jquery.colorbox.min.js'); }
+
+            var EUcookie = getCookie("EUcookie");
+            if (EUcookie == null) {
+                $('body').prepend("<div class=\"cookieDiv\">"
+                    + "<p>Slough.gov.uk uses <a href=\"/help/cookies.aspx\">cookies</a>. "
+                    + "If you continue to use the site, we'll assume you're happy to accept the cookies. "
+                    + "<button onClick=\"setEUCookie();\" onKeyPress=\"if (event.which == 13) {setEUCookie();}\" >Ok</button></p>"
+                    + "</div>");
+            }
+
+            $(".content").each(function (i) {
+                $(this).find("a[href*='.pdf']").not("[class*='download']").addClass("downloadIcon pdf");
+                $(this).find("a[href*='.doc']").not("[class*='download']").addClass("downloadIcon doc");
+                $(this).find("a[href*='.xls']").not("[class*='download']").addClass("downloadIcon xls");
+                $(this).find("a[href*='.zip']").not("[class*='download']").addClass("downloadIcon zip");
+                $(this).find("a[href*='.txt']").not("[class*='download']").addClass("downloadIcon txt");
+                $(this).find("a[href*='.csv']").not("[class*='download']").addClass("downloadIcon csv");
+            });
+
+            head.load(
+                    '//www.google-analytics.com/analytics.js',
+                    ('https:' == document.location.protocol ? 'https://' : 'http://') + 'translate.google.com/translate_a/element.js?cb=googleTranslateElementInit',
+                    function () {
+                        ga('create', 'UA-25904134-1', 'auto');
+                        ga('send', 'pageview');
+                    });
+
+            /* track MegaMenu link clicks TODO: add 'MegaMenuLink' class */
+            $(".MegaMenuLink").each(function (index) {
+                addTracking(this, 'MegaMenu', 'Click', this.href);
+            });
+            /* track MegaMenu task clicks TODO: add 'MegaMenuTask' class */
+            $(".MegaMenuTask").each(function (index) {
+                addTracking(this, 'MegaMenu', 'Task', this.href);
+            });
+            /* callToActionButton */
+            $(".callToActionButton").each(function (index) {
+                addTracking(this, 'CallToAction', 'StraightTo', this.href);
+            });
+            /* callToAction */
+            $(".callToAction").each(function (index) {
+                addTracking(this, 'CallToAction', 'StraightTo', this.href);
+            });
+            /* Track external links */
+            $('a').each(function () {
+                if (this.host.indexOf('slough.gov.uk') == -1) {
+                    $(this).addClass('ExternalLink');
+                }
+            });
+            $(".ExternalLink").each(function (index) {
+                addTracking(this, 'ExternalLink', 'Click', this.href);
+            });
+            /* track downloads */
+            $(".downloadIcon").each(function (index) {
+                addTracking(this, 'Download', 'Click', this.href);
+            });
+
+        });
+    }
+
+    function addTracking(link, category, action, label) {
+        $(link)
+                .on("click", function () {
+                    ga('send', 'event', category, action, label);
+                })
+                .on("keypress", function () {
+                    if (event.which == 13) {
+                        ga('send', 'event', category, action, label);
+                    }
+                });
+    }
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true, gaId: 'UA-25904134-1' }, 'google_translate_element');
+    }
+    function setCookie(c_name, value, exdays) {
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString() + ";path=/;domain=.slough.gov.uk");
+        document.cookie = c_name + "=" + c_value;
+    }
+    function getCookie(c_name) {
+        var i, x, y, ARRcookies = document.cookie.split(";");
+        for (i = 0; i < ARRcookies.length; i++) {
+            x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+            y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+            x = x.replace(/^\s+|\s+$/g, "");
+            if (x == c_name) {
+                return unescape(y);
+            }
+        }
+    }
+    function setEUCookie() {
+        setCookie('EUcookie', 'true', 365);
+        $('.cookieDiv').remove();
+        return false;
+    }
+
+</script>
+
+
+     <!-- /noindex -->
+ 
+
+<link type="text/css" rel="stylesheet" href="/SBCMaster/css/council.css" media="screen" /><title>
+	2019 Local Borough Elections - Slough Borough Council
+</title><meta name="dcterms.title" content="2019 Local Borough Elections" /><meta name="keywords" content="2019, local, borough, Slough, election, elections, " /><meta name="dcterms.date" content="28 February 2019 15:16" /><meta name="dcterms.identifier" content="/council/voting-and-elections/2019-local-borough-elections.aspx" /><meta name="description" content="Details of 2019 local borough elections." /></head>
+
+<!--[if lt IE 7 ]> <body class="ie6 ieA"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7 ieA"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8 ieA"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if gt IE 9]>  <body>             <![endif]-->
+<!--[if !IE]><!--> <body>         <!--<![endif]-->
+
+
+<!-- noindex -->
+    <div id="outer" class="container_12">
+        <div class="container_12">
+            <div class="header">
+                <div class="mobileOnly">
+                    <a href="/" class="dotgovlogo" title="slough.gov.uk">slough.gov.uk</a>
+                    <div class="searchBox">
+                        <form method="get" id="mobileSearchForm" action="/search">
+                        <input type="text" title="Search text" name="q" placeholder="Enter Search Text" value="Enter Search Text"
+                            autocomplete="on" onfocus="JavaScript:if (this.value=='Enter Search Text')this.value=this.value.substring(0,0)" />
+                        <label class="hidden" for="mobileSearchButton">Search</label> <input id="mobileSearchButton" type="image" alt="search" src="/SBCMaster/images/srchbtn.gif" />
+                        </form>
+                    </div>
+                </div>
+                <div class="noMobile">
+                    <div class="grid_6">
+                        <div class="tools">
+                            <ul class="clean smallnav">
+                                <li><a href="/help/accessibility.aspx">Accessibility</a></li>
+                                <li><a href="/help/cookies.aspx">Cookies</a></li>
+                                <li><a href="/help/">Help</a></li>
+                            </ul>
+                        </div>
+                        <a href="/" class="dotgovlogo" title="slough.gov.uk">slough.gov.uk</a>
+                    </div>
+                    <div class="grid_6">
+                        <div class="logo noMobile">
+                            <a href="/" title="Slough Borough Council">
+                                <img src="/SBCMaster/images/sbc-logo.jpg" width="170" height="62" alt="SBC" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+<!-- /noindex -->
+ 
+<!-- noindex -->
+    <div id="hiddenShortcuts">
+      <ul>
+        <li>
+          <a href="#skipToContent" title="Skip to content">Skip to content</a>
+        </li>
+        <li>
+          <a href="#txtsearch" title="Skip to search">Skip to search</a>
+        </li>
+      </ul>
+    </div>
+<!-- /noindex -->
+<!-- noindex -->
+
+            <div class="container_12" id="topbar">
+                <!-- Inter-Site Nav -->
+                <div class="nav grid_6" id="interSiteNav">
+                    <ul>
+
+                        <li><a class="tab-citizen" href="/">Resident</a></li>
+            
+
+                        <li><a class="tab-business" href="/business/">Business</a></li>
+            
+
+                        <li class="selected"><a class="tab-council" href="/council/">About the Council</a></li>
+            
+                    </ul>
+                </div>
+                <!-- Search -->
+                <div class="grid_6">
+
+                    <div class="searchBox noMobile">
+                        <form method="get" id="searchForm" action="/search">
+                        <input type="text" title="Search text" name="q" placeholder="Enter Search Text" value="Enter Search Text"
+                            autocomplete="on" onfocus="JavaScript:if (this.value=='Enter Search Text')this.value=this.value.substring(0,0)" />
+                        <label class="hidden" for="searchsubmit">Search</label> <input type="image" id="searchsubmit" alt="search" src="/SBCMaster/images/srchbtn.gif" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+ 
+<!-- Menu -->
+            <div class="clear">
+            </div>
+            <div class="container_12 councilMenu" id="menucontainer">
+                <div id="menu" class="nav grid_12">
+                    <ul id="topnav">
+<li>
+<a href="/council/councillors-committees-and-meetings/" class="top"><span class="link">Councillors &amp; committees</span></a>
+
+
+
+</li>
+ <li>
+<a href="/council/voting-and-elections/" class="top"><span class="link">Voting &amp; elections</span></a>
+
+
+
+</li>
+ <li>
+<a href="/council/complaints-and-feedback/" class="top"><span class="link">Complaints &amp; feedback</span></a>
+
+
+
+</li>
+ <li>
+<a href="/council/strategies-plans-and-policies/" class="top"><span class="link">Strategies, plans &amp; policies</span></a>
+
+
+
+</li>
+ <li>
+<a href="/council/performance-and-spending/" class="top"><span class="link">Performance &amp; spending</span></a>
+
+
+
+</li>
+ 
+
+                        <li><a href="#" class="top"><span class="link">More&nbsp;&#x25bc;</span></a>
+                            <div class="sub flip">
+                                <ul>
+                                    <li><a href="/council/data-protection-and-foi/">Data protection &amp; FOI</a></li><li><a href="/council/key-statistics-and-data/">Key statistics &amp; data</a></li><li><a href="/council/consultation/">Consultations</a></li><li><a href="/council/service-standards/">Service standards</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+ <!-- /noindex -->
+ 
+<!-- noindex -->
+        </div>
+<!-- /noindex -->
+
+<!-- noindex -->
+
+<!-- /noindex -->
+<!-- noindex --> 
+
+    <div class="container_12">
+    <div class="clear"></div>
+    <div class="grid_12">
+        <div class="nav">
+            <ul class="pageBreadCrumb">
+                
+          <li class="breadcrumbFolder"><a href="/">Home</a></li>
+      
+          <li class="breadcrumbFolder"><a href="/council/">Council information</a></li>
+      
+          <li class="breadcrumbFolder"><a href="/council/voting-and-elections/">Voting & elections</a></li>
+      
+          <li class="breadcrumbFolder"><a href="/council/voting-and-elections/elections-and-results.aspx">Elections & results</a></li>
+       
+          <li class="breadcrumbPage">2019 Local Borough Elections</li>
+       
+       
+       
+       
+       
+            </ul>
+        </div>
+    </div>
+<!-- /noindex --> 
+
+        <div class="grid_12" id="skipToContent">
+            <div class="printOnly">
+                <img class="logo" src="/SBCMaster/images/sbc-logo.jpg" alt="SBC" height="62" width="170">
+            </div>
+            <h1>2019 Local Borough Elections</h1>
+        </div>
+        
+
+
+
+
+
+
+    <div class="grid_3">
+        <!-- noindex -->
+<div class="noMobile">
+
+    <div class="nav lhsubnav">
+    <h2>Navigation</h2>
+    <ul class="parentList">
+
+                        
+                        
+                        
+    <li class="parentFolder"><a href="/council/voting-and-elections/elections-and-results.aspx">Elections &amp; results</a></li>
+                
+                        
+    <li class="page current"><a href="/council/voting-and-elections/2019-local-borough-elections.aspx">2019 Local Borough Elections</a></li>
+        
+                    <li class="page"><a href="/council/voting-and-elections/2019-britwell-parish-council-election.aspx">2019 Britwell Parish Council election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-colnbrook-with-poyle-parish-council-election.aspx">2019 Colnbrook with Poyle Parish Council Election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-wexham-court-parish-council-elections.aspx">2019 Wexham Court Parish Council elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-european-parliamentary-elections.aspx">2019 European Parliamentary Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/postal-vote-fraud.aspx">Postal vote fraud</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/borough-elections-2018---results.aspx">Borough elections 2018 - Results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2018-colnbrook-with-poyle-parish-council-results.aspx">2018 Colnbrook with Poyle Parish Council results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2017-general-election.aspx">2017 General Election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/haymill-and-lynch-hill-ward-by-election.aspx">Haymill and Lynch Hill ward by-election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2016-local-elections-and-combined-police-and-crime-commissioner-results.aspx">2016 Local Elections and Combined Police &amp; Crime Commissioner results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2016-eu-referendum.aspx">2016 EU Referendum</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-general-election-results.aspx">2015 General Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-local-borough-election-results.aspx">2015 Local Borough Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-parish-council-election-results.aspx">2015 Parish Council Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-local-borough-elections.aspx">2014 Local Borough Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-britwell-parish-council-elections.aspx">2014 Britwell Parish Council Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-european-parliamentary-elections.aspx">2014 European Parliamentary Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/previous-elections-results.aspx">Previous elections results</a></li>            
+                
+                
+                
+                
+                
+    </ul>
+    </div>
+
+
+</div>
+<!-- /noindex -->
+    </div>
+
+
+
+
+    <div class="grid_6 page_Content">
+        
+ <div class="standardContentDetail">
+
+    
+
+    <div class="content imagesRight">                    
+        <h2>Results</h2>
+<p>There were 14 seats up for election – one in each of the borough’s wards except Foxborough.</p>
+<p>The candidates are listed by name and description in the order they appear on the ballot paper.</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Baylis and Stoke</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> David John MUNKLEY</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 294</td>
+        </tr>
+        <tr>
+            <td> Mohammed NAZIR</td>
+            <td> Labour Party</td>
+            <td> 1,720</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 31.44%</p>
+<p>Spoilt: 30</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Britwell and Northborough</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Olly ISERNIA</td>
+            <td> Independent</td>
+            <td> 384</td>
+        </tr>
+        <tr>
+            <td> Pavitar Kaur MANN</td>
+            <td> Labour Party</td>
+            <td> 1,120</td>
+        </tr>
+        <tr>
+            <td> Sebastian RYSNIK</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 309</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 26.40%</p>
+<p>Spoilt: 21</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Central</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes </td>
+        </tr>
+        <tr>
+            <td> Christine HULME</td>
+            <td> Labour Party</td>
+            <td> 1,451</td>
+        </tr>
+        <tr>
+            <td> Chandra Sekhar MUVVALA</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 515</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 26.87%</p>
+<p>Spoilt: 19</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Chalvey</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Ruqayah BEGUM</td>
+            <td> Labour Party</td>
+            <td> 1,396</td>
+        </tr>
+        <tr>
+            <td> Rhys Calderwood WILLIAMS</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 353</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 26.18%</p>
+<p>Spoilt: 18</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Cippenham Green</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Lee Scott PETTMAN</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 786</td>
+        </tr>
+        <tr>
+            <td> Nick SMITH</td>
+            <td> UK Independence Party</td>
+            <td> 229</td>
+        </tr>
+        <tr>
+            <td> James Charles Robert SWINDLEHURST</td>
+            <td> Labour and Co-operative Party</td>
+            <td> 1,037</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 30.25%</p>
+<p>Spoilt: 23</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Cippenham Meadows</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Charlie OLSEN</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 405</td>
+        </tr>
+        <tr>
+            <td> Natasa PANTELIC</td>
+            <td> Labour and Co-Operative Party</td>
+            <td> 1,098</td>
+        </tr>
+        <tr>
+            <td> Matthew Benedict TAYLOR</td>
+            <td> Liberal Democrats</td>
+            <td> 427</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 25.78%</p>
+<p>Spoilt: 13</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Colnbrook and Poyle</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Gurdeep Singh GREWAL</td>
+            <td> Labour Party</td>
+            <td> 560</td>
+        </tr>
+        <tr>
+            <td> Dexter Jerome SMITH</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 643</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 29.16%</p>
+<p>Spoilt: 18</p>
+<p>Result: Conservative HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Elliman</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Sabia HUSSAIN</td>
+            <td> Labour and Co-Operative Party</td>
+            <td> 1,261</td>
+        </tr>
+        <tr>
+            <td> Benjamin Lawson VINCENT</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 340</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 26.59%</p>
+<p>Spoilt: 22</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Farnham</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Allison Margaret MILLER-ROSS</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 473</td>
+        </tr>
+        <tr>
+            <td> Maroof Bibi MOHAMMAD</td>
+            <td> Labour Party</td>
+            <td> 1,224</td>
+        </tr>
+        <tr>
+            <td> Taheira Sultana MUGHAL</td>
+            <td> Independent</td>
+            <td> 117</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 26.91%</p>
+<p>Spoilt: 13</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Haymill and Lynch Hill</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Hamzah Ishtiaq AHMED</td>
+            <td> Labour Party</td>
+            <td> 600</td>
+        </tr>
+        <tr>
+            <td> Paul James KELLY</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 896</td>
+        </tr>
+        <tr>
+            <td> Niccola Caitlin PARKES</td>
+            <td> Liberal Democrats</td>
+            <td> 282</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 25.80%</p>
+<p>Spoilt: 36</p>
+<p>Result: Conservative HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Langley Kedermister</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Harpreet Kaur CHEEMA</td>
+            <td> Labour Party</td>
+            <td> 977</td>
+        </tr>
+        <tr>
+            <td> Josephine Mary HANNEY</td>
+            <td> Liberal Democrats</td>
+            <td> 146</td>
+        </tr>
+        <tr>
+            <td> Sharon Teresa Bernadette O’REILLY</td>
+            <td> Independent</td>
+            <td> 264</td>
+        </tr>
+        <tr>
+            <td> Meena SHARMA</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 746</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 30.18%</p>
+<p>Spoilt: 10</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Langley St. Mary's</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Zaffar Iqbal AJAIB</td>
+            <td> Labour and Co-Operative Party</td>
+            <td> 1,031</td>
+        </tr>
+        <tr>
+            <td> Christine BAMIGBOLA</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 802</td>
+        </tr>
+        <tr>
+            <td> Julian Edward Jubal EDMONDS</td>
+            <td> Green Party</td>
+            <td> 304</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 29.64%</p>
+<p>Spoilt: 29</p>
+<p>Result: Labour GAIN</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Upton</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Jina BASRA</td>
+            <td> Labour Party</td>
+            <td> 1,056</td>
+        </tr>
+        <tr>
+            <td> Olivia Elizabeth DIXON</td>
+            <td> Green Party</td>
+            <td> 181</td>
+        </tr>
+        <tr>
+            <td> Gurcharan Singh MANKU</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 862</td>
+        </tr>
+        <tr>
+            <td> Rod PARKES</td>
+            <td> Liberal Democrat</td>
+            <td> 145</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 32.51%</p>
+<p>Spoilt: 16</p>
+<p>Result: Labour GAIN</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+<div class="standardContentDetail">
+
+    <div class="content imagesRight">                    
+        <h3>Wexham Lea</h3>
+<table>
+    <tbody>
+        <tr>
+            <td> Candidate</td>
+            <td> Description</td>
+            <td> Votes</td>
+        </tr>
+        <tr>
+            <td> Harjinder Singh GAHIR</td>
+            <td> Labour Party</td>
+            <td> 1,341</td>
+        </tr>
+        <tr>
+            <td> Shafait HUSSAIN</td>
+            <td> Independent</td>
+            <td> 412</td>
+        </tr>
+        <tr>
+            <td> Jasvinder SINGH</td>
+            <td> The Conservative Party Candidate</td>
+            <td> 200</td>
+        </tr>
+        <tr>
+            <td> Ken WRIGHT</td>
+            <td> Independent</td>
+            <td> 501</td>
+        </tr>
+    </tbody>
+</table>
+<p>Turnout: 37%</p>
+<p>Spoilt: 57</p>
+<p>Result: Labour HOLD</p>
+    </div>
+</div>
+<div class="clear">
+                </div> 
+ 
+    </div>
+
+    <div class="grid_3">
+        <!-- noindex -->
+
+
+<div class="relatedContentDetailHolder">
+    <div class="relatedContentDetail">
+        <h2>Related pages</h2>
+        <ul>
+            <li><a href="/council/voting-and-elections/postal-vote-fraud.aspx">Postal vote fraud</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- /noindex -->
+    </div>
+
+
+
+    
+<div class="grid_3 mobileOnly">
+<!-- noindex -->
+
+    <div class="nav lhsubnav">
+    <h2>Navigation</h2>
+    <ul class="parentList">
+
+                        
+                        
+                        
+    <li class="parentFolder"><a href="/council/voting-and-elections/elections-and-results.aspx">Elections &amp; results</a></li>
+                
+                        
+    <li class="page current"><a href="/council/voting-and-elections/2019-local-borough-elections.aspx">2019 Local Borough Elections</a></li>
+        
+                    <li class="page"><a href="/council/voting-and-elections/2019-britwell-parish-council-election.aspx">2019 Britwell Parish Council election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-colnbrook-with-poyle-parish-council-election.aspx">2019 Colnbrook with Poyle Parish Council Election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-wexham-court-parish-council-elections.aspx">2019 Wexham Court Parish Council elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2019-european-parliamentary-elections.aspx">2019 European Parliamentary Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/postal-vote-fraud.aspx">Postal vote fraud</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/borough-elections-2018---results.aspx">Borough elections 2018 - Results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2018-colnbrook-with-poyle-parish-council-results.aspx">2018 Colnbrook with Poyle Parish Council results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2017-general-election.aspx">2017 General Election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/haymill-and-lynch-hill-ward-by-election.aspx">Haymill and Lynch Hill ward by-election</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2016-local-elections-and-combined-police-and-crime-commissioner-results.aspx">2016 Local Elections and Combined Police &amp; Crime Commissioner results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2016-eu-referendum.aspx">2016 EU Referendum</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-general-election-results.aspx">2015 General Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-local-borough-election-results.aspx">2015 Local Borough Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2015-parish-council-election-results.aspx">2015 Parish Council Election results</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-local-borough-elections.aspx">2014 Local Borough Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-britwell-parish-council-elections.aspx">2014 Britwell Parish Council Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/2014-european-parliamentary-elections.aspx">2014 European Parliamentary Elections</a></li>            
+                
+                    <li class="page"><a href="/council/voting-and-elections/previous-elections-results.aspx">Previous elections results</a></li>            
+                
+                
+                
+                
+                
+    </ul>
+    </div>
+
+<!-- /noindex -->
+</div>
+
+
+    </div>
+    <div class="clear"></div>
+
+
+
+
+<!-- noindex -->
+<!-- Footer -->
+        <div class="footer container_12" id="sectionFooter">
+            <h2>a to z of services</h2>
+            <div class="nav" id="atoz">
+                <ul class="clean" id="az">
+                    <li><a href="/atoz/?letter=a">A</a></li>
+                    <li><a href="/atoz/?letter=b">B</a></li>
+                    <li><a href="/atoz/?letter=c">C</a></li>
+                    <li><a href="/atoz/?letter=d">D</a></li>
+                    <li><a href="/atoz/?letter=e">E</a></li>
+                    <li><a href="/atoz/?letter=f">F</a></li>
+                    <li><a href="/atoz/?letter=g">G</a></li>
+                    <li><a href="/atoz/?letter=h">H</a></li>
+                    <li><a href="/atoz/?letter=i">I</a></li>
+                    <li><a href="/atoz/?letter=j">J</a></li>
+                    <li><a href="/atoz/?letter=k">K</a></li>
+                    <li><a href="/atoz/?letter=l">L</a></li>
+                    <li><a href="/atoz/?letter=m">M</a></li>
+                    <li><a href="/atoz/?letter=n">N</a></li>
+                    <li><a href="/atoz/?letter=o">O</a></li>
+                    <li><a href="/atoz/?letter=p">P</a></li>
+                    <li><a href="/atoz/?letter=q">Q</a></li>
+                    <li><a href="/atoz/?letter=r">R</a></li>
+                    <li><a href="/atoz/?letter=s">S</a></li>
+                    <li><a href="/atoz/?letter=t">T</a></li>
+                    <li><a href="/atoz/?letter=u">U</a></li>
+                    <li><a href="/atoz/?letter=v">V</a></li>
+                    <li><a href="/atoz/?letter=w">W</a></li>
+                    <li><a href="/atoz/?letter=x">X</a></li>
+                    <li><a href="/atoz/?letter=y">Y</a></li>
+                    <li><a href="/atoz/?letter=z">Z</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer container_12" id="siteFooter">
+            <div class="nav" id="siteFooterNav">
+                <div class="grid_2 sitFooterNav">
+                    <ul>
+                        <li><a href="/sitemap/">sitemap</a></li><li><a href="/contact-us/">contact</a></li><li><a href="/news/">news</a></li>
+                    </ul>
+                </div>
+                <div class="grid_2 sitFooterNav">
+                    <div class="mobileOnly">
+                        <ul>
+                            <li><a href="/help/accessibility.aspx">accessibility</a></li><li><a href="/help/cookies.aspx">cookies</a></li><li><a href="/help/">help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_8">
+
+                <ul class="ftr-img-links">
+                    <li><a href="/help/interpretation-and-translation-service.aspx">translations<div class="footerImage ftr-translate"></div></a></li>
+                    <li><a href="/help/">help<div class="footerImage ftr-help"></div></a></li>
+                    <li><a href="http://www.twitter.com/sloughcouncil">twitter<div class="footerImage ftr-twitter"></div></a></li>
+                    <li><a href="https://www.scooploop.com/">Scooploop<div class="footerImage ftr-streetlife"></div></a></li>                    
+                    <li><a href="/feeds/feeds.aspx">feeds<div class="footerImage ftr-feeds"></div></a></li>
+                </ul>
+
+
+            </div>
+        </div>
+<!-- /noindex -->
+    </div>
+</div>
+    <div id="google_translate_element" style="height:28px;"></div>
+
+</body>
+</html>
+ 
+ 

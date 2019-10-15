@@ -1,0 +1,17 @@
+"Election for","Ward 6 - Lerwick North"
+"Date","22 Jul 2019"
+"Number to be elected",3
+"Valid votes",995
+"Invalid votes",0
+"Quota",249.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3
+,"First","Surplus of",,"Surplus of",
+"Candidates","Preferences","Malcolm John BELL",,"Stephen Arthur LEASK",
+"Malcolm John BELL",715,-466.00000,249.00000,,249.00000,"Elected"
+"John Finlay Sinclair FRASER",124,+119.92016,243.92016,+43.80746,287.72762,"Elected"
+"Stephen Arthur LEASK",130,+207.25332,337.25332,-88.25332,249.00000,"Elected"
+"Thomas WILLIAMSON",26,+28.67656,54.67656,+14.24874,68.92530,
+"Non-transferable", ,+110.14996,110.14996,+30.19712,140.34708,
+"Totals",995,,995.00000,,995.00000

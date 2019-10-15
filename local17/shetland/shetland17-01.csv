@@ -1,0 +1,18 @@
+"Election for","Ward 1 - North Isles"
+"Date","22 Jul 2019"
+"Number to be elected",3
+"Valid votes",1413
+"Invalid votes",0
+"Quota",354.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Duncan SIMPSON",
+"Lynsay Anne CUNNINGHAM",76,+5.68204,81.68204,
+"Cecil HUGHSON",185,+25.56918,210.56918,
+"Alec George PRIEST",327,+48.07880,375.07880,"Elected"
+"Duncan SIMPSON",453,-99.00000,354.00000,"Elected"
+"Ryan James Andrew THOMSON",372,,372.00000,"Elected"
+"Non-transferable", ,+19.66998,19.66998,
+"Totals",1413,,1413.00000
