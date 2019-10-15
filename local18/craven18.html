@@ -1,0 +1,1075 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Craven District Council : Elections 2018 - Results</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Js Render -->
+    <script src="/Scripts/slimage/slimmage.js?cdv=1239686386" type="text/javascript"></script><script src="/Scripts/jquery-2.1.4.min.js?cdv=1239686386" type="text/javascript"></script><script src="/Scripts/bootstrap-3.3.5-dist/js/bootstrap.js?cdv=1239686386" type="text/javascript"></script><script src="/Scripts/bootstrap-3.3.5-dist/js/bootstrap-accessibility.js?cdv=1239686386" type="text/javascript"></script>
+
+    <!-- CSS Render -->
+    <link href="/Scripts/bootstrap-3.3.5-dist/css/bootstrap.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/Scripts/bootstrap-3.3.5-dist/css/bootstrap-theme.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/Scripts/bootstrap-3.3.5-dist/css/bootstrap_480-767px.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/scripts/DataTable/DataTables-1.10.13/css/dataTables.bootstrap.min.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/scripts/DataTable/Buttons-1.2.3/css/buttons.bootstrap.min.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/scripts/DataTable/ColReorder-1.3.2/css/colReorder.bootstrap.min.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/scripts/DataTable/Responsive-2.1.0/css/responsive.bootstrap.min.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/css/font-awesome.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/css/craven-icons.css?cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/css/styles.css?v=1&amp;cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/css/theme.css?v=1&amp;cdv=1239686386" type="text/css" rel="stylesheet"/><link href="/css/bootstrap-accessibility.css?cdv=1239686386" type="text/css" rel="stylesheet"/>
+
+    <script>		
+					
+		
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] ||
+                function() {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-26677458-1', 'auto');
+        ga('create', 'UA-26677458-1', 'auto', 'serviceArea');
+            
+                ga(function(tracker) {
+                    tracker.set('serviceArea', '');
+                    console.log(tracker);
+                });
+            
+
+        ga('send', 'pageview');
+    </script>
+
+    <style>
+        @media (max-width: 479px) {
+            #mobile-view { display: none; }
+        }
+
+        @media (min-width: 480px) and (max-width: 767px) {
+            #medium-small-view { display: none; }
+        }
+
+        @media (min-width: 768px) {
+            #desktop-view { display: none; }
+        }
+    </style>
+
+
+</head>
+<body>
+<h1 hidden>Craven District Council</h1>
+<div class="skip-content pull-right">
+    <a href="#skipNavigation">Skip Navigation</a>
+</div>
+<header class="container-fluid">
+    <div id="pop-up" class="row text-center cookie-holder" hidden>
+        <div class="container">
+                <span>We use cookies to improve your experience. By viewing our content you are accepting the use of cookies.</span>
+                <a href="/data-and-transparency/cookies/">Read about cookies we use.</a>
+
+            <button id="hide" class="cookie-button btn btn-primary-meritec" title="Acctept the terms of use of cookies">Dismiss</button>
+        </div>
+    </div>
+
+
+    <div class="container nav-holder" role="banner">
+        <div class="row">
+            <div class="logo-holder col-xs-3 col-sm-2">
+                <div class="logo-inner">
+                    <a href="https://www.cravendc.gov.uk/">
+                        <img src="/img/logo.png" alt="Craven District Council Logo"/>
+                    </a>
+                </div>
+            </div><!-- /logo-holder -->
+            <div class="col-sm-10">
+                <div class="visible-xs" style="margin-top: 10px;">
+                    <form id="SearchFormMobile" class="main-search-holder" method="get" action="https://www.cravendc.gov.uk/search" style="border:none; padding:0px; box-shadow:none;">
+    <div id="SearchAheadControlMobile" class="pull-left">
+        <input id="textSearchMobile" style="margin:0px;" type="text" title="Search Box" aria-labelledby="searchBoxMobile" class="form-control" name="q" placeholder="Search eg. Council Tax, Benefits" required>
+        <div class="searchAutoCompleteWrapper">
+            <ul id="searchAutoCompleteMobile" style="list-style-type: none; margin: 0;"></ul>
+        </div>
+    </div>
+
+    <span class="input-group-btn hidden-xs">
+        <button class="btn btn-primary-meritec" type="submit" title="Search Button">
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span style="margin-left:10px;" id="searchBoxMobile">Search</span>
+        </button>
+    </span>
+
+</form>
+
+<script>
+    (function ($) {
+        // Hides predictions div on load.
+        $('.searchAutoCompleteWrapper').hide();
+        // if the text entered is longer than 2 characters it searches the API. Else it hides and empties the predictions box.
+        // Displays upto 10 predictions in the div. Empties old results before putting new ones in.
+        $('#SearchAheadControlMobile').on('input', function () {
+            if (($('#textSearchMobile').val().length) > 2) {
+                $('.searchAutoCompleteWrapper').show();
+                var querySearch = $('#textSearchMobile').val();
+                return $.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + querySearch,
+                    function (data) {
+                        $('#searchAutoCompleteMobile').empty();
+                        var PredictionCount = 0;
+                        $.each(data, function (index, value) {
+                            PredictionCount++;
+                            if (PredictionCount <= 10 && value.Phrase !== '')
+                                $('#searchAutoCompleteMobile').append('<li class="listPrediction">' + value.Phrase + '</li>');
+                        });
+                    })
+            } else {
+                $('#searchAutoCompleteWrapperMobile').hide();
+                $('#searchAutoCompleteMobile').empty();
+            }
+        });
+
+        // When the prediction is clicked, it sets the search text to the prediction and submits the form.
+        $(document).on('click', '.listPrediction', function () {
+            $('.searchText').text($(this).text());
+            $('#SearchForm').submit();
+        });
+
+    })(jQuery);    
+</script>
+
+                </div>
+                <!--div class="search-holder" role="Search">
+                
+
+
+                </div-->
+                <div class="login-banner col-xs-12 hidden-xs">
+                    <ul class="pull-right">
+                                <li>
+                                    <a href="/news/latest-news/">Latest News</a>
+                                </li>
+                                <li>
+                                    <a href="/craven-leisure/">Craven Leisure</a>
+                                </li>
+                                <li>
+                                    <a href="/skipton-town-hall/">Skipton Town Hall</a>
+                                </li>
+
+                    </ul>
+                </div>
+                <div class="action-button-holder pull-right">
+                    <ul>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/pay/" class="action-button full-width">
+                                        <i class="fa fa-gbp"></i>
+                                        Pay
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/apply/" class="action-button full-width">
+                                        <i class="fa fa-pencil"></i>
+                                        Apply
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/report/" class="action-button full-width">
+                                        <i class="fa fa-flag"></i>
+                                        Report
+                                    </a>
+                                </li>
+
+                        <li>
+                            <a href="https://myaccount.cravendc.gov.uk/Auth/Logout" style="display: block; float: left; font-size: 12px; left: 30px; position: relative; text-overflow: ellipsis; top: -15px; white-space: nowrap; width: 100%;" id="myAccountLogout" class="hidden">
+                                <span style="left: 0; overflow: hidden; position: absolute; text-align: left; text-overflow: ellipsis; width: 100%;">
+                                    Hi, 
+                                </span>
+                            </a>
+                            <a href="https://myaccount.cravendc.gov.uk" style="display: none; float: left; font-size: 12px; left: 25px; position: relative; top: -15px; width: 0px;" id="myAccountLogin">Login</a>
+                            <a href="https://myaccount.cravendc.gov.uk" class="action-button full-width">
+                                <i class="fa fa-user"></i>
+                                My Account
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="javascript:void(0)" id="servicesToggle" class="action-button full-width" data-toggle="collapse" data-target="#servicesNav">
+                                <i class="fa fa-arrow-circle-o-down"></i>
+                                Services
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /action-button-holder -->
+                        <div class="search-holder-alt hidden-xs">
+                            <form id="SearchForm" class="main-search-holder" method="get" action="https://www.cravendc.gov.uk/search" style="border:none; padding:0px; box-shadow:none;">
+    <div id="SearchAheadControl" class="pull-left">
+        <input id="textSearch" style="margin:0px;" autocomplete="off" type="text" title="Search Box" aria-labelledby="searchBox" class="form-control" name="q" placeholder="Search eg. Council Tax, Benefits" required>
+        <div class="searchAutoCompleteWrapper">
+            <ul id="searchAutoComplete" style="list-style-type: none; margin: 0;"></ul>
+        </div>
+    </div>
+
+    <span class="input-group-btn hidden-xs">
+        <button class="btn btn-primary-meritec" type="submit" title="Search Button">
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span style="margin-left:10px;" id="searchBox">Search</span>
+        </button>
+    </span>
+
+</form>
+
+<script>
+    (function ($) {
+        // Hides predictions div on load.
+        $('#searchAutoCompleteWrapper').hide();
+        // if the text entered is longer than 2 characters it searches the API. Else it hides and empties the predictions box.
+        // Displays upto 10 predictions in the div. Empties old results before putting new ones in.
+        $('#textSearch').on('input', function () {
+            if (($('#textSearch').val().length) > 2) {
+                $('#searchAutoCompleteWrapper').show();
+                var querySearch = $('#textSearch').val();
+                return $.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + querySearch,
+                    function (data) {
+                        $('#searchAutoComplete').empty();
+                        var PredictionCount = 0;
+                        $.each(data, function (index, value) {
+                            PredictionCount++;
+                            if (PredictionCount <= 10 && value.Phrase !== '')
+                                $('#searchAutoComplete').append('<li class="listPrediction">' + value.Phrase + '</li>');
+                        });
+                    })
+            } else {
+                $('#searchAutoCompleteWrapper').hide();
+                $('#searchAutoComplete').empty();
+            }
+        });
+
+        // When the prediction is clicked, it sets the search text to the prediction and submits the form.
+        $(document).on('click', '.listPrediction', function (event) {
+            console.log($(event.target).text());
+            $('#textSearch').val($(event.target).text());
+            $('#SearchForm').submit();
+        });
+
+    })(jQuery);    
+</script>
+
+                        </div>
+
+            </div>
+        </div><!-- /row -->
+    </div><!-- /nav-holder -->
+    <div id="mobile-view"></div>
+
+    <h1 hidden>Craven District Council</h1>
+
+    <!-- Services Nav -->
+    <div id="servicesNav" class="collapse services-navigation row">
+        <div class="container">
+            <ul class="list-unstyled">
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Advice-and-Benefits">
+                            <a href="/benefits-and-advice/">Benefits and Advice</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Business">
+                            <a href="/bereavement-services/">Bereavement Services</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Council-Tax">
+                            <a href="/building-control/">Building Control</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-suitcase">
+                            <a href="/business/">Business</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-leaf">
+                            <a href="/cleaner-neighbourhoods/">Cleaner Neighbourhoods</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Community-and-Living">
+                            <a href="/community-living/">Community &amp; Living</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Council-Tax">
+                            <a href="/council-tax/">Council Tax</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Leisure110">
+                            <a href="/craven-leisure/">Craven Leisure</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Leisure512">
+                            <a href="/elections-voting-democracy/">Elections, Voting &amp; Democracy</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-leaf">
+                            <a href="/environmental-health/">Environmental Health</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Housing">
+                            <a href="/housing/">Housing</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-book">
+                            <a href="/jobs/">Jobs</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-drivers-license">
+                            <a href="/licensing/">Licensing</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-bus">
+                            <a href="/parking/">Parking</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Council-Tax">
+                            <a href="/planning/">Planning</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Council-Tax">
+                            <a href="/the-council/">The Council</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa crvn-Housing">
+                            <a href="/skipton-town-hall/">Skipton Town Hall</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-child">
+                            <a href="/sport-leisure/">Sport &amp; Leisure</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-map-o">
+                            <a href="/tourism/">Tourism</a>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 fa fa-trash-o">
+                            <a href="/waste-recycling/">Waste &amp; Recycling</a>
+                        </li>
+
+            </ul>
+        </div><!-- /container -->
+    </div><!-- /services-navigation -->
+
+</header>
+<main>
+    <a id="skipNavigation"></a>
+    
+
+
+
+
+    <div class="container-fluid">
+        <div class="breadcrumb-holder row">
+            <div class="container">
+                <ul>
+                    <li>You are here:</li>
+                    
+                            <li><a href="/">Home</a></li>                        
+                            <li><a href="/elections-voting-democracy/">Elections, Voting &amp; Democracy</a></li>                        
+                            <li><a href="/elections-voting-democracy/election-results/">Election Results</a></li>                        
+                    
+                    <li class="active">Elections 2018 - Results</li>
+                </ul>
+            </div><!-- /container -->
+        </div><!-- breadcrumb-holder -->
+    </div><!-- /container-fluid -->
+
+
+
+
+<div class="container">
+    <div class="side-nav-button">
+        <button type="button" class="nav-tabs-button navbar-toggle" data-toggle="collapse" data-target="#sideNavigation" aria-expanded="true">
+            <span class="button-label">Navigate</span>
+            <span class="sr-only">Toggle Side Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div><!-- /side-nav-->
+    <div class="row">
+        <div class="side-navigation-holder col-xs-12 col-sm-3">
+            <div class="navbar-collapse collapse row" id="sideNavigation" aria-expanded="true">
+                <div class="parent-page-holder text-center">
+                    <i class="fa crvn-Leisure512"></i>
+                    <p>Election Results</p>
+                </div><!-- /parent-page-holder -->
+                        <div class="side-navigation-link ">
+                            <a href="/elections-voting-democracy/election-results/general-election-2017/">General Election 2017</a>
+                        </div>
+                        <div class="side-navigation-link ">
+                            <a href="/elections-voting-democracy/election-results/eu-referendum/">EU Referendum</a>
+                        </div>
+                        <div class="side-navigation-link ">
+                            <a href="/elections-voting-democracy/election-results/by-elections-and-casual-vacancies/">By-Elections </a>
+                        </div>
+                        <div class="side-navigation-link ">
+                            <a href="/elections-voting-democracy/election-results/results-of-past-elections/">Results of Past Elections</a>
+                        </div>
+                        <div class="side-navigation-link active">
+                            <a href="/elections-voting-democracy/election-results/elections-2018-results/">Elections 2018 - Results</a>
+                        </div>
+
+            </div><!-- /navbar-collapse-->
+        </div><!-- /side-navigation-holder -->
+        <div class="content-holder col-xs-12 col-sm-9">
+            <div class="page-title-holder">
+                <h1>Elections 2018 - Results</h1>
+            </div><!-- /page title holder -->
+            <div class="page-description">Results from the District and Parish Council Elections held on Thursday May 3.</div><!-- /page-description-->
+            <div class="page-body-text"><h4>Craven District Council Election Results</h4>
+<p><strong>Aire Valley with Lothersdale Ward</strong></p>
+<table width="505" height="152" summary="Aire Valley with Lothersdale" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Brian Anthony McDaid</td>
+<td>Labour Party</td>
+<td> 244</td>
+<td> Not elected</td>
+</tr>
+<tr>
+<td>William Stephen Morton</td>
+<td>Green Party</td>
+<td> 395</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Patrick Thomas Mulligan</td>
+<td>The Conservative Party Candidate</td>
+<td> 598</td>
+<td>ELECTED </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 42.7%</p>
+<p><a data-id="8309" href="/media/6137/aire-valley-with-lothersdale-results-2018.pdf" target="_blank" title="Aire Valley with Lothersdale Results 2018.pdf">Full Result</a></p>
+<p><strong>Bentham Ward</strong></p>
+<table width="501" height="104" summary="Bentham Ward" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linda Brockbank</td>
+<td>The Conservative Party Candidate</td>
+<td> 472</td>
+<td> ELECTED</td>
+</tr>
+<tr>
+<td>John Howard Matthew</td>
+<td>Labour Party</td>
+<td> 344</td>
+<td> Not elected</td>
+</tr>
+<tr>
+<td>Tim Stannard</td>
+<td>Independent</td>
+<td> 284</td>
+<td> Not elected</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 37.8%</p>
+<p><a data-id="8310" href="/media/6138/bentham-ward-results-2018.pdf" target="_blank" title="Bentham Ward Results 2018.pdf">Full Result</a></p>
+<p><strong>Gargrave and Malhamdale Ward</strong></p>
+<table width="499" height="54" summary="Hellifield and Long Preston" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nick Parker</td>
+<td>Labour Party</td>
+<td>303</td>
+<td>Not elected</td>
+</tr>
+<tr>
+<td>Alan Orr Sutcliffe</td>
+<td>The Conservative Party Candidate</td>
+<td>685</td>
+<td>ELECTED </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 38.9%</p>
+<p><a data-id="8311" href="/media/6139/gargrave-and-malhamdale-result-2018.pdf" target="_blank" title="Gargrave and Malhamdale Result 2018.pdf">Full Result</a></p>
+<p><strong>Glusburn Ward</strong></p>
+<table width="499" height="85" summary="Glusburn" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Philip Melvin Barrett</td>
+<td>Independent</td>
+<td> 657</td>
+<td> ELECTED</td>
+</tr>
+<tr>
+<td>Patricia Bartlett</td>
+<td>The Conservative Party Candidate</td>
+<td> 225</td>
+<td> Not elected</td>
+</tr>
+<tr>
+<td>Paul Arthur Routledge</td>
+<td>Labour Party</td>
+<td> 158</td>
+<td> Not elected</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 33.8%</p>
+<p><a data-id="8312" href="/media/6140/glusburn-results-2018.pdf" title="Glusburn Results 2018.pdf">Full Result</a></p>
+<p><strong>Hellifield and Long Preston Ward</strong></p>
+<table width="499" height="54" summary="Hellifield and Long Preston" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chris Moorby</td>
+<td>The Conservative Party Candidate</td>
+<td>480 </td>
+<td>ELECTED</td>
+</tr>
+<tr>
+<td>John Edward Pope</td>
+<td>Labour Party</td>
+<td> 147</td>
+<td>Not elected </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 35.4%</p>
+<p><a data-id="8313" href="/media/6141/hellifield-and-long-preston-results-2018.pdf" target="_blank" title="Hellifield and Long Preston Results 2018.pdf">Full Result</a></p>
+<p><strong>Ingleton and Clapham Ward</strong></p>
+<table width="500" height="96" summary="Ingleton and Clapham" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Janine Bickerstaff</td>
+<td>Labour Party</td>
+<td>219</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Carl Henry Lis</td>
+<td>The Conservative Party Candidate</td>
+<td>701 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Tony Macaulay</td>
+<td>Independent</td>
+<td>127 </td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Sarah Wiltshire</td>
+<td>Green Party</td>
+<td>397 </td>
+<td>Not elected </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 46%</p>
+<p><a data-id="8314" href="/media/6142/ingleton-and-clapham-results-2018.pdf" title="Ingleton and Clapham Results 2018.pdf">Full Result</a></p>
+<p><strong>Penyghent Ward</strong></p>
+<table width="498" height="62" summary="Penyghent" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bernard Michael Akin</td>
+<td>UK Independence Party</td>
+<td> 33</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Virpi Marjaana Kettu</td>
+<td>Labour Party</td>
+<td> 166</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Richard Charles Welch</td>
+<td>The Conservative Party Candidate</td>
+<td> 432</td>
+<td> ELECTED</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 43%</p>
+<p><a data-id="8315" href="/media/6143/penyghent-results-2018.pdf" target="_blank" title="Penyghent Results 2018.pdf">Full Result</a></p>
+<p><strong>Settle and Ribblebanks</strong></p>
+<table width="497" height="80" summary="Settle and Ribblebanks" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simon Aaron Joe Lord</td>
+<td>Labour Party</td>
+<td> 610</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Tony Smith</td>
+<td>UK Independence Party</td>
+<td>46 </td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>David Michael Staveley</td>
+<td>The Conservative Party Candidate</td>
+<td>674 </td>
+<td>ELECTED </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 42.8%</p>
+<p><a data-id="8316" href="/media/6144/settle-and-ribblebanks-results-2018.pdf" target="_blank" title="Settle and Ribblebanks Results 2018.pdf">Full Result</a></p>
+<p><strong>Sutton-in-Craven Ward</strong></p>
+<table width="493" height="70" summary="Sutton-in-Craven" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anthony Richard Alderson</td>
+<td>Labour Party</td>
+<td> 177</td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Stephen Spencer Place</td>
+<td>Independent</td>
+<td> 623</td>
+<td> ELECTED</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 28%</p>
+<p><a data-id="8317" href="/media/6145/sutton-in-craven-results-2018.pdf" target="_blank" title="Sutton-in-Craven Results 2018.pdf">Full Result</a></p>
+<h4><br />Parish Council Election Results</h4>
+<p><strong>Ingleton Parish</strong></p>
+<table width="494" height="252" summary="Ingleton" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Description</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sue Brash</td>
+<td> </td>
+<td> 427</td>
+<td>ELECTED</td>
+</tr>
+<tr>
+<td>Victoria Brown</td>
+<td> </td>
+<td>363 </td>
+<td>ELECTED</td>
+</tr>
+<tr>
+<td>John Emsley</td>
+<td> </td>
+<td>374 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Glenis Evelyn Gaunt</td>
+<td>Independent</td>
+<td>309 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Matthew Alan Howson</td>
+<td> </td>
+<td>303 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Carl Henry Lis</td>
+<td> </td>
+<td>416 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Tony Macaulay</td>
+<td>Independent</td>
+<td>263 </td>
+<td>Not elected</td>
+</tr>
+<tr>
+<td>David McGonnigal</td>
+<td> </td>
+<td>369 </td>
+<td>ELECTED</td>
+</tr>
+<tr>
+<td>Jonny McKenzie</td>
+<td> </td>
+<td>371 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>John James Metcalfe</td>
+<td> </td>
+<td>369 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Paul Anthony Weaire</td>
+<td> </td>
+<td>295 </td>
+<td>Not elected</td>
+</tr>
+<tr>
+<td>Andy Weller</td>
+<td>Local Resident</td>
+<td>368 </td>
+<td>ELECTED </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 45%</p>
+<p><a data-id="8318" href="/media/6146/ingleton-parish-results-2018.pdf" target="_blank" title="Ingleton Parish Results 2018.pdf">Full Result</a></p>
+<p><strong>Lothersdale Parish</strong></p>
+<table width="495" height="166" summary="Lothersdale" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate</th>
+<th>Description</th>
+<th>Votes</th>
+<th>Elected/Not elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Christopher Cowgill</td>
+<td> </td>
+<td> 92</td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Michael Edward Cullen</td>
+<td> </td>
+<td>101 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Edwin Mitchell</td>
+<td>Independent</td>
+<td>82 </td>
+<td>Not elected </td>
+</tr>
+<tr>
+<td>Kevin Narey</td>
+<td> </td>
+<td>106 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>John Richard Sipling</td>
+<td> </td>
+<td>90 </td>
+<td>ELECTED </td>
+</tr>
+<tr>
+<td>Simon Ward</td>
+<td> </td>
+<td>107 </td>
+<td>ELECTED </td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 39.4%</p>
+<p><a data-id="8319" href="/media/6147/lothersdale-parish-results-2018.pdf" target="_blank" title="Lothersdale Parish Results 2018.pdf">Full Result</a></p></div>
+        </div><!-- /content-holder -->
+    </div><!-- /row -->
+</div><!-- /container -->
+<div class="related-documents-holder hidden">
+    <div class="container">
+        <div class="col-xs-12  hidden">
+            <div class="related-documents-inner">
+                <h2 class="related-documents-heading">Related Documents</h2>
+                <div class="row">
+                    
+
+
+<script>
+    
+    //Change the doc icon based on file type
+
+</script>
+
+                </div><!-- /row -->
+            </div><!-- /related-documents-inner -->
+        </div><!-- /related-documents-holder -->
+        <div class="contact-holder col-xs-12  hidden">
+            <h2>Contact</h2>
+        </div><!-- /contact-holder -->
+    </div><!-- /container -->
+</div><!-- /related-documents-holder -->
+<!-- Modal -->
+<div id="supportingLinksModal" class="modal fade" role="dialog" data-backdrop="false">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-title"></div>
+            </div>
+            <div class="modal-body">
+                <ul class="list-unstyled"></ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary-meritec" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /Modal -->
+
+
+
+    
+
+
+<div class="container-fluid hidden-xs">
+    <div class="row">
+        <div class="a-z-holder">
+            <div class="container">
+                <div class="a-z-title col-xs-12 col-md-3">A to Z of Services</div><!-- a-z-title -->
+                    <ul class="a-z-list col-md-9">
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=A" title="Link to Letter A of the A to Z">A</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=B" title="Link to Letter B of the A to Z">B</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=C" title="Link to Letter C of the A to Z">C</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=D" title="Link to Letter D of the A to Z">D</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=E" title="Link to Letter E of the A to Z">E</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=F" title="Link to Letter F of the A to Z">F</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=G" title="Link to Letter G of the A to Z">G</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=H" title="Link to Letter H of the A to Z">H</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=I" title="Link to Letter I of the A to Z">I</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=J" title="Link to Letter J of the A to Z">J</a>
+                                </li>
+                                <li>K</li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=L" title="Link to Letter L of the A to Z">L</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=M" title="Link to Letter M of the A to Z">M</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=N" title="Link to Letter N of the A to Z">N</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=O" title="Link to Letter O of the A to Z">O</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=P" title="Link to Letter P of the A to Z">P</a>
+                                </li>
+                                <li>Q</li>
+                                <li>R</li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=S" title="Link to Letter S of the A to Z">S</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=T" title="Link to Letter T of the A to Z">T</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=U" title="Link to Letter U of the A to Z">U</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=V" title="Link to Letter V of the A to Z">V</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=W" title="Link to Letter W of the A to Z">W</a>
+                                </li>
+                                <li>X</li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=Y" title="Link to Letter Y of the A to Z">Y</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.cravendc.gov.uk/a-z/?letter=Z" title="Link to Letter Z of the A to Z">Z</a>
+                                </li>
+                </ul>
+            </div><!-- /container -->
+        </div><!-- /a-z-holder -->
+    </div><!-- /row -->
+</div><!-- /container-fluid -->
+
+
+
+
+        
+
+
+</main>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-holder">
+                        <div class="container">
+                            <div class="footer-column col-xs-12 col-sm-6 col-md-4">
+                                <h3>Craven District Council</h3>
+                                <p>1 Belle Vue Square<br />Broughton Road<br />Skipton<br />North Yorkshire<br />BD23 1FJ</p>
+                            </div><!-- footer-column -->
+                            <div class="footer-column col-xs-12 col-sm-6 col-md-3">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    <a href="tel:01756 700 600">Phone : 01756 700 600</a>
+                                    <br/>
+                                    <a href="mailto:contactus@cravendc.gov.uk">contactus@cravendc.gov.uk</a>
+                                </p>
+                            </div><!-- footer-column -->
+                            <div class="footer-column footer-social col-xs-12 col-sm-12 col-md-2">
+                                <h3>Social Media</h3>
+                                <a href="https://www.facebook.com/cravencouncil/" aria-hidden="true">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/CravenCouncil" aria-hidden="true">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div><!-- footer-column -->
+
+                            <div class="footer-column col-xs-12 col-sm-12 col-md-3">
+                                <h3>Website Feedback</h3>
+
+                                <a href="https://selfservice.cravendc.gov.uk/renderform.aspx?t=48&amp;k=91D918BC57F6A64C4CEBEE65472BDB99AC475938">
+                                    <img src="/img/good.png" alt="Feedback Good"/>
+                                </a>
+                                <a href="https://selfservice.cravendc.gov.uk/renderform.aspx?t=48&amp;k=91D918BC57F6A64C4CEBEE65472BDB99AC475938">
+                                    <img src="/img/average.png" alt="Feedback Average"/>
+                                </a>
+                                <a href="https://selfservice.cravendc.gov.uk/renderform.aspx?t=48&amp;k=91D918BC57F6A64C4CEBEE65472BDB99AC475938">
+                                    <img src="/img/poor.png" alt="Feedback Poor"/>
+                                </a>
+                            </div><!-- footer-column -->
+                        </div><!-- /container -->
+                    </div><!-- /footer-holder -->
+
+                    <div class="copy-holder" role="complementary">
+                        <div class="container text-center">
+                            <ul>
+                                <li>Copyright © 2019 Craven District Council</li>
+                                        <li>
+                                            <a href="/contact-craven-district-council/">Contact Craven District Council</a>
+                                        </li>
+                                        <li>
+                                            <a href="/data-and-transparency/">Data and Transparency</a>
+                                        </li>
+                                        <li>
+                                            <a href="/data-and-transparency/website-accessibility/">Website accessibility</a>
+                                        </li>
+
+                            </ul>
+                        </div><!-- /container -->
+                    </div><!-- /copy-holder -->
+
+                </div><!-- /row -->
+            </div><!-- /container-fluid -->
+        </footer>
+
+<script>
+
+    //var element = document.getElementById("skipNavigation");
+    //    element.scrollIntoView();
+    //    console.log(element);
+    $(document).ready(function() {
+        if ($(window).width() <= 768) {
+            // do something here
+
+            $('html, body').animate({
+                    scrollTop: $("#skipNavigation").offset().top
+                },
+                1000);
+        }
+    });
+    (function() {
+        function downloadJSAtOnload() {
+
+            var customScriptsJs = document.createElement("script");
+            customScriptsJs.src = window.location.origin + '/scripts/CustomScripts.js';
+            document.body.appendChild(customScriptsJs);
+
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("load", downloadJSAtOnload, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onload", downloadJSAtOnload);
+        } else {
+            window.onload = downloadJSAtOnload;
+        }
+    })();
+</script>
+<script>
+    var cookieIndex2 = document.cookie.toString().indexOf("ESBSSAUTH");
+    if (cookieIndex2 === -1) {
+        $('#myAccountLogin').css('display', 'block');
+    } else {
+        $('#myAccountLogout').css('display', 'block');
+    };
+</script>
+</body>
+</html>

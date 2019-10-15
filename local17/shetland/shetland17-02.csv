@@ -1,0 +1,17 @@
+"Election for","Ward 2 - Shetland North"
+"Date","22 Jul 2019"
+"Number to be elected",3
+"Valid votes",1192
+"Invalid votes",0
+"Quota",299.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Andrea Isabel MANSON",
+"Alastair Thomas James COOPER",395,,395.00000,"Elected"
+"Isobel JOHNSON",48,+22.27878,70.27878,
+"Emma Louise MACDONALD",240,+139.03609,379.03609,"Elected"
+"Andrea Isabel MANSON",509,-210.00000,299.00000,"Elected"
+"Non-transferable", ,+48.68513,48.68513,
+"Totals",1192,,1192.00000

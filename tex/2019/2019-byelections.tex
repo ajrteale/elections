@@ -1,0 +1,4739 @@
+\documentclass[a4paper,openany]{book}
+%\usepackage[cp1252]{inputenc}
+
+% put all the other packages here:
+
+\usepackage{election06-test}
+\usepackage[t]{ebgaramond}
+\usepackage{ebgaramond-maths}
+	
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{microtype}
+
+\usepackage[plainpages=false,pdfpagelabels,pdfauthor={Andrew Teale},pdftitle={Local Election Results 2019},hidelinks]{hyperref}
+
+\renewcommand\resultsyear{2019}
+
+\setboolean{maps}{false}
+
+\begin{document}
+
+% Title page
+
+\begin{titlepage}
+
+\begin{center}
+
+\Huge Local Election Results
+
+2019
+
+\bigskip
+
+\Large Andrew Teale
+
+\vfill
+
+\newcommand\versionno{0.10.1}
+
+%Version \versionno
+
+\today
+
+\end{center}
+
+\end{titlepage}
+
+% Copyright notice
+
+\begin{center}
+
+\bigskip
+
+Typeset by \LaTeX{} 
+
+\bigskip
+
+Compilation and design \textcopyright\ Andrew Teale, 2019.
+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled ``GNU
+ Free Documentation License''.
+
+\bigskip
+
+This file is available for download from
+\url{http://www.andrewteale.me.uk/}
+
+\bigskip
+
+Please advise the author of any corrections which need to be made by
+email: \url{andrewteale@yahoo.co.uk}
+
+\vfill
+\end{center}
+
+\section*{Change Log}
+
+%8 June 2014: Added result for Clydesdale South by-election.
+
+%24 November 2013: Corrected results for Vassall ward, Lambeth (typing error) and Reddish North ward, Stockport (LD candidate incorrectly shown as Labour).
+%
+%21 November 2013: First version.
+
+\tableofcontents
+
+% Introduction
+
+% Introduction
+
+% \chapter*{Introduction and Abbreviations}
+% \addcontentsline{toc}{chapter}{Introduction and Abbreviations}
+% %\markright{INTRODUCTION AND ABBREVIATIONS}
+% 
+% Elections were held on 6th May 2010 to all London boroughs and metropolitan boroughs, and some unitary authorities and shire districts in England. These elections were combined with a general election which was held on the same day. 
+%
+% The voting system used for all elections covered here was
+% first-past-the-post, with multi-member FPTP being used where more than
+% one seat was up for election. 
+% 
+%The results of the general election are shown in Part I. The information in Part I is taken from the Electoral Commission.
+%
+% All of the seats on the 32 London borough councils were up for election. The vast majority of London boroughs use multi-member wards electing three councillors each; there are also a handful of single-member and two-member wards. Elections to the London boroughs are covered in Part~II, which has been split into two chapters (North and South London).
+% 
+% The 36 metropolitan boroughs are all elected by thirds. Each ward has
+% three councillors, with the winning councillor from the 2006 election being up for
+% election in each ward. In some cases two seats were up for election,
+% due to the death or resignation of another councillor for the ward
+% within six months of the election. Results of these elections are
+% contained in Part~III, which each of the former metropolitan counties
+% constituting a separate chapter.
+% 
+% The English unitary authorities and shire districts may have up to
+% three councillors in each ward, and may hold elections either all at
+% once or by thirds. 
+% Only those councils which elect by thirds held
+% elections this year; those councils which elect all at once were
+% last elected in 2007 and will next be elected in 2011. A few
+% districts elect by halves every two years; all of these districts held
+% an election this year. Where districts elect by thirds generally not
+% all of the wards in the district hold an election every year. A full explanation of the electoral arrangements is
+% given at the head of each council's entry.
+%
+% Due to a botched attempt at local government reorganisation, the 2010 elections to Exeter and Norwich city councils were held on 9th September. It had originally been intended to change these councils to unitary status, which resulted in the scheduled 2010 elections to these councils being cancelled with the intention that the first elections to the new unitary councils would take place in 2011, the councillors elected in 2006 to have their terms extended until 2011. However, when the unitary plans were abandoned by the coalition government following the general election, the High Court ruled that the councillors elected in 2006 had come to the end of their four-year term and could no longer continue in office.
+% 
+% Unitary election results are shown in Part~IV 
+% with shire district results in Part~V. Part~IV is
+% divided into eight chapters based on region, while Part~V has one
+% chapter for each county.
+% 
+% For the first time in this series, referendums (Part VI) and by-elections (Part VII) held in 2010 are also included. Scottish local by-elections are held using the Alternative Vote; while details of transfers are shown, for reasons of space some elimination stages have been omitted.
+% 
+% Finally, at the back you will find an Index of Wards.
+% 
+% Where a candidate in an election dies, the election in that ward or division is
+% cancelled and rearranged for a later date. This happened in the
+% following wards or divisions at this election:
+% 
+% \begin{results}
+% \begin{itemize}
+% \item Haverstock, Camden\index{Haverstock , Camden@Haverstock, Camden}
+% \item Ore, Hastings\index{Ore , Hastings@Ore, Hastings}
+% \end{itemize}
+% \end{results}
+% 
+% Here is a list of abbreviations used in this book for major parties
+% and selected other parties which fought several councils. This list
+% is not exhaustive; parties which put up only a few candidates will
+% generally have their abbreviation listed at the head of the entry for
+% the retant council. Please note that the ``Lab'' label includes
+% candidates who were jointly sponsored by the Labour and Co-operative
+% Parties.
+% 
+% \begin{results}
+% BNP - British National Party
+% 
+% C - Conservative Party
+% 
+% Grn - Green Party
+% 
+% Ind - Independent
+% 
+% Lab - Labour Party
+% 
+% LD - Liberal Democrat
+% 
+% Lib - Liberal Party
+% 
+% Loony - Monster Raving Loony Party
+% 
+% Respect - Respect, the Unity Coalition
+% 
+% SocLab - Socialist Labour Party
+% 
+% UKIP - UK Independence Party
+% 
+% \end{results}
+%
+%Errors in a work of this size are inevitable. I take full responsibility for any errors which may have crept in, undertake to correct any errors which I am made aware of, and hope that any errors which you may spot do not substantially affect any use you may make of this book.
+%
+% I would like to close this section by thanking all those who have
+% supplied me with results and sources of information, most notably David Boothroyd, John Cartwright, James Doyle, Keith Edkins, the Electoral Commission, Tom Harris, Paul Harwood, ``hullenedge'', ``Listener'', ``MaxQue'', Philip Mutton, John Swarbrick, Andrew Stidwell, Pete Whitehead and all the members of the Vote UK Forum, and particularly those scores of council
+% webpages without which this work would not have been possible. 
+
+ 
+ 
+% Here beginneth the content
+
+% 2019 results to go here
+
+
+\part{Referendums}
+
+\chapter{Referendums in 2019}
+
+There were no referendums in 2019.
+
+%\section{Burnley mayoral referendum}
+%
+%A referendum was held in Burnley on 4th May on the question of whether the district should have a directly elected mayor.
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%& Yes & 8694\\
+%& No & 10986\\
+%\end{tabular*}
+
+\part{By-elections}
+
+\chapter{Parliamentary by-elections}
+
+There were three parliamentary by-elections in 2019.
+
+AWA = Abolish the Welsh Assembly Party
+
+Brexit = Brexit Party
+
+CGood = Common Good
+
+DVP = Democrats and Veterans Party
+
+ForBritn = The For Britain Movement
+
+UKEU = UK European Union Party
+
+\section*{Newport West \hspace*{\fill}\nolinebreak[1]%
+\enspace\hspace*{\fill}
+\finalhyphendemerits=0
+[4th April]}
+
+\index{Newport West , House of Commons@Newport W., \emph{House of Commons}}
+
+Death of Paul Flynn (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ruth Jones & Lab & 9308\\
+Matthew Evans & C & 7357\\
+Neil Hamilton & UKIP & 2023\\
+Jonathan Clark & PC & 1185\\
+Ryan Jones & LD & 1088\\
+Amelia Womack & Grn & 924\\
+June Davies & Renew & 879\\
+Richard Suchorzewski & AWA & 205\\
+Ian McLean & SDP & 202\\
+Phillip Taylor & DVP & 185\\
+Hugh Nicklin & ForBritn & 159\\
+\end{tabular*}
+
+\section*{Peterborough \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[6th June]}
+
+\index{Peterborough , House of Commons@Peterborough, \emph{House of Commons}}
+
+Unseating of Fiona Onasanya (Lab) by recall petition.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Lisa Forbes & Lab & 10484\\
+	Mike Greene & Brexit & 9801\\
+	Paul Bristow & C & 7243\\
+	Andrew Moore & Ind & 101\\
+	Beki Sellick & LD & 4159\\
+	Joseph Wells & Grn & 1035\\
+	John Whitby & UKIP & 400\\
+	Tom Rogers & CPA & 162\\
+	Stephen Goldspink & EDP & 153\\
+	Patrick O'Flynn & SDP & 135\\
+	Howling Laud Hope & Loony & 112\\
+	Dick Rodgers & CGood & 60\\
+	Peter Ward & Renew & 45\\
+	Pierre Kirk & UKEU & 25\\
+	Bobby Smith & Ind & 5\\
+\end{tabular*}
+
+\section*{Brecon and Radnorshire \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[1st August; LD gain from C]}
+
+\index{Brecon and Radnorshire , House of Commons@Brecon \& Radnorshire, \emph{House of Commons}}
+
+Unseating of Christopher Davies (C) by recall petition.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jane Dodds & LD & 13826\\
+Chris Davies & C & 12401\\
+Des Parkinson & Brexit & 3331\\
+Tomos Davies & Lab & 1680\\
+Lady Lily the Pink & Loony & 334\\
+Liz Phillips & UKIP & 242\\
+\end{tabular*}
+
+\chapter{By-elections to devolved assemblies, the European Parliament, and police and crime commissionerships}
+
+\section{Greater London Authority}
+
+There were no by-elections in 2019 to the Greater London Authority.
+
+%Kemi Badenoch (C, London-wide list) resigned in June 2017.  She was replaced from the list by Susan Hall.
+
+\section{National Assembly for Wales}
+
+There were no by-elections in 2019 to the National Assembly for Wales.
+
+Steffan Lewis (PC, South Wales East) died on 11 January 2019.  He was replaced from the list by \emph{to be announced}.
+
+\section{Scottish Parliament}
+
+There was one by-election in 2019 to the Scottish Parliament.
+
+\subsubsection*{Shetland \hspace*{\fill}\nolinebreak[1]%
+\enspace\hspace*{\fill}
+\finalhyphendemerits=0
+[29th August]}
+
+\index{Shetland , Scottish Parliament@Shetland, \emph{Scottish Parliament}}
+
+Resignation of Tavish Scott (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Beatrice Wishart & LD & 5659\\
+Tom Wills & SNP & 3822\\
+Ryan Thomson & Ind & 1286\\
+Brydon Goodlad & C & 425\\
+Debra Nicolson & Grn & 189\\
+Johan Adamson & Lab & 152\\
+Michael Stout & Ind & 134\\
+Ian Scott & Ind & 66\\
+Stuart Martin & UKIP & 60\\
+Peter Tait & Ind & 31\\
+\end{tabular*}
+
+%Rachael Hamilton (C, South of Scotland) resigned on 3 May 2017 in order to contest the above by-election.  She was replaced from the list by Michelle Ballantyne.
+%
+%Douglas Ross MP (C, Highlands and Islands) resigned on 9 June 2017.  He was replaced from the list by Jamie Halcro Johnston.
+%
+%Ross Thomson MP (C, North East) resigned on 9 June 2017.  He was replaced from the list by Tom Mason.
+
+\section{Northern Ireland Assembly}
+
+Vacancies in the Northern Ireland Assembly are filled by co-option.
+No co-options were made in 2019.
+%
+%The following members were co-opted to the Assembly in 2017:
+%\begin{itemize}
+%\item Colm Gildernew (SF) replaced Michelle Gildernew MP following her resignation on 8th June (Fermanagh and South Tyrone).
+%\item Trevor Clarke (DUP) replaced Paul Girvan MP following his resignation on 8th June (South Antrim).
+%\item Emma Rogan (SF) replaced Chris Hazzard MP following his resignation on 8th June (South Down).
+%\item Karen Mullan (SF) replaced Elisha McCallion MP following her resignation on 8th June (Foyle).
+%\item Catherine Kelly (SF) replaced Barry McElduff MP following his resignation on 8th June (West Tyrone).
+%\end{itemize}
+
+\section{European Parliament}
+
+UK vacancies in the European Parliament are filled by the next available person from the party list at the most recent election (which was held in 2014). 
+No replacements were made in 2019.
+%The following replacements were made in 2017:
+%\begin{itemize}
+%\item John Howarth (Lab) replaced Anneliese Dodds following her resignation on 8th June (South East).
+%\item John Flack (C) replaced Vicky Ford following her resignation on 8th June (Eastern).
+%\item Wajid Khan (Lab) replaced Afzal Khan following his resignation on 8th June (North West).
+%\item Rupert Matthews (C) replaced Andrew Lewer following his resignation on 8th June (East Midlands).
+%\item Baroness Mobarik (C) replaced Ian Duncan following his resignation on 22nd June (Scotland).
+%\item Jonathan Bullock (UKIP) replaced Roger Helmer following his resignation on 28th July (East Midlands).
+%\item Rory Palmer (Lab) replaced Dame Glenis Willmott following her resignation on 2nd October (East Midlands).
+%\end{itemize}
+
+The UK ceased to be a member of the European Union on 31st October 2019 and the terms of British MEPs accordingly ended on that date.
+
+\section{Police and crime commissioners}
+
+There was one by-election in 2019 a for vacant police and crime commissioner post.
+
+\subsection*{Northumbria \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July]}
+
+\index{Northumbria Police and Crime Commissioner}
+
+Resignation of Vera Baird (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{First preferences}\\
+Cara McGuinness & Lab & 58355\\
+Georgina Hill & Ind & 33704\\
+Robbie Moore & C & 33267\\
+Jonathan Wallace & LD & 28623\\
+\end{tabular*}
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Runoff}\\
+	Cara McGuinness & Lab & 67332\\
+	Georgina Hill & Ind & 61633\\
+\end{tabular*}
+
+\chapter{Local by-elections and unfilled vacancies}
+
+\begin{resultsiii}
+
+\section{North London}
+
+\subsection*{City of London}
+
+\subsubsection*{Billingsgate
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[31st January]}
+
+\index{Billingsgate , City of London@Billingsgate, \emph{City of London}}
+
+Aldermanic election: resignation of Matthew Richardson (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Bronek Masojada & Ind & 52\\
+Andrew Heath-Richardson & Ind & 25\\
+Rachel Kent & Ind & 15\\
+Alpa Raja & Ind & 9\\
+Havilland de Sausmarez & Ind & 8\\
+Jonathan Bergdahl & SDP & 0\\
+\end{tabular*}
+
+\subsubsection*{Bassishaw
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Tuesday 30th April]}
+
+\index{Bassishaw , City of London@Bassishaw, \emph{City of London}}
+
+Aldermanic election: resignation of Timothy Hailes (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Timothy Hailes & Ind & 118\\
+Ian Bishop-Laggett & Ind & 55\\
+\end{tabular*}
+
+\subsubsection*{Cordwainer
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Tuesday 30th April]}
+
+\index{Cordwainer , City of London@Cordwainer, \emph{City of London}}
+
+Resignation of Sir Mark Boleat (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Tracey Graham & Ind & 79\\
+Timothy Becker & Ind & 5\\
+\end{tabular*}
+
+\subsubsection*{Farringdon Within
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 24th July; result decided by drawing of lots]}
+
+\index{Farringdon Within , City of London@Farringdon Wn., \emph{City of London}}
+
+Resignation of Stuart Fraser (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+John Edwards & Ind & 85\\
+Virginia Rounding & Ind & 84\\
+David Barker & Ind & 50\\
+Paul O'Brien & Lab & 42\\
+Ciara Murphy & Ind & 22\\
+Emma Palmer & Ind & 3\\
+\end{tabular*}
+
+\subsubsection*{Coleman Street
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Tuesday 30th July]}
+
+\index{Coleman Street , City of London@Coleman St., \emph{City of London}}
+
+Resignation of Stuart Fraser (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Dawn Wright & Ind & 72\\
+Alpa Raja & Ind & 39\\
+Bren Albiston & Lab & 21\\
+Timothy Becker & Ind & 15\\
+\end{tabular*}
+
+\subsubsection*{Lime Street
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 7th August]}
+
+\index{Lime Street , City of London@Lime St., \emph{City of London}}
+
+Aldermanic election: resignation of Sir Charles Bowman (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sir Charles Bowman & Ind & \emph{unop.}\\
+\end{tabular*}
+
+\subsubsection*{Vintry
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 7th August]}
+
+\index{Vintry , City of London@Vintry, \emph{City of London}}
+
+Aldermanic election: resignation of Sir Andrew Parmley (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sir Andrew Parmley & Ind & \emph{unop.}\\
+\end{tabular*}
+
+\subsubsection*{Aldersgate
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 13th November]}
+
+\index{Aldersgate , City of London@Aldersgate, \emph{City of London}}
+
+Resignation of Richard Crossen (Lab).
+
+\subsection*{Hmmersmith and Fulham}
+
+\subsubsection*{Fulham Broadway
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September]}
+
+\index{Fulham Broadway , Hammersmith and Fulham@Fulham Broadway, \emph{Hammersmith \& Fulham}}
+
+Resignation of Alan de'Ath (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Helen Rowbottom & Lab & 1097\\
+Jessie Venegas & LD & 755\\
+Aliya Afzal Khan & C & 628\\
+\end{tabular*}
+
+\subsection*{Havering}
+
+UCRA = Upminster and Cranham Residents Association
+
+\subsubsection*{Cranham
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[9th May]}
+
+\index{Cranham , Havering@Cranham, \emph{Havering}}
+
+Death of Clarence Barrett (UCRA).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Linda van den Hende & UCRA & 2421\\
+Peter Caton & Grn & 312\\
+Ben Sewell & C & 257\\
+Adam Curtis & Lab & 219\\
+Ben Buckland & UKIP & 208\\
+Thomas Clarke & LD & 120\\
+\end{tabular*}
+
+\subsection*{Hounslow}
+
+\subsubsection*{Feltham North
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Feltham North , Hounslow@Feltham N., \emph{Hounslow}}
+
+Death of John Chatt (Lab).
+
+\subsubsection*{Heston West
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Heston West , Hounslow@Heston W., \emph{Hounslow}}
+
+Death of Rajinder Bath (Lab).
+
+\subsection*{Kensington and Chelsea}
+
+\subsubsection*{Dalgarno
+\hspace*{\fill}\nolinebreak[1]%
+\enspace\hspace*{\fill}
+\finalhyphendemerits=0
+[21st March]}
+
+\index{Dalgarno , Kensington and Chelsea@Dalgarno, \emph{Kensington \& Chelsea}}
+
+Resignation of Robert Thompson (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kasim Ali & Lab & 719\\
+Samia Bentayeb & C & 306\\
+Alexandra Tatton-Brown & LD & 145\\
+Callum Dorrington Hutton & UKIP & 68\\
+Angela Georgievski & Grn & 61\\
+\end{tabular*}
+
+\subsection*{Tower Hamlets}
+
+House = House Party
+
+\subsubsection*{Lansbury
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February]}
+
+\index{Lansbury , Tower Hamlets@Lansbury, \emph{Tower Hamlets}}
+
+Resignation of Mohammad Harun (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Rajib Ahmed & Lab & 1308\\
+Ohid Ahmed & Aspire & 1002\\
+Muhammad Abul Asad & LD & 290\\
+Paul Shea & UKIP & 176\\
+Mumshad Afruz & C & 175\\
+John Urpeth & Grn & 166\\
+Terence McGrenera & House & 89\\
+\end{tabular*}
+
+\subsubsection*{Shadwell
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February; Aspire gain from Lab]}
+
+\index{Shadwell , Tower Hamlets@Shadwell, \emph{Tower Hamlets}}
+
+Resignation of Ruhul Amin (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mohammad Harun Miah & Aspire & 1012\\
+Asik Rahman & Lab & 914\\
+Abjol Miah & LD & 484\\
+Daryl Stafford & C & 185\\
+Tim Kiely & Grn & 125\\
+Kazi Gous-Miah & Ind & 119\\
+Elena Scherbatykh & WEP & 65\\
+\end{tabular*}
+
+\section{South London}
+
+\subsection*{Croydon}
+
+\subsubsection*{Norbury and Pollards Hill
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th March]}
+
+\index{Norbury and Pollards Hill , Croydon@Norbury \& Pollards Hill, \emph{Croydon}}
+
+Death of Maggie Mansell (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Leila Ben-Hassell & Lab & 1379\\
+Tirena Gunter & C & 324\\
+Mark O'Grady & Ind & 162\\
+Rachel Chance & Grn & 91\\
+Margaret Roznerska & Ind & 72\\
+Guy Burchett & LD & 70\\
+Kathleen Garnier & UKIP & 40\\
+\end{tabular*}
+
+\subsubsection*{Fairfield
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Fairfield , Croydon@Fairfield, \emph{Croydon}}
+
+Resignation of Niroshan Sirisena (Lab).
+
+\subsection*{Lambeth}
+
+\subsubsection*{Thornton
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February]}
+
+\index{Thornton , Lambeth@Thornton, \emph{Lambeth}}
+
+Resignation of Jane Edbrooke (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Stephen Donnelly & Lab & 1154\\
+Rebecca Macnair & LD & 845\\
+Adrian Audsley & Grn & 251\\
+Martin Read & C & 247\\
+Leila Fazal & WEP & 46\\
+John Plume & UKIP & 36\\
+\end{tabular*}
+
+\subsubsection*{Thornton
+	\hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th April]}
+
+\index{Thornton , Lambeth@Thornton, \emph{Lambeth}}
+
+Resignation of Lib Peck (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Nanda Manley-Browne & Lab & 998\\
+Matthew Bryant & LD & 979\\
+Adrian Audsley & Grn & 171\\
+Martin Read & C & 166\\
+Leila Fazal & WEP & 53\\
+John Plume & UKIP & 39\\
+\end{tabular*}
+
+\subsection*{Lewisham}
+
+DVP = Democrats and Veterans Party
+
+LPFP = Lewisham People Before Profit
+
+\subsubsection*{Evelyn \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Evelyn , Lewisham@Evelyn, \emph{Lewisham}}
+
+Resignation of Alex Feis-Bryce (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Lionel Openshaw & Lab & 1681\\
+James Braun & Grn & 702\\
+Eleanor Reader-Moore & C & 231\\
+Bunmi Wajero & LD & 200\\
+Joyce Jacca & LPFP & 151\\
+Richard Day & UKIP & 140\\
+Nicke Adebowale & WEP & 71\\
+Matt Jenkins & DVP & 13\\
+\end{tabular*}
+
+\subsubsection*{Whitefoot \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Whitefoot , Lewisham@Whitefoot, \emph{Lewisham}}
+
+Resignation of Janet Daby MP (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kim Powell & Lab & 1314\\
+Max Brockbank & LD & 514\\
+Ben Blackmore & C & 313\\
+Gwenton Sloley & LPBP & 218\\
+Katherine Hortense & CPA & 52\\
+Cairis Grant-Hickey & WEP & 41\\
+Massimo Dimambro & DVP & 28\\
+\end{tabular*}
+
+\subsection*{Merton}
+
+\subsubsection*{Cannon Hill \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June; LD gain from Lab]}
+
+\index{Cannon Hill , Merton@Cannon Hill, \emph{Merton}}
+
+Resignation of Mark Kenny (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jenifer Gould & LD & 1060\\
+Ryan Barnett & Lab & 875\\
+Michael Paterson & C & 867\\
+Susie O'Connor & Grn & 158\\
+Andrew Mills & UKIP & 68\\
+\end{tabular*}
+
+\subsection*{Richmond upon Thames}
+
+WomensEq = Women's Equality Party
+
+\subsubsection*{East Sheen \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July]}
+
+\index{East Sheen , Richmond upon Thames@East Sheen, \emph{Richmond upon Thames}}
+
+Death of Mona Adams (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Julia Cambridge & LD & 1809\\
+Helen Edward & C & 1090\\
+Trixie Rawlinson & WomensEq & 90\\
+Giles Oakley & Lab & 82\\
+\end{tabular*}
+
+\subsection*{Sutton}
+
+\subsubsection*{Wallington North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[28th March]}
+
+\index{Wallington North , Sutton@Wallington N., \emph{Sutton}}
+
+Resignation of Joyce Melican (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Barry Lewis & LD & 1039\\
+Charlotte Leonard & C & 709\\
+Gervais Sawyer & Ind & 381\\
+Sheila Berry & Lab & 301\\
+Verity Thomson & Grn & 166\\
+John Bannon & UKIP & 104\\
+Ashley Dickenson & CPA & 17\\
+\end{tabular*}
+
+\subsection*{Wandsworth}
+
+\subsubsection*{Furzedown \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June]}
+
+\index{Furzedown , Wandsworth@Furzedown, \emph{Wandsworth}}
+
+Resignation of Candida Jones (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Graham Loveland & Lab & 1811\\
+Jon Irwin & LD & 887\\
+Nabi Toktas & C & 681\\
+Gerard Harrison & Grn & 318\\
+\end{tabular*}
+
+\section{Greater Manchester}
+
+\subsection*{Bury}
+
+Radcl1st = Radcliffe First
+
+\subsubsection*{Radcliffe West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[29th August; Radcl1st gain from Lab]}
+
+\index{Radcliffe West , Bury@Radcliffe W., \emph{Bury}}
+
+Resignation of Rishi Shori (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mike Smith & Radcl1st & 824\\
+Jamie Walker & Lab & 708\\
+Jordan Lewis & C & 283\\
+Kingsley Jones & LD & 113\\
+Anthony Clough & UKIP & 50\\
+\end{tabular*}
+
+\subsubsection*{Church \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Church , Bury@Church, \emph{Bury}}
+
+Death of Susan Nuttall (C).
+
+\subsection*{Manchester}
+
+\subsubsection*{Fallowfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Fallowfield , Manchester@Fallowfield, \emph{Manchester}}
+
+Resignation of Grace Fletcher-Hackwood (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{ManchesterFallowfield} for the result.
+
+\subsection*{Salford}
+
+\subsubsection*{Walkden South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June; Lab gain from C]}
+
+\index{Walkden South , Salford@Walkden S., \emph{Salford}}
+
+Ordinary election postponed from 2nd May: death of candidate Andrew Darlington (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Joshua Brooks & Lab & 802\\
+David Cawdrey & C & 654\\
+Thomas Dylan & Grn & 254\\
+John-Paul Atley & LD & 173\\
+Tony Green & UKIP & 148\\
+\end{tabular*}
+
+\subsubsection*{Pendlebury \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Pendlebury , Salford@Pendlebury, \emph{Salford}}
+
+Death of John Ferguson (Lab).
+
+\subsection*{Stockport}
+
+\subsubsection*{Hazel Grove \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[1st August]}
+
+\index{Hazel Grove , Stockport@Hazel Grove, \emph{Stockport}}
+
+Resignation of Jon Twigge (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Charles Gibson & LD & 1401\\
+Oliver Johnstone & C & 1194\\
+Julie Wharton & Lab & 329\\
+Michael Padfield & Grn & 142\\
+\end{tabular*}
+
+\section{Merseyside}
+
+\subsection*{Liverpool}
+
+OSAC = Old Swan Against the Cuts
+
+\subsubsection*{Old Swan \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September]}
+
+\index{Old Swan , Liverpool@Old Swan, \emph{Liverpool}}
+
+Resignation of Peter Brennan (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+William Shortall & Lab & 1153\\
+Mick Coyne & Lib & 293\\
+Chris Lea & LD & 272\\
+Martin Ralph & OSAC & 138\\
+George Maxwell & Grn & 130\\
+Peter Andrew & C & 96\\
+\end{tabular*}
+
+\subsubsection*{Princes Park \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th October]}
+
+\index{Princes Park , Liverpool@Princes Park, \emph{Liverpool}}
+
+Resignation of Timothy Moore (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Joanne Anderson & Lab & -\\
+Alma McGing & C & -\\
+Stephanie Pitchers & Grn & -\\
+Lee Rowlands & LD & -\\
+\end{tabular*}
+
+\subsubsection*{Picton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Picton , Liverpool@Picton, \emph{Liverpool}}
+
+Resignation of Paul Kenyon (Lab).
+
+\subsection*{Sefton}
+
+\subsubsection*{Norwood \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Norwood , Sefton@Norwood, \emph{Sefton}}
+
+Resignation of Bill Welsh (Lab elected as LD).
+
+Combined with the 2019 ordinary election; see page \pageref{SeftonNorwood} for the result.
+
+\section{Tyne and Wear}
+
+\subsection*{Newcastle upon Tyne}
+
+\subsubsection*{Monument \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Monument , Newcastle upon Tyne@Monument, \emph{Newcastle upon Tyne}}
+
+Resignation of Rosie Hogg (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{NewcastleTyneMonument} for the result.
+
+\subsection*{South Tyneside}
+
+\subsubsection*{Cleadon and East Boldon \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Cleadon and East Boldon , South Tyneside@Cleadon \& E. Boldon, \emph{S. Tyneside}}
+
+Death of David Townsley (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{SouthTynesideCleadonEastBoldon} for the result.
+
+\subsection*{Sunderland}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Washington South ward due to the disqualification (non-attendance) of Paul Middleton (Lab).
+\index{Washington South , Sunderland@Washington S., \emph{Sunderland}}
+
+\subsubsection*{Sandhill \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Sandhill , Sunderland@Sandhill, \emph{Sunderland}}
+
+Resignation of Lynn Appleby (Ind elected as LD).
+
+Combined with the 2019 ordinary election; see page \pageref{SandhillSunderland} for the result.
+
+\section{West Midlands}
+
+\subsection*{Coventry}
+
+\subsubsection*{Wainbody \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[5th September]}
+
+\index{Wainbody , Coventry@Wainbody, \emph{Coventry}}
+
+Death of Gary Crookes (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mattie Heaven & C & 1560\\
+James Morshead & LD & 634\\
+Abdul Jobbar & Lab & 544\\
+George Beamish & Brexit & 193\\
+\end{tabular*}
+
+\subsection*{Wolverhampton}
+
+\subsubsection*{Tettenhall Wightwick \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Tettenhall Wightwick , Wolverhampton@Tettenhall Wightwick, \emph{Wolverhampton}}
+
+Resignation of Arun Photay (C).
+
+Combined with the 2019 ordinary election; see page \pageref{WolverhamptonTettenhallWightwick} for the result.
+
+\subsubsection*{Wednesfield South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Wednesfield South , Wolverhampton@Wednesfield S., \emph{Wolverhampton}}
+
+Resignation of Paula Brookfield (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{WolverhamptonWednesfieldSouth} for the result.
+
+\section{West Yorkshire}
+
+\subsection*{Bradford}
+
+\subsubsection*{Bolton and Undercliffe \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February; LD gain from Lab]}
+
+\index{Bolton and Undercliffe , Bradford@Bolton \& Undercliffe, \emph{Bradford}}
+
+Death of Ian Greenwood (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Rachel Sunderland & LD & 1733\\
+Amriz Hussain & Lab & 1153\\
+Ranbir Singh & C & 418\\
+Phil Worsnop & Grn & 73\\
+\end{tabular*}
+
+\subsection*{Kirklees}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Bistall and Birkenshaw ward due to the resignation of Robert Light (C).
+\index{Birstall and Birkenshaw , Kirklees@Birstall \& Birkenshaw, \emph{Kirklees}}
+
+\subsection*{Leeds}
+
+\subsubsection*{Wetherby \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Wetherby , Leeds@Wetherby, \emph{Leeds}}
+
+Death of Gerald Wilkinson (C).
+
+\section{Bedfordshire}
+
+\subsection*{Luton}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Stopsley ward due to the resignation of Meryl Dolling (LD).
+\index{Stopsley , Luton@Stopsley, \emph{Luton}}
+
+\subsubsection*{Icknield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[26th September; Lab gain from C]}
+
+\index{Icknield , Luton@Icknield, \emph{Luton}}
+
+Death of Mike Garrett (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Asif Masood & Lab & 585\\
+John Baker & C & 563\\
+Steve Moore & LD & 407\\
+Marc Scheimann & Grn & 37\\
+\end{tabular*}
+
+\section{Berkshire}
+
+\subsection*{Reading}
+
+\subsubsection*{Thames \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Thames , Reading@Thames, \emph{Reading}}
+
+Resignation of Ed Hopper (C).
+
+Combined with the 2019 ordinary election; see page \pageref{ThamesReading} for the result.
+
+\subsection*{West Berkshire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Greenham ward due to the resignation of Jeremy Bartlett (C).
+\index{Greenham , West Berkshire@Greenham, \emph{W. Berks.}}
+
+\subsection*{Windsor and Maidenhead}
+
+tBf = the Borough first
+
+WEP = Women's Equality Party
+
+\subsubsection*{Riverside \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 30th October]}
+
+\index{Riverside , Windsor and Maidenhead@Riverside, \emph{Windsor \& Maidenhead}}
+
+Resignation of Simon Dudley (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sharon Bunce & Lab & -\\
+Gregory Jones & C & -\\
+Deborah Mason & WEP & -\\
+Craig McDermott & Grn & -\\
+Kashmir Singh & LD & -\\
+Claire Stretton & tBf & -\\
+\end{tabular*}
+
+\subsection*{Wokingham}
+
+\subsubsection*{Evendons \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February]}
+
+\index{Evendons , Wokingham@Evendons, \emph{Wokingham}}
+
+Resignation of Helen Power (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sarah Kerr & LD & 1441\\
+Daniel Clawson & C & 729\\
+Tim Lloyd & Lab & 115\\
+\end{tabular*}
+
+\section{Buckinghamshire}
+
+EWycombe = East Wycombe Independents
+
+\subsection*{County Council}
+
+\subsubsection*{Totteridge and Bowerdean \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th February; Lab gain from EWycombe]}
+
+\index{Totteridge and Bowerdean , Buckinghamshire@Totteridge \& Bowerdean, \emph{Bucks.}}
+
+Death of Chaudhary Ditta (EWycombe).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Israr Rashid & Lab & 978\\
+Matt Knight & EWycombe & 668\\
+Ben Holkham & LD & 508\\
+Richard Peters & C & 245\\
+\end{tabular*}
+
+\subsection*{Aylesbury Vale}
+
+\subsubsection*{Haddenham and Stone \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th March; Grn gain from C]}
+
+\index{Haddenham and Stone , Aylesbury Vale@Haddenham \& Stone, \emph{Aylesbury Vale}}
+
+Death of Michael Edmonds (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+David Lyons & Grn & 1210\\
+Mark Bale & C & 781\\
+Jim Brown & LD & 333\\
+Jennifer Tuffley & Lab & 59\\
+\end{tabular*}
+
+\section{Cambridgeshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Trumpington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Trumpington , Cambridge@Trumpington, \emph{Cambridge}}
+
+Resignation of Donald Adey (Ind elected as LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Barbara Ashwood & LD & 1328\\
+Rob Grayston & Lab & 741\\
+Shapour Meftah & C & 452\\
+Beverley Carpenter & Grn & 325\\
+\end{tabular*}
+
+\subsection*{Cambridge}
+
+\subsubsection*{King's Hedges \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{King's Hedges , Cambridge@King's Hedges, \emph{Cambridge}}
+
+Death of Nigel Gawthrope (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{CambridgeKingsHedges} for the result.
+
+\subsubsection*{Trumpington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Trumpington , Cambridge@Trumpington, \emph{Cambridge}}
+
+Resignation of Donald Adey (Ind elected as LD).
+
+Combined with the 2019 ordinary election; see page \pageref{CambridgeTrumpington} for the result.
+
+\subsubsection*{Newnham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[8th August]}
+
+\index{Newnham , Cambridge@Newnham, \emph{Cambridge}}
+
+Resignation of Lucy Nethsingha MEP (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Josh Matthews & LD & 774\\
+Niamh Sweeney & Lab & 235\\
+Mark Slade & Grn & 149\\
+Michael Spencer & C & 143\\
+\end{tabular*}
+
+\subsection*{Huntingdonshire}
+
+\subsubsection*{Godmanchester and Hemingford Abbots \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[1st August]}
+
+\index{Godmanchester and Hemingford Abbots , Huntingdonshire@Godmanchester \& Hemingford Abbots, \emph{Hunts.}}
+
+Resignation of David Underwood (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sarah Wilson & LD & 929\\
+Paula Sparling & C & 666\\
+Nigel Pauley & Ind & 333\\
+\end{tabular*}
+
+\subsection*{Peterborough}
+
+At the May 2019 ordinary election there were unfilled vacancies in East and Park wards due to the resignations of Matthew Mahabadi and Richard Ferris (both Lab) respectively.
+\index{East , Peterborough@East, \emph{Peterborough}}
+\index{Park , Peterborough@Orton Longueville, \emph{Peterborough}}
+
+\section{Cheshire}
+
+\subsection*{Cheshire East}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Haslington ward due to the death of John Hammond (C).
+\index{Haslington , Cheshire East@Haslington, \emph{Ches. E.}}
+
+\section{Cornwall}
+
+\subsection*{Cornwall}
+
+\subsubsection*{Wadebridge West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Wadebridge West , Cornwall@Wadebridge W., \emph{Cornwall}}
+
+Resignation of Karen McHugh (LD).
+
+\subsection*{Isles of Scilly}
+
+\subsubsection*{St Mary's \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[23rd May]}
+
+\index{Saint Mary's , Isles of Scilly@St Mary's, \emph{Isles of Scilly}}
+
+Resignation of Ted Moulson (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Tim Dean & Ind & 281\\
+Jeanette Ware & Ind & 206\\
+Steve Whomersley & Ind & 91\\
+Andrew Coombes & Ind & 86\\
+\end{tabular*}
+
+\section{Cumbria}
+
+\subsection*{County Council}
+
+\subsubsection*{Thursby \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Thursby , Cumbria@Thursby, \emph{Cumbria}}
+
+Death of Duncan Fairbairn (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mike Johnson & C & \emph{unop.}\\
+\end{tabular*}
+
+\subsection*{Allerdale}
+
+At the May 2019 ordinary election there were unfilled vacancies in Ewanrigg, Keswick, Moorclose and Warnell wards due to the resignation of Lee Williamson (Lab) and the deaths of Martin Pugmore and Denis Robertson (Ind) and Duncan Fairbairn (C) respectively.
+\index{Ewanrigg , Allerdale@Ewanrigg, \emph{Allerdale}}
+\index{Keswick , Allerdale@Keswick, \emph{Allerdale}}
+\index{Moorclose , Allerdale@Moorclose, \emph{Allerdale}}
+\index{Warnell , Allerdale@Warnell, \emph{Allerdale}}
+
+\subsection*{Copeland}
+
+At the May 2019 ordinary election there were unfilled vacancies in Distington and Kells wards due to the death of John Bowman (Lab) and the disqualification (non-attendance) of Michael Guest (Ind) respectively.
+\index{Distington , Copeland@Distington, \emph{Copeland}}
+\index{Kells , Copeland@Kells, \emph{Copeland}}
+
+\subsection*{Eden}
+
+Cumbria = Putting Cumbria First
+
+\subsubsection*{Penrith South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[5th September; C gain from Ind]}
+
+\index{Penrith South , Eden@Penrith S., \emph{Eden}}
+
+Death of Paul Connor (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Helen Fearon & C & 222\\
+Lee Quinn & Ind & 189\\
+Dave Knaggs & Lab & 46\\
+Kerryanne Wilde & Cumbria & 23\\
+\end{tabular*}
+
+\subsubsection*{Shap \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Shap , Eden@Shap, \emph{Eden}}
+
+Resignation of John Owen (C).
+
+\section{Derbyshire}
+
+\subsection*{Derbyshire Dales}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ashbourne North ward due to the death of Tony Millward (C).
+\index{Ashbourne North , Derbyshire Dales@Ashbourne N., \emph{Derbys. Dales}}
+
+\subsection*{South Derbyshire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Hilton ward due to the resignation of Amy Plenderleith (C).
+\index{Hilton , South Derbyshire@Hilton, \emph{S. Derbys.}}
+
+\section{Devon}
+
+\subsection*{County Council}
+
+ForBritn = The For Britain Movement
+
+\subsubsection*{Heavitree and Whipton Barton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Heavitree and Whipton Barton , Devon@Heavitree \& Whipton Barton, \emph{Devon}}
+
+Resignation of Emma Brennan (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+John Harvey & C & -\\
+Frankie Rufolo & ForBritn & -\\
+Greg Sheldon & Lab & -\\
+Rowena Squires & LD & -\\
+Lizzie Woodman & Grn & -\\
+\end{tabular*}
+
+\subsection*{East Devon}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Exmouth Town ward due to the death of Bill Nash (C).
+\index{Exmouth Town , East Devon@Exmouth Town, \emph{E. Devon}}
+
+\subsection*{Exeter}
+
+\subsubsection*{Priory \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Priory , Exeter@Priory, \emph{Exeter}}
+
+Resignation of Kate Hannan (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{ExeterPriory} for the result.
+
+\subsection*{Mid Devon}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Silverton ward due to the death of Jenny Roach (Lib).
+\index{Silverton , Mid Devon@Silverton, \emph{Mid Devon}}
+
+\subsection*{North Devon}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Pilton ward due to the resignation of Mair Manuel (LD).
+\index{Pilton , North Devon@Pilton, \emph{N. Devon}}
+
+\subsubsection*{Chittlehampton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[13th June]}
+
+\index{Chittlehampton , North Devon@Chittlehampton, \emph{N. Devon}}
+
+Ordinary election postponed from 2nd May: death of outgoing councillor Walter White (Ind) who was seeking re-election.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ray Jenkins & C & 323\\
+Neil Basil & Grn & 248\\
+Victoria Nel & LD & 221\\
+Cecily Blyther & Lab & 16\\
+\end{tabular*}
+
+\subsection*{South Hams}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Charterlands ward due to the resignation of Elizabeth Huntley (LD).
+\index{Charterlands , South Hams@Charterlands, \emph{S. Hams}}
+
+\subsection*{Teignbridge}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Teign Valley ward due to the resignation of Amanda Ford (C).
+\index{Teign Valley , Teignbridge@Teign Valley, \emph{Teignbridge}}
+
+\subsection*{Torbay}
+
+\subsubsection*{Goodrington-with-Roselands \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Goodrington-with-Roselands , Torbay@Goodrington-with-Roselands, \emph{Torbay}}
+
+Resignation of Rick Heyse (LD).
+
+\subsection*{Torridge}
+
+At the May 2019 ordinary election there were unfilled vacancies in Bideford East and Winkleigh wards due to the death of Mervyn Langmead and the resignation of Betty Boundy (both C) respectively.
+\index{Bideford East , Torridge@Bideford E., \emph{Torridge}}
+\index{Winkleigh , Torridge@Winkleigh, \emph{Torridge}}
+
+\section{Dorset}
+
+\subsection*{Weymouth and Portland}
+
+At the abolition of Weymouth and Portland council in April 2019 there were unfilled vacancies in Radipole and Tophill West wards due to the resignations of Ian Roebuck (LD) and Kerry Baker (C) respectively.
+\index{Radipole , Weymouth and Portland@Radipole, \emph{Weymouth \& Portland}}
+\index{Tophill West , Weymouth and Portland@Tophill W., \emph{Weymouth \& Portland}}
+
+\section{Durham}
+
+\subsection*{Durham}
+
+ForBritn = For Britain Movement
+
+NEP = North East Party
+
+Spennymr = Spennymoor Independent
+
+\subsubsection*{Wingate \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th March]}
+
+\index{Wingate , Durham@Wingate, \emph{Durham}}
+
+Death of Leo Taylor (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+John Higgins & Lab & 458\\
+Edwin Simpson & LD & 163\\
+Stephen Miles & NEP & 74\\
+Gareth Fry & ForBritn & 20\\
+\end{tabular*}
+
+\subsubsection*{Esh and Witton Gilbert \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st March]}
+
+\index{Esh and Witton Gilbert , Durham@Esh \& Witton Gilbert, \emph{Durham}}
+
+Resignation of Michael McGaun (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Beverley Coult & LD & 1115\\
+Anne Bonner & Lab & 366\\
+Ryan Drion & Ind & 155\\
+Richard Lawrie & C & 128\\
+\end{tabular*}
+
+\subsubsection*{Shildon and Dene Valley \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May; LD gain from Lab]}
+
+\index{Shildon and Dene Valley , Durham@Shildon \& Dene Valley, \emph{Durham}}
+
+Death of Henry Nicholson (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+James Huntington & LD & 1257\\
+Samantha Townsend & Lab & 682\\
+Alan Breeze & UKIP & 456\\
+Robert Ingledew & Ind & 415\\
+Marie Carter-Robb & C & 131\\
+\end{tabular*}
+
+\subsubsection*{Spennymoor \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May; Ind gain from Spennymr]}
+
+\index{Spennymoor , Durham@Spenymoor, \emph{Durham}}
+
+Resignation of Geoffrey Darkes (Spennymr).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ian Geldard & Ind & 489\\
+Colin Nelson & Lab & 420\\
+Martin Jones & LD & 373\\
+Billy McAloon & Ind & 358\\
+Pete Molloy & Ind & 332\\
+Bob Purvis & UKIP & 281\\
+Ronald Highley & Spennymr & 221\\
+James Cosslett & C & 137\\
+\end{tabular*}
+
+\subsection*{Hartlepool}
+
+ForBritn = For Britain Movement
+
+IndU = Independent Union
+
+\subsubsection*{Hart \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[25th July]}
+
+\index{Hart , Hartlepool@Hart, \emph{Hartlepool}}
+
+Resignation of Jean Robinson (Ind elected as Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ann Johnson & Lab & 366\\
+Ian Griffths & IndU & 358\\
+Michael Ritchie & Grn & 196\\
+Graham Craddy & ForBritn & 166\\
+Graham Harrison & UKIP & 114\\
+\end{tabular*}
+
+\section{East Sussex}
+
+\subsection*{County Council}
+
+\subsubsection*{Bexhill West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th January]}
+
+\index{Bexhill West , East Sussex@Bexhill W., \emph{E. Sussex}}
+
+Death of Stuart Earl (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Deirdre Earl-Williams & Ind & 1761\\
+Martin Kenward & C & 1071\\
+Richard Thomas & LD & 261\\
+Jacque Walker & Lab & 111\\
+Polly Gray & Grn & 107\\
+Geoffrey Bastin & UKIP & 81\\
+\end{tabular*}
+
+\subsection*{Brighton and Hove}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Hollingdean and Stanmer ward due to the resignation of Caroline Penn (Lab).
+\index{Hollingdean and Stanmer , Brighton and Hove@Hollingdean \& Stanmer, \emph{Brighton \& Hove}}
+
+\subsection*{Eastbourne}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Sovereign ward due to the resignation of Gordon Jenkins (C).
+\index{Sovereign , Eastbourne@Sovereign, \emph{Eastbourne}}
+
+\subsection*{Rother}
+
+At the May 2019 ordinary election there was an unfilled vacancy in St Marks ward due to the resignation of Tom Graham (C).
+\index{Saint Marks , Rother@St Marks, \emph{Rother}}
+
+\subsubsection*{St Marks \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th January]}
+
+\index{Saint Marks , Rother@St Marks, \emph{Rother}}
+
+Death of Stuart Earl (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kathy Harmer & Ind & 1000\\
+Gino Forte & C & 521\\
+John Walker & Lab & 79\\
+John Zipser & UKIP & 48\\
+\end{tabular*}
+
+\section{East Yorkshire}
+
+\subsection*{East Riding}
+
+Yorks = Yorkshire Party
+
+\subsubsection*{Bridlington North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th July; LD gain from C]}
+
+\index{Bridlington North , East Yorkshire@Bridlington N., \emph{E. Yorks.}}
+
+Death of Richard Harrap (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mike Heslop-Mullens & LD & 1308\\
+Martin Burnhill & C & 815\\
+Paul Walker & Yorks & 349\\
+Gary Shores & UKIP & 196\\
+Mike Dixon & Lab & 135\\
+Terry Dixon & Ind & 125\\
+David Robson & Ind & 76\\
+Thelma Milns & Ind & 58\\
+\end{tabular*}
+
+\subsection*{Hull}
+
+\subsubsection*{St Andrews and Docklands \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[5th September]}
+
+\index{Saint Andrews and Docklands , Hull@St Andrews \& Docklands, \emph{Hull}}
+
+Death of Nadine Fudge (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Leanne Fudge & Lab & 837\\
+Tracey Henry & LD & 805\\
+Dan Bond & C & 193\\
+\end{tabular*}
+
+\section{Essex}
+
+\subsection*{County Council}
+
+HOSEM = Holland on Sea and Eastcliff Matters
+
+\subsubsection*{Clacton East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October]}
+
+\index{Clacton East , Essex@Clacton E., \emph{Essex}}
+
+Resignation of David Sargeant (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mark Stephenson & Ind & 1231\\
+Chris Amos & C & 1223\\
+K T King & HOSEM & 537\\
+Callum Robertson & LD & 140\\
+Geoff Ely & Lab & 111\\
+Chris Southall & Grn & 47\\
+\end{tabular*}
+
+\subsection*{Basildon}
+
+\subsubsection*{Vange \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st March]}
+
+\index{Vange , Basildon@Vange, \emph{Basildon}}
+
+Resignation of Kayte Block (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Aidan McGurran & Lab & 504\\
+Yetunde Adeshile & C & 478\\
+\end{tabular*}
+
+\subsection*{Braintree}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Hedingham ward due to the resignation of Joanne Beavis (C).
+\index{Hedingham , Braintree@Hedingham, \emph{Braintree}}
+
+\subsection*{Chelmsford}
+
+\subsubsection*{Marconi \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Marconi , Chelmsford@Marconi, \emph{Chelmsford}}
+
+Resignation of Catherine Finnecy (LD).
+
+\subsection*{Rochford}
+
+Rochford = Rochford District Residents
+
+\subsubsection*{Sweyne Park and Grange \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[26th September; C gain from Rochford]}
+
+\index{Sweyne Park and Grange , Rochford@Sweyne Park \& Grange, \emph{Rochford}}
+
+Resignation of Toby Mountain (Rochford).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Danielle Belton & C & 541\\
+Lisa Newport & LD & 407\\
+Jill Waight & Grn & 140\\
+\end{tabular*}
+
+\subsection*{Southend-on-Sea}
+
+ForBritn = The For Britain Movement
+
+\subsubsection*{Milton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st March]}
+
+\index{Milton , Southend-on-Se@Milton, \emph{Southend-on-Sea}}
+
+Death of Julian Ware-Lane (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Stephen George & Lab & 833\\
+Garry Lowen & C & 528\\
+Carol White & LD & 219\\
+James Quail & ForBritn & 89\\
+\end{tabular*}
+
+\subsection*{Tendring}
+
+\subsubsection*{St Osyth \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[23rd May]}
+
+\index{Saint Osyth , Tendring@St Osyth, \emph{Tendring}}
+
+Ordinary election postponed from 2nd May; death of candidate Anita Bailey (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Michael Talbot & Ind & 856\\
+John White & Ind & 850\\
+Dawn Skeels & C & 437\\
+Mark Skeels & C & 430\\
+Tracey Osben & Lab & 177\\
+\end{tabular*}
+
+\subsection*{Thurrock}
+
+Thurrock = Thurrock Independent
+
+\subsubsection*{Aveley and Uplands \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st March; C gain from UKIP]}
+
+\index{Aveley and Uplands , Thurrock@Aveley \& Uplands, \emph{Thurrock}}
+
+Resignation of Tim Aker MEP (Thurrock elected as UKIP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+David Van Day & C & 773\\
+Alan Field & Thurrock & 551\\
+Charles Curtis & Lab & 394\\
+Tomas Pilvelis & LD & 55\\
+\end{tabular*}
+
+\subsubsection*{Chadwell St Mary \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Chadwell Saint Mary , Thurrock@Chadwell St Mary, \emph{Thurrock}}
+
+Resignation of Barbara Rice (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{ThurrockChadwellStMary} for the result.
+
+\subsection*{Uttlesford}
+
+R4U = Residents for Uttlesford
+
+At the May 2019 ordinary election there was an unfilled vacancy in Saffron Walden Shire ward due to the resignation of Aisha Anjum (R4U).
+\index{Saffron Walden Shire , Uttlesford@Saffron Walden Shire, \emph{Uttlesford}}
+
+\section{Gloucestershire}
+
+\subsection*{County Council}
+
+\subsubsection*{Churchdown \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Churchdown , Gloucetsershire@Churchdown, \emph{Glos.}}
+
+Death of Jack Williams (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Benjamin Evans & LD & 1405\\
+Graham Bocking & C & 811\\
+Dick Bishop & Ind & 263\\
+Cate Cody & Grn & 249\\
+Robert McCormick & UKIP & 213\\
+\end{tabular*}
+
+\subsection*{Forest of Dean}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Coleford East ward due to the resignation of Martin Hill (UKIP).
+\index{Coleford East , Forest of Dean@Coleford E., \emph{Forest of Dean}}
+
+\subsubsection*{Newent and Taynton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June]}
+
+\index{Newent and Taynton , Forest of Dean@Newent \& Taynton, \emph{Forest of Dean}}
+
+Ordinary election postponed from 2nd May; death of candidate David Humphreys (Grn).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Julia Gooch & Ind & 551\\
+Gill Moseley & LD & 462\\
+Vilnis Vesma & LD & 423\\
+Len Lawton & C & 404\\
+Eli Heathfield & C & 392\\
+Bob Rhodes & Grn & 306\\
+David Price & Grn & 282\\
+Steve Martin & LD & 266\\
+Johnny Back & Grn & 251\\
+Nick Winter & C & 217\\
+Edward Wood & Ind & 175\\
+Simon Holmes & Ind & 170\\
+Jean Sampson & Lab & 110\\
+\end{tabular*}
+
+\subsection*{Gloucester}
+
+\subsubsection*{Barnwood \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[25th July; LD gain from C]}
+
+\index{Barnwood , Gloucester@Barnwood, \emph{Gloucester}}
+
+Death of Lise Noakes (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ashley Bowkett & LD & 676\\
+Fred Ramsey & C & 496\\
+Peter Sheehy & Brexit & 152\\
+Chris Clee & Lab & 64\\
+Jonathan Ingleby & Grn & 59\\
+Matthew Young & UKIP & 6\\
+\end{tabular*}
+
+\subsubsection*{Podsmead \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[25th July; LD gain from Lab]}
+
+\index{Podsmead , Gloucester@Podsmead, \emph{Gloucester}}
+
+Resignation of Deborah Smith (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sebastian Field & LD & 203\\
+Byron Davis & C & 200\\
+Lisa Jevins & Lab & 122\\
+Rob McCormick & Brexit & 111\\
+Michael Byfield & Grn & 29\\
+Simon Collins & UKIP & 11\\
+\end{tabular*}
+
+\subsection*{South Gloucestershire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Patchway ward due to the resignation of Eve Orpen (Lab).
+\index{Patchway , South Gloucestershire@Patchway, \emph{S. Glos.}}
+
+\subsection*{Stroud}
+
+\subsubsection*{Berkeley Vale \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[28th February]}
+
+\index{Berkeley Vale , Stroud@Berkeley Vale, \emph{Stroud}}
+
+Death of Penny Wride (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Lindsay Green & C & 993\\
+Liz Ashton & Lab & 686\\
+Mike Stayte & LD & 231\\
+Thomas Willetts & Grn & 82\\
+\end{tabular*}
+
+\section{Hampshire}
+
+\subsection*{Basingstoke and Deane}
+
+\subsubsection*{Bramley and Sherfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th October]}
+
+\index{Bramley and Sherfield , Basingstoke and Deane@Bramley \& Sherfield, \emph{Basingstoke \& Deane}}
+
+Resignation of Venetia Rowland (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Chris Tomblin & Ind & 800\\
+Angus Groom & C & 449\\
+Joyce Bowyer & Ind & 150\\
+\end{tabular*}
+
+\subsection*{East Hampshire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Petersfield St Mary's ward due to the resignation of Nicky Noble (C).
+\index{Petersfield Saint Mary's , East Hampshire@Petersfield St Mary's, \emph{E. Hants.}}
+
+\subsection*{Gosport}
+
+BUSP = British Union and Sovereignty Party
+
+\subsubsection*{Brockhurst \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[30th May]}
+
+\index{Brockhurst , Gosport@Brockhurst, \emph{Gosport}}
+
+Death of Austin Hicks (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Siobhan Mitchell & LD & 488\\
+Pecs Uluviti & C & 214\\
+Simon Bellord & BUSP & 165\\
+Kirsty Smillie & Lab & 80\\
+\end{tabular*}
+
+\subsection*{Hart}
+
+\subsubsection*{Hook \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Hook , Hart@Hook, \emph{Hart}}
+
+Resignation of Mike Morris (C).
+
+Combined with the 2019 ordinary election; see page \pageref{HartHook} for the result.
+
+\subsection*{Havant}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Hart Plain ward due to the death of Gerald Shimbart (C).
+\index{Hart Plain , Havant@Hart Plain, \emph{Havant}}
+
+\subsubsection*{Purbrook \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Purbrook , Havant@Purbrook, \emph{Havant}}
+
+Resignation of Adam Christie (C).
+
+Combined with the 2019 ordinary election; see page \pageref{HavantPurbrook} for the result.
+
+\subsection*{New Forest}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Totton Central ward due to the resignation of Brian Lucas (C).
+\index{Totton Central , New Forest@Totton C., \emph{New Forest}}
+
+\subsection*{Portsmouth}
+
+\subsubsection*{Cosham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Cosham , Portsmouth@Cosham, \emph{Portsmouth}}
+
+Disqualification (non-attendance) of Jim Fleming (Ind elected as C).
+
+Combined with the 2019 ordinary election; see page \pageref{PortsmouthCosham} for the result.
+
+\subsection*{Rushmoor}
+
+\subsubsection*{St Mark's \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[12th September]}
+
+\index{Saint Mark's , Rushmoor@St Mark's, \emph{Rushmoor}}
+
+Resignation of Alain Dekker (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Thomas Mitchell & LD & 687\\
+Leon Hargreaves & C & 450\\
+Carl Hewitt & Lab & 118\\
+\end{tabular*}
+
+\subsection*{Southampton}
+
+IntegSO = Integrity Southampton
+
+\subsubsection*{Coxford \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th March; Lab gain from Ind]}
+
+\index{Coxford , Southampton@Coxford, \emph{Southampton}}
+
+Resignation of Keith Morrell (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Matthew Renyard & Lab & 668\\
+Diana Galton & C & 529\\
+Sam Chapman & LD & 450\\
+Sue Atkins & SocAlt & 368\\
+David Fletcher & IntegSO & 178\\
+Richard McQuillan & Ind & 174\\
+Derek Humber & UKIP & 123\\
+Cara Sandys & Grn & 53\\
+\end{tabular*}
+
+\subsection*{Test Valley}
+
+Andover = Andover Alliance
+
+\subsubsection*{Andover St Mary's \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Andover Saint Mary's , Test Valley@Andover St Mary's, \emph{Test Valley}}
+
+Resignation of Kevin Farrer (Andover).
+
+\section{Herefordshire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ross North ward due to the death of Jenny Hyde (C).
+\index{Ross North , Herefordshire@Ross N., \emph{Herefs.}}
+
+IOCH = It's Our County (Herefordshire)
+
+\subsubsection*{Ross North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[6th June]}
+
+\index{Ross North , Herefordshire@Ross N., \emph{Herefs.}}
+
+Ordinary election postponed from 2nd May; death of candidate Gareth Williams (UKIP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Chris Bartrum & LD & 547\\
+Nigel Gibbs & C & 136\\
+Melvin Hodges & Lab & 45\\
+\end{tabular*}
+
+\subsubsection*{Whitecross \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th July]}
+
+\index{Whitecross , Herefordshire@Whitecross, \emph{Herefs.}}
+
+Disqualification of Sue Boulter (IOCH): employed by the council.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Dave Boulter & IOCH & 304\\
+Tricia Hales & LD & 141\\
+Rob Williams & C & 56\\
+\end{tabular*}
+
+\section{Hertfordshire}
+
+\subsection*{Broxbourne}
+
+\subsubsection*{Broxbourne and Hoddesdon South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Broxbourne and Hoddesdon South , Broxbourne@Broxbourne \& Hoddesdon S., \emph{Broxbourne}}
+
+Resignation of Jim Metcalf (C).
+
+Combined with the 2019 ordinary election; see page \pageref{BroxbourneBroxbourneHoddesdonSouth} for the result.
+
+\subsection*{East Hertfordshire}
+
+At the May 2019 ordinary election there were unfilled vacancies in Bishop's Stortford All Saints, and Mundens and Cottered wards due to the disqualification (non-attendance) of Stan Stainsby and the resignation of Paul Kenealy (both C) respectively.
+\index{Bishop's Stortford All Saints , East Hertfordshire@Bishop's Stortford All SS., \emph{E. Herts.}}
+\index{Mundens and Cottered , East Hertfordshire@Mundens \& Cottered, \emph{E. Herts.}}
+
+\subsection*{St Albans}
+
+\subsubsection*{Sopwell \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Sopwell , Saint Albans@Sopwell, \emph{St Albans}}
+
+Resignation of Shakir Rahman (LD).
+
+Combined with the 2019 ordinary election; see page \pageref{SopwellSaintAlbans} for the result.
+
+\subsubsection*{Clarence \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October]}
+
+\index{Clarence , Saint Albans@Clarence, \emph{St Albans}}
+
+Resignation of Caroline Brooke (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Josie Madoc & LD & 1177\\
+Don Deepthi & C & 314\\
+Gary Chambers & Lab & 112\\
+Rebecca Michel & Grn & 107\\
+\end{tabular*}
+
+\subsection*{Three Rivers}
+
+\subsubsection*{Carpenders Park \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Carpenders Park , Three Rivers@Carpenders Park, \emph{Three Rivers}}
+
+Resignation of David Coltman (C).
+
+Combined with the 2019 ordinary election; see page \pageref{CarpendersParkThreeRivers} for the result.
+
+\subsection*{Watford}
+
+\subsubsection*{Meriden \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Meriden , Watford@Meriden, \emph{Watford}}
+
+Resignation of Anthony Barton (LD).
+
+Combined with the 2019 ordinary election; see page \pageref{WatfordMeriden} for the result.
+
+\subsubsection*{Tudor \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th October]}
+
+\index{Tudor , Watford@Tudor, \emph{Watford}}
+
+Resignation of Joe Fahmy (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Bill Stanton & LD & 871\\
+Carly Bishop & C & 490\\
+Seamus Williams & Lab & 210\\
+\end{tabular*}
+
+\subsection*{Welwyn Hatfield}
+
+\subsubsection*{Hatfield East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Hatfield East , Welwyn Hatfield@Hatfield E., \emph{Welwyn Hatfield}}
+
+Resignation of Kerstin Holman-Schmidt (C).
+
+Combined with the 2019 ordinary election; see page \pageref{HatfieldEastWelwynHatfield} for the result.
+
+\subsubsection*{Hatfield South West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Hatfield South West , Welwyn Hatfield@Hatfield S.W., \emph{Welwyn Hatfield}}
+
+Resignation of John Fitzpatrick (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{HatfieldSouthWestWelwynHatfield} for the result.
+
+\section{Isle of Wight}
+
+IIN = Island Independent Network
+
+\subsubsection*{Whippingham and Osborne \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June]}
+
+\index{Whippingham and Osborne , Isle of Wight@Whippingham \& Osborne, \emph{Isle of Wight}}
+
+Resignation of Julia Baker-Smith (Lab elected as Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Stephen Hendry & C & 318\\
+Julie Burridge & LD & 179\\
+Michael Paler & Ind & 167\\
+Luisa Hillard & Lab & 141\\
+Karen Lucioni & IIN & 60\\
+Rose Lynden-Bell & UKIP & 41\\
+\end{tabular*}
+
+\section{Kent}
+
+\subsection*{County Council}
+
+Swale = Swale Independents
+
+\subsubsection*{Northfleet and Gravesend West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Northfleet and Gravesend West , Kent@Northfleet \& Gravesend W., \emph{Kent}}
+
+Resignation of Tan Dhesi MP (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+John Burden & Lab & 3713\\
+Jordan Meade & C & 2404\\
+Emmanuel Feyisetan & UKIP & 1469\\
+Marna Gilligan & Grn & 624\\
+Ukonu Obasi & LD & 333\\
+\end{tabular*}
+
+\subsubsection*{Sittingbourne North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May; Swale gain from C]}
+
+\index{Sittingbourne North , Kent@Sittingbourne N., \emph{Kent}}
+
+Resignation of Sue Gent (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jason Clinch & Swale & 1496\\
+Tony Winckless & Lab & 1341\\
+Sarah Aldridge & C & 1064\\
+Alexander Stennings & LD & 284\\
+\end{tabular*}
+
+\subsection*{Ashford}
+
+Ashford = Ashford Independent
+
+\subsubsection*{Downs North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July]}
+
+\index{Downs North , Ashford@Downs N., \emph{Ashford}}
+
+Death of Stephen Dehnel (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Charles Dehnel & C & 229\\
+Geoff Meaden & Grn & 190\\
+Adrian Gee-Turner & LD & 70\\
+Rachael Carley & Ashford & 67\\
+Philip Meads & UKIP & 22\\
+Carly Ruppert Lingham & Lab & 17\\
+Sarah Williams & Ind & 17\\
+\end{tabular*}
+
+\subsection*{Canterbury}
+
+\subsubsection*{Chestfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September]}
+
+\index{Chestfield , Canterbury@Chestfield, \emph{Canterbury}}
+
+Death of Jenny Samper (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ben Fitter-Harding & C & 728\\
+Peter Old & LD & 562\\
+Morag Warren & Lab & 140\\
+Joe Egerton & Ind & 84\\
+Nicole David & Grn & 68\\
+\end{tabular*}
+
+\subsection*{Dover}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Buckland ward due to the death of Simon Bannister (Lab).
+\index{Buckland , Dover@Buckland, \emph{Dover}}
+
+\subsection*{Gravesham}
+
+\subsubsection*{Westcourt \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th October]}
+
+\index{Westcourt , Gravesham@Westcourt, \emph{Gravesham}}
+
+Death of Ruth Martin (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Helen Ashenden & C & -\\
+Marna Gilligan & Grn & -\\
+Lindsay Gordon & Lab & -\\
+Linda Talbot & UKIP & -\\
+\end{tabular*}
+
+\subsection*{Medway}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Rainham North ward due to the death of David Carr (C).
+\index{Rainham North , Medway@Rainham N., \emph{Medway}}
+
+\subsection*{Thanet}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Margate Central ward due to the disqualification (indirectly employed by the council) of Ian Venables (Lab).
+\index{Margate Central , Thanet@Margate C., \emph{Thanet}}
+
+\subsection*{Tunbridge Wells}
+
+\subsubsection*{Paddock Wood East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Paddock Wood East , Tunbridge Wells@Paddock Wood E., \emph{Tunbridge Wells}}
+
+Resignation of Allan Gooda (C).
+
+Combined with the 2019 ordinary election; see page \pageref{TunbridgeWellsPaddockWoodEast} for the result.
+
+\subsubsection*{Park \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Park , Tunbridge Wells@Park, \emph{Tunbridge Wells}}
+
+Resignation of Peter Bulman (C).
+
+Combined with the 2019 ordinary election; see page \pageref{TunbridgeWellsPark} for the result.
+
+\subsubsection*{Culverden \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Culverden , Tunbridge Wells@Culverden, \emph{Tunbridge Wells}}
+
+Death of Ronen Basu (C).
+
+\section{Lancashire}
+
+\subsection*{Burnley}
+
+BPIP = Burnley and Padiham Independent Party
+
+\subsubsection*{Rosehill with Burnley Wood \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th April]}
+
+\index{Rosehill with Burnley Wood , Burnley@Rosehill with Burnley Wood, \emph{Burnley}}
+
+Resignation of Christine White (BPIP elected as LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Peter McCann & LD & 341\\
+Andy Devanney & Lab & 249\\
+Paula Riley & BPIP & 154\\
+Phil Chamberlain & C & 115\\
+Victoria Alker & Grn & 51\\
+\end{tabular*}
+
+\subsection*{Chorley}
+
+\subsubsection*{Eccleston and Mawdesley \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[4th July]}
+
+\index{Eccleston and Mawdesley , Chorley@Eccleston \& Mawdesley, \emph{Chorley}}
+
+Death of Henry Caunce (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Val Caunce & C & 1050\\
+Martin Fisher & Lab & 611\\
+\end{tabular*}
+
+\subsubsection*{Chorley North West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Chorley North West , Chorley@Chorley N.W., \emph{Chorley}}
+
+Death of Ralph Snape (C).
+
+\subsection*{Ribble Valley}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Waddington and West Bradford ward due to the resignation of Paul Elms (Democratic Conservative elected as C).
+\index{Waddington and West Bradford , Ribble Valley@Waddington \& West Bradford, \emph{Ribble Valley}}
+
+\subsection*{Rossendale}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Cribden ward due to the resignation of Janet Graham (C).
+\index{Cribden , Rossendale@Cribden, \emph{Rossendale}}
+
+\subsection*{South Ribble}
+
+At the May 2019 ordinary election there were unfilled vacancies in Bamber Bridge East and Middleforth wards due to the deaths of Dave Watts and David Wooldridge (both Lab) respectively.
+\index{Bamber Bridge East , South Ribble@Bamber Bridge E., \emph{S. Ribble}}
+\index{Middleforth , South Ribble@Middleforth, \emph{S. Ribble}}
+
+\subsubsection*{Farington West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June]}
+
+\index{Farington West , South Ribble@Farington W., \emph{S. Ribble}}
+
+Ordinary election postponed from 2nd May: death of outgoing councillor Graham Walton (C) who was seeking re-election.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Karen Walton & C & 536\\
+Stephen Thurlbourn & C & 497\\
+Emma Buchanan & Lab & 246\\
+Ryan Hamilton & Lab & 171\\
+Judith Davidson & LD & 114\\
+Alison Hesketh-Holt & LD & 91\\
+\end{tabular*}
+
+\subsubsection*{Coupe Green and Gregson Lane \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Coupe Green and Gregson Lane , South Ribble@Coupe Green \& Gregson Lane, \emph{S. Ribble}}
+
+Resignation of Sarah Whittaker (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Graham Dixon & Ind & -\\
+Stephanie Portersmith & LD & -\\
+Gareth Watson & C & -\\
+\end{tabular*}
+
+\section{Leicestershire}
+
+\subsection*{County Council}
+
+\subsubsection*{Cosby and Countesthorpe \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Cosby and Countesthorpe , Leicestershire@Cosby \& Countesthorpe, \emph{Leics.}}
+
+Death of David Jennings (C).
+
+\subsection*{Blaby}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ellis ward due to the resignation of Scarlet Breckon (C).
+\index{Ellis , Blaby@Ellis, \emph{Blaby}}
+
+\subsection*{Charnwood}
+
+\subsubsection*{Syston West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October]}
+
+\index{Syston West , Charnwood@Syston W., \emph{Charnwood}}
+
+Resignation of Eric Vardy (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sue Gerrard & C & 406\\
+Matthew Wise & Grn & 389\\
+Sharon Brown & Lab & 114\\
+\end{tabular*}
+
+\subsection*{Melton}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Melton Egerton ward due to the death of Michael Blase (Lab).
+\index{Melton Egerton , Melton@Melton Egerton, \emph{Melton}}
+
+\subsection*{North West Leicestershire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ibstock East ward due to the resignation of Felix Fenning (Lab).
+\index{Ibstock East , North West Leicestershire@Ibstock E., \emph{N.W. Leics.}}
+
+\subsection*{Oadby and Wigston}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Oadby Grange ward due to the death of Bob Fahey (C).
+\index{Oadby Grange , Oadby and Wigston@Oadby Grange, \emph{Oadby \& Wigston}}
+
+\section{Lincolnshire}
+
+\subsection*{North East Lincolnshire}
+
+\subsubsection*{South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{South , North East Lincolnshire@South, \emph{N.E. Lincs.}}
+
+Resignation of Ray Oxby (Lab).
+
+Combined with the 2019 ordinary election; see page \pageref{NorthEastLincolnshireSouth} for the result.
+
+\subsection*{North Kesteven}
+
+LincsInd = Lincolnshire Independents
+
+\subsubsection*{Billinghay, Martin and North Kyme \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[13th June]}
+
+\index{Billinghay, Martin and North Kyme , North Kesteven@Billinghay, Martin \& North Kyme, \emph{N. Kesteven}}
+
+Insufficient nominations in the 2019 ordinary election.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Amanda Sanderson & C & 320\\
+Tracy Giannisi & LincsInd & 160\\
+Robert Greetham & Ind & 72\\
+Garry Winterton & LD & 57\\
+Matt Newman & Lab & 43\\
+Steven Shanahan-Kluth & Ind & 9\\
+\end{tabular*}
+
+\subsection*{West Lindsey}
+
+\subsubsection*{Torksey \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Torksey , West Lindsey@Torksey, \emph{W. Lindsey}}
+
+Resignation of Stuart Kinch (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jayne Ellis & C & -\\
+Noel Mullally & LD & -\\
+Nick Pearson & Brexit & -\\
+Perry Smith & Lab & -\\
+\end{tabular*}
+
+\section{Norfolk}
+
+\subsection*{County Council}
+
+\subsubsection*{Wroxham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[4th April]}
+
+\index{Wroxham , Norfolk@Wroxham, \emph{Norfolk}}
+
+Resignation of Tom Garrod (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Fran Whymark & C & 922\\
+Stephen Heard & LD & 395\\
+Jan Davis & Grn & 174\\
+Julia Wheeler & Lab & 163\\
+\end{tabular*}
+
+\subsection*{Breckland}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Thetford Castle ward due to the death of John Newton (UKIP).
+\index{Thetford Castle , Breckland@Thetford Castle, \emph{Breckland}}
+
+\subsection*{Great Yarmouth}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ormesby ward due to the death of Charles Reynolds (C).
+\index{Ormesby , Great Yarmouth@Ormesby, \emph{Great Yarmouth}}
+
+\subsection*{King's Lynn and West Norfolk}
+
+At the May 2019 ordinary election there was an unfilled vacancy in West Winch ward due to the disqualification (non-attendance) of Baljinder Anota (C).
+\index{West Winch , King's Lynn and West Norfolk@Didcot S., \emph{King's Lynn \& W. Norfolk}}
+
+\subsection*{North Norfolk}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Mundesley ward due to the death of Wyndham Northam (C).
+\index{Mundesley , North Norfolk@Mundesley, \emph{N. Norfolk}}
+
+\section{North Yorkshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Upper Dales \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th October]}
+
+\index{Upper Dales , North Yorkshire@Upper Dales, \emph{N. Yorks.}}
+
+Death of John Blackie (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Simon Crosby & LD & -\\
+Kevin Foster & Grn & -\\
+Jill McMullon & Ind & -\\
+Yvonne Peacock & C & -\\
+\end{tabular*}
+
+\subsection*{Craven}
+
+\subsubsection*{Upper Wharfedale \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Upper Wharfedale , Craven@Upper Wharfedale, \emph{Craven}}
+
+Resignation of Tanya Graham (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Sue Metcalfe & C & 480\\
+Anna Craven & Grn & 177\\
+Siân Wheal & LD & 59\\
+Virpi Kettu & Lab & 42\\
+\end{tabular*}
+
+\subsection*{Middlesbrough}
+
+\subsubsection*{Park End and Beckfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[4th July]}
+
+\index{Park End and Beckfield , Middlesbrough@Park End \& Beckfield, \emph{Middlesbrough}}
+
+Resignation of Jan Mohan (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Stephen Hill & Ind & 511\\
+Steven James & Ind & 303\\
+Paul McGrath & Lab & 115\\
+Val Beadnall & C & 23\\
+Ian Jones & LD & 13\\
+\end{tabular*}
+
+\subsection*{Richmondshire}
+
+\subsubsection*{Hawes, High Abbotside and Upper Swaledale \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th October]}
+
+\index{Hawes, High Abbotside and Upper Swaledale , Richmondshire@Hawes, High Abbotside \& Upper Swaledale, \emph{Richmondshire}}
+
+Death of John Blackie (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Pat Kirkbride & C & -\\
+Margaret Lowndes & Grn & -\\
+Jill McMullon & Ind & -\\
+\end{tabular*}
+
+\section{Northamptonshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Oundle \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st February]}
+
+\index{Oundle , Northamptonshire@Oundle, \emph{Northamptonshire}}
+
+Resignation of Heather Smith (Ind elected as C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Annabel de Capell Brooke & C & 1864\\
+Marc Folgate & LD & 1276\\
+Harry James & Lab & 403\\
+Allan Shipham & UKIP & 89\\
+\end{tabular*}
+
+\subsection*{Corby}
+
+\subsubsection*{Beanfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th October]}
+
+\index{Beanfield , Corby@Beanfield, \emph{Corby}}
+
+Death of Mary Butcher (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Alison Dalziel & Lab & 818\\
+Roy Boyd & C & 497\\
+Chris Stanbra & LD & 147\\
+\end{tabular*}
+
+\subsection*{Daventry}
+
+\subsubsection*{Brixworth \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July; LD gain from C]}
+
+\index{Brixworth , Daventry@Brixworth, \emph{Daventry}}
+
+Resignation of Fabienne Fraser-Allen (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jonathan Harris & LD & 817\\
+Lauryn Harrington-Carter & C & 615\\
+Stuart Coe & Lab & 218\\
+\end{tabular*}
+
+\subsubsection*{Abbey North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Abbey North , Daventry@Abbey N., \emph{Daventry}}
+
+Resignation of Aiden Ramsey (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Emily Carter & Lab & -\\
+Lauryn Harrington-Carter & C & -\\
+Alan Knape & LD & -\\
+\end{tabular*}
+
+\subsection*{East Northamptonshire}
+
+\subsubsection*{Irthlingborough Waterloo \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[8th August]}
+
+\index{Irthlingborough Waterloo , East Northamptonshire@Irthlingborough Waterloo, \emph{E. Northants.}}
+
+Resignation of Marika Hillson (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Lee Wilkes & C & 542\\
+Caroline Cross & Lab & 478\\
+\end{tabular*}
+
+\subsection*{South Northamptonshire}
+
+\subsubsection*{Middleton Cheney \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[12th September; LD gain from C]}
+
+\index{Middleton Cheney , South Northamptonshire@Middleton Cheney, \emph{S. Northants.}}
+
+Resignation of Jonathan Riley (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mark Allen & LD & 384\\
+Alison Eastwood & C & 345\\
+Adam Sear & Grn & 89\\
+Arthur Greaves & Lab & 59\\
+\end{tabular*}
+
+\subsection*{Wellingborough}
+
+\subsubsection*{Finedon \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[12th September]}
+
+\index{Finedon , Wellingborough@Finedon, \emph{Wellingborough}}
+
+Resignation of Barbara Bailey (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Andrew Weatherill & C & 547\\
+Laurence Harper & Ind & 227\\
+Marion Turner-Hawes & Grn & 134\\
+Isobel Stevenson & Lab & 76\\
+Chris Nelson & LD & 64\\
+\end{tabular*}
+
+\section{Northumberland}
+
+\subsubsection*{Holywell \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Holywell , Northumberland@Holywell, \emph{Northumberland}}
+
+Death of Bernard Pidcock (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Leslie Bowman & Lab & 916\\
+Maureen Levy & C & 510\\
+Anita Romer & LD & 164\\
+\end{tabular*}
+
+\section{Nottinghamshire}
+
+\subsection*{Broxtowe}
+
+\subsubsection*{Stapleford South East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[13th June; 2 LD gains from C]}
+
+\index{Stapleford South East , Broxtowe@Stapeford S.E., \emph{Broxtowe}}
+
+Ordinary election postponed from 2nd May: death of outgoing councillor Chris Rice (C) who was seeking re-election.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Tim Hallam & LD & 559\\
+David Grindell & LD & 538\\
+John Doddy & C & 380\\
+Adam Stockwell & C & 331\\
+Sue Paterson & Lab & 322\\
+Eleanor Allan & Lab & 290\\
+\end{tabular*}
+
+\subsection*{Gedling}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Bestwood St Albans ward due to the death of Denis Beeston (Lab).
+\index{Bestwood Saint Albans , Gedling@Bestwood St Albans, \emph{Gedling}}
+
+\subsection*{Mansfield}
+
+MIF = Mansfield Independent Forum
+
+At the May 2019 ordinary election there was an unfilled vacancy in Grange Farm ward due to the disqualification (non-attendance) of Ron Jelley (MIF).
+\index{Grange Farm , Mansfield@Grange Farm, \emph{Mansfield}}
+
+\subsubsection*{Sandhurst \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[27th June; MIF gain from Lab]}
+
+\index{Sandhurst , Mansfield@Sandhurst, \emph{Mansfield}}
+
+Election of Andy Abrahams (Lab) as Mayor of Mansfield.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Dave Saunders & MIF & 227\\
+Michelle Swordy & Lab & 177\\
+Cathryn Fletcher & C & 71\\
+Daniel Hartshorn & UKIP & 56\\
+\end{tabular*}
+
+\section{Oxfordshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Wallingford \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Wallingford , Oxfordshire@Wallingford, \emph{Oxon.}}
+
+Resignation of Lynda Atkins (Ind).
+
+\subsection*{Cherwell}
+
+\subsubsection*{Kidlington West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Kidlington West , Cherwell@Kidlington W., \emph{Cherwell}}
+
+Resignation of Alaric Rose (LD).
+
+Combined with the 2019 ordinary election; see page \pageref{CherwellKidlingtonWest} for the result.
+
+\subsection*{South Oxfordshire}
+
+At the May 2019 ordinary election there were unfilled vacancies in Didcot South, and Kidmore End and Whitchurch wards due to the resignations of Anthony Nash and Robert Simister (both C) respectively.
+\index{Didcot South , South Oxfordshire@Didcot S., \emph{S. Oxon.}}
+\index{Kidmore End and Whitchurch , South Oxfordshire@Kidmore End \& Whitchurch, \emph{S. Oxon.}}
+
+\section{Rutland}
+
+At the May 2019 ordinary election there were unfilled vacancies in Cottesmore and Oakham South West wards due to the resignations of Andrew Stewart (C) and Richard Alderman (Ind) respectively.
+\index{Cottesmore , Rutland@Cottesmore, \emph{Rutland}}
+\index{Oakham South West , Rutland@Oakham S.W., \emph{Rutland}}
+
+\subsubsection*{Ryhall and Casterton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[12th September; C gain from Ind]}
+
+\index{Ryhall and Casterton , Rutland@Ryhall \& Casterton, \emph{Rutland}}
+
+Disqualification (failure to sign acceptance of office) of Chris Parsons (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Richard Coleman & C & 357\\
+Beverley Wrigley-Pheasant & LD & 156\\
+Steve Fay & Grn & 121\\
+\end{tabular*}
+
+\section{Shropshire}
+
+\subsection*{Shropshire}
+
+\subsubsection*{Belle Vue \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[25th April]}
+
+\index{Belle Vue , Shropshire@Belle Vue, \emph{Shropshire}}
+
+Resignation of Harry Taylor (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mary Halliday & Lab & 603\\
+James McLeod & LD & 403\\
+Ross George & C & 152\\
+Dave Latham & Grn & 65\\
+Bob Oakley & UKIP & 58\\
+\end{tabular*}
+
+\subsubsection*{Meole \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[15th August]}
+
+\index{Meole , Shropshire@Meole, \emph{Shropshire}}
+
+Resignation of Nic Laurens (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Gewndoline Burgess & C & 438\\
+Adam Fejfer & LD & 309\\
+Darrell Morris & Lab & 286\\
+Emma Bullard & Grn & 131\\
+\end{tabular*}
+
+\subsubsection*{Bishop's Castle \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[12th September]}
+
+\index{Bishop's Castle , Shropshire@Bishop's Castle, \emph{Shropshire}}
+
+Resignation of Jonathan Keeley (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Ruth Houghton & LD & 838\\
+Edward Thompson & C & 229\\
+Andy Stelman & Lab & 107\\
+\end{tabular*}
+
+\section{Somerset}
+
+\subsection*{South Somerset}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Ilminster ward due to the resignation of Carol Goodall (LD).
+\index{Ilminster , South Somerset@Ilminster, \emph{S. Somerset}}
+
+\subsection*{Taunton Deane}
+
+At the abolition of Taunton Deane council in April 2019 there was an unfilled vacancy in Taunton Pyrland and Rowbarton, and Wellington Rockwell Green and West wards due to the deaths of Tom Davies and Bob Bowrah (both C) respectively.
+\index{Taunton Pyrland and Rowbarton , Taunton Deane@Taunton Pyrland \& Rowbarton, \emph{Taunton Deane}}
+\index{Wellington Rockwell Green and West , Taunton Deane@Wellington Rochwell Green \& W., \emph{Taunton Deane}}
+
+\subsection*{Somerset West and Taunton}
+
+\subsubsection*{Vivary \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September; LD gain from C]}
+
+\index{Vivary , Somerset West and Taunton@Vivay, \emph{Somerset W. \& Taunton}}
+
+Resignation of Catherine Herbert (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Derek Perry & LD & 648\\
+Sharon Fussell & C & 307\\
+Neil Rudram & Ind & 155\\
+Robert Noakes & Lab & 32\\
+Marguerite Paffard & Grn & 30\\
+\end{tabular*}
+
+\subsubsection*{Norton Fitzwarren and Staplegrove \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October; LD gain from Ind]}
+
+\index{Norton Fitzwarren and Staplegrove , Somerset West and Taunton@Norton Fitzwarren \& Staplegrove, \emph{Somerset W. \& Taunton}}
+
+Death of Jean Adkins (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Andy Sully & LD & 686\\
+Rob Williams & C & 493\\
+Alan Debenham & Grn & 67\\
+Michael McGuffie & Lab & 31\\
+\end{tabular*}
+
+\section{Staffordshire}
+
+\subsection*{Lichfield}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Summerfield and All Saints ward due to the resignation of Richard Mosson (C).
+\index{Summerfield and All Saints , Lichfield@Summerfield \& All SS., \emph{Lichfield}}
+
+\subsection*{Newcastle-under-Lyme}
+
+\subsubsection*{Holditch and Chesterton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st March; Ind gain from Lab]}
+
+\index{Holditch and Chesterton , Newcastle-under-Lyme@Holditch \& Chesterton, \emph{Newcastle-under-Lyme}}
+
+Resignation of Chris Spence (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kenneth Owen & Ind & 282\\
+Peter Radford & Lab & 268\\
+Mark Barlow & UKIP & 86\\
+Lawrence Whitworth & C & 49\\
+Carol Lovatt & SDP & 14\\
+\end{tabular*}
+
+\subsubsection*{Maer and Whitmore \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Maer and Whitmore , Newcastle-under-Lyme@Maer \& Whitmore, \emph{Newcastle-under-Lyme}}
+
+Resignation of David Harrison (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Graham Hutton & C & 629\\
+Salwa Booth & LD & 97\\
+\end{tabular*}
+
+\subsection*{South Staffordshire}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Trysull and Seisdon ward due to the death of Robert McCardle (C).
+\index{Trysull and Seisdon , South Staffordshire@Trysull \& Seisdon, \emph{S. Staffs.}}
+
+\subsubsection*{Wombourne South West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[6th June]}
+
+\index{Wombourne South West , South Staffordshire@Wombourne S.W., \emph{S. Staffs.}}
+
+Ordinary election postponed from 2nd May: death of outgoing councillor Mary Bond (C) who was seeking re-election.
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mike Davies & C & 359\\
+Vince Merrick & C & 325\\
+Claire McIlvenna & Grn & 90\\
+Pete Stones & LD & 79\\
+Adam Freeman & Lab & 47\\
+Michael Vaughan & Lab & 43\\
+\end{tabular*}
+
+\subsection*{Staffordshire Moorlands}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Cheadle South East ward due to the resignation of Deb Grocott (C).
+\index{Cheadle South East , Staffordshire Moorlands@Cheadle S.E., \emph{Staffs. Moorlands}}
+
+\subsection*{Tamworth}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Castle ward due to the death of Steve Claymore (C).
+\index{Castle , Tamworth@Castle, \emph{Tamworth}}
+
+\section{Suffolk}
+
+\subsection*{Ipswich}
+
+\subsubsection*{Alexandra \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[26th September]}
+
+\index{Alexandra , Ipswich@Alexandra, \emph{Ipswich}}
+
+Resignation of Adam Leeder (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Adam Rae & Lab & 734\\
+Henry Williams & LD & 287\\
+Lee Reynolds & C & 278\\
+Tom Wilmot & Grn & 164\\
+\end{tabular*}
+
+\subsection*{Mid Suffolk}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Eye ward due to the death of Michael Burke (C).
+\index{Eye , Mid Suffolk@Eye, \emph{Mid Suffolk}}
+
+\subsection*{St Edmundsbury}
+
+At the abolition of St Edmundsbury council in April 2019 there was an unfilled vacancy in Haverhill North ward due to the resignation of Anthony Williams (Ind elected as UKIP).
+\index{Haverhill North , Saint Edmundsbury@Haverhill N., \emph{St Edmundsbury}}
+
+\section{Surrey}
+
+\subsection*{County Council}
+
+\subsubsection*{Warlingham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[31st January]}
+
+\index{Warlingham , Surrey@Warlingham, \emph{Surrey}}
+
+Resignation of David Hodge (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Becky Rush & C & 1199\\
+Charles Lister & LD & 990\\
+Martin Haley & UKIP & 176\\
+Michael Snowden & Lab & 126\\
+\end{tabular*}
+
+\subsubsection*{Haslemere \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May; Ind gain from C]}
+
+\index{Haslemere , Surrey@Haslemere, \emph{Surrey}}
+
+Resignation of Richard Hampson (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Nikki Barton & Ind & 2665\\
+Malcolm Carter & C & 1159\\
+Adrian la Porta & Lab & 263\\
+\end{tabular*}
+
+\subsection*{Reigate and Banstead}
+
+Nork = Nork Residents Association
+
+At the May 2019 ordinary election there were unfilled vacancies in Kingswood with Burgh Heath and Nork wards due to the death of Ros Mill (C) and the resignation of Jonathan White (Nork).
+\index{Kingswood with Burgh Heath , Reigate and Banstead@Kingswood with Burgh Heath, \emph{Reigate \& Banstead}}
+\index{Nork , Reigate and Banstead@Nork, \emph{Reigate \& Banstead}}
+
+\subsection*{Spelthorne}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Stanwell North ward due to the resignation of Kevin Flurry (C).
+\index{Stanwell North , Spelthorne@Stanwell N., \emph{Spelthorne}}
+
+\subsection*{Waverley}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Hindhead ward due to the disqualification (non-attendance) of Christiaan Hesse (C).
+\index{Hindhead , Waverley@Hindhead, \emph{Waverley}}
+
+\section{Warwickshire}
+
+\subsection*{Rugby}
+
+\subsubsection*{Rokeby and Overslade \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[22nd August]}
+
+\index{Rokeby and Overslade , Rugby@Rokeby \& Overslade, \emph{Rugby}}
+
+Resignation of Nick Long (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Glenda Allanach & LD & 963\\
+Deborah Keeling & C & 346\\
+Beck Hemsley & Lab & 165\\
+Richard Hartland & Brexit & 163\\
+Becca Stevenson & Grn & 79\\
+\end{tabular*}
+
+\subsection*{Stratford-on-Avon}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Alcester Town ward due to the death of Eric Payne (C).
+\index{Alcester Town , Stratford-on-Avon@Alcester Town, \emph{Stratford-on-Avon}}
+
+\subsection*{Warwick}
+
+\subsubsection*{Leamington Lillington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Tuesday 29th October]}
+
+\index{Leamington Lillington , Warwick@Leamington Lillington, \emph{Warwick}}
+
+Resignation of Heather Calver (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Hayley Key & C & -\\
+Luc Lowndes & Lab & -\\
+Daniel Russell & LD & -\\
+\end{tabular*}
+
+\section{West Sussex}
+
+Justice = Justice Party
+
+\subsection*{County Council}
+
+\subsubsection*{Northgate and West Green \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{Northgate and West Green , West Sussex@Northgate \& West Green, \emph{W. Sussex}}
+
+Resignation of Sue Mullins (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Karen Sudan & Lab & 1293\\
+Jan Tarrant & C & 839\\
+David Anderson & LD & 268\\
+Richard Kail & Grn & 246\\
+\end{tabular*}
+
+\subsubsection*{Three Bridge \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[26th September]}
+
+\index{Three Bridges , West Sussex@Three Bridges, \emph{W. Sussex}}
+
+Death of Charles Petts (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Brenda Burgess & C & 1102\\
+Angela Malik & Lab & 628\\
+David Anderson & LD & 257\\
+Danielle Kail & Grn & 136\\
+Arshad Khan & Justice & 9\\
+\end{tabular*}
+
+\subsubsection*{Bourne \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st November]}
+
+\index{Bourne , West Sussex@Bourne, \emph{W. Sussex}}
+
+Resignation of Viral Parikh (Brexit elected as C).
+
+\subsection*{Chichester}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Selsey North ward due to the resignation of Darren Wakeham (C).
+\index{Selsey North , Chichester@Selsey N., \emph{Chichester}}
+
+\subsubsection*{Loxwood \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st November]}
+
+\index{Loxwood , Chichester@Loxwood, \emph{Chichester}}
+
+Resignation of Natalie Hume (Grn elected as LD).
+
+\subsection*{Crawley}
+
+\subsubsection*{Tilgate \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[26th September]}
+
+\index{Tilgate , Crawley@Tilgate, \emph{Crawley}}
+
+Death of Charles Petts (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Maureen Mwagale & C & 741\\
+Kiran Khan & Lab & 396\\
+Angharad Old & LD & 82\\
+Derek Hardman & Grn & 75\\
+Arshad Khan & Justice & 5\\
+\end{tabular*}
+
+\section{Wiltshire}
+
+\subsection*{Wiltshire}
+
+\subsubsection*{Trowbridge Drynham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[4th July; LD gain from C]}
+
+\index{Trowbridge Drynham , Wiltshire@Trowbridge Drynham, \emph{Wilts.}}
+
+Death of Graham Payne (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Andrew Bryant & LD & 431\\
+Kam Reynolds & C & 316\\
+John Knight & Ind & 246\\
+Shaun Henley & Lab & 44\\
+\end{tabular*}
+
+\subsubsection*{Westbury North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July]}
+
+\index{Westbury North , Wiltshire@Westbury N., \emph{Wilts.}}
+
+Resignation of David Jenkins (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Carole King & LD & 488\\
+Ian Cunningham & Ind & 231\\
+Antonio Piazza & C & 140\\
+Jane Russ & Lab & 57\\
+Francis Morland & Ind & 16\\
+\end{tabular*}
+
+\subsubsection*{Ethandune \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September]}
+
+\index{Ethandune , Wiltshire@Ethandune, \emph{Wilts.}}
+
+Death of Jerry Wickham (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Alan Rankin & LD & 587\\
+Suzanne Wickham & C & 778\\
+\end{tabular*}
+
+\subsubsection*{Melksham Without South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Melksham Without South , Wiltshire@Melksham Wt. S., \emph{Wilts.}}
+
+Resignation of Roy While (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Vanessa Fiorelli & LD & -\\
+Nick Holder & C & -\\
+\end{tabular*}
+
+\section{Worcestershire}
+
+\subsection*{County Council}
+
+\subsubsection*{Bromsgrove South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[31st October]}
+
+\index{Bromsgrove South , Worcestershire@Bromsgrove S., \emph{Worcs.}}
+
+Resignation of Chris Bloore (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kyle Daisley & C & -\\
+Bren Henderson & Lab & -\\
+Rachel Jsnkins & Ind & -\\
+Joshua Robinson & LD & -\\
+\end{tabular*}
+
+\subsection*{Malvern Hills}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Pickersleigh ward due to the resignation of Leanne Halling (C).
+\index{Pickersleigh , Malvern Hills@Pickersleigh, \emph{Malvern Hills}}
+
+\subsection*{Worcester}
+
+\subsubsection*{Claines \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[8th August; LD gain from C]}
+
+\index{Claines , Worcester@Claines, \emph{Worcester}}
+
+Death of Stuart Denleigh-Maxwell (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mel Allcott & LD & 1307\\
+Jules Benham & C & 1252\\
+Stephen Dent & Grn & 125\\
+Saiful Islam & Lab & 60\\
+\end{tabular*}
+
+\subsection*{Wychavon}
+
+At the May 2019 ordinary election there were unfilled vacancies in Harvington and Norton, and Lovett and North Claines wards due to the resignations of Charles Homer and Lynne Duffy (both C) respectively.
+\index{Harvington and Norton , Wychavon@Harvington \& Norton, \emph{Wychavon}}
+\index{Lovett and North Claines , Wychavon@Lovett \& North Claines, \emph{Wychavon}}
+
+\subsection*{Wyre Forest}
+
+At the May 2019 ordinary election there was an unfilled vacancy in Areley Kings and Riverside ward due to the resignation of Jamie Shaw (Lab).
+\index{Areley Kings and Riverside , Wyre Forest@Areley Kings \& Riverside, \emph{Wyre Forest}}
+
+\section{Glamorgan}
+
+\subsection*{Cardiff}
+
+\subsubsection*{Ely \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st February; PC gain from Lab]}
+
+\index{Ely , Cardiff@Ely, \emph{Cardiff}}
+
+Death of Jim Murphy (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Andrea Gibson & PC & 831\\
+Irene Humphreys & Lab & 779\\
+Gavin Brookman & C & 271\\
+Richard Jerrett & LD & 46\\
+\end{tabular*}
+
+\subsubsection*{Cyncoed \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Tuesday 16th July]}
+
+\index{Cyncoed , Cardiff@Cyncoed, \emph{Cardiff}}
+
+Death of Wendy Congreve (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Robert Hopkins & LD & 1920\\
+Peter Hudson & C & 838\\
+Madhu Khanna-Davies & Lab & 560\\
+Morgan Rogers & PC & 152\\
+\end{tabular*}
+
+\subsubsection*{Whitchurch and Tongwynlais \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October]}
+
+\index{Whitchurch and Tongwynlais , Cardiff@Whitchurch \& Tongwynlais, \emph{Cardiff}}
+
+Death of Tim Davies (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Mia Rees & C & 1544\\
+Marc Palmer & Lab & 1190\\
+Dan Allsobrook & PC & 674\\
+Sian Donne & LD & 588\\
+David Griffin & Grn & 248\\
+\end{tabular*}
+
+\subsubsection*{Llanishen \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Llanishen , Cardiff@Llanishen, \emph{Cardiff}}
+
+Resignation of Phil Bale (Lab).
+
+\subsection*{Merthyr Tydfil}
+
+\subsubsection*{Cyfarthfa \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th April]}
+
+\index{Cyfarthfa , Merthyr Tydfil@Cyfarthfa, \emph{Merthyr Tydfil}}
+
+Death of Paul Brown (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Michelle Jones & Ind & 861\\
+Mark Prevett & Lab & 330\\
+David Griffiths & Ind & 180\\
+Paul Phillips & C & 48\\
+\end{tabular*}
+
+\subsection*{Neath Port Talbot}
+
+\subsubsection*{Resolven \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[23rd May]}
+
+\index{Resolven , Neath Port Talbot@Resolven, \emph{Neath Port Talbot}}
+
+Death of Des Davies (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Dean Lewis & Ind & 699\\
+Mark Francis & Lab & 293\\
+Andrew Hippsley & PC & 121\\
+Jonathan Jones & C & 34\\
+Sheila Kingston-Jones & LD & 23\\
+\end{tabular*}
+
+\subsubsection*{Pelenna \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th June]}
+
+\index{Pelenna , Neath Port Talbot@Pelenna, \emph{Neath Port Talbot}}
+
+Death of Martin Ellis (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jeremy Hurley & Ind & 251\\
+Hywel Miles & PC & 120\\
+Peter Hughes & Ind & 105\\
+Andrew Jones & Lab & 43\\
+Frank Little & LD & 6\\
+\end{tabular*}
+
+\subsubsection*{Rhos \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Rhos , Neath Port Talbot@Rhos, \emph{Neath Port Talbot}}
+
+Resignation of Alex Thomas (Lab).
+
+\subsection*{Rhondda Cynon Taf}
+
+\subsubsection*{Rhondda \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[4th July; PC gain from Lab]}
+
+\index{Rhondda , Rhondda Cynon Taf@Rhondda, \emph{Rhondda Cynon Taf}}
+
+Death of Robert Smith (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Eleri Griffiths & PC & 404\\
+Loretta Tomkinson & Lab & 266\\
+Alexander Davies & C & 145\\
+Karen Roberts & LD & 127\\
+Adrian Dunphy & Comm & 18\\
+\end{tabular*}
+
+\subsection*{Vale of Glamorgan}
+
+\subsubsection*{Rhoose \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th February]}
+
+\index{Rhoose , Vale of Glamorgan@Rhoose, \emph{Vale of Glamorgan}}
+
+Resignation of Matthew Lloyd (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Andrew RT Davies & C & 1140\\
+John Hartland & Lab & 368\\
+Samantha Campbell & Ind & 345\\
+\end{tabular*}
+
+\section{Mid and West Wales}
+
+\subsection*{Ceredigion}
+
+\subsubsection*{Llanbadarn Fawr Sulien \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[18th July]}
+
+\index{Llanbadarn Fawr Sulien , Ceredigion@Llanbadarn Fawr Sulien, \emph{Ceredigion}}
+
+Death of Paul James (PC).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Matthew Woolfall Jones & PC & 186\\
+Michael Chappell & LD & 93\\
+Richard Layton & Lab & 15\\
+\end{tabular*}
+
+\subsection*{Pembrokeshire}
+
+\subsubsection*{Hundleton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Hundleton , Pembrokeshire@Hundleton, \emph{Pembrokeshire}}
+
+Death of Margot Bateman (Ind).
+
+\subsection*{Powys}
+
+\subsubsection*{Llandrindod North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Llandrindod North , Powys@Llandrindod N., \emph{Powys}}
+
+Resignation of Gary Price (Ind elected as C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Jake Berriman & LD & -\\
+Rosie McConnell & Lab & -\\
+Tom Turner & C & -\\
+\end{tabular*}
+
+\subsubsection*{Newtown South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th October]}
+
+\index{Newtown South , Powys@Newtown S., \emph{Powys}}
+
+Resignation of Alan Morrison (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Richard Edwards & PC & -\\
+Kelly Healy & LD & -\\
+Les Skilton & C & -\\
+\end{tabular*}
+
+\subsubsection*{St Mary \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Saint Mary , Powys@St Mary, \emph{Powys}}
+
+Resignation of Sarah Lewis (C).
+
+\section{North Wales}
+
+\subsection*{Flintshire}
+
+\subsubsection*{Bagillt West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Bagillt West , Flintshire@Bagillt W., \emph{Flintshire}}
+
+Resignation of Mike Reece (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Kevin Rush & Lab & -\\
+David Stanley & Ind & -\\
+\end{tabular*}
+
+\subsection*{Gwynedd}
+
+\subsubsection*{Morfa Nefyn \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[23rd May]}
+
+\index{Morfa Nefyn , Gwynedd@Morfa Nefyn, \emph{Gwynedd}}
+
+Resignation of Siân Wyn Hughes (PC).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+Gareth Jones & PC & \emph{unop.}\\
+\end{tabular*}
+
+\section{Aberdeenshire Councils}
+
+\subsection*{Aberdeen}
+
+Red = Red Party of Scotland
+
+\subsubsection*{Bridge of Don (2) \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd October]}
+
+\index{Bridge of Don , Aberdeen@Bridge of Don, \emph{Aberdeen}}
+
+Resignation of Brett Hunt (C) and death of Sandy Stuart (SNP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{First preferences}\\
+Sarah Cross & C & 1857\\
+Jessica Mennie & SNP & 1797\\
+Michal Skoczykloda & LD & 929\\
+Graeme Lawrence & Lab & 305\\
+Sylvia Hardie & Grn & 140\\
+Philip Clarke & UKIP & 55\\
+Simon McLean & Ind & 43\\
+Max McKay & Red & 9\\
+\end{tabular*}
+
+\emph{Quota = 1712.  Cross and Mennie elected, count complete.}
+
+\subsubsection*{Torry\slash Ferryhill \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st November]}
+
+\index{Torry/Ferryhill , Aberdeen@Torry \slash Ferryhill, \emph{Aberdeen}}
+
+Resignation of Catriona Mackenzie (SNP).
+
+\section{Clyde Councils}
+
+\subsection*{North Lanarkshire}
+
+\subsubsection*{Thorniewood \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[19th September]}
+
+\index{Thorniewood , North Lanarkshire@Thorniewood, \emph{N. Lanarks.}}
+
+Resignation of Hugh Gaffney MP (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Norah Mooney & Lab & 1362\\
+Eve Cunnington & SNP & 1202\\
+Lorraine Nolan & C & 296\\
+Colin Robb & LD & 168\\
+Rosemary McGowan & Grn & 46\\
+\end{tabular*}
+
+\emph{Robb and McGowan eliminated}: Mooney 1424 Cunnington 1245 Nolan 335
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Nolan eliminated}\\
+	Norah Mooney & Lab & 1528\\
+	Eve Cunnington & SNP & 1271\\
+\end{tabular*}
+
+\subsection*{South Lanarkshire}
+
+Libtn = Scottish Libertarian Party
+
+\subsubsection*{East Kilbride Central North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[29th August]}
+
+\index{East Kilbride Central North , South Lanarkshire@East Kilbride C.N., \emph{S. Lanarks.}}
+
+Death of Sheena Wardhaugh (Ind elected as SNP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Grant Ferguson & SNP & 1582\\
+Kirsty Williams & Lab & 690\\
+Graham Fisher & C & 498\\
+Paul McGarry & LD & 422\\
+Antony Lee & Grn & 153\\
+David Mackay & UKIP & 48\\
+Stephen McNamara & Libtn & 12\\
+\end{tabular*}
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{Lee, Mackay and McNamara eliminated}\\
+Grant Ferguson & SNP & 1650\\
+Kirsty Williams & Lab & 715\\
+Graham Fisher & C & 519\\
+Paul McGarry & LD & 456\\
+\end{tabular*}
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{Lee, Mackay and McNamara eliminated}\\
+Grant Ferguson & SNP & 1743\\
+Kirsty Williams & Lab & 837\\
+Graham Fisher & C & 606\\
+\end{tabular*}
+
+\section{Forth Councils}
+
+\subsection*{Clackmannanshire}
+
+\subsubsection*{Clackmannanshire Central \hspace*{\fill}\nolinebreak[1]%
+\enspace\hspace*{\fill}
+\finalhyphendemerits=0
+[28th March]}
+
+\index{Clackmannanshire Central , Clackmannanshire@Clackmannanshire C., \emph{Clackmannanshire}}
+
+Resignation of Phil Fairlie (SNP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Jane McTaggart & SNP & 865\\
+Margaret Brookes & Lab & 675\\
+William Marlin & C & 419\\
+Dawson Michie & UKIP & 69\\
+Marion Robertson & Grn & 53\\
+John Biggam & LD & 36\\
+\end{tabular*}
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Marlin, Michie, Robertson and Biggam eliminated}\\
+	Jane McTaggart & SNP & 933\\
+	Margaret Brookes & Lab & 814\\
+\end{tabular*}
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\emph{Khanam, Sherwood-Johnson and Robertson eliminated}\\
+%Helen Lewis & SNP & 980\\
+%Alex Stewart & C & 784\\
+%\end{tabular*}
+
+\subsection*{East Lothian}
+
+\subsubsection*{Haddington and Lammermuir \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[9th May]}
+
+\index{Haddington and Lammermuir , East Lothian@Haddington \& Lammermuir, \emph{E. Lothian}}
+
+Resignation of Brian Small (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Craig Hoy & C & 2212\\
+Lorraine Glass & SNP & 1866\\
+Neal Black & Lab & 1359\\
+Stuart Crawford & LD & 774\\
+David Sisson & UKIP & 108\\
+\end{tabular*}
+
+\emph{Crawford and Sisson eliminated}: Hoy 2428 Glass 2044 Black 1589
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Black eliminated}\\
+	Craig Hoy & C & 2759\\
+	Lorraine Glass & SNP & 2469\\
+\end{tabular*}
+
+
+
+\subsection*{Edinburgh}
+
+ForBritn = For Britain Movement
+
+\subsubsection*{Leith Walk \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[11th April; SNP gain from Lab]}
+
+\index{Leith Walk , Edinburgh@Leith Walk, \emph{Edinburgh}}
+
+Resignation of Marion Donaldson (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Rob Munn & SNP & 2596\\
+Lorna Slater & Grn & 1855\\
+Nick Gardner & Lab & 1123\\
+Dan McCroskrie & C & 777\\
+Jack Caldwell & LD & 623\\
+Kevin Illingworth & Ind & 110\\
+Steven Alexander & UKIP & 85\\
+David Jacobsen & SocLab & 56\\
+John Scott & Ind & 16\\
+Paul Stirling & ForBritn & 14\\
+Tom Laird & Libtn & 12\\
+\end{tabular*}
+
+\emph{Illingworth, Alexander, Jacobsen, Scott, Stirling and Laird eliminated:} Munn 2630 Slater 1904 Gardner 1157 McCroskrie 825 Caldwell 652
+
+\emph{Caldwell eliminated:} Munn 2721 Slater 2093 Gardner 1320 McCroskrie 912
+
+\emph{McCroskrie eliminated:} Munn 2763 Slater 2223 Gardner 1497
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Gardner eliminated}\\
+	Rob Munn & SNP & 3021\\
+	Lorna Slater & Grn & 2765\\
+\end{tabular*}
+
+\subsection*{Fife}
+
+\subsubsection*{Dunfermline Central \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Dunfermline Central , Fife@Dunfermline C., \emph{Fife}}
+
+Resignation of Alan Craig (C).
+
+\subsubsection*{Rosyth \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Rosyth , Fife@Rosyth, \emph{Fife}}
+
+Resignation of Sam Steele (SNP).
+
+\section{Highland Councils}
+
+\subsection*{Highland}
+
+\subsubsection*{Inverness Central \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[14th November]}
+
+\index{Inverness Central , Highland@Inverness C., \emph{Highland}}
+
+Resignation of Richard Laird (SNP).
+
+\subsection*{Moray}
+
+\subsubsection*{Keith and Cullen \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[21st November]}
+
+\index{Keith and Cullen , Moray@Keith \& Cullen, \emph{Moray}}
+
+Resignation of Ron Shepherd (Ind).
+
+\section{Island Councils}
+
+\subsection*{Shetland}
+
+\subsubsection*{Lerwick South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Lerwich South , Shetland@Lerwick S., \emph{Shetland}}
+
+Resignation of Beatrice Wishart MSP (Ind).
+
+\subsubsection*{Shetland Central \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[7th November]}
+
+\index{Shetland Central , Shetland@Shetland C., \emph{Shetland}}
+
+Resignation of Mark Burgess (Ind).
+
+\section{Tay Councils}
+
+\subsection*{Dundee}
+
+Cit1st = Citizens First
+
+\subsubsection*{North East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[2nd May]}
+
+\index{North East , Dundee@North East, \emph{Dundee}}
+
+Death of Brian Gordon (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\emph{First preferences}\\
+Steven Rome & SNP & 1507\\
+Jim Malone & Lab & 1224\\
+Robert Lindsay & C & 271\\
+Michael Taylor & TUSC & 91\\
+Alison Orr & Grn & 77\\
+Roger Keech & Cit1st & 45\\
+\end{tabular*}
+
+\emph{Keech eliminated}: Rome 1510 Malone 1229 Lindsay 274 Taylor 100 Orr 82
+
+\emph{Taylor and Orr eliminated}: Rome 1555 Malone 1284 Lindsay 290
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Lindsay eliminated}\\
+	Steven Rome & SNP & 1576\\
+	Jim Malone & Lab & 1388\\
+\end{tabular*}
+
+\end{resultsiii}
+
+% Index:
+\clearpage
+\phantomsection
+%\addcontentsline{toc}{chapter}{Index of Wards}
+{\scriptsize%\raggedright
+\frenchspacing\printindex}
+\thispagestyle{plain}
+
+%% GNU Free Documentation License
+\chapter*{{GNU Free Documentation License}}
+\phantomsection % so hyperref creates bookmarks
+\addcontentsline{toc}{chapter}{GNU Free Documentation License}
+%\label{label_fdl}
+\pagestyle{plain}
+
+ Version 1.3, 3 November 2008
+
+
+ Copyright \copyright{} 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
+ 
+ \bigskip
+ 
+ <\url{http://fsf.org/}>
+ 
+ \bigskip
+ 
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+\begin{results}
+\tiny
+
+\subsubsection*{Preamble}
+
+The purpose of this License is to make a manual, textbook, or other
+functional and useful document ``free'' in the sense of freedom: to
+assure everyone the effective freedom to copy and redistribute it,
+with or without modifying it, either commercially or noncommercially.
+Secondarily, this License preserves for the author and publisher a way
+to get credit for their work, while not being considered responsible
+for modifications made by others.
+
+This License is a kind of ``copyleft'', which means that derivative
+works of the document must themselves be free in the same sense. It
+complements the GNU General Public License, which is a copyleft
+license designed for free software.
+
+We have designed this License in order to use it for manuals for free
+software, because free software needs free documentation: a free
+program should come with manuals providing the same freedoms that the
+software does. But this License is not limited to software manuals;
+it can be used for any textual work, regardless of subject matter or
+whether it is published as a printed book. We recommend this License
+principally for works whose purpose is instruction or reference.
+
+\subsubsection*{1. Applicability and definitions}
+
+This License applies to any manual or other work, in any medium, that
+contains a notice placed by the copyright holder saying it can be
+distributed under the terms of this License. Such a notice grants a
+world-wide, royalty-free license, unlimited in duration, to use that
+work under the conditions stated herein. The ``\emph{Document}'', below,
+refers to any such manual or work. Any member of the public is a
+licensee, and is addressed as ``\emph{you}''. You accept the license if you
+copy, modify or distribute the work in a way requiring permission
+under copyright law.
+
+A ``\emph{Modified Version}'' of the Document means any work containing the
+Document or a portion of it, either copied verbatim, or with
+modifications and/or translated into another language.
+
+A ``\emph{Secondary Section}'' is a named appendix or a front-matter section of
+the Document that deals exclusively with the relationship of the
+publishers or authors of the Document to the Document's overall subject
+(or to related matters) and contains nothing that could fall directly
+within that overall subject. (Thus, if the Document is in part a
+textbook of mathematics, a Secondary Section may not explain any
+mathematics.) The relationship could be a matter of historical
+connection with the subject or with related matters, or of legal,
+commercial, philosophical, ethical or political position regarding
+them.
+
+The ``\emph{Invariant Sections}'' are certain Secondary Sections whose titles
+are designated, as being those of Invariant Sections, in the notice
+that says that the Document is released under this License. If a
+section does not fit the above definition of Secondary then it is not
+allowed to be designated as Invariant. The Document may contain zero
+Invariant Sections. If the Document does not identify any Invariant
+Sections then there are none.
+
+The ``\emph{Cover Texts}'' are certain short passages of text that are listed,
+as Front-Cover Texts or Back-Cover Texts, in the notice that says that
+the Document is released under this License. A Front-Cover Text may
+be at most 5 words, and a Back-Cover Text may be at most 25 words.
+
+A ``\emph{Transparent}'' copy of the Document means a machine-readable copy,
+represented in a format whose specification is available to the
+general public, that is suitable for revising the document
+straightforwardly with generic text editors or (for images composed of
+pixels) generic paint programs or (for drawings) some widely available
+drawing editor, and that is suitable for input to text formatters or
+for automatic translation to a variety of formats suitable for input
+to text formatters. A copy made in an otherwise Transparent file
+format whose markup, or absence of markup, has been arranged to thwart
+or discourage subsequent modification by readers is not Transparent.
+An image format is not Transparent if used for any substantial amount
+of text. A copy that is not ``Transparent'' is called ``\emph{Opaque}''.
+
+Examples of suitable formats for Transparent copies include plain
+ASCII without markup, Texinfo input format, \LaTeX{} input format, SGML
+or XML using a publicly available DTD, and standard-conforming simple
+HTML, PostScript or PDF designed for human modification. Examples of
+transparent image formats include PNG, XCF and JPG. Opaque formats
+include proprietary formats that can be read and edited only by
+proprietary word processors, SGML or XML for which the DTD and/or
+processing tools are not generally available, and the
+machine-generated HTML, PostScript or PDF produced by some word
+processors for output purposes only.
+
+The ``\emph{Title Page}'' means, for a printed book, the title page itself,
+plus such following pages as are needed to hold, legibly, the material
+this License requires to appear in the title page. For works in
+formats which do not have any title page as such, ``Title Page'' means
+the text near the most prominent appearance of the work's title,
+preceding the beginning of the body of the text.
+
+The ``\emph{publisher}'' means any person or entity that distributes
+copies of the Document to the public.
+
+A section ``\emph{Entitled XYZ}'' means a named subunit of the Document whose
+title either is precisely XYZ or contains XYZ in parentheses following
+text that translates XYZ in another language. (Here XYZ stands for a
+specific section name mentioned below, such as ``\emph{Acknowledgements}'',
+``\emph{Dedications}'', ``\emph{Endorsements}'', or ``\emph{History}''.) 
+To ``\emph{Preserve the Title}''
+of such a section when you modify the Document means that it remains a
+section ``Entitled XYZ'' according to this definition.
+
+The Document may include Warranty Disclaimers next to the notice which
+states that this License applies to the Document. These Warranty
+Disclaimers are considered to be included by reference in this
+License, but only as regards disclaiming warranties: any other
+implication that these Warranty Disclaimers may have is void and has
+no effect on the meaning of this License.
+
+\subsubsection*{2. Verbatim copying}
+
+You may copy and distribute the Document in any medium, either
+commercially or noncommercially, provided that this License, the
+copyright notices, and the license notice saying this License applies
+to the Document are reproduced in all copies, and that you add no other
+conditions whatsoever to those of this License. You may not use
+technical measures to obstruct or control the reading or further
+copying of the copies you make or distribute. However, you may accept
+compensation in exchange for copies. If you distribute a large enough
+number of copies you must also follow the conditions in section~3.
+
+You may also lend copies, under the same conditions stated above, and
+you may publicly display copies.
+
+\subsubsection*{3. Copying in quantity}
+
+If you publish printed copies (or copies in media that commonly have
+printed covers) of the Document, numbering more than 100, and the
+Document's license notice requires Cover Texts, you must enclose the
+copies in covers that carry, clearly and legibly, all these Cover
+Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on
+the back cover. Both covers must also clearly and legibly identify
+you as the publisher of these copies. The front cover must present
+the full title with all words of the title equally prominent and
+visible. You may add other material on the covers in addition.
+Copying with changes limited to the covers, as long as they preserve
+the title of the Document and satisfy these conditions, can be treated
+as verbatim copying in other respects.
+
+If the required texts for either cover are too voluminous to fit
+legibly, you should put the first ones listed (as many as fit
+reasonably) on the actual cover, and continue the rest onto adjacent
+pages.
+
+If you publish or distribute Opaque copies of the Document numbering
+more than 100, you must either include a machine-readable Transparent
+copy along with each Opaque copy, or state in or with each Opaque copy
+a computer-network location from which the general network-using
+public has access to download using public-standard network protocols
+a complete Transparent copy of the Document, free of added material.
+If you use the latter option, you must take reasonably prudent steps,
+when you begin distribution of Opaque copies in quantity, to ensure
+that this Transparent copy will remain thus accessible at the stated
+location until at least one year after the last time you distribute an
+Opaque copy (directly or through your agents or retailers) of that
+edition to the public.
+
+It is requested, but not required, that you contact the authors of the
+Document well before redistributing any large number of copies, to give
+them a chance to provide you with an updated version of the Document.
+
+\subsubsection*{4. Modifications}
+
+You may copy and distribute a Modified Version of the Document under
+the conditions of sections 2 and 3 above, provided that you release
+the Modified Version under precisely this License, with the Modified
+Version filling the role of the Document, thus licensing distribution
+and modification of the Modified Version to whoever possesses a copy
+of it. In addition, you must do these things in the Modified Version:
+
+\begin{itemize}
+\item[A.] 
+ Use in the Title Page (and on the covers, if any) a title distinct
+ from that of the Document, and from those of previous versions
+ (which should, if there were any, be listed in the History section
+ of the Document). You may use the same title as a previous version
+ if the original publisher of that version gives permission.
+ 
+\item[B.]
+ List on the Title Page, as authors, one or more persons or entities
+ responsible for authorship of the modifications in the Modified
+ Version, together with at least five of the principal authors of the
+ Document (all of its principal authors, if it has fewer than five),
+ unless they release you from this requirement.
+ 
+\item[C.]
+ State on the Title page the name of the publisher of the
+ Modified Version, as the publisher.
+ 
+\item[D.]
+ Preserve all the copyright notices of the Document.
+ 
+\item[E.]
+ Add an appropriate copyright notice for your modifications
+ adjacent to the other copyright notices.
+ 
+\item[F.]
+ Include, immediately after the copyright notices, a license notice
+ giving the public permission to use the Modified Version under the
+ terms of this License, in the form shown in the Addendum below.
+ 
+\item[G.]
+ Preserve in that license notice the full lists of Invariant Sections
+ and required Cover Texts given in the Document's license notice.
+ 
+\item[H.]
+ Include an unaltered copy of this License.
+ 
+\item[I.]
+ Preserve the section Entitled ``History'', Preserve its Title, and add
+ to it an item stating at least the title, year, new authors, and
+ publisher of the Modified Version as given on the Title Page. If
+ there is no section Entitled ``History'' in the Document, create one
+ stating the title, year, authors, and publisher of the Document as
+ given on its Title Page, then add an item describing the Modified
+ Version as stated in the previous sentence.
+ 
+\item[J.]
+ Preserve the network location, if any, given in the Document for
+ public access to a Transparent copy of the Document, and likewise
+ the network locations given in the Document for previous versions
+ it was based on. These may be placed in the ``History'' section.
+ You may omit a network location for a work that was published at
+ least four years before the Document itself, or if the original
+ publisher of the version it refers to gives permission.
+ 
+\item[K.]
+ For any section Entitled ``Acknowledgements'' or ``Dedications'',
+ Preserve the Title of the section, and preserve in the section all
+ the substance and tone of each of the contributor acknowledgements
+ and/or dedications given therein.
+ 
+\item[L.]
+ Preserve all the Invariant Sections of the Document,
+ unaltered in their text and in their titles. Section numbers
+ or the equivalent are not considered part of the section titles.
+ 
+\item[M.]
+ Delete any section Entitled ``Endorsements''. Such a section
+ may not be included in the Modified Version.
+ 
+\item[N.]
+ Do not retitle any existing section to be Entitled ``Endorsements''
+ or to conflict in title with any Invariant Section.
+ 
+\item[O.]
+ Preserve any Warranty Disclaimers.
+\end{itemize}
+
+If the Modified Version includes new front-matter sections or
+appendices that qualify as Secondary Sections and contain no material
+copied from the Document, you may at your option designate some or all
+of these sections as invariant. To do this, add their titles to the
+list of Invariant Sections in the Modified Version's license notice.
+These titles must be distinct from any other section titles.
+
+You may add a section Entitled ``Endorsements'', provided it contains
+nothing but endorsements of your Modified Version by various
+parties---for example, statements of peer review or that the text has
+been approved by an organization as the authoritative definition of a
+standard.
+
+You may add a passage of up to five words as a Front-Cover Text, and a
+passage of up to 25 words as a Back-Cover Text, to the end of the list
+of Cover Texts in the Modified Version. Only one passage of
+Front-Cover Text and one of Back-Cover Text may be added by (or
+through arrangements made by) any one entity. If the Document already
+includes a cover text for the same cover, previously added by you or
+by arrangement made by the same entity you are acting on behalf of,
+you may not add another; but you may replace the old one, on explicit
+permission from the previous publisher that added the old one.
+
+The author(s) and publisher(s) of the Document do not by this License
+give permission to use their names for publicity for or to assert or
+imply endorsement of any Modified Version.
+
+\subsubsection*{5. Combining documents}
+
+You may combine the Document with other documents released under this
+License, under the terms defined in section~4 above for modified
+versions, provided that you include in the combination all of the
+Invariant Sections of all of the original documents, unmodified, and
+list them all as Invariant Sections of your combined work in its
+license notice, and that you preserve all their Warranty Disclaimers.
+
+The combined work need only contain one copy of this License, and
+multiple identical Invariant Sections may be replaced with a single
+copy. If there are multiple Invariant Sections with the same name but
+different contents, make the title of each such section unique by
+adding at the end of it, in parentheses, the name of the original
+author or publisher of that section if known, or else a unique number.
+Make the same adjustment to the section titles in the list of
+Invariant Sections in the license notice of the combined work.
+
+In the combination, you must combine any sections Entitled ``History''
+in the various original documents, forming one section Entitled
+``History''; likewise combine any sections Entitled ``Acknowledgements'',
+and any sections Entitled ``Dedications''. You must delete all sections
+Entitled ``Endorsements''.
+
+\subsubsection*{6. Collections of documents}
+
+You may make a collection consisting of the Document and other documents
+released under this License, and replace the individual copies of this
+License in the various documents with a single copy that is included in
+the collection, provided that you follow the rules of this License for
+verbatim copying of each of the documents in all other respects.
+
+You may extract a single document from such a collection, and distribute
+it individually under this License, provided you insert a copy of this
+License into the extracted document, and follow this License in all
+other respects regarding verbatim copying of that document.
+
+\subsubsection*{7. Aggregation with independent works}
+
+A compilation of the Document or its derivatives with other separate
+and independent documents or works, in or on a volume of a storage or
+distribution medium, is called an ``aggregate'' if the copyright
+resulting from the compilation is not used to limit the legal rights
+of the compilation's users beyond what the individual works permit.
+When the Document is included in an aggregate, this License does not
+apply to the other works in the aggregate which are not themselves
+derivative works of the Document.
+
+If the Cover Text requirement of section~3 is applicable to these
+copies of the Document, then if the Document is less than one half of
+the entire aggregate, the Document's Cover Texts may be placed on
+covers that bracket the Document within the aggregate, or the
+electronic equivalent of covers if the Document is in electronic form.
+Otherwise they must appear on printed covers that bracket the whole
+aggregate.
+
+\subsubsection*{8. Translation}
+
+Translation is considered a kind of modification, so you may
+distribute translations of the Document under the terms of section~4.
+Replacing Invariant Sections with translations requires special
+permission from their copyright holders, but you may include
+translations of some or all Invariant Sections in addition to the
+original versions of these Invariant Sections. You may include a
+translation of this License, and all the license notices in the
+Document, and any Warranty Disclaimers, provided that you also include
+the original English version of this License and the original versions
+of those notices and disclaimers. In case of a disagreement between
+the translation and the original version of this License or a notice
+or disclaimer, the original version will prevail.
+
+If a section in the Document is Entitled ``Acknowledgements'',
+``Dedications'', or ``History'', the requirement (section~4) to Preserve
+its Title (section~1) will typically require changing the actual
+title.
+
+\subsubsection*{9. Termination}
+
+You may not copy, modify, sublicense, or distribute the Document
+except as expressly provided under this License. Any attempt
+otherwise to copy, modify, sublicense, or distribute it is void, and
+will automatically terminate your rights under this License.
+
+However, if you cease all violation of this License, then your license
+from a particular copyright holder is reinstated (a) provisionally,
+unless and until the copyright holder explicitly and finally
+terminates your license, and (b) permanently, if the copyright holder
+fails to notify you of the violation by some reasonable means prior to
+60 days after the cessation.
+
+Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+
+Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License. If your rights have been terminated and not permanently
+reinstated, receipt of a copy of some or all of the same material does
+not give you any rights to use it.
+
+\subsubsection*{10. Future revisions of this License}
+
+The Free Software Foundation may publish new, revised versions
+of the GNU Free Documentation License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns. See
+\url{http://www.gnu.org/copyleft/}.
+
+Each version of the License is given a distinguishing version number.
+If the Document specifies that a particular numbered version of this
+License ``or any later version'' applies to it, you have the option of
+following the terms and conditions either of that specified version or
+of any later version that has been published (not as a draft) by the
+Free Software Foundation. If the Document does not specify a version
+number of this License, you may choose any version ever published (not
+as a draft) by the Free Software Foundation. If the Document
+specifies that a proxy can decide which future versions of this
+License can be used, that proxy's public statement of acceptance of a
+version permanently authorizes you to choose that version for the
+Document.
+
+\subsubsection*{11. Relicensing}
+
+``Massive Multiauthor Collaboration Site'' (or ``MMC Site'') means any
+World Wide Web server that publishes copyrightable works and also
+provides prominent facilities for anybody to edit those works. A
+public wiki that anybody can edit is an example of such a server. A
+``Massive Multiauthor Collaboration'' (or ``MMC'') contained in the
+site means any set of copyrightable works thus published on the MMC
+site.
+
+``CC-BY-SA'' means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+``Incorporate'' means to publish or republish a Document, in whole or
+in part, as part of another Document.
+
+An MMC is ``eligible for relicensing'' if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+\end{results}
+
+\end{document}
+

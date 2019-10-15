@@ -1,0 +1,19 @@
+"Election for","Ward 11 - City Centre"
+"Date","16 Feb 2019"
+"Number to be elected",4
+"Valid votes",8886
+"Invalid votes",0
+"Quota",1778.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Jo MOWAT (C)",,"Alasdair RANKIN (SNP)",,"Claire MILLER (Grn)",,"Peter SIDOR (Libtn)",,"David STEVENS (LD)",
+"Karen DORAN (Lab)",1177,+195.03322,1372.03322,+140.36915,1512.40237,+22.36008,1534.76245,+31.59717,1566.35962,+858.38078,2424.74040,"Elected"
+"Claire MILLER (Grn)",1823,,1823.00000,,1823.00000,-45.00000,1778.00000,,1778.00000,,1778.00000,"Elected"
+"Jo MOWAT (C)",2904,-1126.00000,1778.00000,,1778.00000,,1778.00000,,1778.00000,,1778.00000,"Elected"
+"Alasdair RANKIN (SNP)",2228,,2228.00000,-450.00000,1778.00000,,1778.00000,,1778.00000,,1778.00000,"Elected"
+"Peter SIDOR (Libtn)",43,+48.85524,91.85524,+43.82749,135.68273,+1.35740,137.04013,-137.04013,"-",,"-",
+"David STEVENS (LD)",711,+474.98150,1185.98150,+118.55639,1304.53789,+13.62336,1318.16125,+70.70253,1388.86378,-1388.86378,"-",
+"Non-transferable", ,+407.13004,407.13004,+147.24697,554.37701,+7.65916,562.03617,+34.74043,596.77660,+530.48300,1127.25960,
+"Totals",8886,,8886.00000,,8886.00000,,8886.00000,,8886.00000,,8886.00000

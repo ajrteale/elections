@@ -1,0 +1,20 @@
+"Election for","Ward 6 - Corstorphine/Murrayfield"
+"Date","16 Feb 2019"
+"Number to be elected",3
+"Valid votes",11429
+"Invalid votes",0
+"Quota",2858.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Scott DOUGLAS (C)",,"Gillian GLOYER (LD)",,"James NISBET (UKIP)",,"John Ferguson SCOTT (Ind)",,"Kate NEVENS (Grn)",
+"Scott DOUGLAS (C)",3819,-961.00000,2858.00000,,2858.00000,,2858.00000,,2858.00000,,2858.00000,"Elected"
+"Gillian GLOYER (LD)",3502,,3502.00000,-644.00000,2858.00000,,2858.00000,,2858.00000,,2858.00000,"Elected"
+"Kate NEVENS (Grn)",598,+72.72107,670.72107,+109.41455,780.13562,+12.38105,792.51667,+59.87005,852.38672,-852.38672,"-",
+"James NISBET (UKIP)",66,+84.54768,150.54768,+14.71120,165.25888,-165.25888,"-",,"-",,"-",
+"Frank ROSS (SNP)",2474,+29.69234,2503.69234,+62.52260,2566.21494,+11.42923,2577.64417,+11.83261,2589.47678,+367.12548,2956.60226,"Elected"
+"John Ferguson SCOTT (Ind)",92,+129.58945,221.58945,+59.76425,281.35370,+35.57590,316.92960,-316.92960,"-",,"-",
+"June WHITELAW (Lab)",878,+211.11757,1089.11757,+199.88843,1289.00600,+27.10755,1316.11355,+70.69123,1386.80478,+246.20653,1633.01131,
+"Non-transferable", ,+433.33189,433.33189,+197.69897,631.03086,+78.76515,709.79601,+174.53571,884.33172,+239.05471,1123.38643,
+"Totals",11429,,11429.00000,,11429.00000,,11429.00000,,11429.00000,,11429.00000

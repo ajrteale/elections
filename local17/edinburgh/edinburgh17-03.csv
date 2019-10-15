@@ -1,0 +1,18 @@
+"Election for","Ward 3 - Drum Brae/Gyle"
+"Date","16 Feb 2019"
+"Number to be elected",3
+"Valid votes",9474
+"Invalid votes",0
+"Quota",2369.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Robert Christopher ALDRIDGE (LD)",
+"Robert Christopher ALDRIDGE (LD)",3176,-807.00000,2369.00000,"Elected"
+"Claire BRIDGMAN (SNP)",2541,,2541.00000,"Elected"
+"Mark BROWN (C)",2084,+327.26792,2411.26792,"Elected"
+"Karen Ann KEIL (Lab)",1262,+221.31239,1483.31239,
+"Phyl MEYER (Grn)",411,+110.02097,521.02097,
+"Non-transferable", ,+148.39872,148.39872,
+"Totals",9474,,9474.00000

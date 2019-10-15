@@ -1,0 +1,19 @@
+"Election for","Ward 8 - Colinton/Fairmilehead"
+"Date","16 Feb 2019"
+"Number to be elected",3
+"Valid votes",11379
+"Invalid votes",0
+"Quota",2845.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Jason RUST (C)",,"Sara MARSDEN (Grn)",,"David Richard WALKER (LD)",,"Scott ARTHUR (Lab)",,"Richard John LEWIS (SNP)",
+"Scott ARTHUR (Lab)",2343,+80.83170,2423.83170,+117.73565,2541.56735,+313.87700,2855.44435,-10.44435,2845.00000,,2845.00000,"Elected"
+"Phil DOGGART (C)",1879,+701.69850,2580.69850,+21.47130,2602.16980,+122.34010,2724.50990,+2.92075,2727.43065,+702.70615,3430.13680,"Elected"
+"Richard John LEWIS (SNP)",2359,+28.76220,2387.76220,+223.23155,2610.99375,+101.20695,2712.20070,+2.46860,2714.66930,-2714.66930,"-",
+"Sara MARSDEN (Grn)",487,+13.38930,500.38930,-500.38930,"-",,"-",,"-",,"-",
+"Jason RUST (C)",3783,-938.00000,2845.00000,,2845.00000,,2845.00000,,2845.00000,,2845.00000,"Elected"
+"David Richard WALKER (LD)",528,+56.03670,584.03670,+96.47950,680.51620,-680.51620,"-",,"-",,"-",
+"Non-transferable", ,+57.28160,57.28160,+41.47130,98.75290,+143.09215,241.84505,+5.05500,246.90005,+2011.96315,2258.86320,
+"Totals",11379,,11379.00000,,11379.00000,,11379.00000,,11379.00000,,11379.00000

@@ -1,0 +1,19 @@
+"Election for","Ward 9 - Fountainbridge/Craiglockhart"
+"Date","16 Feb 2019"
+"Number to be elected",3
+"Valid votes",9146
+"Invalid votes",0
+"Quota",2287.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Andrew JOHNSTON (C)",,"Gavin CORBETT (Grn)",,"Rojan SUBRAMANI (Ind)",,"Jenni LANG (LD)",,"Anne WIMBERLEY (Lab)",
+"Gavin CORBETT (Grn)",2525,,2525.00000,-238.00000,2287.00000,,2287.00000,,2287.00000,,2287.00000,"Elected"
+"Andrew JOHNSTON (C)",2908,-621.00000,2287.00000,,2287.00000,,2287.00000,,2287.00000,,2287.00000,"Elected"
+"David KEY (SNP)",1924,+15.16134,1939.16134,+88.87775,2028.03909,+14.97183,2043.01092,+82.80176,2125.81268,+629.79249,2755.60517,"Elected"
+"Jenni LANG (LD)",461,+198.80574,659.80574,+45.42850,705.23424,+27.62379,732.85803,-732.85803,"-",,"-",
+"Rojan SUBRAMANI (Ind)",62,+29.25498,91.25498,+9.89625,101.15123,-101.15123,"-",,"-",,"-",
+"Anne WIMBERLEY (Lab)",1266,+129.61878,1395.61878,+63.14750,1458.76628,+23.51367,1482.27995,+381.73653,1864.01648,-1864.01648,"-",
+"Non-transferable", ,+248.15916,248.15916,+30.65000,278.80916,+35.04194,313.85110,+268.31974,582.17084,+1234.22399,1816.39483,
+"Totals",9146,,9146.00000,,9146.00000,,9146.00000,,9146.00000,,9146.00000
