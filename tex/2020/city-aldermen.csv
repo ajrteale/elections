@@ -41,12 +41,12 @@
 "2018-12-13","Broad St","Michael Mainelli","Yes","No","Michael Mainelli",
 "2019-01-31","Billingsgate","Matthew Richardson","Retired","Yes","Bronek Masojada",
 "2019-04-30","Bassishaw","Timothy Hailes","Yes","Yes","Timothy Hailes",
-"2019-08-07","Lime St","Sir Charles Bowman","Yes",,,
-"2019-08-07","Vintry","Sir Andrew Parmley","Yes",,,
-,"Farringdon Wn","Vincent Keaveny",,,,"By 2019-10-23"
-,"Coleman St","Peter Estlin",,,,"By 2019-11-29"
+"2019-08-07","Lime St","Sir Charles Bowman","Yes","No","Sir Charles Bowman",
+"2019-08-07","Vintry","Sir Andrew Parmley","Yes","No","Sir Andrew Parmley",
+"2019-12-19","Coleman St","Peter Estlin","Yes",,,
+"2019-12-19","Dowgate","Alison Gowman","Yes",,,
+"2019-12-19","Farringdon Wn","Vincent Keaveny","Yes",,,
 ,"Cripplegate","David Graves",,,,"By 2020-06-19"
-,"Dowgate","Alison Gowman",,,,"By 2020-12-05"
 ,"Bishopsgate","Baroness Scotland of Asthal",,,,"By 2020-12-09"
 ,"Cornhill","Robert Howard",,,,"By 2021-10-13"
 ,"Walbrook","John Garbutt",,,,"By 2021-12-02"
@@ -66,5 +66,8 @@
 ,"Broad St","Michael Mainelli",,,,"By 2024-12-13"
 ,"Billingsgate","Bronek Masojada",,,,"By 2025-01-31"
 ,"Bassishaw","Timothy Hailes",,,,"By 2025-04-30"
-,"Lime St",,,,,"By 2025-08-07"
-,"Vintry",,,,,"By 2025-08-07"
+,"Lime St","Sir Charles Bowman",,,,"By 2025-08-07"
+,"Vintry","Sir Andrew Parmley",,,,"By 2025-08-07"
+,"Coleman St",,,,,"By 2025-12-19"
+,"Dowgate",,,,,"By 2025-12-19"
+,"Farringdon Wn",,,,,"By 2025-12-19"
