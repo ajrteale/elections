@@ -11,13 +11,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3041"
    sodipodi:version="0.32"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    width="571.04852"
    height="600"
    version="1.0"
-   sodipodi:docname="ne-lincs12.svg"
+   sodipodi:docname="ne-lincs16.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\unitaries\yorks\ne-lincs12.png"
+   inkscape:export-filename="/home/andrewteale/eln/boundaries/unitaries/yorks/ne-lincs16.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,8 +43,8 @@
        id="perspective3048" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="706"
-     inkscape:window-width="1366"
+     inkscape:window-height="1010"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -55,11 +55,11 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.84"
+     inkscape:zoom="1.3533333"
      inkscape:cx="285.52426"
      inkscape:cy="300"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:current-layer="svg3041"
      inkscape:window-maximized="1" />
   <path
@@ -82,7 +82,7 @@
      id="path3326"
      sodipodi:nodetypes="cssssssssssssssssssssscccsscccsssccsssscccssssssssssssssscccssssssssssssssssc" />
   <path
-     style="fill:#800080"
+     style="fill:#0000ff"
      d="M 351.48987,329.54909 C 352.58998,329.25427 352.96879,328.66732 352.96879,327.25753 C 352.96879,326.01108 353.3063,325.3623 353.95474,325.3623 C 354.49701,325.3623 354.94068,324.81755 354.94068,324.15174 C 354.94068,322.49725 358.57729,321.48982 366.40588,320.97558 C 369.86089,320.74863 372.68772,320.37938 372.68772,320.15503 C 372.68772,319.93068 371.2088,317.71852 369.40123,315.23914 C 367.59366,312.75975 366.11474,310.37171 366.11474,309.93238 C 366.11474,309.49306 366.7109,308.59409 367.43954,307.93468 L 368.76433,306.73576 L 367.37247,305.2542 L 365.98062,303.77263 L 368.66381,302.07881 C 370.40733,300.97818 372.28043,300.38499 374.01237,300.38499 C 376.45164,300.38499 376.61954,300.27621 375.99153,299.10277 C 375.38271,297.96517 375.82489,297.51711 379.91219,295.12999 C 382.44597,293.65019 384.51907,292.27805 384.51907,292.08081 C 384.51907,291.42392 381.57474,289.25499 380.65287,289.2328 C 380.15327,289.22077 378.76775,288.60726 377.57394,287.86945 C 375.60625,286.65335 375.19968,286.61332 373.22393,287.4412 C 372.02523,287.94347 370.11442,289.13871 368.97769,290.09727 C 366.51642,292.17279 365.72978,292.26256 364.82461,290.57123 C 364.45111,289.87335 363.2888,288.69232 362.24171,287.94671 C 360.44293,286.66587 360.18154,286.64623 357.50422,287.59085 C 354.04636,288.81085 352.96879,288.47607 352.96879,286.18176 C 352.96879,284.46356 352.89484,284.43239 349.51798,284.72721 C 347.62003,284.89291 345.03192,284.86034 343.76662,284.65484 C 341.86576,284.34611 341.45917,283.99571 341.42626,282.63795 C 341.36065,279.93015 340.37476,276.06498 339.74969,276.06498 C 339.42841,276.06498 339.16554,276.47074 339.16554,276.96667 C 339.16554,277.66794 337.08364,277.96624 329.79905,278.30871 C 324.64748,278.5509 319.14205,278.92319 317.56476,279.13603 L 314.69697,279.52301 L 314.99782,283.15088 C 315.19139,285.48501 315.68415,287.06061 316.37963,287.56916 C 316.97416,288.00389 318.20063,290.32569 319.10513,292.72872 C 321.18596,298.25698 321.86026,299.31693 324.16078,300.67588 C 325.6308,301.54424 325.94285,302.10514 325.63602,303.32762 C 325.34563,304.48465 325.6058,305.07014 326.66137,305.63507 C 327.81053,306.25007 327.99443,306.76279 327.64179,308.36839 C 327.09493,310.85817 330.42053,319.55485 333.83703,324.56941 C 335.99968,327.74363 336.38073,328.01607 338.17959,327.6741 C 344.88364,326.39964 345.012,326.40926 345.70747,328.23849 C 346.38689,330.02548 348.1885,330.43383 351.48987,329.54909 z"
      id="path3250" />
   <path
@@ -90,7 +90,7 @@
      d="M 531.99888,292.57368 C 534.5754,289.54276 539.4934,283.7663 542.92778,279.7371 C 546.36216,275.70791 550.14649,271.17774 551.33741,269.67007 L 553.50271,266.92884 L 551.85665,264.32131 C 550.6232,262.36739 549.88849,261.798 548.92564,262.04979 C 548.09701,262.26648 546.39538,261.478 544.13397,259.82947 C 541.00513,257.54859 539.24243,256.77667 533.85188,255.32674 C 533.01753,255.10232 530.20802,253.50915 527.60853,251.78635 C 523.4223,249.01197 522.79256,248.77428 522.09806,249.70651 C 521.07648,251.0778 519.12121,249.97959 518.59503,247.73898 C 518.33656,246.63839 517.47344,245.91025 515.75468,245.34284 C 509.87526,243.40189 499.01652,235.70381 497.89745,232.68334 C 497.51079,231.63969 492.7168,228.08226 491.69705,228.08226 C 491.36635,228.08226 488.04273,231.37575 484.31123,235.40111 C 478.05775,242.14707 477.06361,242.93921 471.611,245.52077 C 466.24448,248.06156 464.9631,249.06544 457.80775,256.33482 L 449.92018,264.34809 L 447.74136,261.782 L 445.56254,259.21591 L 436.97898,263.38102 C 430.28632,266.62857 428.19612,267.38073 427.49076,266.79534 C 426.74912,266.17984 426.58612,266.5055 426.58612,268.60273 C 426.58612,271.15228 427.62263,272.84749 436.97635,285.59579 C 439.40393,288.90437 456.70107,299.07039 459.90292,299.07039 C 461.01868,299.07039 466.03204,298.01638 471.04372,296.72815 C 479.8035,294.47648 482.76717,293.99788 497.24134,292.49759 L 503.81005,291.81672 L 506.45562,294.6981 C 509.02029,297.49137 509.30179,297.61402 515.66204,298.70916 C 519.27052,299.33047 522.51869,299.92251 522.88021,300.02478 C 524.33276,300.43571 527.55098,297.80602 531.99888,292.57368 z"
      id="path3244" />
   <path
-     style="fill:#ff0000"
+     style="fill:#ffff00"
      d="M 369.96975,287.01736 C 370.37097,286.53392 372.35781,285.7405 374.38496,285.25419 C 377.09904,284.6031 378.96399,283.58064 381.45921,281.37577 C 386.00438,277.35947 387.24121,275.94628 386.93655,275.11742 C 386.79591,274.73479 385.57234,270.28076 384.2175,265.21957 C 376.0847,234.83845 371.8711,220.4516 370.88629,219.70171 C 369.46227,218.61739 367.20905,218.66539 361.39231,219.90392 C 355.12625,221.23814 351.82433,220.71806 345.90485,217.46454 C 343.09367,215.91944 340.66921,215.00071 339.98917,215.22287 C 339.35542,215.4299 338.17445,216.62443 337.36479,217.87737 C 335.52882,220.71853 333.47995,222.08918 330.57412,222.42018 C 329.33443,222.56139 328.09829,222.70999 327.82716,222.7504 C 327.55602,222.79082 327.33418,223.11966 327.33418,223.48117 C 327.33418,223.84269 328.37871,224.13847 329.65535,224.13847 C 331.28775,224.13847 332.08561,224.4798 332.34415,225.28874 C 332.54634,225.92139 333.01007,227.06596 333.37467,227.83224 C 333.73927,228.59851 333.93429,231.2448 333.80805,233.71287 L 333.57851,238.20027 L 337.79769,239.28085 C 342.48631,240.48166 342.66478,240.71516 343.3889,246.59611 C 343.86529,250.46509 345.06897,251.80431 346.78782,250.37779 C 347.44077,249.83589 348.165,249.86411 349.5704,250.48621 C 351.21492,251.21414 351.61988,251.96168 352.58316,256.04771 C 353.21922,258.74574 353.50274,261.53838 353.24489,262.56574 C 352.8059,264.31483 352.70047,264.35157 349.32928,263.93037 C 347.13826,263.65662 345.70654,263.7536 345.43422,264.19422 C 345.1974,264.5774 344.50347,264.89044 343.89215,264.88986 C 343.00418,264.88901 342.78068,265.51682 342.78068,268.01202 C 342.78068,270.98726 342.69503,271.13402 340.97311,271.10934 C 339.52003,271.08851 339.16554,271.37854 339.16554,272.58826 C 339.16554,273.75521 339.53449,274.09309 340.80878,274.09309 C 342.14567,274.09309 342.45203,274.41587 342.45203,275.8244 C 342.45203,279.16082 343.86552,282.52027 345.43508,282.9142 C 347.18013,283.35217 350.97242,282.73015 352.1388,281.81463 C 353.61657,280.65469 354.94068,281.81059 354.94068,284.26057 C 354.94068,286.92406 354.97552,286.93879 357.94403,285.53014 C 360.03649,284.5372 360.2822,284.55401 362.34921,285.83149 C 363.61324,286.61271 365.11782,287.0329 365.90964,286.82583 C 366.66387,286.62859 367.4797,286.78877 367.72259,287.18177 C 368.31412,288.1389 369.08582,288.08244 369.96975,287.01736 z"
      id="path3238" />
   <path
@@ -118,7 +118,7 @@
      d="M 445.71863,225.68804 C 449.47755,223.485 449.97551,223.35594 451.95491,224.0717 C 455.06041,225.19466 457.54923,223.95588 467.73956,216.21511 C 475.56544,210.27043 476.32642,209.51047 476.02613,207.93959 C 475.7066,206.26809 475.77606,206.22499 478.08999,206.65909 C 479.40698,206.90615 480.48463,206.87307 480.48477,206.58554 C 480.48491,206.29803 479.53167,204.20376 478.36647,201.93161 C 476.77625,198.8307 476.41417,197.53686 476.91457,196.74356 C 477.86044,195.24405 480.99627,195.04521 484.30391,196.27501 C 485.86231,196.85443 487.27791,197.18795 487.44969,197.01617 C 487.62148,196.84438 486.05064,196.04487 483.95895,195.23948 C 481.86725,194.43409 478.08538,192.94669 475.55478,191.93415 C 473.02419,190.92161 469.179,189.7393 467.00992,189.3068 C 460.48216,188.00522 442.90965,179.97698 433.80553,174.13693 C 427.66773,170.1997 428.65702,169.86853 421.6663,178.20058 C 416.26035,184.64377 415.40519,186.37059 417.03146,187.55974 C 418.34413,188.51959 417.73269,190.6163 416.14011,190.6163 C 415.43628,190.6163 414.27199,192.16748 412.92394,194.90117 C 411.03446,198.73285 410.81068,199.79304 410.80826,204.92496 C 410.80587,209.99007 411.05668,211.22329 412.94448,215.42856 C 414.12089,218.04914 415.35459,220.19358 415.68603,220.19397 C 416.01747,220.19436 419.05654,218.71577 422.43951,216.9082 C 425.82249,215.10063 428.96413,213.62171 429.42095,213.62171 C 430.29118,213.62171 434.01892,217.81075 436.14748,221.18063 C 437.50729,223.33346 441.15587,228.08226 441.4501,228.08226 C 441.55099,228.08226 443.47183,227.00486 445.71863,225.68804 z"
      id="path3206" />
   <path
-     style="fill:#ff0000"
+     style="fill:#ffff00"
      d="M 399.05573,223.65554 C 401.50455,222.78579 402.26611,222.19078 402.26611,221.14721 C 402.26611,220.12078 403.26377,219.30227 406.26084,217.86979 C 408.45795,216.81967 410.39263,215.73873 410.56014,215.4677 C 410.72765,215.19667 410.40893,214.09357 409.85189,213.01636 C 409.15797,211.67446 408.83908,209.17979 408.83908,205.09308 C 408.83908,199.55307 409.00757,198.79378 411.20527,194.42971 C 412.50668,191.84546 413.99295,188.1129 414.5081,186.13513 C 415.40769,182.68136 417.15739,180.26397 425.1414,171.44416 L 426.72895,169.6904 L 424.82725,168.70699 C 423.78132,168.16611 421.80297,167.51298 420.43092,167.25559 C 419.05888,166.99819 417.78037,166.38126 417.5898,165.88464 C 417.39923,165.38802 416.75733,164.98062 416.16335,164.97931 C 415.56939,164.978 412.71714,164.0604 409.82503,162.94022 C 406.93292,161.82003 403.42218,160.56745 402.02339,160.15669 C 399.5803,159.43929 399.41134,159.49228 397.73362,161.5019 C 396.77305,162.65251 395.55125,163.52812 395.01851,163.4477 C 393.1995,163.1731 392.29183,162.20523 392.63231,160.90322 C 392.93633,159.74068 392.85502,159.70298 391.86795,160.54884 C 391.26045,161.06944 390.28234,161.66492 389.69438,161.87214 C 388.97381,162.12608 388.72457,162.76795 388.92975,163.84124 C 389.13256,164.90222 388.01972,167.85509 385.59494,172.68995 C 383.59339,176.68094 382.08678,180.07734 382.24693,180.23749 C 382.40708,180.39764 381.95557,181.73442 381.24355,183.20811 C 379.41888,186.98475 377.50742,194.53739 376.63817,201.40507 C 376.23029,204.62755 375.47832,208.07294 374.96712,209.0615 C 373.8634,211.19585 373.73331,211.14152 382.87583,212.36411 C 386.12945,212.7992 389.27617,213.57195 389.86854,214.08134 C 390.46091,214.59073 391.90583,217.20986 393.07946,219.90164 C 394.2531,222.59341 395.35554,224.79577 395.52934,224.79577 C 395.70314,224.79577 397.29001,224.28267 399.05573,223.65554 z"
      id="path3198" />
   <path
@@ -136,222 +136,233 @@
      id="path3052" />
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="233.6595"
      y="324.07047"
-     id="text4496"
-     sodipodi:linespacing="100%"><tspan
+     id="text4496"><tspan
        sodipodi:role="line"
        id="tspan4498"
        x="233.6595"
-       y="324.07047">Wolds</tspan></text>
+       y="324.07047"
+       style="font-size:12px;line-height:1">Wolds</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="346.41388"
      y="408.93158"
-     id="text4500"
-     sodipodi:linespacing="100%"><tspan
+     id="text4500"><tspan
        sodipodi:role="line"
        id="tspan4502"
        x="346.41388"
-       y="408.93158">Waltham</tspan></text>
+       y="408.93158"
+       style="font-size:12px;line-height:1">Waltham</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="458.4986"
      y="319.78821"
-     id="text4504"
-     sodipodi:linespacing="100%"><tspan
+     id="text4504"><tspan
        sodipodi:role="line"
        id="tspan4506"
        x="458.4986"
-       y="319.78821">Humberston &amp; New Waltham</tspan></text>
+       y="319.78821"
+       style="font-size:12px;line-height:1">Humberston &amp; New Waltham</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="494.54926"
      y="274.88876"
-     id="text4512"
-     sodipodi:linespacing="100%"><tspan
+     id="text4512"><tspan
        sodipodi:role="line"
        id="tspan4514"
        x="494.54926"
-       y="274.88876">Ha</tspan></text>
+       y="274.88876"
+       style="font-size:12px;line-height:1">Ha</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="365.42242"
      y="253.91385"
-     id="text4516"
-     sodipodi:linespacing="100%"><tspan
+     id="text4516"><tspan
        sodipodi:role="line"
        id="tspan4518"
        x="365.42242"
-       y="253.91385">P</tspan></text>
+       y="253.91385"
+       style="font-size:12px;line-height:1">P</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="319.21204"
      y="262.10718"
-     id="text4524"
-     sodipodi:linespacing="100%"><tspan
+     id="text4524"><tspan
        sodipodi:role="line"
        id="tspan4526"
        x="319.21204"
-       y="262.10718">S</tspan></text>
+       y="262.10718"
+       style="font-size:12px;line-height:1">S</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="445.94171"
      y="205.34512"
-     id="text4540"
-     sodipodi:linespacing="100%"><tspan
+     id="text4540"><tspan
        sodipodi:role="line"
        x="445.94171"
        y="205.34512"
-       id="tspan4544">SS</tspan></text>
+       id="tspan4544"
+       style="font-size:12px;line-height:1">SS</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="350.75885"
      y="194.2565"
-     id="text4552"
-     sodipodi:linespacing="100%"><tspan
+     id="text4552"><tspan
        sodipodi:role="line"
        x="350.75885"
        y="194.2565"
-       id="tspan4556">WM</tspan></text>
+       id="tspan4556"
+       style="font-size:12px;line-height:1">WM</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="152.73055"
      y="108.36073"
-     id="text4558"
-     sodipodi:linespacing="100%"><tspan
+     id="text4558"><tspan
        sodipodi:role="line"
        id="tspan4560"
        x="152.73055"
-       y="108.36073">Immingham</tspan></text>
+       y="108.36073"
+       style="font-size:12px;line-height:1">Immingham</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="458.33334"
      y="27.38096"
-     id="text3081"
-     sodipodi:linespacing="100%"><tspan
+     id="text3081"><tspan
        sodipodi:role="line"
        id="tspan3083"
        x="458.33334"
-       y="27.38096">GRIMSBY AND CLEETHORPES</tspan><tspan
+       y="27.38096"
+       style="font-size:12px;line-height:1">GRIMSBY AND CLEETHORPES</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="39.380959"
-       id="tspan3139">CB = Croft Baker</tspan><tspan
+       id="tspan3139"
+       style="font-size:12px;line-height:1">CB = Croft Baker</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="51.380959"
-       id="tspan3162">EM = East Marsh</tspan><tspan
+       id="tspan3162"
+       style="font-size:12px;line-height:1">EM = East Marsh</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="63.380959"
-       id="tspan3085">F = Freshney</tspan><tspan
+       id="tspan3085"
+       style="font-size:12px;line-height:1">F = Freshney</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="75.380959"
-       id="tspan3111">Ha = Haverstoe</tspan><tspan
+       id="tspan3111"
+       style="font-size:12px;line-height:1">Ha = Haverstoe</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="87.380959"
-       id="tspan3127">He = Heneage</tspan><tspan
+       id="tspan3127"
+       style="font-size:12px;line-height:1">He = Heneage</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="99.380959"
-       id="tspan3125">P = Park</tspan><tspan
+       id="tspan3125"
+       style="font-size:12px;line-height:1">P = Park</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="111.38096"
-       id="tspan3109">S = South</tspan><tspan
+       id="tspan3109"
+       style="font-size:12px;line-height:1">S = South</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="123.38096"
-       id="tspan3095">Sc = Scartho</tspan><tspan
+       id="tspan3095"
+       style="font-size:12px;line-height:1">Sc = Scartho</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="135.38097"
-       id="tspan3158">SS = Sidney Sussex</tspan><tspan
+       id="tspan3158"
+       style="font-size:12px;line-height:1">SS = Sidney Sussex</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="147.38097"
-       id="tspan3168">WM = West Marsh</tspan><tspan
+       id="tspan3168"
+       style="font-size:12px;line-height:1">WM = West Marsh</tspan><tspan
        sodipodi:role="line"
        x="458.33334"
        y="159.38097"
-       id="tspan3137">Y = Yarborough</tspan></text>
+       id="tspan3137"
+       style="font-size:12px;line-height:1">Y = Yarborough</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="308.33334"
      y="180.95238"
-     id="text3087"
-     sodipodi:linespacing="100%"><tspan
+     id="text3087"><tspan
        sodipodi:role="line"
        id="tspan3089"
        x="308.33334"
-       y="180.95238">F</tspan></text>
+       y="180.95238"
+       style="font-size:12px;line-height:1">F</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;"
      x="345.2381"
      y="307.14285"
-     id="text3091"
-     sodipodi:linespacing="100%"><tspan
+     id="text3091"><tspan
        sodipodi:role="line"
        id="tspan3093"
        x="345.2381"
-       y="307.14285">Sc</tspan></text>
+       y="307.14285"
+       style="font-size:12px;line-height:1;fill:#000000;">Sc</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="400"
      y="248.80952"
-     id="text3129"
-     sodipodi:linespacing="100%"><tspan
+     id="text3129"><tspan
        sodipodi:role="line"
        id="tspan3131"
        x="400"
-       y="248.80952">He</tspan></text>
+       y="248.80952"
+       style="font-size:12px;line-height:1">He</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="303.57144"
      y="229.76189"
-     id="text3133"
-     sodipodi:linespacing="100%"><tspan
+     id="text3133"><tspan
        sodipodi:role="line"
        id="tspan3135"
        x="303.57144"
-       y="229.76189">Y</tspan></text>
+       y="229.76189"
+       style="font-size:12px;line-height:1">Y</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="458.33334"
      y="240.47618"
-     id="text3141"
-     sodipodi:linespacing="100%"><tspan
+     id="text3141"><tspan
        sodipodi:role="line"
        id="tspan3143"
        x="458.33334"
-       y="240.47618">CB</tspan></text>
+       y="240.47618"
+       style="font-size:12px;line-height:1">CB</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Palatino Linotype;-inkscape-font-specification:Palatino Linotype"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="396.36292"
      y="193.75049"
-     id="text3164"
-     sodipodi:linespacing="100%"><tspan
+     id="text3164"><tspan
        sodipodi:role="line"
        id="tspan3166"
        x="396.36292"
-       y="193.75049">EM</tspan></text>
+       y="193.75049"
+       style="font-size:12px;line-height:1">EM</tspan></text>
 </svg>
