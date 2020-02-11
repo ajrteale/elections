@@ -44,13 +44,6 @@ May 2013 result LD 995 C 878 Lab 846 UKIP 424
 June 2009 result LD 1808 C 1377 Lab 438 UKIP 396
 May 2005 result LD 2232 C 2126 Lab 1382
 
-<!--
-Paddy BANN, 31 Beresford Road, Chapel-en-le-Frith, High Peak SK23 0NY
-Ruth Stephanie Nicole LOMAX, Tunstead Milton Farm, Whaley Bridge, High Peak SK23 7ER [Labour and Co-operative Party]
-David William LOMAX, 17 Stoneheads, Whaley Bridge, High Peak SK23 7BB [Liberal Democrat Focus Team]
-Fredrick John WALTON, Lydgate Bungalow, Ashopton Road, Bamford, Hope Valley S33 0AZ [The Conservative Party Candidate]
--->
-
 <hr/>
 
 <h2>Yoxall</h2>
@@ -78,11 +71,6 @@ November 2011 by-election C 478 Lab 89
 May 2011 result C 867 Lab 226
 May 2007 result C 827 Lab 124
 May 2003 result C 780 LD 266 Lab 127
-
-<!--
-Michael Lewis BAKER, 77 Lightwood Road, Yoxall, Burton-on-Trent DE13 8QE [Labour Party]
-Laura Elizabeth BEECH, Cliff Bungalow, Marchington Cliff, Uttoxeter ST14 8ND [Conservative Party Candidate]
--->
 
 <hr/>
 
@@ -114,13 +102,6 @@ Adam Roberts (C)
 Colin Saunderson (LD)
 
 May 2018 result C 766/758 Lab 492 LD 414
-
-<!--
-Barry John O'SULLIVAN, 10 Great Farthing Close, St Ives PE27 5JX [Labour Party]
-Philip Martin POPE, 27 The Broadway, St Ives PE27 5BX [Independent]
-Adam ROBERTS, 10 Burleigh Road, St Ives PE27 3DF [The Conservative Party Candidate]
-Colin SAUNDERSON, 12 Cedar Road, St Ives PE27 6TL [Liberal Democrat]
--->
 
 <hr/>
 
@@ -156,13 +137,6 @@ Brett Rosehill (C)
 
 May 2019 result Lab 987/819/819 C 822/738/724
 
-<!--
-John HUMPHRIES, Hertsmere [The Green Party]
-Andy LEWIS, Hertsmere [Liberal Democrat]
-Dan OZAROW, Hertsmere [Labour Party]
-Brett Ashley ROSEHILL, 5 Gables Avenue, Borehamwood WD6 4SP [The Conservative Party Candidate]
--->
-
 <hr/>
 
 <h2>Milford</h2>
@@ -196,12 +170,6 @@ May 2015 result C 1436/845 Ind 808 UKIP 521
 May 2011 result C 1044/732 Ind 482 UKIP 212
 May 2007 result C 1240/1132 LD 294/279
 May 2003 result C 894/775 LD 595/575
-
-<!--
-Rosaleen EGAN, 44 Oak Tree Road, Milford, Godalming GU8 5JJ [Independent]
-Maxine Beatrice GALE, Waverley [Independent]
-Carmel Jane OATES, Fernbank, Bowlhead Green Road, Brook, Godalming GU8 5UW [The Conservative Party Canddate]
--->
 
 <hr/>
 
@@ -244,11 +212,4 @@ May 2011 result C 966/859 Lab 502/384 Ind 439
 May 2007 result C 871/822 Lab 392/315 Grn 252
 May 2003 result C 899/834 Lab 444/398
 
-<!--
-Charlotte Louise BARTON, 48 Nicholas Drive, Cliffsend, Ramsgate CT12 5JS [Green Party]
-Grahame George BIRCHALL, 6 London Road, Ramsgate CT11 0DA [Independent]
-David GREEN, 51 Rydal Avenue, Ramsgate CT11 0PX [Labour Party]
-Marc RATTIGAN, Thanet [The Conservative Party Candidate]
--->
-
-
+<em>Andrew Teale</em>
