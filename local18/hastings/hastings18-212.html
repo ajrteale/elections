@@ -1,0 +1,646 @@
+
+	<link rel="stylesheet" href="SiteSpecific/ssMgStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssWordStyles.css" type="text/css" media="all" />
+
+
+<!DOCTYPE html>
+<html lang="en-gb" xml:lang="en-gb">
+<head><meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1' /><meta name="DC.title"  content="Election results for Castle, 3 May 2018"/>
+<meta name="DC.description"  content="Election results giving voting statistics per candidate"/>
+<meta name="DC.date" scheme="W3CDTF"  content="2018-05-03"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Government, politics and public administration"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Local government"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Decision making"/>
+
+<link type="text/css" href="jquery-ui/css/Smoothness/jquery-ui-1.12.1.min.css" rel="stylesheet" /> 
+<link type="text/css" href="jquery-ui/Add-ons/mg.jqueryaddons.css" rel="stylesheet" /> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+
+
+  <link href="//www.hastings.gov.uk/static/css/font-icons.css" rel="stylesheet" type="text/css" media="screen"/>
+  <link href="//www.hastings.gov.uk/static/css/holv2-1.2.min.css" rel="stylesheet" type="text/css" media="screen"/>
+  <link href="//www.hastings.gov.uk/static/css/responsive-1.0.min.css" rel="stylesheet" type="text/css" media="screen"/>
+  <script>window.jQuery || document.write('<script src="//www.hastings.gov.uk/Scripts/jquery-3.3.1.min.js">\x3C/script>')</script>
+
+  
+  
+ 
+
+ 
+  <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <script src="//www.hastings.gov.uk/Scripts/hol.min.js"></script>
+
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-32x32.png" sizes="32x32">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/android-chrome-192x192.png" sizes="192x192">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-96x96.png" sizes="96x96">  
+  <link rel="icon" type="image/png" href="/static/images/favicons/favicon-16x16.png" sizes="16x16">  
+  <link rel="manifest" href="/static/images/favicons/manifest.json">  
+  <meta name="msapplication-TileColor" content="#692d73">  
+  <meta name="msapplication-TileImage" content="/static/images/favicons/mstile-144x144.png">
+  <meta property="og:image" content="https://www.hastings.gov.uk/static/images/hbc-logo-og.jpg" />
+  <meta name="theme-color" content="#692d73">
+  <meta name="author" content="Hastings Borough Council" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  <title id="ctl00_header_PageTitle">
+	Modern Gov
+</title>
+
+
+</head>
+<body>
+  <div class="layer"> <a id="skip-to-content" href="#top"> <span>Skip to Content</span> </a> </div>
+<div id="pageHeader">
+  <div class="wrapper" style="padding:0.8em;">
+
+   <a id="headerHome" href="//www.hastings.gov.uk/" title="Hastings Online home page"><img class="headerImg" id="hbcheaderImg" alt="Hastings Online logo" src="//www.hastings.gov.uk/static/images/header.jpg" /></a>
+    
+    <div id="ctl00_searchForm">
+      <div class="atoz"><a class="linksfocus" title="A to Z of services" href="//www.hastings.gov.uk/a_z/">A-Z</a></div>
+      <form class="search" method="get" name="searchForm" action="//www.hastings.gov.uk/bingsearchform/">
+		    <div>
+			    <label for="searchBox">Search this site</label>
+         
+                <input type="text" class="input" placeholder="Search (e.g. Council Tax)" title="Search this site" id="searchBox" name="query" style="position:absolute; z-index:2; width: 370px;" autocomplete="off">
+                
+                <input type="image" class="submit" src="//www.hastings.gov.uk/static/images/search.png" name="search-submit" alt="magnifying glass search icon" style="left: 320px !important;">
+
+
+		    </div>
+	    </form>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div id="subHeader">
+  <div class="wrapper" style="padding-bottom: 0.8em; padding-top: 0.8em;"> 
+    
+    
+
+    <span class="links">
+      <a class="linksfocus" href="//www.hastings.gov.uk/" title="Hastings Online home page">Home</a> | 
+      <a class="linksfocus" href="//www.hastings.gov.uk/using-this-site/help/" title="Help using Hastings Online">Help</a>
+      | <a class="linksfocus" href="//www.hastings.gov.uk/privacy/" title="Your privacy">Privacy</a> 
+      
+     
+      | <a class="linksfocus" href="https://my.hastings.gov.uk/login?return_url=%2F&lang=en&appName=Self" title="Sign in / Register to Council services online">Sign in / Register</a>
+      | <a class="linksfocus" href="//www.hastings.gov.uk/jobopportunities/" title="Jobs at Hastings Borough Council and other organisations">Jobs</a>
+      <!--<a class="linksfocus" href="https://my.hastings.gov.uk/service/Contact_us?noLoginPrompt=1" title="Contact Hastings Borough Council">Contact&nbsp;us</a>-->
+    </span>
+
+
+    <span class="social">
+      <a class="linksfocus" href="https://twitter.com/hastingsbc" title="link to Hastings council twitter feed"><span class="icon-hbc-twitter-2 socialIcon"></span><span class="hidden">Hastings council twitter feed</span></a>
+      <a class="linksfocus" href="https://www.facebook.com/Hastingsboroughcouncil/" title="link to Hastings council facebook page"><span class="icon-hbc-facebook-2 socialIcon"></span><span class="hidden">Hastings council facebook page</span></a>
+      
+      
+    </span>
+
+    <div class="clear"></div>
+
+  </div>
+</div>
+
+<div id="ctl00_PageContent" class="wrapper">
+  
+
+
+<div style="background-color:#fff; padding:0.7% 0;">
+
+  <ul class="breadcrumb">
+    
+        <li>
+          <a href="//www.hastings.gov.uk/my-council/">My council</a>
+          
+        </li>
+      
+        <li>
+          <a href="//www.hastings.gov.uk/my-council/ModernGov/">Modern Gov</a>
+          
+        </li>
+      
+  </ul>
+
+
+
+</div>
+
+
+
+  <div class="main" id="top">
+    <ul>
+      <li class="leftCol contCol">     
+        
+    
+    <div id="ctl00_leftCol_PageBody"></div>
+
+    
+
+      <div><div id="modgov"><h1>Election results for Castle</h1>
+				
+			<div class="mgSubTitle" >	
+	    <h2 class="mgSubTitleTxt">Hastings Borough Council Elections - Thursday, 3rd May, 2018</h2>
+        </div>
+			<div class="mgLinks" >
+	<ul  class="mgActionList" >
+	<li><span  class="mgLabel" >Status: </span>Published</li>
+	<li><a  href="mgElectionResults.aspx?ID=41&amp;RPID=40463025"  title="Hastings&#32;Borough&#32;Council&#32;Elections - results by party" >Hastings&#32;Borough&#32;Council&#32;Elections - results by party</a></li>
+
+	</ul>
+</div>
+<div class="mgContent" >
+	<p>Turnout - 42.51&#37;</p>
+	<form   action="mgElectionAreaResults.aspx"  method = "post" id="mgFormSelect">
+    
+<div class="mgHiddenField" >
+<input type="hidden" name="XTCNID" id="XTCNID" value="40463026" /> 
+</div>
+
+	<div class="mgHiddenField" >
+    <input type="hidden" name="hElectionId"  value="41" />	
+    <input type="hidden" name="hElectionAreaId"  value="212" />	
+    <input type="hidden" name="hThisPageID"  value="40463025" id="Hidden4"/>
+    <input type="hidden" name="RPID"  value="40463009" id="Hidden2"/>
+	</div>
+	
+	
+	<table class="mgStatsTable tablesorter"  summary="Table of results for Wards ">
+		<caption  class="mgSectionTitle" >Castle - results</caption>
+		<tr>
+			<th scope="col"  class="mgMainTxtBold" >Election Candidate</th>
+			<th scope="col"  class="mgMainTxtBold" >Party</th>
+			<th scope="col"  class="mgMainTxtBold" >Votes</th>
+
+		        <th scope="col"  class="mgMainTxtBold" >%</th>
+				<th scope="col"  class="mgMainTxtBold" ></th>
+
+		</tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Judy Rogers</td>
+					<td   class="mgBottomText"  >Labour Party</td>
+				    <td  class="mgAlignRightCell"  >927</td>
+
+		                <td  class="mgAlignRightCell"  >24&#37;</td>
+			
+
+					<td   class="mgMainTxtBold" >Elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Leah Levane</td>
+					<td   class="mgBottomText"  >Labour Party</td>
+				    <td  class="mgAlignRightCell"  >891</td>
+
+		                <td  class="mgAlignRightCell"  >23&#37;</td>
+			
+
+					<td   class="mgMainTxtBold" >Elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Yellow" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Nick Perry</td>
+					<td   class="mgBottomText"  >Liberal Democrat Focus Team</td>
+				    <td  class="mgAlignRightCell"  >668</td>
+
+		                <td  class="mgAlignRightCell"  >17&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Yellow" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Stewart Gregory Rayment</td>
+					<td   class="mgBottomText"  >Liberal Democrat Focus Team</td>
+				    <td  class="mgAlignRightCell"  >395</td>
+
+		                <td  class="mgAlignRightCell"  >10&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:LawnGreen" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Charlotte Lowenna Potter</td>
+					<td   class="mgBottomText"  >Green Party</td>
+				    <td  class="mgAlignRightCell"  >219</td>
+
+		                <td  class="mgAlignRightCell"  >6&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:DeepSkyBlue" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Kevin Tomlin</td>
+					<td   class="mgBottomText"  >Conservative Party Candidate</td>
+				    <td  class="mgAlignRightCell"  >218</td>
+
+		                <td  class="mgAlignRightCell"  >6&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:DeepSkyBlue" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> John Sydes</td>
+					<td   class="mgBottomText"  >Conservative Party Candidate</td>
+				    <td  class="mgAlignRightCell"  >204</td>
+
+		                <td  class="mgAlignRightCell"  >5&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:LawnGreen" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Graeme Hampton</td>
+					<td   class="mgBottomText"  >Green Party</td>
+				    <td  class="mgAlignRightCell"  >191</td>
+
+		                <td  class="mgAlignRightCell"  >5&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Black" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Graeme James White</td>
+					<td   class="mgBottomText"  >Democrats and Veterans Party</td>
+				    <td  class="mgAlignRightCell"  >70</td>
+
+		                <td  class="mgAlignRightCell"  >2&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:White" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Steven Anthony Ward</td>
+					<td   class="mgBottomText"  >The For Britain Movement</td>
+				    <td  class="mgAlignRightCell"  >57</td>
+
+		                <td  class="mgAlignRightCell"  >1&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+	</table>
+		
+	    <table class="mgStatsTable tablesorter"  summary="Voting summary table">
+		    <caption  class="mgSectionTitle" >Voting Summary</caption>
+		    <tr>
+			    <th scope="col"  class="mgMainTxtBold" >Details</th>
+			    <th scope="col"  class="mgMainTxtBold" >Number</th>
+		    </tr>
+    
+		        <tr  class="mgTableOddRow" >
+			        <td  class="mgTopText"  >Total votes</td>				
+			        <td  class="mgAlignRightCell"  >3840</td>
+		        </tr>
+    
+		    <tr  class="mgTableEvenRow" >
+			    <td></td>
+			    <td></td>
+		    </tr>
+	    </table>
+
+	<table class="mgStatsTable tablesorter"  summary="Percentage share of votes graph">
+		<caption  class="mgSectionTitle" >Share of the votes (%)</caption>
+
+			<tr>
+		        <td   class="mgBottomText"  >Judy Rogers</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="60" height="15" /></span> 24&#37;</td>
+
+					<td   class="mgBottomText"  >Elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Leah Levane</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="58" height="15" /></span> 23&#37;</td>
+
+					<td   class="mgBottomText"  >Elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Nick Perry</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Yellow" ><img alt="" src="mgImages/pixel.gif" width="43" height="15" /></span> 17&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Stewart Gregory Rayment</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Yellow" ><img alt="" src="mgImages/pixel.gif" width="25" height="15" /></span> 10&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Charlotte Lowenna Potter</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:LawnGreen" ><img alt="" src="mgImages/pixel.gif" width="14" height="15" /></span> 6&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Kevin Tomlin</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:DeepSkyBlue" ><img alt="" src="mgImages/pixel.gif" width="14" height="15" /></span> 6&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >John Sydes</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:DeepSkyBlue" ><img alt="" src="mgImages/pixel.gif" width="13" height="15" /></span> 5&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Graeme Hampton</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:LawnGreen" ><img alt="" src="mgImages/pixel.gif" width="12" height="15" /></span> 5&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Graeme James White</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Black" ><img alt="" src="mgImages/pixel.gif" width="4" height="15" /></span> 2&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Steven Anthony Ward</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:White" ><img alt="" src="mgImages/pixel.gif" width="3" height="15" /></span> 1&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+	</table>
+
+			<div id="mgGraphHolder" style="width: 100%; max-width: 100%; height: auto; min-height: 400px;">
+				<noscript>
+					<img alt="Results graph" src="tempgraphics/c11e3593-74cb-40c6-82fa-1f527730cdac.Png"/>
+				</noscript>
+			</div>
+			
+	<div class="mgSubmitRow" >
+		<input  class="mgSubmitButton"  type="submit" name="Continue" value="Continue" id="Submit1"/>
+	</div>
+
+	</form>
+<div class="mgHelpLine" >	
+</div>	
+</div>
+<div class="mgFooter" >		
+
+	<p>&nbsp;</p>
+
+<input type="hidden" value="false" id="hidIsExtLinkNewWindow" name="hidIsExtLinkNewWindow"/>
+
+
+    <script src="edit-doc-activex.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="jquery-ui/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.12.1.custom.min.js"></script>
+
+    <script type="text/javascript">
+	var mgJQuery = jQuery.noConflict(true);
+        var thisFormValidator;
+    </script>
+
+    <script type="text/javascript" src="jquery-ui/json/json2.js"></script>
+    <script type="text/javascript" src="jquery-ui/Add-ons/mg.jqueryaddons.min.js"></script>
+    <script type="text/javascript" src="mgAjaxScripts.js"></script> 
+    
+	    <script type="text/javascript" src="mgGraphScripts.js"></script> 
+          
+    <script type="text/javascript">
+        function CommonAjaxInit()
+        {
+            Common_DocumentReady(false, 0);	// FB16622 - Default changed from Mark T's original to 0 thereby disabling it if no value set.
+        }
+
+        mgJQuery(document).ready(CommonAjaxInit);
+
+        //FB39842 RBFRS Website - Modern.Gov Councillors Page. JK
+        mgJQuery(window).on('load', function ()
+        {
+            Common_WindowLoad();
+        });
+
+    </script>  
+</div>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={%27modules%27:[{%27name%27:%27visualization%27,%27version%27:%271.1%27,%27packages%27:[%27corechart%27]}]}"></script><script>
+	function RenderAllGraphs()
+	{
+		createPieChart("[{'Label' : 'Judy Rogers','Value' : '24','Color' : 'Red'},{'Label' : 'Leah Levane','Value' : '23','Color' : 'Red'},{'Label' : 'Nick Perry','Value' : '17','Color' : 'Yellow'},{'Label' : 'Stewart Gregory Rayment','Value' : '10','Color' : 'Yellow'},{'Label' : 'Charlotte Lowenna Potter','Value' : '6','Color' : 'LawnGreen'},{'Label' : 'Kevin Tomlin','Value' : '6','Color' : 'DeepSkyBlue'},{'Label' : 'John Sydes','Value' : '5','Color' : 'DeepSkyBlue'},{'Label' : 'Graeme Hampton','Value' : '5','Color' : 'LawnGreen'},{'Label' : 'Graeme James White','Value' : '2','Color' : 'Black'},{'Label' : 'Steven Anthony Ward','Value' : '1','Color' : 'White'}]", "mgGraphHolder", "Candidate", "Percentage", "Share of 1st vote (%)", "top");
+	}
+
+	mgJQuery(document).ready( function () {
+		RenderAllGraphs();
+		mgJQuery(window).resize( function () {
+			RenderAllGraphs();
+		});
+	});
+</script></div></div>
+
+
+      </li>
+      <li class="rightCol contCol">
+        
+          
+  
+  <div style="text-align:center;background-color: #fff;">
+    <span class="icon-hbc-decisions_democracy pageIcon"></span>
+    <h2 id="ctl00_rightCol_PageIcon_piHead" class="pageIconHeader">My council</h2>
+  </div>
+
+
+
+  
+<div id="contact" style="padding:0em 1em 1em 1em;">
+  
+    
+  
+
+  <h2 class="sideBar">Contact <span class="icon-hbc-contact contactIcons"></span></h2>
+  <div id="ctl00_rightCol_ContactInfo_address">
+<p>
+Got a question about democratic services?&nbsp; 
+</p>
+<p><a title="Internal link to My Hastings Contact Us form" href="https://my.hastings.gov.uk/service/Contact_us?noLoginPrompt=1&page=">Contact us</a>
+</p></div>
+  
+  
+  <div id="ctl00_rightCol_ContactInfo_phone" style="margin:1em 0;"></div>
+
+  <hr/>
+    
+  
+
+  <h2 class="sideBar">Comments <span class="icon-hbc-comments contactIcons"></span></h2>
+  <div id="ctl00_rightCol_ContactInfo_comments">The content on this page is the responsibility of our Democratic Services team.</div><br />
+  <div id="address">Can't find what you're looking for? Try our <a href="/a_z/" title="A - Z">A - Z</a><br /><br />
+  Spotted an issue with this page?
+  <a href="https://my.hastings.gov.uk/service/tell_us_about_the_website_or_my_hastings?noLoginPrompt=1&page=https://www.hastings.gov.uk/my-council/ModernGov/">Tell us</a>
+  </div>
+  
+</div>
+
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('.contCol').equalheight();
+    });  
+  </script>
+
+        
+      </li>
+    </ul>
+  </div>
+</div>
+
+  
+
+<div id="footerAtoZ">
+  <div class="scc-atoz-picker" id="scc-atoz-picker">
+    <h2 style="text-align:center;margin-bottom:1em;">A-Z of services</h2>
+    <ul>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#A" title="Services beginning with A"><span class="offscreen">Services beginning with </span>A</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#B" title="Services beginning with B"><span class="offscreen">Services beginning with </span>B</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#C" title="Services beginning with C"><span class="offscreen">Services beginning with </span>C</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#D" title="Services beginning with D"><span class="offscreen">Services beginning with </span>D</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#E" title="Services beginning with E"><span class="offscreen">Services beginning with </span>E</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#F" title="Services beginning with F"><span class="offscreen">Services beginning with </span>F</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#G" title="Services beginning with G"><span class="offscreen">Services beginning with </span>G</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#H" title="Services beginning with H"><span class="offscreen">Services beginning with </span>H</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#I" title="Services beginning with I"><span class="offscreen">Services beginning with </span>I</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#J" title="Services beginning with J"><span class="offscreen">Services beginning with </span>J</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#K" title="Services beginning with K"><span class="offscreen">Services beginning with </span>K</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#L" title="Services beginning with L"><span class="offscreen">Services beginning with </span>L</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#M" title="Services beginning with M"><span class="offscreen">Services beginning with </span>M</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#N" title="Services beginning with N"><span class="offscreen">Services beginning with </span>N</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#O" title="Services beginning with O"><span class="offscreen">Services beginning with </span>O</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#P" title="Services beginning with P"><span class="offscreen">Services beginning with </span>P</a></li>
+        <li><span class="offscreen">Services beginning with </span><span>Q</span></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#R" title="Services beginning with R"><span class="offscreen">Services beginning with </span>R</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#S" title="Services beginning with S"><span class="offscreen">Services beginning with </span>S</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#T" title="Services beginning with T"><span class="offscreen">Services beginning with </span>T</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#U" title="Services beginning with U"><span class="offscreen">Services beginning with </span>U</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#V" title="Services beginning with V"><span class="offscreen">Services beginning with </span>V</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#W" title="Services beginning with W"><span class="offscreen">Services beginning with </span>W</a></li>
+        <li><span class="offscreen">Services beginning with </span><span>X</span></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/a_z/#Y" title="Services beginning with Y"><span class="offscreen">Services beginning with </span>Y</a></li>
+        <li><a class="linksfocus" href="//www.hastings.gov.uk/servicelist" title="Services beginning with Y"><span class="offscreen">Services beginning with </span>Z</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+
+
+
+<div id="sisterSites">
+<div class="scc-atoz-picker">
+  
+  <ul>
+
+    <li style="float:left;"><a href="http://www.hmag.org.uk" title="external link to Hastings Museum and Art Gallery" >Visit the Hastings Museum and Art Gallery website</a></li>
+    <li style="float:right;"><a href="https://www.visit1066country.com/" title="external link to Visit 1066 Country website" >Visit 1066 Country website</a></li>
+    <li class="footerSocial">
+      <a href="https://twitter.com/hastingsbc" title="link to Hastings council twitter feed"><span class="icon-hbc-twitter-2 socialIcon"></span><span class="hidden">Hastings council twitter feed</span></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.facebook.com/Hastingsboroughcouncil/" title="link to Hastings council facebook page"><span class="icon-hbc-facebook-2 socialIcon"></span><span class="hidden">Hastings council facebook page</span></a>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+<div id="pageFooter">
+  <div class="wrapper" style="padding:1.8em 1em;"> 
+          <h2 style="text-align:right;margin-top:0em;"><a class="linksfocus" href="https://my.hastings.gov.uk/service/Contact_us?noLoginPrompt=1" title="Contact Hastings Borough Council">Contact&nbsp;us</a></h2>
+
+    
+    <span class="icon-hbc-logo" style=" color: #fff;font-size: 11em;line-height: 0;"></span>
+
+
+      <div class="copyright">    
+      &copy; 2003 - 2020 Hastings Borough Council.<br />
+      Unless otherwise stated these pages are copyright protected.<br />
+      All rights reserved.
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+  
+  <!--[if lt IE 8]>
+	  <script src="/scripts/ie7.min.js"></script>
+	<![endif]-->
+
+  <!-- Google Analytics -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9468080-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <!-- End Google Analytics -->
+
+    <!-- Siteimprove Analytics -->
+
+<script>
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_420652.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+
+</script>
+ 
+  <!-- End Siteimprove Analytics -->
+
+</body>
+</html>
