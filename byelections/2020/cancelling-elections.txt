@@ -1,0 +1,98 @@
+<h2>On postponing the 2020 local elections</h2>
+
+<em>by Andrew Teale, Britain Elects Previewer</em>
+
+It's time to talk about the horrible thing that is dominating the news agenda worldwide.  Coronavirus.  To quote from the BBC today:
+
+<blockquote>
+<h4>Coronavirus: English local elections postponed for a year</h4>
+
+Local and mayoral elections in England will be postponed for a year to May 2021 due to the coronavirus outbreak.
+
+Downing Street said it would be impractical to hold the elections as planned, as they would come during the peak of the spread of the virus.
+
+Polls were due in 118 English councils, the London Assembly and for seven English regional mayors.
+
+Voting was also due to take place for the London mayor and police and crime commissioners in England and Wales.
+</blockquote>
+
+The BBC has carefully chosen its wording here.  The May 2020 local elections in England and Wales almost certainly <em>will be</em> postponed, but as of this writing that hasn't happened <em>yet</em>.  The Cabinet Office and the Welsh Government need to bring forward emergency legislation to that effect, which will need to be done in some haste and will almost certainly have no problem getting through Parliament or the Senedd.  Given the public health crisis sweeping the UK and indeed the world, this is not controversial stuff.
+
+That doesn't mean it's simple.  In this article I want to set out some of the potential pitfalls and explain why this is not going to be a simple one-line bill.
+
+<h4>Setting the scene: the normal rules</h4>
+
+<blockquote>
+"In every year after 1974 the ordinary day of election of councillors shall be the same for all local government areas in England and Wales and shall be the first Thursday in May or such other day as may be fixed by the Secretary of State by order made not later than 1st February in the year preceding the first year in which the order is to take effect."
+</blockquote>
+
+That was section 43 of the Local Government Act 1972, the omnibus piece of legislation which set up local government in England and Wales as we know it today.  For an Act which in its original form sprawled over 464 pages, section 43 is pretty short: it fixes the date in simple terms and sets up a mechanism for changing it by ministerial order if this is thought necessary.
+
+Section 43 has since been replaced by the Representation of the People Act 1983, which consolidated all the earlier pieces of electoral law for Great Britain into one document.  In the 1983 Act this appears as section 37(1) in essentially the same form.
+
+<h4>General postponements of local elections</h4>
+
+There have been five occasions since 1974 when local elections have been subject to a general postponement.  None of them have involved a ministerial order under section 37 of the 1983 Act.  The text effectively imposes a fifteen-month deadline on changing local election dates by order, and politicians can't think that far in advance.  (Can you?)
+
+Moreover, there are problems with section 37 other than the deadline.  The 1983 Act was passed into law at a much simpler time when there were only elections to Parliament, local councils and that newfangled thing called the European Parliament.  Since then we have had all sorts of constitutional innovations: devolution to Wales and London, the establishment of the Electoral Commission, mayors of districts and boroughs, regional and metro mayors, police and crime commissioners, newfangled electoral systems, extensions to the franchise, you name it.  All of that has to be bolted onto the 1983 Act which now has so many extensions that the structure is starting to sag under its own weight.  (The bit of the Act relating to electoral registration originally had six sections numbered 8 to 13; legislation.gov.uk now lists 26 sections with an alphabet soup of suffix letters, and I'm not convinced that that list is up to date.)
+
+Somehow, section 37(1) has managed to escape this expansion in several important respects.  Most importantly, local elections in Wales are now a devolved matter but section 37 hasn't been updated to reflect this.  Moreover, the minister making a section 37 order doesn't have to consult with any of the official bodies which might have an interest (like the Welsh Government and the Electoral Commission), nor are section 37 orders subject to any form of Parliamentary control as far as I can tell.  One gets the impression that the whole process has simply lapsed into obsolescence because nobody has ever used it.
+
+Instead, general postponements of local elections have come about under other powers.  The first general postponement of recent years was in 1986, when Thursday 1st May was the last day of the Jewish religious festival of Passover; a clause was included in the Representation of the People Act 1985, a bill which made various changes to electoral law, to provide that the 1986 local elections would take place instead on Thursday 8th May.  This hit the statute book in July 1985, so there was plenty of notice.
+
+The third, fourth and fifth general postponements of recent years took place in 2004, 2009 and 2014 respectively in order that the local council and European Parliament elections could coincide and benefit from increased turnout.  The 2004 postponement was made by orders under the Local Government Act 2003; it was clearly seen as a success because a permanent procedure was then brought in as sections 37A and 37B of the 1983 Act.  Section 37A (for England) and 37B (for Wales) orders only apply to European Parliament election years, and have to be made six months in advance.  Because of that the local elections of last year were not postponed to coincide with the 2019 European Parliament elections, which were organised in the UK at the last possible moment by which point the six-month deadline was long gone.  Following Brexit this process will not be used again, although for technical reasons sections 37A and 37B are still on the statute book for the time being.
+
+The second general postponement came in very similar circumstances to those we find ourselves in now with a public health emergency: not for humans, but for livestock.  The first half of 2001 saw a major outbreak of foot-and-mouth disease leading to severe movement restrictions in the British countryside, with disinfectant everywhere and animal funeral pyres that could be seen from space.  The countryside was most definitely closed and an election in these circumstances was inadvisable.  The result was a piece of emergency legislation, the Elections Act 2001, which postponed the local elections that year from 3rd May to 7th June.  By the time this hit the statute book on 10th April the election process was well underway and the candidate lists for 3rd May had come out, so special provision had to be made.  (Specifically, nominations for the 3rd May election were held good for the new date, notices of uncontested election were revoked, and the campaign spending limits were increased by 50%.)
+
+<h4>Other postponements</h4>
+
+There are other circumstances in which you can postpone an election.  The most common reason is that one of the candidates dies after being nominated but before the result is declared.  At every year's local elections there are a handful of wards where this happens, and a postponement for this reason has happened twice this century at general elections: in South Staffordshire in 2005, and in Thirsk and Malton in 2010.  Sir Patrick Cormack, who was the Tory MP for South Staffordshire at the relevant time, was rather worried by the episode: he sponsored an amendment to the parliamentary elections rules which provides that in some circumstances elections can proceed to polling with a deceased candidate on the ballot paper.  The Cormack amendment, however, doesn't apply to English and Welsh local elections.  Postponements for this reason can happen at any time up to and including polling day.
+
+There is one very unusual recent case of an election being called off by legal action.  At the start of 2018 Steve Jones, an independent member of Wigan council in Greater Manchester, submitted a postdated resignation letter to the council and then withdrew it before the date on the letter.  The Wigan council chief executive, however, had decided that postdating a resignation letter wasn't possible under local government law and declared Jones' seat vacant straight away.  Jones took the council to judicial review, and the High Court ruled that he had not resigned and the seat was not vacant, issuing an injunction to stop the resulting by-election on the day before polling day (<em>Andrew's Previews 2018</em>, pages 84-87).  Steve Jones still sits on Wigan council today; he was due for re-election in two months' time.
+
+The High Court taketh away but it also giveth.  Another bizarre case occurred in 2010, when the Brown government in its final days had approved a plan to give unitary status to the cities of Exeter and Norwich.  As part of that process the Exeter and Norwich city council elections in May 2010 were cancelled, with councillors' terms extended to 2011 when a whole council election was intended to be held.  The incoming Coalition government quickly cancelled the unitary plans, resulting in a High Court ruling that the order cancelling the May 2010 elections in Exeter and Norwich was void, and the councillors elected in May 2006 had finished their terms in May 2010.  Given that by now we were in July, suddenly a third of those cities' councillors were out of office.  Extraordinary elections had to be held in both cities in September to fill the vacancies.  There was, however, good news for the Lib Dems' Tim Payne, who had won a by-election to Exeter's Pennsylvania ward in May 2010; the High Court decided that was in fact an ordinary election and upgraded his term of office to a full four years.
+
+All election rules provide for the poll in an election to be adjourned to the following day in case of rioting at a polling station, although thankfully I'm not aware of any recent instance where this has actually happened.  There's no other <em>force majeure</em> way of adjourning a poll; in case of fire, flood, severe weather or natural disaster the polling station is expected to stay open for business regardless.
+
+There is one other scenario which, although severely tasteless even to contemplate, may happen sooner or later (hopefully later) and needs careful planning for when it occurs.  If a Demise of the Crown were to occur during a general election campaign, then the poll is postponed by fourteen calendar days (or to the next working day if that's a bank holiday).  There's no equivalent of this rule for local elections or any by-election.  This needs sorting out so that returning officers have some guidance on what to do in this circumstance, and it preferably needs sorting out before Operation London Bridge has to commence.
+
+<h4>Problem 1: the Lazarus by-elections</h2>
+
+Now I turn to some specific problems which the parliamentary drafters will need to overcome for the forthcoming emergency legislation.  In the previous section I mentioned the aborted local government reforms in Exeter and Norwich; another recent local government reform has created an important precedent.
+
+Claudia Webb (who should not be confused with the recently-elected Labour MP with a very similar name) had been elected in 2014 as a member of Weymouth and Portland council.  She resigned in December 2017, which was within six months of the scheduled end of her term in May 2018; accordingly the six-month rule applied and her seat was to be left vacant.  However, because of the structural changes in Dorset the May 2018 council elections in Weymouth and Portland were subsequently cancelled, and the terms of councillors elected in 2014 were extended to 2019.  This extension meant that the six-month rule no longer applied, and a by-election was duly held for Webb's seat.
+
+This is a precedent which the emergency legislation will need to address in a way that - because of the length of the postponement - wasn't necessary in 2001.  There are currently twenty-one vacancies which are covered by the six-month rule because the original office-holders were due for re-election in May 2020.  A year's postponement would mean that the six-month rule falls away and make it possible to call by-elections for them.
+
+That's going to cause a major problem, because two of those vacancies are police and crime commissionerships.  Tha PCC for Durham died at the end of last year, and the PCC for Cambridgeshire resigned under a cloud last November as I related on Andrew's Previews a few weeks back.  Taking these vacancies out of the protection given by the six-month rule would trigger the absurd and, in this case, arguably dangerous legal procedure for police and crime commissioner by-elections, which have to be held within 35 working days of the vacancy occurring.  This is clearly counter to the point of the emergency legislation.
+
+<h4>Problem 2: the democratic deficit</h4>
+
+Durham and Cambridgeshire aren't the only areas which give specific problems.  There is local government reform in the works for Buckinghamshire and Northamptonshire.  A year's postponement causes problems for both of these.
+
+In the case of Buckinghamshire, the county and district councils are due for abolition at the end of this month.  The intention was that a new Buckinghamshire council would be elected in May, and to fill the gap between the end of March and the beginning of May all of the county's district and county councillors would join together in a shadow council.  The abolition process is probably too far advanced to halt now - apart from anything else, the council tax bills have already gone out for next year - but the shadow Buckinghamshire council wasn't intended to be anything other than short-term and extending its lifespan from one month to thirteen is very suboptimal.  Apart from anything else, there is no provision for filling casual vacancies on it, nor (given that all the old wards and divisions will disappear along with the old councils) is there any obvious way in which that could be done.
+
+Northamptonshire has a different problem.  The May elections here were intended to be for brand-new shadow councils of North Northants and West Northants, which would take up their full roles in April 2021 when the county and district councils in Northamptonshire are due to be abolished.  The postponement of the May 2020 elections to May 2021 would, unless something changes, leave the county without any elected local government at all for April 2021.
+
+<h4>Problem 3: the boundary changes</h4>
+
+The Local Government Boundary Commission for England is constantly beavering away to keep the country's ward map in good order.  There are several councils in England which, as a result of the LGBCE's work, were due for boundary changes this year.  What was supposed to be the final piece of the puzzle turned up only last week, when the <a href="https://www.legislation.gov.uk/uksi/2020/215/made">electoral changes order for Pendle</a> passed into law.  This and all the other electoral changes orders due for implementation this year are going to need amendment, because they all have hardcoded into them "the ordinary day of election of councillors in 2020" which now seems unlikely to happen.
+
+<h4>Problem 4: the casual vacancies</h4>
+
+This column is aware of forty-seven casual vacancies in local government which were not covered by the six-month rule.  22 of these have dates already scheduled, including four next Thursday, with most of the rest likely being held back for combination with the May 2020 ordinary elections.  A decision needs to be taken as to what to do with these - whether to let them run as scheduled or, given the public health emergency, to postpone to some point in the future.  If so, how do you do that while being fair to the candidates?  That's a question the drafters may have to address.
+
+<h4>Issues for 2021</h4>
+
+The May 2020 local elections were already looking pretty big.  In between the Mayor and Assembly elections in London, the mayoral election in Greater Manchester, the Police and Crime Commissioner elections in the rest of England and Wales, various mayoral posts and 118 local councils, all parts of England and Wales were due to be going to the polls.  For 2021 you can add to that the English county councils and the Scottish and Welsh Parliament elections.  These are going to be big elections, with many electors having multiple ballot papers, and will be complicated to administer and count.  
+
+This is a particular problem in London, where the normal count venues for the mayor and assembly elections - ExCeL, Olympia and Alexandra Palace - may not be available for the revised dates even with a year's notice.  The mayor and assembly elections have always been counted electronically, as no-one involved believes that a traditional hand-count would be feasible.  In the short-term, trying to get out of arrangements with the counting machine supplier and three of the biggest and most expensive exhibition centres in the country may prove very costly for the GLA's returning officer.
+
+One final issue to address is what happens after 2021.  Councillors' terms are four years unless specified otherwise, so if the intention is to go back to the current electoral cycle then it would follow that the district and borough councillors returned in 2021 would only serve three-year terms. There could also be issues for the metro mayors.  A decision on this will need to be made.
+
+None of this is to say that postponing the May 2020 local elections is the wrong decision.  We are where we are; you don't have to like it, but you do have to accept that life can't go on as it is at least in the short term.  For the moment I still have my health; for how long, who knows?
+
+Now, if you'll excuse me, I need to work out what to do with the Bolton quiz leagues.
+
+<em>Andrew Teale</em>
+
