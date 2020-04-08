@@ -1,0 +1,19 @@
+"Election for","Ward 9 - Almond and Earn"
+"Date","08 Apr 2020"
+"Number to be elected",3
+"Valid votes",4097
+"Invalid votes",0
+"Quota",1025.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Kathleen BAIRD (C)",,"David ILLINGWORTH (C)",,"Linda Mary BUCHAN (Grn)",,"Peter GLENNIE (SNP)",
+"Henry ANDERSON (SNP)",882,+17.83980,899.83980,+5.51056,905.35036,+67.56290,972.91326,+339.21827,1312.13153,"Elected"
+"Kathleen BAIRD (C)",1724,-699.00000,1025.00000,,1025.00000,,1025.00000,,1025.00000,"Elected"
+"Linda Mary BUCHAN (Grn)",214,+18.24525,232.24525,+21.82836,254.07361,-254.07361,"-",,"-",
+"Peter GLENNIE (SNP)",330,+2.43270,332.43270,+3.04240,335.47510,+44.12858,379.60368,-379.60368,"-",
+"David ILLINGWORTH (C)",717,+607.36410,1324.36410,-299.36410,1025.00000,,1025.00000,,1025.00000,"Elected"
+"Chris RENNIE (LD)",230,+23.51610,253.51610,+90.58800,344.10410,+91.55838,435.66248,+10.04081,445.70329,
+"Non-transferable", ,+29.60205,29.60205,+178.39478,207.99683,+50.82375,258.82058,+30.34460,289.16518,
+"Totals",4097,,4097.00000,,4097.00000,,4097.00000,,4097.00000
