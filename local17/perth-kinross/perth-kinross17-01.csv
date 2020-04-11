@@ -1,0 +1,19 @@
+"Election for","Ward 1 - Carse of Gowrie"
+"Date","08 Apr 2020"
+"Number to be elected",3
+"Valid votes",4418
+"Invalid votes",0
+"Quota",1105.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Angus FORBES (C)",,"Hilary CHARLES (Grn)",,"Mary Stronach MATHESON (LD)",,"Alasdair BAILEY (Lab)",,"DOUGLAS BRIAN POVER (SNP)",
+"Alasdair BAILEY (Lab)",656,+169.73127,825.73127,+50.04213,875.77340,+231.51560,1107.28900,-2.28900,1105.00000,,1105.00000,"Elected"
+"Hilary CHARLES (Grn)",165,+44.02008,209.02008,-209.02008,"-",,"-",,"-",,"-",
+"Angus FORBES (C)",1916,-811.00000,1105.00000,,1105.00000,,1105.00000,,1105.00000,,1105.00000,"Elected"
+"Mary Stronach MATHESON (LD)",203,+220.94694,423.94694,+58.43331,482.38025,-482.38025,"-",,"-",,"-",
+"BETH POVER (SNP)",810,+19.89369,829.89369,+54.11635,884.01004,+26.07924,910.08928,+0.55430,910.64358,+668.43939,1579.08297,"Elected"
+"DOUGLAS BRIAN POVER (SNP)",668,+13.12137,681.12137,+11.00000,692.12137,+23.50251,715.62388,+0.21388,715.83776,-715.83776,"-",
+"Non-transferable", ,+343.28665,343.28665,+35.42829,378.71494,+201.28290,579.99784,+1.52082,581.51866,+47.39837,628.91703,
+"Totals",4418,,4418.00000,,4418.00000,,4418.00000,,4418.00000,,4418.00000

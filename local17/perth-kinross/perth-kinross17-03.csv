@@ -1,0 +1,19 @@
+"Election for","Ward 3 - Blairgowrie and Glens"
+"Date","08 Apr 2020"
+"Number to be elected",3
+"Valid votes",4507
+"Invalid votes",0
+"Quota",1127.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Caroline SHIERS (C)",,"Bob BRAWN (C)",,"Louise RAMSAY (Grn)",,"Gordon Ross CLARK (LD)",
+"Bob BRAWN (C)",897,+444.45918,1341.45918,-214.45918,1127.00000,,1127.00000,,1127.00000,"Elected"
+"Gordon Ross CLARK (LD)",141,+15.66100,156.66100,+67.65348,224.31448,+73.18908,297.50356,-297.50356,"-",
+"Tom MCEWAN (SNP)",1055,+12.84202,1067.84202,+6.30786,1074.14988,+25.04318,1099.19306,+55.09337,1154.28643,"Elected"
+"Alison MULHOLLAND (SNP)",609,+7.83050,616.83050,+4.89801,621.72851,+36.72597,658.45448,+23.86528,682.31976,
+"Louise RAMSAY (Grn)",164,+7.83050,171.83050,+16.39818,188.22868,-188.22868,"-",,"-",
+"Caroline SHIERS (C)",1641,-514.00000,1127.00000,,1127.00000,,1127.00000,,1127.00000,"Elected"
+"Non-transferable", ,+25.37680,25.37680,+119.20165,144.57845,+53.27045,197.84890,+218.54491,416.39381,
+"Totals",4507,,4507.00000,,4507.00000,,4507.00000,,4507.00000

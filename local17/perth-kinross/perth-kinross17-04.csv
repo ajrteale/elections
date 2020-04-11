@@ -1,0 +1,19 @@
+"Election for","Ward 4 - Highland"
+"Date","08 Apr 2020"
+"Number to be elected",3
+"Valid votes",4241
+"Invalid votes",0
+"Quota",1061.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Ian CAMPBELL (C)",,"Mary MCDOUGALL (Grn)",,"Kenneth Robertson SPITTAL (LD)",,"Kirsty GOWANS (SNP)",
+"Ian CAMPBELL (C)",1927,-866.00000,1061.00000,,1061.00000,,1061.00000,,1061.00000,"Elected"
+"Kirsty GOWANS (SNP)",734,+23.81820,757.81820,+33.44940,791.26760,+30.94340,822.21100,-822.21100,"-",
+"Xander MCDADE (Ind)",449,+267.39300,716.39300,+53.88680,770.27980,+183.21620,953.49600,+70.74100,1024.23700,"Elected"
+"Mary MCDOUGALL (Grn)",168,+32.80620,200.80620,-200.80620,"-",,"-",,"-",
+"Kenneth Robertson SPITTAL (LD)",148,+184.70340,332.70340,+52.68440,385.38780,-385.38780,"-",,"-",
+"Mike WILLIAMSON (SNP)",815,+28.76160,843.76160,+33.34820,877.10980,+34.49400,911.60380,+667.33620,1578.94000,"Elected"
+"Non-transferable", ,+328.51760,328.51760,+27.43740,355.95500,+136.73420,492.68920,+84.13380,576.82300,
+"Totals",4241,,4241.00000,,4241.00000,,4241.00000,,4241.00000
