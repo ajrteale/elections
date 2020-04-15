@@ -1,0 +1,19 @@
+"Election for","Ward 9 - Armadale and Blackridge"
+"Date","14 Apr 2020"
+"Number to be elected",3
+"Valid votes",5204
+"Invalid votes",0
+"Quota",1302.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Stuart BORROWMAN (Ind)",,"Sarah KING (SNP)",,"Chris SMILLIE (LD)",,"Paula Ryans STOKES (Grn)",,"Ian BURGESS (C)",
+"Stuart BORROWMAN (Ind)",2343,-1041.00000,1302.00000,,1302.00000,,1302.00000,,1302.00000,,1302.00000,"Elected"
+"Ian BURGESS (C)",723,+293.23800,1016.23800,+0.89208,1017.13008,+17.86402,1034.99410,+21.95048,1056.94458,-1056.94458,"-",
+"Sarah KING (SNP)",1322,,1322.00000,-20.00000,1302.00000,,1302.00000,,1302.00000,,1302.00000,"Elected"
+"Andrew MCGUIRE (Lab)",707,+305.23410,1012.23410,+4.11264,1016.34674,+39.73620,1056.08294,+75.21390,1131.29684,+457.41906,1588.71590,"Elected"
+"Chris SMILLIE (LD)",47,+69.75510,116.75510,+1.11888,117.87398,-117.87398,"-",,"-",,"-",
+"Paula Ryans STOKES (Grn)",62,+87.08280,149.08280,+7.80192,156.88472,+32.45796,189.34268,-189.34268,"-",,"-",
+"Non-transferable", ,+285.69000,285.69000,+6.07448,291.76448,+27.81580,319.58028,+92.17830,411.75858,+599.52552,1011.28410,
+"Totals",5204,,5204.00000,,5204.00000,,5204.00000,,5204.00000,,5204.00000

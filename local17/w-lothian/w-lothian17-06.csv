@@ -1,0 +1,20 @@
+"Election for","Ward 6 - Fauldhouse and the Breich Valley"
+"Date","14 Apr 2020"
+"Number to be elected",3
+"Valid votes",5463
+"Invalid votes",0
+"Quota",1366.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","David DODDS (Lab)",,"Kenneth BROWN (LD)",,"Pamela BARNES (Grn)",,"Greg MCCARRA (SNP)",,"Pauline CLARK (SNP)",
+"Pamela BARNES (Grn)",123,+4.75020,127.75020,+33.79170,161.54190,-161.54190,"-",,"-",,"-",
+"Kenneth BROWN (LD)",124,+3.00846,127.00846,-127.00846,"-",,"-",,"-",,"-",
+"Pauline CLARK (SNP)",1012,+10.45044,1022.45044,+12.31668,1034.76712,+43.79170,1078.55882,+702.26672,1780.82554,-414.82554,1366.00000,"Elected"
+"David DODDS (Lab)",1623,-257.00000,1366.00000,,1366.00000,,1366.00000,,1366.00000,,1366.00000,"Elected"
+"Marion KERR (C)",832,+10.45044,842.45044,+24.15834,866.60878,+25.47502,892.08380,+4.31668,896.40048,+23.28234,919.68282,
+"Greg MCCARRA (SNP)",783,+4.43352,787.43352,+6.31668,793.75020,+23.63336,817.38356,-817.38356,"-",,"-",
+"Cathy MULDOON (Lab)",966,+204.41694,1170.41694,+35.79170,1206.20864,+26.37510,1232.58374,+60.58340,1293.16714,+123.58430,1416.75144,"Elected"
+"Non-transferable", ,+19.49000,19.49000,+14.63336,34.12336,+42.26672,76.39008,+50.21676,126.60684,+267.95890,394.56574,
+"Totals",5463,,5463.00000,,5463.00000,,5463.00000,,5463.00000,,5463.00000
