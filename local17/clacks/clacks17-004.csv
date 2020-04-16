@@ -1,0 +1,20 @@
+"Election for","Ward 4 Clackmannanshire South"
+"Date","16 Apr 2020"
+"Number to be elected",4
+"Valid votes",3694
+"Invalid votes",0
+"Quota",739.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Craig HOLDEN (SNP)",,"John Shier BIGGAM (LD)",,"Chris DIXON (C)",,"Christine SINCLAIR (Lab)",,"Kenneth EARLE (Lab)",,"Bryan QUINN (Grn)",
+"John Shier BIGGAM (LD)",84,+0.33210,84.33210,-84.33210,"-",,"-",,"-",,"-",,"-",
+"Chris DIXON (C)",725,+1.32840,726.32840,+33.11070,759.43910,-20.43910,739.00000,,739.00000,,739.00000,,739.00000,"Elected"
+"Kenneth EARLE (Lab)",640,+4.09590,644.09590,+16.00000,660.09590,+5.19957,665.29547,+152.57608,817.87155,-78.87155,739.00000,,739.00000,"Elected"
+"Ellen FORSON (SNP)",649,+67.96980,716.96980,+4.11070,721.08050,+0.56808,721.64858,+8.44280,730.09138,+6.90891,737.00029,+263.21040,1000.21069,"Elected"
+"Craig HOLDEN (SNP)",831,-92.00000,739.00000,,739.00000,,739.00000,,739.00000,,739.00000,,739.00000,"Elected"
+"Bryan QUINN (Grn)",560,+9.52020,569.52020,+14.00000,583.52020,+3.55509,587.07529,+14.79569,601.87098,+19.43737,621.30835,-621.30835,"-",
+"Christine SINCLAIR (Lab)",205,+2.10330,207.10330,+5.11070,212.21400,+1.99431,214.20831,-214.20831,"-",,"-",,"-",
+"Non-transferable", ,+6.65030,6.65030,+12.00000,18.65030,+9.12205,27.77235,+38.39374,66.16609,+52.52527,118.69136,+358.09795,476.78931,
+"Totals",3694,,3694.00000,,3694.00000,,3694.00000,,3694.00000,,3694.00000,,3694.00000

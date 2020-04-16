@@ -1,0 +1,19 @@
+"Election for","Ward 5 Clackmannanshire East"
+"Date","16 Apr 2020"
+"Number to be elected",3
+"Valid votes",3496
+"Invalid votes",0
+"Quota",875.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Bill MASON (C)",,"Marion ROBERTSON (Grn)",,"Jane MCTAGGART (SNP)",
+"Anne ANDERSON (LD)",151,+194.31882,345.31882,+61.31878,406.63760,+8.19214,414.82974,
+"Graham LINDSAY (SNP)",692,+7.55022,699.55022,+25.19214,724.74236,+355.17904,1079.92140,"Elected"
+"Kathleen MARTIN (Lab)",706,+133.91706,839.91706,+28.96070,868.87776,+13.39738,882.27514,"Elected"
+"Bill MASON (C)",1452,-577.00000,875.00000,,875.00000,,875.00000,"Elected"
+"Jane MCTAGGART (SNP)",363,+5.96070,368.96070,+21.39738,390.35808,-390.35808,"-",
+"Marion ROBERTSON (Grn)",132,+28.21398,160.21398,-160.21398,"-",,"-",
+"Non-transferable", ,+207.03922,207.03922,+23.34498,230.38420,+13.58952,243.97372,
+"Totals",3496,,3496.00000,,3496.00000,,3496.00000
