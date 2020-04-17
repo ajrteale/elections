@@ -1,0 +1,20 @@
+"Election for","Ward 23 Partick East/Kelvindale"
+"Date","17 Apr 2020"
+"Number to be elected",4
+"Valid votes",10516
+"Invalid votes",0
+"Quota",2104.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Kenny MCLEAN (SNP)",,"Tony CURTIS (C)",,"Tom MUIRHEAD (Ind)",,"Carole FORD (LD)",
+"Martin BARTOS (Grn)",1727,+36.31944,1763.31944,+16.08822,1779.40766,+33.52843,1812.93609,+335.29140,2148.22749,"Elected"
+"Tony CURTIS (C)",2336,,2336.00000,-232.00000,2104.00000,,2104.00000,,2104.00000,"Elected"
+"Carole FORD (LD)",889,+5.64723,894.64723,+79.44800,974.09523,+35.27699,1009.37222,-1009.37222,"-",
+"Kenny MCLEAN (SNP)",2366,-262.00000,2104.00000,,2104.00000,,2104.00000,,2104.00000,"Elected"
+"Tom MUIRHEAD (Ind)",109,+2.87898,111.87898,+23.63578,135.51476,-135.51476,"-",,"-",
+"Martin RHODES (Lab)",1848,+9.41205,1857.41205,+45.58329,1902.99534,+19.99524,1922.99058,+380.31215,2303.30273,"Elected"
+"Kaukab STEWART (SNP)",1241,+198.53889,1439.53889,+2.97930,1442.51819,+14.34470,1456.86289,+62.21912,1519.08201,
+"Non-transferable", ,+9.20341,9.20341,+64.26541,73.46882,+32.36940,105.83822,+231.54955,337.38777,
+"Totals",10516,,10516.00000,,10516.00000,,10516.00000,,10516.00000
