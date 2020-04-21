@@ -1,0 +1,18 @@
+"Election for","East Mainland, South Ronaldsay and Burray Ward"
+"Date","21 Apr 2020"
+"Number to be elected",3
+"Valid votes",1424
+"Invalid votes",0
+"Quota",357.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","Andrew DREVER (Ind)",,"John Stanley GROUNDWATER (Ind)",,"Steve SANKEY (Grn)",
+"Norman Rae CRAIGIE (Ind)",238,+43.89714,281.89714,+72.25722,354.15436,+8.48211,362.63647,"Elected"
+"Andrew DREVER (Ind)",509,-152.00000,357.00000,,357.00000,,357.00000,"Elected"
+"Jim FOUBISTER (Ind)",192,+39.41784,231.41784,+33.97240,265.39024,+4.17584,269.56608,
+"John Stanley GROUNDWATER (Ind)",201,+28.36890,229.36890,-229.36890,"-",,"-",
+"Steve SANKEY (Grn)",284,+17.91720,301.91720,+81.46550,383.38270,-26.38270,357.00000,"Elected"
+"Non-transferable", ,+22.39892,22.39892,+41.67378,64.07270,+13.72475,77.79745,
+"Totals",1424,,1424.00000,,1424.00000,,1424.00000

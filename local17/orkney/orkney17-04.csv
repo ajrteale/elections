@@ -1,0 +1,20 @@
+"Election for","West Mainland Ward"
+"Date","21 Apr 2020"
+"Number to be elected",4
+"Valid votes",1833
+"Invalid votes",0
+"Quota",367.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Rachael KING (OMG)",,"Harvey JOHNSTON (Ind)",,"Owen TIERNEY (Ind)",,"Sean Michael LEWIS (Ind)",,"Helen Kathleen WOODSFORD-DEAN (Grn)",
+"Harvey JOHNSTON (Ind)",536,,536.00000,-169.00000,367.00000,,367.00000,,367.00000,,367.00000,"Elected"
+"Jo JONES (Ind)",70,+36.31005,106.31005,+24.59262,130.90267,+0.37260,131.27527,+11.71423,142.98950,+27.57987,170.56937,
+"Rachael KING (OMG)",561,-194.00000,367.00000,,367.00000,,367.00000,,367.00000,,367.00000,"Elected"
+"Sean Michael LEWIS (Ind)",39,+12.44916,51.44916,+8.51283,59.96199,+0.21060,60.17259,-60.17259,"-",,"-",
+"Owen TIERNEY (Ind)",370,,370.00000,,370.00000,-3.00000,367.00000,,367.00000,,367.00000,"Elected"
+"Duncan Allan TULLOCK (Ind)",191,+54.29217,245.29217,+82.29069,327.58286,+1.24740,328.83026,+15.67818,344.50844,+25.42965,369.93809,"Elected"
+"Helen Kathleen WOODSFORD-DEAN (Grn)",66,+29.39385,95.39385,+9.14341,104.53726,+0.22680,104.76406,+10.03693,114.80099,-114.80099,"-",
+"Non-transferable", ,+61.55477,61.55477,+44.46045,106.01522,+0.94260,106.95782,+22.74325,129.70107,+61.79147,191.49254,
+"Totals",1833,,1833.00000,,1833.00000,,1833.00000,,1833.00000,,1833.00000
