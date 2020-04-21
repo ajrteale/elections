@@ -1,0 +1,20 @@
+"Election for","Kirkwall West and Orphir Ward"
+"Date","21 Apr 2020"
+"Number to be elected",4
+"Valid votes",1447
+"Invalid votes",0
+"Quota",290.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Leslie MANSON (Ind)",,"John RICHARDS (OMG)",,"Max THOMAS (Ind)",,"Alastair MACLEOD (Ind)",,"Barbara FOULKES (Ind)",,"Barbara LESLIE (Ind)",
+"Sandy COWIE (Ind)",160,+84.86632,244.86632,+10.97520,255.84152,+1.36040,257.20192,+25.78868,282.99060,+0.06329,283.05389,+73.03434,356.08823,"Elected"
+"Barbara FOULKES (Ind)",150,+106.35844,256.35844,+10.97520,267.33364,+2.10216,269.43580,+20.79632,290.23212,-0.23212,290.00000,,290.00000,"Elected"
+"Barbara LESLIE (Ind)",109,+43.53532,152.53532,+6.06864,158.60396,+3.20432,161.80828,+15.36072,177.16900,+0.05621,177.22521,-177.22521,"-",
+"Alastair MACLEOD (Ind)",39,+44.63748,83.63748,+4.39008,88.02756,+5.61864,93.64620,-93.64620,"-",,"-",,"-",
+"Leslie MANSON (Ind)",646,-356.00000,290.00000,,290.00000,,290.00000,,290.00000,,290.00000,,290.00000,"Elected"
+"John RICHARDS (OMG)",333,,333.00000,-43.00000,290.00000,,290.00000,,290.00000,,290.00000,,290.00000,"Elected"
+"Max THOMAS (Ind)",10,+6.61296,16.61296,+1.16208,17.77504,-17.77504,"-",,"-",,"-",,"-",
+"Non-transferable", ,+69.98948,69.98948,+9.42880,79.41828,+5.48952,84.90780,+31.70048,116.60828,+0.11262,116.72090,+104.19087,220.91177,
+"Totals",1447,,1447.00000,,1447.00000,,1447.00000,,1447.00000,,1447.00000,,1447.00000
