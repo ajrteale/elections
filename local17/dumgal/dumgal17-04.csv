@@ -1,0 +1,19 @@
+"Election for","Castle Douglas and Crocketford"
+"Date","20 May 2020"
+"Number to be elected",3
+"Valid votes",3761
+"Invalid votes",0
+"Quota",941.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","David JAMES (C)",,"Iain HOWIE (Ind)",,"Paul John TAYLORSON (Grn)",,"Lucy MCKIE (Lab)",,"George PRENTICE (Ind)",
+"Iain HOWIE (Ind)",901,+132.99338,1033.99338,-92.99338,941.00000,,941.00000,,941.00000,,941.00000,"Elected"
+"David JAMES (C)",1346,-405.00000,941.00000,,941.00000,,941.00000,,941.00000,,941.00000,"Elected"
+"Lucy MCKIE (Lab)",264,+43.02727,307.02727,+9.84223,316.86950,+37.63033,354.49983,-354.49983,"-",,"-",
+"George PRENTICE (Ind)",365,+86.65632,451.65632,+44.79826,496.45458,+25.69066,522.14524,+106.75305,628.89829,-628.89829,"-",
+"Paul John TAYLORSON (Grn)",129,+18.65518,147.65518,+8.11282,155.76800,-155.76800,"-",,"-",,"-",
+"John Lachlan YOUNG (SNP)",756,+5.71691,761.71691,+10.51306,772.22997,+65.58024,837.81021,+90.46811,928.27832,+171.60583,1099.88415,"Elected"
+"Non-transferable", ,+117.95094,117.95094,+19.72701,137.67795,+26.86677,164.54472,+157.27867,321.82339,+457.29246,779.11585,
+"Totals",3761,,3761.00000,,3761.00000,,3761.00000,,3761.00000,,3761.00000

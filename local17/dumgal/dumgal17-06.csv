@@ -1,0 +1,20 @@
+"Election for","North West Dumfries"
+"Date","20 May 2020"
+"Number to be elected",4
+"Valid votes",4222
+"Invalid votes",0
+"Quota",845.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Graham BELL (C)",,"Michelle Anne JOHNSTON (Grn)",,"Billy FARRIES (Ind)",,"Stacy BRADLEY (SNP)",
+"Graham BELL (C)",1374,-529.00000,845.00000,,845.00000,,845.00000,,845.00000,"Elected"
+"Stacy BRADLEY (SNP)",574,+14.24500,588.24500,+24.77000,613.01500,+29.31000,642.32500,-642.32500,"-",
+"Billy FARRIES (Ind)",163,+105.87500,268.87500,+35.85500,304.73000,-304.73000,"-",,"-",
+"Andy FERGUSON (SNP)",693,+15.01500,708.01500,+28.38500,736.40000,+38.00500,774.40500,+539.85500,1314.26000,"Elected"
+"Michelle Anne JOHNSTON (Grn)",128,+28.49000,156.49000,-156.49000,"-",,"-",,"-",
+"David MCKIE (Lab)",611,+83.93000,694.93000,+25.92500,720.85500,+63.71500,784.57000,+24.69500,809.26500,"Elected"
+"Ronnie NICHOLSON (Lab)",679,+43.50500,722.50500,+10.08000,732.58500,+30.85500,763.44000,+15.15500,778.59500,"Elected"
+"Non-transferable", ,+237.94000,237.94000,+31.47500,269.41500,+142.84500,412.26000,+62.62000,474.88000,
+"Totals",4222,,4222.00000,,4222.00000,,4222.00000,,4222.00000

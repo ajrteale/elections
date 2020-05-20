@@ -1,0 +1,19 @@
+"Election for","Annandale East and Eskdale"
+"Date","20 May 2020"
+"Number to be elected",3
+"Valid votes",4360
+"Invalid votes",0
+"Quota",1091.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Karen CARRUTHERS (C)",,"Sylvia MOFFAT (SNP)",,"Craig PEACOCK (Ind)",,"Denis MALE (Ind)",
+"Karen CARRUTHERS (C)",1290,-199.00000,1091.00000,,1091.00000,,1091.00000,,1091.00000,"Elected"
+"Archie DRYBURGH (Lab)",638,+14.03766,652.03766,+124.30852,776.34618,+253.39372,1029.73990,+332.31390,1362.05380,"Elected"
+"Denis MALE (Ind)",721,+11.41524,732.41524,+77.15426,809.56950,+125.39372,934.96322,-934.96322,"-",
+"Sylvia MOFFAT (SNP)",454,+1.85112,455.85112,-455.85112,"-",,"-",,"-",
+"Craig PEACOCK (Ind)",513,+16.19730,529.19730,+101.30852,630.50582,-630.50582,"-",,"-",
+"Ronnie TAIT (C)",744,+137.44566,881.44566,+19.77130,901.21696,+82.70762,983.92458,+282.47892,1266.40350,"Elected"
+"Non-transferable", ,+18.05302,18.05302,+133.30852,151.36154,+169.01076,320.37230,+320.17040,640.54270,
+"Totals",4360,,4360.00000,,4360.00000,,4360.00000,,4360.00000

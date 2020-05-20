@@ -1,0 +1,18 @@
+"Election for","Annandale North"
+"Date","20 May 2020"
+"Number to be elected",4
+"Valid votes",5470
+"Invalid votes",0
+"Quota",1095.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Surplus of",
+"Candidates","Preferences","Doug FAIRBAIRN (C)",,"Gail MACGREGOR (C)",,"Stephen THOMPSON (SNP)",
+"Lisa COURTS (LD)",257,+99.36549,356.36549,+82.04380,438.40929,+62.53056,500.93985,
+"Doug FAIRBAIRN (C)",1573,-478.00000,1095.00000,,1095.00000,,1095.00000,"Elected"
+"Gail MACGREGOR (C)",1407,,1407.00000,-312.00000,1095.00000,,1095.00000,"Elected"
+"Stephen THOMPSON (SNP)",1308,,1308.00000,,1308.00000,-213.00000,1095.00000,"Elected"
+"Adam WILSON (Lab)",925,+73.84041,998.84041,+56.98718,1055.82759,+71.16108,1126.98867,"Elected"
+"Non-transferable", ,+304.79410,304.79410,+172.96902,477.76312,+79.30836,557.07148,
+"Totals",5470,,5470.00000,,5470.00000,,5470.00000

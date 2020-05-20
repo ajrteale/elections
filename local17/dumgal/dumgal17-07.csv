@@ -1,0 +1,18 @@
+"Election for","Mid and Upper Nithsdale"
+"Date","20 May 2020"
+"Number to be elected",3
+"Valid votes",4328
+"Invalid votes",0
+"Quota",1083.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Matthew RONNIE (C)",,"Jim DEMPSTER (Lab)",,"Graham WATSON (Ind)",,"John SYME (Lab)",
+"Jim DEMPSTER (Lab)",1055,+32.55252,1087.55252,-4.55252,1083.00000,,1083.00000,,1083.00000,"Elected"
+"Matthew RONNIE (C)",1211,-128.00000,1083.00000,,1083.00000,,1083.00000,,1083.00000,"Elected"
+"John SYME (Lab)",724,+6.76416,730.76416,+3.49602,734.26018,+105.15009,839.41027,-839.41027,"-",
+"Graham WATSON (Ind)",466,+31.91838,497.91838,+0.18194,498.10032,-498.10032,"-",,"-",
+"Andrew Stuart WOOD (SNP)",872,+4.65036,876.65036,+0.31284,876.96320,+166.94048,1043.90368,+242.30943,1286.21311,"Elected"
+"Non-transferable", ,+52.11458,52.11458,+0.56172,52.67630,+226.00975,278.68605,+597.10084,875.78689,
+"Totals",4328,,4328.00000,,4328.00000,,4328.00000,,4328.00000
