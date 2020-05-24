@@ -1,0 +1,20 @@
+"Election for","Ardrossan and Arran"
+"Date","24 May 2020"
+"Number to be elected",3
+"Valid votes",4736
+"Invalid votes",0
+"Quota",1185.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Timothy BILLINGS (C)",,"Colin TURBETT (SSP)",,"Gordon ALLISON (NRMUPB)",,"John HUNTER (Ind)",,"Clare MCGUIRE (Lab)",
+"Gordon ALLISON (NRMUPB)",238,+42.33984,280.33984,+4.94720,285.28704,-285.28704,"-",,"-",,"-",
+"Timothy BILLINGS (C)",1309,-124.00000,1185.00000,,1185.00000,,1185.00000,,1185.00000,,1185.00000,"Elected"
+"Tony GURNEY (SNP)",930,+2.17856,932.17856,+14.00000,946.17856,+9.37888,955.55744,+137.28416,1092.84160,+152.45184,1245.29344,"Elected"
+"John HUNTER (Ind)",503,+14.39744,517.39744,+17.04192,534.43936,+93.10240,627.54176,-627.54176,"-",,"-",
+"Clare MCGUIRE (Lab)",659,+18.75456,677.75456,+46.04192,723.79648,+69.14592,792.94240,+186.14592,979.08832,-979.08832,"-",
+"Ellen MCMASTER (SNP)",932,+5.02016,937.02016,+63.94720,1000.96736,+1.66304,1002.63040,+32.18944,1034.81984,+124.93632,1159.75616,"Elected"
+"Colin TURBETT (SSP)",165,+5.39904,170.39904,-170.39904,"-",,"-",,"-",,"-",
+"Non-transferable", ,+35.91040,35.91040,+24.42080,60.33120,+111.99680,172.32800,+271.92224,444.25024,+701.70016,1145.95040,
+"Totals",4736,,4736.00000,,4736.00000,,4736.00000,,4736.00000,,4736.00000

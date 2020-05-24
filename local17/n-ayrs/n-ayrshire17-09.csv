@@ -1,0 +1,20 @@
+"Election for","Saltcoats"
+"Date","24 May 2020"
+"Number to be elected",3
+"Valid votes",4169
+"Invalid votes",0
+"Quota",1043.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Jim MONTGOMERIE (Lab)",,"Caroline SANTOS (UKIP)",,"Valerie REID (Lab)",,"Roberta BIANCHINI (SNP)",,"Jean MCCLUNG (SNP)",,"Brandon CLYDESDALE (C)",
+"Roberta BIANCHINI (SNP)",619,+6.08883,625.08883,+2.00000,627.08883,+10.45785,637.54668,-637.54668,"-",,"-",,"-",
+"Brandon CLYDESDALE (C)",655,+11.62413,666.62413,+15.92255,682.54668,+37.58767,720.13435,+9.36902,729.50337,+19.61280,749.11617,-749.11617,"-",
+"Jean MCCLUNG (SNP)",900,+14.02276,914.02276,,914.02276,+21.22550,935.24826,+572.98177,1508.23003,-465.23003,1043.00000,,1043.00000,"Elected"
+"Ronnie MCNICOL (Ind)",570,+29.52160,599.52160,+13.10706,612.62866,+64.97945,677.60811,+19.36902,696.97713,+163.65789,860.63502,+314.58221,1175.21723,"Elected"
+"Jim MONTGOMERIE (Lab)",1279,-236.00000,1043.00000,,1043.00000,,1043.00000,,1043.00000,,1043.00000,,1043.00000,"Elected"
+"Valerie REID (Lab)",100,+140.04309,240.04309,+9.18451,249.22760,-249.22760,"-",,"-",,"-",,"-",
+"Caroline SANTOS (UKIP)",46,+2.21412,48.21412,-48.21412,"-",,"-",,"-",,"-",,"-",
+"Non-transferable", ,+32.48547,32.48547,+8.00000,40.48547,+114.97713,155.46260,+35.82687,191.28947,+281.95934,473.24881,+434.53396,907.78277,
+"Totals",4169,,4169.00000,,4169.00000,,4169.00000,,4169.00000,,4169.00000,,4169.00000

@@ -1,0 +1,19 @@
+"Election for","Irvine East"
+"Date","24 May 2020"
+"Number to be elected",3
+"Valid votes",3985
+"Invalid votes",0
+"Quota",997.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Marie BURNS (SNP)",,"Angela STEPHEN (C)",,"Ross COLLINS (Grn)",,"Hugh WILSON (SNP)",,"Irene OLDFATHER (Lab)",
+"Marie BURNS (SNP)",1334,-337.00000,997.00000,,997.00000,,997.00000,,997.00000,,997.00000,"Elected"
+"Ross COLLINS (Grn)",150,+20.20960,170.20960,+7.40544,177.61504,-177.61504,"-",,"-",,"-",
+"John EASDALE (Lab)",646,+17.93602,663.93602,+11.87424,675.81026,+39.69128,715.50154,+129.57044,845.07198,+556.83752,1401.90950,"Elected"
+"Irene OLDFATHER (Lab)",536,+10.61004,546.61004,+18.89664,565.50668,+32.04788,597.55456,+84.23590,681.79046,-681.79046,"-",
+"Angela STEPHEN (C)",1065,,1065.00000,-68.00000,997.00000,,997.00000,,997.00000,,997.00000,"Elected"
+"Hugh WILSON (SNP)",254,+264.99838,518.99838,+1.27680,520.27518,+54.51154,574.78672,-574.78672,"-",,"-",
+"Non-transferable", ,+23.24596,23.24596,+28.54688,51.79284,+51.36434,103.15718,+360.98038,464.13756,+124.95294,589.09050,
+"Totals",3985,,3985.00000,,3985.00000,,3985.00000,,3985.00000,,3985.00000

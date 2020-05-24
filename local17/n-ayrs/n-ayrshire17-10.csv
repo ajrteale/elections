@@ -1,0 +1,20 @@
+"Election for","Irvine South"
+"Date","24 May 2020"
+"Number to be elected",3
+"Valid votes",3357
+"Invalid votes",0
+"Quota",840.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Ian KERR (TUSC)",,"Audrey HYND-GAW (Ind)",,"David O'NEILL (Lab)",,"Robert FOSTER (Lab)",,"Robin STURGEON (SNP)",
+"Robert FOSTER (Lab)",676,+5.00000,681.00000,+14.00000,695.00000,+338.00000,1033.00000,-193.00000,840.00000,,840.00000,"Elected"
+"Margaret GEORGE (C)",720,+2.00000,722.00000,+20.00000,742.00000,+26.00000,768.00000,+52.49923,820.49923,+9.00000,829.49923,"Elected"
+"Audrey HYND-GAW (Ind)",68,+9.00000,77.00000,-77.00000,"-",,"-",,"-",,"-",
+"Ian KERR (TUSC)",42,-42.00000,"-",,"-",,"-",,"-",,"-",
+"Christina LARSEN (SNP)",733,+10.00000,743.00000,+9.00000,752.00000,+19.00000,771.00000,+18.68300,789.68300,+647.85758,1437.54058,"Elected"
+"David O'NEILL (Lab)",437,+6.00000,443.00000,+10.00000,453.00000,-453.00000,"-",,"-",,"-",
+"Robin STURGEON (SNP)",681,+3.00000,684.00000,,684.00000,+17.00000,701.00000,+9.34150,710.34150,-710.34150,"-",
+"Non-transferable", ,+7.00000,7.00000,+24.00000,31.00000,+53.00000,84.00000,+112.47627,196.47627,+53.48392,249.96019,
+"Totals",3357,,3357.00000,,3357.00000,,3357.00000,,3357.00000,,3357.00000

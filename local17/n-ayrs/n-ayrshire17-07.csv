@@ -1,0 +1,20 @@
+"Election for","Kilbirnie and Beith"
+"Date","24 May 2020"
+"Number to be elected",3
+"Valid votes",4733
+"Invalid votes",0
+"Quota",1184.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","James ROBSON (Lab)",,"James SMITH (Ind)",,"Margaret JOHNSON (SNP)",,"Anthea DICKSON (SNP)",
+"John BELL (Lab)",925,+106.00000,1031.00000,+31.00000,1062.00000,+34.00000,1096.00000,+139.24040,1235.24040,"Elected"
+"Anthea DICKSON (SNP)",1057,+4.00000,1061.00000,+30.00000,1091.00000,+526.00000,1617.00000,-433.00000,1184.00000,"Elected"
+"Margaret JOHNSON (SNP)",574,+2.00000,576.00000,+34.00000,610.00000,-610.00000,"-",,"-",
+"Ted NEVILL (C)",705,+7.00000,712.00000,+19.00000,731.00000,+4.00000,735.00000,+16.33397,751.33397,
+"Donald L REID (Ind)",1053,+21.00000,1074.00000,+108.00000,1182.00000,+21.00000,1203.00000,,1203.00000,"Elected"
+"James ROBSON (Lab)",156,-156.00000,"-",,"-",,"-",,"-",
+"James SMITH (Ind)",263,+4.00000,267.00000,-267.00000,"-",,"-",,"-",
+"Non-transferable", ,+12.00000,12.00000,+45.00000,57.00000,+25.00000,82.00000,+277.42563,359.42563,
+"Totals",4733,,4733.00000,,4733.00000,,4733.00000,,4733.00000
