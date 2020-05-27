@@ -1,10 +1,4 @@
-Kilmarnock North
-3 5 169 9109 3779 40
-Helen COFFEY,SNP,1
-Elaine COWAN,SNP,0
-Ian GRANT,Con,1
-Maureen MCKAY,Lab,1
-Lisa MURRAY,SLP,0
+5 3
 49 1 0
 603 1 2 0
 46 1 2 3 0
@@ -175,3 +169,10 @@ Lisa MURRAY,SLP,0
 3 5 4 3 1 2 0
 1 5 4 3 2 1 0
 0
+"Helen COFFEY (SNP)"
+"Elaine COWAN (SNP)"
+"Ian GRANT (C)"
+"Maureen MCKAY (Lab)"
+"Lisa MURRAY (Libtn)"
+"Kilmarnock North"
+

@@ -1,0 +1,18 @@
+"Election for","Kilmarnock South"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",3262
+"Invalid votes",0
+"Quota",816.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Jim TODD (SNP)",
+"John KNAPP (Lab)",1073,,1073.00000,"Elected"
+"Clare MAITLAND (SNP)",593,+321.50844,914.50844,"Elected"
+"Billy MCCLURE (C)",382,+5.34276,387.34276,
+"Caitlin O'BRIEN (Libtn)",24,+5.34276,29.34276,
+"Jim TODD (SNP)",1190,-374.00000,816.00000,"Elected"
+"Non-transferable", ,+41.80604,41.80604,
+"Totals",3262,,3262.00000

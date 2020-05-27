@@ -1,12 +1,4 @@
-Kilmarnock East and Hurlford
-4 7 732 12244 5193 129
-Fiona CAMPBELL,SNP,1
-John CAMPBELL,SNP,1
-Barry DOUGLAS,Lab,1
-Jon HERD,Con,1
-Stephen MCNAMARA,SLP,0
-Dave MEECHAN,Lab,0
-Raymond PATTISON,Ind,0
+7 4
 51 1 0
 680 1 2 0
 83 1 2 3 0
@@ -740,3 +732,12 @@ Raymond PATTISON,Ind,0
 2 7 6 5 4 0
 1 7 6 5 4 3 2 1 0
 0
+"Fiona CAMPBELL (SNP)"
+"John CAMPBELL (SNP)"
+"Barry DOUGLAS (Lab)"
+"Jon HERD (C)"
+"Stephen MCNAMARA (Libtn)"
+"Dave MEECHAN (Lab)"
+"Raymond PATTISON (Ind)"
+"Kilmarnock East and Hurlford"
+

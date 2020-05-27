@@ -1,12 +1,4 @@
-Ballochmyle
-4 7 637 11270 4833 138
-Claire LEITCH,SNP,1
-Neil MCGHEE,Lab,1
-Neil MURRAY,Lab,0
-Jim ROBERTS,SNP,1
-Sheraz SHAFIQ,SLP,0
-David SHAW,Ind,0
-Alyson SIMMONS,Con,1
+7 4
 58 1 0
 11 1 2 0
 15 1 2 3 0
@@ -645,3 +637,12 @@ Alyson SIMMONS,Con,1
 1 7 6 5 3 4 2 1 0
 1 7 6 5 4 3 2 1 0
 0
+"Claire LEITCH (SNP)"
+"Neil MCGHEE (Lab)"
+"Neil MURRAY (Lab)"
+"Jim ROBERTS (SNP)"
+"Sheraz SHAFIQ (Libtn)"
+"David SHAW (Ind)"
+"Alyson SIMMONS (C)"
+"Ballochmyle"
+

@@ -1,14 +1,4 @@
-Doon Valley
-3 9 874 8920 3883 76
-John BELL,SNP,1
-Elaine DINWOODIE,Lab,1
-Anne FAIRLIE,SNP,0
-Drew FILSON,Ind,1
-Alison HARPER,Con,0
-Mark MITCHELL,SLP,0
-Craig MURRAY,Grn,0
-Elaine STEWART,Lab,0
-John YOUNG,Ind,0
+9 3
 41 1 0
 8 1 2 0
 8 1 2 3 0
@@ -884,3 +874,14 @@ John YOUNG,Ind,0
 1 9 8 4 5 0
 1 9 8 5 0
 0
+"John BELL (SNP)"
+"Elaine DINWOODIE (Lab)"
+"Anne FAIRLIE (SNP)"
+"Drew FILSON (Ind)"
+"Alison HARPER (C)"
+"Mark MITCHELL (Libtn)"
+"Craig MURRAY (Grn)"
+"Elaine STEWART (Lab)"
+"John YOUNG (Ind)"
+"Doon Valley"
+

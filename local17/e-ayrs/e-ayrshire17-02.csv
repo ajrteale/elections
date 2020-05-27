@@ -1,0 +1,18 @@
+"Election for","Kilmarnock North"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",3739
+"Invalid votes",0
+"Quota",935.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Helen COFFEY (SNP)",,"Ian GRANT (C)",,"Lisa MURRAY (Libtn)",,"Elaine COWAN (SNP)",
+"Helen COFFEY (SNP)",1381,-446.00000,935.00000,,935.00000,,935.00000,,935.00000,"Elected"
+"Elaine COWAN (SNP)",481,+403.36455,884.36455,+1.96471,886.32926,+7.26541,893.59467,-893.59467,"-",
+"Ian GRANT (C)",971,,971.00000,-36.00000,935.00000,,935.00000,,935.00000,"Elected"
+"Maureen MCKAY (Lab)",865,+20.34585,885.34585,+15.45819,900.80404,+24.05545,924.85949,+375.56856,1300.42805,"Elected"
+"Lisa MURRAY (Libtn)",41,+3.22950,44.22950,+3.74407,47.97357,-47.97357,"-",,"-",
+"Non-transferable", ,+19.06010,19.06010,+14.83303,33.89313,+16.65271,50.54584,+518.02611,568.57195,
+"Totals",3739,,3739.00000,,3739.00000,,3739.00000,,3739.00000

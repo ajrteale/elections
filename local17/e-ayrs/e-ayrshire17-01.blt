@@ -1,13 +1,4 @@
-Annick
-4 8 1136 11761 6254 63
-Jen BROADHURST,Grn,0
-Ellen FREEL,Ind,1
-Gordon JENKINS,SNP,1
-Eoghann MACCOLL,SNP,0
-John MCFADZEAN,Con,1
-John MCGHEE,Lab,1
-Amrik SINGH,SLP,0
-Gordon WALKER,Ind,0
+8 4
 21 1 0
 9 1 2 0
 4 1 2 3 0
@@ -1145,3 +1136,13 @@ Gordon WALKER,Ind,0
 1 8 6 2 5 7 0
 1 8 6 3 2 5 0
 0
+"Jen BROADHURST (Grn)"
+"Ellen FREEL (Ind)"
+"Gordon JENKINS (SNP)"
+"Eòghann MACCOLL (SNP)"
+"John MCFADZEAN (C)"
+"John MCGHEE (Lab)"
+"Amrik SINGH (Libtn)"
+"Gordon WALKER (Ind)"
+"Annick"
+

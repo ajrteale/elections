@@ -1,11 +1,4 @@
-Kilmarnock West and Crosshouse
-4 6 453 12631 5809 88
-Elizabeth Anne BROWN,Grn,0
-Tom COOK,Con,1
-Stef JOHNSTONE,SLP,0
-Lillian JONES,Lab,1
-Iain LINTON,SNP,1
-Douglas REID,SNP,1
+6 4
 40 1 0
 7 1 2 0
 2 1 2 3 0
@@ -460,3 +453,11 @@ Douglas REID,SNP,1
 10 6 5 4 3 1 2 0
 9 6 5 4 3 2 1 0
 0
+"Elizabeth Anne BROWN (Grn)"
+"Tom COOK (C)"
+"Stef JOHNSTONE (Libtn)"
+"Lillian JONES (Lab)"
+"Iain LINTON (SNP)"
+"Douglas REID (SNP)"
+"Kilmarnock West and Crosshouse"
+
