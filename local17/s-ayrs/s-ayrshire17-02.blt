@@ -1,11 +1,4 @@
-Prestwick
-4 6 510 12516 6894 172
-Ian COCHRANE,SNP,1
-Hugh HUNTER,Con,1
-Alasdair John MALCOLM,Ind,0
-Helen MOONIE,Lab,1
-Margaret TONER,Con,1
-John WALLACE,SNP,0
+6 4
 97 1 0
 8 1 2 0
 2 1 2 3 0
@@ -517,3 +510,11 @@ John WALLACE,SNP,0
 1 6 5 4 2 0
 1 6 5 4 3 2 1 0
 0
+"Ian COCHRANE (SNP)"
+"Hugh HUNTER (C)"
+"Alasdair John MALCOLM (Ind)"
+"Helen MOONIE (Lab)"
+"Margaret TONER (C)"
+"John WALLACE (SNP)"
+"Prestwick"
+

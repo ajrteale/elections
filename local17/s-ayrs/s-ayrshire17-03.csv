@@ -1,0 +1,19 @@
+"Election for","Ayr North"
+"Date","27 May 2020"
+"Number to be elected",4
+"Valid votes",4920
+"Invalid votes",0
+"Quota",985.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3
+,"First","Surplus of",,"Surplus of",
+"Candidates","Preferences","Ian DAVIS (C)",,"Laura BRENNAN-WHITEFIELD (SNP)",
+"Laura BRENNAN-WHITEFIELD (SNP)",1256,,1256.00000,-271.00000,985.00000,"Elected"
+"Douglas CAMPBELL (SNP)",892,+10.41648,902.41648,+235.60992,1138.02640,"Elected"
+"Ian CAVANA (Lab)",958,+57.07363,1015.07363,,1015.07363,"Elected"
+"Ian DAVIS (C)",1258,-273.00000,985.00000,,985.00000,"Elected"
+"Brenda KNOX (Lab)",256,+30.38140,286.38140,+5.17824,291.55964,
+"Jamie MCGEECHAN (Ind)",300,+63.36692,363.36692,+11.86680,375.23372,
+"Non-transferable", ,+111.76157,111.76157,+18.34504,130.10661,
+"Totals",4920,,4920.00000,,4920.00000

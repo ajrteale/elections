@@ -1,0 +1,19 @@
+"Election for","Prestwick"
+"Date","27 May 2020"
+"Number to be elected",4
+"Valid votes",6722
+"Invalid votes",0
+"Quota",1345.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Hugh HUNTER (C)",,"Margaret TONER (C)",,"Ian COCHRANE (SNP)",,"Alasdair John MALCOLM (Ind)",,"John WALLACE (SNP)",
+"Ian COCHRANE (SNP)",1498,,1498.00000,,1498.00000,-153.00000,1345.00000,,1345.00000,,1345.00000,"Elected"
+"Hugh HUNTER (C)",2008,-663.00000,1345.00000,,1345.00000,,1345.00000,,1345.00000,,1345.00000,"Elected"
+"Alasdair John MALCOLM (Ind)",611,+38.62989,649.62989,+69.54408,719.17397,+7.35336,726.52733,-726.52733,"-",,"-",
+"Helen MOONIE (Lab)",895,+37.30921,932.30921,+58.08317,990.39238,+10.00874,1000.40112,+255.30265,1255.70377,+359.35931,1615.06308,"Elected"
+"Margaret TONER (C)",1098,+543.12965,1641.12965,-296.12965,1345.00000,,1345.00000,,1345.00000,,1345.00000,"Elected"
+"John WALLACE (SNP)",612,+6.60340,618.60340,+6.84115,625.44455,+123.98582,749.43037,+147.62286,897.05323,-897.05323,"-",
+"Non-transferable", ,+37.32785,37.32785,+161.66125,198.98910,+11.65208,210.64118,+323.60182,534.24300,+537.69392,1071.93692,
+"Totals",6722,,6722.00000,,6722.00000,,6722.00000,,6722.00000,,6722.00000

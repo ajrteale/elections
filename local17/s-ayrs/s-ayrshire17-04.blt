@@ -1,10 +1,4 @@
-Ayr East
-3 5 219 10197 5253 49
-Andrew BRYDEN,Ind,0
-Chris CULLEN,SNP,1
-Mary KILPATRICK,Con,1
-Brian MCGINLEY,Lab,1
-Ian MCPHERSON,SNP,0
+5 3
 52 1 0
 4 1 2 0
 3 1 2 3 0
@@ -225,3 +219,10 @@ Ian MCPHERSON,SNP,0
 1 5 4 3 2 0
 1 5 4 3 2 1 0
 0
+"Andrew BRYDEN (Ind)"
+"Chris CULLEN (SNP)"
+"Mary KILPATRICK (C)"
+"Brian MCGINLEY (Lab)"
+"Ian MCPHERSON (SNP)"
+"Ayr East"
+

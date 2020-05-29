@@ -1,11 +1,4 @@
-Ayr North
-4 6 454 12828 5078 158
-Laura BRENNAN-WHITEFIELD,SNP,1
-Douglas CAMPBELL,SNP,1
-Ian CAVANA,Lab,1
-Ian DAVIS,Con,1
-Brenda KNOX,Lab,0
-Jamie MCGEECHAN,Ind,0
+6 4
 63 1 0
 447 1 2 0
 70 1 2 3 0
@@ -461,3 +454,11 @@ Jamie MCGEECHAN,Ind,0
 1 6 5 4 2 0
 3 6 5 4 3 2 1 0
 0
+"Laura BRENNAN-WHITEFIELD (SNP)"
+"Douglas CAMPBELL (SNP)"
+"Ian CAVANA (Lab)"
+"Ian DAVIS (C)"
+"Brenda KNOX (Lab)"
+"Jamie MCGEECHAN (Ind)"
+"Ayr North"
+

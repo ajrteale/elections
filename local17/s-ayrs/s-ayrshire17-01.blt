@@ -1,11 +1,4 @@
-Troon
-4 6 506 12376 7080 128
-Peter John CONVERY,Con,1
-Craig MACKAY,SNP,1
-Annie MCINDOE,SNP,0
-Boyd MURDOCH,Grn,0
-Bob POLLOCK,Con,1
-Philip SAXTON,Lab,1
+6 4
 139 1 0
 1 1 2 0
 14 1 2 3 0
@@ -513,3 +506,11 @@ Philip SAXTON,Lab,1
 1 6 5 4 2 1 3 0
 1 6 5 4 3 0
 0
+"Peter John CONVERY (C)"
+"Craig MACKAY (SNP)"
+"Annie MCINDOE (SNP)"
+"Boyd MURDOCH (Grn)"
+"Bob POLLOCK (C)"
+"Philip SAXTON (Lab)"
+"Troon"
+

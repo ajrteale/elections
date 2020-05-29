@@ -1,0 +1,19 @@
+"Election for","Troon"
+"Date","27 May 2020"
+"Number to be elected",4
+"Valid votes",6952
+"Invalid votes",0
+"Quota",1391.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Peter John CONVERY (C)",,"Bob POLLOCK (C)",,"Boyd MURDOCH (Grn)",,"Annie MCINDOE (SNP)",
+"Peter John CONVERY (C)",2446,-1055.00000,1391.00000,,1391.00000,,1391.00000,,1391.00000,"Elected"
+"Craig MACKAY (SNP)",1125,+20.70288,1145.70288,+11.78096,1157.48384,+58.89786,1216.38170,+984.78360,2201.16530,"Elected"
+"Annie MCINDOE (SNP)",1005,+11.21406,1016.21406,+9.28618,1025.50024,+92.13230,1117.63254,-1117.63254,"-",
+"Boyd MURDOCH (Grn)",290,+20.70288,310.70288,+61.00391,371.70679,-371.70679,"-",,"-",
+"Bob POLLOCK (C)",1135,+882.02895,2017.02895,-626.02895,1391.00000,,1391.00000,,1391.00000,"Elected"
+"Philip SAXTON (Lab)",951,+60.38340,1011.38340,+182.74864,1194.13204,+109.93485,1304.06689,+81.35538,1385.42227,"Elected"
+"Non-transferable", ,+59.96783,59.96783,+361.20926,421.17709,+110.74178,531.91887,+51.49356,583.41243,
+"Totals",6952,,6952.00000,,6952.00000,,6952.00000,,6952.00000

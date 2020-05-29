@@ -1,0 +1,18 @@
+"Election for","Maybole, North Carrick and Coylton"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",4347
+"Invalid votes",0
+"Quota",1087.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Iain CAMPBELL (C)",
+"Iain CAMPBELL (C)",1584,-497.00000,1087.00000,"Elected"
+"Brian CONNOLLY (Ind)",904,+185.74592,1089.74592,"Elected"
+"Catriona DELIVELI (Lab)",408,+70.90976,478.90976,
+"William GRANT (SNP)",1202,,1202.00000,"Elected"
+"Gordon MCFADZEAN (Ind)",249,+69.02720,318.02720,
+"Non-transferable", ,+171.31712,171.31712,
+"Totals",4347,,4347.00000

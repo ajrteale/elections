@@ -1,0 +1,19 @@
+"Election for","Girvan and South Carrick"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",4531
+"Invalid votes",0
+"Quota",1133.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Alec CLARK (Ind)",,"Ian FITZSIMMONS (C)",,"Gavin SCOTT (Ind)",,"Owen MARTIN, (Lab)",,"Karen CLARK-MCCARTNEY (Ind)",
+"Alec CLARK (Ind)",1502,-369.00000,1133.00000,,1133.00000,,1133.00000,,1133.00000,,1133.00000,"Elected"
+"Karen CLARK-MCCARTNEY (Ind)",429,+140.27757,569.27757,+17.32360,586.60117,+49.81947,636.42064,+167.41202,803.83266,-803.83266,"-",
+"Ian FITZSIMMONS (C)",1211,,1211.00000,-78.00000,1133.00000,,1133.00000,,1133.00000,,1133.00000,"Elected"
+"Peter HENDERSON (SNP)",876,+43.23792,919.23792,+2.06080,921.29872,+12.09416,933.39288,+79.06118,1012.45406,+272.66867,1285.12273,"Elected"
+"Owen MARTIN, (Lab)",428,+57.48678,485.48678,+11.78520,497.27198,+17.85015,515.12213,-515.12213,"-",,"-",
+"Gavin SCOTT (Ind)",85,+40.04421,125.04421,+9.14480,134.18901,-134.18901,"-",,"-",,"-",
+"Non-transferable", ,+87.95352,87.95352,+37.68560,125.63912,+54.42523,180.06435,+268.64893,448.71328,+531.16399,979.87727,
+"Totals",4531,,4531.00000,,4531.00000,,4531.00000,,4531.00000,,4531.00000

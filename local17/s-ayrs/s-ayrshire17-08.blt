@@ -1,11 +1,4 @@
-Girvan and South Carrick
-3 6 569 8815 4607 76
-Alec CLARK,Ind,1
-Karen CLARK-MCCARTNEY,Ind,0
-Ian FITZSIMMONS,Con,1
-Peter HENDERSON,SNP,1
-Owen MARTIN,Lab,0
-Gavin SCOTT,Ind,0
+6 3
 230 1 0
 82 1 2 0
 54 1 2 3 0
@@ -576,3 +569,11 @@ Gavin SCOTT,Ind,0
 1 6 5 3 0
 2 6 5 4 0
 0
+"Alec CLARK (Ind)"
+"Karen CLARK-MCCARTNEY (Ind)"
+"Ian FITZSIMMONS (C)"
+"Peter HENDERSON (SNP)"
+"Owen MARTIN (Lab)"
+"Gavin SCOTT (Ind)"
+"Girvan and South Carrick"
+

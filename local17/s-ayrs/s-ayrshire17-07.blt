@@ -1,10 +1,4 @@
-Maybole North Carrick and Coylton
-3 5 229 9131 4392 45
-Iain CAMPBELL,Con,1
-Brian CONNOLLY,Ind,1
-Catriona DELIVELI,Lab,0
-William GRANT,SNP,1
-Gordon MCFADZEAN,Ind,0
+5 3
 536 1 0
 186 1 2 0
 46 1 2 3 0
@@ -235,3 +229,10 @@ Gordon MCFADZEAN,Ind,0
 2 5 4 3 2 0
 1 5 4 3 2 1 0
 0
+"Iain CAMPBELL (C)"
+"Brian CONNOLLY (Ind)"
+"Catriona DELIVELI (Lab)"
+"William GRANT (SNP)"
+"Gordon MCFADZEAN (Ind)"
+"Maybole, North Carrick and Coylton"
+

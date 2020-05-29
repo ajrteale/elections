@@ -1,0 +1,17 @@
+"Election for","Kyle"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",4935
+"Invalid votes",0
+"Quota",1234.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Arthur SPURLING (C)",,"Andy CAMPBELL (Lab)",,"Scott MCFARLANE (SNP)",
+"Andy CAMPBELL (Lab)",1247,,1247.00000,-13.00000,1234.00000,,1234.00000,"Elected"
+"Julie DETTBARN (SNP)",807,+69.87810,876.87810,+2.55290,879.43100,+733.21244,1612.64344,"Elected"
+"Scott MCFARLANE (SNP)",721,+90.45570,811.45570,+2.04232,813.49802,-813.49802,"-",
+"Arthur SPURLING (C)",2160,-926.00000,1234.00000,,1234.00000,,1234.00000,"Elected"
+"Non-transferable", ,+765.66620,765.66620,+8.40478,774.07098,+80.28558,854.35656,
+"Totals",4935,,4935.00000,,4935.00000,,4935.00000

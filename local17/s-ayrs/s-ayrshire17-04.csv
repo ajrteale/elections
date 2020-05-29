@@ -1,0 +1,18 @@
+"Election for","Ayr East"
+"Date","27 May 2020"
+"Number to be elected",3
+"Valid votes",5204
+"Invalid votes",0
+"Quota",1302.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Mary KILPATRICK (C)",,"Andrew BRYDEN (Ind)",,"Brian MCGINLEY (Lab)",,"Ian MCPHERSON (SNP)",
+"Andrew BRYDEN (Ind)",293,+207.16513,500.16513,-500.16513,"-",,"-",,"-",
+"Chris CULLEN (SNP)",1148,+17.23185,1165.23185,+58.59516,1223.82701,+9.48123,1233.30824,+693.12107,1926.42931,"Elected"
+"Mary KILPATRICK (C)",2110,-808.00000,1302.00000,,1302.00000,,1302.00000,,1302.00000,"Elected"
+"Brian MCGINLEY (Lab)",900,+241.62883,1141.62883,+214.90320,1356.53203,-54.53203,1302.00000,,1302.00000,"Elected"
+"Ian MCPHERSON (SNP)",753,+14.55134,767.55134,+33.82930,801.38064,+8.72536,810.10600,-810.10600,"-",
+"Non-transferable", ,+327.42285,327.42285,+192.83747,520.26032,+36.32544,556.58576,+116.98493,673.57069,
+"Totals",5204,,5204.00000,,5204.00000,,5204.00000,,5204.00000
