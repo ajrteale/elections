@@ -1,0 +1,18 @@
+"Election for","Arbroath West, Letham and Friockheim"
+"Date","30 May 2020"
+"Number to be elected",4
+"Valid votes",6108
+"Invalid votes",0
+"Quota",1222.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","David LUMGAIR (C)",,"David FAIRWEATHER (Ind)",,"Alex KING (SNP)",,"Donald MORRISON (SNP)",
+"David FAIRWEATHER (Ind)",1465,,1465.00000,-243.00000,1222.00000,,1222.00000,,1222.00000,"Elected"
+"Alex KING (SNP)",1206,+45.34522,1251.34522,,1251.34522,-29.34522,1222.00000,,1222.00000,"Elected"
+"David LUMGAIR (C)",2585,-1363.00000,1222.00000,,1222.00000,,1222.00000,,1222.00000,"Elected"
+"Richard MOORE (LD)",326,+653.28753,979.28753,+96.37047,1075.65800,+1.45551,1077.11351,+246.05386,1323.16737,"Elected"
+"Donald MORRISON (SNP)",526,+18.98172,544.98172,+43.62381,588.60553,+24.94166,613.54719,-613.54719,"-",
+"Non-transferable", ,+645.38553,645.38553,+103.00572,748.39125,+2.94805,751.33930,+367.49333,1118.83263,
+"Totals",6108,,6108.00000,,6108.00000,,6108.00000,,6108.00000

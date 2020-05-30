@@ -1,13 +1,4 @@
-Arbroath East and Lunan
-3 8 880 10068 3549 63
-Brenda DURNO,SNP,1
-John RUDDY,Lab,0
-Kevin SMITH,Ind,0
-Mark SMITH,SLD,0
-Lois SPEED,Ind,1
-Derek WANN,Con,1
-Ian WATSON,Ind,0
-Sheena WELSH,SNP,0
+8 3
 49 1 0
 9 1 2 0
 1 1 2 3 0
@@ -889,3 +880,13 @@ Sheena WELSH,SNP,0
 1 8 7 5 0
 1 8 7 6 5 4 3 2 1 0
 0
+"Brenda DURNO (SNP)"
+"John RUDDY (Lab)"
+"Kevin SMITH (Ind)"
+"Mark SMITH (LD)"
+"Lois SPEED (Ind)"
+"Derek WANN (C)"
+"Ian WATSON (Ind)"
+"Sheena WELSH (SNP)"
+"Arbroath East and Lunan"
+

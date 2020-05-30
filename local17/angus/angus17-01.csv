@@ -1,0 +1,19 @@
+"Election for","Kirriemuir and Dean"
+"Date","30 May 2020"
+"Number to be elected",3
+"Valid votes",4577
+"Invalid votes",0
+"Quota",1145.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Ronnie PROCTOR (C)",
+"Julie BELL (SNP)",1240,,1240.00000,"Elected"
+"Jeanette GAUL (SNP)",413,+8.29748,421.29748,
+"Angus MACMILLAN DOUGLAS (C)",1118,+200.58256,1318.58256,"Elected"
+"Liz PETRIE (LD)",206,+12.98736,218.98736,
+"Ronnie PROCTOR (C)",1397,-252.00000,1145.00000,"Elected"
+"Gordon WATSON (Lab)",203,+7.93672,210.93672,
+"Non-transferable", ,+22.19588,22.19588,
+"Totals",4577,,4577.00000

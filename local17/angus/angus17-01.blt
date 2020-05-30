@@ -1,11 +1,4 @@
-Kirriemuir and Dean
-3 6 379 8872 4694 117
-Julie BELL,SNP,1
-Jeanette GAUL,SNP,0
-Angus MACMILLAN DOUGLAS,Con,1
-Liz PETRIE,SLD,0
-Ronnie PROCTOR,Con,1
-Gordon WATSON,Lab,0
+6 3
 50 1 0
 549 1 2 0
 8 1 2 3 0
@@ -386,3 +379,11 @@ Gordon WATSON,Lab,0
 2 6 5 4 3 0
 3 6 5 4 3 2 1 0
 0
+"Julie BELL (SNP)"
+"Jeanette GAUL (SNP)"
+"Angus MACMILLAN DOUGLAS (C)"
+"Liz PETRIE (LD)"
+"Ronnie PROCTOR (C)"
+"Gordon WATSON (Lab)"
+"Kirriemuir and Dean"
+

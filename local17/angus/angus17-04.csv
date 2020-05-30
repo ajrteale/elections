@@ -1,0 +1,18 @@
+"Election for","Monifieth and Sidlaw"
+"Date","30 May 2020"
+"Number to be elected",4
+"Valid votes",6685
+"Invalid votes",0
+"Quota",1338.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Craig FOTHERINGHAM (C)",,"Sheila HANDS (SNP)",,"Ben LAWRIE (LD)",,"Ray STRACHAN (Lab)",
+"Craig FOTHERINGHAM (C)",2901,-1563.00000,1338.00000,,1338.00000,,1338.00000,,1338.00000,"Elected"
+"Sheila HANDS (SNP)",1727,,1727.00000,-389.00000,1338.00000,,1338.00000,,1338.00000,"Elected"
+"Ben LAWRIE (LD)",794,+682.62159,1476.62159,,1476.62159,-138.62159,1338.00000,,1338.00000,"Elected"
+"Ray STRACHAN (Lab)",643,+219.81816,862.81816,+15.54156,878.35972,+70.09487,948.45459,-948.45459,"-",
+"Beth WHITESIDE (SNP)",620,+39.86898,659.86898,+345.06768,1004.93666,+16.44307,1021.37973,+232.80713,1254.18686,"Elected"
+"Non-transferable", ,+620.69127,620.69127,+28.39076,649.08203,+52.08365,701.16568,+715.64746,1416.81314,
+"Totals",6685,,6685.00000,,6685.00000,,6685.00000,,6685.00000

@@ -1,0 +1,20 @@
+"Election for","Carnoustie and District"
+"Date","30 May 2020"
+"Number to be elected",3
+"Valid votes",5075
+"Invalid votes",0
+"Quota",1269.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Mark James MCDONALD (SNP)",,"Beth MORRISON (LD)",,"Joanne MCFADDEN (Lab)",,"Bill BOWLES (Ind)",,"Brian David BOYD (Ind)",,"Terry O'HALLORAN (C)",
+"Bill BOWLES (Ind)",569,+11.65472,580.65472,+6.39732,587.05204,+59.92038,646.97242,-646.97242,"-",,"-",,"-",
+"Brian David BOYD (Ind)",918,+11.72094,929.72094,+18.19196,947.91290,+51.58928,999.50218,+271.55578,1271.05796,-2.05796,1269.00000,,1269.00000,"Elected"
+"David CHEAPE (Ind)",909,+15.42926,924.42926,+12.65550,937.08476,+76.84746,1013.93222,+210.17186,1224.10408,+1.48097,1225.58505,+417.01744,1642.60249,"Elected"
+"Mark James MCDONALD (SNP)",1359,-90.00000,1269.00000,,1269.00000,,1269.00000,,1269.00000,,1269.00000,,1269.00000,"Elected"
+"Joanne MCFADDEN (Lab)",351,+10.39654,361.39654,+18.64880,380.04534,-380.04534,"-",,"-",,"-",,"-",
+"Beth MORRISON (LD)",70,+7.21798,77.21798,-77.21798,"-",,"-",,"-",,"-",,"-",
+"Terry O'HALLORAN (C)",899,+2.45014,901.45014,+17.33110,918.78124,+59.32440,978.10564,+60.06622,1038.17186,+0.17418,1038.34604,-1038.34604,"-",
+"Non-transferable", ,+31.13042,31.13042,+3.99330,35.12372,+132.36382,167.48754,+105.17856,272.66610,+0.40281,273.06891,+621.32860,894.39751,
+"Totals",5075,,5075.00000,,5075.00000,,5075.00000,,5075.00000,,5075.00000,,5075.00000

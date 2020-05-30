@@ -1,13 +1,4 @@
-Forfar and District
-4 8 1306 11942 5620 97
-Glen BARCLAY,SLD,0
-Colin BROWN,Ind,1
-Braden DAVY,Con,1
-Lynne DEVINE,SNP,1
-Ed MCADAM,Lab,0
-Ian MCLAREN,Ind,1
-Glennis MIDDLETON,SNP,0
-Ian WHYTE,Ind,0
+8 4
 12 1 0
 1 1 2 0
 1 1 2 3 4 0
@@ -1315,3 +1306,13 @@ Ian WHYTE,Ind,0
 1 8 7 4 6 5 1 3 2 0
 1 8 7 6 0
 0
+"Glen BARCLAY (LD)"
+"Colin BROWN (Ind)"
+"Braden DAVY (C)"
+"Lynne DEVINE (SNP)"
+"Ed MCADAM (Lab)"
+"Ian MCLAREN (Ind)"
+"Glennis MIDDLETON (SNP)"
+"Ian WHYTE (Ind)"
+"Forfar and District"
+

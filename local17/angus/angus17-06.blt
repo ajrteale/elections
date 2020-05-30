@@ -1,10 +1,4 @@
-Arbroath West-Letham and Friockheim
-4 5 254 13741 6213 105
-David FAIRWEATHER,Ind,1
-Alex KING,SNP,1
-David LUMGAIR,Con,1
-Richard MOORE,SLD,1
-Donald MORRISON,SNP,0
+5 4
 365 1 0
 53 1 2 0
 15 1 2 3 0
@@ -260,3 +254,10 @@ Donald MORRISON,SNP,0
 2 5 4 3 1 2 0
 1 5 4 3 2 0
 0
+"David FAIRWEATHER (Ind)"
+"Alex KING (SNP)"
+"David LUMGAIR (C)"
+"Richard MOORE (LD)"
+"Donald MORRISON (SNP)"
+"Arbroath West, Letham and Friockheim"
+
