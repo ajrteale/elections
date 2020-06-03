@@ -1,11 +1,4 @@
-Milngavie
-3 6 556 10626 6242 98
-Jim GIBBONS,SNP,1
-Jim GOODALL,SLD,1
-Maureen HENRY,Lab,0
-Gordon Hugh MacLeod MASTERTON,Grn,0
-Graeme MCGINNIGLE,Con,1
-Kate WADDELL,SNP,0
+6 3
 58 1 0
 17 1 2 0
 12 1 2 3 0
@@ -563,3 +556,11 @@ Kate WADDELL,SNP,0
 1 6 5 3 4 1 2 0
 2 6 5 4 0
 0
+"Jim GIBBONS (SNP)"
+"Jim GOODALL (LD)"
+"Maureen HENRY (Lab)"
+"Gordon Hugh MacLeod MASTERTON (Grn)"
+"Graeme MCGINNIGLE (C)"
+"Kate WADDELL (SNP)"
+"Milngavie"
+

@@ -1,11 +1,4 @@
-Bearsden North
-3 6 738 11442 7104 69
-Erin CRAWLEY,Grn,0
-Duncan CUMMING,Ind,1
-Eunis JASSEMI-ZARGANI,Lab,0
-Ian MACKAY,SNP,0
-Sheila MECHAN,Con,1
-Rosie O'NEIL,SLD,1
+6 3
 25 1 0
 7 1 2 0
 3 1 2 3 0
@@ -745,3 +738,11 @@ Rosie O'NEIL,SLD,1
 1 6 5 4 2 3 1 0
 2 6 5 4 3 2 1 0
 0
+"Erin CRAWLEY (Grn)"
+"Duncan CUMMING (Ind)"
+"Eunis JASSEMI-ZARGANI (Lab)"
+"Ian MACKAY (SNP)"
+"Sheila MECHAN (C)"
+"Rosie O'NEIL (LD)"
+"Bearsden North"
+

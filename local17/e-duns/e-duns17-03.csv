@@ -1,0 +1,19 @@
+"Election for","Bearsden South"
+"Date","03 Jun 2020"
+"Number to be elected",3
+"Valid votes",6648
+"Invalid votes",0
+"Quota",1663.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Andrew POLSON (C)",,"Scott FERGUSON (Grn)",,"Manjinder SHERGILL (Lab)",,"Vaughan MOODY (LD)",,"Alan OLIVER (Ind)",
+"Scott FERGUSON (Grn)",580,+4.74435,584.74435,-584.74435,"-",,"-",,"-",,"-",
+"Denis JOHNSTON (SNP)",1205,+1.79231,1206.79231,+213.52715,1420.31946,+127.15973,1547.47919,+49.12044,1596.59963,+376.04257,1972.64220,"Elected"
+"Vaughan MOODY (LD)",1437,+82.34083,1519.34083,+140.47602,1659.81685,+359.59730,2019.41415,-356.41415,1663.00000,,1663.00000,"Elected"
+"Alan OLIVER (Ind)",877,+41.53942,918.53942,+76.26516,994.80458,+128.21720,1123.02178,+126.65340,1249.67518,-1249.67518,"-",
+"Andrew POLSON (C)",1859,-196.00000,1663.00000,,1663.00000,,1663.00000,,1663.00000,,1663.00000,"Elected"
+"Manjinder SHERGILL (Lab)",690,+21.19143,711.19143,+103.42172,814.61315,-814.61315,"-",,"-",,"-",
+"Non-transferable", ,+44.39166,44.39166,+51.05430,95.44596,+199.63892,295.08488,+180.64031,475.72519,+873.63261,1349.35780,
+"Totals",6648,,6648.00000,,6648.00000,,6648.00000,,6648.00000,,6648.00000

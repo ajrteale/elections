@@ -1,0 +1,20 @@
+"Election for","Kirkintilloch East and North and Twechar"
+"Date","03 Jun 2020"
+"Number to be elected",3
+"Valid votes",5632
+"Invalid votes",0
+"Quota",1409.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Emma SHEPPARD (Grn)",,"Alison LOTHIAN (C)",,"Pamela MARSHALL (SNP)",,"John JAMIESON (SNP)",,"Willie PATERSON (Ind)",
+"John JAMIESON (SNP)",1115,+17.00000,1132.00000,+12.00000,1144.00000,+728.00000,1872.00000,-463.00000,1409.00000,,1409.00000,"Elected"
+"Alison LOTHIAN (C)",741,,741.00000,-741.00000,"-",,"-",,"-",,"-",
+"Stewart MACDONALD (Lab)",1089,+12.00000,1101.00000,+140.00000,1241.00000,+28.00000,1269.00000,+97.19676,1366.19676,+278.97932,1645.17608,"Elected"
+"Pamela MARSHALL (SNP)",805,+44.00000,849.00000,+9.00000,858.00000,-858.00000,"-",,"-",,"-",
+"Susan MURRAY (LD)",915,+16.00000,931.00000,+252.00000,1183.00000,+32.00000,1215.00000,+65.78712,1280.78712,+396.98008,1677.76720,"Elected"
+"Willie PATERSON (Ind)",851,+20.00000,871.00000,+157.00000,1028.00000,+25.00000,1053.00000,+131.82156,1184.82156,-1184.82156,"-",
+"Emma SHEPPARD (Grn)",116,-116.00000,"-",,"-",,"-",,"-",,"-",
+"Non-transferable", ,+7.00000,7.00000,+171.00000,178.00000,+45.00000,223.00000,+168.19456,391.19456,+508.86216,900.05672,
+"Totals",5632,,5632.00000,,5632.00000,,5632.00000,,5632.00000,,5632.00000

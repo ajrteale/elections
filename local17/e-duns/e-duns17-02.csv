@@ -1,0 +1,19 @@
+"Election for","Bearsden North"
+"Date","03 Jun 2020"
+"Number to be elected",3
+"Valid votes",7035
+"Invalid votes",0
+"Quota",1759.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Duncan CUMMING (Ind)",,"Erin CRAWLEY (Grn)",,"Eunis JASSEMI-ZARGANI (Lab)",,"Ian MACKAY (SNP)",
+"Erin CRAWLEY (Grn)",315,+39.87004,354.87004,-354.87004,"-",,"-",,"-",
+"Duncan CUMMING (Ind)",2338,-579.00000,1759.00000,,1759.00000,,1759.00000,,1759.00000,"Elected"
+"Eunis JASSEMI-ZARGANI (Lab)",379,+32.19320,411.19320,+58.20044,469.39364,-469.39364,"-",,"-",
+"Ian MACKAY (SNP)",1277,+66.11988,1343.11988,+152.38200,1495.50188,+92.71460,1588.21648,-1588.21648,"-",
+"Sheila MECHAN (C)",1462,+172.85272,1634.85272,+15.22876,1650.08148,+42.96224,1693.04372,+87.20044,1780.24416,"Elected"
+"Rosie O'NEIL (LD)",1264,+185.23472,1449.23472,+88.88672,1538.12144,+178.31592,1716.43736,+698.94556,2415.38292,"Elected"
+"Non-transferable", ,+82.72944,82.72944,+40.17212,122.90156,+155.40088,278.30244,+802.07048,1080.37292,
+"Totals",7035,,7035.00000,,7035.00000,,7035.00000,,7035.00000

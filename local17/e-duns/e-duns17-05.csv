@@ -1,0 +1,19 @@
+"Election for","Bishopbriggs South"
+"Date","03 Jun 2020"
+"Number to be elected",3
+"Valid votes",6099
+"Invalid votes",0
+"Quota",1525.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Alan BROWN (C)",,"Connor BOYD (Grn)",,"Gordan LOW (SNP)",,"Irene MACKAY (SNP)",,"Ian James ELRICK (Lab)",
+"Connor BOYD (Grn)",272,+8.83864,280.83864,-280.83864,"-",,"-",,"-",,"-",
+"Alan BROWN (C)",1631,-106.00000,1525.00000,,1525.00000,,1525.00000,,1525.00000,,1525.00000,"Elected"
+"Ian James ELRICK (Lab)",898,+27.75073,925.75073,+70.14467,995.89540,+0.40643,996.30183,+198.06404,1194.36587,-1194.36587,"-",
+"Gordan LOW (SNP)",1467,+3.11952,1470.11952,+65.77988,1535.89940,-10.89940,1525.00000,,1525.00000,,1525.00000,"Elected"
+"Irene MACKAY (SNP)",839,+1.36479,840.36479,+42.45493,882.81972,+9.33807,892.15779,-892.15779,"-",,"-",
+"Alan MOIR (Lab)",992,+18.71712,1010.71712,+50.81972,1061.53684,+0.52926,1062.06610,+241.34574,1303.41184,+976.43857,2279.85041,"Elected"
+"Non-transferable", ,+46.20920,46.20920,+51.63944,97.84864,+0.62564,98.47428,+452.74801,551.22229,+217.92730,769.14959,
+"Totals",6099,,6099.00000,,6099.00000,,6099.00000,,6099.00000,,6099.00000

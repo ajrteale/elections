@@ -1,0 +1,20 @@
+"Election for","Bishopbriggs North and Campsie"
+"Date","03 Jun 2020"
+"Number to be elected",4
+"Valid votes",8395
+"Invalid votes",0
+"Quota",1680.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Billy HENDRY (C)",,"Paul FERRETTI (SNP)",,"Christopher Paul COTTON (Grn)",,"Brian REID (Ind)",,"Gemma WELSH (Lab)",
+"Christopher Paul COTTON (Grn)",318,+22.70228,340.70228,+7.24994,347.95222,-347.95222,"-",,"-",,"-",
+"Paul FERRETTI (SNP)",1829,,1829.00000,-149.00000,1680.00000,,1680.00000,,1680.00000,,1680.00000,"Elected"
+"Mohrag FISCHER (SNP)",1202,+26.09068,1228.09068,+127.64782,1355.73850,+142.59128,1498.32978,+89.08254,1587.41232,+206.01164,1793.42396,"Elected"
+"Billy HENDRY (C)",2541,-861.00000,1680.00000,,1680.00000,,1680.00000,,1680.00000,,1680.00000,"Elected"
+"Gary PEWS (LD)",957,+344.26144,1301.26144,+1.62920,1302.89064,+63.51346,1366.40410,+135.23822,1501.64232,+589.34050,2090.98282,"Elected"
+"Brian REID (Ind)",357,+93.51984,450.51984,+3.01402,453.53386,+44.99166,498.52552,-498.52552,"-",,"-",
+"Gemma WELSH (Lab)",1191,+117.23864,1308.23864,+4.64322,1312.88186,+50.86064,1363.74250,+87.18990,1450.93240,-1450.93240,"-",
+"Non-transferable", ,+257.18712,257.18712,+4.81580,262.00292,+45.99518,307.99810,+187.01486,495.01296,+655.58026,1150.59322,
+"Totals",8395,,8395.00000,,8395.00000,,8395.00000,,8395.00000,,8395.00000

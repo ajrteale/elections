@@ -1,12 +1,4 @@
-Kirkintilloch East and North and Twechar
-3 7 1051 12006 5751 119
-John JAMIESON,SNP,1
-Alison LOTHIAN,Con,0
-Stewart MACDONALD,Lab,1
-Pamela MARSHALL,SNP,0
-Susan MURRAY,SLD,1
-Willie PATERSON,Ind,0
-Emma SHEPPARD,Grn,0
+7 3
 49 1 0
 3 1 2 0
 1 1 2 3 0
@@ -1059,3 +1051,12 @@ Emma SHEPPARD,Grn,0
 1 7 6 5 2 4 1 3 0
 1 7 6 5 4 1 2 3 0
 0
+"John JAMIESON (SNP)"
+"Alison LOTHIAN (C)"
+"Stewart MACDONALD (Lab)"
+"Pamela MARSHALL (SNP)"
+"Susan MURRAY (LD)"
+"Willie PATERSON (Ind)"
+"Emma SHEPPARD (Grn)"
+"Kirkintilloch East and North and Twechar"
+

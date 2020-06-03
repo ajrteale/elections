@@ -1,13 +1,4 @@
-Lenzie and Kirkintilloch South
-3 8 1421 12041 6759 103
-Rod ACKLAND,SLD,1
-Rhondda GEEKIE,Lab,0
-Gillian RENWICK,SNP,1
-Martin ROBERTSON,SNP,0
-Carolynn SCRIMGEOUR,Grn,0
-Alisdair SINCLAIR,Ind,0
-Sandy TAYLOR,Ind,0
-Sandra THORNTON,Con,1
+8 3
 108 1 0
 34 1 2 0
 13 1 2 3 0
@@ -1430,3 +1421,13 @@ Sandra THORNTON,Con,1
 1 8 7 6 5 1 2 3 4 0
 1 8 7 6 5 2 1 3 4 0
 0
+"Rod ACKLAND (LD)"
+"Rhondda GEEKIE (Lab)"
+"Gillian RENWICK (SNP)"
+"Martin ROBERTSON (SNP)"
+"Carolynn SCRIMGEOUR (Grn)"
+"Alisdair SINCLAIR (Ind)"
+"Sandy TAYLOR (Ind)"
+"Sandra THORNTON (C)"
+"Lenzie and Kirkintilloch South"
+

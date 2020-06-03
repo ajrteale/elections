@@ -1,11 +1,4 @@
-Bearsden South
-3 6 739 10847 6698 50
-Scott FERGUSON,Grn,0
-Denis JOHNSTON,SNP,1
-Vaughan MOODY,SLD,1
-Alan OLIVER,Ind,0
-Andrew POLSON,Con,1
-Manjinder SHERGILL,Lab,0
+6 3
 46 1 0
 26 1 2 0
 31 1 2 3 0
@@ -746,3 +739,11 @@ Manjinder SHERGILL,Lab,0
 1 6 5 4 3 0
 1 6 5 4 3 1 2 0
 0
+"Scott FERGUSON (Grn)"
+"Denis JOHNSTON (SNP)"
+"Vaughan MOODY (LD)"
+"Alan OLIVER (Ind)"
+"Andrew POLSON (C)"
+"Manjinder SHERGILL (Lab)"
+"Bearsden South"
+
