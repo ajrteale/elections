@@ -1,0 +1,19 @@
+"Election for","Dunbar and East Linton"
+"Date","06 Jun 2020"
+"Number to be elected",3
+"Valid votes",6141
+"Invalid votes",0
+"Quota",1536.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Sue KEMPSON (C)",,"Norman HAMPSHIRE (Lab)",,"Elisabeth Mary WILSON (LD)",,"Sarah BEATTIE-SMITH (Grn)",,"Isobel KNOX (SNP)",
+"Sarah BEATTIE-SMITH (Grn)",540,+28.59648,568.59648,+15.61957,584.21605,+177.08283,761.29888,-761.29888,"-",,"-",
+"Norman HAMPSHIRE (Lab)",1633,,1633.00000,-97.00000,1536.00000,,1536.00000,,1536.00000,,1536.00000,"Elected"
+"Sue KEMPSON (C)",1834,-298.00000,1536.00000,,1536.00000,,1536.00000,,1536.00000,,1536.00000,"Elected"
+"Isobel KNOX (SNP)",811,+8.28648,819.28648,+8.37399,827.66047,+24.09386,851.75433,+325.06553,1176.81986,-1176.81986,"-",
+"Paul MCLENNAN (SNP)",1047,+6.82416,1053.82416,+9.97752,1063.80168,+30.35317,1094.15485,+105.03756,1199.19241,+1017.39755,2216.58996,"Elected"
+"Elisabeth Mary WILSON (LD)",276,+115.84824,391.84824,+28.86354,420.71178,-420.71178,"-",,"-",,"-",
+"Non-transferable", ,+138.44464,138.44464,+34.16538,172.61002,+189.18192,361.79194,+331.19579,692.98773,+159.42231,852.41004,
+"Totals",6141,,6141.00000,,6141.00000,,6141.00000,,6141.00000,,6141.00000

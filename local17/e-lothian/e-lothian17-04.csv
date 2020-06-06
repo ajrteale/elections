@@ -1,0 +1,19 @@
+"Election for","North Berwick Coastal"
+"Date","06 Jun 2020"
+"Number to be elected",3
+"Valid votes",6270
+"Invalid votes",0
+"Quota",1568.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Jeremy FINDLAY (C)",,"Eurig SCANDRETT (Grn)",,"Jim GOODFELLOW (Lab)",,"Robert James O'RIORDAN (LD)",
+"Jeremy FINDLAY (C)",1703,-135.00000,1568.00000,,1568.00000,,1568.00000,,1568.00000,"Elected"
+"Laura Lowe FORREST (SNP)",1127,+1.90248,1128.90248,+104.00000,1232.90248,+0.86977,1233.77225,+101.26136,1335.03361,
+"Jim GOODFELLOW (Lab)",1488,+9.51240,1497.51240,+75.15854,1572.67094,-4.67094,1568.00000,,1568.00000,"Elected"
+"Jane HENDERSON (C)",1341,+112.72194,1453.72194,+20.39635,1474.11829,+1.04577,1475.16406,+113.96089,1589.12495,"Elected"
+"Robert James O'RIORDAN (LD)",318,+4.67693,322.67693,+65.15854,387.83547,+1.64038,389.47585,-389.47585,"-",
+"Eurig SCANDRETT (Grn)",293,+0.79270,293.79270,-293.79270,"-",,"-",,"-",
+"Non-transferable", ,+5.39355,5.39355,+29.07927,34.47282,+1.11502,35.58784,+174.25360,209.84144,
+"Totals",6270,,6270.00000,,6270.00000,,6270.00000,,6270.00000
