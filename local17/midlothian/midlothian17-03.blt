@@ -1,12 +1,4 @@
-Dalkeith
-3 7 725 10319 4319 121
-Jim BRYANT,Ind,0
-Colin John CASSIDY,SNP,1
-Stephen CURRAN,Lab,1
-Margot RUSSELL,Lab,1
-Jill SIMON,Grn,0
-Robin TRAQUAIR,Con,0
-Gary YOUNG,SNP,0
+7 3
 36 1 0
 6 1 2 0
 4 1 2 3 0
@@ -733,3 +725,12 @@ Gary YOUNG,SNP,0
 1 7 5 4 0
 1 7 5 4 3 2 1 6 0
 0
+"Jim BRYANT (Ind)"
+"Colin John CASSIDY (SNP)"
+"Stephen CURRAN (Lab)"
+"Margot RUSSELL (Lab)"
+"Jill SIMON (Grn)"
+"Robin TRAQUAIR (C)"
+"Gary YOUNG (SNP)"
+"Dalkeith"
+

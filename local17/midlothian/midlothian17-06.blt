@@ -1,12 +1,4 @@
-Midlothian South
-3 7 954 11108 5025 76
-Jason FERRY,Ind,0
-Cath JOHNSTONE,SNP,1
-Jim MUIRHEAD,Lab,1
-Kieran MUNRO,Con,1
-Bryan POTTINGER,Lab,0
-Ellen SCOTT,SNP,0
-Malcolm SPAVEN,Grn,0
+7 3
 58 1 0
 11 1 2 0
 4 1 2 3 0
@@ -962,3 +954,12 @@ Malcolm SPAVEN,Grn,0
 1 7 6 5 1 0
 2 7 6 5 2 3 1 4 0
 0
+"Jason FERRY (Ind)"
+"Cath JOHNSTONE (SNP)"
+"Jim MUIRHEAD (Lab)"
+"Kieran MUNRO (C)"
+"Bryan POTTINGER (Lab)"
+"Ellen SCOTT (SNP)"
+"Malcolm SPAVEN (Grn)"
+"Midlothian South"
+

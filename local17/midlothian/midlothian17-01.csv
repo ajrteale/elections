@@ -1,0 +1,19 @@
+"Election for","Penicuik"
+"Date","10 Jun 2020"
+"Number to be elected",3
+"Valid votes",5793
+"Invalid votes",0
+"Quota",1449.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Andrew HARDIE (C)",,"Adam MONTGOMERY (Lab)",,"Jim GARRY (Grn)",,"Ken BROWN (LD)",
+"Ken BROWN (LD)",425,+30.74652,455.74652,+11.15226,466.89878,+104.71046,571.60924,-571.60924,"-",
+"Jim GARRY (Grn)",329,+4.07862,333.07862,+3.42804,336.50666,-336.50666,"-",,"-",
+"Andrew HARDIE (C)",1517,-68.00000,1449.00000,,1449.00000,,1449.00000,,1449.00000,"Elected"
+"Debbi MCCALL (SNP)",1212,+2.50992,1214.50992,+3.36126,1217.87118,+118.49002,1336.36120,+136.44708,1472.80828,"Elected"
+"Adam MONTGOMERY (Lab)",1482,,1482.00000,-33.00000,1449.00000,,1449.00000,,1449.00000,"Elected"
+"Joe WALLACE (SNP)",828,+1.65834,829.65834,+3.18318,832.84152,+53.28998,886.13150,+53.85448,939.98598,
+"Non-transferable", ,+29.00660,29.00660,+11.87526,40.88186,+60.01620,100.89806,+381.30768,482.20574,
+"Totals",5793,,5793.00000,,5793.00000,,5793.00000,,5793.00000

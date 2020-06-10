@@ -1,11 +1,4 @@
-Penicuik
-3 6 553 11204 5855 62
-Ken BROWN,SLD,0
-Jim GARRY,Grn,0
-Andrew HARDIE,Con,1
-Debbi MCCALL,SNP,1
-Adam MONTGOMERY,Lab,1
-Joe WALLACE,SNP,0
+6 3
 58 1 0
 21 1 2 0
 18 1 2 3 0
@@ -560,3 +553,11 @@ Joe WALLACE,SNP,0
 3 6 5 4 2 1 3 0
 1 6 5 4 2 3 1 0
 0
+"Ken BROWN (LD)"
+"Jim GARRY (Grn)"
+"Andrew HARDIE (C)"
+"Debbi MCCALL (SNP)"
+"Adam MONTGOMERY (Lab)"
+"Joe WALLACE (SNP)"
+"Penicuik"
+

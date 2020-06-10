@@ -1,11 +1,4 @@
-Midlothian East
-3 6 536 11841 5720 68
-Helen ARMSTRONG,Grn,0
-Kenneth James BAIRD,SNP,1
-Louise D'ARCY-GREIG,SNP,0
-John HACKETT,Lab,1
-Robert HOGG,Ind,0
-Peter SMAILL,Con,1
+6 3
 37 1 0
 16 1 2 3 0
 6 1 2 3 4 0
@@ -543,3 +536,11 @@ Peter SMAILL,Con,1
 2 6 5 4 2 3 1 0
 1 6 5 4 3 2 1 0
 0
+"Helen ARMSTRONG (Grn)"
+"Kenneth James BAIRD (SNP)"
+"Louise D'ARCY-GREIG (SNP)"
+"John HACKETT (Lab)"
+"Robert HOGG (Ind)"
+"Peter SMAILL (C)"
+"Midlothian East"
+

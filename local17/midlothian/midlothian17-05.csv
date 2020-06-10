@@ -1,0 +1,19 @@
+"Election for","Midlothian East"
+"Date","10 Jun 2020"
+"Number to be elected",3
+"Valid votes",5652
+"Invalid votes",0
+"Quota",1414.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Peter SMAILL (C)",,"Helen ARMSTRONG (Grn)",,"Louise D'ARCY-GREIG (SNP)",
+"Helen ARMSTRONG (Grn)",301,+8.08830,309.08830,-309.08830,"-",,"-",
+"Kenneth James BAIRD (SNP)",872,+1.13520,873.13520,+55.00000,928.13520,+557.63855,1485.77375,"Elected"
+"Louise D'ARCY-GREIG (SNP)",609,+1.41900,610.41900,+67.00000,677.41900,-677.41900,"-",
+"John HACKETT (Lab)",1284,+30.29565,1314.29565,+73.19945,1387.49510,+44.14190,1431.63700,"Elected"
+"Robert HOGG (Ind)",1064,+33.98505,1097.98505,+71.12180,1169.10685,+41.14190,1210.24875,
+"Peter SMAILL (C)",1522,-108.00000,1414.00000,,1414.00000,,1414.00000,"Elected"
+"Non-transferable", ,+33.07680,33.07680,+42.76705,75.84385,+34.49665,110.34050,
+"Totals",5652,,5652.00000,,5652.00000,,5652.00000

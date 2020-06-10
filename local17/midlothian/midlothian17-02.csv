@@ -1,0 +1,20 @@
+"Election for","Bonnyrigg"
+"Date","10 Jun 2020"
+"Number to be elected",3
+"Valid votes",6553
+"Invalid votes",0
+"Quota",1639.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Derek MILLIGAN (Lab)",,"George MCINTYRE (Ind)",,"Colin LAWRIE (SNP)",,"Dianne ALEXANDER (SNP)",,"Louie Lorraine MILLIKEN (Lab)",
+"Dianne ALEXANDER (SNP)",1203,+7.02882,1210.02882,+12.41346,1222.44228,+556.48076,1778.92304,-139.92304,1639.00000,,1639.00000,"Elected"
+"Ian BAXTER (Grn)",701,+12.67944,713.67944,+50.10256,763.78200,+36.10256,799.88456,+70.30756,870.19212,+166.77082,1036.96294,
+"Colin LAWRIE (SNP)",617,+6.33972,623.33972,+9.27564,632.61536,-632.61536,"-",,"-",,"-",
+"Janet LAY-DOUGLAS (C)",1415,+10.61214,1425.61214,+90.24038,1515.85252,+5.41346,1521.26598,+3.44699,1524.71297,+183.40371,1708.11668,"Elected"
+"George MCINTYRE (Ind)",250,+7.44228,257.44228,-257.44228,"-",,"-",,"-",,"-",
+"Derek MILLIGAN (Lab)",1901,-262.00000,1639.00000,,1639.00000,,1639.00000,,1639.00000,,1639.00000,"Elected"
+"Louie Lorraine MILLIKEN (Lab)",466,+199.56336,665.56336,+50.20512,715.76848,+12.37820,728.14668,+13.21573,741.36241,-741.36241,"-",
+"Non-transferable", ,+18.33424,18.33424,+45.20512,63.53936,+22.24038,85.77974,+52.95276,138.73250,+391.18788,529.92038,
+"Totals",6553,,6553.00000,,6553.00000,,6553.00000,,6553.00000,,6553.00000
