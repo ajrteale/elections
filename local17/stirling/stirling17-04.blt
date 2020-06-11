@@ -1,13 +1,4 @@
-Stirling North
-4 8 1147 10512 4755 124
-Chloe CAMPBELL,Grn,0
-Danny GIBSON,Lab,1
-James MCDONALD,Ind,0
-Susan MCGILL,SNP,1
-Ross OXBURGH,Con,1
-Jen PRESTON,Lab,0
-Fayzan REHMAN,SLD,0
-Jim THOMSON,SNP,1
+8 4
 41 1 0
 6 1 2 0
 2 1 2 3 0
@@ -1156,3 +1147,13 @@ Jim THOMSON,SNP,1
 1 8 7 4 1 3 2 6 5 0
 1 8 7 4 1 3 6 2 5 0
 0
+"Chloe CAMPBELL (Grn)"
+"Danny GIBSON (Lab)"
+"James MCDONALD (Ind)"
+"Susan MCGILL (SNP)"
+"Ross OXBURGH (C)"
+"Jen PRESTON (Lab)"
+"Fayzan REHMAN (LD)"
+"Jim THOMSON (SNP)"
+"Stirling North"
+

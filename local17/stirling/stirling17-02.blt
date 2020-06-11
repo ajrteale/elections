@@ -1,12 +1,4 @@
-Forth and Endrick
-3 7 835 10405 6328 115
-Alistair BERRILL,Con,1
-Robert DAVIES,Con,1
-Graham LAMBIE,SNP,1
-Michael MARTEN,Grn,0
-Evan MCLEAN,Ind,0
-Ian MUIRHEAD,SNP,0
-Richard SIMPSON,Lab,0
+7 3
 46 1 0
 722 1 2 0
 11 1 2 3 0
@@ -843,3 +835,12 @@ Richard SIMPSON,Lab,0
 1 7 6 4 5 3 2 1 0
 4 7 6 5 0
 0
+"Alistair BERRILL (C)"
+"Robert DAVIES (C)"
+"Graham LAMBIE (SNP)"
+"Michael MARTEN (Grn)"
+"Evan MCLEAN (Ind)"
+"Ian MUIRHEAD (SNP)"
+"Richard SIMPSON (Lab)"
+"Forth and Endrick"
+

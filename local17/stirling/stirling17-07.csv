@@ -1,0 +1,20 @@
+"Election for","Bannockburn"
+"Date","11 Jun 2020"
+"Number to be elected",3
+"Valid votes",3503
+"Invalid votes",0
+"Quota",876.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Gordon BRUCE (LD)",,"Alasdair MACPHERSON (SNP)",,"Jennifer TOLLEMACHE (Grn)",,"Violet WEIR (Lab)",,"Margaret BRISLEY (Lab)",,"Paul HENKE (C)",
+"Maureen BENNISON (SNP)",718,+4.00000,722.00000,+3.22340,725.22340,+40.05448,765.27788,+14.04086,779.31874,+33.81610,813.13484,+100.74559,913.88043,"Elected"
+"Margaret BRISLEY (Lab)",837,+17.00000,854.00000,+0.28148,854.28148,+17.00454,871.28602,+222.04540,1093.33142,-217.33142,876.00000,,876.00000,"Elected"
+"Gordon BRUCE (LD)",62,-62.00000,"-",,"-",,"-",,"-",,"-",,"-",
+"Paul HENKE (C)",640,+13.00000,653.00000,+0.06356,653.06356,+9.00454,662.06810,+21.01362,683.08172,+40.35121,723.43293,-723.43293,"-",
+"Alasdair MACPHERSON (SNP)",871,+9.00000,880.00000,-4.00000,876.00000,,876.00000,,876.00000,,876.00000,,876.00000,"Elected"
+"Jennifer TOLLEMACHE (Grn)",104,+9.00000,113.00000,+0.10442,113.10442,-113.10442,"-",,"-",,"-",,"-",
+"Violet WEIR (Lab)",271,+3.00000,274.00000,+0.14074,274.14074,+18.01362,292.15436,-292.15436,"-",,"-",,"-",
+"Non-transferable", ,+7.00000,7.00000,+0.18640,7.18640,+29.02724,36.21364,+35.05448,71.26812,+143.16411,214.43223,+622.68734,837.11957,
+"Totals",3503,,3503.00000,,3503.00000,,3503.00000,,3503.00000,,3503.00000,,3503.00000

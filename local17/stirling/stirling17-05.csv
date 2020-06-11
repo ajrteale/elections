@@ -1,0 +1,19 @@
+"Election for","Stirling West"
+"Date","11 Jun 2020"
+"Number to be elected",3
+"Valid votes",5251
+"Invalid votes",0
+"Quota",1313.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Neil BENNY (C)",,"Kevin RALSTON (Grn)",,"Robert SKILLETER (LD)",,"Christine SIMPSON (Lab)",,"Morag FULTON (SNP)",
+"Neil BENNY (C)",2076,-763.00000,1313.00000,,1313.00000,,1313.00000,,1313.00000,,1313.00000,"Elected"
+"Scott FARMER (SNP)",1096,+20.58168,1116.58168,+40.00000,1156.58168,+36.61554,1193.19722,+19.85404,1213.05126,+731.46952,1944.52078,"Elected"
+"Morag FULTON (SNP)",671,+5.51295,676.51295,+78.73506,755.24801,+31.20518,786.45319,+18.85332,805.30651,-805.30651,"-",
+"Kevin RALSTON (Grn)",251,+36.01794,287.01794,-287.01794,"-",,"-",,"-",,"-",
+"Christine SIMPSON (Lab)",936,+215.37258,1151.37258,+59.41036,1210.78294,+245.23310,1456.01604,-143.01604,1313.00000,,1313.00000,"Elected"
+"Robert SKILLETER (LD)",221,+190.38054,411.38054,+69.47909,480.85963,-480.85963,"-",,"-",,"-",
+"Non-transferable", ,+295.13431,295.13431,+39.39343,334.52774,+167.80581,502.33355,+104.30868,606.64223,+73.83699,680.47922,
+"Totals",5251,,5251.00000,,5251.00000,,5251.00000,,5251.00000,,5251.00000

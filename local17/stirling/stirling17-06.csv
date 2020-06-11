@@ -1,0 +1,20 @@
+"Election for","Stirling East"
+"Date","11 Jun 2020"
+"Number to be elected",3
+"Valid votes",3786
+"Invalid votes",0
+"Quota",947.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","William GALLOWAY (LD)",,"Linda HENDRY (Grn)",,"Alison LAURIE (SNP)",,"Corrie MCCHORD (Lab)",,"Chris KANE (Lab)",,"Gerry MCLAUGHLAN (SNP)",
+"Bryan FLANNAGAN (C)",806,+19.00000,825.00000,+8.00000,833.00000,+0.18708,833.18708,+15.01559,848.20267,+34.78760,882.99027,+176.98478,1059.97505,"Elected"
+"William GALLOWAY (LD)",94,-94.00000,"-",,"-",,"-",,"-",,"-",,"-",
+"Linda HENDRY (Grn)",125,+25.00000,150.00000,-150.00000,"-",,"-",,"-",,"-",,"-",
+"Chris KANE (Lab)",751,+17.00000,768.00000,+29.00000,797.00000,+0.73273,797.73273,+356.10913,1153.84186,-206.84186,947.00000,,947.00000,"Elected"
+"Alison LAURIE (SNP)",916,+4.00000,920.00000,+42.00000,962.00000,-15.00000,947.00000,,947.00000,,947.00000,,947.00000,"Elected"
+"Corrie MCCHORD (Lab)",416,+11.00000,427.00000,+13.00000,440.00000,+0.28062,440.28062,-440.28062,"-",,"-",,"-",
+"Gerry MCLAUGHLAN (SNP)",678,+2.00000,680.00000,+25.00000,705.00000,+12.93970,717.93970,+21.07795,739.01765,+35.74807,774.76572,-774.76572,"-",
+"Non-transferable", ,+16.00000,16.00000,+33.00000,49.00000,+0.85987,49.85987,+48.07795,97.93782,+136.30619,234.24401,+597.78094,832.02495,
+"Totals",3786,,3786.00000,,3786.00000,,3786.00000,,3786.00000,,3786.00000,,3786.00000

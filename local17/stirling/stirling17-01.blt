@@ -1,12 +1,4 @@
-Trossachs and Teith
-3 7 687 9147 5432 118
-Gordon COWTAN,Grn,0
-Martin EARL,Con,1
-Jeremy MCDONALD,Con,1
-Gerry MCGARVEY,Lab,0
-Galen MILNE,SLD,0
-Evelyn TWEED,SNP,1
-Fergus WOOD,SNP,0
+7 3
 21 1 0
 4 1 2 0
 7 1 2 3 0
@@ -695,3 +687,12 @@ Fergus WOOD,SNP,0
 1 7 6 5 4 1 0
 3 7 6 5 4 1 2 3 0
 0
+"Gordon COWTAN (Grn)"
+"Martin EARL (C)"
+"Jeremy MCDONALD (C)"
+"Gerry MCGARVEY (Lab)"
+"Galen MILNE (LD)"
+"Evelyn TWEED (SNP)"
+"Fergus WOOD (SNP)"
+"Trossachs and Teith"
+

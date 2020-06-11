@@ -1,11 +1,4 @@
-Stirling West
-3 6 483 9637 5325 74
-Neil BENNY,Con,1
-Scott FARMER,SNP,1
-Morag FULTON,SNP,0
-Kevin RALSTON,Grn,0
-Christine SIMPSON,Lab,1
-Robert SKILLETER,SLD,0
+6 3
 803 1 0
 8 1 2 0
 25 1 2 3 0
@@ -490,3 +483,11 @@ Robert SKILLETER,SLD,0
 1 6 5 4 3 2 0
 1 6 5 4 3 2 1 0
 0
+"Neil BENNY (C)"
+"Scott FARMER (SNP)"
+"Morag FULTON (SNP)"
+"Kevin RALSTON (Grn)"
+"Christine SIMPSON (Lab)"
+"Robert SKILLETER (LD)"
+"Stirling West"
+

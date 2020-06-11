@@ -1,12 +1,4 @@
-Dunblane and Bridge of Allan
-4 7 937 11484 7100 123
-Stuart AULD,SLD,0
-Douglas DODDS,Con,1
-Graham HOUSTON,SNP,1
-Rosemary HUNTER,SNP,0
-Alastair MAJURY,Con,1
-Mike ROBBINS,Lab,0
-Alasdair TOLLEMACHE,Grn,1
+7 4
 38 1 0
 14 1 2 0
 1 1 2 3 0
@@ -945,3 +937,12 @@ Alasdair TOLLEMACHE,Grn,1
 1 7 6 5 1 2 0
 2 7 6 5 2 0
 0
+"Stuart AULD (LD)"
+"Douglas DODDS (C)"
+"Graham HOUSTON (SNP)"
+"Rosemary HUNTER (SNP)"
+"Alastair MAJURY (C)"
+"Mike ROBBINS (Lab)"
+"Alasdair TOLLEMACHE (Grn)"
+"Dunblane and Bridge of Allan"
+

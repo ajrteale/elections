@@ -1,12 +1,4 @@
-Bannockburn
-3 7 602 8672 3627 124
-Maureen BENNISON,SNP,1
-Margaret BRISLEY,Lab,1
-Gordon BRUCE,SLD,0
-Paul HENKE,Con,0
-Alasdair MACPHERSON,SNP,1
-Jennifer TOLLEMACHE,Grn,0
-Violet WEIR,Lab,0
+7 3
 28 1 0
 13 1 2 0
 4 1 2 3 0
@@ -610,3 +602,12 @@ Violet WEIR,Lab,0
 1 7 6 3 0
 1 7 6 4 0
 0
+"Maureen BENNISON (SNP)"
+"Margaret BRISLEY (Lab)"
+"Gordon BRUCE (LD)"
+"Paul HENKE (C)"
+"Alasdair MACPHERSON (SNP)"
+"Jennifer TOLLEMACHE (Grn)"
+"Violet WEIR (Lab)"
+"Bannockburn"
+
