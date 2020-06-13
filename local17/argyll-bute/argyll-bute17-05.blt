@@ -1,15 +1,4 @@
-Oban North and Lorn
-4 10 1679 8082 4200 51
-Brian BURNETT,Ind,0
-Kieron GREEN,Ind,1
-Neil MACKAY,Ind,0
-Julie MCKENZIE,SNP,1
-Allan MCKIE,Ind,0
-William MOHIEDDEEN,Grn,0
-Grant NICHOLSON,Ind,0
-Elaine ROBERTSON,Ind,1
-Breege SMYTH,SNP,0
-Andrew VENNARD,Con,1
+10 4
 8 1 0
 4 1 10 0
 2 1 10 2 0
@@ -1690,3 +1679,15 @@ Andrew VENNARD,Con,1
 1 9 8 7 4 0
 1 9 8 7 4 6 5 3 1 2 10 0
 0
+"Brian BURNETT (Ind)"
+"Kieron GREEN (Ind)"
+"Neil MACKAY (Ind)"
+"Julie MCKENZIE (SNP)"
+"Allan MCKIE (Ind)"
+"William MOHIEDDEEN (Grn)"
+"Grant NICHOLSON (Ind)"
+"Elaine ROBERTSON (Ind)"
+"Breege SMYTH (SNP)"
+"Andrew VENNARD (C)"
+"Oban North and Lorn"
+

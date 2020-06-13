@@ -1,11 +1,4 @@
-Cowal
-3 6 413 5896 3555 71
-William Gordon BLAIR,SNP,1
-Alex MCNAUGHTON,Ind,0
-Yvonne MCNEILLY,Con,1
-Alison MULHOLLAND,SNP,0
-Alan REID,SLD,1
-Susanna RICE,Lab,0
+6 3
 50 1 0
 11 1 2 0
 1 1 2 3 0
@@ -420,3 +413,11 @@ Susanna RICE,Lab,0
 2 6 5 4 1 3 2 0
 1 6 5 4 2 3 1 0
 0
+"William Gordon BLAIR (SNP)"
+"Alex MCNAUGHTON (Ind)"
+"Yvonne MCNEILLY (C)"
+"Alison MULHOLLAND (SNP)"
+"Alan REID (LD)"
+"Susanna RICE (Lab)"
+"Cowal"
+

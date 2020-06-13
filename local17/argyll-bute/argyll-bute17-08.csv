@@ -1,0 +1,20 @@
+"Election for","Isle of Bute"
+"Date","12 Jun 2020"
+"Number to be elected",3
+"Valid votes",2477
+"Invalid votes",0
+"Quota",620.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","John MCCALLUM (Ind)",,"Fraser GILLIES (Ind)",,"Robert MACINTYRE (SNP)",,"Jim FINDLAY (SNP)",,"Jean Murray MOFFAT (Ind)",,"Peter WALLACE (C)",
+"Jim FINDLAY (SNP)",433,+4.00000,437.00000,+24.00000,461.00000,+248.00000,709.00000,-89.00000,620.00000,,620.00000,,620.00000,"Elected"
+"Fraser GILLIES (Ind)",325,+18.00000,343.00000,-343.00000,"-",,"-",,"-",,"-",,"-",
+"Robert MACINTYRE (SNP)",395,+7.00000,402.00000,+31.00000,433.00000,-433.00000,"-",,"-",,"-",,"-",
+"John MCCALLUM (Ind)",85,-85.00000,"-",,"-",,"-",,"-",,"-",,"-",
+"Jean Murray MOFFAT (Ind)",472,+22.00000,494.00000,+94.00000,588.00000,+69.00000,657.00000,,657.00000,-37.00000,620.00000,,620.00000,"Elected"
+"Len SCOULLAR (Ind)",340,+14.00000,354.00000,+86.00000,440.00000,+62.00000,502.00000,+22.21704,524.21704,+12.95130,537.16834,+203.30413,740.47247,"Elected"
+"Peter WALLACE (C)",427,+10.00000,437.00000,+45.00000,482.00000,+10.00000,492.00000,+4.76976,496.76976,+7.26399,504.03375,-504.03375,"-",
+"Non-transferable", ,+10.00000,10.00000,+63.00000,73.00000,+44.00000,117.00000,+62.01320,179.01320,+16.78471,195.79791,+300.72962,496.52753,
+"Totals",2477,,2477.00000,,2477.00000,,2477.00000,,2477.00000,,2477.00000,,2477.00000

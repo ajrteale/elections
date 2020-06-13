@@ -1,11 +1,4 @@
-Kintyre and the Islands
-3 6 490 5249 2840 40
-Robin CURRIE,SLD,1
-Anne HORN,SNP,1
-Michael KELLY,Lab,0
-John MCALPINE,Ind,0
-Alastair REDMAN,Con,1
-Ed TYLER,Grn,0
+6 3
 125 1 0
 39 1 2 0
 21 1 2 3 0
@@ -497,3 +490,11 @@ Ed TYLER,Grn,0
 2 6 5 1 0
 1 6 5 2 0
 0
+"Robin CURRIE (LD)"
+"Anne HORN (SNP)"
+"Michael KELLY (Lab)"
+"John MCALPINE (Ind)"
+"Alastair REDMAN (C)"
+"Ed TYLER (Grn)"
+"Kintyre and the Islands"
+

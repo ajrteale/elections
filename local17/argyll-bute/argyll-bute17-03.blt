@@ -1,12 +1,4 @@
-Mid-Argyll
-3 7 781 6130 3356 49
-Jane KELLY,Lab,0
-Donnie MACMILLAN,Ind,1
-Jane MCCURDIE,Ind,0
-Alec MCNEILLY,Con,0
-Elaine MORRISON,Grn,0
-Douglas Trevor PHILAND,Ind,1
-Sandy TAYLOR,SNP,1
+7 3
 17 1 0
 6 1 2 3 0
 1 1 2 3 4 5 6 0
@@ -789,3 +781,12 @@ Sandy TAYLOR,SNP,1
 4 7 6 5 3 2 1 4 0
 1 7 6 5 3 4 2 1 0
 0
+"Jane KELLY (Lab)"
+"Donnie MACMILLAN (Ind)"
+"Jane MCCURDIE (Ind)"
+"Alec MCNEILLY (C)"
+"Elaine MORRISON (Grn)"
+"Douglas Trevor PHILAND (Ind)"
+"Sandy TAYLOR (SNP)"
+"Mid Argyll"
+

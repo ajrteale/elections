@@ -1,13 +1,4 @@
-Oban South and the Isles
-4 8 1254 8200 3891 66
-Jake AINSCOUGH,Lab,0
-Mary-Jean DEVON,Ind,1
-Jim LYNCH,SNP,1
-Alistair MACDOUGALL,Ind,0
-Sean MACINTYRE,SNP,0
-Roddy MCCUISH,Ind,1
-Jamie MCGRIGOR,Con,1
-David POLLARD,SLD,0
+8 4
 40 1 0
 2 1 2 0
 3 1 2 4 0
@@ -1263,3 +1254,13 @@ David POLLARD,SLD,0
 1 8 7 6 2 3 4 5 1 0
 1 8 7 6 4 2 0
 0
+"Jake AINSCOUGH (Lab)"
+"Mary-Jean DEVON (Ind)"
+"Jim LYNCH (SNP)"
+"Alistair MACDOUGALL (Ind)"
+"Sean MACINTYRE (SNP)"
+"Roddy MCCUISH (Ind)"
+"Jamie MCGRIGOR (C)"
+"David POLLARD (LD)"
+"Oban South and the Isles"
+

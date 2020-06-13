@@ -1,0 +1,18 @@
+"Election for","Helensburgh Central"
+"Date","12 Jun 2020"
+"Number to be elected",4
+"Valid votes",3861
+"Invalid votes",0
+"Quota",773.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Gary MULVANEY (C)",,"Aileen MORTON (LD)",,"Lorna DOUGLAS (SNP)",,"James ROBB (Ind)",
+"Lorna DOUGLAS (SNP)",873,,873.00000,,873.00000,-100.00000,773.00000,,773.00000,"Elected"
+"Graham Archibald HARDIE (LD)",258,+98.81634,356.81634,+206.36891,563.18525,+26.45874,589.64399,+274.61590,864.25989,"Elected"
+"Aileen MORTON (LD)",694,+381.63552,1075.63552,-302.63552,773.00000,,773.00000,,773.00000,"Elected"
+"Gary MULVANEY (C)",1789,-1016.00000,773.00000,,773.00000,,773.00000,,773.00000,"Elected"
+"James ROBB (Ind)",247,+231.13937,478.13937,+48.08317,526.22254,+32.41482,558.63736,-558.63736,"-",
+"Non-transferable", ,+304.40877,304.40877,+48.18344,352.59221,+41.12644,393.71865,+284.02146,677.74011,
+"Totals",3861,,3861.00000,,3861.00000,,3861.00000,,3861.00000

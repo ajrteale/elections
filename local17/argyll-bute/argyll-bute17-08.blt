@@ -1,12 +1,4 @@
-Isle of Bute
-3 7 663 4919 2538 61
-Jim FINDLAY,SNP,1
-Fraser GILLIES,Ind,0
-Robert MACINTYRE,SNP,0
-John MCCALLUM,Ind,0
-Jean Murray MOFFAT,Ind,1
-Len SCOULLAR,Ind,1
-Peter WALLACE,Con,0
+7 3
 11 1 0
 4 1 2 0
 2 1 2 3 0
@@ -671,3 +663,12 @@ Peter WALLACE,Con,0
 1 7 6 5 4 3 1 2 0
 1 7 6 5 4 3 2 1 0
 0
+"Jim FINDLAY (SNP)"
+"Fraser GILLIES (Ind)"
+"Robert MACINTYRE (SNP)"
+"John MCCALLUM (Ind)"
+"Jean Murray MOFFAT (Ind)"
+"Len SCOULLAR (Ind)"
+"Peter WALLACE (C)"
+"Isle of Bute"
+

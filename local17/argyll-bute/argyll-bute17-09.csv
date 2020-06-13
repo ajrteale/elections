@@ -1,0 +1,20 @@
+"Election for","Lomond North"
+"Date","12 Jun 2020"
+"Number to be elected",3
+"Valid votes",3365
+"Invalid votes",0
+"Quota",842.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Barbara MORGAN (C)",,"Paul Donald KENNEDY (LD)",,"Fiona HOWARD (Lab)",,"Robert MACINTYRE (Ind)",,"Fiona BAKER (Ind)",
+"Fiona BAKER (Ind)",407,+30.32052,437.32052,+36.35068,473.67120,+57.35068,531.02188,+92.60753,623.62941,-623.62941,"-",
+"George FREEMAN (Ind)",587,+26.01025,613.01025,+23.78356,636.79381,+50.67534,687.46915,+135.47191,822.94106,+329.33491,1152.27597,"Elected"
+"Fiona HOWARD (Lab)",212,+16.20067,228.20067,+51.84999,280.05066,-280.05066,"-",,"-",,"-",
+"Paul Donald KENNEDY (LD)",133,+24.37532,157.37532,-157.37532,"-",,"-",,"-",,"-",
+"Robert MACINTYRE (Ind)",359,+16.94382,375.94382,+10.48630,386.43012,+39.93219,426.36231,-426.36231,"-",,"-",
+"Barbara MORGAN (C)",989,-147.00000,842.00000,,842.00000,,842.00000,,842.00000,,842.00000,"Elected"
+"Iain Shonny PATERSON (SNP)",678,+1.78356,679.78356,+8.29726,688.08082,+22.74315,710.82397,+48.29726,759.12123,+54.14863,813.26986,"Elected"
+"Non-transferable", ,+31.36586,31.36586,+26.60753,57.97339,+109.34930,167.32269,+149.98561,317.30830,+240.14587,557.45417,
+"Totals",3365,,3365.00000,,3365.00000,,3365.00000,,3365.00000,,3365.00000

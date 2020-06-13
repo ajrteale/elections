@@ -1,0 +1,19 @@
+"Election for","Cowal"
+"Date","12 Jun 2020"
+"Number to be elected",3
+"Valid votes",3484
+"Invalid votes",0
+"Quota",872.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","William Gordon BLAIR (SNP)",,"Yvonne MCNEILLY (C)",,"Susanna RICE (Lab)",
+"William Gordon BLAIR (SNP)",918,-46.00000,872.00000,,872.00000,,872.00000,"Elected"
+"Alex MCNAUGHTON (Ind)",389,+2.60520,391.60520,+9.12080,400.72600,+27.80180,428.52780,
+"Yvonne MCNEILLY (C)",912,,912.00000,-40.00000,872.00000,,872.00000,"Elected"
+"Alison MULHOLLAND (SNP)",287,+36.02190,323.02190,+0.35080,323.37270,+21.43840,344.81110,
+"Alan REID (LD)",791,+3.45690,794.45690,+16.26835,810.72525,+88.34270,899.06795,"Elected"
+"Susanna RICE (Lab)",187,+1.20240,188.20240,+3.06950,191.27190,-191.27190,"-",
+"Non-transferable", ,+2.71360,2.71360,+11.19055,13.90415,+53.68900,67.59315,
+"Totals",3484,,3484.00000,,3484.00000,,3484.00000

@@ -1,0 +1,19 @@
+"Election for","Kintyre and the Islands"
+"Date","12 Jun 2020"
+"Number to be elected",3
+"Valid votes",2800
+"Invalid votes",0
+"Quota",701.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","Anne HORN (SNP)",,"Michael KELLY (Lab)",,"Ed TYLER (Grn)",,"Robin CURRIE (LD)",
+"Robin CURRIE (LD)",626,+23.38560,649.38560,+45.33856,694.72416,+75.93144,770.65560,-69.65560,701.00000,"Elected"
+"Anne HORN (SNP)",821,-120.00000,701.00000,,701.00000,,701.00000,,701.00000,"Elected"
+"Michael KELLY (Lab)",160,+9.64656,169.64656,-169.64656,"-",,"-",,"-",
+"John MCALPINE (Ind)",411,+21.04704,432.04704,+41.04624,473.09328,+52.61600,525.70928,+21.61620,547.32548,
+"Alastair REDMAN (C)",648,+4.53096,652.53096,+26.58464,679.11560,+10.02312,689.13872,+18.54529,707.68401,"Elected"
+"Ed TYLER (Grn)",134,+42.97104,176.97104,+19.33856,196.30960,-196.30960,"-",,"-",
+"Non-transferable", ,+18.41880,18.41880,+37.33856,55.75736,+57.73904,113.49640,+29.49411,142.99051,
+"Totals",2800,,2800.00000,,2800.00000,,2800.00000,,2800.00000

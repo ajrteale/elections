@@ -1,12 +1,4 @@
-Lomond North
-3 7 815 6123 3395 30
-Fiona BAKER,Ind,0
-George FREEMAN,Ind,1
-Fiona HOWARD,Lab,0
-Paul Donald KENNEDY,SLD,0
-Robert MACINTYRE,Ind,0
-Barbara MORGAN,Con,1
-Iain Shonny PATERSON,SNP,1
+7 3
 43 1 0
 15 1 2 0
 11 1 2 3 0
@@ -823,3 +815,12 @@ Iain Shonny PATERSON,SNP,1
 2 7 6 3 0
 1 7 6 4 0
 0
+"Fiona BAKER (Ind)"
+"George FREEMAN (Ind)"
+"Fiona HOWARD (Lab)"
+"Paul Donald KENNEDY (LD)"
+"Robert MACINTYRE (Ind)"
+"Barbara MORGAN (C)"
+"Iain Shonny PATERSON (SNP)"
+"Lomond North"
+
