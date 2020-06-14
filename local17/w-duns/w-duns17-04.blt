@@ -1,10 +1,4 @@
-Kilpatrick
-3 5 161 9052 4343 161
-Jim FINN,SNP,1
-Claire GALLAGHER,SNP,0
-Douglas James MCALLISTER,Lab,1
-Lawrence O'NEILL,Lab,1
-Hermione SPENCER,Con,0
+5 3
 47 1 0
 429 1 2 0
 117 1 2 3 0
@@ -167,3 +161,10 @@ Hermione SPENCER,Con,0
 4 5 4 3 1 2 0
 12 5 4 3 2 1 0
 0
+"Jim FINN (SNP)"
+"Claire GALLAGHER (SNP)"
+"Douglas James MCALLISTER (Lab)"
+"Lawrence O'NEILL (Lab)"
+"Hermione SPENCER (C)"
+"Kilpatrick"
+

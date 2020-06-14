@@ -1,13 +1,4 @@
-Leven
-4 8 1283 13832 6048 155
-Jim BOLLAN,WDCP,1
-Ian DICKSON,SNP,1
-George DRUMMOND,SLD,0
-Caroline MCALLISTER,SNP,1
-Michelle Marie MCGINTY,Lab,0
-John Kelly MILLAR,Lab,1
-Peter PARLANE,Con,0
-Sean QUINN,Grn,0
+8 4
 223 1 0
 34 1 2 0
 6 1 2 3 0
@@ -1292,3 +1283,13 @@ Sean QUINN,Grn,0
 1 8 7 5 1 0
 1 8 7 6 0
 0
+"Jim BOLLAN (WDuns)"
+"Ian DICKSON (SNP)"
+"George DRUMMOND (LD)"
+"Caroline MCALLISTER (SNP)"
+"Michelle Marie MCGINTY (Lab)"
+"John Kelly MILLAR (Lab)"
+"Peter PARLANE (C)"
+"Sean QUINN (Grn)"
+"Leven"
+

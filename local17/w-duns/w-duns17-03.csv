@@ -1,0 +1,20 @@
+"Election for","Dumbarton"
+"Date","14 Jun 2020"
+"Number to be elected",4
+"Valid votes",6562
+"Invalid votes",0
+"Quota",1313.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","David MCBRIDE (Lab)",,"Karen CONAGHAN (SNP)",,"Andrew MUIR (Ind)",,"George BLACK (WDuns)",,"Elizabeth RUINE (Lab)",
+"George BLACK (WDuns)",792,+29.04948,821.04948,+6.07992,827.12940,+61.16860,888.29800,-888.29800,"-",,"-",
+"Karen CONAGHAN (SNP)",1499,,1499.00000,-186.00000,1313.00000,,1313.00000,,1313.00000,,1313.00000,"Elected"
+"David MCBRIDE (Lab)",1762,-449.00000,1313.00000,,1313.00000,,1313.00000,,1313.00000,,1313.00000,"Elected"
+"Iain MCLAREN (SNP)",809,+18.09222,827.09222,+162.66888,989.76110,+8.87522,998.63632,+255.41396,1254.05028,+148.90754,1402.95782,"Elected"
+"Andrew MUIR (Ind)",159,+9.42834,168.42834,+2.48160,170.90994,-170.90994,"-",,"-",,"-",
+"Elizabeth RUINE (Lab)",584,+326.16960,910.16960,+4.83912,915.00872,+22.16860,937.17732,+166.45358,1103.63090,-1103.63090,"-",
+"Brian WALKER (C)",957,+22.67898,979.67898,+0.86856,980.54754,+28.76446,1009.31200,+137.81564,1147.12764,+240.86098,1387.98862,"Elected"
+"Non-transferable", ,+43.58138,43.58138,+9.06192,52.64330,+49.93306,102.57636,+328.61482,431.19118,+713.86238,1145.05356,
+"Totals",6562,,6562.00000,,6562.00000,,6562.00000,,6562.00000,,6562.00000

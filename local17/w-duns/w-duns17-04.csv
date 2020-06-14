@@ -1,0 +1,18 @@
+"Election for","Kilpatrick"
+"Date","14 Jun 2020"
+"Number to be elected",3
+"Valid votes",4182
+"Invalid votes",0
+"Quota",1046.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Douglas James MCALLISTER (Lab)",,"Hermione SPENCER (C)",,"Lawrence O'NEILL (Lab)",,"Claire GALLAGHER (SNP)",
+"Jim FINN (SNP)",965,+35.91195,1000.91195,+18.54460,1019.45655,+3.79308,1023.24963,+715.33377,1738.58340,"Elected"
+"Claire GALLAGHER (SNP)",800,+27.41665,827.41665,+11.15845,838.57510,+4.16664,842.74174,-842.74174,"-",
+"Douglas James MCALLISTER (Lab)",1704,-658.00000,1046.00000,,1046.00000,,1046.00000,,1046.00000,"Elected"
+"Lawrence O'NEILL (Lab)",367,+519.37175,886.37175,+184.99060,1071.36235,-25.36235,1046.00000,,1046.00000,"Elected"
+"Hermione SPENCER (C)",346,+23.16900,369.16900,-369.16900,"-",,"-",,"-",
+"Non-transferable", ,+52.13065,52.13065,+154.47535,206.60600,+17.40263,224.00863,+127.40797,351.41660,
+"Totals",4182,,4182.00000,,4182.00000,,4182.00000,,4182.00000
