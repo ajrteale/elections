@@ -1,12 +1,4 @@
-Dumbarton
-4 7 932 13146 6730 168
-George BLACK,WDCP,0
-Karen CONAGHAN,SNP,1
-David MCBRIDE,Lab,1
-Iain MCLAREN,SNP,1
-Andrew MUIR,Ind,0
-Elizabeth RUINE,Lab,0
-Brian WALKER,Con,1
+7 4
 125 1 0
 18 1 2 0
 7 1 2 3 0
@@ -940,3 +932,12 @@ Brian WALKER,Con,1
 1 7 6 5 3 4 2 1 0
 1 7 6 5 4 3 2 1 0
 0
+"George BLACK (WDuns)"
+"Karen CONAGHAN (SNP)"
+"David MCBRIDE (Lab)"
+"Iain MCLAREN (SNP)"
+"Andrew MUIR (Ind)"
+"Elizabeth RUINE (Lab)"
+"Brian WALKER (C)"
+"Dumbarton"
+

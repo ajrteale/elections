@@ -1,14 +1,4 @@
-Clydebank Waterfront
-4 9 1192 11689 5189 171
-Locky CAMERON,Ind,0
-Gail CASEY,Lab,1
-William HENDRIE,SNP,1
-Joe HENRY,Ind,0
-David JARDINE,Con,0
-Daniel LENNIE,Lab,1
-Marie A MCNAIR,SNP,1
-Frank MCNIFF,SNP,0
-Brian MURRAY,Ind,0
+9 4
 14 1 0
 4 1 2 0
 3 1 2 3 0
@@ -1202,3 +1192,14 @@ Brian MURRAY,Ind,0
 1 9 8 3 7 1 4 5 0
 1 9 8 6 5 0
 0
+"Locky CAMERON (Ind)"
+"Gail CASEY (Lab)"
+"William HENDRIE (SNP)"
+"Joe HENRY (Ind)"
+"David JARDINE (C)"
+"Daniel LENNIE (Lab)"
+"Marie A MCNAIR (SNP)"
+"Frank MCNIFF (SNP)"
+"Brian MURRAY (Ind)"
+"Clydebank Waterfront"
+

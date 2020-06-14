@@ -1,0 +1,20 @@
+"Election for","Lomond"
+"Date","14 Jun 2020"
+"Number to be elected",3
+"Valid votes",4365
+"Invalid votes",0
+"Quota",1092.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","George RICE (Ind)",,"Jonathan MCCOLL (SNP)",,"Louise ROBERTSON (WDuns)",,"Hazel SORRELL (Lab)",,"Martin ROONEY (Lab)",
+"Jonathan MCCOLL (SNP)",1082,+27.00000,1109.00000,-17.00000,1092.00000,,1092.00000,,1092.00000,,1092.00000,"Elected"
+"Sally PAGE (C)",939,+29.00000,968.00000,+0.33704,968.33704,+21.01532,989.35236,+48.06128,1037.41364,+62.47299,1099.88663,"Elected"
+"Chris POLLOCK (SNP)",458,+23.00000,481.00000,+14.73784,495.73784,+108.27576,604.01360,+35.10724,639.12084,+35.74528,674.86612,
+"George RICE (Ind)",218,-218.00000,"-",,"-",,"-",,"-",,"-",
+"Louise ROBERTSON (WDuns)",246,+54.00000,300.00000,+0.59748,300.59748,-300.59748,"-",,"-",,"-",
+"Martin ROONEY (Lab)",945,+32.00000,977.00000,+0.44428,977.44428,+47.09192,1024.53620,+362.06128,1386.59748,-294.59748,1092.00000,"Elected"
+"Hazel SORRELL (Lab)",477,+21.00000,498.00000,+0.29108,498.29108,+44.06128,542.35236,-542.35236,"-",,"-",
+"Non-transferable", ,+32.00000,32.00000,+0.59228,32.59228,+80.15320,112.74548,+97.12256,209.86804,+196.37921,406.24725,
+"Totals",4365,,4365.00000,,4365.00000,,4365.00000,,4365.00000,,4365.00000

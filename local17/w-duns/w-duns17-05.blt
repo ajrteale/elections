@@ -1,12 +1,4 @@
-Clydebank Central
-4 7 676 11928 5165 189
-Denis AGNEW,Ind,1
-Dean ALLARDICE,WDCP,0
-Jim BROWN,SNP,1
-Diane DOCHERTY,SNP,1
-Penny HUTTON,Con,0
-John MOONEY,Lab,1
-Alan Lewis SORRELL,Lab,0
+7 4
 139 1 0
 25 1 2 0
 7 1 2 3 0
@@ -684,3 +676,12 @@ Alan Lewis SORRELL,Lab,0
 1 7 6 5 4 3 1 2 0
 1 7 6 5 4 3 2 1 0
 0
+"Denis AGNEW (Ind)"
+"Dean ALLARDICE (WDuns)"
+"Jim BROWN (SNP)"
+"Diane DOCHERTY (SNP)"
+"Penny HUTTON (C)"
+"John MOONEY (Lab)"
+"Alan Lewis SORRELL (Lab)"
+"Clydebank Central"
+

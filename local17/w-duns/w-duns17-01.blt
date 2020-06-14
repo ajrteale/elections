@@ -1,12 +1,4 @@
-Lomond
-3 7 678 9136 4471 106
-Jonathan MCCOLL,SNP,1
-Sally PAGE,Con,1
-Chris POLLOCK,SNP,0
-George RICE,Ind,0
-Louise ROBERTSON,WDCP,0
-Martin ROONEY,Lab,1
-Hazel SORRELL,Lab,0
+7 3
 33 1 0
 3 1 2 0
 8 1 2 3 0
@@ -686,3 +678,12 @@ Hazel SORRELL,Lab,0
 2 7 6 5 4 3 1 2 0
 1 7 6 5 4 3 2 1 0
 0
+"Jonathan MCCOLL (SNP)"
+"Sally PAGE (C)"
+"Chris POLLOCK (SNP)"
+"George RICE (Ind)"
+"Louise ROBERTSON (WDuns)"
+"Martin ROONEY (Lab)"
+"Hazel SORRELL (Lab)"
+"Lomond"
+
