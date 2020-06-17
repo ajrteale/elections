@@ -1,12 +1,4 @@
-Inverclyde West
-3 7 772 8625 4927 77
-Ronald AHLFELD,Ind,1
-Alan HOLLIDAY,Lab,0
-James KELLY,Con,0
-Christopher William MCELENY,SNP,1
-Lynne QUINN,Ind,1
-Alan TAYLOR,UKIP,0
-George WHITE,SLD,0
+7 3
 195 1 0
 52 1 2 0
 25 1 2 3 0
@@ -780,3 +772,12 @@ George WHITE,SLD,0
 1 7 6 2 3 0
 1 7 6 2 3 5 1 4 0
 0
+"Ronald AHLFELD (Ind)"
+"Alan HOLLIDAY (Lab)"
+"James KELLY (C)"
+"Christopher William MCELENY (SNP)"
+"Lynne QUINN (Ind)"
+"Alan TAYLOR (UKIP)"
+"George WHITE (LD)"
+"Inverclyde West"
+

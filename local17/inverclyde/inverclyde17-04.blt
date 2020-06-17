@@ -1,12 +1,4 @@
-Inverclyde North
-4 7 884 10405 5308 139
-Martin BRENNAN,Lab,1
-Graeme BROOKS,Con,1
-Jim CLOCHERTY,Lab,1
-Philomena DONNACHIE,SNP,0
-Alasdair HIGGINS,SLD,0
-Eddie MCELENY,Ind,0
-Elizabeth ROBERTSON,SNP,1
+7 4
 112 1 0
 19 1 2 0
 22 1 2 3 0
@@ -892,3 +884,12 @@ Elizabeth ROBERTSON,SNP,1
 1 7 6 5 4 2 0
 2 7 6 5 4 3 1 2 0
 0
+"Martin BRENNAN (Lab)"
+"Graeme BROOKS (C)"
+"Jim CLOCHERTY (Lab)"
+"Philomena DONNACHIE (SNP)"
+"Alasdair HIGGINS (LD)"
+"Eddie MCELENY (Ind)"
+"Elizabeth ROBERTSON (SNP)"
+"Inverclyde North"
+

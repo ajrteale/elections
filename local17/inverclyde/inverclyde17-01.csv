@@ -1,0 +1,18 @@
+"Election for","Inverclyde East"
+"Date","17 Jun 2020"
+"Number to be elected",3
+"Valid votes",4420
+"Invalid votes",0
+"Quota",1106.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","David WILSON (C)",
+"Jim BOYLAND (Ind)",356,+71.44928,427.44928,
+"Christopher CURLEY (SNP)",1194,,1194.00000,"Elected"
+"Stephen MCCABE (Lab)",953,+175.06944,1128.06944,"Elected"
+"Jacci STOYLE (LD)",150,+168.71008,318.71008,
+"David WILSON (C)",1767,-661.00000,1106.00000,"Elected"
+"Non-transferable", ,+245.77120,245.77120,
+"Totals",4420,,4420.00000

@@ -1,11 +1,4 @@
-Inverclyde Central
-3 6 289 7598 3122 128
-Ian Thomas BRYSON,Con,0
-Colin JACKSON,Lab,1
-Michael MCCORMICK,Lab,1
-Jim MCELENY,SNP,1
-Jayne PEBERDY,SNP,0
-Kenny SHEPHERD,SLD,0
+6 3
 83 1 0
 6 1 2 0
 20 1 2 3 0
@@ -296,3 +289,11 @@ Kenny SHEPHERD,SLD,0
 4 6 5 4 0
 1 6 5 4 2 3 1 0
 0
+"Ian Thomas BRYSON (C)"
+"Colin JACKSON (Lab)"
+"Michael MCCORMICK (Lab)"
+"Jim MCELENY (SNP)"
+"Jayne PEBERDY (SNP)"
+"Kenny SHEPHERD (LD)"
+"Inverclyde Central"
+

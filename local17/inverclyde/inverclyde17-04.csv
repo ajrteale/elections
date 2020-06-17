@@ -1,0 +1,20 @@
+"Election for","Inverclyde North"
+"Date","17 Jun 2020"
+"Number to be elected",4
+"Valid votes",5169
+"Invalid votes",0
+"Quota",1034.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Martin BRENNAN (Lab)",,"Alasdair HIGGINS (LD)",,"Graeme BROOKS (C)",,"Eddie MCELENY (Ind)",,"Philomena DONNACHIE (SNP)",
+"Martin BRENNAN (Lab)",1279,-245.00000,1034.00000,,1034.00000,,1034.00000,,1034.00000,,1034.00000,"Elected"
+"Graeme BROOKS (C)",996,+19.92120,1015.92120,+95.68170,1111.60290,-77.60290,1034.00000,,1034.00000,,1034.00000,"Elected"
+"Jim CLOCHERTY (Lab)",538,+167.98935,705.98935,+55.29860,761.28795,+14.94689,776.23484,+107.45575,883.69059,+40.28760,923.97819,"Elected"
+"Philomena DONNACHIE (SNP)",802,+10.15215,812.15215,+11.00000,823.15215,+1.72892,824.88107,+33.23699,858.11806,-858.11806,"-",
+"Alasdair HIGGINS (LD)",311,+8.81130,319.81130,-319.81130,"-",,"-",,"-",,"-",
+"Eddie MCELENY (Ind)",379,+9.38595,388.38595,+63.53240,451.91835,+23.19478,475.11313,-475.11313,"-",,"-",
+"Elizabeth ROBERTSON (SNP)",864,+7.27890,871.27890,+20.19155,891.47045,+2.12104,893.59149,+63.52960,957.12109,+729.96650,1687.08759,"Elected"
+"Non-transferable", ,+21.46115,21.46115,+74.10705,95.56820,+35.61127,131.17947,+270.89079,402.07026,+87.86396,489.93422,
+"Totals",5169,,5169.00000,,5169.00000,,5169.00000,,5169.00000,,5169.00000

@@ -1,11 +1,4 @@
-Inverclyde East Central
-3 6 438 7942 3783 93
-Robbie HENDERSON,SLD,0
-Iain D MACLEOD,Con,0
-Jim MACLEOD,SNP,1
-Drew MCKENZIE,Ind,1
-Robert MORAN,Lab,1
-Donna PICKETT,SNP,0
+6 3
 12 1 0
 3 1 2 0
 1 1 2 3 4 5 6 0
@@ -445,3 +438,11 @@ Donna PICKETT,SNP,0
 6 6 5 4 0
 1 6 5 4 3 1 2 0
 0
+"Robbie HENDERSON (LD)"
+"Iain D MACLEOD (C)"
+"Jim MACLEOD (SNP)"
+"Drew MCKENZIE (Ind)"
+"Robert MORAN (Lab)"
+"Donna PICKETT (SNP)"
+"Inverclyde East Central"
+

@@ -1,0 +1,19 @@
+"Election for","Inverclyde Central"
+"Date","17 Jun 2020"
+"Number to be elected",3
+"Valid votes",2994
+"Invalid votes",0
+"Quota",749.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Jim MCELENY (SNP)",,"Michael MCCORMICK (Lab)",,"Kenny SHEPHERD (LD)",,"Ian Thomas BRYSON (C)",
+"Ian Thomas BRYSON (C)",276,+0.92084,276.92084,+3.64528,280.56612,+22.36698,302.93310,-302.93310,"-",
+"Colin JACKSON (Lab)",435,+8.51777,443.51777,+157.43053,600.94830,+21.41983,622.36813,+128.96417,751.33230,"Elected"
+"Michael MCCORMICK (Lab)",970,,970.00000,-221.00000,749.00000,,749.00000,,749.00000,"Elected"
+"Jim MCELENY (SNP)",973,-224.00000,749.00000,,749.00000,,749.00000,,749.00000,"Elected"
+"Jayne PEBERDY (SNP)",255,+197.28997,452.28997,+12.30282,464.59279,+13.38126,477.97405,+11.68825,489.66230,
+"Kenny SHEPHERD (LD)",85,+2.30210,87.30210,+7.06273,94.36483,-94.36483,"-",,"-",
+"Non-transferable", ,+14.96932,14.96932,+40.55864,55.52796,+37.19676,92.72472,+162.28068,255.00540,
+"Totals",2994,,2994.00000,,2994.00000,,2994.00000,,2994.00000

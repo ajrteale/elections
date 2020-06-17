@@ -1,13 +1,4 @@
-Inverclyde South
-3 8 792 7882 3454 74
-John COOKE,Ind,0
-John CROWTHER,SNP,1
-Anne DUFFY,SLD,0
-Vaughan JONES,Ind,0
-Agnes MCAULEY,SNP,0
-Maureen MCNEIL,Con,0
-Tommy MCVEY,Ind,1
-Natasha MURPHY,Lab,1
+8 3
 10 1 0
 4 1 2 5 0
 1 1 2 5 3 4 6 7 8 0
@@ -801,3 +792,13 @@ Natasha MURPHY,Lab,1
 1 8 7 6 3 1 4 2 5 0
 1 8 7 6 4 0
 0
+"John COOKE (Ind)"
+"John CROWTHER (SNP)"
+"Anne DUFFY (LD)"
+"Vaughan JONES (Ind)"
+"Agnes MCAULEY (SNP)"
+"Maureen MCNEIL (C)"
+"Tommy MCVEY (Ind)"
+"Natasha MURPHY (Lab)"
+"Inverclyde South"
+

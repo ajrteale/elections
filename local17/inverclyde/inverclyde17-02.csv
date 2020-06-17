@@ -1,0 +1,19 @@
+"Election for","Inverclyde East Central"
+"Date","17 Jun 2020"
+"Number to be elected",3
+"Valid votes",3690
+"Invalid votes",0
+"Quota",923.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Robert MORAN (Lab)",,"Jim MACLEOD (SNP)",,"Robbie HENDERSON (LD)",,"Donna PICKETT (SNP)",,"Iain D MACLEOD (C)",
+"Robbie HENDERSON (LD)",63,+26.70576,89.70576,+3.29252,92.99828,-92.99828,"-",,"-",,"-",
+"Iain D MACLEOD (C)",575,+28.51632,603.51632,+1.05831,604.57463,+25.18811,629.76274,+25.44602,655.20876,-655.20876,"-",
+"Jim MACLEOD (SNP)",1046,,1046.00000,-123.00000,923.00000,,923.00000,,923.00000,,923.00000,"Elected"
+"Drew MCKENZIE (Ind)",470,+69.25392,539.25392,+10.93587,550.18979,+31.02478,581.21457,+214.23879,795.45336,+263.73173,1059.18509,"Elected"
+"Robert MORAN (Lab)",1193,-270.00000,923.00000,,923.00000,,923.00000,,923.00000,,923.00000,"Elected"
+"Donna PICKETT (SNP)",343,+24.89520,367.89520,+93.13128,461.02648,+11.07747,472.10395,-472.10395,"-",,"-",
+"Non-transferable", ,+120.62880,120.62880,+14.58202,135.21082,+25.70792,160.91874,+232.41914,393.33788,+391.47703,784.81491,
+"Totals",3690,,3690.00000,,3690.00000,,3690.00000,,3690.00000,,3690.00000
