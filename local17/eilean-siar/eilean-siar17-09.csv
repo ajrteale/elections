@@ -1,0 +1,19 @@
+"Election for","An Taobh Siar agus Nis"
+"Date","20 Jun 2020"
+"Number to be elected",4
+"Valid votes",1429
+"Invalid votes",0
+"Quota",286.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","John Norman MACLEOD (Ind)",,"Kenneth MACLEOD (SNP)",,"Malcolm Ivor MCTAGGART (Ind)",,"Kenny John MACLEOD (Ind)",,"Alistair MACLENNAN (Ind)",
+"John MACKAY (Ind)",220,+4.37752,224.37752,+0.25054,224.62806,+30.18594,254.81400,+6.93305,261.74705,+78.13458,339.88163,"Elected"
+"Alistair MACLENNAN (Ind)",193,+7.81700,200.81700,+0.18378,201.00078,+37.48428,238.48506,+8.81947,247.30453,-247.30453,"-",
+"John Norman MACLEOD (Ind)",339,-53.00000,286.00000,,286.00000,,286.00000,,286.00000,,286.00000,"Elected"
+"Kenneth MACLEOD (SNP)",277,+9.84942,286.84942,-0.84942,286.00000,,286.00000,,286.00000,,286.00000,"Elected"
+"Kenny John MACLEOD (Ind)",239,+21.88760,260.88760,+0.22258,261.11018,+49.88884,310.99902,-24.99902,286.00000,,286.00000,"Elected"
+"Malcolm Ivor MCTAGGART (Ind)",161,+3.43948,164.43948,+0.07676,164.51624,-164.51624,"-",,"-",,"-",
+"Non-transferable", ,+5.62898,5.62898,+0.11576,5.74474,+46.95718,52.70192,+9.24650,61.94842,+169.16995,231.11837,
+"Totals",1429,,1429.00000,,1429.00000,,1429.00000,,1429.00000,,1429.00000

@@ -1,10 +1,4 @@
-Steornabhagh a Tuath
-4 5 230 2994 1440 28
-Iain Maclean MACAULAY,SNP,1
-Neil MACKAY,Ind,1
-Roddie MACKAY,Ind,1
-Lesley MCKENZIE,Ind,0
-Gordon MURRAY,Ind,1
+5 4
 34 1 0
 9 1 2 0
 17 1 2 3 0
@@ -236,3 +230,10 @@ Gordon MURRAY,Ind,1
 1 5 4 3 2 0
 6 5 4 3 2 1 0
 0
+"Iain Maclean MACAULAY (Ind)"
+"Neil MACKAY (Ind)"
+"Roddie MACKAY (Ind)"
+"Lesley MCKENZIE (Ind)"
+"Gordon MURRAY (SNP)"
+"Steòrnabhagh a Tuath"
+

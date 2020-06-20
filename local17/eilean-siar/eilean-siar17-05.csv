@@ -1,0 +1,19 @@
+"Election for","Sgire an Rubha"
+"Date","20 Jun 2020"
+"Number to be elected",3
+"Valid votes",1108
+"Invalid votes",0
+"Quota",278.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Norrie Tomsh MACDONALD (Ind)",,"Alasdair MACLEOD (Ind)",,"Don MACDONALD (C)",,"John Murdo MACMILLAN (Ind)",,"Tony ROBSON (Ind)",
+"Don MACDONALD (C)",83,+5.58168,88.58168,+4.03026,92.61194,-92.61194,"-",,"-",,"-",
+"Norrie Tomsh MACDONALD (Ind)",354,-76.00000,278.00000,,278.00000,,278.00000,,278.00000,,278.00000,"Elected"
+"Alasdair MACLEOD (Ind)",329,,329.00000,-51.00000,278.00000,,278.00000,,278.00000,,278.00000,"Elected"
+"John Murdo MACMILLAN (Ind)",100,+13.31016,113.31016,+7.44048,120.75064,+13.06313,133.81377,-133.81377,"-",,"-",
+"Tony ROBSON (Ind)",91,+22.54140,113.54140,+10.54068,124.08208,+17.84845,141.93053,+20.61529,162.54582,-162.54582,"-",
+"Finlay Mackenzie STEWART (Ind)",151,+18.67716,169.67716,+21.85641,191.53357,+21.47876,213.01233,+54.27446,267.28679,+71.14216,338.42895,"Elected"
+"Non-transferable", ,+15.88960,15.88960,+7.13217,23.02177,+40.22160,63.24337,+58.92402,122.16739,+91.40366,213.57105,
+"Totals",1108,,1108.00000,,1108.00000,,1108.00000,,1108.00000,,1108.00000

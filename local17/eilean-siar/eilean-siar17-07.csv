@@ -1,0 +1,18 @@
+"Election for","Steòrnabhagh a Tuath"
+"Date","20 Jun 2020"
+"Number to be elected",4
+"Valid votes",1412
+"Invalid votes",0
+"Quota",283.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Gordon MURRAY (SNP)",,"Roddie MACKAY (Ind)",,"Iain Maclean MACAULAY (Ind)",,"Lesley MCKENZIE (Ind)",
+"Iain Maclean MACAULAY (Ind)",249,+72.26037,321.26037,,321.26037,-38.26037,283.00000,,283.00000,"Elected"
+"Neil MACKAY (Ind)",145,+45.11052,190.11052,+61.25528,251.36580,+18.33935,269.70515,+87.95400,357.65915,"Elected"
+"Roddie MACKAY (Ind)",398,,398.00000,-115.00000,283.00000,,283.00000,,283.00000,"Elected"
+"Lesley MCKENZIE (Ind)",134,+29.65599,163.65599,+12.71336,176.36935,+6.80151,183.17086,-183.17086,"-",
+"Gordon MURRAY (SNP)",486,-203.00000,283.00000,,283.00000,,283.00000,,283.00000,"Elected"
+"Non-transferable", ,+55.97312,55.97312,+41.03136,97.00448,+13.11951,110.12399,+95.21686,205.34085,
+"Totals",1412,,1412.00000,,1412.00000,,1412.00000,,1412.00000

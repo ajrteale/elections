@@ -1,0 +1,19 @@
+"Election for","Loch a Tuath"
+"Date","20 Jun 2020"
+"Number to be elected",3
+"Valid votes",1282
+"Invalid votes",0
+"Quota",321.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Donald Finlayson CRICHTON (Ind)",,"Calum MACLEAN (Ind)",,"Allan Cameron MACLACHLAN (Ind)",,"Ruaraidh FERGUSON (Ind)",
+"Donald Finlayson CRICHTON (Ind)",590,-269.00000,321.00000,,321.00000,,321.00000,,321.00000,"Elected"
+"Ruaraidh FERGUSON (Ind)",80,+30.54731,110.54731,+3.00132,113.54863,+19.18942,132.73805,-132.73805,"-",
+"Iain C MACIVER (Ind)",78,+37.38626,115.38626,+3.82044,119.20670,+18.42884,137.63554,+32.62948,170.26502,
+"John A MACIVER (SNP)",230,+41.03370,271.03370,+5.50348,276.53718,+22.13035,298.66753,+37.08856,335.75609,"Elected"
+"Allan Cameron MACLACHLAN (Ind)",74,+24.16429,98.16429,+6.83302,104.99731,-104.99731,"-",,"-",
+"Calum MACLEAN (Ind)",230,+114.89436,344.89436,-23.89436,321.00000,,321.00000,,321.00000,"Elected"
+"Non-transferable", ,+20.97408,20.97408,+4.73610,25.71018,+45.24870,70.95888,+63.02001,133.97889,
+"Totals",1282,,1282.00000,,1282.00000,,1282.00000,,1282.00000

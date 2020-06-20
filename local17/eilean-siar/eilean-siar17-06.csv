@@ -1,0 +1,21 @@
+"Election for","Steòrnabhagh a Deas",,,,,,,,,,,,,,,
+"Date","20 Jun 2020",,,,,,,,,,,,,,,
+"Number to be elected",4,,,,,,,,,,,,,,,
+"Valid votes",1533,,,,,,,,,,,,,,,
+"Invalid votes",0,,,,,,,,,,,,,,,
+"Quota",307,,,,,,,,,,,,,,,
+"OpenSTV","1.6.1",,,,,,,,,,,,,,,
+"Election rules","Scottish STV",,,,,,,,,,,,,,,
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7,"Stage",8,
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,
+"Candidates","Preferences","Charlie NICOLSON (Ind)",,"Rae MACKENZIE (SNP)",,"Campbell MCKENZIE (Ind)",,"Angus MCCORMACK (Ind)",,"Derek MCPHERSON (Ind)",,"Caroline Linda BRICK (Ind)",,"Shonnie Beag MACRITCHIE (Ind)",,
+"Caroline Linda BRICK (Ind)",76,5.34033,81.34033,3.13943,84.47976,1.59337,86.07313,0.04769,86.12082,6.23106,92.35188,-92.35188,"-",,"-",
+"Keith DODSON (Ind)",156,51.02982,207.02982,7.13171,214.16153,1.29825,215.45978,0.2835,215.74328,13.56555,229.30883,46.71775,276.02658,61.9911,338.01768,"Elected"
+"Rae MACKENZIE (SNP)",250,95.53257,345.53257,-38.53257,307,,307,,307,,307,,307,,307,"Elected"
+"Shonnie Beag MACRITCHIE (Ind)",77,84.85191,161.85191,3.70677,165.55868,5.37348,170.93216,0.13724,171.0694,19.63633,190.70573,5.85199,196.55772,-196.55772,"-",
+"Angus MCCORMACK (Ind)",165,130.5414,295.5414,8.75902,304.30042,3.50582,307.80624,-0.80624,307,,307,,307,,307,"Elected"
+"Campbell MCKENZIE (Ind)",7,10.68066,17.68066,0.50853,18.18919,-18.18919,"-",,"-",,"-",,"-",,"-",
+"Derek MCPHERSON (Ind)",47,16.61436,63.61436,3.09409,66.70845,1.65954,68.36799,0.06263,68.43062,-68.43062,"-",,"-",,"-",
+"Charlie NICOLSON (Ind)",755,-448,307,,307,,307,,307,,307,,307,,307,"Elected"
+"Non-transferable"," ",53.40895,53.40895,12.19302,65.60197,4.75873,70.3607,0.27518,70.63588,28.99768,99.63356,39.78214,139.4157,134.56662,273.98232,
+"Totals",1533,,1533,,1533,,1533,,1533,,1533,,1533,,1533,

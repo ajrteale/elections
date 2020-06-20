@@ -1,0 +1,17 @@
+"Election for","Sgir' Uige agus Ceann a Tuath nan Loch"
+"Date","20 Jun 2020"
+"Number to be elected",3
+"Valid votes",1404
+"Invalid votes",0
+"Quota",352.00000
+"OpenSTV","1.6.1"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Angus MORRISON (Ind)",,"Norman Alexander MACDONALD (Ind)",,"Donald Cudig MACLEOD (Ind)",
+"Ranald FRASER (C)",268,+64.05147,332.05147,+0.17384,332.22531,+139.44006,471.66537,"Elected"
+"Norman Alexander MACDONALD (Ind)",271,+81.87030,352.87030,-0.87030,352.00000,,352.00000,"Elected"
+"Donald Cudig MACLEOD (Ind)",186,+97.28118,283.28118,+0.46684,283.74802,-283.74802,"-",
+"Angus MORRISON (Ind)",679,-327.00000,352.00000,,352.00000,,352.00000,"Elected"
+"Non-transferable", ,+83.79705,83.79705,+0.22962,84.02667,+144.30796,228.33463,
+"Totals",1404,,1404.00000,,1404.00000,,1404.00000

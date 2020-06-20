@@ -1,11 +1,4 @@
-Sgire an Rubha
-3 6 311 1907 1134 26
-Don MACDONALD,Con,0
-Norrie Tomsh MACDONALD,Ind,1
-Alasdair MACLEOD,Ind,1
-John Murdo MACMILLAN,Ind,0
-Tony ROBSON,Ind,0
-Finlay Mackenzie STEWART,Ind,1
+6 3
 19 1 0
 4 1 2 0
 4 1 2 3 0
@@ -318,3 +311,11 @@ Finlay Mackenzie STEWART,Ind,1
 1 6 5 4 0
 1 6 5 4 3 1 2 0
 0
+"Don MACDONALD (C)"
+"Norrie Tomsh MACDONALD (Ind)"
+"Alasdair MACLEOD (Ind)"
+"John Murdo MACMILLAN (Ind)"
+"Tony ROBSON (Ind)"
+"Finlay Mackenzie STEWART (Ind)"
+"Sgire an Rubha"
+

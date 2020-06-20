@@ -1,11 +1,4 @@
-Loch a Tuath
-3 6 328 2255 1317 35
-Donald Finlayson CRICHTON,Ind,1
-Ruaraidh FERGUSON,Ind,0
-Iain C MACIVER,Ind,0
-John A MACIVER,SNP,1
-Allan Cameron MACLACHLAN,Ind,0
-Calum MACLEAN,Ind,1
+6 3
 46 1 0
 15 1 2 0
 14 1 2 3 0
@@ -335,3 +328,11 @@ Calum MACLEAN,Ind,1
 1 6 5 4 3 1 2 0
 1 6 5 4 3 2 1 0
 0
+"Donald Finlayson CRICHTON (Ind)"
+"Ruaraidh FERGUSON (Ind)"
+"Iain C MACIVER (Ind)"
+"John A MACIVER (SNP)"
+"Allan Cameron MACLACHLAN (Ind)"
+"Calum MACLEAN (Ind)"
+"Loch a Tuath"
+
