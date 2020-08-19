@@ -1,0 +1,1065 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>South Lakeland District Council election Results 2019 </title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Results of the elections held for South Lakeland District Council on 2 May 2019.">
+    <!--the robots to be automatically populated-->
+    <meta NAME="ROBOTS" CONTENT="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Slimsy-->
+    <!--<script src="~/Scripts/slimage/slimmage.js"></script>-->
+    <!--jQuery-->
+
+    <!-- Js Render -->
+    <script src="/DependencyHandler.axd?s=L1NjcmlwdHMvanF1ZXJ5LTIuMS40Lm1pbi5qczsvU2NyaXB0cy9zbGltYWdlL3NsaW1tYWdlLmpzOy9TY3JpcHRzL2Jvb3RzdHJhcC0zLjMuNS1kaXN0L2pzL2Jvb3RzdHJhcC5qczsvc2NyaXB0cy9qcXVlcnkuY29va2llLm1pbi5qczs&amp;t=Javascript&amp;cdv=1373389940" type="text/javascript"></script>
+
+    <!-- CSS Render -->
+    <link href="/DependencyHandler.axd?s=L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC5jc3M7L1NjcmlwdHMvYm9vdHN0cmFwLTMuMy41LWRpc3QvY3NzL2Jvb3RzdHJhcC10aGVtZS5jc3M7L2Nzcy9ib290c3RyYXBfNDgwLTc2N3B4LmNzczsvY3NzL2ZvbnQtYXdlc29tZS5taW4uY3NzOy9zY3JpcHRzL0RhdGFUYWJsZS9kYXRhdGFibGVzLm1pbi5jc3M7&amp;t=Css&amp;cdv=1373389940" type="text/css" rel="stylesheet"/><link href="/css/styles.css?v=1.1" type="text/css" rel="stylesheet"/><link href="/DependencyHandler.axd?s=L2Nzcy9wcmludC5jc3M7L2Nzcy9icmFuZGluZy5jc3M7&amp;t=Css&amp;cdv=1373389940" type="text/css" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+
+    <script src="https://use.fontawesome.com/8c34b7b158.js"></script>
+
+    
+
+</head>
+<body>
+
+<div class="primaryBackground" role="banner">
+    <div id="pop-up-spacer"></div>
+
+    <div class="container">
+        <div class="row">
+            <div id="siteHeader" class="col-xs-12">
+                <div class="skip-content pull-right">
+                    <a href="#skipLinks">Skip Navigation</a>
+                </div>
+                <div class="logo-holder col-xs-4 col-sm-2">
+                    <a href="/" style="color: #fff;">
+                        <img src="/img/SLDC-logo.png" id="logo-image" alt="Southlakeland Council Logo"/>
+                    </a>
+                </div><!-- /logo-holder -->
+
+                <div class="contact-holder col-xs-6 col-sm-3 col-md-3 col-g-2 text-right pull-right">
+                    <div>
+                        <a href="/your-council/about-your-council/contact-details-for-sldc-offices/offices-contact-details/">Contact us</a><br/><a href="tel:01539733333" aria-label="Contact us Telephone Number">01539&nbsp;733&nbsp;333</a>
+                    </div>
+                </div><!-- /contact-holder -->
+
+                <div class="search-holder col-xs-12 col-ms-12 col-sm-6 col-md-6 col-lg-6 col-lg-push-1 col-md-push-1 col-sm-push-1 ">
+                    <!--                     <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="search" placeholder="Search eg. Council Tax, Benefits" required />
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary-meritec" type="submit">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    <span style="margin-left:10px;">Search</span>
+                                </button>
+                            </span>
+
+                        </div>
+                    </div> -->
+                    <form id="SearchForm" class="main-search-holder" method="get" action="https://www.southlakeland.gov.uk/content-searcher" style="border:none; padding:0px; box-shadow:none;">
+    <div id="SearchAheadControl" class="pull-left">
+        <input id="textSearch" style="margin:0px;" type="text" title="Search Box" aria-labelledby="searchBox" class="form-control" name="q" placeholder="Search eg. Council Tax, Benefits" required>
+        <div class="searchAutoCompleteWrapper">
+            <ul id="searchAutoComplete" style="list-style-type: none; margin: 0;"></ul>
+        </div>
+    </div>
+
+    <span class="input-group-btn">
+        <button class="btn btn-primary-meritec" type="submit" title="Search Button">
+            <span class="fa fa-search" aria-hidden="true"></span>
+            <span style="margin-left:10px;" id="searchBox">Search</span>
+        </button>
+    </span>
+
+</form>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    (function ($) {
+        // Hides predictions div on load.
+        $('#searchAutoCompleteWrapper').hide();
+
+        // if the text entered is longer than 2 characters it searches the API. Else it hides and empties the predictions box.
+        // Displays upto 10 predictions in the div. Empties old results before putting new ones in.
+        $('#SearchAheadControl').on('input', function () {
+            if (($('#textSearch').val().length) > 2) {
+                $('#searchAutoCompleteWrapper').show();
+                var querySearch = $('#textSearch').val();
+                return $.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + querySearch,
+                function (data) {
+                    $('#searchAutoComplete').empty();
+                    var PredictionCount = 0;
+                    $.each(data, function (index, value) {
+                        PredictionCount++;
+                        if (PredictionCount <= 10 && value.Phrase != '') $('#searchAutoComplete').append('<li class="listPrediction">' + value.Phrase + '</li>')
+                    });
+                })
+            } else {
+                $('#searchAutoCompleteWrapper').hide();
+                $('#searchAutoComplete').empty();
+            }
+        });
+
+        // When the prediction is clicked, it sets the search text to the prediction and submits the form.
+        $(document).on('click', '.listPrediction', function () {
+            $('#searchText').text($(this).text());
+            $('#SearchForm').submit();
+        });
+
+    })(jQuery);
+
+
+
+    //angular.module('TypeAheadSearch', ['ngAnimate', 'ngSanitize', 'mgcrea.ngStrap']).config(function ($typeaheadProvider) {
+    //    angular.extend($typeaheadProvider.defaults, {
+    //        animation: 'am-flip-x',
+    //        minLength: 3,
+    //        onSelect: function (data) {
+    //            jQuery('#SearchForm').submit();
+    //            console.log(data);
+    //            // window.location = data.Url;
+    //        }
+    //    });
+    //})
+
+    //    .controller('TypeAheadSearchController', function ($scope, $templateCache, $http) {
+
+
+    //        $scope.selectedPhrase = '';
+
+    //        //$scope.searchMore = [{ Phrase: "xxx", Url: "#" }];
+
+
+    //        $scope.searchPhrase = function (viewValue) {
+
+    //            if (viewValue.length >= 3) {
+    //                return $http.get('/umbraco/SearchAPI/SearchTypeAhead/Search/?param=' + encodeURI(viewValue))
+    //                    .then(function (res) {
+    //                        //    res.data.push({ Phrase: "Search more...", Url: "~/Search?q=" + viewValue, PageID: 0 })
+    //                        return res.data;
+    //                    });
+    //            }
+    //        }
+    //    });
+
+</script>
+
+                </div><!-- /search-holder -->
+
+
+            </div><!-- /#siteHeader -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+
+</div><!-- /primaryBackground -->
+
+<div role="main">
+    <div class="container">
+
+        <div class="row">
+            <div class="action-button-holder">
+                <span class="hidden-xs pull-left save-time">Save time, do it online:</span>
+                <div class="col-xs-4 col-sm-2 col-lg-3">
+                    <a href="/pay" class="btn btn-primary-meritec full-width" aria-label="Button to Pay">Pay</a>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-lg-3">
+                    <a href="/apply" class="btn btn-primary-meritec full-width" aria-label="Button to Apply">Apply</a>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-lg-3">
+                    <a href="/report" class="btn btn-primary-meritec full-width" aria-label="Button to Report">Report</a>
+                </div>
+                
+                
+            </div><!-- /button-holder -->
+        </div>
+        <a id="skipLinks"></a>
+        
+<div class="row">
+    
+    <div class="breadcrumbs col-xs-12">
+        <ul title="Breadcumb" aria-label="Breadcrumb">
+            <li>You are here:</li>
+            
+                <li><a href="/">Home</a></li>
+                <li><a href="/voting-and-elections/">Voting and elections</a></li>
+                <li><a href="/voting-and-elections/elections/">Elections</a></li>
+                <li><a href="/voting-and-elections/elections/election-results/">Election results</a></li>
+                <li><a href="/voting-and-elections/elections/election-results/south-lakeland-district-council-election-results/">South Lakeland District Council election results</a></li>
+            
+            <li class="active">South Lakeland District Council election Results 2019</li>
+        </ul>
+    </div>
+
+</div><!-- /row -->
+<div class="row">
+    <div class="col-xs-12 content-page-holder">
+        <h1>South Lakeland District Council election Results 2019</h1>
+        <p>Elections were held for 16 district council seats on Thursday 2 May 2019.</p>
+<p>The overall turnout was 45.06%</p>
+<h2>Ambleside &amp; Grasmere</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>42.6%<strong> Rejected ballot papers: </strong>14</p>
+<table summary="Results for Ambleside &amp; Grasmere" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIRCH, Christina</td>
+<td>The Green Party</td>
+<td> 176</td>
+</tr>
+<tr>
+<td>BROWN, Tim</td>
+<td>Conservative Party Candidate</td>
+<td> 398</td>
+</tr>
+<tr>
+<td>GILROY, Joshua Spencer</td>
+<td> Labour Party</td>
+<td> 64</td>
+</tr>
+<tr>
+<td>LAMB, Malcolm Alistair</td>
+<td> Liberal Democrats</td>
+<td> 735</td>
+</tr>
+</tbody>
+</table>
+<p><strong>MALCOLM ALISTAIR LAMB was elected</strong></p>
+<h2>Arnside &amp; Milnthorpe</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>46.56%<strong> Rejected ballot papers: </strong>19</p>
+<table summary="Results for Arnside &amp; Milnthorpe" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate  </th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ABEL, Jill</td>
+<td>The Green Party</td>
+<td> 269</td>
+</tr>
+<tr>
+<td>ASHBURNER, Rachel Elizabeth</td>
+<td>Conservative Party Candidate</td>
+<td> 616</td>
+</tr>
+<tr>
+<td>GILCHRIST, Alison Faith</td>
+<td>Labour Party</td>
+<td> 73</td>
+</tr>
+<tr>
+<td>MCSWEENEY, Pete</td>
+<td>Liberal Democrats</td>
+<td> 1339</td>
+</tr>
+</tbody>
+</table>
+<p><strong>PETE MCSWEENEY was elected</strong></p>
+<h2>Bowness &amp; Levens</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>46.3<strong> %Rejected ballot papers</strong>: 21</p>
+<table summary="Results for Bowness &amp; Levens" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BAVIN, Steve</td>
+<td>Liberal Democrats</td>
+<td> 823</td>
+</tr>
+<tr>
+<td>BENTLEY, Helen Louise</td>
+<td>The Green Party</td>
+<td> 208</td>
+</tr>
+<tr>
+<td>RENDELL, Brian John</td>
+<td>Conservative Party Candidate</td>
+<td> 1084</td>
+</tr>
+<tr>
+<td>TORDORFF, Kate</td>
+<td>Labour Party</td>
+<td> 54</td>
+</tr>
+</tbody>
+</table>
+<p><strong>BRIAN JOHN RENDELL was elected</strong></p>
+<h2>Broughton &amp; Coniston</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>44.04%<strong> Rejected ballot papers </strong>10</p>
+<table summary="Burton &amp; Crooklands results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidate  </th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRERETON, Matt</td>
+<td>Conservative Party Candidate</td>
+<td> 830</td>
+</tr>
+<tr>
+<td>GILLIGAN, Lynette Rosemary</td>
+<td>Green Party</td>
+<td> 170</td>
+</tr>
+<tr>
+<td>MARTIN, Paul Andrew</td>
+<td>Labour Party</td>
+<td> 115</td>
+</tr>
+<tr>
+<td>PIPER, Alan Nigel</td>
+<td>UK Independence Party (UKIP</td>
+<td> 177</td>
+</tr>
+<tr>
+<td>WHARTON, Ian Charles</td>
+<td>Liberal Democrats</td>
+<td> 878</td>
+</tr>
+</tbody>
+</table>
+<p><strong>IAN CHARLES WHARTON was elected</strong></p>
+<h2>Burton &amp; Crooklands</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>45.5%<strong>  Rejected ballot papers</strong>: 24</p>
+<table summary="Results for Burton &amp; Crooklands" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidate</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BLUNDEN, Simon</td>
+<td>The Green Party</td>
+<td> 200</td>
+</tr>
+<tr>
+<td>HARVEY, Tom</td>
+<td>Conservative Party Candidate</td>
+<td> 1012</td>
+</tr>
+<tr>
+<td>HERBERT, Christine Pearl</td>
+<td>Liberal Democrats</td>
+<td> 839</td>
+</tr>
+<tr>
+<td>RING, Jim</td>
+<td>Labour Party</td>
+<td> 71</td>
+</tr>
+</tbody>
+</table>
+<p><strong>TOM HARVEY was elected</strong></p>
+<h2>Furness Peninsula</h2>
+<p><strong>Seats: </strong>1<strong> Turnout: </strong>39.26%<strong> Rejected ballot papers: </strong>30</p>
+<table summary="Results for Furness Peninsula" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidates  </th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BUTCHER, Andrew Clifford</td>
+<td>Conservative Party Candidate</td>
+<td>641</td>
+</tr>
+<tr>
+<td>HOWLETT, Peter Alan</td>
+<td>Green Party</td>
+<td>139</td>
+</tr>
+<tr>
+<td>HUNT, Eirik Raymond Haugsbak</td>
+<td>Labour Party</td>
+<td>181</td>
+</tr>
+<tr>
+<td>WILLIS, Janet</td>
+<td>Liberal Democrats</td>
+<td>801</td>
+</tr>
+</tbody>
+</table>
+<p><strong>JANET WILLIS was elected</strong></p>
+<h2>Grange</h2>
+<p><strong>Seats:</strong>1<strong> Turnout: </strong>51.6%<strong> Rejected ballot papers: </strong>33</p>
+<table summary="Results for Grange" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASPLIN, Daniel</td>
+<td>Conservative Party Candidate</td>
+<td>665</td>
+</tr>
+<tr>
+<td>CASSON, Paul John</td>
+<td>Labour Party</td>
+<td>134</td>
+</tr>
+<tr>
+<td>KHAN, Dave</td>
+<td>Liberal Democrats</td>
+<td>1366</td>
+</tr>
+<tr>
+<td>LE MARE, Robin Smallwood</td>
+<td>The Green Party</td>
+<td>202</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DAVE KHAN was elected</strong></p>
+<h2>Kendal East</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>42.7%<strong> Rejected ballot papers: </strong>21</p>
+<table summary="Results for Kendal East" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ALEXANDER, James Robin</td>
+<td>Conservative Party Candidate</td>
+<td> 619</td>
+</tr>
+<tr>
+<td>LADHAMS, Helen Ngaire</td>
+<td>Liberal Democrats</td>
+<td>1148</td>
+</tr>
+<tr>
+<td>STAFFORD, Helen</td>
+<td>Labour Party</td>
+<td>167 </td>
+</tr>
+<tr>
+<td>WOODS, Paul Anthony</td>
+<td>The Green Party</td>
+<td>209</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HELEN NGAIRE LADHAMS was elected</strong></p>
+<h2>Kendal Rural</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>48.77%<strong> Rejected ballot papers: </strong>28</p>
+<table summary="Kendal Rural results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidates </th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BURKE, Hanna Maria</td>
+<td>Labour Party</td>
+<td> 90</td>
+</tr>
+<tr>
+<td>HODGSON, Hazel Margaret</td>
+<td>Liberal Democrats</td>
+<td> 1173</td>
+</tr>
+<tr>
+<td>NICHOLSON, Mike</td>
+<td>Conservative Party Candidate</td>
+<td> 744</td>
+</tr>
+<tr>
+<td>RICHARDSON, Fran</td>
+<td>The Green Party</td>
+<td> 316</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HAZEL MARGARET HODGSON was elected</strong></p>
+<h2>Kendal South &amp; Natland</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>48.64%<strong> Rejected ballot papers: </strong>14</p>
+<table summary="Kendal South &amp; Natland results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FUSTER, Elsa</td>
+<td>The Green Party</td>
+<td> 166</td>
+</tr>
+<tr>
+<td>RATHBONE, Doug</td>
+<td>Liberal Democrats</td>
+<td> 1333</td>
+</tr>
+<tr>
+<td>SPARLING, Lois Katherine</td>
+<td>Labour Party</td>
+<td> 96</td>
+</tr>
+<tr>
+<td>WADDINGTON, John William</td>
+<td>Conservative Party Candidate</td>
+<td> 772</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DOUG RATHBONE was elected</strong></p>
+<h2>Kendal Town</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>45.3%<strong> Rejected ballot papers: </strong>13</p>
+<table summary="Kendal Town results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRAITHWAITE, Paul Michael</td>
+<td>Labour Party</td>
+<td> 222</td>
+</tr>
+<tr>
+<td>DIXON, Phil</td>
+<td>Liberal Democrats</td>
+<td> 905</td>
+</tr>
+<tr>
+<td>RODHAM, Ian</td>
+<td>The Green Party</td>
+<td> 787</td>
+</tr>
+<tr>
+<td>TAYLOR, Aron Francis</td>
+<td>Conservative Party Candidate</td>
+<td> 299</td>
+</tr>
+</tbody>
+</table>
+<p><strong>PHIL DIXON was elected</strong></p>
+<h2>Kendal West</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>39%<strong> Rejected ballot papers: </strong>12</p>
+<table summary="Results for Kendal West" data-table-layout="rowheader">
+<thead>
+<tr>
+<th>Candidates  </th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BATCHELOR, Trevor</td>
+<td>Labour Party</td>
+<td> 192</td>
+</tr>
+<tr>
+<td>LANE, Hannah Louise Barton</td>
+<td>Conservative Party Candidate</td>
+<td> 383</td>
+</tr>
+<tr>
+<td>LONG, Susanne</td>
+<td>Liberal Democrats</td>
+<td> 1021</td>
+</tr>
+<tr>
+<td>VINCENT, Graham Jeffrey</td>
+<td>Independent</td>
+<td> 187</td>
+</tr>
+<tr>
+<td>WICKHAM, Claire</td>
+<td>The Green Party</td>
+<td> 207</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SUSANNE LONG was elected</strong></p>
+<h2>Sedbergh &amp; Kirkby Lonsdale</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>55.1%<strong> </strong><strong>Rejected ballot papers: </strong>28</p>
+<table summary="Sedbergh &amp; Kirkby Lonsdale results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAPSTICK, Sheila Mary</td>
+<td>Conservative Party Candidate</td>
+<td> 1072</td>
+</tr>
+<tr>
+<td>CROSS, Nick</td>
+<td>Labour Party</td>
+<td> 76</td>
+</tr>
+<tr>
+<td>JACKSON, Daphne Mary</td>
+<td>The Green Party</td>
+<td> 131</td>
+</tr>
+<tr>
+<td>PYE, Suzie</td>
+<td>Liberal Democrats</td>
+<td> 1332</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SUZIE PYE was elected</strong></p>
+<h2>Ulverston East</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>31.4% <strong>Rejected ballot papers: </strong>27</p>
+<table summary="Ulverston East results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HUDSON, Andrew</td>
+<td>Liberal Democrats</td>
+<td> 188</td>
+</tr>
+<tr>
+<td>LOYNES, Chris</td>
+<td> Green Party</td>
+<td> 200</td>
+</tr>
+<tr>
+<td>SERVANTE HADDOW, Maf</td>
+<td>Conservative Party Candidate</td>
+<td> 399</td>
+</tr>
+<tr>
+<td>WILSON, Shirley-Anne</td>
+<td>Labour Party</td>
+<td> 608</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SHIRLEY-ANNE WILSON was elected</strong></p>
+<h2>Ulverston West</h2>
+<p><strong>Seats: </strong>1 <strong>Turnout: </strong>45.46% <strong>Rejected ballot papers: </strong>19</p>
+<table summary="Ulverston West results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BEECHAM, Ray</td>
+<td>Liberal Democrats</td>
+<td> 164</td>
+</tr>
+<tr>
+<td>FILMORE, Judy</td>
+<td>The Green Party</td>
+<td> 756</td>
+</tr>
+<tr>
+<td>RIGG, Amanda Jane</td>
+<td>Conservative Party Candidate</td>
+<td> 748</td>
+</tr>
+<tr>
+<td>WEBSTER, Sharon Lorraine</td>
+<td>Labour Party</td>
+<td> 374</td>
+</tr>
+</tbody>
+</table>
+<p><strong>JUDY FILMORE was elected</strong></p>
+<h2>Windermere</h2>
+<p><strong>Seats: </strong>1<strong> Turnout: </strong>47.6%<strong> Rejected ballot papers: </strong>31</p>
+<table summary="Windermere results" data-table-layout="rowheader">
+<thead>
+<tr>
+<th> Candidates</th>
+<th>Party</th>
+<th>Votes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HENDERSON, Penny</td>
+<td>Labour Party</td>
+<td> 114</td>
+</tr>
+<tr>
+<td>HOYLE, Jane Helen</td>
+<td>Conservative Party Candidate</td>
+<td> 848</td>
+</tr>
+<tr>
+<td>JONES, Dyan Julie</td>
+<td>Liberal Democrats</td>
+<td> 1095</td>
+</tr>
+<tr>
+<td>THREADGOLD, Kate</td>
+<td>The Green Party</td>
+<td> 126</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DYAN JULIE JONES was elected</strong></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+    </div>
+</div><!-- /row -->
+
+
+
+
+            <div class="row">
+                <div class="footer-contacts-holder">
+
+                        <div class="col-xs-12 contact-information">
+                            <h2>Contact details:</h2>
+                            <ul class="list-unstyled">
+                                    <li>
+                                        <strong>Contact:</strong> Electoral Services</li>
+                                                                    <li>
+                                        <strong>Email:</strong> <a href="mailto:elections@southlakeland.gov.uk">elections@southlakeland.gov.uk</a>
+                                    </li>
+                                                                                                    <li>
+                                        <strong>Telephone:</strong><a href="tel:01539733333" aria-label="Electoral Services Contact Telephone Number"> 01539 733 333</a>
+                                    </li>
+                                                                    <li>
+                                        <strong>Address:</strong> South Lakeland House, Lowther Street, Kendal, Cumbria LA9 4DQ</li>
+                            </ul>
+                        </div>
+                </div><!-- /col-xs-12 -->
+            </div>
+            <!-- /row -->
+        <div id="mobile-view"></div>
+    </div><!-- /container -->
+
+        <div class="feedback-holder pull-right text-right col-xs-12">            
+
+        <a href="https://selfservice.southlakeland.gov.uk/renderform.aspx?noheader=1&amp;t=35&amp;FF1515=South+Lakeland+District+Council+election+Results+2019&amp;k=FFD0D8842706F04B3EA7231984776B773A355E80">
+            <img src="/img/good.png" alt="Positive Feedback" />
+        </a>
+        <a href="https://selfservice.southlakeland.gov.uk/renderform.aspx?noheader=1&amp;t=35&amp;FF1515=South+Lakeland+District+Council+election+Results+2019&amp;k=FFD0D8842706F04B3EA7231984776B773A355E80">
+            <img src="/img/average.png" alt="Okay Feedback" />
+        </a>
+            <a href="https://selfservice.southlakeland.gov.uk/renderform.aspx?noheader=1&amp;t=35&amp;FF1515=South+Lakeland+District+Council+election+Results+2019&amp;k=FFD0D8842706F04B3EA7231984776B773A355E80">
+                <img src="/img/poor.png" alt="Negative Feedback" />
+            </a>
+        <br />
+            <a href="https://selfservice.southlakeland.gov.uk/renderform.aspx?noheader=1&amp;t=35&amp;FF1515=South+Lakeland+District+Council+election+Results+2019&amp;k=FFD0D8842706F04B3EA7231984776B773A355E80">
+                <span class="feedback-url">Web page feedback</span>
+
+            </a>
+        </div>
+        <!-- /feedback-holder -->
+</div><!-- /main -->
+<div class="footer-holder footer-margin" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="footer-column col-xs-12 col-md-4">
+                <ul aria-label="Address">
+                    <li>South Lakeland District Council Offices<br />South Lakeland House<br />Lowther Street<br />Kendal<br />Cumbria LA9 4DQ<br /><br /> </li>
+                    <li>
+                        <a href="tel:01539733333" aria-label="Telephone Number">01539 733 333</a>
+                    </li>
+                    <li>
+                        <a href="mailto:customer.services@southlakeland.gov.uk">customer.services@southlakeland.gov.uk</a>
+                    </li>
+                </ul>
+            </div><!-- /footer-column -->
+
+            <div class="footer-column col-xs-12 col-md-4">
+                Open hours<br />Monday to Friday, 8.45am to 5pm
+            </div>
+
+            <div class="footer-column col-xs-12 col-md-2 text-center">
+                <a href="https://twitter.com/SouthLakelandDC" aria-label="Twitter">
+                    <div class="footer-icon fa fa-twitter-square" aria-hidden="true"></div>
+                </a>
+                <a href="https://www.facebook.com/southlakelanddistrictcouncil/" aria-label="Facebook">
+                    <div class="footer-icon fa fa-facebook-square"></div>
+                </a>
+                <a href="mailto:customer.services@southlakeland.gov.uk" aria-label="Email" aria-label="Telephone Number">
+                    <div class="footer-icon fa fa-envelope-square"></div>
+                </a>
+                
+
+                <div class="footer-inner" style="overflow: hidden; width: 100%;">
+                    <!--<div class="footer-text pull-left">
+                        <div><a href="https://twitter.com/SouthLakelandDC" target="_blank">@SouthLakelandDC</a></div>
+                    </div>-->
+                </div><!-- /footer-inner -->
+
+
+            </div><!-- /footer-column -->
+
+
+            
+
+            <div class="footer-column col-xs-12 col-md-2 text-center">
+                <div class="footer-inner text-center" style="overflow: hidden; width: 100%;">
+                    
+
+                </div><!-- /footer-inner -->
+            </div><!-- /footer-column -->
+        </div><!-- /footer-holder -->
+    </div><!-- /row -->
+</div><!-- /footer-holder -->
+
+<div class="copyright-holder col-xs-12" role="complementary">
+    <ul>
+        <li>Copyright &copy; 2005 to 2020</li>
+                    <li>
+                        <a href="/about-this-site/">About this site</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/use-of-cookies-on-this-site/">Use of cookies on this site</a>
+                    </li>
+                    <li>
+                        <a href="/about-this-site/site-map/">Site map</a>
+                    </li>
+
+    </ul>
+</div>
+
+
+<script type="text/javascript">
+    (function() {
+        function downloadJSAtOnload() {
+
+            var customScriptsJs = document.createElement("script");
+            customScriptsJs.src = window.location.origin + '/scripts/CustomScripts.js';
+            document.body.appendChild(customScriptsJs);           
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("load", downloadJSAtOnload, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onload", downloadJSAtOnload);
+        } else {
+            window.onload = downloadJSAtOnload;
+        }
+
+    })();
+</script>
+
+
+<!-- // Google Analytics // 
+<script type="text/javascript">
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] ||
+            function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1732601-11', 'auto');
+    ga('send', 'pageview');
+</script>-->
+
+
+<!-- // Crazy Egg // 
+<script type="text/javascript">
+    setTimeout(function() {
+            var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol +
+                "//script.crazyegg.com/pages/scripts/0009/7838.js?" +
+                Math.floor(new Date().getTime() / 3600000);
+            a.async = true;
+            a.type = "text/javascript";
+            b.parentNode.insertBefore(a, b)
+        },
+        1);
+</script>-->
+
+
+<!-- // Siteimprove //
+<script type="text/javascript">
+    /*&lt;![CDATA[*/
+    (function() {
+        var sz = document.createElement('script');
+        sz.type = 'text/javascript';
+        sz.async = true;
+        sz.src = '//uk1.siteimprove.com/js/siteanalyze_418953.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sz, s);
+    })();
+/*]]&gt;*/
+</script> -->
+
+
+<script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.x.min.js"></script>
+<script>
+    var config = {
+        apiKey: '660c07112541cebf26662d6d4a26e414a88b7ec5',
+        product: 'PRO', //make umbraco field cookieControlProductType
+		consentCookieExpiry: "90", //make umbraco field cookieControlConsentExpiry
+		necessaryCookies: ['XSRF-TOKEN', 'UMB*'],
+        optionalCookies: [ //maybe ?? make umbraco repeaty thing for this - has to be newer umbraco
+            {
+                    name: 'analytics',
+                    label: 'Cookies that measure website use',
+                    description: 'We use Google Analytics to measure how you use the website so we can improve it based on user needs. Google Analytics sets cookies that store anonymised information about how you got to the site, the pages you visit, how long you spend on each page and what you click on while you\'re visiting the site.',
+                    cookies: ['_ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
+                    onAccept : function(){
+					// Google Analytics // 
+					(function(i, s, o, g, r, a, m) {
+							i['GoogleAnalyticsObject'] = r;
+							i[r] = i[r] ||
+								function() {
+									(i[r].q = i[r].q || []).push(arguments)
+								}, i[r].l = 1 * new Date();
+							a = s.createElement(o),
+								m = s.getElementsByTagName(o)[0];
+							a.async = 1;
+							a.src = g;
+							m.parentNode.insertBefore(a, m);
+						})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+						ga('create', 'UA-1732601-11', 'auto');
+						ga('send', 'pageview');
+						
+					    // Crazy Egg
+						setTimeout(function() {
+						var a = document.createElement("script");
+						var b = document.getElementsByTagName("script")[0];
+						a.src = document.location.protocol +
+							"//script.crazyegg.com/pages/scripts/0009/7838.js?" +
+							Math.floor(new Date().getTime() / 3600000);
+						a.async = true;
+						a.type = "text/javascript";
+						b.parentNode.insertBefore(a, b)
+						},
+						1);
+
+						//Site Improve
+						(function() {
+							var sz = document.createElement('script');
+							sz.type = 'text/javascript';
+							sz.async = true;
+							sz.src = '//uk1.siteimprove.com/js/siteanalyze_418953.js';
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(sz, s);
+						})();						
+						
+						
+					},
+                    onRevoke: function(){
+					        window['ga-disable-UA-1732601-11'] = true;
+					},
+					recommendedState: true,  // if true, will be toggled ON automatically if acceptRecommended is selected
+					lawfulBasis: 'consent'
+                }
+        ],
+		closeStyle: 'button', // 'button' = only the accept/reject buttons will close, 'labelled' = big 'Save and Close X' label top right is also available, 'icon' = adds an 'X' top right
+		initialState: 'open',
+		notifyOnce: false,   // if true, only show initialState the first time the site opens, otherwise keep doing it until the user interacts
+		rejectButton: true,
+		toggleType: 'slider',  // slider or checkbox // dropdown in umbraco cookieControlToggleType
+        position: 'left', //dropdown left/right in umbraco cookieControlPositionOfOverlay
+        theme: 'light', //dropdown light/dark in umbraco cookieControlTheme
+        branding: {//make umbraoc section for this
+			acceptBackground: "#006633", // cookieControlAcceptButtonBackground
+            backgroundColor: "#FFFFFF",   //"#EEEEEE",  cookieControlBackgroundColour
+			//fontColor: "#006699",
+			toggleText: "#000000",   // The CSS color that you'd like to apply to the toggle button's text. cookieControlToggleTextColour
+			toggleColor: "#006633",  // The CSS background-color that you'd like to use for the movable part of the toggle slider. cookieControlToggleColour
+			toggleBackground: "#C0C0C0",  // The CSS background-color that you'd like to use for the toggle background. cookieControlToggleBackgroundColour
+			fontSizeTitle: "1.5em",    // "1.2em", cookieControlFontSizeTitle
+            fontSizeIntro: "1.2em",  // "1em", cookieControlFontSizeIntroText
+            fontSizeHeaders: "1.2em", // "1em", cookieControlFontSizeHeaders
+            fontSize: "1em",     // "0.8em", cookieControlFontSizeText
+            removeIcon: false,
+            removeAbout: true
+        },
+		text: {
+				title: 'This site uses cookies', //make umbraco property TITLE and INTRO cookieControlTitle
+				intro: 'Cookies are files saved on your phone, tablet or computer when you visit a website. <br /> <br /> We use data from recommended cookies to help us improve our website.<style> /*a.ccc-tabbable.ccc-link { */a.ccc-link{color: blue !important;text-decoration: underline !important;}</style>', //cookieControlIntro 
+				closeLabel: 'Save and close', //make umbraco property use fallback defaults cookieControlCloseLabel
+				acceptRecommended: 'Accept recommended cookies', //make umbraco property cookieControlAcceptRecommended
+				rejectSettings: 'Reject all cookies', //make umbraco property cookieControlRejectSettings
+				necessaryDescription: 'Necessary cookies enable core functionality. The website cannot function properly without these cookies, and they can only be deactivated by changing your browser preferences.' //cookieControlNecessaryDescription
+  },
+  statement: {
+    description: 'For more information, you can read our',//make umbraco property cookieControlDescription
+    name: 'cookie statement',//make umbraco property //cookieControlLinkText    
+
+    url: 'https://www.southlakeland.gov.uk/about-this-site/use-of-cookies-on-this-site/',//make umbraco property content picker cookieControlLink
+    updated: '15/5/2020'//get updated date of page above
+    
+  }
+    };
+    
+    CookieControl.load( config );
+</script>
+
+
+</body>
+</html>
