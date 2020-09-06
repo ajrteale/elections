@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /> <meta name="REVISIT-AFTER" content="1 DAYS" /> <meta name="RATING" content="GENERAL" /> <meta name="RESOURCE-TYPE" content="DOCUMENT" /> <meta content="text/javascript" http-equiv="Content-Script-Type" /> <meta content="text/css" http-equiv="Content-Style-Type" /><meta name="robots" content="noindex,nofollow" /><title>
+	CMIS > Elections
+</title><link href="/great-yarmouth/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/DesktopModules/CMIS_Elections/module.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/Portals/_default/Skins/Great%20Yarmouth%202015/skin.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/Portals/_default/Containers/CMIS_5_2_0/container.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/Portals/_default/Containers/CMIS_5_2_0/Title_Blue.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/Portals/0/portal.css?cdv=327" type="text/css" rel="stylesheet"/><link href="/great-yarmouth/Portals/_default/Skins/Great%20Yarmouth%202015/Menu/Superfish/superfish.css?cdv=327" type="text/css" rel="stylesheet"/><script src="/great-yarmouth/Resources/libraries/jQuery/03_04_01/jquery.js?cdv=327" type="text/javascript"></script><script src="/great-yarmouth/Resources/libraries/jQuery-Migrate/03_01_00/jquery-migrate.js?cdv=327" type="text/javascript"></script><script src="/great-yarmouth/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=327" type="text/javascript"></script><link href="/great-yarmouth/WebResource.axd?d=6d0ORl_GDQ_EK8n2n17u8ddLkTgYKh0QzwzhNW93pccYdfaz-voNu4rgkR5UBVDUOwq5rpZxxmIhG_MQ1yRc2_k03HoJlzWp_bJVE4ifeDnAJQv3qmTEWWfoWtA1&amp;t=637231557900000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=VdPoLqp1pEVsTEcL_2y3zpbLWxGpftZaz6I1fs-YKRERv3beYFvot73dQDvbFB1QSeGhYrKEbzUAPl66BdZhNt9Sf9vp7tlPAnKo6m-rWrrZsrm6C2Gpax22mZw1&amp;t=637231557900000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=scU4zlP5U53jin4UVjcLNzW6RWr8l2wyhK2FPYFgn2aGn0m25VzpzZh0EHFLNdQIkwouW_NZSSE8_V51qIaJX0VP2GVABt0LkAZyMcXdZ558puTWL1D4DPRmPd81&amp;t=637231557900000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=rymswBCN_gSyWnPlgFqCVTjw3dHoU15Rr-gKPAWfmW_Yl4hdoOY1hUPXQCzioWeGPSKyEI0R5C8boy6bGH9dPGaJ4DVF6hAKf5SRi98AZLLiqh-DMuglS_MTNzqVjPK0ss9Mdvil9rxCwl8a0&amp;t=637231557960000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=20hJFSY0zhIAPFNk0Y2FS2VY6XJow-S1SluLgzTrYPty6MJWWizKKhzoXkwbL_5Fqg6VdAFg99kVAWuUS2fPZGZaiI9nNsJ26YZbfRiiRXshuxuE0&amp;t=637231557900000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=MdXEAQktXF52309u68zyIw2akT0Xsq8VTj00lLrx875hJ6J3cLyQjnJVcFDxHj5Qji5P-3F4LCvl6D8BlzzjZqQ9kPfRtp3o7pco2EXz-0S0Pvj30&amp;t=637231557900000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/great-yarmouth/WebResource.axd?d=rp5RbN8u-p5jwLqMC7vm0RcspFX8L8Uzgcskqbqx4ItxRYEFPiHLIAzMNTzhw2G5uh6iqkCIyDwzB6qTCcxjOrF6jW7-3Dmam3rqbHdOIfACclpkOeI0ayF5N1GIJeVQJ7ssmQ2&amp;t=637231557960000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body id="Body">
+    
+    <form method="post" action="/great-yarmouth/Elections/tabid/71/ctl/ViewCandidates/mid/399/ID/115/Default.aspx" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/great-yarmouth/WebResource.axd?d=pynGkmcFUV2AMmB-UD-fPYUvCaGilXuGEbyX86mvQyHQrLqU6bULYOfHhvA1&amp;t=637103346965614113" type="text/javascript"></script>
+
+<script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.hoverIntent)) document.write(unescape('%3Cscript src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/Menu/Superfish/hoverIntent.js" type="text/javascript"%3E%3C/script%3E'));</script><script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.superfish)) document.write(unescape('%3Cscript src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/Menu/Superfish/superfish.js" type="text/javascript"%3E%3C/script%3E'));</script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]},"eras":[1,"A.D.",null,0]};//]]>
+</script>
+
+<script src="/great-yarmouth/ScriptResource.axd?d=NJmAwtEo3IppcjxybMxuSfiM0H4XS1mw2-bW2oc-VEt80ZVc0wTBpfGeJwk1HdRfc_5ZXcP_uJn7Q5j8lC-l01RYDjAiaYfNB5ALBQ1WO63b0mQgv1e8ID65tzqMAqmJOut8DA2&amp;t=ffffffffecf19baa" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=dwY9oWetJoKJ143L9oALA8VycX7TjnpINYvvFIN9qclQLe62ZlB5_s8FY8Wh5nBDltq7c2lFUeXT_ykdnz17cnuMBkIV4_sD_CqovOtRWQlDoHbcahH66PAccRmo-qttiA0Xvx9_UqoF7ECf0&amp;t=ffffffffecf19baa" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=TDVjdgRbdvOgIUjFlv5FeU0U9c0rbrVVo1YhcYwE-HVVV6mcnIZYs-VuzxjIXD-UH2WcwDhPeWxdAj4z7isQINq2CyalIxE9e0Po9A2&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=86EhAqQjfuNyENG1PEO4AUCKhFGidme5O3IS4HPr8GxBegorM-PNIs7FKjYiGYgzmFtE4G3ZTg4kM4NAnJGGLUs-YMjKHjUrDjM28K_n3xrbM3HWMPxUjPJ-Dbeoamc4i24-K9DbDV2NAIL00&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=LxjRs3XOu8Dg_NKcxa_h1ok22Y3GfqP_-QKOM5xKsR1gPQzH-DAf_iFzL21jq4Tn7o1nLnCBDeih-bVjL6V-uclHghjy9YfAI3GK3FNdTO0OOrfnnBcKsnI5hM9CBfgVrKKODiRHY2umgOyI8OVwz6ESlr41&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=iKcFwou5liF9QpCmS7Er36xfZ9gVWZ_724olyy1_acdlrPIXrHga4VWhQcrmtHQMldfJcOJQMUR4wU5Ti15Zd8l_FCgsc-75JbGNwWP5f5LgmsRcoioto3rkH1_wV-xEK9U-tw2&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=A22-SyJgKhJn9DVYYWsqPTUqY8xk3ELmmyTTkslAuiGha58jfBbjvU0-0hHGz7MHmM-_l-K3XD8dbx3R0d7rFLbjCe050ieNZPu4HPlKJdElVT6tCFm23Dz79Uw1&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=jsREEuQJotsCD-YzopupLLV7I1ngs3aiRhpbL34-pUOE3BV4ZNXHCrOmPQHUrQh-0v_iHErpuj32kY1pTLMB2oRkEeGgUpGuSCcTeOtJY3LmFTOy0&amp;t=495c3101" type="text/javascript"></script>
+<script src="/great-yarmouth/ScriptResource.axd?d=mbGZm65DzND6h_k73OK_t7RZJMHRG9iOOSOJDK5eF_9lzBZWiEGQ4ptKM11QmtiMrhaNK3NIEMXX7VG9BRxSGtcprqCUDJFsIeOitjFsmFV9pai80&amp;t=495c3101" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B34D1131" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="0loakIq0ttr9mwd4E3skQ9GGy/8ZkaWeNUAjLOS5gXDApeukyo1M6c7pTZ4Bc5gSaPgK1TjOQ+qXFNMUOWYbyj/VmRqbm+kGFR2zrBZHFFjp0Vhauj0BgtCf95GfCLKKYX50+67FgjLIg2ahTbGAL8cDy8I=" />
+</div><script src="/great-yarmouth/js/dnn.js?cdv=327" type="text/javascript"></script><script src="/great-yarmouth/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=327" type="text/javascript"></script><script src="/great-yarmouth/js/dnncore.js?cdv=327" type="text/javascript"></script><script src="/great-yarmouth/Resources/Shared/Scripts/dnn.jquery.js?cdv=327" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<link rel="stylesheet" href="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/css/master.css" />
+
+
+
+<div id="pagewrapper">
+    <header>
+        <div class="container">
+            <div id="dnn_ControlPanel"></div>
+            <div class="row">
+                <div class="toputilnav">
+                    <ul class="pull-right list-inline">
+                        <li>
+                            <a href="http://www.great-yarmouth.gov.uk/contactus" target="_blank">Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.facebook.com/pages/Great-Yarmouth-United-Kingdom/Great-Yarmouth-Borough-Council/127133594010506" target="_blank">
+                                <img src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/footer-facebook.jpg" alt="Follow Us On Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/greatyarmouthbc" target="_blank">
+                                <img src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/footer-twitter.jpg" alt="Tweet Us On Twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/logo.png" alt="Great Yarmouth Borough Council Portal" />
+
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div id="breadcrumb">
+        <div class="container">
+            <div id="BreadLogin">
+                <div class="label">
+                    <div id="Bread">
+                        <span id="dnn_dnnTEXT_lblText" class="breadcrumb_text"></span>
+
+                        <span><span class="label">You are here:</span>
+                            <span id="dnn_dnnBREADCRUMB_lblBreadCrumb" itemprop="breadcrumb" itemscope="" itemtype="https://schema.org/breadcrumb"><span itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Elections.aspx" class="Breadcrumb" itemprop="item"><span itemprop="name">Elections</span></a><meta itemprop="position" content="1" /></span></span></span>
+                        </span>
+                    </div>
+                </div>
+                <div id="Login">
+                    <a id="dnn_dnnUSER_registerLink" title="Register" class="user" rel="nofollow" href="http://great-yarmouth.cmis.uk.com/great-yarmouth/register.aspx?returnurl=http%3a%2f%2fgreat-yarmouth.cmis.uk.com%2fgreat-yarmouth%2fElections.aspx">Register</a>
+
+                    &nbsp;&nbsp;|&nbsp;&nbsp;<a id="dnn_dnnLOGIN_loginLink" title="Login" class="user" rel="nofollow" onclick="this.disabled=true;" href="http://great-yarmouth.cmis.uk.com/great-yarmouth/login.aspx?ReturnUrl=%2fgreat-yarmouth%2fElections%2ftabid%2f71%2fctl%2fViewCandidates%2fmid%2f399%2fID%2f115%2fDefault.aspx">Login</a>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="maincolumnwrapper">
+        <div class="container">
+            <div id="leftcolumn">
+
+                <div id="Menu">
+                    <ul id="leftnavigation">
+                        <li class="topNavItem">
+                            <div class="topleft">
+                                <div class="topright">
+                                    <div class="bottomleft">
+                                        <div class="bottomright">
+                                            <a href="http://www.great-yarmouth.gov.uk/" class="sf-with-ul">Home</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <script type="text/javascript">
+			jQuery(function($) {
+				$("#dnn_ctl00").superfish(
+					{MenuStyle:"Menu/Superfish"}
+				);
+			});
+		</script><ul class="sf-menu sf-vertical" id="dnn_ctl00">
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Home.aspx">Home</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Decisions.aspx">Decisions</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Petition.aspx">Petition</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Committees.aspx">Committees</a><ul>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Committees/CabinetsystemuptoMay2016.aspx">Cabinet system up to May 2016</a></li>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Committees/CommitteeSystemfromMay2016.aspx">Committee System from May 2016</a></li>
+    </ul>
+  </li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Councillors.aspx">Councillors</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Documents.aspx">Documents</a><ul>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Documents/PublicDocuments.aspx">Public Documents</a></li>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Documents/MembersLibrary.aspx">Member's Library</a></li>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Documents/ResourceLibrary.aspx">Resource Library</a></li>
+    </ul>
+  </li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/ParishCouncils.aspx">Parish Councils</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/OutsideBodies.aspx">Outside Bodies</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Meetings.aspx">Meetings</a></li>
+  <li class="current"><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/Elections.aspx">Elections</a></li>
+  <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/More.aspx">More..</a><ul>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/More/Search.aspx">Search</a></li>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/More/MobileHome.aspx">Mobile Home</a></li>
+      <li><a href="http://great-yarmouth.cmis.uk.com/great-yarmouth/More/ForwardPlans.aspx">Forward Plans</a></li>
+    </ul>
+  </li>
+</ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div id="contentwrap">
+                <div id="Panes">
+                    <div id="dnn_ContentPane" class="ContentPane pane"><div class="DnnModule DnnModule-CMISCMIS_Elections DnnModule-399 DnnModule-Admin">
+<div class="c_head c_head_blue">
+    <div class="head_title">
+        <div class="c_icon">			
+			
+			<h1>
+				<span id="dnn_ctr399_dnnTITLE_titleLabel" class="TitleHead">Election Ward Candidates</span>
+
+
+				
+			</h1>
+            </div>
+            <div class="title_vis">
+								
+            </div>
+            <div class="clear_float"></div>
+        </div>
+        <div class="c_content">
+            <div id="dnn_ctr399_ContentPane" class="Normal c_contentpane"><div id="dnn_ctr399_ModuleContent" class="DNNModuleContent ModCMISCMISElectionsC">
+	<div id="dnn_ctr399_ViewCandidates_RadFormDecorator1" class="RadFormDecorator" style="display:none;">
+		<!-- 2019.3.1023.45 --><script type="text/javascript">
+//<![CDATA[
+
+if (typeof(WebForm_AutoFocus) != 'undefined' && !isWebFormAutoFocusMethodCalled)
+{   
+	var old_WebForm_AutoFocus = WebForm_AutoFocus;
+	WebForm_AutoFocus = function(arg)
+	{
+		Sys.Application.add_load(function()
+		{            
+			old_WebForm_AutoFocus(arg);
+			WebForm_AutoFocus = old_WebForm_AutoFocus;
+		});
+	}
+    var isWebFormAutoFocusMethodCalled = true;
+}
+if (typeof(Telerik) != 'undefined' && Type.isNamespace(Telerik.Web))
+{
+	if (Telerik.Web.UI.RadFormDecorator)
+	{
+		Telerik.Web.UI.RadFormDecorator.initializePage("dnn_ctr399_ViewCandidates_RadFormDecorator1", "ViewCandidates.ascx", "Silk", 64444);
+	}
+}
+//]]>
+</script><input id="dnn_ctr399_ViewCandidates_RadFormDecorator1_ClientState" name="dnn_ctr399_ViewCandidates_RadFormDecorator1_ClientState" type="hidden" />
+	</div>
+<div id="ViewCandidates.ascx">
+    
+<div class="CMIS_ModuleWrapper ElectionWrapper ViewCandidates">
+    
+    <div id="OpenDataContent" xmlns:openelection="http://openelectiondata.org/0.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:cal="http://www.w3.org/2002/12/cal#" xmlns:v="http://www.w3.org/2006/vcard/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <div id="dnn_ctr399_ViewCandidates_OpenDataElectionPoll">
+    
+        <div id="dnn_ctr399_ViewCandidates_OpenDataElectionArea" class="Summary">
+            <div id="dnn_ctr399_ViewCandidates_pnlCandidatesSummary">
+		<fieldset>
+			<legend>
+				Ward Summary
+			</legend>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblName_label">
+        <span id="dnn_ctr399_ViewCandidates_lblName_lblLabel">Election Name:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        Great Yarmouth Borough Council 2019</div>
+                </div>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblDate_label">
+        <span id="dnn_ctr399_ViewCandidates_lblDate_lblLabel">Election Date:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr399_ViewCandidates_OpenDataElectionDate">
+                            02 May 2019
+                        </span>
+                    </div>
+                </div>
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblWard_label">
+        <span id="dnn_ctr399_ViewCandidates_lblWard_lblLabel">Ward:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr399_ViewCandidates_OpenDataWard">
+                            Claydon Ward
+                        </span>
+                        
+                    </div>
+                </div>
+                
+                <div class="LabelWrapper">
+                    <div class="DNNLabel">
+                        
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblRegisteredVoters_label">
+        <span id="dnn_ctr399_ViewCandidates_lblRegisteredVoters_lblLabel">Registered Voters:</span>   
+    </label>
+    
+    
+</div>
+
+
+                    </div>
+                    <div class="Value">
+                        <span id="dnn_ctr399_ViewCandidates_OpenDataElectorate">
+                            5,411
+                        </span>
+                    </div>
+                </div>
+                
+                <div id="dnn_ctr399_ViewCandidates_pnlResults">
+				
+                    <div class="LabelWrapper">
+                        <div class="DNNLabel">
+                            
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblBallotPapers_label">
+        <span id="dnn_ctr399_ViewCandidates_lblBallotPapers_lblLabel">Ballots Papers Issued:</span>   
+    </label>
+    
+    
+</div>
+
+
+                        </div>
+                        <div class="Value">
+                            <span id="dnn_ctr399_ViewCandidates_OpenDataBallotPapersIssued">
+                                1,164
+                            </span> 
+                            (<span id="dnn_ctr399_ViewCandidates_OpenDataBallotPapersSpoilt">
+                                94
+                            </span> spoilt papers)                        
+                        </div>
+                    </div>
+                    
+                    <div class="LabelWrapper">
+                        <div class="DNNLabel">
+                            
+<div class="dnnLabel">    
+    <label id="dnn_ctr399_ViewCandidates_lblVotesCastTurnout_label">
+        <span id="dnn_ctr399_ViewCandidates_lblVotesCastTurnout_lblLabel">Votes Cast:</span>   
+    </label>
+    
+    
+</div>
+
+
+                        </div>
+                        <div class="Value">
+                            2,871  
+                            (21.5 % Turnout)
+                        </div>
+                    </div>
+                
+			</div>
+                
+            
+		</fieldset>
+	</div>
+        </div>
+        
+        <div class="RadGridWrapper CandidatesGrid">
+            <div id="dnn_ctr399_ViewCandidates_grdCandidates" class="RadGrid RadGrid_Silk">
+
+	<table class="rgMasterTable" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00" style="width:100%;table-layout:auto;empty-cells:show;">
+		<colgroup>
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+	</colgroup>
+<thead>
+			<tr>
+				<th scope="col" class="CandidateName rgHeader" rowspan="2">Candidate Name</th><th scope="col" class="Party rgHeader" rowspan="2">Party</th><th scope="col" class="VoteCount rgHeader" rowspan="2"><a onclick="Telerik.Web.UI.Grid.Sort($find(&#39;dnn_ctr399_ViewCandidates_grdCandidates_ctl00&#39;), &#39;VoteCount&#39;); return false;" title="Click here to sort" href="javascript:__doPostBack(&#39;dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl02$ctl00$ctl00&#39;,&#39;&#39;)">Vote Count</a></th><th scope="col" class="rgHeader" rowspan="2">Percentage of Votes</th><th scope='col' style='text-align:center;' colspan='2' class='rgHeader'>Elected?</th>
+			</tr>
+		</thead><tbody>
+		<tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__0">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Red;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_OpenDataName" property="foaf:name">Carol Ann Borg</span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/6">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_OpenDataParty" property="rdfs:label">Labour</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">659</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=71fc6fca-5c44-425f-a565-2d7961307b45_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl04$crtResults&amp;imageFormat=Png&amp;random=431acdff-5027-4f35-8b47-de11c528998d'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"><img id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl04_imgimgElected" title="This Member is Elected" src="../../../../../../../../../DesktopModules/CMIS_Elections/images/confirm_smaller.gif" alt="This Member is Elected" /></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="True">
+                                Yes
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__1">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Red;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_OpenDataName" property="foaf:name">Cara Louise Walker </span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/6">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_OpenDataParty" property="rdfs:label">Labour</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">594</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=0fba009d-e330-4040-be2e-91fc8623efb1_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl06$crtResults&amp;imageFormat=Png&amp;random=cb1ba2bf-d87a-4954-ad72-47203a342dbc'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"><img id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl06_imgimgElected" title="This Member is Elected" src="../../../../../../../../../DesktopModules/CMIS_Elections/images/confirm_smaller.gif" alt="This Member is Elected" /></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="True">
+                                Yes
+                            </td>
+		</tr><tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__2">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Red;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_OpenDataName" property="foaf:name">Bernard John Williamson</span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/6">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_OpenDataParty" property="rdfs:label">Labour</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">569</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=5d7a4fc7-3462-4e61-b0bd-5fec50e5175d_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl08$crtResults&amp;imageFormat=Png&amp;random=022f4d24-74dc-4e31-9109-7cd4eb40a9b5'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"><img id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl08_imgimgElected" title="This Member is Elected" src="../../../../../../../../../DesktopModules/CMIS_Elections/images/confirm_smaller.gif" alt="This Member is Elected" /></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="True">
+                                Yes
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__3">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Blue;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_OpenDataName" property="foaf:name">Alan James Popham</span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/25">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_OpenDataParty" property="rdfs:label">Conservative</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">376</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=e3e22273-3ef2-4f15-82e0-dd3392c94a1e_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl10$crtResults&amp;imageFormat=Png&amp;random=32dcc00c-ff5e-47dc-a3d2-30578989a318'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl10_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr><tr class="rgRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__4">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Blue;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_OpenDataName" property="foaf:name">Lionel John O'Dell</span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/25">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_OpenDataParty" property="rdfs:label">Conservative</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">354</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=6e592094-0135-451a-b0df-131d83953207_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl12$crtResults&amp;imageFormat=Png&amp;random=f281c6f4-2e88-46a7-84f7-e30116cd2c11'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl12_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr><tr class="rgAltRow" rel="openelection:candidacy" id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00__5">
+			<td class="CandidateName" scope="row" rel="openelection:candidate">
+                                <div class="PartyColour" style='background-color: Blue;'></div>
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_OpenDataName" property="foaf:name">Gary William Boyd</span>
+                                
+                            </td><td class="Party" rel="openelection:party" resource="http://openelectiondata.org/id/parties/25">
+                                <span id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_OpenDataParty" property="rdfs:label">Conservative</span>
+                            </td><td class="VoteCount" property="openelection:candidateVoteCount" datatype="xsd:integer">319</td><td>
+                                <div id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults" class="RadChart" style="height:50px;width:250px;">
+				<img alt='' style='border-width: 0px;' usemap='#imdnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults' src='/great-yarmouth/DesktopModules/CMIS_Elections/ChartImage.axd?UseSession=true&amp;ChartID=52a2f27b-754f-474b-839b-fb2cb2107fba_chart_dnn$ctr399$ViewCandidates$grdCandidates$ctl00$ctl14$crtResults&amp;imageFormat=Png&amp;random=93f18b02-0d10-4664-9842-218ec0deb5de'  /><input id="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ctl00_ctl14_crtResults_ClientState" type="hidden" />
+			</div>
+                            </td><td class="ElectedImage"></td><td class="Elected" property="openelection:elected" datatype="xsd:boolean" content="False">
+                                No
+                            </td>
+		</tr>
+		</tbody>
+
+	</table><div id="dnn_ctr399_ViewCandidates_grdCandidates_SharedCalendarContainer" style="display:none;">
+
+	</div><input id="dnn_ctr399_ViewCandidates_grdCandidates_ClientState" name="dnn_ctr399_ViewCandidates_grdCandidates_ClientState" type="hidden" />	</div>
+	
+        </div>
+        
+        
+        
+        <div class="ButtonWrapper BackButton">
+            <input type="submit" name="dnn$ctr399$ViewCandidates$btnCancel" value="Back to Wards" id="dnn_ctr399_ViewCandidates_btnCancel" />
+        </div>
+        
+    </div>
+    </div>
+        
+</div>
+</div>
+
+</div></div>
+        </div>
+        <div class="c_footer">
+				
+				
+								
+								
+        </div>        </div>
+    
+
+</div></div>
+                    <div id="dnn_LeftPane" class="LeftPane pane DNNEmptyPane"></div>
+                    <div id="dnn_CenterPane" class="CenterPane pane DNNEmptyPane"></div>
+                    <div id="dnn_RightPane" class="RightPane pane DNNEmptyPane"></div>
+                    <div id="dnn_BottomPane" class="BottomPane pane DNNEmptyPane"></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="content border-bottom">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="border-bottom footer-heading tall">Contact Information</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="spacer">
+                                        Great Yarmouth Borough Council<br />
+                                        Town Hall,<br />
+                                        Hall Plain,<br />
+                                        Great Yarmouth,<br />
+                                        Norfolk NR30 2QF
+                                    </p>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="spacer">
+                                        Email us:<br />
+                                        <a href="mailto:enquiries@great-yarmouth.gov.uk"><strong>enquiries@great-yarmouth.gov.uk</strong></a>
+                                    </p>
+                                    <p class="spacer">
+                                        Telephone:<br />
+                                        01493 856100
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sml-6">
+                            <h3 class="border-bottom footer-heading tall">Social</h3>
+                            <ul id="footer-social" class="list-inline">
+                                <li>
+                                    <a href="http://twitter.com/greatyarmouthbc" target="_blank">
+                                        <img src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/footer-twitter.jpg" alt="Tweet Us On Twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.facebook.com/pages/Great-Yarmouth-United-Kingdom/Great-Yarmouth-Borough-Council/127133594010506" target="_blank">
+                                        <img src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/footer-facebook.jpg" alt="Follow Us On Facebook">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3 col-sml-6">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-cc-logo clearfix">
+                    <a class="pull-right" href="http://www.norfolk.gov.uk/ ">
+                        <img class="img-responsive" src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/images/footer-ncc-logo.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<script src="/great-yarmouth/Portals/_default/Skins/Great Yarmouth 2015/js/master.js"></script>
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadFormDecorator, {"_renderMode":2,"clientStateFieldID":"dnn_ctr399_ViewCandidates_RadFormDecorator1_ClientState","decoratedControls":64444,"decorationZoneID":"ViewCandidates.ascx","enabled":true,"skin":"Silk"}, null, null, $get("dnn_ctr399_ViewCandidates_RadFormDecorator1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadGrid, {"ClientID":"dnn_ctr399_ViewCandidates_grdCandidates","ClientSettings":{"AllowAutoScrollOnDragDrop":true,"ShouldCreateRows":true,"DataBinding":{},"Selecting":{"CellSelectionMode":0},"Scrolling":{},"Resizing":{},"ClientMessages":{},"KeyboardNavigationSettings":{"AllowActiveRowCycle":false,"EnableKeyboardShortcuts":true,"FocusKey":89,"InitInsertKey":73,"RebindKey":82,"ExitEditInsertModeKey":27,"UpdateInsertItemKey":13,"DeleteActiveRow":127,"ExpandDetailTableKey":39,"CollapseDetailTableKey":37,"MoveDownKey":40,"MoveUpKey":38,"SaveChangesKey":85,"CancelChangesKey":81},"Animation":{},"Virtualization":{}},"Skin":"Silk","SortingSettings":{"SortToolTip":"Click here to sort","SortedAscToolTip":"Sorted asc","SortedDescToolTip":"Sorted desc","SortedBackColor":{"R":0,"G":0,"B":0,"A":0,"IsKnownColor":false,"IsEmpty":true,"IsNamedColor":false,"IsSystemColor":false,"Name":"0"},"EnableSkinSortStyles":true,"ViewState":{}},"UniqueID":"dnn$ctr399$ViewCandidates$grdCandidates","_activeRowIndex":"","_controlToFocus":"","_currentPageIndex":0,"_defaultDateTimeFormat":"dd/MM/yyyy HH:mm:ss","_editIndexes":"[]","_embeddedSkin":true,"_freezeText":"Freeze","_gridTableViewsData":"[{\"ClientID\":\"dnn_ctr399_ViewCandidates_grdCandidates_ctl00\",\"UniqueID\":\"dnn$ctr399$ViewCandidates$grdCandidates$ctl00\",\"PageSize\":10,\"PageCount\":1,\"EditMode\":\"EditForms\",\"AllowPaging\":false,\"CurrentPageIndex\":0,\"VirtualItemCount\":0,\"AllowMultiColumnSorting\":false,\"AllowNaturalSort\":true,\"AllowFilteringByColumn\":false,\"PageButtonCount\":10,\"HasDetailTables\":false,\"HasMultiHeaders\":false,\"CheckListWebServicePath\":\"\",\"GroupLoadMode\":\"Server\",\"PagerAlwaysVisible\":false,\"IsItemInserted\":false,\"clientDataKeyNames\":[],\"hasDetailItemTemplate\":false,\"_dataBindTemplates\":false,\"_selectedItemStyle\":\"\",\"_selectedItemStyleClass\":\"rgSelectedRow\",\"_columnsData\":[{\"UniqueName\":\"CandidateName\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"Party\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"VoteCount\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridBoundColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"SortExpression\":\"VoteCount\",\"DataTypeName\":\"System.Int32\",\"DataField\":\"VoteCount\",\"ReadOnly\":true,\"Display\":true},{\"UniqueName\":\"ChartColumn\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"Display\":true},{\"UniqueName\":\"imgElected\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridImageColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataAlternateTextField\":\"\",\"DataAlternateTextFormatString\":\"\",\"DataImageUrlFields\":[],\"AlternateText\":\"This Member is Elected\",\"ImageUrl\":\"/great-yarmouth/Elections/tabid/71/ctl/ViewCandidates/mid/399/ID/115/images/confirm_smaller.gif\",\"DataImageUrlFormatString\":\"\",\"Display\":true},{\"UniqueName\":\"Elected\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"ReadOnly\":true,\"Display\":true}]}]","_masterClientID":"dnn_ctr399_ViewCandidates_grdCandidates_ctl00","_shouldFocusOnPage":false,"_unfreezeText":"Unfreeze","allowMultiRowSelection":false,"clientStateFieldID":"dnn_ctr399_ViewCandidates_grdCandidates_ClientState","expandItems":{},"renderMode":2}, null, null, $get("dnn_ctr399_ViewCandidates_grdCandidates"));
+});
+//]]>
+</script>
+</form>
+    <!--CDF(Javascript|/great-yarmouth/js/dnncore.js?cdv=327|DnnBodyProvider|100)--><!--CDF(Css|/great-yarmouth/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=327|DnnPageHeaderProvider|5)--><!--CDF(Css|/great-yarmouth/Portals/_default/Skins/Great%20Yarmouth%202015/skin.css?cdv=327|DnnPageHeaderProvider|15)--><!--CDF(Css|/great-yarmouth/Portals/_default/Containers/CMIS_5_2_0/container.css?cdv=327|DnnPageHeaderProvider|25)--><!--CDF(Css|/great-yarmouth/Portals/_default/Containers/CMIS_5_2_0/Title_Blue.css?cdv=327|DnnPageHeaderProvider|30)--><!--CDF(Css|/great-yarmouth/DesktopModules/CMIS_Elections/module.css?cdv=327|DnnPageHeaderProvider|10)--><!--CDF(Css|/great-yarmouth/DesktopModules/CMIS_Elections/module.css?cdv=327|DnnPageHeaderProvider|10)--><!--CDF(Css|/great-yarmouth/Portals/0/portal.css?cdv=327|DnnPageHeaderProvider|35)--><!--CDF(Javascript|/great-yarmouth/js/dnn.js?cdv=327|DnnBodyProvider|12)--><!--CDF(Css|/great-yarmouth/Portals/_default/Skins/Great%20Yarmouth%202015/Menu/Superfish/superfish.css?cdv=327|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/great-yarmouth/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=327|DnnBodyProvider|55)--><!--CDF(Javascript|/great-yarmouth/Resources/Shared/Scripts/dnn.jquery.js?cdv=327|DnnBodyProvider|100)--><!--CDF(Javascript|/great-yarmouth/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=327|DnnBodyProvider|55)--><!--CDF(Javascript|/great-yarmouth/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=327|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/great-yarmouth/Resources/libraries/jQuery/03_04_01/jquery.js?cdv=327|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/great-yarmouth/Resources/libraries/jQuery-Migrate/03_01_00/jquery-migrate.js?cdv=327|DnnPageHeaderProvider|6)-->
+    
+</body>
+</html>
