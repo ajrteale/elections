@@ -1,5 +1,5 @@
 % Herewith a package designed to typeset the election results books.
-% 
+%
 % A Teale, December 2006
 
 % Letterspacing
@@ -68,11 +68,11 @@
 }
 
 % Here are the ward... environments for typesetting ward results.
-% 
+%
 % All these environments print the ward name (the optional argument)
 % as a new unnumbered subsubsection and then the results in typewriter
 % style text.
-% 
+%
 % The generic ``ward'' environment, for a ward with one councillor to
 % be elected:
 \newenvironment{ward}[1][Ward Name]{
@@ -84,7 +84,7 @@
 %     -ii   A two-seat ward; the number ``(2)'' will be printed at the
 %     end of the ward name.
 %     -iii  A three-seat ward; see -ii above.
-%     -a    A ward with a name which is to have another form in the index, 
+%     -a    A ward with a name which is to have another form in the index,
 %     for example if it contains an ampersand (\&) or ends in a compass point
 %     (eg Radcliffe North to Radcliffe N.)
 %     -m    A ward with a name which is the same as another ward
@@ -112,7 +112,7 @@
 	\end{tabular*}}
 
 \newenvironment{wardas}[3][Ward Name]{
-  \subsubsection*{#1 
+  \subsubsection*{#1
     \hspace*{\fill}\nolinebreak[1]%
     \enspace\hspace*{\fill}
     \finalhyphendemerits=0
@@ -206,7 +206,7 @@
   \subsubsection*{#1 (2)}\index{#2@#1}
   \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
 	\end{tabular*}}
-	
+
 \newenvironment{wardiistc}[3][Ward Name]{
   \subsubsection*{#1 (2)\\ \itshape #2}\index{#3@#1}
   \VerbatimEnvironment\begin{Verbatim}}{
@@ -440,7 +440,7 @@
 \hrule
 \end{table}}
 
-% Environment for the ward maps.  This uses conditional code so that the 
+% Environment for the ward maps.  This uses conditional code so that the
 % ward maps can appear optionally as required.
 
 \newenvironment{wardmap}[1][Council Name]{
@@ -555,6 +555,7 @@
 \hyphenation{Bas-ing-stoke}
 \hyphenation{Beb-ing-ton}
 \hyphenation{Bells-hill}
+\hyphenation{Ben-ar-ty}
 \hyphenation{Bents-wood}
 \hyphenation{Ber-monds-ey}
 \hyphenation{Ber-wick-shire}
@@ -627,10 +628,12 @@
 \hyphenation{Fal-kirk}
 \hyphenation{Fighel-dean}
 \hyphenation{Fran-chet-ti}
+\hyphenation{Fra-ser}
 \hyphenation{Gan-cza-kow-ski}
 \hyphenation{Gates-head}
 \hyphenation{Ged-ling}
 \hyphenation{Geoff-rey}
+\hyphenation{Gil-bert}
 \hyphenation{Gil-der-new}
 \hyphenation{Gil-mour}
 \hyphenation{Glass-hough-ton}
@@ -646,6 +649,7 @@
 \hyphenation{Har-greaves}
 \hyphenation{Har-well}
 \hyphenation{Ha-th-er-ley}
+\hyphenation{Haw-thorne}
 \hyphenation{Hell-ing-ly}
 \hyphenation{Herts-mere}
 \hyphenation{Hol-land}
@@ -657,6 +661,7 @@
 \hyphenation{How-arth}
 \hyphenation{Hut-ch-ens}
 \hyphenation{Hut-ch-in-son}
+\hyphenation{Il-en-do}
 \hyphenation{Imp-ing-ton}
 \hyphenation{Je-re-my}
 \hyphenation{Ji-me-n-ez}
@@ -677,12 +682,14 @@
 \hyphenation{Lei-ces-ter-shire}
 \hyphenation{Leics}
 \hyphenation{Leo-n-ards}
+\hyphenation{Lew-is}
 \hyphenation{Lincs-Ind}
 \hyphenation{Li-m-on-ci}
 \hyphenation{Lind-ford}
 \hyphenation{Llan-gyn-ha-f-al}
 \hyphenation{Loch-ab-er}
 \hyphenation{Long-hors-ley}
+\hyphenation{Long-staff}
 \hyphenation{Lor-na}
 \hyphenation{Loud-water}
 \hyphenation{Lough-ton}
@@ -699,21 +706,26 @@
 \hyphenation{Mc-Fad-zean}
 \hyphenation{Mc-Ghee}
 \hyphenation{Mc-Gimp-s-ey}
+\hyphenation{Mac-In-nes}
 \hyphenation{Mc-Kel-vie}
 \hyphenation{Mac-ken-zie}
 \hyphenation{Mc-Kev-itt}
 \hyphenation{Mc-Kin-ney}
+\hyphenation{Mc-Kin-non}
 \hyphenation{Mc-Lach-lan}
 \hyphenation{Mc-Lar-en}
 \hyphenation{Mc-Lea-ry}
 \hyphenation{Mc-Leish}
+\hyphenation{Mc-Len-nan}
 \hyphenation{Mac-Leod}
 \hyphenation{Mac-mer-ry}
+\hyphenation{Mac-phail}
 \hyphenation{Mc-Pha-ter}
 \hyphenation{Mc-Rob-ert}
 \hyphenation{Mai-den-bow-er}
 \hyphenation{Mall-ing}
 \hyphenation{Man-ches-ter}
+\hyphenation{Mar-ga}
 \hyphenation{Mas-s-ie}
 \hyphenation{Matth-ews}
 \hyphenation{Max-well}
@@ -737,7 +749,9 @@
 \hyphenation{Nan-ette}
 \hyphenation{New-thorpe}
 \hyphenation{Nich-o-las}
+\hyphenation{Nich-ol}
 \hyphenation{Nich-ol-son}
+\hyphenation{Nim-mo}
 \hyphenation{Nor-th-amp-ton}
 \hyphenation{Nor-th-ants}
 \hyphenation{Not-t-ing-ham-shire}
@@ -813,6 +827,7 @@
 \hyphenation{Tyne-side}
 \hyphenation{Val-ley}
 \hyphenation{Wad-d-ing-ton}
+\hyphenation{Wa-dh-wa}
 \hyphenation{Wal-tham}
 \hyphenation{Wands-worth}
 \hyphenation{Wang-a-soo-ri-ya}
@@ -822,6 +837,7 @@
 \hyphenation{Wharfe-dale}
 \hyphenation{Whee-l-er}
 \hyphenation{Whit-well}
+\hyphenation{Wi-cz-yn-ski}
 \hyphenation{Wig-ston}
 \hyphenation{Will-i-am}
 \hyphenation{Will-i-ams}
@@ -869,4 +885,3 @@
 \makeatother
 
 \newcommand{\fps}{\emph{First preferences}\\}
-
