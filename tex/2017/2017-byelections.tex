@@ -1,197 +1,3 @@
-\documentclass[a4paper,openany]{book}
-\usepackage{graphicx}
-\usepackage{url}
-\usepackage{microtype}
-
-\usepackage[plainpages=false,pdfpagelabels,pdfauthor={Andrew Teale},pdftitle={Local Election Results 2017},hidelinks]{hyperref}
-
-%\usepackage[cp1252]{inputenc}
-
-% put all the other packages here:
-
-\usepackage{election06-test}
-\usepackage[t]{ebgaramond}
-\usepackage{ebgaramond-maths}
-	
-\renewcommand\resultsyear{2017}
-
-\setboolean{maps}{false}
-
-\begin{document}
-
-% Title page
-
-\begin{titlepage}
-
-\begin{center}
-
-\Huge Local Election Results
-
-2017
-
-\bigskip
-
-\Large Andrew Teale
-
-\vfill
-
-\newcommand\versionno{0.10.1}
-
-%Version \versionno
-
-\today
-
-\end{center}
-
-\end{titlepage}
-
-% Copyright notice
-
-\begin{center}
-
-\bigskip
-
-Typeset by \LaTeX{} 
-
-\bigskip
-
-Compilation and design \copyright\ Andrew Teale, 2017.
-
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.3
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- A copy of the license is included in the section entitled ``GNU
- Free Documentation License''.
-
-\bigskip
-
-This file is available for download from
-\url{http://www.andrewteale.me.uk/}
-
-\bigskip
-
-Please advise the author of any corrections which need to be made by
-email: \url{andrewteale@yahoo.co.uk}
-
-\vfill
-\end{center}
-
-\section*{Change Log}
-
-%8 June 2014: Added result for Clydesdale South by-election.
-
-%24 November 2013: Corrected results for Vassall ward, Lambeth (typing error) and Reddish North ward, Stockport (LD candidate incorrectly shown as Labour).
-%
-%21 November 2013: First version.
-
-\tableofcontents
-
-% Introduction
-
-% Introduction
-
-% \chapter*{Introduction and Abbreviations}
-% \addcontentsline{toc}{chapter}{Introduction and Abbreviations}
-% %\markright{INTRODUCTION AND ABBREVIATIONS}
-% 
-% Elections were held on 6th May 2010 to all London boroughs and metropolitan boroughs, and some unitary authorities and shire districts in England. These elections were combined with a general election which was held on the same day. 
-%
-% The voting system used for all elections covered here was
-% first-past-the-post, with multi-member FPTP being used where more than
-% one seat was up for election. 
-% 
-%The results of the general election are shown in Part I. The information in Part I is taken from the Electoral Commission.
-%
-% All of the seats on the 32 London borough councils were up for election. The vast majority of London boroughs use multi-member wards electing three councillors each; there are also a handful of single-member and two-member wards. Elections to the London boroughs are covered in Part~II, which has been split into two chapters (North and South London).
-% 
-% The 36 metropolitan boroughs are all elected by thirds. Each ward has
-% three councillors, with the winning councillor from the 2006 election being up for
-% election in each ward. In some cases two seats were up for election,
-% due to the death or resignation of another councillor for the ward
-% within six months of the election. Results of these elections are
-% contained in Part~III, which each of the former metropolitan counties
-% constituting a separate chapter.
-% 
-% The English unitary authorities and shire districts may have up to
-% three councillors in each ward, and may hold elections either all at
-% once or by thirds. 
-% Only those councils which elect by thirds held
-% elections this year; those councils which elect all at once were
-% last elected in 2007 and will next be elected in 2011. A few
-% districts elect by halves every two years; all of these districts held
-% an election this year. Where districts elect by thirds generally not
-% all of the wards in the district hold an election every year. A full explanation of the electoral arrangements is
-% given at the head of each council's entry.
-%
-% Due to a botched attempt at local government reorganisation, the 2010 elections to Exeter and Norwich city councils were held on 9th September. It had originally been intended to change these councils to unitary status, which resulted in the scheduled 2010 elections to these councils being cancelled with the intention that the first elections to the new unitary councils would take place in 2011, the councillors elected in 2006 to have their terms extended until 2011. However, when the unitary plans were abandoned by the coalition government following the general election, the High Court ruled that the councillors elected in 2006 had come to the end of their four-year term and could no longer continue in office.
-% 
-% Unitary election results are shown in Part~IV 
-% with shire district results in Part~V. Part~IV is
-% divided into eight chapters based on region, while Part~V has one
-% chapter for each county.
-% 
-% For the first time in this series, referendums (Part VI) and by-elections (Part VII) held in 2010 are also included. Scottish local by-elections are held using the Alternative Vote; while details of transfers are shown, for reasons of space some elimination stages have been omitted.
-% 
-% Finally, at the back you will find an Index of Wards.
-% 
-% Where a candidate in an election dies, the election in that ward or division is
-% cancelled and rearranged for a later date. This happened in the
-% following wards or divisions at this election:
-% 
-% \begin{results}
-% \begin{itemize}
-% \item Haverstock, Camden\index{Haverstock , Camden@Haverstock, Camden}
-% \item Ore, Hastings\index{Ore , Hastings@Ore, Hastings}
-% \end{itemize}
-% \end{results}
-% 
-% Here is a list of abbreviations used in this book for major parties
-% and selected other parties which fought several councils. This list
-% is not exhaustive; parties which put up only a few candidates will
-% generally have their abbreviation listed at the head of the entry for
-% the retant council. Please note that the ``Lab'' label includes
-% candidates who were jointly sponsored by the Labour and Co-operative
-% Parties.
-% 
-% \begin{results}
-% BNP - British National Party
-% 
-% C - Conservative Party
-% 
-% Grn - Green Party
-% 
-% Ind - Independent
-% 
-% Lab - Labour Party
-% 
-% LD - Liberal Democrat
-% 
-% Lib - Liberal Party
-% 
-% Loony - Monster Raving Loony Party
-% 
-% Respect - Respect, the Unity Coalition
-% 
-% SocLab - Socialist Labour Party
-% 
-% UKIP - UK Independence Party
-% 
-% \end{results}
-%
-%Errors in a work of this size are inevitable. I take full responsibility for any errors which may have crept in, undertake to correct any errors which I am made aware of, and hope that any errors which you may spot do not substantially affect any use you may make of this book.
-%
-% I would like to close this section by thanking all those who have
-% supplied me with results and sources of information, most notably David Boothroyd, John Cartwright, James Doyle, Keith Edkins, the Electoral Commission, Tom Harris, Paul Harwood, ``hullenedge'', ``Listener'', ``MaxQue'', Philip Mutton, John Swarbrick, Andrew Stidwell, Pete Whitehead and all the members of the Vote UK Forum, and particularly those scores of council
-% webpages without which this work would not have been possible. 
-
- 
- 
-% Here beginneth the content
-
-% 2017 results to go here
-
-
 \part{Referendums}
 
 \chapter{Referendums in 2017}
@@ -321,7 +127,7 @@ The following members were co-opted to the Assembly in 2017:
 
 \section{European Parliament}
 
-UK vacancies in the European Parliament are filled by the next available person from the party list at the most recent election (which was held in 2014). 
+UK vacancies in the European Parliament are filled by the next available person from the party list at the most recent election (which was held in 2014).
 %No replacements were made in 2017.
 The following replacements were made in 2017:
 \begin{itemize}
@@ -351,7 +157,7 @@ There were no by-elections in 2017 for vacant police and crime commissioner post
 \finalhyphendemerits=0
 [Wednesday 9th February]}
 
-\index{Farringdon Without , City of London@Farringdon Wt., \emph{City of London}}
+\index{Farringdon Without , City of London Corporation@Farringdon Wt., \emph{City of London}}
 
 Aldermanic election: resignation of Julian Malins (Ind).
 
@@ -363,15 +169,15 @@ Helen Carr & Ind & 26\\
 \end{tabular*}
 
 At the March 2017 ordinary election there were unfilled vacancies in Bishopsgate Without and Queenhithe wards due to the resignation of Billy Dove and the election of Alastair King as alderman (both Ind) respectively.
-\index{Bishopsgate Without , City of London@Bishopsgate Wt., \emph{City of London}}
-\index{Queenhithe , City of London@Queenhithe, \emph{City of London}}
+\index{Bishopsgate Without , City of London Corporation@Bishopsgate Wt., \emph{City of London}}
+\index{Queenhithe , City of London Corporation@Queenhithe, \emph{City of London}}
 
 \subsubsection*{Castle Baynard \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [Wednesday 22nd March]}
 
-\index{Castle Baynard , City of London@Castle Baynard, \emph{City of London}}
+\index{Castle Baynard , City of London Corporation@Castle Baynard, \emph{City of London}}
 
 Aldermanic election: Sir Ian Luder (Ind) sought re-election.
 
@@ -385,7 +191,7 @@ Ian Luder & Ind & \emph{unop.}\\
 \finalhyphendemerits=0
 [Wednesday 3rd May]}
 
-\index{Aldersgate , City of London@Aldersgate, \emph{City of London}}
+\index{Aldersgate , City of London Corporation@Aldersgate, \emph{City of London}}
 
 Aldermanic election: Nicholas Anstee (Ind) sought re-election.
 
@@ -400,7 +206,7 @@ Tanvir Tayab & Ind & 25\\
 \finalhyphendemerits=0
 [Monday 11th September]}
 
-\index{Langbourn , City of London@Langbourn, \emph{City of London}}
+\index{Langbourn , City of London Corporation@Langbourn, \emph{City of London}}
 
 Aldermanic election: Sir David Wootton (Ind) sought re-election.
 
@@ -414,7 +220,7 @@ David Wootton & Ind & \emph{unop.}\\
 \finalhyphendemerits=0
 [Tuesday 12th September]}
 
-\index{Tower , City of London@Tower, \emph{City of London}}
+\index{Tower , City of London Corporation@Tower, \emph{City of London}}
 
 Aldermanic election: death of Sir Paul Judge (Ind).
 
@@ -433,7 +239,7 @@ Jonathan Pettigrew & Ind & 3\\
 \finalhyphendemerits=0
 [Tuesday 14th November]}
 
-\index{Bishopsgate , City of London@Bishopsgate, \emph{City of London}}
+\index{Bishopsgate , City of London Corporation@Bishopsgate, \emph{City of London}}
 
 Resignation of Pooja Suri Tank (Ind).
 
@@ -449,12 +255,12 @@ Timothy Becker & Ind & 18\\
 \finalhyphendemerits=0
 [14th December]}
 
-\index{Portsoken , City of London@Portsoken, \emph{City of London}}
+\index{Portsoken , City of London Corporation@Portsoken, \emph{City of London}}
 
 Aldermanic election: resignation of Michael Bear (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.6\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 Prem Goyal & Ind & 228\\
 William Campbell-Taylor & Lab & 143\\
 David Barker & Ind & 20\\
@@ -546,7 +352,7 @@ Andreea Malin & Grn & 79\\
 Resignation of Hannah Barlow (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.59\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.6\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 David Morton & Lab & 2795\\
 William Marshall & C & 1849\\
 Irina von Wiese und Kaiserwaldau & LD & 653\\
@@ -621,6 +427,8 @@ Umar Ali & Lab & 1923\\
 Rebecca Tully & Grn & 524\\
 Afzal Akram & C & 365\\
 \end{tabular*}
+
+\columnbreak
 
 \section{South London}
 
@@ -955,7 +763,7 @@ Simon Lepori & LD & 18\\
 
 \subsection*{Wigan}
 
-WiganIC = Wigan Independent Conservatives (standing as ``Shevington Independents'')
+\sloppyword{WiganIC = Wigan Independent Conservatives (standing as ``Shevington Independents'')}
 
 \subsubsection*{Astley Mosley Common \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
@@ -980,12 +788,12 @@ Andy Prentice & Grn & 46\\
 \finalhyphendemerits=0
 [14th December]}
 
-\index{Shevington with Lower Ground , Wigan@Shevington with Lower Ground, \emph{Wigan}}
+\index{Shevington with Lower Ground , Wigan@\sloppyword{Shevington with Lower Ground, \emph{Wigan}}}
 
 Resignation of Damian Edwardson (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.51\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 Marlaine Whitham & Lab & 765\\
 Janet Brown & WiganIC & 552\\
 Callum Chadwick & C & 402\\
@@ -1091,6 +899,8 @@ Beryl Jones & UKIP & 130\\
 Leon Wheddon & TUSC & 27\\
 \end{tabular*}
 
+\columnbreak
+
 \section{South Yorkshire}
 
 \subsection*{Barnsley}
@@ -1144,7 +954,7 @@ At the May 2017 ordinary election there was an unfilled vacancy in Norton and As
 \finalhyphendemerits=0
 [2nd February; LD gain from Lab]}
 
-\index{Brinsworth and Catcliffe , Rotherham@Brinsworth \& Catcliffe, \emph{Rotherham}}
+\index{Brinsworth and Catcliffe , Rotherham@\sloppyword{Brinsworth \& Catcli{ff}e, \emph{Rotherham}}}
 
 Resignation of Andrew Roddison (Lab).
 
@@ -1435,6 +1245,8 @@ Jon Bloom & LD & 136\\
 David Smith & Grn & 70\\
 \end{tabular*}
 
+\columnbreak
+
 \subsection*{Wakefield}
 
 Yorks = Yorkshire Party
@@ -1623,7 +1435,7 @@ At the May 2017 ordinary election there was an unfilled vacancy in Amersham and 
 \finalhyphendemerits=0
 [2nd November]}
 
-\index{Beaconsfield , Buckinghamshire@Beaconsfield, \emph{S. Bucks}}
+\index{Beaconsfield , Buckinghamshire@Beaconsfield, \emph{Bucks.}}
 
 Death of Alan Walters (C).
 
@@ -2015,13 +1827,15 @@ Stephanie Davies & Grn & 43\\
 
 Ordinary election postponed from 4th May: death of outgoing councillor Steve Rogerson (LD) who had been nominated for re-election.
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-Leigh Frost & LD & 1047\\
-Sylvia Berry & C & 914\\
-Marc Thorne & Lab & 463\\
-John Gibbs & MK & 231\\
-\end{tabular*}
+See page \pageref{CornwallBodminStPetroc} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%Leigh Frost & LD & 1047\\
+%Sylvia Berry & C & 914\\
+%Marc Thorne & Lab & 463\\
+%John Gibbs & MK & 231\\
+%\end{tabular*}
 
 \section{Cumbria}
 
@@ -2691,7 +2505,7 @@ Bob Arthur & Seaham & 633\\
 \finalhyphendemerits=0
 [28th September]}
 
-\index{Trimdon \& Thornley , Durham@Trimdon \& Thornley, \emph{Durham}}
+\index{Trimdon and Thornley , Durham@Trimdon \& Thornley, \emph{Durham}}
 
 Death of Morris Nicholls (Lab).
 
@@ -3788,7 +3602,7 @@ Berenice Dowlen & Grn & 51\\
 \section{Isle of Wight}
 
 At the May 2017 ordinary election there was an unfilled vacancy in Arreton and Newchurch division due to the death of Colin Richards (Ind).
-\index{Arreton and Newchurch , Isle of Wight@Arreton \& Newchurch, \emph{I.O.W.}}
+\index{Arreton and Newchurch , Isle of Wight@Arreton \& Newchurch, \emph{Isle of Wight}}
 
 \section{Kent}
 
@@ -3992,7 +3806,7 @@ Derek Eagle & Grn & 47\\
 \finalhyphendemerits=0
 [3rd August]}
 
-\index{Penshurst, Fordcombe and Chiddingstone , Sevenoaks@Penshurst, Fordcombe \& Chiddingstone, \emph{Sevenoaks}}
+\index{Penshurst, Fordcombe and Chiddingstone , Sevenoaks@\sloppyword{Penshurst, Fordcombe \& Chiddingstone, \emph{Sevenoaks}}}
 
 Death of Paddy Cooke (C).
 
@@ -4065,7 +3879,7 @@ Pip Rees & Ind & 13\\
 
 \subsection*{Tonbridge and Malling}
 
-\subsubsection*{Aylesford North and Walderslade \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{\sloppyword{Aylesford North and Walderslade} \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [4th May]}
@@ -4130,7 +3944,7 @@ Kieran Richards & Lab & 474\\
 
 \index{Higher Croft , Blackburn with Darwen@Higher Croft, \emph{Blackburn with Darwen}}
 
-Disqualification (employed by a council-owned company) of Adam Holden (Lab).
+\sloppyword{Disquali{fi}cation (employed by a council-owned company) of Adam Holden (Lab).}
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
@@ -4558,6 +4372,8 @@ Benjamin Loryman & Grn & 83\\
 James Brown & LD & 82\\
 \end{tabular*}
 
+\columnbreak
+
 \subsection*{North Kesteven}
 
 LincsInd = Lincolnshire Independents
@@ -4577,7 +4393,7 @@ Dan Gray & C & 1638\\
 Pearl Clarke & LincsInd & 1152\\
 \end{tabular*}
 
-\subsubsection*{Heighington and Washingborough \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{\sloppyword{Heighington and Washingborough} \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [8th June]}
@@ -4614,7 +4430,7 @@ Graham Wagstaffe & Ind & 70\\
 
 \subsection*{South Holland}
 
-\subsubsection*{Whaplode and Holbeach St John's \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{\sloppyword{Whaplode and Holbeach St John's} \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [16th November]}
@@ -5270,6 +5086,8 @@ Neal Mitchell & Lab & 1469\\
 Glenn Bardill & C & 913\\
 \end{tabular*}
 
+\columnbreak
+
 \subsection*{Nottingham}
 
 Elvis = Elvis and the Yeti Himalayan Preservation (Sherwood, 4th May); Bus-Pass Elvis (Bestwood, 19th October)
@@ -5553,7 +5371,7 @@ Amber Weston & Lab & 111\\
 Resignation of Donal Hassett (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.62\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.64\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 Michelle O'Doherty & LD & 828\\
 Rob Hawking & C & 783\\
 Loraine Morgan-Brinkhurst & Ind & 242\\
@@ -5582,12 +5400,12 @@ Derek & Lib & 64\\
 
 \subsection*{North Somerset}
 
-\subsubsection*{Weston-super-Mare North Worle \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{\sloppyword{Weston-super-Mare North Worle} \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [31st August; Lab gain from North Somerset First Independents]}
 
-\index{Weston-super-Mare North Worle , North Somerset@Weston-super-Mare North Worle, \emph{N. Somerset}}
+\index{Weston-super-Mare North Worle , North Somerset@\sloppyword{Weston-super-Mare North Worle, \emph{N. Somerset}}}
 
 Death of Derek Mead (North Somerset First Independents).
 
@@ -5710,7 +5528,7 @@ Ron Turville & ChaseInd & 65\\
 Death of Graham Burnett (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.525\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.52\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 Linda Tait & Lab & 359\\
 Bryan Jones & C & 301\\
 Robert Branson & Grn & 86\\
@@ -5864,7 +5682,7 @@ Richard Virr & LD & 25\\
 \finalhyphendemerits=0
 [14th December; C gain from Lab]}
 
-\index{Newchapel , Newcastle-under-Lyme@Newchapel, \emph{Newcastle-under-Lyme}}
+\index{Newchapel , Newcastle-under-Lyme@\sloppyword{Newchapel, \emph{Newcastle-under-Lyme}}}
 
 Resignation of Lionel Burch (Lab).
 
@@ -6218,6 +6036,8 @@ Lucy McNally & Lab & 118\\
 Helena Windsor & UKIP & 62\\
 \end{tabular*}
 
+\columnbreak
+
 \subsection*{Waverley}
 
 \subsubsection*{Godalming Central and Ockford \hspace*{\fill}\nolinebreak[1]%
@@ -6351,7 +6171,7 @@ Dave Passingham & Grn & 102\\
 \finalhyphendemerits=0
 [5th October]}
 
-\index{Stoneleigh and Cubbington , Warwick@Stoneleigh \& Cubbington, \emph{Warwick}}
+\index{Stoneleigh and Cubbington , Warwick@\sloppyword{Stoneleigh \& Cubbington, \emph{Warwick}}}
 
 Resignation of Nick Harrington (C).
 
@@ -6779,26 +6599,28 @@ Merthyr = Merthyr Independents
 
 Ordinary election postponed from 4th May: death of candidate Ieuan Harris (Ind).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.5\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-Geraint Thomas & Ind & 1369\\
-Paul Brown & Merthyr & 1300\\
-David Chaplin & Lab & 1202\\
-Margaret Davies & Lab & 1137\\
-Carol Estebanez & Lab & 1072\\
-Terry Thomas & Merthyr & 1068\\
-Bleddyn Hancock & Ind & 812\\
-Mark Evans & PC & 685\\
-\end{tabular*}
+See page \pageref{MerthyrTydfilCyfarthfa} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.5\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%Geraint Thomas & Ind & 1369\\
+%Paul Brown & Merthyr & 1300\\
+%David Chaplin & Lab & 1202\\
+%Margaret Davies & Lab & 1137\\
+%Carol Estebanez & Lab & 1072\\
+%Terry Thomas & Merthyr & 1068\\
+%Bleddyn Hancock & Ind & 812\\
+%Mark Evans & PC & 685\\
+%\end{tabular*}
 
 \subsection*{Neath Port Talbot}
 
-\subsubsection*{Bryncoch South \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{Bryn-côch South \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
 [23rd November]}
 
-\index{Bryncoch South , Neath Port Talbot@Bryncoch S., \emph{Neath Port Talbot}}
+\index{Bryn-côch South , Neath Port Talbot@Bryn-côch S., \emph{Neath Port Talbot}}
 
 Death of Janice Dudley (PC).
 
@@ -6836,10 +6658,12 @@ At the May 2017 ordinary election there was an unfilled vacancy in Trevethin div
 
 Ordinary election postponed from 4th May: death of candidate Neil Flower (LD).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-James Thomas & PC & \emph{unop.}\\
-\end{tabular*}
+See page \pageref{CeredigionLlandyfriog} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%James Thomas & PC & \emph{unop.}\\
+%\end{tabular*}
 
 \subsection*{Powys}
 
@@ -6851,7 +6675,7 @@ At the May 2017 ordinary election there was an unfilled vacancy in Builth divisi
 \finalhyphendemerits=0
 [22nd June; C gain from Ind]}
 
-\index{Yscir , Powys@Yscir, \emph{Powys}}
+\index{Yscir , Powys@Yscir, \emph{Powys}}\label{PowysYscir}
 
 No candidates nominated in May 2017 ordinary election.
 
@@ -6882,7 +6706,7 @@ At the May 2017 ordinary election there was an unfilled vacancy in Caerwys divis
 \finalhyphendemerits=0
 [9th November]}
 
-\index{Buckley Bistre West , Flintshire@Buckley Bistre W., \emph{Flints.}}
+\index{Buckley Bistre West , Flintshire@Buckley Bistre W., \emph{Flintshire}}
 
 Death of Ron Hampson (Lab).
 
@@ -6931,7 +6755,7 @@ Craig Stewart & Grn & 56\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-\emph{Flavell eliminated:}\\
+\emph{Flavell eliminated}\\
 Lesley Berry & C & 1715\\
 Elaine Mitchell & SNP & 1234\\
 Scott Bremner & LD & 412\\
@@ -6963,7 +6787,7 @@ Stephen McNamara & Libtn & 53\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-\emph{Herd and McNamara eliminated}\\
+	\multicolumn{3}{@{\extracolsep{\fill}}l}{\emph{Herd and McNamara eliminated}}\\
 Fiona Campbell & SNP & 1531\\
 Dave Meechan & Lab & 1122\\
 \end{tabular*}
@@ -7035,7 +6859,7 @@ Daryl Gardner & UKIP & 18\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-\emph{Murphy eliminated:}\\
+\emph{Murphy eliminated}\\
 Clare Quigley & Lab & 1827\\
 John Leckie & BUSP & 1139\\
 \end{tabular*}
@@ -7092,6 +6916,8 @@ At the May 2017 ordinary election there was an unfilled vacancy in Wick ward due
 
 Libtn = Libertarian Party
 
+\columnbreak
+
 \subsubsection*{Tain and Easter Ross \hspace*{\fill}\nolinebreak[1]%
 \enspace\hspace*{\fill}
 \finalhyphendemerits=0
@@ -7114,7 +6940,7 @@ Harry Christian & Libtn & 13\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-\emph{Holdsworth and Christian eliminated:}\\
+	\multicolumn{3}{@{\extracolsep{\fill}}l}{\emph{Holdsworth and Christian eliminated}}\\
 Alasdair Rhind & Ind & 1290\\
 Stan Peace & SNP & 634\\
 William Sinclair & LD & 387\\
@@ -7143,7 +6969,7 @@ Terry Monaghan & Ind & 124\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-\emph{Taylor and Monaghan eliminated}\\
+	\multicolumn{3}{@{\extracolsep{\fill}}l}{\emph{Taylor and Monaghan eliminated}}\\
 Maria McLean & C & 1061\\
 Patsy Gowans & SNP & 994\\
 \end{tabular*}
@@ -7175,478 +7001,9 @@ Denise Baykal & Ind & 25\\
 
 \noindent
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\multicolumn{3}{@{\extracolsep{\fill}}l}{\emph{Barrett eliminated}}\\
 Audrey Coates & C & 2381\\
 Pauline Leitch & SNP & 2227\\
 \end{tabular*}
 
 \end{resultsiii}
-
-% Index:
-\clearpage
-\phantomsection
-%\addcontentsline{toc}{chapter}{Index of Wards}
-{\scriptsize%\raggedright
-\frenchspacing\printindex}
-\thispagestyle{plain}
-
-%% GNU Free Documentation License
-\chapter*{{GNU Free Documentation License}}
-\phantomsection % so hyperref creates bookmarks
-\addcontentsline{toc}{chapter}{GNU Free Documentation License}
-%\label{label_fdl}
-\pagestyle{plain}
-
- Version 1.3, 3 November 2008
-
-
- Copyright \copyright{} 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
- 
- \bigskip
- 
- <\url{http://fsf.org/}>
- 
- \bigskip
- 
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-\begin{results}
-\tiny
-
-\subsubsection*{Preamble}
-
-The purpose of this License is to make a manual, textbook, or other
-functional and useful document ``free'' in the sense of freedom: to
-assure everyone the effective freedom to copy and redistribute it,
-with or without modifying it, either commercially or noncommercially.
-Secondarily, this License preserves for the author and publisher a way
-to get credit for their work, while not being considered responsible
-for modifications made by others.
-
-This License is a kind of ``copyleft'', which means that derivative
-works of the document must themselves be free in the same sense. It
-complements the GNU General Public License, which is a copyleft
-license designed for free software.
-
-We have designed this License in order to use it for manuals for free
-software, because free software needs free documentation: a free
-program should come with manuals providing the same freedoms that the
-software does. But this License is not limited to software manuals;
-it can be used for any textual work, regardless of subject matter or
-whether it is published as a printed book. We recommend this License
-principally for works whose purpose is instruction or reference.
-
-\subsubsection*{1. Applicability and definitions}
-
-This License applies to any manual or other work, in any medium, that
-contains a notice placed by the copyright holder saying it can be
-distributed under the terms of this License. Such a notice grants a
-world-wide, royalty-free license, unlimited in duration, to use that
-work under the conditions stated herein. The ``\emph{Document}'', below,
-refers to any such manual or work. Any member of the public is a
-licensee, and is addressed as ``\emph{you}''. You accept the license if you
-copy, modify or distribute the work in a way requiring permission
-under copyright law.
-
-A ``\emph{Modified Version}'' of the Document means any work containing the
-Document or a portion of it, either copied verbatim, or with
-modifications and/or translated into another language.
-
-A ``\emph{Secondary Section}'' is a named appendix or a front-matter section of
-the Document that deals exclusively with the relationship of the
-publishers or authors of the Document to the Document's overall subject
-(or to related matters) and contains nothing that could fall directly
-within that overall subject. (Thus, if the Document is in part a
-textbook of mathematics, a Secondary Section may not explain any
-mathematics.) The relationship could be a matter of historical
-connection with the subject or with related matters, or of legal,
-commercial, philosophical, ethical or political position regarding
-them.
-
-The ``\emph{Invariant Sections}'' are certain Secondary Sections whose titles
-are designated, as being those of Invariant Sections, in the notice
-that says that the Document is released under this License. If a
-section does not fit the above definition of Secondary then it is not
-allowed to be designated as Invariant. The Document may contain zero
-Invariant Sections. If the Document does not identify any Invariant
-Sections then there are none.
-
-The ``\emph{Cover Texts}'' are certain short passages of text that are listed,
-as Front-Cover Texts or Back-Cover Texts, in the notice that says that
-the Document is released under this License. A Front-Cover Text may
-be at most 5 words, and a Back-Cover Text may be at most 25 words.
-
-A ``\emph{Transparent}'' copy of the Document means a machine-readable copy,
-represented in a format whose specification is available to the
-general public, that is suitable for revising the document
-straightforwardly with generic text editors or (for images composed of
-pixels) generic paint programs or (for drawings) some widely available
-drawing editor, and that is suitable for input to text formatters or
-for automatic translation to a variety of formats suitable for input
-to text formatters. A copy made in an otherwise Transparent file
-format whose markup, or absence of markup, has been arranged to thwart
-or discourage subsequent modification by readers is not Transparent.
-An image format is not Transparent if used for any substantial amount
-of text. A copy that is not ``Transparent'' is called ``\emph{Opaque}''.
-
-Examples of suitable formats for Transparent copies include plain
-ASCII without markup, Texinfo input format, \LaTeX{} input format, SGML
-or XML using a publicly available DTD, and standard-conforming simple
-HTML, PostScript or PDF designed for human modification. Examples of
-transparent image formats include PNG, XCF and JPG. Opaque formats
-include proprietary formats that can be read and edited only by
-proprietary word processors, SGML or XML for which the DTD and/or
-processing tools are not generally available, and the
-machine-generated HTML, PostScript or PDF produced by some word
-processors for output purposes only.
-
-The ``\emph{Title Page}'' means, for a printed book, the title page itself,
-plus such following pages as are needed to hold, legibly, the material
-this License requires to appear in the title page. For works in
-formats which do not have any title page as such, ``Title Page'' means
-the text near the most prominent appearance of the work's title,
-preceding the beginning of the body of the text.
-
-The ``\emph{publisher}'' means any person or entity that distributes
-copies of the Document to the public.
-
-A section ``\emph{Entitled XYZ}'' means a named subunit of the Document whose
-title either is precisely XYZ or contains XYZ in parentheses following
-text that translates XYZ in another language. (Here XYZ stands for a
-specific section name mentioned below, such as ``\emph{Acknowledgements}'',
-``\emph{Dedications}'', ``\emph{Endorsements}'', or ``\emph{History}''.) 
-To ``\emph{Preserve the Title}''
-of such a section when you modify the Document means that it remains a
-section ``Entitled XYZ'' according to this definition.
-
-The Document may include Warranty Disclaimers next to the notice which
-states that this License applies to the Document. These Warranty
-Disclaimers are considered to be included by reference in this
-License, but only as regards disclaiming warranties: any other
-implication that these Warranty Disclaimers may have is void and has
-no effect on the meaning of this License.
-
-\subsubsection*{2. Verbatim copying}
-
-You may copy and distribute the Document in any medium, either
-commercially or noncommercially, provided that this License, the
-copyright notices, and the license notice saying this License applies
-to the Document are reproduced in all copies, and that you add no other
-conditions whatsoever to those of this License. You may not use
-technical measures to obstruct or control the reading or further
-copying of the copies you make or distribute. However, you may accept
-compensation in exchange for copies. If you distribute a large enough
-number of copies you must also follow the conditions in section~3.
-
-You may also lend copies, under the same conditions stated above, and
-you may publicly display copies.
-
-\subsubsection*{3. Copying in quantity}
-
-If you publish printed copies (or copies in media that commonly have
-printed covers) of the Document, numbering more than 100, and the
-Document's license notice requires Cover Texts, you must enclose the
-copies in covers that carry, clearly and legibly, all these Cover
-Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on
-the back cover. Both covers must also clearly and legibly identify
-you as the publisher of these copies. The front cover must present
-the full title with all words of the title equally prominent and
-visible. You may add other material on the covers in addition.
-Copying with changes limited to the covers, as long as they preserve
-the title of the Document and satisfy these conditions, can be treated
-as verbatim copying in other respects.
-
-If the required texts for either cover are too voluminous to fit
-legibly, you should put the first ones listed (as many as fit
-reasonably) on the actual cover, and continue the rest onto adjacent
-pages.
-
-If you publish or distribute Opaque copies of the Document numbering
-more than 100, you must either include a machine-readable Transparent
-copy along with each Opaque copy, or state in or with each Opaque copy
-a computer-network location from which the general network-using
-public has access to download using public-standard network protocols
-a complete Transparent copy of the Document, free of added material.
-If you use the latter option, you must take reasonably prudent steps,
-when you begin distribution of Opaque copies in quantity, to ensure
-that this Transparent copy will remain thus accessible at the stated
-location until at least one year after the last time you distribute an
-Opaque copy (directly or through your agents or retailers) of that
-edition to the public.
-
-It is requested, but not required, that you contact the authors of the
-Document well before redistributing any large number of copies, to give
-them a chance to provide you with an updated version of the Document.
-
-\subsubsection*{4. Modifications}
-
-You may copy and distribute a Modified Version of the Document under
-the conditions of sections 2 and 3 above, provided that you release
-the Modified Version under precisely this License, with the Modified
-Version filling the role of the Document, thus licensing distribution
-and modification of the Modified Version to whoever possesses a copy
-of it. In addition, you must do these things in the Modified Version:
-
-\begin{itemize}
-\item[A.] 
- Use in the Title Page (and on the covers, if any) a title distinct
- from that of the Document, and from those of previous versions
- (which should, if there were any, be listed in the History section
- of the Document). You may use the same title as a previous version
- if the original publisher of that version gives permission.
- 
-\item[B.]
- List on the Title Page, as authors, one or more persons or entities
- responsible for authorship of the modifications in the Modified
- Version, together with at least five of the principal authors of the
- Document (all of its principal authors, if it has fewer than five),
- unless they release you from this requirement.
- 
-\item[C.]
- State on the Title page the name of the publisher of the
- Modified Version, as the publisher.
- 
-\item[D.]
- Preserve all the copyright notices of the Document.
- 
-\item[E.]
- Add an appropriate copyright notice for your modifications
- adjacent to the other copyright notices.
- 
-\item[F.]
- Include, immediately after the copyright notices, a license notice
- giving the public permission to use the Modified Version under the
- terms of this License, in the form shown in the Addendum below.
- 
-\item[G.]
- Preserve in that license notice the full lists of Invariant Sections
- and required Cover Texts given in the Document's license notice.
- 
-\item[H.]
- Include an unaltered copy of this License.
- 
-\item[I.]
- Preserve the section Entitled ``History'', Preserve its Title, and add
- to it an item stating at least the title, year, new authors, and
- publisher of the Modified Version as given on the Title Page. If
- there is no section Entitled ``History'' in the Document, create one
- stating the title, year, authors, and publisher of the Document as
- given on its Title Page, then add an item describing the Modified
- Version as stated in the previous sentence.
- 
-\item[J.]
- Preserve the network location, if any, given in the Document for
- public access to a Transparent copy of the Document, and likewise
- the network locations given in the Document for previous versions
- it was based on. These may be placed in the ``History'' section.
- You may omit a network location for a work that was published at
- least four years before the Document itself, or if the original
- publisher of the version it refers to gives permission.
- 
-\item[K.]
- For any section Entitled ``Acknowledgements'' or ``Dedications'',
- Preserve the Title of the section, and preserve in the section all
- the substance and tone of each of the contributor acknowledgements
- and/or dedications given therein.
- 
-\item[L.]
- Preserve all the Invariant Sections of the Document,
- unaltered in their text and in their titles. Section numbers
- or the equivalent are not considered part of the section titles.
- 
-\item[M.]
- Delete any section Entitled ``Endorsements''. Such a section
- may not be included in the Modified Version.
- 
-\item[N.]
- Do not retitle any existing section to be Entitled ``Endorsements''
- or to conflict in title with any Invariant Section.
- 
-\item[O.]
- Preserve any Warranty Disclaimers.
-\end{itemize}
-
-If the Modified Version includes new front-matter sections or
-appendices that qualify as Secondary Sections and contain no material
-copied from the Document, you may at your option designate some or all
-of these sections as invariant. To do this, add their titles to the
-list of Invariant Sections in the Modified Version's license notice.
-These titles must be distinct from any other section titles.
-
-You may add a section Entitled ``Endorsements'', provided it contains
-nothing but endorsements of your Modified Version by various
-parties---for example, statements of peer review or that the text has
-been approved by an organization as the authoritative definition of a
-standard.
-
-You may add a passage of up to five words as a Front-Cover Text, and a
-passage of up to 25 words as a Back-Cover Text, to the end of the list
-of Cover Texts in the Modified Version. Only one passage of
-Front-Cover Text and one of Back-Cover Text may be added by (or
-through arrangements made by) any one entity. If the Document already
-includes a cover text for the same cover, previously added by you or
-by arrangement made by the same entity you are acting on behalf of,
-you may not add another; but you may replace the old one, on explicit
-permission from the previous publisher that added the old one.
-
-The author(s) and publisher(s) of the Document do not by this License
-give permission to use their names for publicity for or to assert or
-imply endorsement of any Modified Version.
-
-\subsubsection*{5. Combining documents}
-
-You may combine the Document with other documents released under this
-License, under the terms defined in section~4 above for modified
-versions, provided that you include in the combination all of the
-Invariant Sections of all of the original documents, unmodified, and
-list them all as Invariant Sections of your combined work in its
-license notice, and that you preserve all their Warranty Disclaimers.
-
-The combined work need only contain one copy of this License, and
-multiple identical Invariant Sections may be replaced with a single
-copy. If there are multiple Invariant Sections with the same name but
-different contents, make the title of each such section unique by
-adding at the end of it, in parentheses, the name of the original
-author or publisher of that section if known, or else a unique number.
-Make the same adjustment to the section titles in the list of
-Invariant Sections in the license notice of the combined work.
-
-In the combination, you must combine any sections Entitled ``History''
-in the various original documents, forming one section Entitled
-``History''; likewise combine any sections Entitled ``Acknowledgements'',
-and any sections Entitled ``Dedications''. You must delete all sections
-Entitled ``Endorsements''.
-
-\subsubsection*{6. Collections of documents}
-
-You may make a collection consisting of the Document and other documents
-released under this License, and replace the individual copies of this
-License in the various documents with a single copy that is included in
-the collection, provided that you follow the rules of this License for
-verbatim copying of each of the documents in all other respects.
-
-You may extract a single document from such a collection, and distribute
-it individually under this License, provided you insert a copy of this
-License into the extracted document, and follow this License in all
-other respects regarding verbatim copying of that document.
-
-\subsubsection*{7. Aggregation with independent works}
-
-A compilation of the Document or its derivatives with other separate
-and independent documents or works, in or on a volume of a storage or
-distribution medium, is called an ``aggregate'' if the copyright
-resulting from the compilation is not used to limit the legal rights
-of the compilation's users beyond what the individual works permit.
-When the Document is included in an aggregate, this License does not
-apply to the other works in the aggregate which are not themselves
-derivative works of the Document.
-
-If the Cover Text requirement of section~3 is applicable to these
-copies of the Document, then if the Document is less than one half of
-the entire aggregate, the Document's Cover Texts may be placed on
-covers that bracket the Document within the aggregate, or the
-electronic equivalent of covers if the Document is in electronic form.
-Otherwise they must appear on printed covers that bracket the whole
-aggregate.
-
-\subsubsection*{8. Translation}
-
-Translation is considered a kind of modification, so you may
-distribute translations of the Document under the terms of section~4.
-Replacing Invariant Sections with translations requires special
-permission from their copyright holders, but you may include
-translations of some or all Invariant Sections in addition to the
-original versions of these Invariant Sections. You may include a
-translation of this License, and all the license notices in the
-Document, and any Warranty Disclaimers, provided that you also include
-the original English version of this License and the original versions
-of those notices and disclaimers. In case of a disagreement between
-the translation and the original version of this License or a notice
-or disclaimer, the original version will prevail.
-
-If a section in the Document is Entitled ``Acknowledgements'',
-``Dedications'', or ``History'', the requirement (section~4) to Preserve
-its Title (section~1) will typically require changing the actual
-title.
-
-\subsubsection*{9. Termination}
-
-You may not copy, modify, sublicense, or distribute the Document
-except as expressly provided under this License. Any attempt
-otherwise to copy, modify, sublicense, or distribute it is void, and
-will automatically terminate your rights under this License.
-
-However, if you cease all violation of this License, then your license
-from a particular copyright holder is reinstated (a) provisionally,
-unless and until the copyright holder explicitly and finally
-terminates your license, and (b) permanently, if the copyright holder
-fails to notify you of the violation by some reasonable means prior to
-60 days after the cessation.
-
-Moreover, your license from a particular copyright holder is
-reinstated permanently if the copyright holder notifies you of the
-violation by some reasonable means, this is the first time you have
-received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
-
-Termination of your rights under this section does not terminate the
-licenses of parties who have received copies or rights from you under
-this License. If your rights have been terminated and not permanently
-reinstated, receipt of a copy of some or all of the same material does
-not give you any rights to use it.
-
-\subsubsection*{10. Future revisions of this License}
-
-The Free Software Foundation may publish new, revised versions
-of the GNU Free Documentation License from time to time. Such new
-versions will be similar in spirit to the present version, but may
-differ in detail to address new problems or concerns. See
-\url{http://www.gnu.org/copyleft/}.
-
-Each version of the License is given a distinguishing version number.
-If the Document specifies that a particular numbered version of this
-License ``or any later version'' applies to it, you have the option of
-following the terms and conditions either of that specified version or
-of any later version that has been published (not as a draft) by the
-Free Software Foundation. If the Document does not specify a version
-number of this License, you may choose any version ever published (not
-as a draft) by the Free Software Foundation. If the Document
-specifies that a proxy can decide which future versions of this
-License can be used, that proxy's public statement of acceptance of a
-version permanently authorizes you to choose that version for the
-Document.
-
-\subsubsection*{11. Relicensing}
-
-``Massive Multiauthor Collaboration Site'' (or ``MMC Site'') means any
-World Wide Web server that publishes copyrightable works and also
-provides prominent facilities for anybody to edit those works. A
-public wiki that anybody can edit is an example of such a server. A
-``Massive Multiauthor Collaboration'' (or ``MMC'') contained in the
-site means any set of copyrightable works thus published on the MMC
-site.
-
-``CC-BY-SA'' means the Creative Commons Attribution-Share Alike 3.0
-license published by Creative Commons Corporation, a not-for-profit
-corporation with a principal place of business in San Francisco,
-California, as well as future copyleft versions of that license
-published by that same organization.
-
-``Incorporate'' means to publish or republish a Document, in whole or
-in part, as part of another Document.
-
-An MMC is ``eligible for relicensing'' if it is licensed under this
-License, and if all works that were first published under this License
-somewhere other than this MMC, and subsequently incorporated in whole
-or in part into the MMC, (1) had no cover texts or invariant sections,
-and (2) were thus incorporated prior to November 1, 2008.
-
-The operator of an MMC Site may republish an MMC contained in the site
-under CC-BY-SA on the same site at any time before August 1, 2009,
-provided the MMC is eligible for relicensing.
-
-\end{results}
-
-\end{document}
-
