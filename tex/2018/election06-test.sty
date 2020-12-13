@@ -1,5 +1,5 @@
 % Herewith a package designed to typeset the election results books.
-% 
+%
 % A Teale, December 2006
 
 % Letterspacing
@@ -68,11 +68,11 @@
 }
 
 % Here are the ward... environments for typesetting ward results.
-% 
+%
 % All these environments print the ward name (the optional argument)
 % as a new unnumbered subsubsection and then the results in typewriter
 % style text.
-% 
+%
 % The generic ``ward'' environment, for a ward with one councillor to
 % be elected:
 \newenvironment{ward}[1][Ward Name]{
@@ -84,7 +84,7 @@
 %     -ii   A two-seat ward; the number ``(2)'' will be printed at the
 %     end of the ward name.
 %     -iii  A three-seat ward; see -ii above.
-%     -a    A ward with a name which is to have another form in the index, 
+%     -a    A ward with a name which is to have another form in the index,
 %     for example if it contains an ampersand (\&) or ends in a compass point
 %     (eg Radcliffe North to Radcliffe N.)
 %     -m    A ward with a name which is the same as another ward
@@ -112,7 +112,7 @@
 	\end{tabular*}}
 
 \newenvironment{wardas}[3][Ward Name]{
-  \subsubsection*{#1 
+  \subsubsection*{#1
     \hspace*{\fill}\nolinebreak[1]%
     \enspace\hspace*{\fill}
     \finalhyphendemerits=0
@@ -206,7 +206,7 @@
   \subsubsection*{#1 (2)}\index{#2@#1}
   \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
 	\end{tabular*}}
-	
+
 \newenvironment{wardiistc}[3][Ward Name]{
   \subsubsection*{#1 (2)\\ \itshape #2}\index{#3@#1}
   \VerbatimEnvironment\begin{Verbatim}}{
@@ -440,7 +440,7 @@
 \hrule
 \end{table}}
 
-% Environment for the ward maps.  This uses conditional code so that the 
+% Environment for the ward maps.  This uses conditional code so that the
 % ward maps can appear optionally as required.
 
 \newenvironment{wardmap}[1][Council Name]{
@@ -543,15 +543,24 @@
 
 % Various hyphenation exceptions which have been found necessary.
 
+\hyphenation{Ab-er-deen}
 \hyphenation{Ab-er-non}
+\hyphenation{Ad-ams}
+\hyphenation{Al-i-pir}
 \hyphenation{All-ing-ton}
+\hyphenation{Al-mei-da}
+\hyphenation{Arch-i-bald}
 \hyphenation{Ar-thur-lie}
 \hyphenation{Ash-ford}
 \hyphenation{Ba-bergh}
+\hyphenation{Bal-dhu}
 \hyphenation{Ban-stead}
 \hyphenation{Bas-ing-stoke}
 \hyphenation{Beb-ing-ton}
+\hyphenation{Bells-hill}
+\hyphenation{Ben-ar-ty}
 \hyphenation{Bents-wood}
+\hyphenation{Ber-ken-he-ger}
 \hyphenation{Ber-monds-ey}
 \hyphenation{Ber-wick-shire}
 \hyphenation{Bish-ops-wood}
@@ -560,130 +569,258 @@
 \hyphenation{Bol-ton}
 \hyphenation{Bos-ton}
 \hyphenation{Bos-worth}
+\hyphenation{Bou-cher}
 \hyphenation{Bound-stone}
 \hyphenation{Bourne-mouth}
+\hyphenation{Brad-ley}
 \hyphenation{Brigh-ton}
 \hyphenation{Brough-ton}
 \hyphenation{Broad-ley}
 \hyphenation{Broad-way}
 \hyphenation{Broom-haugh}
+\hyphenation{Bu-ch-a-n-an}
 \hyphenation{Buck-fast-leigh}
 \hyphenation{Buck-ing-ham-shire}
+\hyphenation{Bur-gess}
 \hyphenation{Cald-beck}
 \hyphenation{Cal-der-dale}
 \hyphenation{Cam-bridge-shire}
+\hyphenation{Cam-er-on}
 \hyphenation{Car-harr-ack}
+\hyphenation{Car-mi-ch-ael}
+\hyphenation{Cart-wright}
 \hyphenation{Chelms-ford}
+\hyphenation{Chel-sea}
 \hyphenation{Chel-sham}
+\hyphenation{Ches-ter}
 \hyphenation{Chip-per-field}
 \hyphenation{Chil-tern}
 \hyphenation{Chil-terns}
 \hyphenation{Christ-church}
+\hyphenation{Chui-lin}
+\hyphenation{Church-o-ver}
 \hyphenation{Clar-ence}
+\hyphenation{Clo-cher-ty}
+\hyphenation{Co-a-li-tion}
 \hyphenation{Coast-al}
+\hyphenation{Coch-rane}
+\hyphenation{Cor-ser}
 \hyphenation{Cots-wold}
 \hyphenation{Craig-ends}
 \hyphenation{Cra-v-en}
 \hyphenation{Crook-ham}
+\hyphenation{Cross-house}
+\hyphenation{Cul-len}
+\hyphenation{Cyn-on}
 \hyphenation{Dag-en-ham}
 \hyphenation{De-la-val}
+\hyphenation{Den-bigh-shire}
+\hyphenation{Der-by-shire}
+\hyphenation{Dev-lin}
 \hyphenation{Dev-on}
 \hyphenation{Dhil-lon}
+\hyphenation{Do-ch-er-ty}
+\hyphenation{Donn-ghai-le}
 \hyphenation{Don-o-ghue}
+\hyphenation{Dor-set}
 \hyphenation{Do-sanjh}
 \hyphenation{Do-ver}
 \hyphenation{Dud-ley}
+\hyphenation{Duf-fy}
 \hyphenation{Dun-thorne}
+\hyphenation{Dur-ham}
 \hyphenation{Ea-ton}
+\hyphenation{El-aa-hi}
+\hyphenation{el-ec-t-ed}
+\hyphenation{el-i-m-i-n-a-ted}
 \hyphenation{Elm-bridge}
 \hyphenation{Elm-ton}
 \hyphenation{Elt-ham}
+\hyphenation{En-cin-i-as}
 \hyphenation{Ew-shot}
 \hyphenation{Eynes-bury}
+\hyphenation{Fair-wea-ther}
 \hyphenation{Fal-kirk}
+\hyphenation{Farm-er}
+\hyphenation{Fighel-dean}
+\hyphenation{Fin-ne-gan}
+\hyphenation{Fran-chet-ti}
+\hyphenation{Fra-ser}
+\hyphenation{Gan-cza-kow-ski}
 \hyphenation{Gates-head}
 \hyphenation{Ged-ling}
 \hyphenation{Geoff-rey}
+\hyphenation{Gil-bert}
+\hyphenation{Gil-der-new}
+\hyphenation{Gil-lies}
+\hyphenation{Gil-mour}
 \hyphenation{Glass-hough-ton}
+\hyphenation{Glen-ny}
+\hyphenation{Gol-d-ie}
 \hyphenation{Great-er}
+\hyphenation{Green-slade}
 \hyphenation{Green-wich}
+\hyphenation{Gwy-dd-el-wern}
 \hyphenation{Gwy-nedd}
+\hyphenation{Ha-m-eed}
 \hyphenation{Han-slope}
 \hyphenation{Har-bo-rough}
+\hyphenation{Har-greaves}
+\hyphenation{Har-un}
 \hyphenation{Har-well}
 \hyphenation{Ha-th-er-ley}
+\hyphenation{Haw-thorne}
 \hyphenation{Hell-ing-ly}
 \hyphenation{Herts-mere}
 \hyphenation{Hol-land}
 \hyphenation{Hol-ling-hurst}
 \hyphenation{Hor-an}
 \hyphenation{Hor-sham}
+\hyphenation{Hos-sain}
+\hyphenation{Hough-ton}
 \hyphenation{Houns-low}
 \hyphenation{How-arth}
 \hyphenation{Hut-ch-ens}
 \hyphenation{Hut-ch-in-son}
+\hyphenation{Il-en-do}
 \hyphenation{Imp-ing-ton}
+\hyphenation{Is-mail}
 \hyphenation{Je-re-my}
+\hyphenation{Ji-me-n-ez}
+\hyphenation{Ju-lie}
 \hyphenation{Kam-pou-r-o-p-oul-os}
+\hyphenation{Kel-ly}
 \hyphenation{Ken-ne-dy}
 \hyphenation{Kes-te-ven}
 \hyphenation{Kes-ton}
 \hyphenation{Kings-wear}
+\hyphenation{Kings-wood}
 \hyphenation{Kirk-lees}
 \hyphenation{Knock-en-ti-ber}
 \hyphenation{Knows-ley}
+\hyphenation{Lan-cas-ter}
 \hyphenation{Law-rence}
 \hyphenation{Lea-field}
+\hyphenation{Lei-ces-ter}
 \hyphenation{Lei-ces-ter-shire}
 \hyphenation{Leics}
 \hyphenation{Leo-n-ards}
+\hyphenation{Lew-is}
 \hyphenation{Lincs-Ind}
+\hyphenation{Li-m-on-ci}
 \hyphenation{Lind-ford}
+\hyphenation{Llan-ell-tyd}
+\hyphenation{Llan-gyn-ha-f-al}
 \hyphenation{Loch-ab-er}
 \hyphenation{Long-hors-ley}
+\hyphenation{Long-staff}
+\hyphenation{Lor-na}
+\hyphenation{Lou-d-en}
 \hyphenation{Loud-water}
 \hyphenation{Lough-ton}
 \hyphenation{Love-dean}
 \hyphenation{Lowes-toft}
+\hyphenation{Lyd-brook}
+\hyphenation{Mc-Ad-am}
+\hyphenation{Mc-Al-lis-ter}
+\hyphenation{Mc-An-ul-ty}
+\hyphenation{Mc-Augh-trie}
+\hyphenation{Mc-Bride}
+\hyphenation{Mc-Clos-key}
 \hyphenation{Mc-Conn-a-ch-ie}
+\hyphenation{Mc-Cor-mick}
 \hyphenation{Mc-Cutch-eon}
+\hyphenation{Mc-El-duff}
+\hyphenation{Mc-Fad-zean}
+\hyphenation{Mc-Ghee}
+\hyphenation{Mc-Gimp-s-ey}
+\hyphenation{Mac-In-nes}
+\hyphenation{Mac-kay}
+\hyphenation{Mc-Kel-vie}
+\hyphenation{Mac-ken-zie}
+\hyphenation{Mc-Ken-zie}
+\hyphenation{Mc-Kev-itt}
+\hyphenation{Mc-Kin-ney}
+\hyphenation{Mc-Kin-non}
+\hyphenation{Mc-Lach-lan}
+\hyphenation{Mc-Lar-en}
+\hyphenation{Mc-Lea-ry}
 \hyphenation{Mc-Leish}
+\hyphenation{Mc-Len-nan}
 \hyphenation{Mac-Leod}
+\hyphenation{Mac-mer-ry}
+\hyphenation{Mac-mil-lan}
+\hyphenation{Mac-phail}
+\hyphenation{Mc-Pha-ter}
+\hyphenation{Mac-pher-son}
+\hyphenation{Mc-Rob-ert}
 \hyphenation{Mai-den-bow-er}
 \hyphenation{Mall-ing}
 \hyphenation{Man-ches-ter}
+\hyphenation{Mar-ga}
+\hyphenation{Mar-ra}
 \hyphenation{Mas-s-ie}
+\hyphenation{Ma-th-e-son}
 \hyphenation{Matth-ews}
+\hyphenation{Max-well}
+\hyphenation{Me-chan}
+\hyphenation{Mei-kle}
 \hyphenation{Mel-ton}
 \hyphenation{Men-dip}
+\hyphenation{Mer-th-yr}
+\hyphenation{Mi-ah}
+\hyphenation{Mi-ch-an-it-z-is}
 \hyphenation{Mich-el-mersh}
 \hyphenation{Mick-le-wright}
 \hyphenation{Mil-czan-ow-ski}
+\hyphenation{Miln-gavie}
 \hyphenation{Miln-thorpe}
+\hyphenation{Mir-za}
+\hyphenation{Mit-ch-ell}
 \hyphenation{Monk-ton}
+\hyphenation{Mont-gom-e-ry}
+\hyphenation{Mo-r-e-no}
 \hyphenation{Mount-ness-ing}
 \hyphenation{Mul-grave}
 \hyphenation{Nad-eem}
 \hyphenation{Nan-ette}
+\hyphenation{New-church}
 \hyphenation{New-thorpe}
 \hyphenation{Nich-o-las}
+\hyphenation{Nich-ol}
+\hyphenation{Nich-ol-son}
+\hyphenation{Nim-mo}
 \hyphenation{Nor-th-amp-ton}
 \hyphenation{Nor-th-ants}
 \hyphenation{Not-t-ing-ham-shire}
 \hyphenation{Oad-by}
 \hyphenation{Oak-ridge}
+\hyphenation{Os-wald-twi-stle}
+\hyphenation{Ov-er-end}
+\hyphenation{Ow-ens}
 \hyphenation{Pains-wick}
 \hyphenation{Par-ish-es}
+\hyphenation{Paul-ine}
 \hyphenation{Pem-broke-shire}
+\hyphenation{Phil-lips}
+\hyphenation{Ple-v-in}
 \hyphenation{Ports-mouth}
 \hyphenation{Prest-bury}
 \hyphenation{Prime-thorpe}
+\hyphenation{Qai-sar}
 \hyphenation{Ra-leigh}
+\hyphenation{Ra-v-ens-craig}
+\hyphenation{Reh-man}
 \hyphenation{Rei-gate}
 \hyphenation{Rey-nolds}
 \hyphenation{Rich-ard-son}
+\hyphenation{Ris-ing-hurst}
 \hyphenation{Riv-ers}
+\hyphenation{Roar-ty}
+\hyphenation{Rob-ert}
 \hyphenation{Rob-erts}
+\hyphenation{Rob-ert-son}
+\hyphenation{Rob-in-son}
 \hyphenation{Roch-dale}
 \hyphenation{Roch-ford}
 \hyphenation{Ross-en-dale}
@@ -691,6 +828,7 @@
 \hyphenation{Row-ledge}
 \hyphenation{Rug-by}
 \hyphenation{Run-ny-mede}
+\hyphenation{Ruth-er-glen}
 \hyphenation{Sand-bach}
 \hyphenation{Sand-ford}
 \hyphenation{Sand-well}
@@ -699,6 +837,7 @@
 \hyphenation{Shan-mu-ga-n-a-than}
 \hyphenation{Shef-field}
 \hyphenation{Shen-ley}
+\hyphenation{Shev-lin}
 \hyphenation{Short-lanes-end}
 \hyphenation{Sleight-holme}
 \hyphenation{Som-er-set}
@@ -709,22 +848,31 @@
 \hyphenation{Staf-ford}
 \hyphenation{Staf-ford-shire}
 \hyphenation{Steph-an-ie}
+\hyphenation{Ste-phen}
 \hyphenation{Ste-phen-son}
 \hyphenation{Ste-ven-ton}
 \hyphenation{Stif-ford}
+\hyphenation{Stru-an}
 \hyphenation{Swan-ley}
+\hyphenation{Swee-ney}
+\hyphenation{Tand-ridge}
 \hyphenation{Tap-low}
 \hyphenation{Tel-ford}
 \hyphenation{Than-et}
 \hyphenation{Theo-bald}
 \hyphenation{The-o-phan-i-des}
+\hyphenation{Thom-as}
 \hyphenation{Thorn-ton}
+\hyphenation{To-ni}
 \hyphenation{Towns-end}
 \hyphenation{Trim-ley}
+\hyphenation{Tur-bett}
 \hyphenation{Twy-ford}
 \hyphenation{Tyne-side}
+\hyphenation{up-on}
 \hyphenation{Val-ley}
 \hyphenation{Wad-d-ing-ton}
+\hyphenation{Wa-dh-wa}
 \hyphenation{Wal-tham}
 \hyphenation{Wands-worth}
 \hyphenation{Wang-a-soo-ri-ya}
@@ -732,11 +880,15 @@
 \hyphenation{Well-ing-bor-ough}
 \hyphenation{Whal-ley}
 \hyphenation{Wharfe-dale}
+\hyphenation{Whee-l-er}
 \hyphenation{Whit-well}
+\hyphenation{Wi-cz-yn-ski}
+\hyphenation{Wig-an}
 \hyphenation{Wig-ston}
 \hyphenation{Will-i-am}
 \hyphenation{Will-i-ams}
 \hyphenation{Will-i-am-son}
+\hyphenation{Will-i-am-wood}
 \hyphenation{Win-ches-ter}
 \hyphenation{Wir-ral}
 \hyphenation{Wol-ver-hamp-ton}
@@ -744,6 +896,7 @@
 \hyphenation{Wood-man-sterne}
 \hyphenation{Wood-thorpe}
 \hyphenation{Wood-ville}
+\hyphenation{Wough-ton}
 \hyphenation{Wre-kin}
 \hyphenation{Wrib-ben-hall}
 \hyphenation{Wych-avon}
@@ -751,6 +904,7 @@
 \hyphenation{Wy-lye}
 \hyphenation{Wyt-ham}
 \hyphenation{Yar-mouth}
+\hyphenation{Zaj-acz-kow-ska}
 
 % Unopposed:
 
@@ -778,3 +932,4 @@
 \renewcommand\l@section{\@dottedtocline{2}{1.5em}{3em}}
 \makeatother
 
+\newcommand{\fps}{\emph{First preferences}\\}
