@@ -1,9 +1,9 @@
 "Polling","Council","Ward","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","UKIP cand","SNP/PC cand","Other cand"
-"2021-04-01","Monmouthshire","St Kingsmark","C","David Dovey","Death",,"andrewteale.me.uk/i11336","Christopher Edwards","Tom Kirton","Jenni Brews",,,,
 "2021-04-08","Torfaen","Abersychan","Ind","Raymond Williams","Death","Reportedly COVID-19, please check","andrewteale.me.uk/i11455","Tristan Griffin","Lynda Clarkson",,,,,"Kieran Gething (Propel), Charlotte Hill (Ind), John Tomlinson (Ind)"
 "2021-04-08","Torfaen","Cwmyniscoy","Lab","Neil Waite","Resignation",,"andrewteale.me.uk/i11461",,"John Killick",,,,,"Ben Evans (Propel), Bridgette Harris (Ind)"
 "2021-04-08","Torfaen","New Inn","C","Raymond Mills","Resignation",,"andrewteale.me.uk/i11467","Keith James","Farroq Dastgir",,,,,"Ross Attfield (Ind)"
 "2021-05-06","Adur","Churchill","C","Pat Beresford","Death",,"andrewteale.me.uk/i5288",,,,,,,
+"2021-05-06","Adur","Eastbrook","Lab","David Balfe","Resignation",,"andrewteale.me.uk/i5290",,,,,,,
 "2021-05-06","Adur","Southlands","Lab","Lavinia O'Connor","Resignation",,"andrewteale.me.uk/i5298",,,,,,,
 "2021-05-06","Allerdale","Aspatria","C","Mike Little","Resignation","Elected as Putting Cumbria First","andrewteale.me.uk/i19530",,,,,,,
 "2021-05-06","Allerdale","Christchurch","Lab","Joan Ellis","Resignation",,"andrewteale.me.uk/i19533",,,,,,,
@@ -13,7 +13,7 @@
 "2021-05-06","Amber Valley","Somercotes","Lab","Brian Lyttle","Death",,"andrewteale.me.uk/i6739",,,,,,,
 "2021-05-06","Arun","Brookfield","LD","Chris Blanchard-Cooper","Death",,"andrewteale.me.uk/i16940",,,,,,,
 "2021-05-06","Arun","Pevensey","LD","Inna Erskine","Resignation",,"andrewteale.me.uk/i16951",,,,,,,
-"2021-05-06","Ashfield","Annesley/Kirkby Woodhouse","Ashfield Ind","Ciaran Brown","Resignation","Chairman; COVID-19","andrewteale.me.uk/i17695",,,,,,,
+"2021-05-06","Ashfield","Annesley/Kirkby Woodhouse","Ashfield Ind","Ciaran Brown","Resignation",,"andrewteale.me.uk/i17695",,,,,,,
 "2021-05-06","Ashfield","Skegby","Ashfield Ind","Anthony Brewer","Death","Chairman; COVID-19","andrewteale.me.uk/i17711",,,,,,,
 "2021-05-06","Ashford","Beaver","Lab","Alex Ward","Death",,"tinyurl.com/y338atz9",,,,,,,
 "2021-05-06","Babergh","Great Cornard","C","Honor Grainger-Howard","Resignation",,"tinyurl.com/mmvhbd6j",,,,,,,
@@ -75,6 +75,7 @@
 "2021-05-06","Craven","Barden Fell","Ind","David Pighills","Disqualification","Non-attendance","andrewteale.me.uk/i8153",,,,,,,
 "2021-05-06","Craven","Penyghent","C","Richard Welch","Death",,"andrewteale.me.uk/i8162",,,,,,,
 "2021-05-06","Crawley","Ifield","Lab","Geraint Thomas","Death",,"andrewteale.me.uk/i21140",,,,,,,
+"2021-05-06","Crawley","Tilgate","C","Francis Guidera","Resignation",,"andrewteale.me.uk/i21148",,,,,,,
 "2021-05-06","Croydon","Kenley","C","Steve O'Connell","Resignation","Retiring AM for Croydon/Sutton","andrewteale.me.uk/i19800",,,,,,,
 "2021-05-06","Croydon","New Addington N","Lab","Simon Hall","Resignation",,"andrewteale.me.uk/i19801",,,,,,,
 "2021-05-06","Croydon","Park Hill/Whitgift","C","Vidhi Mohan","Resignation",,"andrewteale.me.uk/i19806",,,,,,,
@@ -118,6 +119,7 @@
 "2021-05-06","Enfield","Jubilee","Lab","Bernadette Lappage","Resignation",,"andrewteale.me.uk/i111",,,,,,,
 "2021-05-06","Enfield","Southbury","Lab","Chris Bond","Death",,"andrewteale.me.uk/i115",,,,,,,
 "2021-05-06","Epping Forest","Grange Hill","C","Gagan Mohindra MP","Resignation",,"andrewteale.me.uk/i3857",,,,,,,
+"2021-05-06","Epping Forest","Roydon","C","Mary Sartin","Resignation",,"andrewteale.me.uk/i3873",,,,,,,
 "2021-05-06","Epping Forest","Waltham Abbey High Beach","C","Syd Stavrou","Death",,"andrewteale.me.uk/i3876",,,,,,,
 "2021-05-06","Erewash","Hallam Fields","Lab","Pamela Ashley","Resignation",,"andrewteale.me.uk/i17631",,,,,,,
 "2021-05-06","Erewash","Nottingham Rd","Lab","Diane Fletcher","Resignation",,"andrewteale.me.uk/i17637",,,,,,,
@@ -206,7 +208,7 @@
 "2021-05-06","N Lincs","Bottesford","C","Derek Longcake","Death","COVID-19","andrewteale.me.uk/i3011",,,,,,,
 "2021-05-06","N Lincs","Broughton/Appleby","C","Ivan Glover","Death",,"andrewteale.me.uk/i3013",,"Originally scheduled for 2020-03-26",,,,,
 "2021-05-06","N Lincs","Broughton/Appleby","C","Holly Mumby-Croft MP","Death",,"andrewteale.me.uk/i3013",,"Originally scheduled for 2020-03-26",,,,,
-"2021-05-06","N Norfolk","Costal","LD","Karen Ward","Resignation",,"tinyurl.com/14r01bgt",,,,,,,
+"2021-05-06","N Norfolk","Coastal","LD","Karen Ward","Resignation",,"tinyurl.com/14r01bgt",,,,,,,
 "2021-05-06","N Norfolk","Holt","C","Duncan Baker MP","Resignation",,"tinyurl.com/14r01bgt",,,,,,,
 "2021-05-06","N Somerset","Portishead E","Ind","Paul Gardner","Resignation",,"andrewteale.me.uk/i16878",,,,,,,
 "2021-05-06","N Tyneside","Chirton","Lab","Margaret Reynolds","Resignation",,"andrewteale.me.uk/i1094",,,,,,,
@@ -244,7 +246,7 @@
 "2021-05-06","Rhondda Cynon Taf","Penrhiwceiber","Cynon Valley Party","Gavin Williams","Disqualification","Non-attendance","andrewteale.me.uk/i11209",,,,,,,
 "2021-05-06","Ribble Vy","Billington/Langho","C","Ruth Baxter","Death",,"tinyurl.com/yxgu6pvc",,,,,,,
 "2021-05-06","Ribble Vy","Mellor","C","Noel Walsh","Death",,"tinyurl.com/yxgu6pvc",,,,,,,
-"2021-05-06","Ribble Vy","W Bradford/Grindleton","C","Bridget Hilton","Resignation",,"tinyurl.com/yxgu6pvc",,,,,,,
+"2021-05-06","Ribble Vy","W Bradford/Grindleton","C","Mary Hilton","Resignation",,"tinyurl.com/yxgu6pvc",,,,,,,
 "2021-05-06","Richmond (Thames)","Hampton Wick","Grn","Dylan Baxendale","Resignation",,"andrewteale.me.uk/i554",,,,,,,
 "2021-05-06","Rochford","Hockley/Ashingdon","C","Terry Cutmore","Death",,"andrewteale.me.uk/i17782",,,,,,,
 "2021-05-06","Rochford","Hullbridge","Grn","Diane Hoy","Death",,"andrewteale.me.uk/i17783",,,,,,,
@@ -366,4 +368,3 @@
 "2021-05-06","Wolverhampton","Tettenhall Wightwick","C","Jane Stevenson MP","Resignation",,"andrewteale.me.uk/i1314",,,,,,,
 "2021-05-06","Wychavon","Elmley Castle/Somerville","C","George Mackison","Resignation",,"andrewteale.me.uk/i5589",,,,,,,
 ,"Aberdeenshire","E Garioch","LD","Fergus Hood","Death",,"andrewteale.me.uk/i18287",,,,,,,
-,"Renfs","Paisley SE","Ind","Paul Mack","Disqualification","Standards Commission for Scotland","andrewteale.me.uk/i18508",,,,,,,
