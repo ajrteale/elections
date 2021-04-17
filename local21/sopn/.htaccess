@@ -1,0 +1,5 @@
+Options +Indexes
+
+<FilesMatch "\.pdf$">
+  Header set X-Robots-Tag "noindex, nofollow"
+</FilesMatch>
