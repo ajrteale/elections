@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Election Results</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" media="all" href="/ElectionResults/assets/application-442d2a9075a16c77d0d509281d40af020e067cbd1651876afe60399a327fe355.css" />
+  <script src="/ElectionResults/assets/application-3d9384c89999f2138b36a71576cc9340fe380f0a258dc47a090503c598b63e00.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ufX0ZJv3mHL41KiiSw3aGEPWSVCUSD8YxfDfuz7t9yT2tUFijDOtjldz8dbGGjqeGk1q82P3xhnZ2ZY/JDObBw==" />
+  <!--[if lt IE 9]>
+  <script src="/ElectionResults/assets/html5-12c22c344639389a440f15f10efc147182d8abd23fc390683291e25da8ef9814.js"></script>
+  <![endif]-->
+  <!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://warwickshire.github.io/favicon.ico" />
+  <link rel="stylesheet" href="https://warwickshire.github.io/wcc_style_modifier.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129085183-16"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129085183-16');
+  </script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+  <header>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-full">
+
+    <div class="navbar-header">
+
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="search btn-search pull-right" alt="Warwickshire County Council Search">
+        <span class="glyphicon glyphicon-search icon-white"></span>
+      </a>
+
+      <a class="govdelmobile pull-right" alt="GDS logo" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+        <img src="https://static.warwickshire.gov.uk/img/keep_me_posted_envelope_17px.png" alt="GDSl" style="width:17px;">
+      </a>
+
+      <a class="navbar-brand" alt="Warwickshire County Council logo" href="//www.warwickshire.gov.uk/">
+        <img src="https://static.warwickshire.gov.uk/img/corpwhitelogo.png" alt="Warwickshire County Council">
+      </a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="left-topbar">
+
+      <ul class="nav navbar-nav">
+
+        <a class="gdslogo2" alt="GDS logo" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+          <img src="https://static.warwickshire.gov.uk/img/keep_me_posted_envelope_17px.png" alt="GDSl" style="width:17px;">
+        </a>
+
+        <a class="gdstext" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">Email alerts</a>
+        
+      </ul>
+      <div class="pull-right">
+
+      
+        <form action="https://warwickshire.gov.uk/search-results-page" method="get" name="kbs" class="navbar-form" id="site-search">
+
+          <label for="qtbottom" class="skip" style="display:none;">Search again</label>
+          <input class="span3" type="text" maxlength="1000" size="40" name="q" id="qtbottom" alt="Search" placeholder="Search (eg. libraries, blue badge, potholes)">
+          <button type="submit" value="Search" id="kbsubmitbottom" class="btn btn-mini searchbutton">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="row style-1-gradient" id="top-header">
+  <div class="container">
+    <div class="span12" style="height:100px;">
+      <div class="row">
+        <div class="row">
+          <div class="span9">
+            <form action="https://warwickshire.gov.uk/search-results-page" method="get" name="kbs" class="mobile-search" id="site-search">
+              <input class="span3" type="text" maxlength="1000" size="40" name="q" id="qtbottom" alt="Search" placeholder="Search (eg. libraries, blue badge, potholes)">
+              <button type="submit" value="Search" id="kbsubmitbottom" class="btn btn-mini searchbutton">Search</button>
+            </form>
+            <script type="text/javascript">
+              var button = $('.btn-search');
+              button.on('click', function () {
+                  $('#top-header').toggleClass('show-search');
+              });
+            </script>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+	<div class="container-full">
+		
+	  <div class="row"> 
+	<div class="col-xs-12 col-sm-8">
+		<div id="breadcrumbs">
+			<nav itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+				<div class="breadcrumbs"><a href="https://www.warwickshire.gov.uk/corporate">Home</a> &rsaquo; <a href="https://www.warwickshire.gov.uk/democracy">Democracy</a> &rsaquo; <a href="/ElectionResults/elections">Elections</a> &rsaquo; <a href="/ElectionResults/elections/2021">2021 Election Results</a> &rsaquo; <span class="current active">Kenilworth Park Hill</span></div>
+			</nav>
+		</div>
+	</div>
+</div>
+		
+<article id="2"> 
+<div class="row"> 
+  <div class="col-xs-12">
+		<h1 class="pull-left map-header" id="title">2021 Election results: Kenilworth Park Hill</h1> 
+	</div> 
+</div> 
+ 
+<div class="row"> 
+	<div class="col-xs-12 col-sm-8"> 
+			<div class = "pull-left">
+	      <a href="/ElectionResults/elections/2021">Show Warwickshire Map</a>
+	    </div>
+  	<div class="pull-right"> 
+	 		<div class="dropdown pull-right"> 
+  			<button class="btn btn-default dropdown-toggle pull-right district-filter" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+  				View District <span class="caret"></span> 
+  			</button> 
+	  		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/North%20Warwickshire">North Warwickshire</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Nuneaton%20&amp;%20Bedworth">Nuneaton &amp; Bedworth</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Rugby">Rugby</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Stratford-on-Avon">Stratford-on-Avon</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Warwick">Warwick</a></li> 
+	  		</ul> 
+  		</div> 
+  	</div> 
+	</div> 
+</div> 
+
+
+<div class="row" class="col-xs-12"> 
+  <div class="col-xs-12 col-sm-8"> 
+	  <div id="map" class="olMap"> 
+			<div id="mapid"></div>
+
+<script>
+    var map_type = 'areas';
+
+    // create map with some options and centering options
+	var map = L.map('mapid', { 
+        scrollWheelZoom: false, 
+        touchZoom: false, 
+        doubleClickZoom: false, 
+        zoomControl: false, 
+        dragging: false,
+        tap: false
+    });
+
+    // set tile source and copyright info
+	L.tileLayer(
+        'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+        maxZoom: 20
+	}).addTo(map);
+
+	var areas = [ {"type":"Feature","properties":{"name":"Kenilworth Park Hill","description":null,"party":"Green Party","elected":"Tracey Jane Drew","VectCol":"#31dd3c","url":"/ElectionResults/elections/2021/areas/Kenilworth%20Park%20Hill"},"geometry":{"type":"Polygon","coordinates":[[[-1.562083022956621,52.36136517504061],[-1.562139859856511,52.361188329129824],[-1.563358287410152,52.36070507546178],[-1.563896419179236,52.3601928787015],[-1.562728103922278,52.35990626271618],[-1.563691624789616,52.35846460980948],[-1.561176457008244,52.358155475313026],[-1.559822446140183,52.35780073384639],[-1.559312408109069,52.35785995011284],[-1.557562859732299,52.35741203403746],[-1.554976056924582,52.357302474343456],[-1.554396147029449,52.35707425126351],[-1.553295177604069,52.35696664950862],[-1.55339820504899,52.35672616984722],[-1.554109865277744,52.35655305723151],[-1.554740650792604,52.35543970805705],[-1.55595003533135,52.35519889313686],[-1.555677043418437,52.35489714106781],[-1.554764786065347,52.35523038681927],[-1.55318768993918,52.35475483355037],[-1.553196675294483,52.35403145184208],[-1.552856001599804,52.353925457982214],[-1.54819193210003,52.354675004208936],[-1.545370376317718,52.35616710386084],[-1.544182982670047,52.356486267645806],[-1.543842220681481,52.35669499486611],[-1.544599398780708,52.357055981191856],[-1.544411322090949,52.357215236788235],[-1.544348943022323,52.3578541977042],[-1.543741016083186,52.35832945696522],[-1.54366928747547,52.35854659126933],[-1.542276214559402,52.359220043739455],[-1.5416156512501,52.35919672349346],[-1.541036406025649,52.358838386237345],[-1.540629009564439,52.358861430426],[-1.540044904560913,52.35855259131074],[-1.540056615629041,52.35826404360052],[-1.539742726954389,52.358236758089724],[-1.538136530640612,52.358816310022],[-1.538097046791516,52.35908497623463],[-1.538769287597171,52.35925396153072],[-1.53817722744337,52.35943050480732],[-1.538091547250617,52.35961270918629],[-1.537764163360733,52.35947391894415],[-1.537208500694261,52.35952657016379],[-1.536320811714488,52.360162293859325],[-1.534787155204728,52.36037179379574],[-1.531278337797523,52.35814805497175],[-1.533462422581735,52.356029675504196],[-1.537768351470308,52.350631525470284],[-1.53949372767328,52.348956397519366],[-1.547915282389595,52.342841517094335],[-1.550114898670296,52.34099530237932],[-1.554396019746482,52.33699546497094],[-1.559430065661326,52.333178751709994],[-1.55977747450941,52.33438412477723],[-1.559988639732262,52.334394797329175],[-1.560338914228844,52.334739609387945],[-1.560701579231168,52.334579089517256],[-1.562927736148325,52.33518744740871],[-1.563908641861089,52.33558976280612],[-1.564241663685494,52.33597036033377],[-1.562879387930451,52.3366679875514],[-1.563315448416545,52.33754652591393],[-1.56429282400155,52.33771020224735],[-1.564497112829781,52.33827511085041],[-1.565085582320753,52.33828941038534],[-1.565115117959714,52.33947355420258],[-1.564801844943454,52.33930918547611],[-1.564752317870435,52.3394973846339],[-1.564363282302843,52.339506287638294],[-1.56421561090561,52.340420957361786],[-1.563608618007704,52.342138957258015],[-1.563747109988213,52.342836191846516],[-1.563967252645305,52.342836554525284],[-1.564272676050487,52.3443934443424],[-1.565383546847035,52.34502999438762],[-1.56630872848837,52.34506574711719],[-1.566898586678064,52.34578988762824],[-1.568211767442974,52.34534629633421],[-1.567835825824001,52.344900573133216],[-1.567561416601428,52.34419619579309],[-1.569283275451907,52.343887733018995],[-1.569327892984923,52.3442535134419],[-1.570558543297581,52.34406403598334],[-1.570606902418765,52.34485701277552],[-1.571199856519645,52.34513023234658],[-1.572566958185741,52.34618062623716],[-1.575071017722474,52.345287381327104],[-1.575606702067603,52.34581921728994],[-1.576374188451036,52.34543810685501],[-1.579481215956299,52.34840056227208],[-1.579126843195709,52.348562607012376],[-1.578899153733261,52.348997068116624],[-1.577472883601021,52.349850659910615],[-1.576990999573695,52.3499652371363],[-1.576379943656081,52.35057537786353],[-1.576069475788921,52.35063681919769],[-1.575713647008042,52.350429186609276],[-1.573895710894348,52.35125391684374],[-1.574560287053501,52.351529624084854],[-1.57805504080087,52.351549785767205],[-1.578035201992318,52.351713739461495],[-1.578396473544098,52.35184768571965],[-1.579929434802648,52.353229958234586],[-1.580877600192006,52.354656964713],[-1.583391087074305,52.354043273043324],[-1.583558457446613,52.35474462867414],[-1.583851478261868,52.35489305747512],[-1.584039489517201,52.35762766747311],[-1.58457281620909,52.3607249718231],[-1.582514912801088,52.36086593069124],[-1.580590857175409,52.361805339966295],[-1.579525199037807,52.36105791942279],[-1.576702711938654,52.3598250830129],[-1.575509623612974,52.35956393979488],[-1.574923174098511,52.35962483650627],[-1.572676477487364,52.359320057449295],[-1.56974663713807,52.36011041172123],[-1.567252818282415,52.35970891187837],[-1.565380127386027,52.35970366172529],[-1.564796878833492,52.3606083689346],[-1.565214644857116,52.360676414160935],[-1.563787789287479,52.36175803386011],[-1.562038421632387,52.36149227474898],[-1.562083022956621,52.36136517504061]]]}} ];
+
+	var multipolygon = L.geoJSON(areas, {
+    style: function(feature) {
+        switch (feature.properties.Name) {
+            default: return {fillColor: feature.properties.VectCol, color: "#FFFFFF", fillOpacity: 0.6, weight: 2};
+        }
+    },
+    onEachFeature: function (feature, layer) {
+         var info = '<strong><a href="' + feature.properties.url + '">' + feature.properties.name + '</a></strong>';
+         var elected = '<br>' + feature.properties.elected + '<br>' + feature.properties.party;
+         if (feature.properties.elected) { 
+            info = info + elected;
+         }
+         layer.bindPopup(info);
+         layer.on("mouseover", function (e) { layer.setStyle( {fillOpacity: 0.9} ); });
+         layer.on("mouseout",  function (e) { layer.setStyle( {fillOpacity: 0.6} ); });
+         layer.on("click",  function (e) { layer.setStyle( {fillOpacity: 0.9} ); });
+		}
+	}).addTo(map);
+
+    // fit bounds based on polygon layers
+    map.fitBounds( multipolygon.getBounds(), { padding: [3, 3] } );
+
+</script> 
+		</div> 
+  </div> 
+ 
+	<div id="doc" class="col-xs-12 col-sm-4"> 
+		  <h2 class="election-result">2021 election result </h2>
+				<h3 class="candidate-winner"><span class="candidate-winner-name">Tracey Jane Drew</span> <em> - elected</em></h3>
+				<p class="candidate-winner-party">Green Party <span class="candidate-winner-votes">(1983 votes)</span></p>
+			<h3 class="other-candidates">Other Candidates</h3>
+				<p>Samantha Anne Cooke<br/> Liberal Democrats (225 votes)</p>
+				<p>Jeremy Eastaugh<br/> Labour Party (223 votes)</p>
+				<p>Andy Metcalf<br/> The Conservative Party Candidate (1153 votes)</p>
+			<div class="well" style="white-space: pre-wrap;"></div>
+
+  </div>
+</div>
+</article>
+	</div>
+	<div id="push"></div>
+</div>
+
+<footer>
+  <div class="container">
+  
+    <div class="row">
+
+      <div class="col col-sm-3"><a href="http://www.warwickshire.gov.uk/" class="footer-logo">
+    <img src="https://warwickshire.github.io/logo.png" class="footer-logo-image" alt="WCC Logo"> 
+    <p class="footer-logo-text">Warwickshire County Council</p>
+    <p class="footer-logo-subtext">© Warwickshire County Council</p>
+  </a>
+      </div>
+
+      <div class="col col-sm-2">
+        <aside id="text-3" class="widget widget_text">
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/az">A-Z of services</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/accessibility">Accessibility</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/contactus">Contact us</a></p></div>
+        </aside>
+      </div>
+
+      <div class="col col-sm-3">
+        <aside id="text-4" class="widget widget_text">
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/customerservice">Customer service and complaints</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/help">Help using the website</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/disclaimer">Privacy and disclaimer</a></p></div>
+        </aside>
+      </div>
+
+      <div class="col col-lg-2">
+        <aside id="text-6" class="widget widget_text">
+          <div class="textwidget">
+            <a href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+              <img class="keep_me_posted" src="https://static.warwickshire.gov.uk/img/keep me posted white on trans 155x39.png" alt="gov delivery">
+            </a>
+          </div>
+        </aside>
+        <aside id="text-11" class="widget widget_text">
+          <div class="textwidget">
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-9510501-3'}, 'google_translate_element');
+              }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <div id="google_translate_element"></div>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
