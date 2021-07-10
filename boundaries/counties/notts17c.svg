@@ -9,7 +9,7 @@
    viewBox="0 0 620.40649 1000"
    sodipodi:docname="notts17c.svg"
    inkscape:version="1.1 (1:1.1+202106031931+af4d65493e)"
-   inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\counties\notts17c.png"
+   inkscape:export-filename="/home/andrewteale/eln/boundaries/counties/notts17c.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,7 +27,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
