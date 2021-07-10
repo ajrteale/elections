@@ -2,23 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg928"
    width="620.40649"
    height="1000"
    viewBox="0 0 620.40649 1000"
    sodipodi:docname="notts17c.svg"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="1.1 (1:1.1+202106031931+af4d65493e)"
    inkscape:export-filename="C:\Users\andrewteale\Documents\elections\boundaries\counties\notts17c.png"
    inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:export-ydpi="72"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata934">
     <rdf:RDF>
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -190,8 +190,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
      id="namedview930"
      showgrid="false"
      fit-margin-top="0"
@@ -199,13 +199,14 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      showguides="true"
-     inkscape:zoom="0.52"
-     inkscape:cx="310.20325"
+     inkscape:zoom="0.804"
+     inkscape:cx="309.70149"
      inkscape:cy="500"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg928" />
+     inkscape:current-layer="svg928"
+     inkscape:pagecheckerboard="0" />
   <path
      style="fill:#000000;stroke-width:0.8341428"
      d="m 489.83203,803.61578 c -3.38532,5.0777 -6.15512,9.6487 -6.15512,10.1578 0,0.5091 -0.93841,1.6638 -2.08536,2.5659 -1.14695,0.9022 -2.08536,2.212 -2.08536,2.9106 0,0.6986 -0.44334,1.418 -0.98521,1.5985 -0.54186,0.1807 -1.41789,1.6196 -1.94671,3.1977 -0.52882,1.578 -1.68665,3.2444 -2.57296,3.7032 -2.70116,1.3982 -8.18551,5.7388 -9.48481,7.5069 -1.20114,1.6344 -3.54987,3.9375 -6.20154,6.0808 -1.84021,1.4875 -1.67331,6.2464 0.33454,9.5396 0.91585,1.5021 1.66658,3.2652 1.66829,3.9179 0.002,0.6527 -2.8329,3.7999 -6.29914,6.9938 -3.8751,3.5708 -6.13027,6.2554 -5.85567,6.971 1.0862,2.8306 -2.20704,7.8116 -8.0252,12.138 -3.31281,2.4634 -6.46247,5.5933 -7.32937,7.2833 -2.11352,4.1204 -4.90863,6.4166 -8.46693,6.9557 -2.25369,0.3415 -4.07165,1.5623 -7.09022,4.7617 -4.94796,5.2442 -6.60921,8.5905 -4.94875,9.9686 1.14303,0.9486 0.55206,4.3493 -1.31257,7.5531 -0.40052,0.6881 -0.94059,1.8142 -1.20017,2.5024 -0.25957,0.6882 -0.82565,1.8143 -1.25795,2.5024 -0.43231,0.6882 -1.19267,2.2835 -1.6897,3.5451 -0.49703,1.2617 -1.30663,2.2939 -1.79909,2.2939 -0.49247,0 -1.5513,0.5936 -2.35296,1.3191 -1.33656,1.2095 -1.60329,1.1733 -3.21284,-0.4362 -1.44578,-1.4458 -2.06401,-1.59 -3.50634,-0.8182 -0.96309,0.5155 -2.88214,0.711 -4.26455,0.4346 -1.38241,-0.2766 -3.87026,-0.1444 -5.52856,0.2937 -1.65829,0.4381 -4.10575,0.9877 -5.43878,1.2213 -1.33303,0.2337 -3.39753,1.3577 -4.58779,2.4981 -1.19024,1.1403 -2.53945,2.1447 -2.99822,2.2321 -0.45878,0.087 -2.37427,1.4208 -4.25663,2.9632 -1.88237,1.5425 -3.99475,2.8045 -4.69419,2.8045 -0.69943,0 -1.75698,0.5847 -2.35011,1.2994 -2.04165,2.46 -6.65107,3.8289 -9.60753,2.8532 -2.76191,-0.9116 -5.10943,-0.043 -11.20604,4.1497 -5.06825,3.4848 -5.41492,2.9604 -1.68347,-2.5463 1.36799,-2.0189 2.49408,-4.1879 2.50243,-4.82 0.0266,-2.014 -6.4931,-0.3455 -14.72163,3.7674 -4.20563,2.1021 -8.01921,3.5917 -8.47461,3.3103 -0.4554,-0.2815 -2.56795,0.2341 -4.69454,1.1456 -2.1266,0.9116 -7.88481,2.8236 -12.79604,4.2489 -11.25032,3.2652 -14.64183,5.1143 -15.65761,8.5371 -0.46334,1.5614 -1.75487,3.1402 -3.18623,3.895 -1.32388,0.6981 -3.57606,2.3153 -5.00486,3.5939 -1.42879,1.2785 -3.53621,2.5091 -4.68315,2.7346 -1.14695,0.2257 -3.21145,0.8129 -4.58779,1.3051 -1.37633,0.4922 -5.8807,0.9976 -10.00971,1.1231 -7.84646,0.2387 -12.37088,1.476 -18.47234,5.0517 -1.93184,1.1321 -4.28909,2.0584 -5.23833,2.0584 -0.94924,0 -3.15357,1.2898 -4.89853,2.8663 -1.74496,1.5765 -4.8428,3.4367 -6.88409,4.1337 -2.04128,0.6972 -4.27447,2.0945 -4.96264,3.1051 -2.1044,3.0905 -6.7264,7.4119 -7.92753,7.4119 -1.18232,0 -2.47981,-2.8514 -1.79955,-3.9548 0.21468,-0.3481 -2.59949,-0.7169 -6.25369,-0.8195 -5.70087,-0.1601 -7.08074,0.088 -9.72058,1.7465 -3.74913,2.3556 -6.63648,2.9279 -9.12411,1.8085 l 5.3e-4,2e-4 c -1.03225,-0.4645 -1.87682,-1.4842 -1.87682,-2.2658 0,-0.7817 -0.37674,-1.6541 -0.8372,-1.9387 -0.46047,-0.2846 -0.62444,-1.3651 -0.36441,-2.4012 0.40209,-1.6021 -0.0653,-2.1063 -3.12497,-3.3711 -1.97878,-0.8181 -4.22331,-1.8078 -4.98785,-2.1994 -2.04124,-1.0456 -11.25237,-0.393 -12.82036,0.9083 -2.30654,1.9142 -6.69851,-1.0919 -8.25069,-5.6473 -1.26944,-3.7256 -0.70923,-6.8898 1.21983,-6.8898 0.44264,0 0.8048,-0.3753 0.8048,-0.8341 0,-0.4588 -0.55433,-0.8342 -1.23183,-0.8342 -0.6775,0 -3.30453,-0.8445 -5.83783,-1.8768 -4.13699,-1.6857 -4.60744,-2.1316 -4.61995,-4.3792 -0.0166,-2.9839 -0.61711,-4.0103 -3.11643,-5.3265 -1.03707,-0.5461 -1.87682,-1.7723 -1.87682,-2.7406 0,-1.5999 0.33026,-1.7071 3.79665,-1.232 2.41468,0.331 3.61126,0.2205 3.28734,-0.3037 -0.28011,-0.4532 -1.23788,-0.824 -2.12836,-0.824 -2.12181,0 -2.08698,-1.3513 0.0492,-1.91 2.31504,-0.6054 2.09223,-2.9567 -0.33797,-3.5667 -5.72814,-1.4376 -7.36387,-10.3467 -1.90669,-10.3848 1.4858,-0.011 1.59359,-0.164 0.57637,-0.8214 -0.68816,-0.4447 -2.02765,-0.8144 -2.97663,-0.8214 -2.60072,-0.019 -10.36965,-2.4799 -10.36965,-3.2843 0,-0.3876 0.72371,-0.8938 1.60824,-1.1251 1.66021,-0.4342 1.87459,-2.7956 0.34525,-3.8029 -1.34618,-0.8867 -1.88516,-4.1603 -0.75627,-4.5935 0.55707,-0.2138 2.76076,0.012 4.89709,0.5001 2.90598,0.665 5.0002,0.6211 8.31537,-0.1741 3.96638,-0.9515 5.08913,-0.8784 10.70412,0.6972 3.45013,0.9681 8.12585,1.7419 10.39048,1.7196 l 4.1175,-0.041 -6.25607,-2.3295 c -7.72206,-2.8754 -11.03228,-4.5647 -12.5661,-6.4129 -1.09883,-1.324 -0.83731,-1.3975 3.64821,-1.0255 3.88119,0.3219 4.61839,0.1955 3.74685,-0.6422 -1.33244,-1.2807 -5.56454,-3.7847 -11.09474,-6.5644 -10.77488,-5.4159 -12.52982,-7.6831 -8.9212,-11.5254 2.04908,-2.1817 2.08817,-2.3825 0.7284,-3.7423 -1.35977,-1.3598 -1.6262,-1.341 -4.96348,0.3506 -4.94917,2.5086 -10.44405,2.4829 -14.03564,-0.066 -9.23433,-6.5529 -17.588242,-11.3642 -21.097702,-12.1506 -5.73147,-1.2845 -9.59134,-3.474 -16.24558,-9.2153 -7.2025,-6.2145 -12.528712,-13.1834 -17.232994,-22.5482 -5.208892,-10.3693 -7.105162,-16.7421 -6.92934,-23.2873 0.119382,-4.4443 -0.283647,-6.4245 -2.080664,-10.2231 -2.83481,-5.9922 -2.798499,-7.444 0.273701,-10.943 1.376336,-1.5677 2.502429,-3.374 2.502429,-4.0142 0,-0.6402 0.652947,-2.0921 1.450994,-3.2265 1.578562,-2.2437 2.134794,-6.3977 0.954366,-7.1272 -0.405391,-0.2506 -0.749013,-1.278 -0.763603,-2.2831 -0.01459,-1.0053 -0.588455,-2.571 -1.275254,-3.4797 -0.795484,-1.0524 -1.06186,-2.5028 -0.733892,-3.9961 0.335015,-1.5253 0.0292,-3.0852 -0.87555,-4.466 -1.21749,-1.8581 -1.240434,-2.2947 -0.184515,-3.5112 1.125927,-1.2971 1.395492,-2.4319 1.485237,-6.2522 0.04884,-2.0781 -1.594296,-3.8952 -3.522654,-3.8952 -0.875781,0 -1.81094,-0.5697 -2.078133,-1.266 -0.267191,-0.6963 -0.912298,-1.2148 -1.43357,-1.1523 -2.415145,0.2894 -3.871468,-0.2016 -4.592336,-1.5486 -1.107624,-2.0696 0.5794,-10.2129 2.573198,-12.4209 1.332091,-1.4751 1.514039,-2.4743 1.033772,-5.6769 -0.495474,-3.3041 -0.31545,-4.1714 1.200862,-5.7854 l 1.783712,-1.8987 -1.999059,-0.9109 c -2.408665,-1.0974 -4.102655,-5.5158 -6.794034,-17.72057 l -1.93141,-8.7585 2.011943,-1.52932 c 1.952304,-1.48399 2.751029,-3.8926 1.290834,-3.8926 -0.39661,0 -1.942994,-1.06683 -3.436408,-2.37072 -2.495083,-2.17845 -2.62648,-2.53362 -1.620143,-4.37925 0.602335,-1.1047 1.183701,-3.07567 1.291925,-4.37994 0.108222,-1.30428 0.737441,-2.99342 1.398263,-3.75364 2.242748,-2.58012 0.830163,-3.57588 -4.291568,-3.02524 -6.340886,0.68172 -11.196983,-0.41214 -11.775966,-2.6526 -0.246043,-0.9521 -3.110619,-4.0392 -6.365726,-6.86023 -6.649259,-5.76256 -8.4232362,-9.36078 -7.022663,-14.24428 0.649607,-2.26506 0.496065,-3.1946 -0.8368932,-5.06657 l -1.632462,-2.29258 1.8661982,-1.24667 c 1.745265,-1.16589 1.777553,-1.3477 0.498256,-2.80566 -0.7523662,-0.85744 -2.2105612,-3.53977 -3.2404322,-5.96072 -1.940664,-4.56201 -1.961959,-5.80215 -0.333457,-19.42007 0.423848,-3.54433 0.263992,-4.927 -0.67861,-5.86961 -0.815984,-0.81598 -1.089788,-2.2093 -0.809474,-4.1192 0.382673,-2.60732 0.290655,-2.77581 -0.952495,-1.74408 -1.203077,0.99846 -1.37609,0.92565 -1.37609,-0.57914 0,-0.94666 0.375364,-1.95318 0.834143,-2.23673 0.458778,-0.28354 0.834142,-1.25156 0.834142,-2.15116 0,-0.8996 0.956819,-3.15133 2.126263,-5.00385 1.357662,-2.15067 1.935802,-3.9683 1.59937,-5.02831 -0.289791,-0.91305 -0.169611,-2.11128 0.267066,-2.66274 1.3105952,-1.65508 1.7432952,-8.66132 0.611486,-9.90113 -0.557938,-0.61118 -1.660332,-3.24081 -2.449764,-5.84362 -0.789431,-2.60281 -2.758172,-6.9195 -4.37498,-9.59265 -2.84684796,-4.70681 -2.92329096,-5.05154 -2.42148396,-10.91993 0.618315,-7.23089 1.41790296,-9.17588 5.56394496,-13.53428 1.731309,-1.81998 3.101452,-3.97402 3.044761,-4.78676 -0.05669,-0.81274 0.851599,-2.97916 2.0184212,-4.81427 6.17977,-9.7192 11.282183,-11.8082 26.711828,-10.9362 5.387301,0.30446 10.796452,0.30223 12.020334,-0.005 2.124695,-0.53325 2.022158,-0.65675 -2.269253,-2.73303 -5.948148,-2.87778 -8.248138,-4.45113 -8.248138,-5.64218 0,-0.53959 -0.469205,-1.15176 -1.042678,-1.3604 -0.79095,-0.28775 -0.817168,-0.75765 -0.1086,-1.94633 0.775187,-1.30044 1.732955,-1.51768 5.630464,-1.27707 5.016618,0.3097 5.210852,0.173 3.749253,-2.63865 -1.313637,-2.52703 -1.211205,-2.48191 -3.208076,-1.41322 -2.333347,1.24877 -4.709025,-0.19248 -10.859362,-6.58802 -2.523282,-2.62388 -5.508392,-5.39847 -6.633577,-6.16575 l -2.04579,-1.39506 1.521723,-4.23177 1.521724,-4.23177 -2.562206,-4.88797 c -2.199556,-4.19613 -2.391024,-5.03004 -1.352754,-5.89173 1.530979,-1.2706 1.518879,-4.16069 -0.04176,-9.97505 -0.677277,-2.52329 -1.235868,-5.94944 -1.241313,-7.61369 -0.0054,-1.66424 -0.572947,-3.49318 -1.261115,-4.06431 -0.688168,-0.57113 -1.251214,-1.55917 -1.251214,-2.19566 0,-0.63648 -0.730372,-1.7826 -1.623049,-2.54694 -3.702938,-3.17056 0.9916,-17.06793 8.418104,-24.92037 3.364545,-3.55751 4.020868,-4.70813 3.385248,-5.93475 -1.430738,-2.76106 1.053169,-15.51355 4.173307,-21.42595 0.450809,-0.85425 0.80562,-3.36461 0.788471,-5.57858 -0.02304,-2.97381 0.495815,-4.74718 1.986088,-6.78826 1.109497,-1.51956 2.826719,-4.3066 3.81605,-6.19342 0.98933,-1.88682 2.968958,-4.09377 4.399174,-4.90433 1.430214,-0.81057 3.833386,-2.77407 5.340381,-4.36335 1.952373,-2.05897 3.151257,-2.71642 4.170714,-2.28715 3.490071,1.46958 4.834718,1.22396 7.579841,-1.38461 2.372202,-2.25419 3.056065,-2.52054 4.36803,-1.7012 1.355157,0.84631 1.70367,0.61674 2.706151,-1.78253 1.883886,-4.50878 9.044346,-11.33183 13.781006,-13.13161 4.54189,-1.72579 6.34492,-1.49785 7.66514,0.96899 1.06407,1.98823 4.14066,2.0156 6.71666,0.0597 2.634582,-2.00032 8.217532,-3.5637 10.548972,-2.95402 1.25156,0.3273 1.86713,1.12159 1.86713,2.40924 0,1.90178 0.0331,1.90794 3.31903,0.61722 1.82547,-0.71707 3.94073,-2.28217 4.70061,-3.47801 0.75987,-1.19584 3.03283,-3.86339 5.05104,-5.9279 2.0182,-2.0645 4.12577,-4.64193 4.68349,-5.72763 0.55773,-1.08569 2.73351,-2.96252 4.83506,-4.17071 5.22615,-3.00454 7.53518,-4.76895 7.37627,-5.63644 -0.37756,-2.06101 0.72992,-3.06303 8.58427,-7.76687 9.86156,-5.90593 17.07857,-8.39747 24.30735,-8.39164 2.81903,0.002 6.81466,-0.53739 8.87916,-1.19923 5.13254,-1.64542 17.74394,-4.26935 18.76822,-3.90494 2.31045,0.82202 7.89197,0.0614 10.45528,-1.42483 2.00077,-1.16003 5.20273,-1.84931 10.39829,-2.23839 4.129,-0.3092 10.13483,-1.09121 13.34628,-1.73778 3.21145,-0.64658 7.71582,-1.18585 10.00971,-1.1984 4.47354,-0.0244 14.72058,-3.18857 14.78825,-4.56635 0.0525,-1.07069 -3.68845,-2.91108 -8.50612,-4.18456 -2.49915,-0.66061 -3.68254,-1.39272 -3.49293,-2.16091 0.15772,-0.639 0.48836,-2.38175 0.73475,-3.87278 0.41065,-2.48507 0.26512,-2.71096 -1.74652,-2.71096 -1.20697,3e-5 -2.1945,-0.28632 -2.1945,-0.63631 0,-0.34999 -0.84237,-1.00688 -1.87195,-1.45975 -3.95634,-1.74026 -1.86794,-3.28965 4.97576,-6.2435 2.73976,-1.18253 4.23147,-2.86866 5.89714,-3.41838 3.38519,-1.11721 11.01848,-4.82596 11.01848,-5.35349 0,-0.18748 -1.88966,-0.90204 -4.19923,-1.5879 -2.30959,-0.68588 -5.34366,-2.06194 -6.74238,-3.05791 l -2.54313,-1.81087 4.86555,-1.63464 c 2.67605,-0.89905 5.52159,-2.22249 6.32342,-2.94099 1.2522,-1.12205 3.4881,-1.23612 15.84871,-0.80853 13.38846,0.46314 14.18987,0.4088 11.50562,-0.78007 l -2.88523,-1.27787 2.05109,-1.62568 c 1.47008,-1.16519 2.9279,-1.52252 5.14648,-1.26147 1.83988,0.21649 3.43784,-0.0484 3.93963,-0.653 0.62787,-0.75654 -0.69984,-1.75049 -5.18077,-3.87843 -3.31374,-1.57366 -6.2203,-3.11925 -6.45902,-3.43463 -0.23873,-0.31538 -1.48125,-0.97157 -2.76116,-1.45819 -2.84773,-1.0827 -2.1796,-2.55617 1.15908,-2.55617 3.25748,0 3.08547,-0.83123 -0.68054,-3.28848 -1.71728,-1.12048 -3.52458,-2.50827 -4.01621,-3.08396 -0.49163,-0.57569 -4.43295,-2.8882 -8.7585,-5.13891 -6.81576,-3.54645 -8.74467,-4.16427 -14.46339,-4.63256 -6.49062,-0.5315 -6.7845,-0.6565 -17.93407,-7.6284 -6.23441,-3.89843 -12.97135,-8.64173 -14.97096,-10.54067 -3.30947,-3.14286 -3.59182,-3.72274 -3.14708,-6.46333 0.26871,-1.65589 0.98384,-3.38731 1.58917,-3.84759 0.60534,-0.46028 1.61248,-2.15066 2.2381,-3.75638 0.62562,-1.60573 1.43853,-3.26194 1.80646,-3.68046 0.90413,-1.02844 9.33379,-2.43887 14.60873,-2.4443 4.59029,-0.005 4.93175,-0.50779 2.60215,-3.83377 -1.06733,-1.52382 -1.18663,-2.30026 -0.48361,-3.14736 1.24302,-1.49774 10.70203,-6.0794 12.55117,-6.0794 0.80394,0 2.38521,-1.46292 3.51393,-3.25093 1.50975,-2.3916 3.11108,-3.63742 6.058,-4.71306 2.20318,-0.80417 6.62622,-2.53185 9.82898,-3.83929 4.10742,-1.67673 7.25763,-2.37715 10.69153,-2.37715 4.65773,0 4.84421,-0.0812 4.31082,-1.87682 -0.83112,-2.7979 -2.7248,-3.98425 -4.98691,-3.1242 -1.05753,0.40207 -6.08611,0.99449 -11.17461,1.31647 -7.05953,0.4467 -9.25182,0.34349 -9.25182,-0.43559 0,-0.56156 -1.34021,-2.65656 -2.97825,-4.65557 -2.76838,-3.37845 -2.93734,-3.90733 -2.39777,-7.50548 0.33929,-2.26252 1.10461,-4.07204 1.84189,-4.35496 0.69377,-0.26623 4.05514,0.33788 7.4697,1.34247 5.25535,1.54614 7.34521,1.74068 13.61515,1.26736 6.89896,-0.52081 7.34959,-0.66616 6.57166,-2.1197 -0.45934,-0.85831 -0.77898,-2.02552 -0.71029,-2.5938 0.0687,-0.56829 -0.12241,-1.78397 -0.42467,-2.70153 -0.47003,-1.42689 -1.14698,-1.62646 -4.67827,-1.37925 -3.69395,0.25861 -4.12872,0.10988 -4.12872,-1.41244 0,-0.93583 0.84457,-2.29641 1.87682,-3.02353 1.37574,-0.96906 1.59846,-1.49591 0.8342,-1.97331 -1.97243,-1.2321 0.92302,-3.80606 4.28146,-3.80606 1.65947,0 3.01723,-0.30029 3.01723,-0.66731 0,-0.36702 1.52205,-0.66731 3.38233,-0.66731 2.72522,0 10.00115,-2.42179 11.55762,-3.84694 0.18834,-0.17245 -0.35804,-1.08758 -1.2142,-2.03361 -1.28242,-1.41707 -1.37948,-2.00372 -0.55097,-3.33037 1.60679,-2.57289 1.18608,-3.84112 -1.53935,-4.640313 -2.33886,-0.68582 -2.44892,-0.87692 -1.35886,-2.35931 0.65238,-0.88716 2.29871,-1.69004 3.65852,-1.78418 1.35981,-0.0942 3.70604,-0.80912 5.21384,-1.58884 2.58539,-1.33695 6.00286,-1.29485 9.68823,0.11935 1.72447,0.66174 1.51094,-2.07929 -0.46369,-5.95241 -0.91062,-1.78613 -1.54513,-3.35805 -1.41004,-3.49316 0.13511,-0.13509 2.28778,0.5319 4.78371,1.48222 l 4.53807,1.72785 1.66252,-2.21815 c 0.91438,-1.21999 2.27194,-3.7894 3.01681,-5.70983 1.0033,-2.58673 2.01514,-3.71343 3.90416,-4.34734 1.40244,-0.47062 3.26502,-1.50288 4.13909,-2.29389 2.17966,-1.97257 3.74163,-1.80537 6.04564,0.64713 2.41422,2.56982 4.65697,2.88426 3.36591,0.47191 -1.32623,-2.47809 -1.18994,-2.55185 3.9126,-2.11766 3.41113,0.29027 7.29434,1.59666 13.58762,4.57119 8.59728,4.06351 8.9995,4.16478 16.54225,4.16478 4.25189,0 9.47296,0.4387 11.60237,0.97488 3.98125,1.00249 8.5451,4.74348 8.5451,7.00441 0,0.68675 0.65689,1.49031 1.45975,1.78571 0.80286,0.29538 2.37698,1.12511 3.49804,1.84383 1.12105,0.71872 3.02196,1.35624 4.22424,1.41671 1.2023,0.0605 3.05592,0.38604 4.11919,0.72351 1.82792,0.58016 1.90359,0.45578 1.38964,-2.28386 -0.54147,-2.88624 -0.53263,-2.89623 2.2898,-2.5852 3.71209,0.40907 7.29121,-2.18357 5.68544,-4.1184 -0.63159,-0.76102 -1.10091,-3.98914 -1.17295,-8.06797 -0.0661,-3.73964 -0.43975,-6.9969 -0.83042,-7.23836 -0.39068,-0.24145 -0.46913,-2.57076 -0.17437,-5.17624 0.65303,-5.77194 -0.65202,-11.15998 -3.66765,-15.14231 -2.70716,-3.57497 -2.52173,-7.32943 0.24844,-5.0304 1.93159,1.60308 3.70498,0.41722 5.52331,-3.69342 1.54418,-3.49089 1.59719,-4.52812 0.79984,-15.65003 -1.0749,-14.99342 -1.06645,-27.5913602 0.0169,-25.25764019 0.42597,0.91754999 2.09293,7.42986999 3.70437,14.47182019 3.72025,16.25736 6.50594,24.63438 9.68087,29.11195 l 2.51362,3.54491 -2.58134,2.35769 c -3.7381,3.41422 -4.65067,7.50147 -2.88281,12.91155 0.77883,2.38342 1.91916,5.32952 2.53404,6.54687 1.51871,3.0067 6.20019,5.74761 10.5201,6.15932 1.96216,0.18701 4.97517,0.57099 6.69559,0.8533 l 3.12803,0.5133 v -4.66111 c 0,-2.56361 0.37537,-4.66111 0.83414,-4.66111 0.45878,0 0.83415,0.32983 0.83415,0.73295 0,1.56829 5.14618,2.82248 9.8302,2.39575 3.6686,-0.33423 7.06365,-1.60988 14.73133,-5.53515 5.48023,-2.80546 10.63743,-5.10083 11.46046,-5.10083 1.56552,0 -14.61835,16.8053 -20.15552,20.92947 l -2.90175,2.16126 -0.23341,7.84845 c -0.12837,4.31665 -0.27042,8.68489 -0.31565,9.707193 -0.0452,1.02231 0.80254,2.94566 1.88394,4.27414 1.08141,1.32846 2.5903,3.56209 3.35309,4.96361 0.95374,1.75234 2.37975,2.82237 4.5657,3.42593 2.82477,0.77996 3.51138,0.64722 6.16521,-1.19189 1.64253,-1.13827 3.24778,-2.0696 3.5672,-2.0696 1.51297,0 0.28431,2.45793 -2.42979,4.86082 -2.75767,2.44145 -2.96161,2.92732 -2.42778,5.78395 0.70658,3.78108 1.7803,5.20395 3.92704,5.20395 3.25013,0 4.62038,1.45057 4.62038,4.89126 0,3.45965 -1.61067,3.05694 -6.86599,6.68447 -1.16935,0.80716 2.75395,2.34224 6.55048,5.40772 3.93201,3.17488 3.54148,3.41726 2.98051,3.57565 -0.72817,0.20561 -1.83267,0.37829 -3.06359,0.45727 l -3.96218,0.25424 -0.25038,3.86784 c -0.31454,4.85875 1.99222,11.84529 5.26544,15.94757 2.77682,3.48015 3.74344,3.88229 3.74344,1.55736 0,-2.21902 1.92739,-3.68008 3.18959,-2.41789 0.53962,0.53963 0.98112,1.66884 0.98112,2.50938 0,0.84053 0.5439,2.82996 1.20865,4.42096 0.91652,2.19353 1.70649,2.89271 3.26836,2.89271 3.5451,0 4.77223,0.80617 3.85003,2.52932 -0.44989,0.84062 -1.5695,1.76693 -2.48804,2.05846 -2.12271,0.67372 -3.57674,3.35114 -2.92872,5.39287 0.27515,0.86691 1.7974,2.34153 3.38278,3.27693 3.10398,1.83139 3.62012,3.44298 1.6313,5.09356 -0.68817,0.57113 -1.25121,1.8849 -1.25121,2.9195 0,1.03459 -0.56305,2.34837 -1.25122,2.9195 -0.68817,0.57113 -1.25121,1.54545 -1.25121,2.16517 0,0.85605 2.59337,7.12118 3.88308,9.38086 0.0895,0.15682 1.50436,-0.20002 3.14414,-0.79297 2.33468,-0.84424 3.20063,-0.85887 3.99202,-0.0675 0.79139,0.7914 0.40854,1.56054 -1.76497,3.54574 -2.67253,2.44097 -2.76193,2.72409 -2.4075,7.62401 0.31293,4.32613 0.72579,5.39658 2.75445,7.14157 2.15732,1.85564 2.40269,2.6086 2.55655,7.84503 0.16896,5.75071 0.15495,5.79056 -1.94748,5.53734 -1.16472,-0.14028 -2.39234,-0.81811 -2.72804,-1.50627 -0.3357,-0.68817 -1.19413,-2.56499 -1.90761,-4.17072 l -1.29723,-2.9195 -0.0534,3.15317 c -0.0294,1.73425 -1.07543,5.48789 -2.32464,8.34143 -3.92971,8.97653 -2.65109,23.64538 2.19515,25.18352 2.17579,0.69057 2.21562,2.80626 0.12953,6.88016 -0.88819,1.73454 -1.874,4.5913 -2.19067,6.34833 -0.55831,3.09766 -0.28106,4.15238 2.63152,10.01074 1.68185,3.38286 1.4842,4.15327 -0.9113,3.55204 -2.45403,-0.61592 -2.49794,-0.3765 -0.76389,4.16406 1.5949,4.1762 5.1622,6.21099 15.4494,8.8124 5.07331,1.28294 8.45774,1.63668 12.73252,1.33082 6.86418,-0.49113 8.27834,-1.71015 7.5158,-6.47876 l -0.49157,-3.07412 3.63244,-0.56547 c 1.99784,-0.31101 5.13389,-1.08351 6.96901,-1.71666 1.83511,-0.63315 6.63786,-1.62214 10.67276,-2.19777 4.03491,-0.57562 7.52918,-1.35884 7.76506,-1.74049 0.9749,-1.57743 2.01113,-0.49274 2.51007,2.6275 0.29212,1.82679 0.84077,3.13004 1.21923,2.89615 0.37846,-0.2339 1.07742,0.30216 1.55324,1.19125 0.47583,0.88909 2.79888,2.73296 5.16234,4.09751 3.59448,2.07525 4.33092,2.90953 4.50336,5.10161 0.14329,1.8215 -0.25419,2.86703 -1.30347,3.42858 -3.20061,1.71291 -5.22103,8.57676 -3.13784,10.65995 1.66811,1.66811 0.12858,1.14497 -5.64605,-1.91853 -4.29901,-2.28067 -6.47382,-2.9195 -9.93905,-2.9195 -3.97539,0 -4.96544,0.3981 -9.53757,3.83503 -2.80594,2.10927 -5.46404,4.51206 -5.9069,5.33953 -0.77312,1.44459 -0.92904,1.44135 -3.91581,-0.0814 -1.71081,-0.8722 -4.49772,-1.58585 -6.19311,-1.58585 -2.65776,0 -3.53764,0.54598 -6.38528,3.96218 -3.31934,3.98205 -8.11816,13.78653 -9.06499,18.52071 -0.39528,1.97638 -0.94872,2.54139 -2.48937,2.54139 -1.78755,0 -1.98109,0.36139 -1.98109,3.69934 0,5.96104 1.05449,7.53961 7.65522,11.45981 4.98102,2.95823 6.7942,3.59808 10.05469,3.54814 2.18779,-0.0335 3.97781,0.24801 3.97781,0.62561 0,0.37759 1.90211,0.68653 4.22692,0.68653 3.76144,0 4.17197,0.17316 3.72785,1.57243 -0.27449,0.86484 -0.073,2.50754 0.44773,3.65043 0.74816,1.64204 0.6859,2.49338 -0.29678,4.05803 -0.68396,1.08902 -1.88394,3.96462 -2.6666,6.39023 -1.3784,4.27186 -1.36951,4.52408 0.28356,8.04085 0.93864,1.99685 1.95163,4.60688 2.2511,5.80007 0.29947,1.19318 2.83832,4.2931 5.64188,6.8887 l 5.0974,4.71929 -4.32383,-0.41546 c -3.66706,-0.35236 -4.58036,-0.14239 -6.01281,1.38239 -1.65425,1.76086 -1.65769,1.85929 -0.16712,4.78294 1.69009,3.31504 4.81409,6.17051 12.11217,11.07104 2.68941,1.8059 5.17999,4.05333 5.53463,4.99429 1.51526,4.02038 3.49233,13.87119 3.02722,15.08324 -0.27824,0.72509 -5.5e-4,2.5173 0.6171,3.98269 1.66492,3.95009 19.8636,28.95998 24.64499,33.86885 3.63923,3.73626 4.0868,4.57684 3.70529,6.95903 -0.39201,2.44782 0.0874,3.23739 4.96457,8.17691 4.74477,4.80539 5.51847,6.04548 6.38943,10.24084 0.71908,3.46379 1.54556,5.13678 3.01248,6.09794 2.4243,1.58846 2.61483,3.28538 0.43297,3.85595 -1.11233,0.29089 -2.78521,-0.79949 -5.58018,-3.63712 -2.19539,-2.22891 -4.11301,-3.93115 -4.26139,-3.78278 -0.14838,0.14837 0.2982,1.62913 0.99239,3.29056 2.13477,5.10922 1.49767,8.81521 -1.07344,6.24411 -0.77853,-0.77854 -1.00301,-0.45415 -1.01015,1.45974 -0.005,1.3534 -0.25444,3.94594 -0.5542,5.76121 -0.43826,2.65401 -0.67006,2.98079 -1.1834,1.66829 -0.50795,-1.29872 -0.65037,-1.08366 -0.69701,1.05259 -0.0408,1.86696 -0.39432,2.55596 -1.16063,2.2619 -0.81038,-0.31097 -1.37309,1.34802 -2.12643,6.26916 -1.60037,10.45427 -3.02001,14.14799 -8.81702,22.94054 -3.98239,6.04026 -5.63631,9.41885 -6.3026,12.87486 -0.49684,2.57708 -1.45152,5.68193 -2.12151,6.89966 -0.66998,1.21773 -1.21816,3.01935 -1.21816,4.0036 0,3.72977 -2.29779,6.39189 -7.55261,8.75012 -2.83129,1.2706 -6.51306,3.24293 -8.18171,4.38295 -2.54116,1.73612 -3.71125,2.00389 -7.2046,1.64876 -2.2939,-0.2332 -4.97694,-0.6767 -5.96233,-0.98557 -1.6082,-0.50408 -1.88683,-0.11764 -2.72154,3.7745 -3.20764,14.95672 -3.497,15.83336 -5.22612,15.83336 -0.92465,0 -2.76732,-0.77338 -4.0948,-1.71863 l -2.4136,-1.71864 0.53628,4.01253 c 0.29496,2.20689 0.7601,4.20021 1.03363,4.4296 0.92039,0.77185 2.58269,4.13854 2.58269,5.23076 0,0.59548 1.15033,1.76221 2.5563,2.59273 1.40596,0.83053 2.96767,2.41291 3.47046,3.51641 0.50279,1.10352 1.26944,2.00639 1.70366,2.00639 0.43422,0 0.58024,0.54531 0.32448,1.21181 -0.27403,0.71412 0.54576,2.06233 1.99611,3.28272 1.35362,1.139 2.46165,2.56434 2.46228,3.16743 6.5e-4,0.6031 1.50158,2.78567 3.33542,4.85018 1.83385,2.0645 3.33478,4.19604 3.33542,4.73674 6.4e-4,0.5407 0.54745,1.52939 1.21515,2.19709 1.57619,1.57618 2.55377,10.30974 1.32036,11.7959 -0.6801,0.81948 -2.93182,1.01961 -8.71632,0.77469 -7.74749,-0.32803 -7.80929,-0.31494 -9.29764,1.96921 -0.82407,1.26469 -2.55802,3.2946 -3.85321,4.51092 -1.42341,1.33673 -2.3549,3.07713 -2.3549,4.3999 0,1.54287 -0.59093,2.41308 -2.00328,2.95005 -1.50451,0.57202 -2.1672,1.6572 -2.66167,4.35861 -0.36212,1.97833 -0.7275,3.87848 -0.81195,4.22256 -0.0845,0.34409 -0.20623,1.09482 -0.2706,1.66829 -0.35893,3.1976 -1.58827,3.39086 -4.78866,0.75284 -1.75463,-1.44631 -3.60412,-2.62966 -4.10998,-2.62966 -1.90927,0 -6.50017,7.68784 -6.68062,11.18723 -0.0967,1.87564 -0.42528,4.01485 -0.73012,4.75379 -0.40357,0.97825 0.22919,1.71529 2.32741,2.71096 1.58492,0.7521 3.66951,1.36744 4.63243,1.36744 2.00218,0 2.15319,0.6518 0.61882,2.671 -0.66868,0.87997 -1.73621,1.2479 -2.8077,0.96769 -3.04504,-0.79629 -4.92019,1.02439 -6.3675,6.18253 -0.75397,2.68716 -1.37086,5.91496 -1.37086,7.17296 0,2.2565 -3.16865,8.8003 -5.57148,11.506 -0.67917,0.7647 -2.16651,4.3242 -3.30519,7.91 -2.27301,7.1577 -2.1347,13.0025 0.39919,16.8697 1.28133,1.9556 1.21733,2.1171 -1.99084,5.025 -1.8231,1.6526 -4.31405,5.22544 -8.08937,12.75075 -3.51422,7.00487 -5.54039,9.83203 -8.6529,14.50045 z"
@@ -436,7 +437,7 @@
      id="path938" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="116.19899"
      y="558.85681"
      id="text1912"
@@ -447,7 +448,7 @@
        y="558.85681">Tuxford</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="443.08386"
      y="119.37241"
      id="text1060"><tspan
@@ -457,7 +458,7 @@
        y="119.37241">Misterton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="355.12396"
      y="262.78259"
      id="text1916"><tspan
@@ -467,7 +468,7 @@
        y="262.78259">Worksop S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="232.86322"
      y="936.85938"
      id="text1064"><tspan
@@ -477,7 +478,7 @@
        y="936.85938">Leake &amp; Ruddington</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="371.7757"
      y="921.72308"
      id="text1068"><tspan
@@ -487,7 +488,7 @@
        y="921.72308">Keyworth</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="132.35329"
      y="862.10876"
      id="text1084"><tspan
@@ -501,7 +502,7 @@
        id="tspan1086">&amp; Attenborough</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
      x="221.36502"
      y="748.70551"
      id="text1228"><tspan
@@ -511,7 +512,7 @@
        y="748.70551">NOTTINGHAM</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="340.10886"
      y="848.48315"
      id="text1232"><tspan
@@ -529,7 +530,7 @@
        id="tspan1236">S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="409.73215"
      y="863.41583"
      id="text1072"><tspan
@@ -539,7 +540,7 @@
        y="863.41583">Cotgrave</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="876.76508"
      y="-140.82037"
      id="text1248"
@@ -550,7 +551,7 @@
        y="-140.82037">West Bridgford W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="864.17981"
      y="37.533768"
      id="text1112"
@@ -565,7 +566,7 @@
        id="tspan1122">&amp; Rylands</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-672.12079"
      y="630.49286"
      id="text1076"
@@ -576,7 +577,7 @@
        y="630.49286">Bingham W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="719.03546"
      y="-459.43332"
      id="text1092"
@@ -587,7 +588,7 @@
        y="-459.43332">Bingham E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="601.41333"
      y="613.10114"
      id="text1282"
@@ -598,7 +599,7 @@
        y="613.10114">West Bridgford N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="97.869736"
      y="727.0899"
      id="text1116"><tspan
@@ -612,7 +613,7 @@
        id="tspan1118">Broxtowe C.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="152.61685"
      y="775.98206"
      id="text1130"><tspan
@@ -626,7 +627,7 @@
        id="tspan1132">Beeston N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-6.8480864"
      y="886.72968"
      id="text1308"
@@ -641,7 +642,7 @@
        id="tspan1310">on Trent</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-664.69159"
      y="491.03214"
      id="text1314"
@@ -652,7 +653,7 @@
        y="491.03214">Carlton E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="371.7861"
      y="727.33191"
      id="text1318"><tspan
@@ -662,7 +663,7 @@
        y="727.33191">Carlton W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="310.44516"
      y="680.95215"
      id="text1322"><tspan
@@ -672,7 +673,7 @@
        y="680.95215">Arnold S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="146.78363"
      y="677.34088"
      id="text1748"><tspan
@@ -686,7 +687,7 @@
        id="tspan1750">Kimberley</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="777.53796"
      y="-302.16498"
      id="text1732"
@@ -697,7 +698,7 @@
        y="-302.16498">Balderton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="522.27826"
      y="360.2261"
      id="text1405"
@@ -713,16 +714,17 @@
   <flowRoot
      xml:space="preserve"
      id="flowRoot1407"
-     style="fill:black;fill-opacity:1;stroke:none;font-family:'Palatino Linotype';font-style:normal;font-weight:normal;font-size:13.33333333px;line-height:1;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Palatino Linotype, Normal';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"><flowRegion
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
        id="flowRegion1409"><rect
          id="rect1411"
          width="169.76723"
          height="71.049461"
          x="-27.326715"
          y="587.70819" /></flowRegion><flowPara
-       id="flowPara1413"></flowPara></flowRoot>  <text
+       id="flowPara1413" /></flowRoot>
+  <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="48.163338"
      y="642.02002"
      id="text1419"><tspan
@@ -732,7 +734,7 @@
        y="642.02002">Eastwood</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="402.21988"
      y="530.23389"
      id="text1744"><tspan
@@ -742,7 +744,7 @@
        y="530.23389">Calverton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="372.32651"
      y="587.70819"
      id="text1431"><tspan
@@ -752,7 +754,7 @@
        y="587.70819">Arnold N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="599.57678"
      y="218.05569"
      id="text1435"
@@ -763,7 +765,7 @@
        y="218.05569">Hucknall W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="322.18201"
      y="520.31824"
      id="text1800"><tspan
@@ -773,7 +775,7 @@
        y="520.31824">Newstead</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="218.27214"
      y="592.14874"
      id="text1447"><tspan
@@ -783,17 +785,17 @@
        y="592.14874">Hucknall S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="260.28696"
      y="552.86664"
      id="text1451"><tspan
        sodipodi:role="line"
        id="tspan1449"
        x="260.28696"
-       y="552.86664">Hucknall E.</tspan></text>
+       y="552.86664">Hucknall N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="652.65002"
      y="-276.98288"
      id="text1756"
@@ -804,7 +806,7 @@
        y="-276.98288">Southwell</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="674.83893"
      y="-319.59689"
      id="text1796"
@@ -815,7 +817,7 @@
        y="-319.59689">Farndon &amp; Trent</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="133.23543"
      y="544.86719"
      id="text1816"><tspan
@@ -825,7 +827,7 @@
        id="tspan1818">Kirkby S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="55.208416"
      y="564.66833"
      id="text1822"><tspan
@@ -835,7 +837,7 @@
        y="564.66833">Selston</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="524.4469"
      y="514.57794"
      id="text1491"><tspan
@@ -849,7 +851,7 @@
        id="tspan1493">W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="679.86865"
      y="-328.69534"
      id="text1497"
@@ -860,7 +862,7 @@
        y="-328.69534">Newark E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="584.05981"
      y="396.30411"
      id="text1543"><tspan
@@ -880,7 +882,7 @@
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="195.44769"
      y="511.83743"
      id="text1549"><tspan
@@ -890,7 +892,7 @@
        y="511.83743">Kirkby N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="106.95782"
      y="483.66867"
      id="text1862"><tspan
@@ -900,7 +902,7 @@
        y="483.66867">Ashfields</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="391.80869"
      y="483.06827"
      id="text1603"><tspan
@@ -910,7 +912,7 @@
        y="483.06827">Blidworth</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="373.40442"
      y="367.43985"
      id="text1607"
@@ -921,7 +923,7 @@
        y="367.43985">Sutton C. &amp; E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="66.468666"
      y="437.98373"
      id="text1868"><tspan
@@ -931,7 +933,7 @@
        id="tspan1870">Sutton W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="571.83435"
      y="349.86267"
      id="text1842"><tspan
@@ -950,7 +952,7 @@
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="281.29855"
      y="434.20633"
      id="text2099"><tspan
@@ -960,7 +962,7 @@
        y="434.20633">Mansfield S.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="380.39236"
      y="392.19421"
      id="text2103"><tspan
@@ -974,7 +976,7 @@
        id="tspan2105">E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="553.7005"
      y="-100.16101"
      id="text1880"
@@ -985,7 +987,7 @@
        y="-100.16101">Sherwood Forest</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="178.26376"
      y="383.2738"
      id="text2169"><tspan
@@ -995,7 +997,7 @@
        y="383.2738">Mansfield W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="76.267311"
      y="395.95401"
      id="text1888"><tspan
@@ -1005,7 +1007,7 @@
        y="395.95401">Sutton N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="273.1163"
      y="334.55576"
      id="text2305"><tspan
@@ -1015,7 +1017,7 @@
        y="334.55576">Mansfield N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="464.94476"
      y="331.86826"
      id="text1904"><tspan
@@ -1025,7 +1027,7 @@
        y="331.86826">Ollerton</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="327.20001"
      y="295.98941"
      id="text1908"><tspan
@@ -1035,7 +1037,7 @@
        y="295.98941">Warsop</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="-153.38501"
      y="446.61481"
      id="text1920"
@@ -1046,7 +1048,7 @@
        y="446.61481">Retford W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="340.37491"
      y="-382.62643"
      id="text1930"
@@ -1057,7 +1059,7 @@
        y="-382.62643">Retford E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="372.32294"
      y="215.65433"
      id="text1924"><tspan
@@ -1067,7 +1069,7 @@
        id="tspan1926">Worksop E.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="275.33279"
      y="198.36002"
      id="text1936"><tspan
@@ -1077,7 +1079,7 @@
        y="198.36002">Worksop W.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="338.38559"
      y="160.0761"
      id="text1936-9"><tspan
@@ -1087,7 +1089,7 @@
        y="160.0761">Worksop N.</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
      x="366.36008"
      y="100.75167"
      id="text1948"><tspan
