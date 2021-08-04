@@ -1,45 +1,51 @@
 "Polling","Council","Ward","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-"2021-07-15","Sandwell","Tividale","Lab","Sandra Hevican","Death",,"andrewteale.me.uk/i1256","Emma Henlan","Robert Hevican","Nicholas Bradley",,,"Richard Gingell (TUSC), Energy Kutebura (Ind)"
-"2021-07-22","Camden","Fortune Green","LD","Flick Rea","Resignation",,"andrewteale.me.uk/i64","Ian Cohen","Lorna Greenwood","Nancy Jirira",,,
-"2021-07-22","Dover","Alkham/Capel-le-Ferne","C","James Rose","Resignation",,"andrewteale.me.uk/i21090","Martin Hibbert","Gordon Cowan","Roben Franklin","Nick Shread",,
-"2021-07-22","Leicester","Humberstone/Hamilton","Ind","John Thomas","Death","Elected as Lab","andrewteale.me.uk/i17490","Daniel Crewe","Abdul Abdul Ghafoor","Bicram Athwal","Pam Bellinger",,"David Haslett (For Britain Movement), Raj Solanki (Reform UK)"
-"2021-07-22","N Somerset","Congresbury/Puxton","LD","Stuart Treadaway","Resignation",,"andrewteale.me.uk/i16869","Samantha Pepperall","Dawn Parry",,"Phil Neve",,
-"2021-07-22","Rhondda Cynon Taf","Tyn-y-nant","Lab","Clayton Willis","Death",,"andrewteale.me.uk/i11231","Rob Green","Julie Barton",,,"Ioan Bellin",
-"2021-07-22","Spelthorne","Staines","Grn","Jan Doerful","Resignation",,"andrewteale.me.uk/i4532","Michael Zenonos",,,"Malcolm Beecher",,"Paul Couchman (TUSC), Gerald Gravett (Reform UK), Paul West (Ind)"
-"2021-07-22","Thanet","Cliftonville E","C","Lesley Game","Resignation",,"andrewteale.me.uk/i4919","Charlie Leys","Don Challinger",,,,"Kanndiss Riley (Women's Equality)"
-"2021-07-22","Wirral","Liscard","Lab","Sarah Spoor","Resignation",,"andrewteale.me.uk/i940","Jane Owens","Daisy Kenny","Sue Arrowsmith","Edward Lamb",,"Gary Bergin (For Britain Movement), Lynda Williams (Ind)"
-"2021-07-29","Basildon","Pitsea NW","Lab","Gavin Callaghan","Resignation",,"andrewteale.me.uk/i3732","Stuart Terson","Aidan McGurran","Martin Howard",,,"Christopher Bateman (For Britain Movement), Jake Hogg (Basildon Community Residents Party), Daniel Tooley (Reform UK)"
-"2021-07-29","Bassetlaw","E Retford S","Lab","Helen Richards","Resignation",,"andrewteale.me.uk/i7697","Mike Introna","James Napier",,,,"Helen Richards (Ind)"
-"2021-07-29","Harrogate","Knaresborough Scriven Park","C","Samantha Mearns","Resignation",,"andrewteale.me.uk/i19292","Jaqui Renton","Sharon Calvert","Hannah Gostlow",,,"Harvey Alexander (UKIP)"
-"2021-07-29","Norfolk CC","Gaywood S","C","Thomas Smith","Resignation",,"andrewteale.me.uk/i7449","Phil Trask","Micaela Bartrum","Rob Colwell",,,"Michael Stone (UKIP), Robin Talbot (Ind)"
-"2021-07-29","S Tyneside","Fellgate/Hedworth","Ind","John Robertson","Resignation","Seeking re-election","andrewteale.me.uk/i1117","Chris Smith","Jay Potts","David Willkinson","Kelly Hill",,"John Robertson (Ind)"
 "2021-08-05","W Lothian","E Livingston/E Calder","Lab","Dave King","Death",,"andrewteale.me.uk/i10540","David Philip","Danny Logue","Hans Edgington","Neal Drummond","Thomas Ullathorne","John Hannah (Independence for Scotland Party)"
-"2021-08-12","E Suffolk","Orwell/Villages","C","Melissa Allen","Resignation",,"andrewteale.me.uk/i21037",,,,,,
-"2021-08-12","Highland","Inverness W","Ind","Graham Ross","Resignation",,"andrewteale.me.uk/i18430",,,,,,
-"2021-08-12","Highland","Wick/E Caithness","Ind","Nicola Sinclair","Resignation",,"andrewteale.me.uk/i18420",,,,,,
-"2021-08-12","N Ayrshire","Dalry/W Kilbride","SNP","Joy Brahim","Resignation",,"andrewteale.me.uk/i18465",,,,,,
-"2021-08-12","S Lakeland","Grange","LD","Dave Khan","Resignation",,"andrewteale.me.uk/i19847",,,,,,
-"2021-08-12","Tower Hamlets","Weavers","Lab","John Pierce","Death",,"andrewteale.me.uk/i12733",,,,,,
-"2021-08-19","Aberdeenshire","M Formartine","SNP","Karen Adam MSP","Resignation",,"andrewteale.me.uk/i18283",,,,,,
-"2021-08-19","E Riding","E Wolds/Coastal","C","John Lisseter","Resignation",,"andrewteale.me.uk/i2950",,,,,,
-"2021-08-19","Ribble Vy","Littlemoor","LD","Susan Knox","Resignation",,"andrewteale.me.uk/i19909",,,,,,
-"2021-08-19","Ribble Vy","Primrose","LD","Allan Knox","Resignation",,"andrewteale.me.uk/i19911",,,,,,
-"2021-08-19","Wilts","PCC","C","Jonathan Seed","Disqualification","Previous conviction",,,,,,,
-,"Calderdale","Ryburn","Ind","Robert Holden","Resignation",,"andrewteale.me.uk/i1358",,,,,,
-,"Cumbria CC","Corby/Hayton","Ind","William Graham","Resignation",,"andrewteale.me.uk/i13694",,,,,,
-,"Dover","Sandwich","C","Michael Holloway","Resignation",,"andrewteale.me.uk/i21102",,,,,,
+"2021-08-12","E Suffolk","Orwell/Villages","C","Melissa Allen","Resignation",,"andrewteale.me.uk/i21037","Mick Richardson","David Rowe","Michael Ninnmey",,,
+"2021-08-12","Highland","Inverness W","Ind","Graham Ross","Resignation",,"andrewteale.me.uk/i18430","Max Bannerman",,"Colin Aitken","Ryan Mackintosh","Kate Maclean","Iain Forsyth (Independence for Scotland Party), Calum Liptrot (Libertarian), Duncan McDonald (Ind)"
+"2021-08-12","Highland","Wick/E Caithness","Ind","Nicola Sinclair","Resignation",,"andrewteale.me.uk/i18420","Daniel Ross",,"Jill Tilt",,"Michael Cameron","Harry Christian (Libertarian), Bill Fernie (Ind)"
+"2021-08-12","N Ayrshire","Dalry/W Kilbride","SNP","Joy Brahim","Resignation",,"andrewteale.me.uk/i18465","Ronnie Stalker","Valerie Reid","Ruby Kirkwood",,"Robyn Graham","James McDaid (Soc Lab), John Willis (Ind)"
+"2021-08-12","S Lakeland","Grange","LD","Dave Khan","Resignation",,"andrewteale.me.uk/i19847","Steve Chambers","Patricia Wright","Fiona Hanlon","Robin le Mare",,
+"2021-08-12","Tower Hamlets","Weavers","Lab","John Pierce","Death",,"andrewteale.me.uk/i12733","Elliott Weaver","Nasrin Khan","Emanuel Andjelic","Nathalie Bienfait",,"Kabir Ahmed (Aspire), Hugo Pierre (TUSC)"
+"2021-08-19","Aberdeenshire","M Formartine","SNP","Karen Adam MSP","Resignation",,"andrewteale.me.uk/i18283","Sheila Powell",,"Jeff Goodhall","Peter Kennedy","Jenny Nicol",
+"2021-08-19","Dover","Sandwich","C","Michael Holloway","Resignation",,"andrewteale.me.uk/i21102","Dan Friend",,"Anne Fox",,,
+"2021-08-19","E Riding","E Wolds/Coastal","C","William Lisseter","Death",,"andrewteale.me.uk/i2950","Charlie Dewhirst","Daniel Vulliamy","Peter Astell","John Scullion",,"Kim Thomas (Yorkshire Party)"
+"2021-08-19","Ribble Vy","Littlemoor","LD","Susan Knox","Resignation",,"andrewteale.me.uk/i19909","Jimmy Newhouse","Mandy Pollard","Gaynor Hewitt","Anne Peplow",,
+"2021-08-19","Ribble Vy","Primrose","LD","Allan Knox","Resignation",,"andrewteale.me.uk/i19911","Katei Blezard","Michael Graveston","Kerry Fletcher","Malcolm Peplow",,
+"2021-08-19","Rutland","Oakham S","C","Nick Woodley","Resignation",,"tinyurl.com/3twv4s5b","Andy Burton",,"Paul Browne",,,
+"2021-08-19","Wilts","PCC","C","Jonathan Seed","Disqualification","Previous conviction",,"Philip Wilkinson","Junab Ali","Brian Mathew",,,"Julian Malins (Reform UK), Mike Rees (Ind)"
+"2021-08-26","Cumbria CC","Corby/Hayton","Ind","William Graham","Resignation",,"andrewteale.me.uk/i13694",,,,,,
+"2021-08-26","Medway","Princes Park","C","Tashi Bhutia","Death",,"andrewteale.me.uk/i2098",,,,,,
+"2021-08-26","Medway","Strood N","Ind C","Steve Iles","Death","Elected as C","andrewteale.me.uk/i2106",,,,,,
+"2021-08-26","Newport","Graig","C","Margaret Cornelious","Resignation",,"andrewteale.me.uk/i11238",,,,,,
+"2021-09-02","Calderdale","Park","Lab","Mohammed Naeem","Death",,"andrewteale.me.uk/i1356",,,,,,
+"2021-09-02","Calderdale","Ryburn","Ind","Robert Holden","Resignation",,"andrewteale.me.uk/i1358",,,,,,
+"2021-09-02","Ches E","Wilmslow Dean Row","Res of Wilmslow","Toni Fox","Resignation",,"andrewteale.me.uk/i10970",,,,,,
+"2021-09-09","N Tyneside","Camperdown","Lab","Ray Glindon","Death",,"andrewteale.me.uk/i1093",,,,,,
+"2021-09-09","S Tyneside","Cleadon/E Boldon","Ind","Jeff Milburn","Disqualification","4 months imprisonment suspended, knife offence; elected as C","andrewteale.me.uk/i1115",,,,,,
+,"Bolton","Bromley Cross","C","David Greenhalgh","Death","Leader of the Council","andrewteale.me.uk/i628",,,,,,
+,"Carlisle","Currock/Upperby","UKIP","John Denholm","Death",,"andrewteale.me.uk/i21166",,,,,,
+,"E Hants","Horndean Downs","C","Tony Denton","Resignation",,"tinyurl.com/ywr9pj7b",,,,,,
 ,"Ealing","Hobbayne","Lab","Lewis Cox","Resignation",,"andrewteale.me.uk/i88",,,,,,
+,"Epsom/Ewell","Cuddington","Res Assoc of Cuddington","Rob Foote","Death","Brands Hatch","andrewteale.me.uk/i4438",,,,,,
+,"Falkirk","Falkirk S","Lab","Pat Reid","Resignation",,"andrewteale.me.uk/i18370",,,,,,
+,"Flintshire","Penyffordd","Ind","Dave Williams","Death",,"andrewteale.me.uk/i11772",,,,,,
+,"Hammersmith/Fulham","Wormholt/White City","Lab","Colin Aherne","Death",,"andrewteale.me.uk/i156",,,,,,
+,"Harrow","Pinner S","C","Chris Mote","Death",,"andrewteale.me.uk/i189",,,,,,
 ,"Lancaster","Bare","C","Stephie Barber","Death",,"andrewteale.me.uk/i16647",,,,,,
 ,"Malvern Hills","Tenbury","C","Tony Penn","Resignation",,"andrewteale.me.uk/i5543",,,,,,
-,"Medway","Princes Park","C","Tashi Bhutia","Death",,"andrewteale.me.uk/i2098",,,,,,
-,"Medway","Strood N","Ind C","Steve Iles","Death","Elected as C","andrewteale.me.uk/i2106",,,,,,
 ,"Middlesbrough","Ladgate","Ind","June Goodchild","Death","Elected as Lab","andrewteale.me.uk/i17162",,,,,,
-,"N Tyneside","Camperdown","Lab","Ray Glindon","Death",,"andrewteale.me.uk/i1093",,,,,,
 ,"Newcastle (Tyne)","Castle","LD","Anita Lower","Death",,"andrewteale.me.uk/i19621",,,,,,
-,"Newport","Graig","C","Margaret Cornelious","Resignation",,"andrewteale.me.uk/i11238",,,,,,
 ,"Renfs","Paisley SE","Ind","Paul Mack","Disqualification","Standards Commission for Scotland","andrewteale.me.uk/i18508",,,,,,
-,"Rutland","Oakham S","C","Nick Woodley","Resignation",,"tinyurl.com/3twv4s5b",,,,,,
 ,"S Derbys","Seales","Ind","Amy Wheelton","Resignation","Elected as C","andrewteale.me.uk/i11162",,,,,,
+,"S Lakeland","Kendal N","LD","Jon Owen","Resignation","Joined Grn","andrewteale.me.uk/i19849",,,,,,
+,"Sheffield","Firth Park","Lab","Alan Law","Resignation","Health","andrewteale.me.uk/i16418",,,,,,
+,"Somerset CC","Comeytrowe/Trull","LD","Alan Wedderkopp","Death",,"andrewteale.me.uk/i14578",,,,,,
+,"Sunderland","Hetton","Lab","Doris Turner","Death",,"andrewteale.me.uk/i1135",,,,,,
+,"SWAT","Wilton/Sherford","LD","Alan Wedderkopp","Death",,"andrewteale.me.uk/i20931",,,,,,
 ,"Tewkesbury","Brockworth E","Ind","Sara Stevens","Resignation",,"tinyurl.com/3x93h459",,,,,,
 ,"Torfaen","Blaenavon","Lab","Alan Jones","Resignation",,"andrewteale.me.uk/i11456",,,,,,
+,"W Suffolk","The Rows","Ind","John Smith","Death",,"andrewteale.me.uk/i21085",,,,,,
+,"Walsall","Pleck","Lab","Harbans Singh Sarohi","Death",,"andrewteale.me.uk/i1290",,,,,,
 ,"Waverley","Cranleigh E","LD","Richard Cole","Resignation",,"andrewteale.me.uk/i4577",,,,,,
+,"Wigan","Leigh W","Lab","Lord Smith of Leigh","Death",,"andrewteale.me.uk/i828",,,,,,
+,"Wrexham","Gresford E/W","C","Andrew Atkinson","Resignation",,"andrewteale.me.uk/i11250",,,,,,
