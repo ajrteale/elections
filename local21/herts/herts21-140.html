@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+
+<html lang="en-gb">
+
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1' /><meta name="DC.title"  content="Election results for Kings Langley (15), 6 May 2021"/>
+<meta name="DC.description"  content="Election results giving voting statistics per candidate"/>
+<meta name="DC.date" scheme="W3CDTF"  content="2021-05-06"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Government, politics and public administration"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Local government"/>
+<meta name="DC.subject" scheme="eGMS.IPSV"  content="Decision making"/>
+
+<link type="text/css" href="jquery-ui/css/Smoothness/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" /> 
+<link type="text/css" href="jquery-ui/Add-ons/mg.jqueryaddons.css" rel="stylesheet" /> 
+	<meta charset="utf-8">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-N39BPV');</script>
+<!-- End Google Tag Manager -->
+
+	
+	<link rel="stylesheet" href="SiteSpecific/ssMgStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssWordStyles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="SiteSpecific/ssmgResponsive.css" type="text/css" media="all" />
+<title> Election results for Kings Langley (15), 6 May 2021 | Hertfordshire County Council </title>
+	<meta name="Description" content="Welcome to Hertfordshire County Council. Find out more about the council and the services we provide." />
+	
+		
+	<link href="https://www.hertfordshire.gov.uk/statweb/moderngov-dev/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.hertfordshire.gov.uk/statweb/moderngov-dev/modernGovStyle.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="https://www.hertfordshire.gov.uk/siteelements/js/vendor/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://www.hertfordshire.gov.uk/siteelements/js/vendor/modernizr-2.8.3.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--
+		{settings
+			(nav-parent-start: <ul>)
+			(nav-parent-end: </ul>)
+			(nav-before-item: <li>)
+			(nav-after-item: </li>)
+			(nav-normal-class: list-group-item)
+			(nav-active-class: list-group-item active)
+		}
+	-->
+
+		<p><a class="skipnav" title="Skip the navigation to the content of the page" href="#skipnavlanding">Skip to content</a></p>
+
+		<div class="push-wrapper-inner">
+
+			<header>
+				<div class="container">
+					<div class="header"><a title="Homepage" class="sys_16" href="/">Hertfordshire</a></div>
+					  <div class="block search search--home">
+    <div class="autocompleteWrapper">
+      <label class="visuallyhidden" for="search-field">Search</label>
+      <input autocomplete="off" id="search-field" style="border:white; border-style:solid; border-width:3px;" maxlength="255" name="query" placeholder="Search..." type="text" data-profile="_default">
+
+      <input id="Submit" name="Submit" type="hidden" value="Go" />
+      <a class="searchButton" style="border:#e67328; border-style:solid; border-width:3px;" id="search-submit" href="https://www.hertfordshire.gov.uk/search/search-results.aspx?profile=_default"><em>Search</em></a>    
+    </div>
+  </div>
+  <script>
+    function killEvent(e){e&&e.stopPropagation&&e.stopPropagation(),window.event&&window.event.cancelBubble&&(window.event.cancelBubble=!0),e&&e.preventDefault&&e.preventDefault(),window.event&&(window.event.returnValue=!1)}
+    $('div.autocompleteWrapper').on('click', 'ul.ui-autocomplete > li.ui-menu-item', function(e){     
+    	window.location.href = $(this).find('a').attr("href");
+  	});
+    $("#search-field").keydown(function(e)
+	{
+  	 	if(e.keyCode === 13)
+        {
+            e.preventDefault();
+			document.getElementById("search-submit").click();
+        }
+    });
+    $("#search-submit").click(function(e)
+	{
+      	killEvent(e);
+        var url = $(this).attr("href") + "&query=" + $("#search-field").val();
+        window.location.href = url; 
+	});
+        
+  var LiveSearch = (function ($) {
+      "use strict";
+
+      // private alias to settings
+      var s;
+
+      return {
+          settings: function() {
+              this.$searchCont    = $('.autocompleteWrapper');
+              this.$searchInput   = $('#search-field');
+              this.$searchResults = null;
+              this.noResultsTxt   = 'There are no results that match your criteria.'
+              this.minCharaters   = 2;
+              this.resultsCount   = 5;
+              this.basePath = 'https://www.hertfordshire.gov.uk/search/search-results.aspx?profile=_default' + '&query=';
+          },
+
+          init: function() {
+              s = new this.settings();
+
+              this.setup();
+              this.bindUIActions();
+              this.navigateResults();
+          },
+          setup: function() {
+              // build live results container
+              s.$searchCont.append(
+                  $('<ul/>', {
+                      'class' : 'ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'
+                  })
+                );
+
+
+              s.$searchResults = $('.ui-autocomplete');
+              s.$searchResults.hide();
+          },
+          addResultToList: function(node, count) {
+              if(node) {
+                  var path = s.basePath + node;
+
+                  return $('<li class="ui-menu-item">').html('<a tabindex="'+ count +'" href="' + path + '">' + node + '</a>').appendTo(s.$searchResults);
+              }
+          },
+          bindUIActions: function() {
+              var timer;
+
+              // Search input on keyup (typing in the input box)
+              s.$searchInput.on('keyup', function(e) {
+                  var $this = $(this);
+                  var key = e.which;
+
+                  // Down arrow key focus on the first item in the results
+                  if (key == 40) {
+                      s.$searchResults.find('li:first a').focus();
+                  } else {
+                      // Esc key
+                      if (key == 27 || $this.val().length <= s.minCharaters) {
+                          s.$searchResults.hide();
+                      }                  
+                    else if($this.val() !== '' && $this.val() != $this.attr('placeholder') && $this.val().length > s.minCharaters) {
+                          // Add in a loader
+						  
+                          clearTimeout(timer);
+
+                          // wait for 200 milliseconds (prevents flashing constantly between loader and results)
+
+                            timer = setTimeout(function(){
+                                $.get('//hertfordshirecc.funnelback.co.uk/s/suggest.json', { collection: 'hcc-web', profile: '__default', partial_query: $this.val() }).then(function(data) {
+                                    // Empty out the current contents                                    
+                                    // If we have results add them in else show a no results message
+                                    if(data.length > 0) 
+                                    {
+                                      	s.$searchResults.empty();
+                                      	s.$searchResults.show();
+                                        for (var i = 0; i < data.length; i++) {
+                                            LiveSearch.addResultToList(data[i], i);
+                                        }
+                                    } 
+                                    else 
+                                    {
+                                      	s.$searchResults.hide();
+                                    }
+                                });                          
+                            }, 200);                        
+                      }
+                  }
+              });
+          },
+          navigateResults: function() {
+              // down and up arrow key - go through the search results
+              $(document).on('keydown', '.ui-autocomplete li a', function(e) {
+                  var key = e.which;
+
+                  // down arrow key
+                  if (key == 40) {
+                      e.preventDefault();
+                      $(':focus').parent().next().find('a').focus();
+                  }
+
+                  // up arrow key
+                  if (key == 38) {
+                      e.preventDefault();
+                      $(':focus').parent().prev().find('a').focus();
+                  }
+              });
+          }
+      };
+  })(jQuery);
+
+
+  jQuery(document).ready(function() {
+      LiveSearch.init();
+  }); 
+  </script>
+
+					<h1 class="hcc">Hertfordshire County Council</h1>
+					<!-- easy read navigation -->
+					<div id="easyReadNav">
+						<div class="easyReadHome"><a title="go to the Hertfordshire home page" class="sys_16" href="/">Go to home page</a></div>
+					</div>
+				</div>
+			</header>
+
+				<div class="content loaded">
+                <nav aria-label="Breadcrumb" style="background-color: #333">   
+                    <div class="row">
+                       <div class="MG-BC" style="color:white">
+                          <ul>
+                              Election results, Kings Langley (15)
+                          </ul>
+                       </div>
+                    </div>
+                </nav>
+					
+                    
+					<div class="row container">
+					   <div style="margin-top: 40px;">
+					   <div id="mobileOnlySideNav">
+							<div class="MG-MobileSideNav" id="MG-MobileSideNav" aria-expanded="false" role="button">Section Menu</div>
+							<div class="MG-sideNav" id="mobileSideBar" style="display: none;">
+							  <ul>
+								 <li><a title="Link to County Council Constitution" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/who-we-are-and-what-we-do/who-we-are-and-what-we-do.aspx" target="_blank">County Council Constitution</a> </li>
+								 <li><a title="Link to County Councillors" class=" list-group-item" href="mgMemberIndex.aspx?bcr=1">County Councillors</a> </li>
+								 <li><a title="Link to Executive members and Group Leaders" class=" list-group-item" href="mgListExecPosts.aspx?bcr=1">Executive Members and Group Leaders</a> </li>
+								 <li><a title="Link to calendar of council meetings" class=" list-group-item" href="mgCalendarMonthView.aspx?GL=1&amp;bcr=1">Calendar of Council meetings</a> </li>
+								 <li><a title="Link to Cabinet and Committees" class=" list-group-item" href="mgListCommittees.aspx?bcr=1">Cabinet and Committees</a> </li>
+								 <li><a title="Link to Forward Plan of Key Decisions" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/how-we-make-decisions/decisions.aspx" target="_blank">Decisions</a> </li>
+								 <li><a title="Link to committee meetings" class="list-group-item active" href="ieDocHome.aspx?bcr=1">Meetings</a> </li>
+								 <li><a title="Link to Elections" class=" list-group-item" href="https://www.hertfordshire.gov.uk/About-the-council/How-the-council-works/County-Council-elections.aspx" target="_blank">Elections</a> </li>
+								 <li><a title="Link to outside bodies" class=" list-group-item" href="mgListOutsideBodies.aspx?bcr=1">Outside bodies</a> </li>
+								 <li><a title="Link to document search" class=" list-group-item" href="ieDocSearch.aspx?bcr=1">Document Search</a> </li>
+								 <li><a title="Link to subscribe to updates" class="list-group-item" href="mgRegisterKeywordInterest.aspx?bcr=1">Subscribe to updates</a></li>
+								 <li><a title="Link to Petitions" class=" list-group-item" href="mgEPetitionListDisplay.aspx?bcr=1">Petitions</a> </li> 
+								 <li><a title="Link to Webcasts" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/how-we-make-decisions/watch-meetings.aspx">Webcasts</a> </li> 
+							</ul>
+							</div>
+					   </div>
+                         <div class="small-3 column MG-SideBar">
+							<div class="MG-sideNav">
+								<ul>
+								 <li><a title="Link to County Council Constitution" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/who-we-are-and-what-we-do/who-we-are-and-what-we-do.aspx" target="_blank">County Council Constitution</a> </li>
+								 <li><a title="Link to County Councillors" class=" list-group-item" href="mgMemberIndex.aspx?bcr=1">County Councillors</a> </li>
+								 <li><a title="Link to Executive members and Group Leaders" class=" list-group-item" href="mgListExecPosts.aspx?bcr=1">Executive Members and Group Leaders</a> </li>
+								 <li><a title="Link to calendar of council meetings" class=" list-group-item" href="mgCalendarMonthView.aspx?GL=1&amp;bcr=1">Calendar of Council meetings</a> </li>
+								 <li><a title="Link to Cabinet and Committees" class=" list-group-item" href="mgListCommittees.aspx?bcr=1">Cabinet and Committees</a> </li>
+								<li><a title="Link to Forward Plan of Key Decisions" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/how-we-make-decisions/decisions.aspx" target="_blank">Decisions</a> </li>
+								 <li><a title="Link to committee meetings" class="list-group-item active" href="ieDocHome.aspx?bcr=1">Meetings</a> </li>
+								  <li><a title="Link to Elections" class=" list-group-item" href="https://www.hertfordshire.gov.uk/About-the-council/How-the-council-works/County-Council-elections.aspx" target="_blank">Elections</a> </li>
+								 <li><a title="Link to outside bodies" class=" list-group-item" href="mgListOutsideBodies.aspx?bcr=1">Outside bodies</a> </li>
+								 <li><a title="Link to document search" class=" list-group-item" href="ieDocSearch.aspx?bcr=1">Document Search</a> </li>
+								 <li><a title="Link to subscribe to updates" class="list-group-item" href="mgRegisterKeywordInterest.aspx?bcr=1">Subscribe to updates</a></li>
+								 <li><a title="Link to Petitions" class=" list-group-item" href="mgEPetitionListDisplay.aspx?bcr=1">Petitions</a> </li> 
+								  <li><a title="Link to Webcasts" class=" list-group-item" href="https://www.hertfordshire.gov.uk/about-the-council/freedom-of-information-and-council-data/open-data-statistics-about-hertfordshire/how-we-make-decisions/watch-meetings.aspx">Webcasts</a> </li> 
+							</ul>
+							</div>
+                           </div>
+                           </div>
+                        
+                            <div class="small-9 column">
+				
+
+						                <div id="skipnavlanding" class="MG-Content"><div id="modgov"><div class="mgHeader"><h1  class="mgMainTitleTxt" >Election results for Kings Langley &#40;15&#41;</h1></div>
+				
+			<div class="mgSubTitle" >	
+	    <h2 class="mgSubTitleTxt">County Council - Thursday, 6 May 2021</h2>
+        </div>
+			
+<script type="text/javascript">
+	if(window.$ModernGov === undefined)
+	{
+		Object.defineProperty(window, "$ModernGov", { value: {} });
+		Object.defineProperty($ModernGov, "Settings", {value: {} });
+		Object.defineProperty($ModernGov, "Translations", {value: {} });
+		Object.defineProperty($ModernGov.Settings, "DisableDateTimePickers", { value: false });
+
+	}
+</script>
+	<div class="mgLinks" >
+	<ul  class="mgActionList" >
+	<li><span  class="mgLabel" >Status: </span>Published</li>
+	<li><a  href="mgElectionResults.aspx?ID=9&amp;RPID=8666081"  title="County&#32;Council - results by party" >County&#32;Council - results by party</a></li>
+
+    <li><a  href="mgElectionAreaResults.aspx?ID=47&amp;V=0&amp;RPID=8666081"  title="Link&#32;to&#32;view&#32;previous&#32;elections&#32;results&#32;for&#32;Kings&#32;Langley&#32;&#40;15&#41;"> Previous results for Kings Langley &#40;15&#41; </a></li>
+
+    	    <li><a  href="mgElectionAreaResults.aspx?ID=140&amp;V=2&amp;RPID=8666081"  title="Link&#32;to&#32;compare&#32;with&#32;previous&#32;results&#32;for&#32;Kings&#32;Langley&#32;&#40;15&#41;"> Summary of comparison with previous results for Kings Langley &#40;15&#41;</a></li>
+
+	</ul>
+</div>
+<div class="mgContent" >
+	<p></p>
+	<form   action="mgElectionAreaResults.aspx"  method = "post" id="mgFormSelect">
+    
+<div class="mgHiddenField" >
+<input type="hidden" name="XTCNID" id="XTCNID" value="8666082" /> 
+</div>
+
+	<div class="mgHiddenField" >
+    <input type="hidden" name="hElectionId"  value="9" />	
+    <input type="hidden" name="hElectionAreaId"  value="140" />	
+    <input type="hidden" name="hThisPageID"  value="8666081" id="Hidden4"/>
+    <input type="hidden" name="RPID"  value="8665935" id="Hidden2"/>
+	</div>
+	
+	
+	<table class="mgStatsTable tablesorter"  summary="Table of results for Divisions ">
+		<caption  class="mgSectionTitle" >Kings Langley &#40;15&#41; - results</caption>
+		<tr>
+			<th scope="col"  class="mgMainTxtBold" >Election Candidate</th>
+			<th scope="col"  class="mgMainTxtBold" >Party</th>
+			<th scope="col"  class="mgMainTxtBold" >Votes</th>
+
+		        <th scope="col"  class="mgMainTxtBold" >%</th>
+
+				<th scope="col"  class="mgMainTxtBold" >Outcome</th>
+
+		</tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:DodgerBlue" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> <a  href="mgUserInfo.aspx?UID=192&amp;RPID=8666081"  title='Link&#32;to&#32;councillor&#32;details&#32;for&#32;Richard&#32;Roberts'>Richard Roberts</a></td>
+					<td   class="mgBottomText"  >&#40;Conservative&#41;</td>
+				    <td  class="mgAlignRightCell"  >2472</td>
+
+		                <td  class="mgAlignRightCell"  >62&#37;</td>
+			
+
+					<td   class="mgMainTxtBold" >Elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Green" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Ashley Steven Lawrence</td>
+					<td   class="mgBottomText"  >&#40;Green Party&#41;</td>
+				    <td  class="mgAlignRightCell"  >616</td>
+
+		                <td  class="mgAlignRightCell"  >15&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableOddRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Rob Eilbeck</td>
+					<td   class="mgBottomText"  >&#40;Labour&#41;</td>
+				    <td  class="mgAlignRightCell"  >523</td>
+
+		                <td  class="mgAlignRightCell"  >13&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+			<tr  class="mgTableEvenRow" >
+				<td  class="mgTopText"  ><span style="display: inline; background-color:Orange" ><img alt="" src="mgImages/pixel.gif" width="8" height="15" /></span> Dominic Felix Sokalski</td>
+					<td   class="mgBottomText"  >&#40;Liberal Democrats&#41;</td>
+				    <td  class="mgAlignRightCell"  >369</td>
+
+		                <td  class="mgAlignRightCell"  >9&#37;</td>
+			
+
+					<td   class="mgTopText"  >Not elected</td>
+
+    	    </tr>
+
+	</table>
+		
+	    <table class="mgStatsTable tablesorter"  summary="Voting summary table">
+		    <caption  class="mgSectionTitle" >Voting Summary</caption>
+		    <tr>
+			    <th scope="col"  class="mgMainTxtBold" >Details</th>
+			    <th scope="col"  class="mgMainTxtBold" >Number</th>
+		    </tr>
+    
+		        <tr  class="mgTableOddRow" >
+			        <td  class="mgTopText"  >Seats</td>				
+			        <td  class="mgAlignRightCell"  >1</td>
+		        </tr>
+    
+		        <tr  class="mgTableEvenRow" >
+			        <td  class="mgTopText"  >Total votes</td>				
+			        <td  class="mgAlignRightCell"  >3980</td>
+		        </tr>
+    
+		        <tr  class="mgTableOddRow" >
+			        <td  class="mgTopText"  >Electorate</td>				
+			        <td  class="mgAlignRightCell"  >10830</td>
+		        </tr>
+    
+		        <tr  class="mgTableEvenRow" >
+			        <td  class="mgTopText"  >Number of ballot papers issued</td>
+			        <td  class="mgAlignRightCell"  >4014</td>
+		        </tr>
+    
+		        <tr  class="mgTableOddRow" >
+			        <td  class="mgTopText"  >Number of ballot papers rejected</td>				
+			        <td  class="mgAlignRightCell"  >34</td>
+		        </tr>
+    
+		        <tr  class="mgTableEvenRow" >
+			        <td  class="mgTopText"  >Turnout</td>
+			        <td  class="mgAlignRightCell"  >37&#37;</td>
+		        </tr>
+
+    
+		    <tr  class="mgTableOddRow" >
+			    <td></td>
+			    <td></td>
+		    </tr>
+	    </table>
+
+	<table class="mgStatsTable tablesorter"  summary="Percentage share of votes graph">
+		<caption  class="mgSectionTitle" >Share of the votes (%)</caption>
+
+			<tr>
+		        <td   class="mgBottomText"  >Richard Roberts</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:DodgerBlue" ><img alt="" src="mgImages/pixel.gif" width="155" height="15" /></span> 62&#37;</td>
+
+					<td   class="mgBottomText"  >Elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Ashley Steven Lawrence</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Green" ><img alt="" src="mgImages/pixel.gif" width="38" height="15" /></span> 15&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Rob Eilbeck</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Red" ><img alt="" src="mgImages/pixel.gif" width="32" height="15" /></span> 13&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+			<tr>
+		        <td   class="mgBottomText"  >Dominic Felix Sokalski</td>
+				<td  class="mgBottomText"  ><span style="display: inline; background-color:Orange" ><img alt="" src="mgImages/pixel.gif" width="23" height="15" /></span> 9&#37;</td>
+
+					<td   class="mgBottomText"  >Not elected</td>
+
+			</tr>
+
+	</table>
+
+			<div id="mgGraphHolder" style="width: 100%; max-width: 100%; height: auto; min-height: 400px;">
+				<noscript>
+					<img alt="Results graph" src="tempgraphics/de2f1962-a818-4441-be48-5cc91a8a49f7.Png"/>
+				</noscript>
+			</div>
+			<table class="mgStatsTable tablesorter"  summary="Table of rejected ballot papers"><caption  class="mgSectionTitle" >Rejected ballot papers</caption><tr><th scope="col"  class="mgMainTxtBold" >Description</th><th scope="col"  class="mgMainTxtBold" >Number</th></tr><tr  class="mgTableOddRow" ><td  class="mgTopText"  >Spoilt</td><td class="mgAlignRightCell"  >34</td></tr><tr  class="mgTableEvenRow" ><td  class="mgTopText"  >Total rejected</td><td class="mgAlignRightCell"  >34</td></tr></table>
+
+	<div class="mgSubmitRow" >
+		<input  class="mgSubmitButton"  type="submit" name="Continue" value="Continue" id="Submit1"/>
+	</div>
+
+	</form>
+<div class="mgHelpLine" >	
+</div>	
+</div>
+<div class="mgFooter" >		
+
+	<p>&nbsp;</p>
+
+<input type="hidden" value="true" id="hidIsExtLinkNewWindow" name="hidIsExtLinkNewWindow"/>
+
+
+    <script src="edit-doc-activex.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="jquery-ui/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.2.custom.min.js"></script>
+
+    <script type="text/javascript">
+	var mgJQuery = jQuery.noConflict(true);
+        var thisFormValidator;
+    </script>
+
+    <script type="text/javascript" src="jquery-ui/json/json2.js"></script>
+    <script type="text/javascript" src="jquery-ui/Add-ons/mg.jqueryaddons.min.js"></script>
+    <script type="text/javascript" src="mgAjaxScripts.js"></script> 
+    
+	    <script type="text/javascript" src="mgGraphScripts.js"></script> 
+          
+    <script type="text/javascript">
+        function CommonAjaxInit()
+        {
+            Common_DocumentReady(false, 0);	// FB16622 - Default changed from Mark T's original to 0 thereby disabling it if no value set.
+        }
+
+        mgJQuery(document).ready(CommonAjaxInit);
+
+        //FB39842 RBFRS Website - Modern.Gov Councillors Page. JK
+        mgJQuery(window).on('load', function ()
+        {
+            Common_WindowLoad();
+        });
+
+    </script>  
+</div>
+<script>
+    function RenderAllGraphs()
+    {
+        createPieChart("[{'Label' : 'Richard Roberts','Value' : '62','Color' : 'DodgerBlue'},{'Label' : 'Ashley Steven Lawrence','Value' : '15','Color' : 'Green'},{'Label' : 'Rob Eilbeck','Value' : '13','Color' : 'Red'},{'Label' : 'Dominic Felix Sokalski','Value' : '9','Color' : 'Orange'}]", "mgGraphHolder", "Candidate", "Percentage", "Share of 1st vote (%)", "top");
+    }
+
+</script><script src='https://www.gstatic.com/charts/loader.js'></script><script>    google.charts.load('current', {packages: ['corechart']});    google.charts.setOnLoadCallback(RenderAllGraphs);</script><script>
+    mgJQuery(document).ready( function () {
+        mgJQuery(window).resize( function () {
+            RenderAllGraphs();
+        });
+    });
+</script></div></div>
+
+                            </div>
+                        </div>
+					</div>
+                </div>
+
+			<footer>
+				<div class="row container">
+					<!-- Footer logo -->
+					<div class="large-12 medium-4 column footer-logo">
+						<h2 class="slogan">Hertfordshire County Council &ndash; The County of Opportunity</h2>
+					</div>
+					<div class="large-3 medium-4 column">
+						<!-- begin secondary navigation -->
+						<!-- Footer services column -->
+						<ul class="nav secondary footerServices">
+							<li>
+								<h3>Services</h3>
+								<ul>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Adult-social-services/Adult-social-services.aspx">Adult social services</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Childrens-social-care/Childrens-social-care.aspx">Children&#39;s social services</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Schools-and-education/Schools-and-education.aspx">Schools and education</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Libraries-and-archives/Libraries-and-archives.aspx">Libraries and archives</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Highways-roads-and-pavements/Highways-roads-and-pavements.aspx">Highways, roads and pavements</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Recycling-waste-and-environment/Recycling-waste-and-environment.aspx">Recycling, waste and environment</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Births-deaths-marriages-and-citizenship/Births-deaths-marriages-and-citizenship.aspx">Births, deaths and marriages</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Health-in-Herts/health-in-herts.aspx">Health in Herts</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/services/Fire-and-rescue/Fire-Rescue-and-Being-Prepared.asp"x>Fire and rescue</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/business/">Business</a>
+									</li>
+									<li>
+										<a href="http://www.hertfordshire.gov.uk/directory">Hertfordshire Directory</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="large-6 medium-4 column">
+						<ul class="nav secondary">
+							<li>
+								<h3>About the Council</h3>
+								<ul>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/About-the-council/Contact-us/Contact-a-service.aspx">Contact us</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/About-the-council/Jobs/Jobs-and-careers.aspx">Jobs and careers</a>
+									</li>
+									<li>
+										<a href="https://democracy.hertfordshire.gov.uk">Councillors and council meetings</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/About-the-council/Consultations/Consultations.aspx">Consultations</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/About-the-council/freedom-of-information-and-council-data/Freedom-of-information-requests/freedom-of-information-requests.aspx">Freedom of information requests</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/About-the-council/Legal/Legal.aspx">Cookies and privacy</a>
+									</li>
+									<li>
+										<a href="https://www.hertfordshire.gov.uk/Accessibility/Accessibility.aspx">Accessibility</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<!-- end secondary navigation -->
+					</div>
+					<div class="large-3 medium-4 column">
+						<!-- begin social links -->
+						<div class="block social large-12">
+							<a class="updateme-link" href="https://www.hertfordshire.gov.uk/About-the-council/Get-email-updates-with-Update-me.aspx">
+								<img src="https://www.hertfordshire.gov.uk/siteelements/images/update-me.png" alt="update me" />
+							</a>
+							<h3 class="visuallyhidden">Follow Us</h3>
+							<ul class="nav social">
+								<li><a class="facebook" href="https://www.facebook.com/hertscountycouncil">Facebook</a></li>
+								<li><a class="twitter" href="http://www.twitter.com/hertscc">Twitter</a></li>
+								<li><a class="youtube" href="https://www.youtube.com/user/hertscountycouncil">YouTube</a></li>
+							</ul>
+						</div>
+						<!-- end social links -->
+					</div>
+				</div>
+				<div class="secondary-footer">
+					<!-- begin utilities -->
+					<div class="row">
+						<!-- Currently using Google translate -->
+						<div class="large-6 column">
+							<div class="block translate">
+								<h3>Translate this site</h3>
+								<div id="google_translate_element">
+									<!-- google translate -->
+								</div>
+							</div>
+						</div>
+						<!-- begin feedback -->
+						<div class="large-6 column">
+							<div class="block feedback">
+								<h3>Feedback</h3>
+								<div class="govmetric_links">
+									<a href="https://websurveys.govmetric.com/theme/gm/1703?Q_RATINGID=3" target="_blank" class="gm_sidebar_anchor" title="rate this page as GOOD" rel="nofollow">
+										<img src="https://wsstatic.govmetric.com/imgs/smileys/large/good.png" alt="green smiley (good)" />
+									</a>
+									<a href="https://websurveys.govmetric.com/theme/gm/1703?Q_RATINGID=2" target="_blank" class="gm_sidebar_anchor" title="rate this page as AVERAGE" rel="nofollow">
+										<img src="https://wsstatic.govmetric.com/imgs/smileys/large/average.png" alt="orange smiley (average)" />
+									</a>
+									<a href="https://websurveys.govmetric.com/theme/gm/1703?Q_RATINGID=4" target="_blank" class="gm_sidebar_anchor" title="rate this page as POOR" rel="nofollow">
+										<img src="https://wsstatic.govmetric.com/imgs/smileys/large/poor.png" alt="red smiley (poor)" />
+									</a>
+								</div>
+
+								<link rel="stylesheet" type="text/css" href="https://wsstatic.govmetric.com/css/client/gm_sidebar.css" />
+								<script type="text/javascript" src="https://wsstatic.govmetric.com/js/client/gm_sidebar.js"></script>
+								<script type="text/javascript" src="https://hitcounter.govmetric.com/1704"></script>
+							</div>
+							<!-- end feedback -->
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		<script type="text/javascript" src="https://www.hertfordshire.gov.uk/siteelements/js/project/script-v2.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".MG-MobileSideNav").click(function()
+			{
+				$("#mobileSideBar").toggle();
+
+				$(".MG-MobileSideNav").attr('aria-expanded', function (i, attr) {
+   				 return attr == 'true' ? 'false' : 'true'
+				});
+			});
+
+				
+		})
+		</script>
+</body>
+
+</html>
+<!-- modern.gov reverse CMS: https://www.hertfordshire.gov.uk/statweb/moderngov-dev/index.html -->

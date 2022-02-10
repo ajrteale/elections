@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Election Results</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" media="all" href="/ElectionResults/assets/application-442d2a9075a16c77d0d509281d40af020e067cbd1651876afe60399a327fe355.css" />
+  <script src="/ElectionResults/assets/application-3d9384c89999f2138b36a71576cc9340fe380f0a258dc47a090503c598b63e00.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="took+ivAsgR4JeQyt5l5WoMLduR1MGkVFvFWFQrV1r90XehqlLidt4G2qe8memI+Q+0jFLjBEpL4rk7In1D1QA==" />
+  <!--[if lt IE 9]>
+  <script src="/ElectionResults/assets/html5-12c22c344639389a440f15f10efc147182d8abd23fc390683291e25da8ef9814.js"></script>
+  <![endif]-->
+  <!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://warwickshire.github.io/favicon.ico" />
+  <link rel="stylesheet" href="https://warwickshire.github.io/wcc_style_modifier.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129085183-16"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129085183-16');
+  </script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+  <header>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-full">
+
+    <div class="navbar-header">
+
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="search btn-search pull-right" alt="Warwickshire County Council Search">
+        <span class="glyphicon glyphicon-search icon-white"></span>
+      </a>
+
+      <a class="govdelmobile pull-right" alt="GDS logo" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+        <img src="https://static.warwickshire.gov.uk/img/keep_me_posted_envelope_17px.png" alt="GDSl" style="width:17px;">
+      </a>
+
+      <a class="navbar-brand" alt="Warwickshire County Council logo" href="//www.warwickshire.gov.uk/">
+        <img src="https://static.warwickshire.gov.uk/img/corpwhitelogo.png" alt="Warwickshire County Council">
+      </a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="left-topbar">
+
+      <ul class="nav navbar-nav">
+
+        <a class="gdslogo2" alt="GDS logo" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+          <img src="https://static.warwickshire.gov.uk/img/keep_me_posted_envelope_17px.png" alt="GDSl" style="width:17px;">
+        </a>
+
+        <a class="gdstext" href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">Email alerts</a>
+        
+      </ul>
+      <div class="pull-right">
+
+      
+        <form action="https://warwickshire.gov.uk/search-results-page" method="get" name="kbs" class="navbar-form" id="site-search">
+
+          <label for="qtbottom" class="skip" style="display:none;">Search again</label>
+          <input class="span3" type="text" maxlength="1000" size="40" name="q" id="qtbottom" alt="Search" placeholder="Search (eg. libraries, blue badge, potholes)">
+          <button type="submit" value="Search" id="kbsubmitbottom" class="btn btn-mini searchbutton">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="row style-1-gradient" id="top-header">
+  <div class="container">
+    <div class="span12" style="height:100px;">
+      <div class="row">
+        <div class="row">
+          <div class="span9">
+            <form action="https://warwickshire.gov.uk/search-results-page" method="get" name="kbs" class="mobile-search" id="site-search">
+              <input class="span3" type="text" maxlength="1000" size="40" name="q" id="qtbottom" alt="Search" placeholder="Search (eg. libraries, blue badge, potholes)">
+              <button type="submit" value="Search" id="kbsubmitbottom" class="btn btn-mini searchbutton">Search</button>
+            </form>
+            <script type="text/javascript">
+              var button = $('.btn-search');
+              button.on('click', function () {
+                  $('#top-header').toggleClass('show-search');
+              });
+            </script>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+	<div class="container-full">
+		
+	  <div class="row"> 
+	<div class="col-xs-12 col-sm-8">
+		<div id="breadcrumbs">
+			<nav itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+				<div class="breadcrumbs"><a href="https://www.warwickshire.gov.uk/corporate">Home</a> &rsaquo; <a href="https://www.warwickshire.gov.uk/democracy">Democracy</a> &rsaquo; <a href="/ElectionResults/elections">Elections</a> &rsaquo; <a href="/ElectionResults/elections/2021">2021 Election Results</a> &rsaquo; <span class="current active">Southam, Stockton &amp; Napton</span></div>
+			</nav>
+		</div>
+	</div>
+</div>
+		
+<article id="2"> 
+<div class="row"> 
+  <div class="col-xs-12">
+		<h1 class="pull-left map-header" id="title">2021 Election results: Southam, Stockton &amp; Napton</h1> 
+	</div> 
+</div> 
+ 
+<div class="row"> 
+	<div class="col-xs-12 col-sm-8"> 
+			<div class = "pull-left">
+	      <a href="/ElectionResults/elections/2021">Show Warwickshire Map</a>
+	    </div>
+  	<div class="pull-right"> 
+	 		<div class="dropdown pull-right"> 
+  			<button class="btn btn-default dropdown-toggle pull-right district-filter" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+  				View District <span class="caret"></span> 
+  			</button> 
+	  		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/North%20Warwickshire">North Warwickshire</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Nuneaton%20&amp;%20Bedworth">Nuneaton &amp; Bedworth</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Rugby">Rugby</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Stratford-on-Avon">Stratford-on-Avon</a></li> 
+	    			<li role="presentation"><a href="/ElectionResults/elections/2021/districts/Warwick">Warwick</a></li> 
+	  		</ul> 
+  		</div> 
+  	</div> 
+	</div> 
+</div> 
+
+
+<div class="row" class="col-xs-12"> 
+  <div class="col-xs-12 col-sm-8"> 
+	  <div id="map" class="olMap"> 
+			<div id="mapid"></div>
+
+<script>
+    var map_type = 'areas';
+
+    // create map with some options and centering options
+	var map = L.map('mapid', { 
+        scrollWheelZoom: false, 
+        touchZoom: false, 
+        doubleClickZoom: false, 
+        zoomControl: false, 
+        dragging: false,
+        tap: false
+    });
+
+    // set tile source and copyright info
+	L.tileLayer(
+        'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+        maxZoom: 20
+	}).addTo(map);
+
+	var areas = [ {"type":"Feature","properties":{"name":"Southam, Stockton \u0026 Napton","description":null,"party":"The Conservative Party Candidate","elected":"Andy Crump","VectCol":"#00aeef","url":"/ElectionResults/elections/2021/areas/Southam,%20Stockton%20\u0026%20Napton"},"geometry":{"type":"Polygon","coordinates":[[[-1.362362556323575,52.28339703736228],[-1.359269188861748,52.28290736215431],[-1.360196738039456,52.28141016329453],[-1.360679462365955,52.280964104072304],[-1.357790515124206,52.28045041951413],[-1.357677262334116,52.280576532250535],[-1.357007845122546,52.28054233215534],[-1.357186355966292,52.2801576356969],[-1.357031471079261,52.28012893056988],[-1.355186190765534,52.28041556175314],[-1.354812484058945,52.279500986678165],[-1.354817992178309,52.27912155036778],[-1.347836499810049,52.27752607338232],[-1.346572956999154,52.277431909280864],[-1.346512468306726,52.27626908716396],[-1.345725874798864,52.27623687103658],[-1.345601960132057,52.276092379187325],[-1.341037408172304,52.274836210268745],[-1.338481767395389,52.27313625557949],[-1.335712585486436,52.27180714122025],[-1.335204010105863,52.27122447364876],[-1.334855878434726,52.27137890264161],[-1.333845064329306,52.2711565095395],[-1.333240063511927,52.27084202650885],[-1.328157538000404,52.26940357332429],[-1.326582539541749,52.26860699855892],[-1.324798114539641,52.267991839077695],[-1.324510549070321,52.26811153118273],[-1.322737462147473,52.26772289948502],[-1.321882940482383,52.26735479726661],[-1.321363698981177,52.266813262203165],[-1.321407000179886,52.26665972852792],[-1.315752820970693,52.26700118612544],[-1.315746752674551,52.26568397828294],[-1.31474830651256,52.265528092757265],[-1.314697641120665,52.26501351264674],[-1.313345943937799,52.26277693882396],[-1.312557207051412,52.26280650496612],[-1.309442540492306,52.26070350742043],[-1.311642404688121,52.25990537165475],[-1.30902847202497,52.25745816653871],[-1.308902839932439,52.25781613814287],[-1.308302261371676,52.257807229776965],[-1.306233075139055,52.258873101290135],[-1.305901695628952,52.25917683245411],[-1.305482500141548,52.26012196124394],[-1.304984173184206,52.26023137858993],[-1.303625108171881,52.26131396381606],[-1.302935815630609,52.26163624806163],[-1.300827127534217,52.26351986896523],[-1.299492712342538,52.26423656581291],[-1.298367560990631,52.264406140070996],[-1.298164227376678,52.26457480307519],[-1.296912241520924,52.264612296813404],[-1.295743066127165,52.26441748483971],[-1.294564437434284,52.26472781382795],[-1.29435172085567,52.26502233452024],[-1.293352435976175,52.265388548806555],[-1.292797870456293,52.26598220508422],[-1.292504404074013,52.267022412980694],[-1.291661557995803,52.26750019070529],[-1.291357838754756,52.26807458209831],[-1.290925977037981,52.26822846947643],[-1.290252546881982,52.26910370941712],[-1.289734159592379,52.269998752357516],[-1.289767770280391,52.27046641402971],[-1.288591901675779,52.27104462881659],[-1.28800544331234,52.27106356510105],[-1.287665670019816,52.27233006568913],[-1.28789042353625,52.27284301071841],[-1.287707027357373,52.2731349996247],[-1.287816624640927,52.27361031011632],[-1.281513621409271,52.27003981451542],[-1.277089283476047,52.268334332641416],[-1.275478564157739,52.267897359414825],[-1.273683435136594,52.26682100014549],[-1.2765300637045,52.26659211173196],[-1.27650007471811,52.265190356182714],[-1.274381806409975,52.26425763096916],[-1.272521210503787,52.26307290608785],[-1.272940921173765,52.26249559117086],[-1.271361769664389,52.2614007508339],[-1.270663375370049,52.261099749738186],[-1.268622879826459,52.26106915638468],[-1.267335786258414,52.260668228244654],[-1.264987505400984,52.25922689787873],[-1.26224518616819,52.25814437342587],[-1.261421362690268,52.257990924082165],[-1.25961813770947,52.257183934112106],[-1.259492015520839,52.25648819790457],[-1.253600581862907,52.25564741301456],[-1.251291840671788,52.255034923242675],[-1.249992599926302,52.25432804853925],[-1.247565102906793,52.25338118933631],[-1.245048141357847,52.252957883887134],[-1.239227706624377,52.25271920432311],[-1.233731627909553,52.25304867226019],[-1.233013351769074,52.253243541846956],[-1.23240653927413,52.25275326235937],[-1.232561416407638,52.2526112708455],[-1.232440486087363,52.252402863669175],[-1.231946505418292,52.25267477283209],[-1.231922752492214,52.25243455061858],[-1.231714205711425,52.252299184017225],[-1.232354548294636,52.25203550748194],[-1.232323380197402,52.251797933510204],[-1.232072185915497,52.25167037943747],[-1.232592173961784,52.2515074826378],[-1.232663399121696,52.25136944134199],[-1.232407758983224,52.25132463797803],[-1.232401160605576,52.251196067600354],[-1.232702209392018,52.251073001722645],[-1.232913496876849,52.251217372351455],[-1.233412921303928,52.25080348507259],[-1.234718503400142,52.25043248181305],[-1.235261396891406,52.24970150434284],[-1.235086662408579,52.24938390744102],[-1.235173886651933,52.24925594484615],[-1.23648640262321,52.24899111454404],[-1.237780848562516,52.24841957449729],[-1.238302140214026,52.24843102701539],[-1.239312477565962,52.2480231053645],[-1.240193106365709,52.24808809482147],[-1.240582239864917,52.24794580211855],[-1.246459887849954,52.249091124913484],[-1.247351550253484,52.248941229823004],[-1.247937943639394,52.24865276783819],[-1.250497209660093,52.24828696092326],[-1.250993355497326,52.248658703715144],[-1.251759960480854,52.248625813929934],[-1.252266380218311,52.24830087206604],[-1.253756564636185,52.247926423267614],[-1.254929109404733,52.24726314727479],[-1.257032235754828,52.245348845447424],[-1.258083611003101,52.24465960953478],[-1.262401488178212,52.24297841091722],[-1.263324678516013,52.24241595634951],[-1.264813002802648,52.241866002139055],[-1.266165972867821,52.240815369132896],[-1.266782966026691,52.23945447348412],[-1.266079309012939,52.23887289702233],[-1.267531495865774,52.23766278954427],[-1.267635046984142,52.237423363951486],[-1.266367163704657,52.2366899872771],[-1.266867959563941,52.235716737428895],[-1.266905229493613,52.23522784497988],[-1.272392867992878,52.23688186190727],[-1.275386709062703,52.23801693199961],[-1.279984026956605,52.23861776359829],[-1.284041931492846,52.23853089561466],[-1.285208977449386,52.23871511755191],[-1.285751110972426,52.23833182700649],[-1.289223025054357,52.23825930097416],[-1.290742605859756,52.237734374887204],[-1.294483102356241,52.23604763734705],[-1.299242498725034,52.23529115081238],[-1.303112655535655,52.23342425239034],[-1.304839287207689,52.23162551908173],[-1.307420346703487,52.22957112481204],[-1.31145022689916,52.227359573523664],[-1.312975635417579,52.225946208080714],[-1.315209610509432,52.224336413447325],[-1.31661278725657,52.22371610642215],[-1.31776733834677,52.224037450585165],[-1.318780523499352,52.224029818408894],[-1.319879263447796,52.22426085061805],[-1.320646330671912,52.22417448829145],[-1.322033097072257,52.22472191461419],[-1.322279570058469,52.22690353184721],[-1.325701692295958,52.22685930925346],[-1.328178335275038,52.226307007040305],[-1.3311707515764,52.22592834613606],[-1.331658470931395,52.22678523023467],[-1.332837325098884,52.2264799258614],[-1.334110022660163,52.227421224718825],[-1.334363908545122,52.227185285130005],[-1.334051603449836,52.22702533677127],[-1.334802590943874,52.226634910059815],[-1.338928844425182,52.22778184257788],[-1.340809910203161,52.22581807189726],[-1.340079479857166,52.225518199430965],[-1.342654406101546,52.22354838806438],[-1.343795493992634,52.22409949309771],[-1.343465901529032,52.22430896705536],[-1.345653113883517,52.226104850751405],[-1.350802225765764,52.228099468712166],[-1.352655574541564,52.22915296035917],[-1.354227639092276,52.23043758158819],[-1.35634664576243,52.23186627397376],[-1.358235335672185,52.23118313645869],[-1.361646752413751,52.23055000387881],[-1.362287622887545,52.231934997331],[-1.366887665607445,52.23323009904499],[-1.368399807757706,52.233841643811616],[-1.36859217301785,52.23411958962517],[-1.368441378493443,52.234366489714525],[-1.371752580241355,52.23577700566957],[-1.377227243078879,52.23777677792837],[-1.378827387425622,52.23618724860091],[-1.37961814513195,52.23592347630108],[-1.384305616768366,52.23691690195439],[-1.384403491831522,52.23675419216608],[-1.385512755459253,52.236637374417214],[-1.394734532269137,52.236063845109655],[-1.394595184900398,52.23569229076375],[-1.395739790698717,52.234631111272016],[-1.397410824426182,52.23480215062785],[-1.398240771779635,52.233978149018874],[-1.398006961693595,52.233885550596874],[-1.399107320545372,52.23255995883453],[-1.40197213399174,52.23299351631634],[-1.402989456630075,52.233348382245005],[-1.405595811226579,52.23378674629696],[-1.406218487039124,52.2339805117287],[-1.406462990458502,52.23453108014336],[-1.407264292434365,52.23450355721906],[-1.407254186834826,52.23470941883965],[-1.406918706659589,52.234833654731545],[-1.40779254433897,52.235189555897584],[-1.408905195785791,52.236201143355665],[-1.408773115758744,52.23666434654242],[-1.409348953278602,52.237079951183986],[-1.40939193222814,52.23737146317792],[-1.409988593847444,52.23825759409391],[-1.409783394426182,52.238444145695624],[-1.410241737410536,52.238771886301706],[-1.411521175598893,52.24035788685015],[-1.412872980444327,52.24113334727493],[-1.412497761836807,52.241594446447195],[-1.412634752296377,52.24209323542764],[-1.412355359750276,52.24229227503769],[-1.411745055013153,52.24325300571992],[-1.412246085999023,52.24358095076013],[-1.411838159217108,52.24407522990016],[-1.411986281599426,52.244508373576785],[-1.412242042267646,52.24466432776936],[-1.41208573519509,52.245069891093905],[-1.412449320767154,52.24578515686628],[-1.41344446027725,52.24618395121396],[-1.413959433379686,52.24622695292913],[-1.414123805300871,52.247537658990794],[-1.415186917104745,52.24889775717578],[-1.414523774105397,52.249869923792396],[-1.41309327025925,52.250268356256115],[-1.413039824392245,52.250437961117164],[-1.412528842569234,52.25041834378913],[-1.41071046110839,52.25090110096796],[-1.410345411326611,52.251142849964346],[-1.410001695704659,52.251660811265644],[-1.409531618569348,52.25164318288199],[-1.409062541720543,52.25200493493343],[-1.409332017690798,52.25223106903882],[-1.40848995122466,52.25243007040823],[-1.408296963822886,52.252837242181364],[-1.407538172925497,52.253393561523254],[-1.407465619236546,52.253671910858934],[-1.407772317342599,52.25396016146947],[-1.407776810784058,52.25420330536179],[-1.40649137036154,52.25510282866603],[-1.406668151256518,52.25600331060861],[-1.406407558587899,52.256694874511986],[-1.407396971003266,52.25753777941343],[-1.407398504415579,52.25774909135411],[-1.409231795867202,52.25892336874145],[-1.409194011744304,52.25928521006315],[-1.409586343451437,52.25975112409869],[-1.409269793334752,52.260118941744786],[-1.409228802219037,52.26058574494366],[-1.408131171560131,52.260714169120895],[-1.408089628581271,52.26107626080203],[-1.407901927678101,52.26122838301806],[-1.407344577869053,52.26124338392215],[-1.40642147625003,52.26204253144599],[-1.405478065382286,52.262072030724774],[-1.403772890480561,52.263152492823295],[-1.401516590837252,52.26317478730006],[-1.399488652843324,52.26458133837693],[-1.399645132457645,52.26515214241772],[-1.399970780428081,52.265345327793064],[-1.399916878333892,52.26553469734201],[-1.400481538131633,52.265716512232395],[-1.400845337017458,52.26601989988263],[-1.400460517977663,52.26651389619301],[-1.40091901737289,52.266944942005985],[-1.402767911381535,52.267422749783904],[-1.402853306993323,52.26770351197527],[-1.402643405667161,52.268200646266955],[-1.398094603912882,52.26759685279845],[-1.397329916850984,52.26876505743616],[-1.394507652814924,52.26848368676797],[-1.393783890637531,52.269212213687204],[-1.392265618103235,52.26893603589711],[-1.392419122497873,52.268755091492224],[-1.387960118553685,52.26791822479151],[-1.385433069860358,52.26716073206168],[-1.383828345137386,52.26887722884575],[-1.382909629452439,52.27129447548844],[-1.382540197119976,52.27289013258694],[-1.381718703703203,52.27283280778587],[-1.380808897180989,52.27481309520681],[-1.378081236631927,52.27776025699909],[-1.37808623986834,52.27907825817047],[-1.376432138467522,52.27902549878752],[-1.376070792855524,52.27928342903981],[-1.374327654958887,52.27920221779534],[-1.373653247700825,52.27953128368551],[-1.37225082651982,52.27961021319001],[-1.371669073216589,52.279803953992904],[-1.36955674640278,52.28094709724543],[-1.365879806858648,52.28130769372043],[-1.365458516116453,52.28196621674776],[-1.364864347590234,52.28199268382743],[-1.364371015535284,52.28266708359711],[-1.363452380526084,52.28263867942118],[-1.363042395404594,52.282909789537335],[-1.362815175160045,52.2834237464535],[-1.362362556323575,52.28339703736228]]]}} ];
+
+	var multipolygon = L.geoJSON(areas, {
+    style: function(feature) {
+        switch (feature.properties.Name) {
+            default: return {fillColor: feature.properties.VectCol, color: "#FFFFFF", fillOpacity: 0.6, weight: 2};
+        }
+    },
+    onEachFeature: function (feature, layer) {
+         var info = '<strong><a href="' + feature.properties.url + '">' + feature.properties.name + '</a></strong>';
+         var elected = '<br>' + feature.properties.elected + '<br>' + feature.properties.party;
+         if (feature.properties.elected) { 
+            info = info + elected;
+         }
+         layer.bindPopup(info);
+         layer.on("mouseover", function (e) { layer.setStyle( {fillOpacity: 0.9} ); });
+         layer.on("mouseout",  function (e) { layer.setStyle( {fillOpacity: 0.6} ); });
+         layer.on("click",  function (e) { layer.setStyle( {fillOpacity: 0.9} ); });
+		}
+	}).addTo(map);
+
+    // fit bounds based on polygon layers
+    map.fitBounds( multipolygon.getBounds(), { padding: [3, 3] } );
+
+</script> 
+		</div> 
+  </div> 
+ 
+	<div id="doc" class="col-xs-12 col-sm-4"> 
+		  <h2 class="election-result">2021 election result </h2>
+				<h3 class="candidate-winner"><span class="candidate-winner-name">Andy Crump</span> <em> - elected</em></h3>
+				<p class="candidate-winner-party">The Conservative Party Candidate <span class="candidate-winner-votes">(2633 votes)</span></p>
+			<h3 class="other-candidates">Other Candidates</h3>
+				<p>David Booth<br/> Liberal Democrats (243 votes)</p>
+				<p>Zoe Louise James<br/> Green Party (202 votes)</p>
+				<p>Bernadette Maria Jenkins<br/> Labour Party (435 votes)</p>
+			<div class="well" style="white-space: pre-wrap;"></div>
+
+  </div>
+</div>
+</article>
+	</div>
+	<div id="push"></div>
+</div>
+
+<footer>
+  <div class="container">
+  
+    <div class="row">
+
+      <div class="col col-sm-3"><a href="http://www.warwickshire.gov.uk/" class="footer-logo">
+    <img src="https://warwickshire.github.io/logo.png" class="footer-logo-image" alt="WCC Logo"> 
+    <p class="footer-logo-text">Warwickshire County Council</p>
+    <p class="footer-logo-subtext">© Warwickshire County Council</p>
+  </a>
+      </div>
+
+      <div class="col col-sm-2">
+        <aside id="text-3" class="widget widget_text">
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/az">A-Z of services</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/accessibility">Accessibility</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/contactus">Contact us</a></p></div>
+        </aside>
+      </div>
+
+      <div class="col col-sm-3">
+        <aside id="text-4" class="widget widget_text">
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/customerservice">Customer service and complaints</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/help">Help using the website</a></p></div>
+          <div class="textwidget"><p><a href="//www.warwickshire.gov.uk/disclaimer">Privacy and disclaimer</a></p></div>
+        </aside>
+      </div>
+
+      <div class="col col-lg-2">
+        <aside id="text-6" class="widget widget_text">
+          <div class="textwidget">
+            <a href="https://public.govdelivery.com/accounts/UKWarwickshire/subscriber/new">
+              <img class="keep_me_posted" src="https://static.warwickshire.gov.uk/img/keep me posted white on trans 155x39.png" alt="gov delivery">
+            </a>
+          </div>
+        </aside>
+        <aside id="text-11" class="widget widget_text">
+          <div class="textwidget">
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-9510501-3'}, 'google_translate_element');
+              }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <div id="google_translate_element"></div>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,1148 @@
+
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <title>Norfolk Elections 2021</title>
+    <link href="//www.norfolk.gov.uk/bundles/norfolk/css?v=1HjQtcQdFDHrBz0Y-Ln-f11IbsPSPHvGPH4rhDiwMlY1" rel="stylesheet"/>
+    <link rel="Stylesheet" href="Styles/style.css"/>
+    <link rel="icon" href="//www.norfolk.gov.uk/content/sites/norfolk/images/favicon.ico" />
+    <script src="Scripts/raphael-min.js"></script>
+    <script src="Scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript">
+        var previous = '2017';
+    </script>
+    <script src="Scripts/elections.js"></script>    
+    <script src="Scripts/jquery.corner.js"></script>
+    
+
+        <link rel="Stylesheet" href="Styles/style-print.css" media="print"/>
+
+        <!--COMMENTED OUT AFTER ALL RESULTS IN AS AUTO UPDATE NO LONGER REQUIRED-->
+        <!--<meta http-equiv="refresh" content="60" />-->
+        <script type="text/javascript">
+
+            window.onload = function () {
+
+                // Get cookie value
+                cookieValue = getCookie('divisionFilter');
+
+                // If cookieValue is undefined the cookie does not exist in which do not attempt
+                // read value
+                if (undefined != cookieValue || void 0 != yourvar) {
+
+                    $('#ctl00_ContentPlaceHolder1_divisionDropDownList').val(cookieValue.toUpperCase());
+                    $("#btnFilter").trigger("click");
+                    //document.getElementById('btnFilter')[0].click();
+                }
+            }
+
+            $(document).ready(function () {
+
+                $("#btnFilter").click(function () {
+                    var valFilter = $.trim($("#ctl00_ContentPlaceHolder1_divisionDropDownList").val()).toLowerCase();
+                    // Set cookie value 
+                    setCookie('divisionFilter', valFilter);
+
+                    var tbl = $("#ctl00_ContentPlaceHolder1_resultsGridView tbody tr");
+                    var rowCounter = 0;
+
+                    tbl.each(function () {
+
+                        if (valFilter == "all" || valFilter == "null") {
+                            // Prevent style being removed from table header
+                            //if (rowCounter != 0) {
+                                $(this).removeAttr("style");
+                            //}
+                        }
+                        else {
+                            // Get header text and extract division name
+                            var tdHeaderText = $(this).children('td.divisionHeader').text().toLowerCase();
+                            tdHeaderText = tdHeaderText.split(["turnout:"]);
+                            //Get division column text
+                            var tdText = $(this).children('td.divisionColumn').text().toLowerCase();
+                            // If valFilter matches or rowCounter equals 0 (table header) then show rows else hide
+                            if ($.trim(tdHeaderText[0]) == valFilter || tdText == valFilter) {
+                                $(this).show();
+                            }
+                            else {
+                                $(this).hide();
+                            }
+                        }
+                        rowCounter++;
+                    });
+
+                    if ($("#tblFilter tbody tr:visible").size() == 0) {
+                        $("#norec").show();
+                    }
+                    else {
+                        $("#norec").hide();
+                    }
+                    return false;
+                });
+
+                $("#btnPrint").click(function () {
+                    window.print();
+                    return false;
+                });
+            });
+
+            // Creates cookie and sets value
+            function setCookie(name, value, expires, path, domain, secure) {
+                document.cookie = name + "=" + escape(value) + "; ";
+
+                if (expires) {
+                    expires = setExpiration(expires);
+                    document.cookie += "expires=" + expires + "; ";
+                }
+                if (path) {
+                    document.cookie += "path=" + path + "; ";
+                }
+                if (domain) {
+                    document.cookie += "domain=" + domain + "; ";
+                }
+                if (secure) {
+                    document.cookie += "secure; ";
+                }
+            }
+
+            // Gets cookie by name (w)
+            function getCookie(w) {
+                cName = "";
+                pCOOKIES = new Array();
+                pCOOKIES = document.cookie.split('; ');
+                for (bb = 0; bb < pCOOKIES.length; bb++) {
+                    NmeVal = new Array();
+                    NmeVal = pCOOKIES[bb].split('=');
+                    if (NmeVal[0] == w) {
+                        cName = unescape(NmeVal[1]);
+                    }
+                }
+                return cName;
+            }
+
+            $('#textonly-canvas').corner();
+        </script>
+
+    
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="textresults.aspx" id="aspnetForm" class="form-inline">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2Mjc1NzcxOTgPZBYCZg9kFgICAQ9kFgICAQ8WAh4FY2xhc3MFEW5hdi1pdGVtIHNlbGVjdGVkFgICAQ8WBB8ABQ9uYXYtbGluayBhY3RpdmUeDGFyaWEtY3VycmVudAUEcGFnZWQYAQUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRyZXN1bHRzR3JpZFZpZXcPPCsACgEIAgFkHH/MpMxkQ/9+tyU+8t1eJy265F4=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0788A626" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWVgLkn6HaAwLi36yxBwLi36zSCwKT4qybAgLvr/SkAgLytejRDQL2lazYDALS0MKWAgL6zpXOBQKq9Py/BQKLj/THAQL4hujlDwLN94HRBAK4lIWtCAK4lM2hCAL7qdKoBwKluvnSBQLn+Yu4DwKv1+vFBgKe6KPsDALPt6mHDQLmvb36DALww+qSDgK/pIiUBwKq79iSCQL/vre1DQL3hvfoDwL+w9bmAQLGl+XrCAK6kueRCQLZ2tSZCwKEwNDTAwLFrt3IAgLBv5XeDgLkj9ifCQKO168zAuOZw/wMAriN87IMAsbhxPUHAvib1eoKApnA0MwHAtue3+ICAv28iLEPAuG3qcUHAuGJ9+gPAoKE5o8GAsqQgIgJAvDS9sUJAp+hy/EOAtC6nLADAvuogLYBAvvr6oYEAqbRj68NAqKwjYEGArbiqL0DAq/32dwNArjZ4+0DAvCt+aEKAqOn3MgDAq62o/0HArmcyK4BArO/5FcCia6euQMC04HAmwsCmeTvjQMC/4GmrgEC4tj00A4Chvzupg4Cm/bL0AsCprfdTwLSkuL0CQKY25/nAQK+r6HbDQLoq7sgAp6em0QC15GN7wkCs9u3pQIC/43Tuw8Cvqv7kg8C7Yu5lAQCiIuUmQwC0uuMmwUCnLKfYALL+finDAKsifXdBwKE8e6aBFndN3NMxDhGNk+uOdZgElbuqefJ" />
+</div>
+	    <div class="header-menu container">
+            <div class="mobtop">
+		        <a id="logo" href="https://www.norfolk.gov.uk/what-we-do-and-how-we-work/councillors-meetings-decisions-and-elections/elections/2021-elections">
+                    <img src="images/New-NCC-Logo-DoubleDecker-coloured-medium.png" alt="NCC logo" />
+
+		        </a>
+		         <h1>Norfolk County Council election results 2021</h1>
+            </div>
+           
+		        
+	    </div>
+	    <div class="divider"></div>
+        <div id="content" role="main">
+            <!-- Nav -->
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a class="navbar-brand" href="#">Menu</a>-->
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbarCollapse" aria-expanded="false">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li id="ctl00_homeli" class="nav-item">
+                                <a href="default.aspx" id="ctl00_home" class="nav-link">Interactive map</a>
+                            </li>
+                            <li id="ctl00_textresultsli" class="nav-item selected">
+                                <a href="textresults.aspx" id="ctl00_textresults" class="nav-link active" aria-current="page">Table of results</a>
+                            </li>
+	                        
+	                        <li id="ctl00_seatsli" class="nav-item">
+                                <a href="seats.aspx" id="ctl00_seats" class="nav-link">Seats</a>
+	                        </li>
+                            <li id="ctl00_summaryli" class="nav-item">
+                                <a href="summary.aspx" id="ctl00_summary" class="nav-link">Summary</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            
+	                    
+            
+            <div id="textonly-canvas">
+                <div id="textonly-table">
+                    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label for="divisionDropDownList">Division: </label> 
+                                <div class="input-group" id="filter">
+                                    <select name="ctl00$ContentPlaceHolder1$divisionDropDownList" id="ctl00_ContentPlaceHolder1_divisionDropDownList" class="form-control">
+	<option value="All">All</option>
+	<option value="Acle">Acle</option>
+	<option value="Attleborough">Attleborough</option>
+	<option value="Aylsham">Aylsham</option>
+	<option value="Blofield and Brundall">Blofield and Brundall</option>
+	<option value="Bowthorpe">Bowthorpe</option>
+	<option value="Breydon">Breydon</option>
+	<option value="Caister-on-Sea">Caister-on-Sea</option>
+	<option value="Catton Grove">Catton Grove</option>
+	<option value="Clavering">Clavering</option>
+	<option value="Clenchwarton and Kings Lynn South">Clenchwarton and Kings Lynn South</option>
+	<option value="Costessey">Costessey</option>
+	<option value="Crome">Crome</option>
+	<option value="Cromer">Cromer</option>
+	<option value="Dereham North">Dereham North</option>
+	<option value="Dereham South">Dereham South</option>
+	<option value="Dersingham">Dersingham</option>
+	<option value="Diss and Roydon">Diss and Roydon</option>
+	<option value="Docking">Docking</option>
+	<option value="Downham Market">Downham Market</option>
+	<option value="Drayton and Horsford">Drayton and Horsford</option>
+	<option value="East Depwade">East Depwade</option>
+	<option value="East Flegg">East Flegg</option>
+	<option value="Eaton">Eaton</option>
+	<option value="Elmham and Mattishall">Elmham and Mattishall</option>
+	<option value="Fakenham">Fakenham</option>
+	<option value="Feltwell">Feltwell</option>
+	<option value="Fincham">Fincham</option>
+	<option value="Forehoe">Forehoe</option>
+	<option value="Freebridge Lynn">Freebridge Lynn</option>
+	<option value="Gayton and Nar Valley">Gayton and Nar Valley</option>
+	<option value="Gaywood North and Central">Gaywood North and Central</option>
+	<option value="Gaywood South">Gaywood South</option>
+	<option value="Gorleston St Andrews">Gorleston St Andrews</option>
+	<option value="Guiltcross">Guiltcross</option>
+	<option value="Hellesdon">Hellesdon</option>
+	<option value="Henstead">Henstead</option>
+	<option value="Hevingham and Spixworth">Hevingham and Spixworth</option>
+	<option value="Hingham">Hingham</option>
+	<option value="Holt">Holt</option>
+	<option value="Hoveton and Stalham">Hoveton and Stalham</option>
+	<option value="Humbleyard">Humbleyard</option>
+	<option value="King's Lynn North and Central">King's Lynn North and Central</option>
+	<option value="Lakenham">Lakenham</option>
+	<option value="Loddon">Loddon</option>
+	<option value="Long Stratton">Long Stratton</option>
+	<option value="Lothingland">Lothingland</option>
+	<option value="Magdalen">Magdalen</option>
+	<option value="Mancroft">Mancroft</option>
+	<option value="Marshland North">Marshland North</option>
+	<option value="Marshland South">Marshland South</option>
+	<option value="Melton Constable">Melton Constable</option>
+	<option value="Mile Cross">Mile Cross</option>
+	<option value="Mundesley">Mundesley</option>
+	<option value="Necton and Launditch">Necton and Launditch</option>
+	<option value="Nelson">Nelson</option>
+	<option value="North Coast">North Coast</option>
+	<option value="North Walsham East">North Walsham East</option>
+	<option value="North Walsham West and Erpingham">North Walsham West and Erpingham</option>
+	<option value="Old Catton">Old Catton</option>
+	<option value="Reepham">Reepham</option>
+	<option value="Sewell">Sewell</option>
+	<option value="Sheringham">Sheringham</option>
+	<option value="South Smallburgh">South Smallburgh</option>
+	<option value="Sprowston">Sprowston</option>
+	<option value="Swaffham">Swaffham</option>
+	<option value="Taverham">Taverham</option>
+	<option value="The Brecks">The Brecks</option>
+	<option value="Thetford East">Thetford East</option>
+	<option value="Thetford West">Thetford West</option>
+	<option value="Thorpe Hamlet">Thorpe Hamlet</option>
+	<option value="Thorpe St Andrew">Thorpe St Andrew</option>
+	<option value="Town Close">Town Close</option>
+	<option value="University">University</option>
+	<option value="Watton">Watton</option>
+	<option value="Wells">Wells</option>
+	<option value="Wensum">Wensum</option>
+	<option value="West Depwade">West Depwade</option>
+	<option value="West Flegg">West Flegg</option>
+	<option value="Woodside">Woodside</option>
+	<option value="Wroxham">Wroxham</option>
+	<option value="Wymondham">Wymondham</option>
+	<option value="Yare and All Saints">Yare and All Saints</option>
+	<option value="Yarmouth Nelson and South Town">Yarmouth Nelson and South Town</option>
+	<option value="Yarmouth North and Central">Yarmouth North and Central</option>
+
+</select>
+                                    <div class="input-group-btn">
+                                        <button id="btnFilter" class="btn btn-default">Select division</button>
+                                        <button id="btnPrint" type="button" class="btn btn-default">Print results</button>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">&nbsp;</div>
+                    
+                        <div>
+	<table class="gridview table table-striped table-bordered table-condensed table-hover table-responsive" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_resultsGridView" style="width:100%;border-collapse:collapse;">
+		<thead>
+			<tr>
+				<th scope="col" style="width:30%;">First name</th><th scope="col" style="width:30%;">Last name</th><th scope="col" style="width:2%;">&nbsp;</th><th scope="col" style="width:28%;">Party</th><th class="divisionColumn" scope="col">Division</th><th align="center" scope="col" style="width:10%;">Votes</th><th scope="col" style="width:10%;">Percentage</th>
+			</tr>
+		</thead><tbody>
+			<tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Acle<Br /> Turnout: 2415 (34.77%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Lana</td><td style="font-weight:bold;">Hempsall</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Acle</td><td align="center" style="font-weight:bold;">1321</td><td align="center" style="font-weight:bold;">55%</td>
+			</tr><tr>
+				<td>Cathy</td><td>Cordiner-Achenbach</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Acle</td><td align="center">506</td><td align="center">21%</td>
+			</tr><tr>
+				<td>Caroline</td><td>Fernandez</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Acle</td><td align="center">295</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Emelye</td><td>Harvey</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Acle</td><td align="center">293</td><td align="center">12%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Attleborough<Br /> Turnout: 2618 (26.13%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Rhodri</td><td style="font-weight:bold;">Oliver</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Attleborough</td><td align="center" style="font-weight:bold;">1597</td><td align="center" style="font-weight:bold;">61%</td>
+			</tr><tr>
+				<td>James</td><td>Bremner</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Attleborough</td><td align="center">559</td><td align="center">21%</td>
+			</tr><tr>
+				<td>Ian</td><td>Speller</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Attleborough</td><td align="center">462</td><td align="center">18%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Aylsham<Br /> Turnout: 3377 (39.44%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Steve</td><td style="font-weight:bold;">Riley</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Aylsham</td><td align="center" style="font-weight:bold;">1442</td><td align="center" style="font-weight:bold;">43%</td>
+			</tr><tr>
+				<td>Hal</td><td>Turkmen</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Aylsham</td><td align="center">1421</td><td align="center">42%</td>
+			</tr><tr>
+				<td>Andrew</td><td>Boswell</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Aylsham</td><td align="center">234</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Stephen </td><td>Maseko</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Aylsham</td><td align="center">202</td><td align="center">6%</td>
+			</tr><tr>
+				<td>Jonathan</td><td>Rackham</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Aylsham</td><td align="center">78</td><td align="center">2%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Blofield And Brundall<Br /> Turnout: 3010 (37.01%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Andrew</td><td style="font-weight:bold;">Proctor</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Blofield and Brundall</td><td align="center" style="font-weight:bold;">1770</td><td align="center" style="font-weight:bold;">59%</td>
+			</tr><tr>
+				<td>Glenn</td><td>Springett</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Blofield and Brundall</td><td align="center">553</td><td align="center">18%</td>
+			</tr><tr>
+				<td>Jan </td><td>Davis</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Blofield and Brundall</td><td align="center">475</td><td align="center">16%</td>
+			</tr><tr>
+				<td>Ian</td><td>Wilson</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Blofield and Brundall</td><td align="center">212</td><td align="center">7%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Bowthorpe<Br /> Turnout: 2611 (30.30%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Mike</td><td style="font-weight:bold;">Sands</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Bowthorpe</td><td align="center" style="font-weight:bold;">1419</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Roy</td><td>Ashman</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Bowthorpe</td><td align="center">756</td><td align="center">29%</td>
+			</tr><tr>
+				<td>Jonathan</td><td>Watson</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Bowthorpe</td><td align="center">292</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Sean</td><td>Bennett</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Bowthorpe</td><td align="center">144</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Breydon<Br /> Turnout: 2545 (29.04%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Carl</td><td style="font-weight:bold;">Smith</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Breydon</td><td align="center" style="font-weight:bold;">1615</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Trevor</td><td>Wainwright</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Breydon</td><td align="center">676</td><td align="center">27%</td>
+			</tr><tr>
+				<td>Hannah</td><td>Morris</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Breydon</td><td align="center">171</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Gareth</td><td>Howe</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Breydon</td><td align="center">83</td><td align="center">3%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Caister-On-Sea<Br /> Turnout: 2453 (33.43%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Penny</td><td style="font-weight:bold;">Carpenter</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Caister-on-Sea</td><td align="center" style="font-weight:bold;">1642</td><td align="center" style="font-weight:bold;">67%</td>
+			</tr><tr>
+				<td>Stuart</td><td>Hellingsworth</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Caister-on-Sea</td><td align="center">685</td><td align="center">28%</td>
+			</tr><tr>
+				<td>Kenneth</td><td>Petersen</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Caister-on-Sea</td><td align="center">126</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Catton Grove<Br /> Turnout: 2648 (33.40%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Steve</td><td style="font-weight:bold;">Morphew</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Catton Grove</td><td align="center" style="font-weight:bold;">1321</td><td align="center" style="font-weight:bold;">50%</td>
+			</tr><tr>
+				<td>Richard</td><td>Potter</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Catton Grove</td><td align="center">922</td><td align="center">35%</td>
+			</tr><tr>
+				<td>Tony</td><td>Park</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Catton Grove</td><td align="center">300</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Nigel</td><td>Lubbock</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Catton Grove</td><td align="center">105</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Clavering<Br /> Turnout: 3542 (39.11%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Barry</td><td style="font-weight:bold;">Stone</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Clavering</td><td align="center" style="font-weight:bold;">1742</td><td align="center" style="font-weight:bold;">49%</td>
+			</tr><tr>
+				<td>Ian</td><td>Stone</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Clavering</td><td align="center">947</td><td align="center">27%</td>
+			</tr><tr>
+				<td>Eric</td><td>Wareham</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Clavering</td><td align="center">484</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Alison</td><td>Green</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Clavering</td><td align="center">369</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Clenchwarton And Kings Lynn South<Br /> Turnout: 2210 (28.07%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Alexandra</td><td style="font-weight:bold;">Kemp</td><td style="background-color:#FF6BB0;"></td><td style="font-weight:bold;">Independent</td><td class="divisionColumn" style="font-weight:bold;">Clenchwarton and Kings Lynn South</td><td align="center" style="font-weight:bold;">1280</td><td align="center" style="font-weight:bold;">58%</td>
+			</tr><tr>
+				<td>Liam</td><td>Hind</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Clenchwarton and Kings Lynn South</td><td align="center">743</td><td align="center">34%</td>
+			</tr><tr>
+				<td>Adam</td><td>Giles</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Clenchwarton and Kings Lynn South</td><td align="center">187</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Costessey<Br /> Turnout: 3661 (29.37%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Sharon</td><td style="font-weight:bold;">Blundell</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Costessey</td><td align="center" style="font-weight:bold;">1387</td><td align="center" style="font-weight:bold;">38%</td>
+			</tr><tr>
+				<td>John</td><td>Irving</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Costessey</td><td align="center">1261</td><td align="center">34%</td>
+			</tr><tr>
+				<td>Jamal</td><td>Sealey</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Costessey</td><td align="center">730</td><td align="center">20%</td>
+			</tr><tr>
+				<td>Owen</td><td>Watkins</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Costessey</td><td align="center">283</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Crome<Br /> Turnout: 2372 (33.00%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Alison</td><td style="font-weight:bold;">Birmingham</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Crome</td><td align="center" style="font-weight:bold;">1073</td><td align="center" style="font-weight:bold;">45%</td>
+			</tr><tr>
+				<td>Jonathan</td><td>Emsell</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Crome</td><td align="center">967</td><td align="center">41%</td>
+			</tr><tr>
+				<td>Judith</td><td>Ford</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Crome</td><td align="center">242</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Victor</td><td>Scrivens</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Crome</td><td align="center">90</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Cromer<Br /> Turnout: 3209 (39.06%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Tim</td><td style="font-weight:bold;">Adams</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Cromer</td><td align="center" style="font-weight:bold;">1745</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Richard</td><td>Parker</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Cromer</td><td align="center">1071</td><td align="center">33%</td>
+			</tr><tr>
+				<td>David </td><td>Russell</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Cromer</td><td align="center">207</td><td align="center">6%</td>
+			</tr><tr>
+				<td>Mike</td><td>Bossingham</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Cromer</td><td align="center">186</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Dereham North<Br /> Turnout: 2226 (27.07%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">William</td><td style="font-weight:bold;">Richmond</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Dereham North</td><td align="center" style="font-weight:bold;">1409</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Georgina</td><td>Bunting</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Dereham North</td><td align="center">618</td><td align="center">28%</td>
+			</tr><tr>
+				<td>Brendon</td><td>Bernard</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Dereham North</td><td align="center">199</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Dereham South<Br /> Turnout: 2297 (25.65%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Phillip</td><td style="font-weight:bold;">Duigan</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Dereham South</td><td align="center" style="font-weight:bold;">1152</td><td align="center" style="font-weight:bold;">50%</td>
+			</tr><tr>
+				<td>Harry</td><td>Clarke</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Dereham South</td><td align="center">997</td><td align="center">43%</td>
+			</tr><tr>
+				<td>Jenny</td><td>Pitchford</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Dereham South</td><td align="center">148</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Dersingham<Br /> Turnout: 3133 (35.65%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Stuart</td><td style="font-weight:bold;">Dark</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Dersingham</td><td align="center" style="font-weight:bold;">2290</td><td align="center" style="font-weight:bold;">73%</td>
+			</tr><tr>
+				<td>Jordan</td><td>Stokes</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Dersingham</td><td align="center">456</td><td align="center">15%</td>
+			</tr><tr>
+				<td>George</td><td>Lankester</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Dersingham</td><td align="center">238</td><td align="center">8%</td>
+			</tr><tr>
+				<td>Erika</td><td>Coward</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Dersingham</td><td align="center">149</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Diss And Roydon<Br /> Turnout: 2819 (32.81%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Keith</td><td style="font-weight:bold;">Kiddie</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Diss and Roydon</td><td align="center" style="font-weight:bold;">1512</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Trevor</td><td>Wenman</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Diss and Roydon</td><td align="center">594</td><td align="center">21%</td>
+			</tr><tr>
+				<td>Pam</td><td>Reekie</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Diss and Roydon</td><td align="center">454</td><td align="center">16%</td>
+			</tr><tr>
+				<td>David </td><td>Reynolds</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Diss and Roydon</td><td align="center">259</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Docking<Br /> Turnout: 2653 (34.92%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Michael</td><td style="font-weight:bold;">Chenery Of Horsbrugh</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Docking</td><td align="center" style="font-weight:bold;">1499</td><td align="center" style="font-weight:bold;">57%</td>
+			</tr><tr>
+				<td>Chris</td><td>Morley</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Docking</td><td align="center">706</td><td align="center">27%</td>
+			</tr><tr>
+				<td>Michelle</td><td>Carter</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Docking</td><td align="center">448</td><td align="center">17%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Downham Market<Br /> Turnout: 2688 (31.27%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Tony</td><td style="font-weight:bold;">White</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Downham Market</td><td align="center" style="font-weight:bold;">1395</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>Josie</td><td>Ratcliffe</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Downham Market</td><td align="center">641</td><td align="center">24%</td>
+			</tr><tr>
+				<td>Eamonn</td><td>McCusker</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Downham Market</td><td align="center">372</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Jackie</td><td>Westrop</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Downham Market</td><td align="center">280</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Drayton And Horsford<Br /> Turnout: 2717 (32.28%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Tony</td><td style="font-weight:bold;">Adams</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Drayton and Horsford</td><td align="center" style="font-weight:bold;">1311</td><td align="center" style="font-weight:bold;">48%</td>
+			</tr><tr>
+				<td>Dave</td><td>Thomas</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Drayton and Horsford</td><td align="center">1100</td><td align="center">40%</td>
+			</tr><tr>
+				<td>Trevor</td><td>Turk </td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Drayton and Horsford</td><td align="center">306</td><td align="center">11%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">East Depwade<Br /> Turnout: 2720 (34.22%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Martin</td><td style="font-weight:bold;">Wilby</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">East Depwade</td><td align="center" style="font-weight:bold;">1700</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>James</td><td>Eddy</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">East Depwade</td><td align="center">463</td><td align="center">17%</td>
+			</tr><tr>
+				<td>Andrew</td><td>Newby</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">East Depwade</td><td align="center">330</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Bernard</td><td>Chauly</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">East Depwade</td><td align="center">227</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">East Flegg<Br /> Turnout: 2730 (34.51%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">James</td><td style="font-weight:bold;">Bensly</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">East Flegg</td><td align="center" style="font-weight:bold;">1975</td><td align="center" style="font-weight:bold;">72%</td>
+			</tr><tr>
+				<td>Edd</td><td>Bush</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">East Flegg</td><td align="center">384</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Hannah</td><td>Gray</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">East Flegg</td><td align="center">328</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Nicholas</td><td>Read</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">East Flegg</td><td align="center">43</td><td align="center">2%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Eaton<Br /> Turnout: 4174 (56.46%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Brian</td><td style="font-weight:bold;">Watkins</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Eaton</td><td align="center" style="font-weight:bold;">1640</td><td align="center" style="font-weight:bold;">39%</td>
+			</tr><tr>
+				<td>Peter</td><td>Prinsley</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Eaton</td><td align="center">1172</td><td align="center">28%</td>
+			</tr><tr>
+				<td>John</td><td>Ward</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Eaton</td><td align="center">967</td><td align="center">23%</td>
+			</tr><tr>
+				<td>Jane</td><td>Saunders</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Eaton</td><td align="center">395</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Elmham And Mattishall<Br /> Turnout: 3174 (33.54%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Bill</td><td style="font-weight:bold;">Borrett</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Elmham and Mattishall</td><td align="center" style="font-weight:bold;">2037</td><td align="center" style="font-weight:bold;">64%</td>
+			</tr><tr>
+				<td>Philip</td><td>Morton</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Elmham and Mattishall</td><td align="center">410</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Tara Ann</td><td>Harris</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Elmham and Mattishall</td><td align="center">395</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Mark</td><td>Foley</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Elmham and Mattishall</td><td align="center">332</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Fakenham<Br /> Turnout: 2572 (30.44%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Tom</td><td style="font-weight:bold;">Fitzpatrick</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Fakenham</td><td align="center" style="font-weight:bold;">1376</td><td align="center" style="font-weight:bold;">53%</td>
+			</tr><tr>
+				<td>John</td><td>Rest</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Fakenham</td><td align="center">569</td><td align="center">22%</td>
+			</tr><tr>
+				<td>Ruth</td><td>Goodall</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Fakenham</td><td align="center">371</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Kris</td><td>Marshall-Smith</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Fakenham</td><td align="center">256</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Feltwell<Br /> Turnout: 3040 (30.80%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Martin</td><td style="font-weight:bold;">Storey</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Feltwell</td><td align="center" style="font-weight:bold;">1983</td><td align="center" style="font-weight:bold;">65%</td>
+			</tr><tr>
+				<td>Tom</td><td>Ryves</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Feltwell</td><td align="center">456</td><td align="center">15%</td>
+			</tr><tr>
+				<td>Christopher</td><td>Harvey</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Feltwell</td><td align="center">416</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Neil</td><td>Aldridge</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Feltwell</td><td align="center">185</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Fincham<Br /> Turnout: 2535 (29.34%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Brian</td><td style="font-weight:bold;">Long</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Fincham</td><td align="center" style="font-weight:bold;">1510</td><td align="center" style="font-weight:bold;">60%</td>
+			</tr><tr>
+				<td>Alan</td><td>Holmes</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Fincham</td><td align="center">629</td><td align="center">25%</td>
+			</tr><tr>
+				<td>Jo</td><td>Smith</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Fincham</td><td align="center">396</td><td align="center">16%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Forehoe<Br /> Turnout: 3559 (37.10%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Daniel</td><td style="font-weight:bold;">Elmer</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Forehoe</td><td align="center" style="font-weight:bold;">1622</td><td align="center" style="font-weight:bold;">46%</td>
+			</tr><tr>
+				<td>Vivienne</td><td>Clifford-Jackson</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Forehoe</td><td align="center">979</td><td align="center">28%</td>
+			</tr><tr>
+				<td>John</td><td>Morland</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Forehoe</td><td align="center">531</td><td align="center">15%</td>
+			</tr><tr>
+				<td>Ian</td><td>Boreham</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Forehoe</td><td align="center">363</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Tom</td><td>Matthews</td><td style="background-color:#48D1CC;"></td><td>Reform UK</td><td class="divisionColumn">Forehoe</td><td align="center">64</td><td align="center">2%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Freebridge Lynn<Br /> Turnout: 2583 (34.56%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Nick</td><td style="font-weight:bold;">Daubney</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Freebridge Lynn</td><td align="center" style="font-weight:bold;">1670</td><td align="center" style="font-weight:bold;">65%</td>
+			</tr><tr>
+				<td>Andrew</td><td>De Whalley</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Freebridge Lynn</td><td align="center">510</td><td align="center">20%</td>
+			</tr><tr>
+				<td>Francis</td><td>Bone</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Freebridge Lynn</td><td align="center">403</td><td align="center">16%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Gayton And Nar Valley<Br /> Turnout: 2824 (35.30%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Jim</td><td style="font-weight:bold;">Moriarty</td><td style="background-color:#FF6BB0;"></td><td style="font-weight:bold;">Independent</td><td class="divisionColumn" style="font-weight:bold;">Gayton and Nar Valley</td><td align="center" style="font-weight:bold;">1370</td><td align="center" style="font-weight:bold;">49%</td>
+			</tr><tr>
+				<td>Olivia</td><td>Morris</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Gayton and Nar Valley</td><td align="center">1156</td><td align="center">41%</td>
+			</tr><tr>
+				<td>David</td><td>Collis</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Gayton and Nar Valley</td><td align="center">298</td><td align="center">11%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Gaywood North And Central<Br /> Turnout: 1839 (24.19%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Graham</td><td style="font-weight:bold;">Middleton</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Gaywood North and Central</td><td align="center" style="font-weight:bold;">1031</td><td align="center" style="font-weight:bold;">56%</td>
+			</tr><tr>
+				<td>Helen</td><td>Dalgliesh</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Gaywood North and Central</td><td align="center">616</td><td align="center">33%</td>
+			</tr><tr>
+				<td>David </td><td>Mills</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Gaywood North and Central</td><td align="center">131</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Jim</td><td>Perkins</td><td style="background-color:#70147A;"></td><td>UKIP</td><td class="divisionColumn">Gaywood North and Central</td><td align="center">61</td><td align="center">3%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Gaywood South<Br /> Turnout: 2031 (21.08%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Thomas</td><td style="font-weight:bold;">Smith</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Gaywood South</td><td align="center" style="font-weight:bold;">980</td><td align="center" style="font-weight:bold;">48%</td>
+			</tr><tr>
+				<td>Micaela</td><td>Bartrum</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Gaywood South</td><td align="center">724</td><td align="center">36%</td>
+			</tr><tr>
+				<td>Rob</td><td>Colwell</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Gaywood South</td><td align="center">228</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Michael</td><td>Stone</td><td style="background-color:#70147A;"></td><td>UKIP</td><td class="divisionColumn">Gaywood South</td><td align="center">99</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Gorleston St Andrews<Br /> Turnout: 2408 (30.87%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Graham</td><td style="font-weight:bold;">Plant</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Gorleston St Andrews</td><td align="center" style="font-weight:bold;">1369</td><td align="center" style="font-weight:bold;">57%</td>
+			</tr><tr>
+				<td>Jo</td><td>Thurtle</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Gorleston St Andrews</td><td align="center">734</td><td align="center">30%</td>
+			</tr><tr>
+				<td>Tracey</td><td>Darnell</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Gorleston St Andrews</td><td align="center">181</td><td align="center">8%</td>
+			</tr><tr>
+				<td>Gordon</td><td>Smith</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Gorleston St Andrews</td><td align="center">124</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Guiltcross<Br /> Turnout: 2989 (33.54%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Stephen</td><td style="font-weight:bold;">Askew</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Guiltcross</td><td align="center" style="font-weight:bold;">1987</td><td align="center" style="font-weight:bold;">66%</td>
+			</tr><tr>
+				<td>Michael</td><td>Brindle</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Guiltcross</td><td align="center">601</td><td align="center">20%</td>
+			</tr><tr>
+				<td>Beverley</td><td>Bulmer</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Guiltcross</td><td align="center">401</td><td align="center">13%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Hellesdon<Br /> Turnout: 2922 (32.62%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Shelagh</td><td style="font-weight:bold;">Gurney</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Hellesdon</td><td align="center" style="font-weight:bold;">1734</td><td align="center" style="font-weight:bold;">59%</td>
+			</tr><tr>
+				<td>Bibin</td><td>Baby</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Hellesdon</td><td align="center">635</td><td align="center">22%</td>
+			</tr><tr>
+				<td>David </td><td>Britcher</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Hellesdon</td><td align="center">396</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Ken</td><td>Parsons</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Hellesdon</td><td align="center">157</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Henstead<Br /> Turnout: 3720 (41.57%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Vic</td><td style="font-weight:bold;">Thomson</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Henstead</td><td align="center" style="font-weight:bold;">1744</td><td align="center" style="font-weight:bold;">47%</td>
+			</tr><tr>
+				<td>David </td><td>Fairbairn</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Henstead</td><td align="center">1044</td><td align="center">28%</td>
+			</tr><tr>
+				<td>Chris</td><td>Smith</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Henstead</td><td align="center">523</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Julie</td><td>Young</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Henstead</td><td align="center">409</td><td align="center">11%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Hevingham And Spixworth<Br /> Turnout: 2616 (35.38%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Dan</td><td style="font-weight:bold;">Roper</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Hevingham and Spixworth</td><td align="center" style="font-weight:bold;">1545</td><td align="center" style="font-weight:bold;">59%</td>
+			</tr><tr>
+				<td>Chris</td><td>Corson</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Hevingham and Spixworth</td><td align="center">872</td><td align="center">33%</td>
+			</tr><tr>
+				<td>Tony</td><td>Hemmingway</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Hevingham and Spixworth</td><td align="center">199</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Hingham<Br /> Turnout: 2704 (39.42%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Margaret</td><td style="font-weight:bold;">Dewsbury</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Hingham</td><td align="center" style="font-weight:bold;">1644</td><td align="center" style="font-weight:bold;">61%</td>
+			</tr><tr>
+				<td>Victoria</td><td>Walters</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Hingham</td><td align="center">440</td><td align="center">16%</td>
+			</tr><tr>
+				<td>Kendra</td><td>Cogman</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Hingham</td><td align="center">357</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Gary</td><td>Blundell</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Hingham</td><td align="center">263</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Holt<Br /> Turnout: 3470 (46.60%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Eric</td><td style="font-weight:bold;">Vardy</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Holt</td><td align="center" style="font-weight:bold;">1650</td><td align="center" style="font-weight:bold;">48%</td>
+			</tr><tr>
+				<td>Sarah</td><td>Butikofer</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Holt</td><td align="center">1311</td><td align="center">38%</td>
+			</tr><tr>
+				<td>Simon</td><td>Russell</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Holt</td><td align="center">297</td><td align="center">9%</td>
+			</tr><tr>
+				<td>Kay</td><td>Montandon</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Holt</td><td align="center">212</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Hoveton And Stalham<Br /> Turnout: 2482 (32.52%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Nigel</td><td style="font-weight:bold;">Dixon</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Hoveton and Stalham</td><td align="center" style="font-weight:bold;">1613</td><td align="center" style="font-weight:bold;">65%</td>
+			</tr><tr>
+				<td>Pierre</td><td>Butikofer</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Hoveton and Stalham</td><td align="center">353</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Richard</td><td>Stowe</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Hoveton and Stalham</td><td align="center">274</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Michael</td><td>Filgate</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Hoveton and Stalham</td><td align="center">157</td><td align="center">6%</td>
+			</tr><tr>
+				<td>Paul</td><td>Rice</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Hoveton and Stalham</td><td align="center">85</td><td align="center">3%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Humbleyard<Br /> Turnout: 3978 (37.75%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">David </td><td style="font-weight:bold;">Bills</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Humbleyard</td><td align="center" style="font-weight:bold;">2087</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>Simon</td><td>Chapman</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Humbleyard</td><td align="center">971</td><td align="center">24%</td>
+			</tr><tr>
+				<td>Janet</td><td>Bearman</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Humbleyard</td><td align="center">494</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Julian</td><td>Halls</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Humbleyard</td><td align="center">426</td><td align="center">11%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">King's Lynn North And Central<Br /> Turnout: 1380 (17.28%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Lesley</td><td style="font-weight:bold;">Bambridge</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">King's Lynn North and Central</td><td align="center" style="font-weight:bold;">520</td><td align="center" style="font-weight:bold;">38%</td>
+			</tr><tr>
+				<td>Wilfred</td><td>Lambert</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">King's Lynn North and Central</td><td align="center">482</td><td align="center">35%</td>
+			</tr><tr>
+				<td>Rob</td><td>Archer</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">King's Lynn North and Central</td><td align="center">256</td><td align="center">19%</td>
+			</tr><tr>
+				<td>Richard</td><td>Coward</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">King's Lynn North and Central</td><td align="center">66</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Gary</td><td>Bramham</td><td style="background-color:#48D1CC;"></td><td>Reform UK</td><td class="divisionColumn">King's Lynn North and Central</td><td align="center">56</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Lakenham<Br /> Turnout: 2600 (36.04%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Brenda</td><td style="font-weight:bold;">Jones</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Lakenham</td><td align="center" style="font-weight:bold;">1453</td><td align="center" style="font-weight:bold;">56%</td>
+			</tr><tr>
+				<td>Helen</td><td>Betts</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Lakenham</td><td align="center">818</td><td align="center">31%</td>
+			</tr><tr>
+				<td>Penelope</td><td>Hubble</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Lakenham</td><td align="center">329</td><td align="center">13%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Loddon<Br /> Turnout: 3721 (42.53%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Kay</td><td style="font-weight:bold;">Mason Billig</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Loddon</td><td align="center" style="font-weight:bold;">2007</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Jeremy</td><td>Rowe</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Loddon</td><td align="center">1372</td><td align="center">37%</td>
+			</tr><tr>
+				<td>Gill</td><td>Stone</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Loddon</td><td align="center">342</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Long Stratton<Br /> Turnout: 2813 (35.27%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Alison</td><td style="font-weight:bold;">Thomas</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Long Stratton</td><td align="center" style="font-weight:bold;">1763</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>David </td><td>Vail</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Long Stratton</td><td align="center">515</td><td align="center">18%</td>
+			</tr><tr>
+				<td>Shaun</td><td>Button</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Long Stratton</td><td align="center">275</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Jon</td><td>Norton</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Long Stratton</td><td align="center">260</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Lothingland<Br /> Turnout: 2693 (28.19%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Carl</td><td style="font-weight:bold;">Annison</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Lothingland</td><td align="center" style="font-weight:bold;">1687</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Tony</td><td>Wright</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Lothingland</td><td align="center">514</td><td align="center">19%</td>
+			</tr><tr>
+				<td>Adrian</td><td>Myers</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Lothingland</td><td align="center">353</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Trevor</td><td>Rawson</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Lothingland</td><td align="center">139</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Magdalen<Br /> Turnout: 2243 (27.19%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Colleen</td><td style="font-weight:bold;">Walker</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Magdalen</td><td align="center" style="font-weight:bold;">1082</td><td align="center" style="font-weight:bold;">48%</td>
+			</tr><tr>
+				<td>Ivan</td><td>Murray-Smith</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Magdalen</td><td align="center">978</td><td align="center">44%</td>
+			</tr><tr>
+				<td>Georgie</td><td>Oatley</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Magdalen</td><td align="center">183</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Mancroft<Br /> Turnout: 3505 (39.07%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Jamie</td><td style="font-weight:bold;">Osborn</td><td style="background-color:#99CC33;"></td><td style="font-weight:bold;">Green</td><td class="divisionColumn" style="font-weight:bold;">Mancroft</td><td align="center" style="font-weight:bold;">1819</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>Danny</td><td>Douglas</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Mancroft</td><td align="center">1165</td><td align="center">33%</td>
+			</tr><tr>
+				<td>Craig</td><td>Harvey</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Mancroft</td><td align="center">521</td><td align="center">15%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Marshland North<Br /> Turnout: 2103 (25.80%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Julian</td><td style="font-weight:bold;">Kirk</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Marshland North</td><td align="center" style="font-weight:bold;">1224</td><td align="center" style="font-weight:bold;">58%</td>
+			</tr><tr>
+				<td>Sandra</td><td>Squire</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Marshland North</td><td align="center">574</td><td align="center">27%</td>
+			</tr><tr>
+				<td>Matthew</td><td>Hannay</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Marshland North</td><td align="center">305</td><td align="center">15%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Marshland South<Br /> Turnout: 2674 (25.81%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Chris</td><td style="font-weight:bold;">Dawson</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Marshland South</td><td align="center" style="font-weight:bold;">1679</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Colin</td><td>Rose</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Marshland South</td><td align="center">546</td><td align="center">20%</td>
+			</tr><tr>
+				<td>David </td><td>Hodgkinson</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Marshland South</td><td align="center">253</td><td align="center">9%</td>
+			</tr><tr>
+				<td>Alastair</td><td>Kent</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Marshland South</td><td align="center">196</td><td align="center">7%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Melton Constable<Br /> Turnout: 3195 (41.97%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Steffan</td><td style="font-weight:bold;">Aquarone</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">Melton Constable</td><td align="center" style="font-weight:bold;">1490</td><td align="center" style="font-weight:bold;">47%</td>
+			</tr><tr>
+				<td>Jonathan</td><td>Wilton</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Melton Constable</td><td align="center">1291</td><td align="center">40%</td>
+			</tr><tr>
+				<td>Rosie</td><td>Woolgar</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Melton Constable</td><td align="center">212</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Rebecca</td><td>Shaw</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Melton Constable</td><td align="center">202</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Mile Cross<Br /> Turnout: 2175 (28.18%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Chrissie</td><td style="font-weight:bold;">Rumsby</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Mile Cross</td><td align="center" style="font-weight:bold;">1084</td><td align="center" style="font-weight:bold;">50%</td>
+			</tr><tr>
+				<td>Stephen</td><td>Bailey</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Mile Cross</td><td align="center">611</td><td align="center">28%</td>
+			</tr><tr>
+				<td>Fiona</td><td>Dowson</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Mile Cross</td><td align="center">373</td><td align="center">17%</td>
+			</tr><tr>
+				<td>Susan</td><td>Holland</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Mile Cross</td><td align="center">107</td><td align="center">5%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Mundesley<Br /> Turnout: 3320 (44.02%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Edward</td><td style="font-weight:bold;">Maxfield</td><td style="background-color:#FF6BB0;"></td><td style="font-weight:bold;">Independent</td><td class="divisionColumn" style="font-weight:bold;">Mundesley</td><td align="center" style="font-weight:bold;">1128</td><td align="center" style="font-weight:bold;">34%</td>
+			</tr><tr>
+				<td>Wendy</td><td>Fredericks</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Mundesley</td><td align="center">1052</td><td align="center">32%</td>
+			</tr><tr>
+				<td>Crispian</td><td>Riley-Smith</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Mundesley</td><td align="center">891</td><td align="center">27%</td>
+			</tr><tr>
+				<td>Jasper</td><td>Haywood</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Mundesley</td><td align="center">140</td><td align="center">4%</td>
+			</tr><tr>
+				<td>Mark</td><td>Taylor</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Mundesley</td><td align="center">109</td><td align="center">3%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Necton And Launditch<Br /> Turnout: 3315 (36.94%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Mark</td><td style="font-weight:bold;">Kiddle-Morris</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Necton and Launditch</td><td align="center" style="font-weight:bold;">2099</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Joseph</td><td>Sisto</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Necton and Launditch</td><td align="center">569</td><td align="center">17%</td>
+			</tr><tr>
+				<td>Jane</td><td>Keidon-Cooper</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Necton and Launditch</td><td align="center">452</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Matthew</td><td>Weatherill</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Necton and Launditch</td><td align="center">195</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Nelson<Br /> Turnout: 4042 (55.78%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Paul</td><td style="font-weight:bold;">Neale</td><td style="background-color:#99CC33;"></td><td style="font-weight:bold;">Green</td><td class="divisionColumn" style="font-weight:bold;">Nelson</td><td align="center" style="font-weight:bold;">1945</td><td align="center" style="font-weight:bold;">48%</td>
+			</tr><tr>
+				<td>Caroline</td><td>Sykes</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Nelson</td><td align="center">1765</td><td align="center">44%</td>
+			</tr><tr>
+				<td>Iain</td><td>Gwynn</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Nelson</td><td align="center">332</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">North Coast<Br /> Turnout: 2881 (40.44%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Andrew</td><td style="font-weight:bold;">Jamieson</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">North Coast</td><td align="center" style="font-weight:bold;">1847</td><td align="center" style="font-weight:bold;">64%</td>
+			</tr><tr>
+				<td>John</td><td>Crofts</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">North Coast</td><td align="center">782</td><td align="center">27%</td>
+			</tr><tr>
+				<td>John</td><td>Simmons</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">North Coast</td><td align="center">252</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">North Walsham East<Br /> Turnout: 2968 (34.90%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Lucy</td><td style="font-weight:bold;">Shires</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">North Walsham East</td><td align="center" style="font-weight:bold;">1303</td><td align="center" style="font-weight:bold;">44%</td>
+			</tr><tr>
+				<td>Pauline</td><td>Porter</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">North Walsham East</td><td align="center">1256</td><td align="center">42%</td>
+			</tr><tr>
+				<td>Graham</td><td>Jones</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">North Walsham East</td><td align="center">218</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Elizabeth</td><td>Dixon</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">North Walsham East</td><td align="center">191</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">North Walsham West And Erpingham<Br /> Turnout: 3021 (39.37%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Saul</td><td style="font-weight:bold;">Penfold</td><td style="background-color:#F6FF00;"></td><td style="font-weight:bold;">Liberal Democrat</td><td class="divisionColumn" style="font-weight:bold;">North Walsham West and Erpingham</td><td align="center" style="font-weight:bold;">1259</td><td align="center" style="font-weight:bold;">42%</td>
+			</tr><tr>
+				<td>Jon</td><td>Payne</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">North Walsham West and Erpingham</td><td align="center">1206</td><td align="center">40%</td>
+			</tr><tr>
+				<td>Chris</td><td>Melhuish</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">North Walsham West and Erpingham</td><td align="center">315</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Claudia</td><td>Owen</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">North Walsham West and Erpingham</td><td align="center">241</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Old Catton<Br /> Turnout: 2380 (35.74%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Karen</td><td style="font-weight:bold;">Vincent</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Old Catton</td><td align="center" style="font-weight:bold;">1420</td><td align="center" style="font-weight:bold;">60%</td>
+			</tr><tr>
+				<td>Jack</td><td>Manzi</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Old Catton</td><td align="center">580</td><td align="center">24%</td>
+			</tr><tr>
+				<td>Ian</td><td>Chapman</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Old Catton</td><td align="center">227</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Alan</td><td>Whiteside</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Old Catton</td><td align="center">153</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Reepham<Br /> Turnout: 2813 (40.93%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Greg</td><td style="font-weight:bold;">Peck</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Reepham</td><td align="center" style="font-weight:bold;">1388</td><td align="center" style="font-weight:bold;">49%</td>
+			</tr><tr>
+				<td>Sue</td><td>Catchpole</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Reepham</td><td align="center">893</td><td align="center">32%</td>
+			</tr><tr>
+				<td>Sarah</td><td>Morgan</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Reepham</td><td align="center">310</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Tom</td><td>Rednall</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Reepham</td><td align="center">222</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Sewell<Br /> Turnout: Election Postponed By-Election On 17 June 2021.</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Julie</td><td style="font-weight:bold;">Brockiek-Coulton</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Sewell</td><td align="center" style="font-weight:bold;">1132</td><td align="center" style="font-weight:bold;">45%</td>
+			</tr><tr>
+				<td>Adrian</td><td>Holmes</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Sewell</td><td align="center">1005</td><td align="center">40%</td>
+			</tr><tr>
+				<td>Simon</td><td>Jones</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Sewell</td><td align="center">320</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Helen</td><td>Arundell</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Sewell</td><td align="center">40</td><td align="center">2%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Sheringham<Br /> Turnout: 3113 (45.59%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Judy</td><td style="font-weight:bold;">Oliver</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Sheringham</td><td align="center" style="font-weight:bold;">1590</td><td align="center" style="font-weight:bold;">51%</td>
+			</tr><tr>
+				<td>Liz</td><td>Withington</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Sheringham</td><td align="center">1157</td><td align="center">37%</td>
+			</tr><tr>
+				<td>Ruth</td><td>Bartlett</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Sheringham</td><td align="center">171</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Simon</td><td>Grewcock</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Sheringham</td><td align="center">150</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Tony</td><td>Shannocks Poet Bolster</td><td style="background-color:#000000;"></td><td>Official Monster Raving Loony Party</td><td class="divisionColumn">Sheringham</td><td align="center">45</td><td align="center">1%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">South Smallburgh<Br /> Turnout: 2963 (41.46%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Richard</td><td style="font-weight:bold;">Price</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">South Smallburgh</td><td align="center" style="font-weight:bold;">1381</td><td align="center" style="font-weight:bold;">47%</td>
+			</tr><tr>
+				<td>Adam</td><td>Varley</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">South Smallburgh</td><td align="center">1165</td><td align="center">39%</td>
+			</tr><tr>
+				<td>Anne</td><td>Filgate</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">South Smallburgh</td><td align="center">198</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Finola</td><td>Gaynor-Powell</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">South Smallburgh</td><td align="center">133</td><td align="center">4%</td>
+			</tr><tr>
+				<td>Nick</td><td>Coppack</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">South Smallburgh</td><td align="center">86</td><td align="center">3%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Sprowston<Br /> Turnout: 3253 (35.13%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">John</td><td style="font-weight:bold;">Ward</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Sprowston</td><td align="center" style="font-weight:bold;">1754</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Natasha</td><td>Harpley</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Sprowston</td><td align="center">1148</td><td align="center">35%</td>
+			</tr><tr>
+				<td>Kahn</td><td>Johnson</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Sprowston</td><td align="center">212</td><td align="center">7%</td>
+			</tr><tr>
+				<td>Simon</td><td>Lockett</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Sprowston</td><td align="center">139</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Swaffham<Br /> Turnout: 2574 (29.44%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Ed</td><td style="font-weight:bold;">Colman</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Swaffham</td><td align="center" style="font-weight:bold;">1766</td><td align="center" style="font-weight:bold;">69%</td>
+			</tr><tr>
+				<td>John</td><td>Zielinski</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Swaffham</td><td align="center">428</td><td align="center">17%</td>
+			</tr><tr>
+				<td>Peter</td><td>Bate</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Swaffham</td><td align="center">233</td><td align="center">9%</td>
+			</tr><tr>
+				<td>Paul</td><td>Auber</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Swaffham</td><td align="center">147</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Taverham<Br /> Turnout: 2659 (34.88%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Stuart</td><td style="font-weight:bold;">Clancy</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Taverham</td><td align="center" style="font-weight:bold;">1571</td><td align="center" style="font-weight:bold;">59%</td>
+			</tr><tr>
+				<td>Caroline</td><td>Karimi-Ghovanlou</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Taverham</td><td align="center">573</td><td align="center">22%</td>
+			</tr><tr>
+				<td>Daryl</td><td>Wickham</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Taverham</td><td align="center">352</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Claire</td><td>Marcham</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Taverham</td><td align="center">163</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">The Brecks<Br /> Turnout: 3048 (32.54%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Fabian</td><td style="font-weight:bold;">Eagle</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">The Brecks</td><td align="center" style="font-weight:bold;">2172</td><td align="center" style="font-weight:bold;">71%</td>
+			</tr><tr>
+				<td>Stuart</td><td>Terry</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">The Brecks</td><td align="center">415</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Anne</td><td>Rix</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">The Brecks</td><td align="center">291</td><td align="center">10%</td>
+			</tr><tr>
+				<td>Evie-May</td><td>Ellis</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">The Brecks</td><td align="center">170</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Thetford East<Br /> Turnout: 1870 (23.93%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Jane</td><td style="font-weight:bold;">James</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Thetford East</td><td align="center" style="font-weight:bold;">967</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>Susan</td><td>Dowling</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Thetford East</td><td align="center">684</td><td align="center">37%</td>
+			</tr><tr>
+				<td>Jamie</td><td>Cash</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Thetford East</td><td align="center">114</td><td align="center">6%</td>
+			</tr><tr>
+				<td>Denis</td><td>Crawford</td><td style="background-color:#70147A;"></td><td>UKIP</td><td class="divisionColumn">Thetford East</td><td align="center">105</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Thetford West<Br /> Turnout: 2116 (21.95%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Terry</td><td style="font-weight:bold;">Jermy</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Thetford West</td><td align="center" style="font-weight:bold;">1204</td><td align="center" style="font-weight:bold;">57%</td>
+			</tr><tr>
+				<td>Barbara</td><td>Tullett</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Thetford West</td><td align="center">720</td><td align="center">34%</td>
+			</tr><tr>
+				<td>Martin</td><td>Callam</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Thetford West</td><td align="center">101</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Philip</td><td>Wagstaff</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Thetford West</td><td align="center">91</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Thorpe Hamlet<Br /> Turnout: 3882 (45.02%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Ben</td><td style="font-weight:bold;">Price</td><td style="background-color:#99CC33;"></td><td style="font-weight:bold;">Green</td><td class="divisionColumn" style="font-weight:bold;">Thorpe Hamlet</td><td align="center" style="font-weight:bold;">1654</td><td align="center" style="font-weight:bold;">43%</td>
+			</tr><tr>
+				<td>Cavan</td><td>Stewart</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Thorpe Hamlet</td><td align="center">1427</td><td align="center">37%</td>
+			</tr><tr>
+				<td>Jonathan</td><td>Gillespie</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Thorpe Hamlet</td><td align="center">801</td><td align="center">21%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Thorpe St Andrew<Br /> Turnout: 3202 (38.53%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Ian</td><td style="font-weight:bold;">Mackie</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Thorpe St Andrew</td><td align="center" style="font-weight:bold;">1721</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Eleanor </td><td>Laming</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Thorpe St Andrew</td><td align="center">705</td><td align="center">22%</td>
+			</tr><tr>
+				<td>Gurpreet</td><td>Padda</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Thorpe St Andrew</td><td align="center">579</td><td align="center">18%</td>
+			</tr><tr>
+				<td>Phyllida</td><td>Scrivens</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Thorpe St Andrew</td><td align="center">197</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Town Close<Br /> Turnout: 4064 (42.36%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Emma</td><td style="font-weight:bold;">Corlett</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Town Close</td><td align="center" style="font-weight:bold;">2191</td><td align="center" style="font-weight:bold;">54%</td>
+			</tr><tr>
+				<td>Mary</td><td>Chacksfield</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Town Close</td><td align="center">876</td><td align="center">22%</td>
+			</tr><tr>
+				<td>Willem</td><td>Buttinger</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Town Close</td><td align="center">721</td><td align="center">18%</td>
+			</tr><tr>
+				<td>Neil</td><td>Hardman</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Town Close</td><td align="center">276</td><td align="center">7%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">University<Br /> Turnout: 1894 (35.74%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Matthew</td><td style="font-weight:bold;">Reilly</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">University</td><td align="center" style="font-weight:bold;">980</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>John</td><td>Greenaway</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">University</td><td align="center">419</td><td align="center">22%</td>
+			</tr><tr>
+				<td>Henry</td><td>Lynn</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">University</td><td align="center">377</td><td align="center">20%</td>
+			</tr><tr>
+				<td>Huw</td><td>Sayer</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">University</td><td align="center">118</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Watton<Br /> Turnout: 2546 (25.80%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Claire</td><td style="font-weight:bold;">Bowes</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Watton</td><td align="center" style="font-weight:bold;">1685</td><td align="center" style="font-weight:bold;">66%</td>
+			</tr><tr>
+				<td>Timothy</td><td>Birt</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Watton</td><td align="center">380</td><td align="center">15%</td>
+			</tr><tr>
+				<td>Keith</td><td>Prince</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Watton</td><td align="center">327</td><td align="center">13%</td>
+			</tr><tr>
+				<td>James</td><td>Minto</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Watton</td><td align="center">154</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Wells<Br /> Turnout: 2637 (39.47%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Michael</td><td style="font-weight:bold;">Dalby</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Wells</td><td align="center" style="font-weight:bold;">1312</td><td align="center" style="font-weight:bold;">50%</td>
+			</tr><tr>
+				<td>Andrew</td><td>Brown</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Wells</td><td align="center">916</td><td align="center">35%</td>
+			</tr><tr>
+				<td>Xenia</td><td>Horne</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Wells</td><td align="center">205</td><td align="center">8%</td>
+			</tr><tr>
+				<td>Stephen</td><td>Green</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Wells</td><td align="center">204</td><td align="center">8%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Wensum<Br /> Turnout: 2674 (32.78%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Maxine</td><td style="font-weight:bold;">Webb</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Wensum</td><td align="center" style="font-weight:bold;">1394</td><td align="center" style="font-weight:bold;">52%</td>
+			</tr><tr>
+				<td>David</td><td>King</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Wensum</td><td align="center">614</td><td align="center">23%</td>
+			</tr><tr>
+				<td>Teresa</td><td>Belton</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Wensum</td><td align="center">559</td><td align="center">21%</td>
+			</tr><tr>
+				<td>Gordon</td><td>Dean</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Wensum</td><td align="center">107</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">West Depwade<Br /> Turnout: 3741 (40.47%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Barry</td><td style="font-weight:bold;">Duffin</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">West Depwade</td><td align="center" style="font-weight:bold;">1632</td><td align="center" style="font-weight:bold;">44%</td>
+			</tr><tr>
+				<td>Beverley</td><td>Spratt</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">West Depwade</td><td align="center">888</td><td align="center">24%</td>
+			</tr><tr>
+				<td>Alyson</td><td>Read</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">West Depwade</td><td align="center">478</td><td align="center">13%</td>
+			</tr><tr>
+				<td>Bob</td><td>McClenning</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">West Depwade</td><td align="center">394</td><td align="center">11%</td>
+			</tr><tr>
+				<td>Carol</td><td>Sharp</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">West Depwade</td><td align="center">349</td><td align="center">9%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">West Flegg<Br /> Turnout: 2100 (32.39%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Andy</td><td style="font-weight:bold;">Grant</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">West Flegg</td><td align="center" style="font-weight:bold;">1432</td><td align="center" style="font-weight:bold;">68%</td>
+			</tr><tr>
+				<td>Emma</td><td>Punchard</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">West Flegg</td><td align="center">299</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Claire</td><td>Wardley</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">West Flegg</td><td align="center">287</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Rebecca</td><td>Woods</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">West Flegg</td><td align="center">82</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Woodside<Br /> Turnout: 2994 (35.69%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">John</td><td style="font-weight:bold;">Fisher</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Woodside</td><td align="center" style="font-weight:bold;">1515</td><td align="center" style="font-weight:bold;">51%</td>
+			</tr><tr>
+				<td>Martin</td><td>Booth</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Woodside</td><td align="center">1000</td><td align="center">33%</td>
+			</tr><tr>
+				<td>Jim</td><td>Green</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Woodside</td><td align="center">363</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Victor</td><td>Morgan</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Woodside</td><td align="center">116</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Wroxham<Br /> Turnout: 2874 (34.74%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Fran</td><td style="font-weight:bold;">Whymark</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Wroxham</td><td align="center" style="font-weight:bold;">1802</td><td align="center" style="font-weight:bold;">63%</td>
+			</tr><tr>
+				<td>Julia</td><td>Wheeler</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Wroxham</td><td align="center">439</td><td align="center">15%</td>
+			</tr><tr>
+				<td>Nicholas</td><td>Ball</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Wroxham</td><td align="center">345</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Richard</td><td>Moore</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Wroxham</td><td align="center">288</td><td align="center">10%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Wymondham<Br /> Turnout: 3965 (36.18%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Robert</td><td style="font-weight:bold;">Savage</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Wymondham</td><td align="center" style="font-weight:bold;">1837</td><td align="center" style="font-weight:bold;">46%</td>
+			</tr><tr>
+				<td>Suzanne</td><td>Nuri-Nixon</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Wymondham</td><td align="center">1305</td><td align="center">33%</td>
+			</tr><tr>
+				<td>Christopher</td><td>Bunting</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Wymondham</td><td align="center">561</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Paul</td><td>Sutcliff</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Wymondham</td><td align="center">262</td><td align="center">7%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Yare And All Saints<Br /> Turnout: 2554 (31.41%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Edward</td><td style="font-weight:bold;">Connolly</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Yare and All Saints</td><td align="center" style="font-weight:bold;">1724</td><td align="center" style="font-weight:bold;">68%</td>
+			</tr><tr>
+				<td>Paul</td><td>Siegert</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Yare and All Saints</td><td align="center">370</td><td align="center">14%</td>
+			</tr><tr>
+				<td>Ann </td><td>Bowyer</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Yare and All Saints</td><td align="center">310</td><td align="center">12%</td>
+			</tr><tr>
+				<td>Ulrike</td><td>Behrendt</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Yare and All Saints</td><td align="center">150</td><td align="center">6%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Yarmouth Nelson And South Town<Br /> Turnout: 1703 (18.89%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Mike</td><td style="font-weight:bold;">Smith-Clare</td><td style="background-color:#DC241F;"></td><td style="font-weight:bold;">Labour</td><td class="divisionColumn" style="font-weight:bold;">Yarmouth Nelson and South Town</td><td align="center" style="font-weight:bold;">760</td><td align="center" style="font-weight:bold;">45%</td>
+			</tr><tr>
+				<td>Daniel</td><td>Candon</td><td style="background-color:#0087DC;"></td><td>Conservative</td><td class="divisionColumn">Yarmouth Nelson and South Town</td><td align="center">681</td><td align="center">40%</td>
+			</tr><tr>
+				<td>Rebecca</td><td>Durant</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Yarmouth Nelson and South Town</td><td align="center">109</td><td align="center">6%</td>
+			</tr><tr>
+				<td>Mark</td><td>Godfrey</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Yarmouth Nelson and South Town</td><td align="center">79</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Mick</td><td>Riley</td><td style="background-color:#48D1CC;"></td><td>Reform UK</td><td class="divisionColumn">Yarmouth Nelson and South Town</td><td align="center">74</td><td align="center">4%</td>
+			</tr><tr>
+				<td class="divisionHeader" colspan="7" style="color:#000000;background-color:#CCCCFF;font-weight:bold;">Yarmouth North And Central<Br /> Turnout: 2262 (25.13%)</td>
+			</tr><tr>
+				<td style="font-weight:bold;">Graham</td><td style="font-weight:bold;">Carpenter</td><td style="background-color:#0087DC;"></td><td style="font-weight:bold;">Conservative</td><td class="divisionColumn" style="font-weight:bold;">Yarmouth North and Central</td><td align="center" style="font-weight:bold;">1049</td><td align="center" style="font-weight:bold;">46%</td>
+			</tr><tr>
+				<td>Sandy</td><td>Lysaght</td><td style="background-color:#DC241F;"></td><td>Labour</td><td class="divisionColumn">Yarmouth North and Central</td><td align="center">699</td><td align="center">31%</td>
+			</tr><tr>
+				<td>Ron</td><td>Ellis</td><td style="background-color:#FF6BB0;"></td><td>Independent</td><td class="divisionColumn">Yarmouth North and Central</td><td align="center">213</td><td align="center">9%</td>
+			</tr><tr>
+				<td>Carrie</td><td>Talbot</td><td style="background-color:#70147A;"></td><td>UKIP</td><td class="divisionColumn">Yarmouth North and Central</td><td align="center">121</td><td align="center">5%</td>
+			</tr><tr>
+				<td>Anne</td><td>Killett</td><td style="background-color:#99CC33;"></td><td>Green</td><td class="divisionColumn">Yarmouth North and Central</td><td align="center">91</td><td align="center">4%</td>
+			</tr><tr>
+				<td>Tony</td><td>Harris</td><td style="background-color:#F6FF00;"></td><td>Liberal Democrat</td><td class="divisionColumn">Yarmouth North and Central</td><td align="center">89</td><td align="center">4%</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+                 
+                    
+
+                   
+                </div>
+            </div>
+
+    
+        </div>
+        <div class="divider"></div>
+        <div id="footer">		
+		    <div id="copyright">Copyright (c) Norfolk County Council 2021 </div>
+	    </div>
+    </form>
+    <script src="//www.norfolk.gov.uk/bundles/norfolk/js?v=5EiYbzOwRcwtV8-eHzH8G4skb2mFljmJ8aDtz2Qg9zA1"></script>
+    <script src="//www.norfolk.gov.uk/bundles/norfolk/unobtrusive?v=Xuam6TWPhcGt1QT7p5fexG3T-XZA9hjh88zJ89jkDQQ1"></script>
+</body>
+</html>
