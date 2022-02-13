@@ -1,0 +1,2486 @@
+\documentclass[a4paper,openany]{book}
+\usepackage[utf8]{inputenc}
+
+% put all the other packages here:
+
+\usepackage{election06-test}
+\usepackage[t]{ebgaramond}
+\usepackage{ebgaramond-maths}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{microtype}
+
+\usepackage[plainpages=false,pdfpagelabels,pdfauthor={Andrew Teale},pdftitle={Local Election Results 2022},hidelinks]{hyperref}
+
+\renewcommand\resultsyear{2022}
+\setcounter{secnumdepth}{-2}
+
+\setboolean{maps}{false}
+
+\begin{document}
+
+% Title page
+
+\begin{titlepage}
+
+\begin{center}
+
+\Huge Local Election Results
+
+2022
+
+\bigskip
+
+\Large Andrew Teale
+
+\vfill
+
+\newcommand\versionno{0.10.1}
+
+%Version \versionno
+
+\today
+
+\end{center}
+
+\end{titlepage}
+
+% Copyright notice
+
+\begin{center}
+
+%\bigskip
+%
+%Typeset by \LaTeX{}
+
+\bigskip
+
+Compilation and design \textcopyright\ Andrew Teale, 2022.
+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled ``GNU
+ Free Documentation License''.
+
+\bigskip
+
+This file is available for download from
+\url{http://www.andrewteale.me.uk/}
+
+\bigskip
+
+Please advise the author of any corrections which need to be made by
+email: \url{andrewteale@yahoo.co.uk}
+
+\vfill
+\end{center}
+
+\section*{Change Log}
+
+%8 June 2014: Added result for Clydesdale South by-election.
+
+%24 November 2013: Corrected results for Vassall ward, Lambeth (typing error) and Reddish North ward, Stockport (LD candidate incorrectly shown as Labour).
+%
+%21 November 2013: First version.
+
+\tableofcontents
+
+% Introduction
+
+% Introduction
+
+% \chapter*{Introduction and Abbreviations}
+% \addcontentsline{toc}{chapter}{Introduction and Abbreviations}
+% %\markright{INTRODUCTION AND ABBREVIATIONS}
+%
+% Elections were held on 6th May 2010 to all London boroughs and metropolitan boroughs, and some unitary authorities and shire districts in England. These elections were combined with a general election which was held on the same day.
+%
+% The voting system used for all elections covered here was
+% first-past-the-post, with multi-member FPTP being used where more than
+% one seat was up for election.
+%
+%The results of the general election are shown in Part I. The information in Part I is taken from the Electoral Commission.
+%
+% All of the seats on the 32 London borough councils were up for election. The vast majority of London boroughs use multi-member wards electing three councillors each; there are also a handful of single-member and two-member wards. Elections to the London boroughs are covered in Part~II, which has been split into two chapters (North and South London).
+%
+% The 36 metropolitan boroughs are all elected by thirds. Each ward has
+% three councillors, with the winning councillor from the 2006 election being up for
+% election in each ward. In some cases two seats were up for election,
+% due to the death or resignation of another councillor for the ward
+% within six months of the election. Results of these elections are
+% contained in Part~III, which each of the former metropolitan counties
+% constituting a separate chapter.
+%
+% The English unitary authorities and shire districts may have up to
+% three councillors in each ward, and may hold elections either all at
+% once or by thirds.
+% Only those councils which elect by thirds held
+% elections this year; those councils which elect all at once were
+% last elected in 2007 and will next be elected in 2011. A few
+% districts elect by halves every two years; all of these districts held
+% an election this year. Where districts elect by thirds generally not
+% all of the wards in the district hold an election every year. A full explanation of the electoral arrangements is
+% given at the head of each council's entry.
+%
+% Due to a botched attempt at local government reorganisation, the 2010 elections to Exeter and Norwich city councils were held on 9th September. It had originally been intended to change these councils to unitary status, which resulted in the scheduled 2010 elections to these councils being cancelled with the intention that the first elections to the new unitary councils would take place in 2011, the councillors elected in 2006 to have their terms extended until 2011. However, when the unitary plans were abandoned by the coalition government following the general election, the High Court ruled that the councillors elected in 2006 had come to the end of their four-year term and could no longer continue in office.
+%
+% Unitary election results are shown in Part~IV
+% with shire district results in Part~V. Part~IV is
+% divided into eight chapters based on region, while Part~V has one
+% chapter for each county.
+%
+% For the first time in this series, referendums (Part VI) and by-elections (Part VII) held in 2010 are also included. Scottish local by-elections are held using the Alternative Vote; while details of transfers are shown, for reasons of space some elimination stages have been omitted.
+%
+% Finally, at the back you will find an Index of Wards.
+%
+% Where a candidate in an election dies, the election in that ward or division is
+% cancelled and rearranged for a later date. This happened in the
+% following wards or divisions at this election:
+%
+% \begin{results}
+% \begin{itemize}
+% \item Haverstock, Camden\index{Haverstock , Camden@Haverstock, Camden}
+% \item Ore, Hastings\index{Ore , Hastings@Ore, Hastings}
+% \end{itemize}
+% \end{results}
+%
+% Here is a list of abbreviations used in this book for major parties
+% and selected other parties which fought several councils. This list
+% is not exhaustive; parties which put up only a few candidates will
+% generally have their abbreviation listed at the head of the entry for
+% the retant council. Please note that the ``Lab'' label includes
+% candidates who were jointly sponsored by the Labour and Co-operative
+% Parties.
+%
+% \begin{results}
+% BNP - British National Party
+%
+% C - Conservative Party
+%
+% Grn - Green Party
+%
+% Ind - Independent
+%
+% Lab - Labour Party
+%
+% LD - Liberal Democrat
+%
+% Lib - Liberal Party
+%
+% Loony - Monster Raving Loony Party
+%
+% Respect - Respect, the Unity Coalition
+%
+% SocLab - Socialist Labour Party
+%
+% UKIP - UK Independence Party
+%
+% \end{results}
+%
+%Errors in a work of this size are inevitable. I take full responsibility for any errors which may have crept in, undertake to correct any errors which I am made aware of, and hope that any errors which you may spot do not substantially affect any use you may make of this book.
+%
+% I would like to close this section by thanking all those who have
+% supplied me with results and sources of information, most notably David Boothroyd, John Cartwright, James Doyle, Keith Edkins, the Electoral Commission, Tom Harris, Paul Harwood, ``hullenedge'', ``Listener'', ``MaxQue'', Philip Mutton, John Swarbrick, Andrew Stidwell, Pete Whitehead and all the members of the Vote UK Forum, and particularly those scores of council
+% webpages without which this work would not have been possible.
+
+
+
+% Here beginneth the content
+
+% 2019 results to go here
+
+
+\part{Referendums}
+
+\chapter{Referendums in 2022}
+
+There were no referendums in 2022.
+
+\section{Bristol mayoral abolition referendum}
+
+A referendum was held in Bristol on 5th May on the question of whether the city should abolish the elected mayoralty and move to the committee system of governance.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%& Mayor & 45960\\
+%& Committee & 36424\\
+%\end{tabular*}
+
+\part{By-elections}
+
+\chapter{Parliamentary by-elections}
+
+There were two parliamentary by-elections in 2022.
+
+%AGS = Alliance for Green Socialism
+%
+%Brkthr = Breakthrough Party
+%
+EngConst = English Constitution Party
+
+FdmAll = Freedom Alliance
+
+Heritage = Heritage Party
+
+PsychMov = Psychedelic Movement
+%
+%NEast = North East Party
+%
+%RjnEU = Rejoin EU
+%
+%SUP = Scottish Unionist Party
+%
+%Yorks = Yorkshire Party
+
+\section*{Southend West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Southend West , House of Commons@Southend W., \emph{House of Commons}}
+
+Death of Sir David Amess (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Anna Firth & C & 12792\\
+	Jason Pilley & PsychMov & 512\\
+	Steve Laws & UKIP & 400\\
+	Catherine Blaiklock & EDP & 320\\
+	Jayda Fransen & Ind & 299\\
+	Ben Downton & Heritage & 236\\
+	Christopher Anderson & FdmAll & 161\\
+	Graham Moore & EngConst & 86\\
+	Olga Childs & Ind & 52\\
+\end{tabular*}
+
+\section*{Birmingham Erdington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Birmingham Erdington , House of Commons@Birmingham Erdington, \emph{House of Commons}}
+
+Death of Jack Dromey (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Robert Alden & C & -\\
+	David Bishop & Elvis & -\\
+	Jack Brookes & RfmUK & -\\
+	Lee Dargue & LD & -\\
+	Paulette Hamilton & Lab & -\\
+	Siobhan Harper-Nunes & Grn & -\\
+	Clifton Holmes & Ind & -\\
+	Michael Lutwyche & Ind & -\\
+	Mel Mbondiah & CPA & -\\
+	Dave Nellist & TUSC & -\\
+	Thomas O'Rourke & Ind & -\\
+	The Good Knight Sir NosDa & Loony & -\\
+\end{tabular*}
+
+%\section*{Hartlepool \hspace*{\fill}\nolinebreak[1]%
+%\enspace\hspace*{\fill}
+%\finalhyphendemerits=0
+%[6th May; C gain from Lab]}
+%
+%\index{Hartlepool , House of Commons@Hartlepool, \emph{House of Commons}}
+%
+%Resignation of Mike Hill (Lab).
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Jill Mortimer & C & 15529\\
+%	Paul Williams & Lab & 8589\\
+%	Sam Lee & Ind & 2904\\
+%	Claire Martin & Heritage & 468\\
+%	John Prescott & RfmUK & 368\\
+%	Rachel Featherstone & Grn & 358\\
+%	Andrew Hagon & LD & 349\\
+%	Thelma Walker & Ind & 250\\
+%	Chris Killick & Ind & 248\\
+%	Hilton Dawson & NEast & 163\\
+%	Ralph Ward-Jackson & Ind & 157\\
+%	David Bettney & SDP & 140\\
+%	Gemma Evans & WEP & 140\\
+%	Adam Gaines & Ind & 126\\
+%	The Incredible Flying Brick & Loony & 108\\
+%	Steve Jack & FdmAll & 72\\
+%\end{tabular*}
+
+\chapter{By-elections to devolved assemblies, the European Parliament, and police and crime commissionerships}
+
+\section{Greater London Authority}
+
+There were no by-elections in 2022 to the Greater London Authority.
+
+%Kemi Badenoch (C, London-wide list) resigned in June 2017.  She was replaced from the list by Susan Hall.
+
+\section{National Assembly for Wales}
+
+There were no by-elections in 2022 to the National Assembly for Wales.
+
+%Steffan Lewis (PC, South Wales East) died on 11 January 2019.  He was replaced from the list by \emph{to be announced}.
+
+\section{Scottish Parliament}
+
+There were no by-elections in 2022 to the Scottish Parliament.
+%There was one by-election in 2020 to the Scottish Parliament.
+
+%\subsubsection*{Shetland \hspace*{\fill}\nolinebreak[1]%
+%\enspace\hspace*{\fill}
+%\finalhyphendemerits=0
+%[29th August]}
+%
+%\index{Shetland , Scottish Parliament@Shetland, \emph{Scottish Parliament}}
+%
+%Resignation of Tavish Scott (LD).
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%Beatrice Wishart & LD & 5659\\
+%Tom Wills & SNP & 3822\\
+%Ryan Thomson & Ind & 1286\\
+%Brydon Goodlad & C & 425\\
+%Debra Nicolson & Grn & 189\\
+%Johan Adamson & Lab & 152\\
+%Michael Stout & Ind & 134\\
+%Ian Scott & Ind & 66\\
+%Stuart Martin & UKIP & 60\\
+%Peter Tait & Ind & 31\\
+%\end{tabular*}
+
+%Rachael Hamilton (C, South of Scotland) resigned on 3 May 2017 in order to contest the above by-election.  She was replaced from the list by Michelle Ballantyne.
+%
+%Douglas Ross MP (C, Highlands and Islands) resigned on 9 June 2017.  He was replaced from the list by Jamie Halcro Johnston.
+%
+%Ross Thomson MP (C, North East) resigned on 9 June 2017.  He was replaced from the list by Tom Mason.
+
+\section{Northern Ireland Assembly}
+
+Vacancies in the Northern Ireland Assembly are filled by co-option.
+No co-options were made in 2022.
+%
+%The following members were co-opted to the Assembly in 2017:
+%\begin{itemize}
+%\item Colm Gildernew (SF) replaced Michelle Gildernew MP following her resignation on 8th June (Fermanagh and South Tyrone).
+%\item Trevor Clarke (DUP) replaced Paul Girvan MP following his resignation on 8th June (South Antrim).
+%\item Emma Rogan (SF) replaced Chris Hazzard MP following his resignation on 8th June (South Down).
+%\item Karen Mullan (SF) replaced Elisha McCallion MP following her resignation on 8th June (Foyle).
+%\item Catherine Kelly (SF) replaced Barry McElduff MP following his resignation on 8th June (West Tyrone).
+%\end{itemize}
+
+%\section{European Parliament}
+%
+%UK vacancies in the European Parliament are filled by the next available person from the party list at the most recent election (which was held in 2019).
+%The following replacement was made in 2020:
+%\begin{itemize}
+%\item Heather Anderson (SNP) replaced Alyn Smith following his election to the House of Commons on 12th December 2019 (Scotland).
+%%\item John Flack (C) replaced Vicky Ford following her resignation on 8th June (Eastern).
+%%\item Wajid Khan (Lab) replaced Afzal Khan following his resignation on 8th June (North West).
+%%\item Rupert Matthews (C) replaced Andrew Lewer following his resignation on 8th June (East Midlands).
+%%\item Baroness Mobarik (C) replaced Ian Duncan following his resignation on 22nd June (Scotland).
+%%\item Jonathan Bullock (UKIP) replaced Roger Helmer following his resignation on 28th July (East Midlands).
+%%\item Rory Palmer (Lab) replaced Dame Glenis Willmott following her resignation on 2nd October (East Midlands).
+%\end{itemize}
+%
+%The UK ceased to be a member of the European Union on 31st January 2020 and the terms of British MEPs accordingly ended on that date.
+
+\section{Police and crime commissioners}
+
+There were no by-elections in 2022 for vacant police and crime commissioner posts.
+
+%\subsection*{Wiltshire \hspace*{\fill}\nolinebreak[1]%
+%	\enspace\hspace*{\fill}
+%	\finalhyphendemerits=0
+%	[19th August]}
+%
+%\index{Wiltshire Police and Crime Commissioner}
+%
+%Disqualification (previous conviction) of Jonathan Seed (C).
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	\emph{First preferences}\\
+%	Philip Wilkinson & C & 32564\\
+%	Mike Rees & Ind & 25197\\
+%	Brian Mathew & LD & 17966\\
+%	Junab Ali & Lab & 12971\\
+%	Julian Malins & RfmUK & 1859\\
+%\end{tabular*}
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	\emph{Runoff}\\
+%	Philip Wilkinson & C & 37752\\
+%	Mike Rees & Ind & 34815\\
+%\end{tabular*}
+
+\chapter{Local by-elections and unfilled vacancies}
+
+\begin{resultsiii}
+
+%\section{Tyne and Wear}
+%
+%\subsection*{Newcastle upon Tyne}
+%
+%\subsubsection*{Monument \hspace*{\fill}\nolinebreak[1]%
+%	\enspace\hspace*{\fill}
+%	\finalhyphendemerits=0
+%	[2nd May]}
+%
+%\index{Monument , Newcastle upon Tyne@Monument, \emph{Newcastle upon Tyne}}
+%
+%Resignation of Rosie Hogg (Lab).
+%
+%Combined with the 2019 ordinary election; see page \pageref{NewcastleTyneMonument} for the result.
+
+\section{North London}
+
+\subsection*{City of London Corporation}
+
+At the March 2022 ordinary election there were unfilled vacancies in Aldersgate, Aldgate and Farringdon Within wards due to the resignations of Joyce Nash (Aldersgate), Sylvia Moys and Dhruv Patel (both Aldgate) and Karina Dostalova (Farringdon Within; all Ind).%
+\index{Aldersgate , City of London@Aldersgate, \emph{City of London}}%
+\index{Aldgate , City of London@Aldgate, \emph{City of London}}%
+\index{Farringdon Within , City of London@Farringdon Wn., \emph{City of London}}
+
+\subsubsection*{Cordwainer \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Cordwainer , City of London@Cordwainer, \emph{City of London}}
+
+Aldermanic election: death of Sir Roger Gifford (Ind).
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Lisa-Jane Moore & C & 2467\\
+%	David Tingle & Lab & 859\\
+%	Jonathan Rooks & Grn & 323\\
+%	Paul Hurren & LD & 275\\
+%	Linda Purcell & Heritage & 49\\
+%\end{tabular*}
+%
+\subsection*{Barking and Dagenham}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Alibon ward due to the resignation of Sanchia Alasia (Lab).%
+\index{Alibon , Barking and Dagenham@Alibon, \emph{Barking \& Dagenham}}
+
+\subsection*{Camden}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Camden Town with Primrose Hill ward due to the resignation of Lazzaro Pietragnoli (Lab).%
+\index{Camden Town with Primrose Hill , Camden@Camden Town with Primrose Hill, \emph{Camden}}
+
+\subsection*{Ealing}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Dormers Wells ward due to the death of Tejinder Singh Dhami (Lab).%
+\index{Dormers Wells , Ealing@Dormers Wells, \emph{Ealing}}
+
+\subsection*{Harrow}
+
+\subsubsection*{Kenton West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Kenton West , Harrow@Kenton W., \emph{Harrow}}
+
+Death of Vina Mithani (C).
+
+\subsection*{Hounslow}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Bedfont ward due to the death of Javed Akhunzada (Lab).%
+\index{Bedfont , Hounslow@Bedfont, \emph{Hounslow}}
+
+\section{South London}
+
+\subsection*{Bexley}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Crook Log ward due to the disqualification (non-attendance) of Linda Bailey (C).%
+\index{Crook Log , Bexley@Crook Log, \emph{Bexley}}
+
+\subsection*{Bromley}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Shortlands ward due to the death of Mary Cooke (C).%
+\index{Shortlands , Bromley@Shortlands, \emph{Bromley}}
+
+\subsection*{Kingston upon Thames}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Alexandra ward due to the resignation of Sharron Falchikov-Sumner (Grn, elected as Sharron Sumner, LD).%
+\index{Alexandra , Kingston upon Thames@Alexandra, \emph{Kingston upon Thames}}
+
+\subsection*{Lambeth}
+
+At the May 2022 ordinary election there were unfilled vacancies in Clapham Town and Oval wards due to the resignations of Christopher Wellbelove and Philip Normal (both Lab).%
+\index{Clapham Town , Lambeth@Clapham Town, \emph{Lambeth}}
+\index{Oval , Lambeth@Oval, \emph{Lambeth}}
+
+\subsection*{Merton}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Graveney ward due to the resignation of Tobin Byers (Lab).%
+\index{Graveney , Merton@Graveney, \emph{Merton}}
+
+\subsection*{Southwark}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Peckham ward due to the resignation of Johnson Situ (Lab).%
+\index{Peckham , Southwark@Peckham, \emph{Southwark}}
+
+\subsection*{Sutton}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Beddington South ward due to the resignation of Manuel Abellan (LD).%
+\index{Beddington South , Sutton@Beddinigton S., \emph{Sutton}}
+
+\subsection*{Wandsworth}
+
+At the May 2022 ordinary election there was an unfilled vacancy in East Putney ward due to the resignation of Sarah Binder (C).%
+\index{East Putney , Wandsworth@East Putney, \emph{Wandsworth}}
+
+\section{Greater Manchester}
+
+\subsection*{Manchester}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Crumpsall ward due to the resignation of Sir Richard Leese (Lab).%
+\index{Crumpsall , Manchester@Crumpsall, \emph{Manchester}}
+
+\subsubsection*{Ancoats and Beswick \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February; LD gain from Lab]}
+
+\index{Ancoats and Beswick , Manchester@Ancoats \& Beswick, \emph{Manchester}}
+
+Resignation of Marcia Hutchinson (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Alan Good & LD & 1113\\
+	Gareth Worthington & Lab & 793\\
+	Chris Perriam & Grn & 119\\
+	Alexander Bramham & C & 66\\
+\end{tabular*}
+
+\subsection*{Trafford}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Bowdon ward due to the resignation of Karen Barclay (C).%
+\index{Bowdon , Trafford@Bowdon, \emph{Trafford}}
+
+\subsection*{Wigan}
+
+\subsubsection*{Leigh East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Leigh East , Wigan@Leigh E., \emph{Wigan}}
+
+Death of Anita Thorpe (Lab).
+
+\section{Merseyside}
+
+\subsection*{Knowsley}
+
+\subsubsection*{Page Moss \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Page Moss , Knowsley@Page Moss, \emph{Knowsley}}
+
+Resignation of Andy Moorhead (Lab).
+
+\subsection*{Liverpool}
+
+\subsubsection*{Everton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Everton , Liverpool@Everton, \emph{Liverpool}}
+
+Resignation of Ian Byrne MP (Lab).
+
+\subsubsection*{Warbreck \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Warbreck , Liverpool@Warbreck, \emph{Liverpool}}
+
+Resignation of Cheryl Didsbury (Lab).
+
+\subsection*{St Helens}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Town Centre ward due to the resignation of Carole-Ann Gill (Lab).%
+\index{Town Centre , Saint Helens@Town Centre, \emph{St Helens}}
+
+\section{South Yorkshire}
+
+\subsection*{Doncaster}
+
+\subsubsection*{Wheatley Hills and Intake \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Wheatley Hills and Intake , Doncaster@Wheatley Hills \& Intake, \emph{Doncaster}}
+
+Resignation of Daniel Barwell (Lab).
+
+\section{Tyne and Wear}
+
+\subsection*{South Tyneside}
+
+\subsubsection*{Harton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Harton , South Tyneside@Harton, \emph{S. Tyneside}}
+
+Death of Rob Dix (Lab).
+
+\subsection*{Sunderland}
+
+\subsubsection*{Redhill \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Redhill , Sunderland@Redhill, \emph{Sunderland}}
+
+Resignation of Keith Jenkins (Ind elected as UKIP).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Steven Donkin & LD & -\\
+	Helmut Izaks & Grn & -\\
+	Sue Leishman & C & -\\
+	Ian Lines & UKIP & -\\
+	John Usher & Lab & -\\
+\end{tabular*}
+
+\section{West Midlands}
+
+\subsection*{Birmingham}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Stockland Green ward due to the death of Penny Holbrook (Lab).%
+\index{Stockland Green , Birmingham@Stockland Green, \emph{Birmingham}}
+
+\subsection*{Dudley}
+
+\subsubsection*{Halesowen South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Halesowen South , Dudley@Halesowen S., \emph{Dudley}}
+
+Death of David Vickers (C).
+
+\subsection*{Sandwell}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Bristnall ward due to the resignation of Rajbir Singh (Lab).%
+\index{Bristnall , Sandwell@Bristnall, \emph{Sandwell}}
+
+\subsection*{Solihull}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Castle Bromwich ward due to the resignation of Cheryl Buxton-Sait (Grn).%
+\index{Castle Bromwich , Solihull@Castle Bromwich, \emph{Solihull}}
+
+\subsection*{Walsall}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Pleck ward due to the disqualification (employed by the council) of Simran Kaur Cheema (Lab).%
+\index{Pleck , Walsall@Pleck, \emph{Walsall}}
+
+\subsubsection*{Willenhall South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Willenhall South , Walsall@Willenhall S., \emph{Walsall}}
+
+Resignation of Sean Coughlan (Lab).
+
+\subsection*{Wolverhampton}
+
+\subsubsection*{East Park \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{East Park , Wolverhampton@East Park, \emph{Wolverhampton}}
+
+Resignation of Harman Singh Banger (Lab).
+
+\section{Bristol}
+
+\subsubsection*{Southmead \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Suthmead , Bristol@Southmead, \emph{Bristol}}
+
+Resignation of Helen Godwin Teige (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Tom Baldwin & TUSC & -\\
+	Gill Brooks & LD & -\\
+	Edward Burnham & Grn & -\\
+	Kye Dudd & Lab & -\\
+	Roddy Jaques & C & -\\
+\end{tabular*}
+
+\section{Cambridgeshire}
+
+\subsection*{Huntingdonshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in St Neots East ward due to the resignation of David Wells (C).% elected in by-election 2021-05-06
+\index{Saint Neots East , Huntingdonshire@St Neots E., \emph{Hunts.}}
+
+\subsection*{South Cambridgeshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Harston and Comberton ward due to the resignation of Fiona Whelan (LD).% elected in by-election 2021-05-06
+\index{Harston and Comberton , South Cambridgeshire@Harston \& Comberton, \emph{S. Cambs.}}
+
+\section{Cumbria}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Longtown division due to the death of Valerie Tarbitt (C).
+\index{Longtown , Cumbria@Longtown, \emph{Cumbria}}
+
+\subsection*{Allerdale}
+
+\subsubsection*{Stainburn and Clifton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Stainburn and Clifton , Allerdale@Stainburn \& Clifton, \emph{Allerdale}}
+
+Disqualification (non-attendance) of Janet King (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Jimmy Grisdale & Lab & -\\
+	Jacqueline Kirkbride & C & -\\
+\end{tabular*}
+
+\subsection*{Barrow-in-Furness}
+
+\subsubsection*{Dalton South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Dalton South , Barrow-in-Furness@Dalton S., \emph{Barrow-in-Furness}}
+
+Resignation of Shaun Blezard (Lab).
+
+\subsection*{Carlisle}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Botcherby and Harraby South ward due to the resignation of Jack Paton (Ind).% elected in by-election 2021-05-06
+\index{Botcherby and Harraby South , Carlisle@Botcherby \& Harraby S., \emph{Carlisle}}
+
+\subsubsection*{Longtown and the Border \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Longtown and Border , Carlisle@Longtown \& the Border, \emph{Carlisle}}
+
+Death of Valerie Tarbitt (C).
+
+\section{Derbyshire}
+
+\subsection*{Derbyshire Dales}
+
+\subsubsection*{Carsington Water \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Carsington Water , Derbyshire@Carsington Water, \emph{Derbys. Dales}}
+
+Death of Lewis Rose (C).
+
+\subsection*{High Peak}
+
+\subsubsection*{Cote Heath \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Cote Heath , High Peak@Cote Heath, \emph{High Peak}}
+
+Death of Keith Savage (Lab).
+
+\section{Devon}
+
+\subsection*{West Devon}
+
+\subsubsection*{Tavistock North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Tavistock North , West Devon@Tavistock N., \emph{W. Devon}}
+
+Resignation of Steve Hipsey (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Susan Bamford & Grn & -\\
+	Doug Smith & Lab & -\\
+	Peter Squire & LD & -\\
+	David Turnbull & C & -\\
+\end{tabular*}
+
+\section{Dorset}
+
+\subsection*{Dorset}
+
+\subsubsection*{Lyme and Charmouth \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Lyme and Charmouth , Dorset@Lyme \& Charmouth, \emph{Dorset}}
+
+Resignation of Daryl Turner (C).
+
+\section{Durham}
+
+\subsection*{Durham}
+
+FdmAll = Freedom Alliance
+
+\subsubsection*{Ferryhill \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Ferryhill , Durham@Ferryhill, \emph{Durham}}
+
+Death of Brian Avery (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Kaela Banthorpe & FdmAll & -\\
+	Curtis Bihari & Lab & -\\
+	Rebecca Dixon-McWaters & Grn & -\\
+	David Farry & C & -\\
+	Joseph Makepeace & Ind & -\\
+	Glenys Newby & Ind & -\\
+	Bill Thorkildsen & LD & -\\
+\end{tabular*}
+
+\subsubsection*{West Auckland \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{West Auckland , Durham@West Auckland, \emph{Durham}}
+
+Death of Mark Roberts (C).
+
+\subsection*{Hartlepool}
+
+\subsubsection*{Rural West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Rural West , Hartlepool@Rural W., \emph{Hartlepool}}
+
+Death of Brenda Loynes (C).
+
+\section{East Sussex}
+
+\subsection*{Wealden}
+
+\subsubsection*{Hailsham South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th February; LD gain from C]}
+
+\index{Hailsham South , Wealden@Hailsham S., \emph{Wealden}}
+
+Resignation of Kevin Balsdon (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Anne Blake-Coggins & LD & 394\\
+	Chris Bryant & C & 254\\
+	Stephen Gander & SDP & 12\\
+\end{tabular*}
+
+\section{East Yorkshire}
+
+\subsection*{East Riding}
+
+\subsubsection*{South Hunsley \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{South Hunsley , East Riding@South Hunsley, \emph{E. Riding}}
+
+Death of Vanessa Walker (C).
+
+\section{Essex}
+
+\subsection*{County Council}
+
+\subsubsection*{Rayleigh North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Rayleigh North , Essex@Rayleigh N., \emph{Essex}}
+
+Death of Craig Cannell (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Jack Lawmon & Ind & -\\
+	James Newport & LD & -\\
+	Lorraine Ridley & Lab & -\\
+	Simon Smith & C & -\\
+\end{tabular*}
+
+\subsection*{Castle Point}
+
+\subsubsection*{St Peter's \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Saint Peter's , Castle Point@St Peter's, \emph{Castle Point}}
+
+Death of Bill Dick (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Michael Dixon & C & -\\
+	Bill Emberson & Lab & -\\
+	John Woodley & Ind & -\\
+\end{tabular*}
+
+\subsection*{Maldon}
+
+\subsubsection*{Wickham Bishops and Woodham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Wickham Bishops and Woodham , Maldon@Wickham Bishops \& Woodham, \emph{Maldon}}
+
+Resignation of Karl Jarvis (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Colin Baldy & LD & -\\
+	Simon Morgan & C & -\\
+	Lance Peatling & Ind & -\\
+	Matthew Wallis-Keyes & Lab & -\\
+\end{tabular*}
+
+\subsection*{Rochford}
+
+\subsubsection*{Downhall and Rawreth \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Downhall and Rawreth , Rochford@Downhall \& Rawreth, \emph{Rochford}}
+
+Death of Craig Cannell (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Danielle Belton & C & -\\
+	Jim Cripps & LD & -\\
+	Lorraine Ridley & Lab & -\\
+\end{tabular*}
+
+\subsection*{Southend-on-Sea}
+
+\subsubsection*{Southchurch \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Southchurch , Southend-on-Sea@Southchurch, \emph{Southend-on-Sea}}
+
+Resignation of Alex Bright (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Susan Badger & Ind & -\\
+	Jo Bates & Grn & -\\
+	Tristan Bembridge & LD & -\\
+	Nathaniel Doucette & Lab & -\\
+	Darryl Jones & C & -\\
+\end{tabular*}
+
+\section{Gloucestershire}
+
+\subsection*{Cotswold}
+
+\subsubsection*{Campden and Vale \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Campden and Vale , Cotswold@Campden \& Vale, \emph{Cotswold}}
+
+Disqualification (non-attendance) of Mark Annett (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Tom Stowe & C & 1180\\
+	Danny Loveridge & LD & 920\\
+\end{tabular*}
+
+\subsection*{Tewkesbury}
+
+\subsubsection*{Brockworth East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Brockworth East , Tewkesbury@Brockworth E., \emph{Tewkesbury}}
+
+Resignation of Louise Gerrard (Ind).
+
+\section{Hampshire}
+
+\subsection*{Eastleigh}
+
+\subsubsection*{Eastleigh Central \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th February]}
+
+\index{Eastleigh Central , Eastleigh@Eastleigh C., \emph{Eastleigh}}
+
+Resignation of Jephthe Doguie (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Bhavin Dedha & LD & 802\\
+	Josh Constable & Lab & 433\\
+	Simon Payne & C & 362\\
+	Jack Stapleton & Grn & 140\\
+	Clare Fawcett & RfmUK & 64\\
+\end{tabular*}
+
+\subsection*{New Forest}
+
+\subsubsection*{Hythe West and Langdown \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Hythe West and Langdown , New Forest@Hythe W. \& Langdown, \emph{New Forest}}
+
+Resignation of Rebecca Clark (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Sean Cullen & LD & -\\
+	James Gallagher & Lab & -\\
+	Matthew Kitcher & Ind & -\\
+	Terri Marwood & C & -\\
+\end{tabular*}
+
+\subsection*{Test Valley}
+
+\subsubsection*{North Baddesley \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{North Baddesley , Test Valley@North Baddesley, \emph{Test Valley}}
+
+Resignation of Simon Cross (LD).
+
+\subsection*{Winchester}
+
+At the May 2022 ordinary election there was an unfilled vacancy in St Michael ward due to the death of Lynda Murphy (LD).
+\index{Saint Michael , Winchester@St Michael, \emph{Winchester}}
+
+\section{Herefordshire}
+
+IOCH = It's Our County (Herefordshire)
+
+\subsubsection*{Bromyard West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th March]}
+
+\index{Bromyard West , Herefordshire@Bromyard W., \emph{Herefs.}}
+
+Resignation of Alan Seldon (IOCH).
+
+\section{Hertfordshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Hitchin South \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th March]}
+
+\index{Hitchin South , Hertfordshire@Hitchin S., \emph{Herts.}}
+
+Death of Paul Clark (LD).
+
+\subsection*{Dacorum}
+
+\subsubsection*{Berkhamsted West \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Berkhamsted West , Dacorum@Berkhamsted W., \emph{Dacorum}}
+
+Resignation of Nicky Woolner (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Anne Foster & LD & 924\\
+	Gary Moore & C & 318\\
+	Kevin Fielding & Grn & 130\\
+	Peter Scott & Lab & 69\\
+\end{tabular*}
+
+\subsubsection*{Boxmoor \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Boxmoor , Dacorum@Boxmoor, \emph{Dacorum}}
+
+Resignation of Liz Uttley (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Simy Dhyani & LD & 1319\\
+	Brandon Geary & C & 599\\
+	Cameron Brady-Turner & Lab & 171\\
+	Sherief Hassan & Grn & 92\\
+\end{tabular*}
+
+\subsection*{North Hertfordshire}
+
+\subsubsection*{Hitchin Highbury \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th March]}
+
+\index{Hitchin Highbury , North Hertfordshire@Hitchin Highbury, \emph{N. Herts.}}
+
+Death of Paul Clark (LD).
+
+\subsubsection*{Letchworth East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Letchworth East , North Hertfordshire@Letchworth E., \emph{N. Herts.}}
+
+Resignation of Sue Ngwala (Lab).
+
+\subsection*{Welwyn Hatfield}
+
+\subsubsection*{Welwyn East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Welwyn East , Welwyn Hatfield@Welwyn E., \emph{Welwyn Hatfield}}
+
+Death of Steven Markiewicz (C).
+
+\section{Kent}
+
+\subsection*{County Council}
+
+\subsubsection*{Wilmington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[27th January]}
+
+\index{Wilmington , Kent@Wilmington, \emph{Kent}}
+
+Death of Ann Allen (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Av Sandhu & C & 1787\\
+	Darren Povey & Lab & 613\\
+	Amanda Capell & LD & 487\\
+	Julian Hood & Grn & 200\\
+\end{tabular*}
+
+\subsection*{Dartford}
+
+\subsubsection*{Maypole and Leyton Cross \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[27th January]}
+
+\index{Maypole and Leyton Cross , Dartford@Maypole and Leyton Cross, \emph{Dartford}}
+
+Death of Ann Allen (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Kyle Stealey & C & 334\\
+	Julian Hood & Grn & 76\\
+	Leah Uwaibi & Lab & 65\\
+	Kyle Marsh & LD & 54\\
+\end{tabular*}
+
+\subsubsection*{Wilmington, Sutton-at-Hone and Hawley \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[27th January]}
+
+\index{Wilmington, Sutton-at-Hone and Hawley , Dartford@Wilmington, Sutton-at-Hone \& Hawley, \emph{Dartford}}
+
+Resignation of Lucas Reynolds (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	George Holt & C & 996\\
+	Maria Perry & Lab & 272\\
+	Jane Hatzimasouras & LD & 200\\
+\end{tabular*}
+
+\subsection*{Sevenoaks}
+
+\subsubsection*{Brasted, Chevening and Sundridge \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Brasted, Chevening and Sundridge , Sevenoaks@Brasted, Chevening \& Sundridge, \emph{Sevenoaks}}
+
+Resignation of Anna Firth (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Clare Coombe & LD & -\\
+	Theo Michael & Lab & -\\
+	Nigel Williams & C & -\\
+\end{tabular*}
+
+\subsubsection*{Fawkham and West Kingsdown \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Fawkham and West Kingsdown , Sevenoaks@Fawkham \& West Kingsdown, \emph{Sevenoaks}}
+
+Death of Faye Parkin (C).
+
+\subsection*{Thanet}
+
+\subsubsection*{Nethercourt \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Nethercourt , Thanet@Nethercourt, \emph{Thanet}}
+
+Disqualification (non-attendance) of Elizabeth Green (Lab).
+
+\subsection*{Tunbridge Wells}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Paddock Wood West ward due to the resignation of Bill Hills (C).%
+\index{Paddock Wood West , Tunbridge Wells@Paddock Wood W., \emph{Tunbridge Wells}}
+
+\section{Lancashire}
+
+\subsection*{Pendle}
+
+\subsubsection*{Barrowford and Pendleside \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Barrowford and Pendleside , Pendle@Barrowford \& Pendleside, \emph{Pendle}}
+
+Death of Linda Crossley (C).
+
+\subsection*{West Lancashire}
+
+\subsubsection*{Burscough East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Burscough East , West Lancashire@Burscough E., \emph{W. Lancs.}}
+
+Resignation of David Evans (Lab).
+
+\section{Leicestershire}
+
+\subsection*{Charnwood}
+
+\subsubsection*{Loughborough Shelthorpe (2) \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th January]}
+
+\index{Loughborough Shelthorpe , Charnwood@Loughborough Shelthorpe, \emph{Charnwood}}
+
+Death of Gill Bolton and resignation of Alice Brennan (both Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Beverley Gray & Lab & 709\\
+	Catherine Gray & Lab & 654\\
+	Christopher Stewart & C & 311\\
+	David Hayes & Ind & 149\\
+	Alejandro Guerrero & LD & 136\\
+	Rachel Baker & Grn & 108\\
+	Emmanuel Fantaisie & LD & 104\\
+	Faye Forde & Grn & 81\\
+\end{tabular*}
+
+\subsection*{Leicester}
+
+\subsubsection*{Evington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Evington , Leicester@Evington, \emph{Leicester}}
+
+Death of Ratilal Govind (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Shahid Khan & Lab & 1557\\
+	Jenny Joannou & C & 1382\\
+	Zuffar Haq & LD & 830\\
+	Ursula Bilson & Grn & 200\\
+	David George & ForBritn & 45\\
+\end{tabular*}
+
+\subsection*{Melton}
+
+\subsubsection*{Melton Sysonby \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Melton Sysonby , Melton@Melton Sysonby, \emph{Melton}}
+
+Resignation of Tejpal Singh Bains (C).
+
+\subsection*{Oadby and Wigston}
+
+\subsubsection*{Wigston Meadowcourt \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Wigston Meadowcourt , Oadby and Wigston@Wigston Meadowcourt, \emph{Oadby \& Wigston}}
+
+Death of Robert Eaton (LD).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Liz Darling & C & -\\
+	Joshua Pearman & Grn & -\\
+	Michael Phipps & LD & -\\
+\end{tabular*}
+
+\section{Lincolnshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Colsterworth Rural \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Colsterworth Rural , Lincolnshire@Colsterworth Rural, \emph{Lincs.}}
+
+Death of Bob Adams (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Harrish Bisnauthsing & LD & -\\
+	Stuart Fawcett & Lab & -\\
+	Mike Turner & Grn & -\\
+	Charlotte Vernon & C & -\\
+\end{tabular*}
+
+\subsection*{East Lindsey}
+
+\subsubsection*{Chapel St Leonards \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th January]}
+
+\index{Chapel Saint Leonards , East Lindsey@Chapel St Leonards, \emph{E. Lindsey}}
+
+Death of Paul Hibbert-Greaves (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Stephen Evans & C & 436\\
+	David Fenton & Ind & 267\\
+\end{tabular*}
+
+\subsubsection*{Halton Holegate \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Halton Holegate , East Lindsey@Halton Holegate, \emph{E. Lindsey}}
+
+Death of Jim Swanson (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Terry Taylor & C & -\\
+	Keziah Wood & Lab & -\\
+\end{tabular*}
+
+\subsection*{North East Lincolnshire}
+
+\subsubsection*{Park \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Park , North East Lincolnshire@Park, \emph{N.E. Lincs.}}
+
+Death of Debbie Woodward (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Ryan Aisthorpe & LD & -\\
+	Marian Boyd & C & -\\
+	Dave Mitchell & TUSC & -\\
+	Kevin Shutt & Lab & -\\
+\end{tabular*}
+
+\subsection*{South Kesteven}
+
+\subsubsection*{Aveland \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Aveland , South Kesteven@Aveland, \emph{S. Kesteven}}
+
+Resignation of Peter Moseley (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Richard Dixon-Warren & C & -\\
+	Barry Hare & Lab & -\\
+\end{tabular*}
+
+\subsubsection*{Isaac Newton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[24th February]}
+
+\index{Isaac Newton , South Kesteven@Isaac Newton, \emph{S. Kesteven}}
+
+Death of Bob Adams (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Stuart Fawcett & Lab & -\\
+	Ben Green & C & -\\
+	Andrew Skelton & Ind & -\\
+	Mike Turner & Grn & -\\
+\end{tabular*}
+
+\section{North Yorkshire}
+
+\subsection*{Harrogate}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Marston Moor ward due to the death of Norman Waller (C).%
+\index{Marston Moor , Harrogate@Marston Moor, \emph{Harrogate}}
+
+\subsection*{Ryedale}
+
+\subsubsection*{Sherburn \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Sherburn , Ryedale@Sherburn, \emph{Ryedale}}
+
+Resignation of John Raper (Ind).
+
+\subsection*{Scarborough}
+
+\subsubsection*{Mayfield \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Mayfield , Scarborough@Mayfield, \emph{Scarborough}}
+
+Resignation of David Chance (C).
+
+\subsection*{Selby}
+
+Yorks = Yorkshire Party
+
+\subsubsection*{Byram and Brotherton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th January; C gain from Yorks]}
+
+\index{Bryam and Brotherton , Selby@Byram \& Brotherton, \emph{Selby}}
+
+Resignation of Eleanor Jordan (Yorks).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Georgina Ashton & C & 215\\
+	Matthew Burton & Lab & 207\\
+	Cherry Waters & Grn & 25\\
+\end{tabular*}
+
+\section{Northamptonshire}
+
+\subsection*{North Northamptonshire}
+
+\subsubsection*{Oundle \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Oundle , North Northamptonshire@Oundle, \emph{N. Northants.}}
+
+Resignation of Annabel de Capell Brooke (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Charlie Best & LD & -\\
+	Ollie Curtis & C & -\\
+	Harry James & Lab & -\\
+	Kate Jones & Grn & -\\
+\end{tabular*}
+
+\section{Northumberland}
+
+\subsubsection*{Seghill with Seaton Delaval \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Seghill with Seaton Delaval , Northumberland@Seghill with Seaton Delaval, \emph{Northd.}}
+
+Death of Paul Scott (C).
+
+\section{Nottinghamshire}
+
+\subsection*{County Council}
+
+\subsubsection*{Collingham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Collingham , Nottinghamshire@Collingham, \emph{Notts.}}
+
+Death of Maureen Dobson (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Debbie Darby & Ind & -\\
+	Jennifer Kaye & Lab & -\\
+	Jack Kellas & C & -\\
+\end{tabular*}
+
+\subsection*{Gedling}
+
+\subsubsection*{Cavendish \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[6th January; LD gain from Lab]}
+
+\index{Cavendish , Gedling@Cavendish, \emph{Gedling}}
+
+Resignation of Gary Gregory (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Andrew Dunkin & LD & 344\\
+	John Butterworth & Lab & 303\\
+	Darren Maltby & C & 250\\
+	Fran Loi & Ind & 56\\
+	Jim Norris & Grn & 26\\
+\end{tabular*}
+
+\subsection*{Newark and Sherwood}
+
+\subsubsection*{Collingham \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Collingham , Newark and Sherwood@Collingham, \emph{Newark \& Sherwood}}
+
+Death of Maureen Dobson (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Phil Barron & LD & -\\
+	Emma Davis & C & -\\
+	Matthew Spoors & Lab & -\\
+\end{tabular*}
+
+\section{Rutland}
+
+\subsubsection*{Ryhall and Casterton \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th March]}
+
+\index{Ryhall and Casterton , Rutland@Ryhall \& Casterton, \emph{Rutland}}
+
+Resignation of Richard Coleman (C).
+
+\section{Shropshire}
+
+\subsection*{Telford and Wrekin}
+
+\subsubsection*{Brookside \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Brookside , Telford and Wrekin@Brookside, \emph{Telford \& Wrekin}}
+
+Death of Jackie Loveridge (Lab).
+
+\section{Somerset}
+
+\subsection*{County Council}
+
+At the May 2022 ordinary election there were unfilled vacancies in Chard North and Ilminster divisions due to the resignations of Amanda Broom (LD) and Linda Vijeh (C) respectively.%
+\index{Chard North , Somerset@Chard N., \emph{Somerset}}%
+\index{Ilminster , Somerset@Ilminster, \emph{Somerset}}
+
+\subsection*{Somerset West and Taunton}
+
+\subsubsection*{Alcombe \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[10th February; LD gain from Ind]}
+
+\index{Alcombe , Somerset West and Taunton@Alcombe, \emph{Somerset W. \& Taunton}}
+
+Disqualification (non-attendance) of Paul Bolton (Ind).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Nicole Hawkins & LD & 259\\
+	Craig Coleman & C & 223\\
+	Shanti Roos & Lab & 21\\
+	Richard Lillis & Ind & 13\\
+\end{tabular*}
+
+\subsection*{South Somerset}
+
+\subsubsection*{Neroche \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd March]}
+
+\index{Neroche , South Somerset@Neroche, \emph{S. Somerset}}
+
+Resignation of Linda Vijeh (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Lynsey Arscott & Grn & -\\
+	Ray Buckler & LD & -\\
+	Paul Sellers & Lab & -\\
+	Kate Wylie-Carrick & C & -\\
+\end{tabular*}
+
+\section{Staffordshire}
+
+\subsection*{Staffordshire Moorlands}
+
+\subsubsection*{Cheadle South East \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Cheadle South East , Staffordshire Moorlands@Cheadle S.E., \emph{Staffs. Moorlands}}
+
+Resignation of Richard Alcock (Ind).
+
+\subsection*{Tamworth}
+
+\subsubsection*{Spital \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[3rd February]}
+
+\index{Spital , Tamworth@Spital, \emph{Tamworth}}
+
+Resignation of Paul Brindley (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Christian Cooke & C & 613\\
+	Huw Loxton & Ind & 482\\
+	Dave Foster & Lab & 311\\
+\end{tabular*}
+
+\section{Suffolk}
+
+\subsection*{Ipswich}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Bridge ward due to the resignation of Collette Allen (Lab).%
+\index{Bridge , Ipswich@Bridge, \emph{Ipswich}}
+
+\subsubsection*{St John's \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Saint John's , Ipswich@St John's, \emph{Ipswich}}
+
+Resignation of Shelly Darwin (Lab).
+
+\subsection*{Mid Suffolk}
+
+\subsubsection*{Thurston \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[17th February]}
+
+\index{Thurston , Mid Suffolk@Thurston, \emph{Mid Suffolk}}
+
+Resignation of Wendy Turner (Grn).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Austin Davies & Grn & -\\
+	Timothy Glenton & LD & -\\
+	Philippa Wilding & C & -\\
+	Terence Wilson & Lab & -\\
+\end{tabular*}
+
+\section{Surrey}
+
+\subsection*{Spelthorne}
+
+\subsubsection*{Stanwell North \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[Wednesday 23rd February]}
+
+\index{Stanwell North , Spelthorne@Stanwell N., \emph{Spelthorne}}
+
+Resignation of Jim McIlroy (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	Jon Button & Lab & -\\
+	Paul Couchman & TUSC & -\\
+	Michael Zenonos & C & -\\
+\end{tabular*}
+
+\section{West Sussex}
+
+\subsection*{Horsham}
+
+\subsubsection*{Denne \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Denne , Horsham@Denne, \emph{Horsham}}
+
+Resignation of Frances Haigh (LD).
+
+\subsubsection*{Storrington and Washington \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Storrington and Washington , Horsham@Storrington \& Washington, \emph{Horsham}}
+
+Resignation of James Sanson (C).
+
+\section{Worcestershire}
+
+\subsection*{Wychavon}
+
+\subsubsection*{The Littletons \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[13th January; Grn gain from C]}
+
+\index{Littletons , Wychavon@The Littletons, \emph{Wychavon}}
+
+Death of Richard Lasota (C).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+    Hannah Robson & Grn & 291\\
+    Mary Smith & C & 274\\
+    David Quayle & LD & 179\\
+\end{tabular*}
+
+\section{Glamorgan}
+
+\subsection*{Merthyr Tydfil}
+
+\subsubsection*{Vaynor \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Vaynor , Merthyr Tydfil@Vaynor, \emph{Merthyr Tydfil}}
+
+Death of Howard Barrett (Ind).
+
+\subsection*{Rhondda Cynon Taf}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Cymmer ward due to the resignation of Margaret Tegg (Lab).%
+\index{Cymmer , Rhondda Cynon Taf@Cymmer, \emph{Rhondda Cynon Taf}}
+
+\section{Gwent}
+
+\subsection*{Monmouthshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Llangybi Fawr ward due to the death of Peter Clarke (C).%
+\index{Llangybi Fawr , Monmouthshire@Llangbyi Fawr, \emph{Mons.}}
+
+\subsection*{Torfaen}
+
+\subsubsection*{Blaenavon \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Blaenavon , Torfaen@Blaenavon, \emph{Torfaen}}
+
+Death of Alan Jones (Lab).
+
+\section{Mid and West Wales}
+
+\subsection*{Carmarthenshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in St Ishmael ward due to the death of Mair Stephens (Ind).%
+\index{Saint Ishmael , Carmarthenshire@St Ishmael, \emph{Carms.}}
+
+\subsection*{Powys}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Gwernyfed ward due to the resignation of James Evans MS (C).%
+\index{Gwernyfed , Powys@Gwernyfed, \emph{Powys}}
+
+%\section{Aberdeenshire Councils}
+%
+%\subsection*{Aberdeenshire}
+%
+%\subsubsection*{Mid Formartine \hspace*{\fill}\nolinebreak[1]%
+%	\enspace\hspace*{\fill}
+%	\finalhyphendemerits=0
+%	[19th August; C gain from SNP]}
+%
+%\index{Mid Formartine , Aberdeenshire@Mid Formartine, \emph{Aberdeenshire}}
+%
+%Resignation of Karen Adam MSP (SNP).
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	\emph{First preferences}\\
+%	Sheila Powell & C & 1480\\
+%	Jenny Nicol & SNP & 1205\\
+%	Jeff Goodhall & LD & 412\\
+%	Peter Kennedy & Grn & 144\\
+%\end{tabular*}
+%
+%\emph{Kennedy eliminated}: Powell 1484 Nicol 1281 Goodhall 451
+%
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	\emph{Goodhall eliminated}\\
+%	Sheila Powell & C & 1645\\
+%	Jenny Nicol & SNP & 1409\\
+%\end{tabular*}
+
+\section{Ayrshire Councils}
+
+\subsection*{South Ayrshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Ayr West ward due to the resignation of Siobhan Brown MSP (SNP).%
+\index{Ayr West , South Ayrshire@Ayr W., \emph{S. Ayrs.}}
+
+\section{Clyde Councils}
+
+\subsection*{East Dunbartonshire}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Bishopbriggs South ward due to the death of Alan Brown (C).%
+\index{Bishopbridggs South , East Dunbartonshire@Bishopbriggs S., \emph{E. Duns.}}
+
+\subsection*{Renfrewshire}
+
+\subsubsection*{Paisley Southeast \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[pending]}
+
+\index{Paisley Southeast , Renfrewshire@Paisley S.E., \emph{Renfs.}}
+
+Disqualification of Paul Mack (Ind) by the Standards Commission for Scotland.
+
+\section{Forth Councils}
+
+\subsection*{East Lothian}
+
+\subsubsection*{Preston, Seton and Gosford \hspace*{\fill}\nolinebreak[1]%
+	\enspace\hspace*{\fill}
+	\finalhyphendemerits=0
+	[20th January]}
+
+\index{Preston, Seton and Gosford , East Lothian@Preston, Seton \& Gosford, \emph{E. Lothian}}
+
+Death of Willie Innes (Lab).
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{First preferences}\\
+	Colin Yorkston & Lab & 1793\\
+	Janis Wilson & SNP & 1217\\
+	Andy Ovens & C & 1154\\
+	Tim Porteus & Grn & 231\\
+	Ben Morse & LD & 136\\
+	Calum Miller & Ind & 122\\
+\end{tabular*}
+
+\emph{Porteus, Morse and Miller eliminated}: Yorkston 1927 Wilson 1391 Ovens 1212
+
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+	\emph{Ovens eliminated}\\
+	Colin Yorkston & Lab & 2390\\
+	Janis Wilson & SNP & 1458\\
+\end{tabular*}
+
+\subsection*{Edinburgh}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Fountainbridge\slash Craiglockhart ward due to the resignation of Gavin Corbett (Grn).%
+\index{Fountainbridge/Craiglockhart , Edinburgh@\sloppyword{Fountainbridge/Craiglockhart, \emph{Edinburgh}}}
+
+\subsection*{Fife}
+
+At the May 2022 ordinary election there was an unfilled vacancy in St Andrews ward due to the resignation of Dominic Nolan (C).%
+\index{Sain Andrews , Fife@St Andrews, \emph{Fife}}
+
+\section{Highland Councils}
+
+\subsection*{Highland}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Caol and Mallaig ward due to the resignation of Ben Thompson (Ind).%
+\index{Caol and Mallaig , Highland@Caol \& Mallaig, \emph{Highland}}
+
+\subsection*{Moray}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Elgin City North ward due to the resignation of Paula Coy (SNP).%
+\index{Elgin City North , Moray@Elgin City N., \emph{Moray}}
+
+\section{Island Councils}
+
+\subsection*{Eilean Siar}
+
+At the May 2022 ordinary election there was an unfilled vacancy in Steòrnabhagh a Deas ward due to the resignation of Charlie Nicolson (Ind).%
+\index{Steornabhagh a Deas , Eilean Siar@Steòrnabhagh a D., \emph{Eilean Siar}}
+
+\end{resultsiii}
+
+% Index:
+\clearpage
+\phantomsection
+%\addcontentsline{toc}{chapter}{Index of Wards}
+{\scriptsize%\raggedright
+\frenchspacing\printindex}
+\thispagestyle{plain}
+
+%% GNU Free Documentation License
+\chapter*{{GNU Free Documentation License}}
+\phantomsection % so hyperref creates bookmarks
+\addcontentsline{toc}{chapter}{GNU Free Documentation License}
+%\label{label_fdl}
+\pagestyle{plain}
+
+ Version 1.3, 3 November 2008
+
+
+ Copyright \copyright{} 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
+
+ \bigskip
+
+ <\url{http://fsf.org/}>
+
+ \bigskip
+
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+\begin{results}
+\tiny
+
+\subsubsection*{Preamble}
+
+The purpose of this License is to make a manual, textbook, or other
+functional and useful document ``free'' in the sense of freedom: to
+assure everyone the effective freedom to copy and redistribute it,
+with or without modifying it, either commercially or noncommercially.
+Secondarily, this License preserves for the author and publisher a way
+to get credit for their work, while not being considered responsible
+for modifications made by others.
+
+This License is a kind of ``copyleft'', which means that derivative
+works of the document must themselves be free in the same sense. It
+complements the GNU General Public License, which is a copyleft
+license designed for free software.
+
+We have designed this License in order to use it for manuals for free
+software, because free software needs free documentation: a free
+program should come with manuals providing the same freedoms that the
+software does. But this License is not limited to software manuals;
+it can be used for any textual work, regardless of subject matter or
+whether it is published as a printed book. We recommend this License
+principally for works whose purpose is instruction or reference.
+
+\subsubsection*{1. Applicability and definitions}
+
+This License applies to any manual or other work, in any medium, that
+contains a notice placed by the copyright holder saying it can be
+distributed under the terms of this License. Such a notice grants a
+world-wide, royalty-free license, unlimited in duration, to use that
+work under the conditions stated herein. The ``\emph{Document}'', below,
+refers to any such manual or work. Any member of the public is a
+licensee, and is addressed as ``\emph{you}''. You accept the license if you
+copy, modify or distribute the work in a way requiring permission
+under copyright law.
+
+A ``\emph{Modified Version}'' of the Document means any work containing the
+Document or a portion of it, either copied verbatim, or with
+modifications and/or translated into another language.
+
+A ``\emph{Secondary Section}'' is a named appendix or a front-matter section of
+the Document that deals exclusively with the relationship of the
+publishers or authors of the Document to the Document's overall subject
+(or to related matters) and contains nothing that could fall directly
+within that overall subject. (Thus, if the Document is in part a
+textbook of mathematics, a Secondary Section may not explain any
+mathematics.) The relationship could be a matter of historical
+connection with the subject or with related matters, or of legal,
+commercial, philosophical, ethical or political position regarding
+them.
+
+The ``\emph{Invariant Sections}'' are certain Secondary Sections whose titles
+are designated, as being those of Invariant Sections, in the notice
+that says that the Document is released under this License. If a
+section does not fit the above definition of Secondary then it is not
+allowed to be designated as Invariant. The Document may contain zero
+Invariant Sections. If the Document does not identify any Invariant
+Sections then there are none.
+
+The ``\emph{Cover Texts}'' are certain short passages of text that are listed,
+as Front-Cover Texts or Back-Cover Texts, in the notice that says that
+the Document is released under this License. A Front-Cover Text may
+be at most 5 words, and a Back-Cover Text may be at most 25 words.
+
+A ``\emph{Transparent}'' copy of the Document means a machine-readable copy,
+represented in a format whose specification is available to the
+general public, that is suitable for revising the document
+straightforwardly with generic text editors or (for images composed of
+pixels) generic paint programs or (for drawings) some widely available
+drawing editor, and that is suitable for input to text formatters or
+for automatic translation to a variety of formats suitable for input
+to text formatters. A copy made in an otherwise Transparent file
+format whose markup, or absence of markup, has been arranged to thwart
+or discourage subsequent modification by readers is not Transparent.
+An image format is not Transparent if used for any substantial amount
+of text. A copy that is not ``Transparent'' is called ``\emph{Opaque}''.
+
+Examples of suitable formats for Transparent copies include plain
+ASCII without markup, Texinfo input format, \LaTeX{} input format, SGML
+or XML using a publicly available DTD, and standard-conforming simple
+HTML, PostScript or PDF designed for human modification. Examples of
+transparent image formats include PNG, XCF and JPG. Opaque formats
+include proprietary formats that can be read and edited only by
+proprietary word processors, SGML or XML for which the DTD and/or
+processing tools are not generally available, and the
+machine-generated HTML, PostScript or PDF produced by some word
+processors for output purposes only.
+
+The ``\emph{Title Page}'' means, for a printed book, the title page itself,
+plus such following pages as are needed to hold, legibly, the material
+this License requires to appear in the title page. For works in
+formats which do not have any title page as such, ``Title Page'' means
+the text near the most prominent appearance of the work's title,
+preceding the beginning of the body of the text.
+
+The ``\emph{publisher}'' means any person or entity that distributes
+copies of the Document to the public.
+
+A section ``\emph{Entitled XYZ}'' means a named subunit of the Document whose
+title either is precisely XYZ or contains XYZ in parentheses following
+text that translates XYZ in another language. (Here XYZ stands for a
+specific section name mentioned below, such as ``\emph{Acknowledgements}'',
+``\emph{Dedications}'', ``\emph{Endorsements}'', or ``\emph{History}''.)
+To ``\emph{Preserve the Title}''
+of such a section when you modify the Document means that it remains a
+section ``Entitled XYZ'' according to this definition.
+
+The Document may include Warranty Disclaimers next to the notice which
+states that this License applies to the Document. These Warranty
+Disclaimers are considered to be included by reference in this
+License, but only as regards disclaiming warranties: any other
+implication that these Warranty Disclaimers may have is void and has
+no effect on the meaning of this License.
+
+\subsubsection*{2. Verbatim copying}
+
+You may copy and distribute the Document in any medium, either
+commercially or noncommercially, provided that this License, the
+copyright notices, and the license notice saying this License applies
+to the Document are reproduced in all copies, and that you add no other
+conditions whatsoever to those of this License. You may not use
+technical measures to obstruct or control the reading or further
+copying of the copies you make or distribute. However, you may accept
+compensation in exchange for copies. If you distribute a large enough
+number of copies you must also follow the conditions in section~3.
+
+You may also lend copies, under the same conditions stated above, and
+you may publicly display copies.
+
+\subsubsection*{3. Copying in quantity}
+
+If you publish printed copies (or copies in media that commonly have
+printed covers) of the Document, numbering more than 100, and the
+Document's license notice requires Cover Texts, you must enclose the
+copies in covers that carry, clearly and legibly, all these Cover
+Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on
+the back cover. Both covers must also clearly and legibly identify
+you as the publisher of these copies. The front cover must present
+the full title with all words of the title equally prominent and
+visible. You may add other material on the covers in addition.
+Copying with changes limited to the covers, as long as they preserve
+the title of the Document and satisfy these conditions, can be treated
+as verbatim copying in other respects.
+
+If the required texts for either cover are too voluminous to fit
+legibly, you should put the first ones listed (as many as fit
+reasonably) on the actual cover, and continue the rest onto adjacent
+pages.
+
+If you publish or distribute Opaque copies of the Document numbering
+more than 100, you must either include a machine-readable Transparent
+copy along with each Opaque copy, or state in or with each Opaque copy
+a computer-network location from which the general network-using
+public has access to download using public-standard network protocols
+a complete Transparent copy of the Document, free of added material.
+If you use the latter option, you must take reasonably prudent steps,
+when you begin distribution of Opaque copies in quantity, to ensure
+that this Transparent copy will remain thus accessible at the stated
+location until at least one year after the last time you distribute an
+Opaque copy (directly or through your agents or retailers) of that
+edition to the public.
+
+It is requested, but not required, that you contact the authors of the
+Document well before redistributing any large number of copies, to give
+them a chance to provide you with an updated version of the Document.
+
+\subsubsection*{4. Modifications}
+
+You may copy and distribute a Modified Version of the Document under
+the conditions of sections 2 and 3 above, provided that you release
+the Modified Version under precisely this License, with the Modified
+Version filling the role of the Document, thus licensing distribution
+and modification of the Modified Version to whoever possesses a copy
+of it. In addition, you must do these things in the Modified Version:
+
+\begin{itemize}
+\item[A.]
+ Use in the Title Page (and on the covers, if any) a title distinct
+ from that of the Document, and from those of previous versions
+ (which should, if there were any, be listed in the History section
+ of the Document). You may use the same title as a previous version
+ if the original publisher of that version gives permission.
+
+\item[B.]
+ List on the Title Page, as authors, one or more persons or entities
+ responsible for authorship of the modifications in the Modified
+ Version, together with at least five of the principal authors of the
+ Document (all of its principal authors, if it has fewer than five),
+ unless they release you from this requirement.
+
+\item[C.]
+ State on the Title page the name of the publisher of the
+ Modified Version, as the publisher.
+
+\item[D.]
+ Preserve all the copyright notices of the Document.
+
+\item[E.]
+ Add an appropriate copyright notice for your modifications
+ adjacent to the other copyright notices.
+
+\item[F.]
+ Include, immediately after the copyright notices, a license notice
+ giving the public permission to use the Modified Version under the
+ terms of this License, in the form shown in the Addendum below.
+
+\item[G.]
+ Preserve in that license notice the full lists of Invariant Sections
+ and required Cover Texts given in the Document's license notice.
+
+\item[H.]
+ Include an unaltered copy of this License.
+
+\item[I.]
+ Preserve the section Entitled ``History'', Preserve its Title, and add
+ to it an item stating at least the title, year, new authors, and
+ publisher of the Modified Version as given on the Title Page. If
+ there is no section Entitled ``History'' in the Document, create one
+ stating the title, year, authors, and publisher of the Document as
+ given on its Title Page, then add an item describing the Modified
+ Version as stated in the previous sentence.
+
+\item[J.]
+ Preserve the network location, if any, given in the Document for
+ public access to a Transparent copy of the Document, and likewise
+ the network locations given in the Document for previous versions
+ it was based on. These may be placed in the ``History'' section.
+ You may omit a network location for a work that was published at
+ least four years before the Document itself, or if the original
+ publisher of the version it refers to gives permission.
+
+\item[K.]
+ For any section Entitled ``Acknowledgements'' or ``Dedications'',
+ Preserve the Title of the section, and preserve in the section all
+ the substance and tone of each of the contributor acknowledgements
+ and/or dedications given therein.
+
+\item[L.]
+ Preserve all the Invariant Sections of the Document,
+ unaltered in their text and in their titles. Section numbers
+ or the equivalent are not considered part of the section titles.
+
+\item[M.]
+ Delete any section Entitled ``Endorsements''. Such a section
+ may not be included in the Modified Version.
+
+\item[N.]
+ Do not retitle any existing section to be Entitled ``Endorsements''
+ or to conflict in title with any Invariant Section.
+
+\item[O.]
+ Preserve any Warranty Disclaimers.
+\end{itemize}
+
+If the Modified Version includes new front-matter sections or
+appendices that qualify as Secondary Sections and contain no material
+copied from the Document, you may at your option designate some or all
+of these sections as invariant. To do this, add their titles to the
+list of Invariant Sections in the Modified Version's license notice.
+These titles must be distinct from any other section titles.
+
+You may add a section Entitled ``Endorsements'', provided it contains
+nothing but endorsements of your Modified Version by various
+parties---for example, statements of peer review or that the text has
+been approved by an organization as the authoritative definition of a
+standard.
+
+You may add a passage of up to five words as a Front-Cover Text, and a
+passage of up to 25 words as a Back-Cover Text, to the end of the list
+of Cover Texts in the Modified Version. Only one passage of
+Front-Cover Text and one of Back-Cover Text may be added by (or
+through arrangements made by) any one entity. If the Document already
+includes a cover text for the same cover, previously added by you or
+by arrangement made by the same entity you are acting on behalf of,
+you may not add another; but you may replace the old one, on explicit
+permission from the previous publisher that added the old one.
+
+The author(s) and publisher(s) of the Document do not by this License
+give permission to use their names for publicity for or to assert or
+imply endorsement of any Modified Version.
+
+\subsubsection*{5. Combining documents}
+
+You may combine the Document with other documents released under this
+License, under the terms defined in section~4 above for modified
+versions, provided that you include in the combination all of the
+Invariant Sections of all of the original documents, unmodified, and
+list them all as Invariant Sections of your combined work in its
+license notice, and that you preserve all their Warranty Disclaimers.
+
+The combined work need only contain one copy of this License, and
+multiple identical Invariant Sections may be replaced with a single
+copy. If there are multiple Invariant Sections with the same name but
+different contents, make the title of each such section unique by
+adding at the end of it, in parentheses, the name of the original
+author or publisher of that section if known, or else a unique number.
+Make the same adjustment to the section titles in the list of
+Invariant Sections in the license notice of the combined work.
+
+In the combination, you must combine any sections Entitled ``History''
+in the various original documents, forming one section Entitled
+``History''; likewise combine any sections Entitled ``Acknowledgements'',
+and any sections Entitled ``Dedications''. You must delete all sections
+Entitled ``Endorsements''.
+
+\subsubsection*{6. Collections of documents}
+
+You may make a collection consisting of the Document and other documents
+released under this License, and replace the individual copies of this
+License in the various documents with a single copy that is included in
+the collection, provided that you follow the rules of this License for
+verbatim copying of each of the documents in all other respects.
+
+You may extract a single document from such a collection, and distribute
+it individually under this License, provided you insert a copy of this
+License into the extracted document, and follow this License in all
+other respects regarding verbatim copying of that document.
+
+\subsubsection*{7. Aggregation with independent works}
+
+A compilation of the Document or its derivatives with other separate
+and independent documents or works, in or on a volume of a storage or
+distribution medium, is called an ``aggregate'' if the copyright
+resulting from the compilation is not used to limit the legal rights
+of the compilation's users beyond what the individual works permit.
+When the Document is included in an aggregate, this License does not
+apply to the other works in the aggregate which are not themselves
+derivative works of the Document.
+
+If the Cover Text requirement of section~3 is applicable to these
+copies of the Document, then if the Document is less than one half of
+the entire aggregate, the Document's Cover Texts may be placed on
+covers that bracket the Document within the aggregate, or the
+electronic equivalent of covers if the Document is in electronic form.
+Otherwise they must appear on printed covers that bracket the whole
+aggregate.
+
+\subsubsection*{8. Translation}
+
+Translation is considered a kind of modification, so you may
+distribute translations of the Document under the terms of section~4.
+Replacing Invariant Sections with translations requires special
+permission from their copyright holders, but you may include
+translations of some or all Invariant Sections in addition to the
+original versions of these Invariant Sections. You may include a
+translation of this License, and all the license notices in the
+Document, and any Warranty Disclaimers, provided that you also include
+the original English version of this License and the original versions
+of those notices and disclaimers. In case of a disagreement between
+the translation and the original version of this License or a notice
+or disclaimer, the original version will prevail.
+
+If a section in the Document is Entitled ``Acknowledgements'',
+``Dedications'', or ``History'', the requirement (section~4) to Preserve
+its Title (section~1) will typically require changing the actual
+title.
+
+\subsubsection*{9. Termination}
+
+You may not copy, modify, sublicense, or distribute the Document
+except as expressly provided under this License. Any attempt
+otherwise to copy, modify, sublicense, or distribute it is void, and
+will automatically terminate your rights under this License.
+
+However, if you cease all violation of this License, then your license
+from a particular copyright holder is reinstated (a) provisionally,
+unless and until the copyright holder explicitly and finally
+terminates your license, and (b) permanently, if the copyright holder
+fails to notify you of the violation by some reasonable means prior to
+60 days after the cessation.
+
+Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+
+Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License. If your rights have been terminated and not permanently
+reinstated, receipt of a copy of some or all of the same material does
+not give you any rights to use it.
+
+\subsubsection*{10. Future revisions of this License}
+
+The Free Software Foundation may publish new, revised versions
+of the GNU Free Documentation License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns. See
+\url{http://www.gnu.org/copyleft/}.
+
+Each version of the License is given a distinguishing version number.
+If the Document specifies that a particular numbered version of this
+License ``or any later version'' applies to it, you have the option of
+following the terms and conditions either of that specified version or
+of any later version that has been published (not as a draft) by the
+Free Software Foundation. If the Document does not specify a version
+number of this License, you may choose any version ever published (not
+as a draft) by the Free Software Foundation. If the Document
+specifies that a proxy can decide which future versions of this
+License can be used, that proxy's public statement of acceptance of a
+version permanently authorizes you to choose that version for the
+Document.
+
+\subsubsection*{11. Relicensing}
+
+``Massive Multiauthor Collaboration Site'' (or ``MMC Site'') means any
+World Wide Web server that publishes copyrightable works and also
+provides prominent facilities for anybody to edit those works. A
+public wiki that anybody can edit is an example of such a server. A
+``Massive Multiauthor Collaboration'' (or ``MMC'') contained in the
+site means any set of copyrightable works thus published on the MMC
+site.
+
+``CC-BY-SA'' means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+``Incorporate'' means to publish or republish a Document, in whole or
+in part, as part of another Document.
+
+An MMC is ``eligible for relicensing'' if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+\end{results}
+
+\end{document}
