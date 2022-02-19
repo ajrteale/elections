@@ -1,13 +1,4 @@
 "Polling","Council","ID","Ward","ID","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-"2022-02-17","Allerdale",157,"Stainburn/Clifton",19548,"Ind","Janet King","Disqualification","Non-attendance","andrewteale.me.uk/in7t","Jacqueline Kirkbride","Jimmy Grisdale",,,,
-"2022-02-17","Bristol",100,"Southmead",16352,"Lab","Helen Godwin Teige","Resignation",,"andrewteale.me.uk/it9q","Roddy Jaques","Kye Dudd","Gill Brooks","Edward Burnham",,"Tom Baldwin (TUSC)"
-"2022-02-17","M Suffolk",334,"Thurston",20896,"Grn","Wendy Turner","Resignation",,"andrewteale.me.uk/ihgv","Philippa Wilding","Terence Wilson","Timothy Glenton","Austin Davies",,
-"2022-02-17","N Northants",466,"Oundle",21528,"C","Annabel de Capell Brooke","Resignation",,"andrewteale.me.uk/in1v","Ollie Curtis","Harry James","Charlie Best","Kate Jones",,
-"2022-02-17","NE Lincs",112,"Park",2998,"C","Debbie Woodward","Death",,"andrewteale.me.uk/i40c","Marian Boyd","Kevin Shutt","Ryan Aisthorpe",,,"Dave Mitchell (TUSC)"
-"2022-02-17","Newark/Sherwood",306,"Collingham",17237,"Ind","Maureen Dobson","Death",,"andrewteale.me.uk/im3r","Emma Davis","Matthew Spoors","Phil Barron",,,
-"2022-02-17","Notts CC",394,"Collingham",18090,"Ind","Maureen Dobson","Death",,"andrewteale.me.uk/igws","Jack Kellas","Jennifer Kaye",,,,"Debbie Darby (Ind)"
-"2022-02-17","Oadby/Wigston",266,"Wigston Meadowcourt",7620,"LD","Robert Eaton","Death",,"andrewteale.me.uk/i68g","Liz Darling",,"Michael Phipps","Joshua Pearman",,
-"2022-02-17","W Devon",178,"Tavistock N",17586,"Ind","Steve Hipsey","Resignation",,"andrewteale.me.uk/i6es","David Turnbull","Doug Smith","Peter Squire","Susan Bamford",,
 "2022-02-23","Spelthorne",344,"Stanwell N",4584,"C","Jim McIlroy","Resignation",,"andrewteale.me.uk/ipfe","Michael Zenonos","Jon Button",,,,"Paul Couchman (TUSC)"
 "2022-02-24","Castle Point",200,"St Peter's",3796,"C","Bill Dick","Death",,"andrewteale.me.uk/ibsd","Michael Dixon","Bill Emberson",,,,"John Woodley (Ind)"
 "2022-02-24","Durham",117,"Ferryhill",14624,"Ind","Brian Avery","Death",,"andrewteale.me.uk/ifqp","David Farry","Curtis Bihari","Bill Thorkildsen","Rebecca Dixon-McWaters",,"Kaela Banthorpe (Freedom Alliance), Joseph Makepeace (Ind), Glenys Newby (Ind)"
@@ -28,6 +19,11 @@
 "2022-03-10","Herts CC",385,"Hitchin S",17831,"LD","Paul Clark","Death",,"andrewteale.me.uk/imns","Claire Strong",,"Keith Hoskins","Deolinda Eltringham",,"Leigh Smith (CPA)"
 "2022-03-10","N Herts",230,"Hitchin Highbury",3189,"LD","Paul Clark","Death",,"andrewteale.me.uk/ix6c","Samuel Forsyth",,"Raj Bhakar","Deolinda Eltringham",,"Leigh Smith (CPA)"
 "2022-03-10","Rutland",76,"Ryhall/Casterton",20828,"C","Richard Coleman","Resignation","Elected in by-election 2019-09-12","andrewteale.me.uk/ifev","Richard Foster",,,"Rick Wilson",,
+"2022-03-24","Horsham",358,"Denne",19472,"LD","Frances Haugh","Resignation",,"andrewteale.me.uk/ic5t",,,,,,
+"2022-03-24","Northd",118,"Seghill/Seaton Delaval",14353,"C","Paul Scott","Death",,"andrewteale.me.uk/i7fp",,,,,,
+"2022-03-24","Test Vy",224,"N Baddesley",20022,"LD","Simon Cross","Resignation",,"andrewteale.me.uk/i0nu",,,,,,
+"2022-03-24","Thanet",245,"Nethercourt",4926,"Lab","Elizabeth Green","Disqualification","Non-attendance","andrewteale.me.uk/ikte",,,,,,
+"2022-03-31","Scarborough",299,"Mayfield",20532,"C","David Chance","Resignation",,"andrewteale.me.uk/ig4u",,,,,,
 ,"Barrow-in-Furness",158,"Dalton S",5723,"Lab","Shaun Blezard","Resignation",,"andrewteale.me.uk/iqjf",,,,,,
 ,"Carlisle",159,"Longtown/Border",21170,"C","Valerie Tarbitt","Death",,"andrewteale.me.uk/itqv",,,,,,
 ,"City (Aldermen)",459,"Cordwainer",,,"Roger Gifford","Death",,"andrewteale.me.uk/city-ald",,,,,,
@@ -40,30 +36,28 @@
 ,"Harrow",10,"Kenton W",186,"C","Vina Mithani","Death",,"andrewteale.me.uk/ixfa",,,,,,
 ,"Hartlepool",78,"Rural W",21270,"C","Brenda Loynes","Death",,"andrewteale.me.uk/iutv",,,,,,
 ,"High Peak",168,"Cote Heath",17651,"Lab","Keith Savage","Death",,"andrewteale.me.uk/i5gs",,,,,,
-,"Horsham",358,"Denne",19472,"LD","Frances Haugh","Resignation",,"andrewteale.me.uk/ic5t",,,,,,
 ,"Horsham",358,"Storrington/Washington",19486,"C","James Sanson","Resignation",,"andrewteale.me.uk/is5t",,,,,,
 ,"Ipswich",333,"St John's",7013,"Lab","Shelly Darwin","Resignation",,"andrewteale.me.uk/itqg",,,,,,
 ,"Knowsley",43,"Page Moss",17497,"Lab","Andy Moorhead","Resignation",,"andrewteale.me.uk/i4rs",,,,,,
 ,"Liverpool",44,"Everton",871,"Lab","Ian Byrne MP","Resignation",,"andrewteale.me.uk/ip2a",,,,,,
 ,"Liverpool",44,"Warbreck",886,"Lab","Cheryl Didsbury","Resignation",,"andrewteale.me.uk/i42a",,,,,,
+,"M Devon",173,"Cullompton S",8836,"Ind","Eileen Andrews","Resignation",,"andrewteale.me.uk/i1dj",,,,,,
 ,"Melton",264,"Melton Sysonby",7587,"C","Tejpal Singh Bains","Resignation",,"andrewteale.me.uk/i67g",,,,,,
 ,"Merthyr Tydfil",407,"Vaynor",2103,"Ind","Howard Barrett","Death",,"andrewteale.me.uk/it5k",,,,,,
 ,"N Herts",230,"Letchworth E",3196,"Lab","Sue Ngwala","Resignation",,"andrewteale.me.uk/i46c",,,,,,
-,"Northd",118,"Seghill/Seaton Delaval",14353,"C","Paul Scott","Death",,"andrewteale.me.uk/i7fp",,,,,,
+,"NE Lincs",112,"E Marsh",2992,"LD","Kay Rudd","Resignation",,"andrewteale.me.uk/iy0c",,,,,,
 ,"Pendle",253,"Barrowford/Pendleside",21568,"C","Linda Crossley","Death",,"andrewteale.me.uk/iv2v",,,,,,
 ,"Renfs",439,"Paisley SE",18508,"Ind","Paul Mack","Disqualification","Standards Commission for Scotland","andrewteale.me.uk/i48s",,,,,,
 ,"Ryedale",298,"Sherburn",8275,"Ind","John Raper","Resignation",,"andrewteale.me.uk/i1vh",,,,,,
 ,"S Tyneside",55,"Harton",1118,"Lab","Rob Dix","Death",,"andrewteale.me.uk/i59a",,,,,,
-,"Scarborough",299,"Mayfield",20532,"C","David Chance","Resignation",,"andrewteale.me.uk/ig4u",,,,,,
 ,"Sevenoaks",242,"Fawkham/W Kingsdown",4849,"C","Faye Parkin","Death",,"andrewteale.me.uk/i7qe",,,,,,
 ,"Staffs Moorlands",329,"Cheadle SE",5202,"Ind","Richard Alcock","Death",,"andrewteale.me.uk/ix1e",,,,,,
 ,"Telford/Wrekin",109,"Brookside",16620,"Lab","Jackie Loveridge","Death",,"andrewteale.me.uk/ixjr",,,,,,
-,"Test Vy",224,"N Baddesley",20022,"LD","Simon Cross","Resignation",,"andrewteale.me.uk/i0nu",,,,,,
 ,"Tewkesbury",214,"Brockworth E",20028,"Ind","Louise Gerrard","Resignation",,"andrewteale.me.uk/i6nu",,,,,,
-,"Thanet",245,"Nethercourt",4926,"Lab","Elizabeth Green","Disqualification","Non-attendance","andrewteale.me.uk/ikte",,,,,,
 ,"Torfaen",416,"Blaenavon",11456,"Lab","Alan Jones","Resignation",,"andrewteale.me.uk/iftl",,,,,,
 ,"W Lancs",258,"Burscough E",3593,"Lab","David Evans","Resignation",,"andrewteale.me.uk/i5kd",,,,,,
 ,"Walsall",62,"Willenhall S",1296,"Lab","Sean Coughlan","Resignation",,"andrewteale.me.uk/ikgb",,,,,,
+,"Waverley",347,"Frensham/Dockenfield/Tilford",4590,"C","Brian Adams","Death",,"andrewteale.me.uk/idhe",,,,,,
 ,"Welwyn Hatfield",235,"Welwyn E",16794,"C","Steven Markiewicz","Death",,"andrewteale.me.uk/i6pr",,,,,,
 ,"Wigan",41,"Leigh E",826,"Lab","Aniita Thorpe","Death",,"andrewteale.me.uk/ib1a",,,,,,
 ,"Wolverhampton",63,"East Park",1302,"Lab","Harman Singh Banger","Resignation","Fraud conviction","andrewteale.me.uk/irgb",,,,,,
