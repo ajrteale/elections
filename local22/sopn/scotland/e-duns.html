@@ -1,0 +1,3047 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1134157348",accountID:"3398774",trustKey:"66686",xpid:"VwUOWVFUDBABVFlRBQEHUVwE",licenseKey:"NRJS-45eb218fe15ebfe332c",applicationID:"1083200785"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),S=t(15),P=t(10),M=t("ee"),C=M.get("tracer"),N=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),P.on(p,r),M.on(d,o),b.on(l,o),P.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),S.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,N(!0)),w[v]("load",i,N(!0)),w[v]("popstate",function(){i(0,U>1)},N(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=t(25).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if("string"==typeof i?n=i:"object"==typeof i&&i instanceof y?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n),"data"!==this.params.protocol){var s=(""+(i&&i instanceof y&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var o=[r],i=a({});i&&o.push(i),l("lcp",o)}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,l("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),l("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,p,l=t("handle"),h=t("loader"),m=t(31),v=t(23),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(o);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}p=new PerformanceObserver(i);try{p.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!S++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1215.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var S=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+<link rel="shortcut icon" href="https://www.eastdunbarton.gov.uk/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Local ElectionOn 5 May 2022 the constituents of East Dunbartonshire will be invited to vote to elect their local Councillor, 22 Councillors across the 7 wards of East Dunbartonshire. In this election voters will be asked to mark their preferences on the ballot paper - 1 for their first choice, 2 for their second preferred candidate, 3 for the third and so on. Voters can mark" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.eastdunbarton.gov.uk/residents/council-democracy/elections-and-voting/local-government-elections-may-2022" />
+<link rel="shortlink" href="https://www.eastdunbarton.gov.uk/node/363211" />
+<meta name="dcterms.title" content="Local Government Elections - May 2022" />
+<meta name="dcterms.creator" content="Annette.Glen" />
+<meta name="dcterms.description" content="Local ElectionOn 5 May 2022 the constituents of East Dunbartonshire will be invited to vote to elect their local Councillor, 22 Councillors across the 7 wards of East Dunbartonshire. In this election voters will be asked to mark their preferences on the ballot paper - 1 for their first choice, 2 for their second preferred candidate, 3 for the third and so on. Voters can mark their preferences for as many or as few as they like.[accordion collapsed]Prospective CandidatesPlease find attached the East Dunbartonshire nomination packs for each ward." />
+<meta name="dcterms.date" content="2022-03-01T12:51+00:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://www.eastdunbarton.gov.uk/residents/council-democracy/elections-and-voting/local-government-elections-may-2022" />
+  <title>Local Government Elections - May 2022 | East Dunbartonshire Council</title>
+  <link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_a2Opjz4FQb8CuWclQsa1Yol8UfF34BcrzA2utJDWgAk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_wlPnuE1ejDOXSIIAGnkn35uge9teK3_3l4VL40kLqEU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_NCOSdpoQnWWQHVcfG2o2skDLf8YSjSAlOAadPoELzbo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/all/modules/popup/popup.css?r9nzeb" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_EywYuQWimrFAFefSfIDW2c3KnnuEVMatsylbYzKHUVw.css" media="all" />
+<style>#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779bf;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,#sliding-popup label,#sliding-popup div,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#fff !important;}.eu-cookie-withdraw-tab{border-color:#fff;}.eu-cookie-compliance-more-button{color:#fff !important;}
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.eastdunbarton.gov.uk/sites/default/files/css/css_PsTTK95GxEpZXfkXUUT8KrzS3Ary9BeKDj726xnFeqE.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_bXIpmq1VuiQ_rRKldjK_MSbY99BSSVWo466OWkgjjhA.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_x01kiKJVcGSq69zK5x66hyspXAf8zmk8vkK9Kt0um4U.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_J7Wv9McrOdIRNu7mVhuX1MN1R8foLvYp7OEDRKIHKZA.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/all/modules/popup/popup.js?r9nzeb"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_-z6Yik8Q7gL83j9pxTLHLnznqr7Bfbk1temTMMy-bAs.js"></script>
+<script>(function ($) {
+$(document).ready(function(){
+
+ jQuery('#edit-timestamp-min').attr("placeholder", "YYYY-MM-DD");
+ jQuery('#edit-timestamp-max').attr("placeholder", "YYYY-MM-DD");
+
+});
+})(jQuery);</script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js_injector/js_injector_10.js?r9nzeb"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_SOIH5kw8W6Jt2_ZuY8_oEohZ8yKFnYjzAfa4NOugxZU.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js_injector/js_injector_14.js?r9nzeb"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js_injector/js_injector_17.js?r9nzeb"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js_injector/js_injector_18.js?r9nzeb"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js_injector/js_injector_19.js?r9nzeb"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"bootstrap","theme_token":"DhQ_EBrghNJhIIpQa4EuPyE_vqwYTTMveDGgebA11Mw","js":{"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/highcharttable\/js\/highcharttable.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"misc\/jquery.ba-bbq.js":1,"modules\/overlay\/overlay-parent.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect-bounce.min.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/js\/bootstrap.min.js":1,"sites\/all\/modules\/jquery_ui_filter\/jquery_ui_filter.js":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.js":1,"sites\/all\/modules\/webform_steps\/webform_steps.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/popup\/popup.js":1,"sites\/all\/modules\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js":1,"sites\/all\/modules\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"1":1,"sites\/default\/files\/js_injector\/js_injector_10.js":1,"sites\/default\/files\/js_injector\/js_injector_12.js":1,"sites\/default\/files\/js_injector\/js_injector_13.js":1,"sites\/default\/files\/js_injector\/js_injector_14.js":1,"sites\/default\/files\/js_injector\/js_injector_17.js":1,"sites\/default\/files\/js_injector\/js_injector_18.js":1,"sites\/default\/files\/js_injector\/js_injector_19.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/overlay\/overlay-parent.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/rules_diff\/rules_diff.css":1,"sites\/all\/modules\/wfm\/styles.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/popup\/popup.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/modules\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"0":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/css\/bootstrap.min.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.min.css":1,"public:\/\/css_injector\/css_injector_16.css":1}},"collapsiblock":{"blocks":{"block-views-8650a804c7bc0dd432649ce2abbc90da":"1","block-block-2":"1","block-panels-mini-footer-mini-panel":"1","block-multiblock-1":"1","block-block-1":"1","block-views-high-contrast-toggle-block":"1","block-book-navigation":"1","block-views-33f69148bb6058cd72c7675b89f0d5b0":"1","block-views-eforms-on-a-node-block":"1","block-views-our-services-block":"1","block-views-news-block-1":"1","block-views-important-messages-block":"1","block-system-user-menu":"1","block-cck-blocks-field-introduction":"1","block-search-form":"1","block-block-11":"1","block-views-ba696d21167f41bf693f7640017b9e16":"1","block-views-top-tasks-block":"1","block-block-9":"1","block-block-8":"1","block-block-7":"1","block-block-6":"1","block-workbench-block":"1","block-views-news-first-published-block":"1","block-views-promoted-search-block-block":"1","block-views-landing-menus-new-block":"1","block-cck-blocks-field-eforms-for-this-page":"1","block-block-12":"1","block-cck-blocks-field-documents":"1","block-views-call-to-filedepot-view-block":"1","block-cck-blocks-field-other-links":"1","block-cck-blocks-field-external-links":"1","block-cck-blocks-field-rate-this-page":"1","block-cck-blocks-field-address":"1","block-cck-blocks-field-telephone":"1","block-cck-blocks-field-email-contact":"1","block-views--exp-news-search":"1","block-views--exp-news-select":"1","block-cck-blocks-field-item-to-load":"2","block-block-22":"1","block-views-4b7310d0e2ceb2a2a766a0a3fdf58a01":"1","block-views-fb3bc534eafe411f8e3615fb784aa228":"2","block-views-agent-notes-for-a-webform-block":"1","block-multiblock-2":"1","block-menu-menu-back-office---part-2":"1","block-views-e4cc650cd16c0f0edfcfceab52fc0093":"1","block-views-activity-assignments-block-48":"1","block-views-activity-assignments-block":"2","block-views-activity-assignments-block-11":"1","block-views-activity-assignments-block-34":"1","block-views-activity-assignments-block-5":"1","block-views-activity-assignments-block-1":"1","block-views-activity-assignments-block-33":"1","block-views-activity-assignments-block-27":"1","block-views-activity-assignments-block-3":"1","block-views-activity-assignments-block-9":"1","block-views-activity-assignments-block-10":"1","block-views-activity-assignments-block-42":"1","block-views-activity-assignments-block-12":"1","block-views-activity-assignments-block-47":"1","block-views-activity-assignments-block-20":"1","block-views-activity-assignments-block-29":"1","block-views-activity-assignments-block-45":"1","block-views-activity-assignments-block-22":"1","block-views-activity-assignments-block-21":"1","block-views-activity-assignments-block-4":"1","block-views-activity-assignments-block-35":"1","block-views-activity-assignments-block-37":"1","block-views-activity-assignments-block-31":"1","block-views-activity-assignments-block-36":"1","block-views-activity-assignments-block-6":"1","block-views-activity-assignments-block-40":"1","block-views-activity-assignments-block-38":"1","block-views-activity-assignments-block-46":"1","block-views-activity-assignments-block-28":"1","block-views-activity-assignments-block-24":"1","block-views-activity-assignments-block-26":"1","block-views-activity-assignments-block-25":"1","block-views-activity-assignments-block-49":"1","block-views-activity-assignments-block-23":"1","block-views-activity-assignments-block-43":"1","block-views-activity-assignments-block-19":"1","block-views-activity-assignments-block-17":"1","block-views-activity-assignments-block-30":"1","block-views-activity-assignments-block-13":"1","block-views-activity-assignments-block-14":"1","block-views-activity-assignments-block-32":"1","block-views-activity-assignments-block-15":"1","block-views-activity-assignments-block-39":"1","block-views-activity-assignments-block-8":"1","block-views-activity-assignments-block-44":"1","block-views-activity-assignments-block-18":"1","block-views-activity-assignments-block-16":"1","block-views-activity-assignments-block-2":"1","block-views-activity-assignments-block-7":"1","block-views-activity-assignments-block-41":"1","block-views-cases-assigned-to-me-block":"1","block-views-my-cases-block":"1","block-menu-block-1":"1","block-block-23":"1","block-block-21":"1","block-block-20":"1","block-views-comment-accordion-block":"1","block-twitter-block-1":"1","block-system-main":"1","block-block-17":"1","block-block-16":"1","block-views-supply-tasks-block":"1","block-user-online":"1","block-block-14":"1","block-block-25":"1","block-block-26":"1","block-superfish-4":"1","block-menu-block-2":"1","block-views-top-tasks-block-1":"1","block-superfish-2":"1","block-views-top-tasks-block-2":"1","block-views-top-tasks-block-3":"1","block-views-top-tasks-block-5":"1","block-views-top-tasks-block-4":"1","block-views-our-services-block-1":"1","block-views-our-services-block-2":"1","block-views-our-services-block-3":"1","block-views-our-services-block-4":"1","block-block-4":"1","block-panels-mini-footer-mini-panel-hscp":"1","block-block-28":"1","block-block-29":"1","block-views-councillors-2017-block-1":"1","block-views-my-cases-block-1":"1","block-views-swr-my-cases-block":"1","block-views-82dd6dd5c98342b92bdcaca479f79917":"1","block-views-swepf-block":"1","block-block-13":"1","block-views-4ddabb0ba938c2b7c2d03610c6964dbb":"1","block-webform-client-block-18825":"1","block-block-30":"1","block-views-90a81776744dce5da54059bb98f58aaf":"1","block-views-procurement-contracts-block-1":"1","block-views-properties-for-lease-block":"1","block-views-properties-for-sale-block":"1","block-views-properties-all-block-1":"1","block-views-da956af8c9f3bf73408339939610cac3":"1","block-views-4b2e72b99029fcd6e90fc00dbbb27d9a":"1","block-views-news-block-2":"1","block-menu-block-3":"1","block-views-2020-landing-menus-new-block":"1","block-views-2020-landing-menus-new-block-1":"1","block-block-32":"1","block-menu-block-4":"1","block-social-media-links-social-media-links":"1","block-block-35":"1","block-block-36":"1","block-page-theme-debugger-page-theme-debugger":"1","block-block-18":"1","block-block-33":"1","block-block-34":"1","block-block-37":"1","block-block-38":"1","block-block-31":"1","block-block-15":"1","block-block-40":"1","block-views-activity-assignments-block-52":"1"},"default_state":1,"slide_type":1,"slide_speed":200,"block_title":":header:first","block":"div.block","block_content":"div.content"},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":0,"animated":0,"autoHeight":"true","clearStyle":"false","collapsible":"false","event":"click","scrollTo":0,"history":"false"}},"overlay":{"paths":{"admin":"node\/*\/webform\nnode\/*\/webform\/*\nnode\/*\/webform-results\nnode\/*\/webform-results\/*\nnode\/*\/submission\/*\nnode\/*\/outline\nnode\/*\/outline\/remove\nnode\/*\/clone\/*\nnode\/*\/access\nimport\nimport\/*\nnode\/*\/import\nnode\/*\/delete-items\nnode\/*\/log\nfield-collection\/*\/*\/edit\nfield-collection\/*\/*\/delete\nfield-collection\/*\/add\/*\/*\nfpa_modal\/*\/permissions\nnode\/*\/edit\nnode\/*\/delete\nnode\/*\/revisions\nnode\/*\/revisions\/*\/revert\nnode\/*\/revisions\/*\/delete\nnode\/add\nnode\/add\/*\noverlay\/dismiss-message\nuser\/register\nuser\/register\/*\nnode\/*\/convert*\nnode\/*\/done*\ncase\/case*\ncase*\nusers\/*\nagent-menu\/customer-search*\nback-office\/customer-search*\nagent-menu\/set-user-as-customer*\nback-office\/set-user-as-customer*\nagent-menu\/get_user_using_phone_number*\nagent-menu\/one-and-done-form*\nregister-or-sign-myaccount\nmygovscot\/home\nspecial\/create-new-customer*\nspecial\/*\nagent-menu\/case-search*\ncomment\/*\nspecial-uplift-task\/special-uplift-tasks*\nspecial-uplift-task\/*special-uplift-tasks*\npayment\/case-*\npayment-request*\nwebform\/*\ncustomer-receipt*\nnode\/*\/convert-with-template\/*\nwaste-management\/case-search-special-uplift-only*\nuplift-cost-calculation*\nuplift_payment_return*\nuplift-view-items*\nuser\/*\/shortcuts\nadmin\/config\/people\/simplesamlphp_auth\nadmin\nadmin\/*\nbatch\ntaxonomy\/term\/*\/edit\nuser\/*\/cancel\nuser\/*\/edit\nuser\/*\/edit\/*\nnode\/*\/manage_schedules\nnode\/*\/manage_schedules\/*\/edit\nnode\/*\/display\nuser\/*\/display\ntaxonomy\/term\/*\/display\nnode\/*\/moderation\nnode\/*\/moderation\/*\/unpublish\nnode\/*\/moderation\/*\/change-state\/*\nnode\/*\/moderation\/view\nnode\/*\/moderation\/diff\nnode\/*\/moderation\/diff\/list\nnode\/*\/moderation\/diff\/view\nnode\/*\/moderation\/diff\/view\/*\/*\nuser\/*\/revisions\nuser\/*\/revisions\/*\/revert\nuser\/*\/revisions\/*\/delete\nnode\/*\/revisions\/view\/*\/*\nnode\/*\/workflow\nuser\/*\/workflow","non_admin":"user\/register\/step\/2"},"pathPrefixes":[],"ajaxCallback":"overlay-ajax"},"popup":{"effects":{"show":{"default":"this.body.show();","fade":"\n        if (this.opacity){\n          this.body.fadeTo(\u0027medium\u0027,this.opacity);\n        }else{\n          this.body.fadeIn(\u0027medium\u0027);\n        }","slide-down":"this.body.slideDown(\u0027medium\u0027)","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027show\u0027,\n            opacity:(this.opacity ? this.opacity : \u0027show\u0027)\n          }, \u0027medium\u0027\n        );"},"hide":{"default":"this.body.hide();","fade":"this.body.fadeOut(\u0027medium\u0027);","slide-down":"this.body.slideUp(\u0027medium\u0027);","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027hide\u0027,\n            opacity:\u0027hide\u0027\n          }, \u0027medium\u0027\n        );"}},"linger":250,"delay":0},"custom_search":{"form_target":"_self","solr":1},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"Processing, please wait","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":1,"hide_submit_reset_time":30000},"urlIsAjaxTrusted":{"\/residents\/council-democracy\/elections-and-voting\/local-government-elections-may-2022":true},"better_exposed_filters":{"views":{"eforms_on_a_node":{"displays":{"block":{"filters":[]}}},"call_to_filedepot_view":{"displays":{"block":{"filters":[]}}}}},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}},"responsive_menus":[{"selectors":"#block-superfish-2","container":"body","trigger_txt":"\u003Cspan \/\u003E\u003Cspan \/\u003E\u003Cspan \/\u003E","close_txt":"X","close_size":"18px","position":"right","media_size":"767","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThis site uses cookies\u003C\/h2\u003E\n\u003Cp\u003ESome of these cookies are essential for the site to work, while others help us to improve your experience by providing\u00a0insights into how the site is being used.\u003C\/p\u003E\n\u003Cp\u003EWe also use Siteimprove\u00a0Analytics to collect information about how you use our website. We do this to\u00a0make sure the site is meeting the needs of its users and to help us make improvements. You can opt out by unchecking the box below.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-1\u0022\n                     value=\u00221\u0022 \u003E\n              \u003Clabel for=\u0022cookie-category-1\u0022\u003ESiteimprove Analytics\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n                  \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button\u0022\u003ESave preferences\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-has-categories\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAccept \u0026 Continue\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button eu-cookie-compliance-hidden\u0022 \u003EWithdraw consent\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-1\u0022\n                     value=\u00221\u0022 \u003E\n              \u003Clabel for=\u0022cookie-category-1\u0022\u003ESiteimprove Analytics\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n                  \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button\u0022\u003ESave preferences\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-has-categories\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAccept \u0026 Continue\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button eu-cookie-compliance-hidden\u0022 \u003EWithdraw consent\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/cookies-website","popup_link_new_window":1,"popup_position":null,"fixed_top_position":1,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"categories","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[1],"enable_save_preferences_button":1,"fix_first_cookie_category":0,"select_all_categories_by_default":1,"cookie_name":""},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"highcharttable":{"global":{"use-patched-library":1,"animation":"","contextual-links":"off","contextual-links-exclude-pages":"admin\/*\r\n~admin\/reports\/access-denied\r\n~admin\/reports\/page*\r\n~admin\/reports\/referrers\r\n~admin\/reports\/search\r\n~admin\/reports\/visitors\r\ncase\/case-*"}},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-363211 node-type-page">
+  <nav class="skip-links" aria-label="Skip link Navigation">
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible">Skip to main content</a>
+    </div>
+  </nav>
+    <header id="navbar" role="banner" class="navbar container-fluid navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+      
+          </div>
+
+      </div>
+</header>
+
+<div class="main-container container-fluid">
+
+  <header role="banner" id="page-header">
+    
+      <div class="region region-header">
+    <section id="block-block-31" class="block block-block clearfix">
+
+      
+  <p><section id="block-block-1" class="block block-block col-md-6 col-sm-6 col-xs-12 clearfix">
+
+      
+  <div class="top-logo"><a href="https://www.eastdunbarton.gov.uk"><img alt="East Dunbartonshire Logo" src="https://www.eastdunbarton.gov.uk/sites/default/files/images/landing/icons/EDC%20logo%202010.png" style="width: 261px; height: 59px;" /></a></div>
+
+</section>
+ <section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="search-form form-search content-search" role="search" action="/residents/council-democracy/elections-and-voting/local-government-elections-may-2022" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <div class="element-invisible">Search form</div>
+    <div class="input-group"><input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button name="search" type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-JaVao6hVYN3P_VDjbx6CHupEG43a9CjMmEcaqaYnczM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+</p>
+
+</section>
+<section id="block-block-37" class="block block-block clearfix">
+
+      
+  <div aria-label="Coronavirus" class="yellow-banner-alert">
+<p class="coronavirus-head"><strong>Coronavirus</strong></p>
+<p>The latest <a href="https://www.eastdunbarton.gov.uk/node/267501">coronavirus Covid-19 information</a> is updated regularly.</p>
+</div>
+
+</section>
+<section id="block-block-32" class="block block-block clearfix">
+
+      
+  <div class="container-narrow">
+<div class="col-md-8 col-xs-12"><span class="banner-heading hidden-xs"><strong>Save time. Do it online: </strong></span><span class="pay-rep-req"><a class="btn" href="https://www.eastdunbarton.gov.uk/payments" role="button" title="Pay online">Pay</a></span><span class="pay-rep-req"><a class="btn" href="https://www.eastdunbarton.gov.uk/residents/report-problem" role="button" title="Report a problem">Report </a></span><span class="pay-rep-req"><a class="btn" href="https://www.eastdunbarton.gov.uk/residents/apply" role="button" title="Request a service">Request </a></span><span class="pay-rep-req"><a class="btn" href="https://www.eastdunbarton.gov.uk/council/news" role="button" title="Council news">NEWS </a></span><span class="pay-rep-req"><a class="btn" href="https://www.eastdunbarton.gov.uk/mygovscot/home" role="button" title="MyAccount">MyEDC</a></span></div>
+<div class="col-md-4 col-xs-12 button-gap"><a class="btn btn-red" href="https://www.edlc.co.uk" role="button" target="_blank" title="ED Leisure and Culture">EDLC </a><a class="btn btn-red" href="https://www.eastdunbarton.gov.uk/health-and-social-care" role="button" target="_blank" title="Health &amp; Social Care Partnership">HSCP </a></div>
+</div>
+
+</section>
+<section id="block-block-34" class="block block-block clearfix">
+
+      
+  <div class="atoz">
+<ul class="nav navbar-nav letters">
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/a">A</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/b">B</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/c">C</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/d">D</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/e">E</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/f">F</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/g">G</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/h">H</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/i">I</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/j">J</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/k">K</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/l">L</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/m">M</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/n">N</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/o">O</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/p">P</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/q">Q</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/r">R</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/s">S</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/t">T</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/u">U</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/v">V</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/w">W</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/x">X</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/y">Y</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/z">Z</a></li>
+</ul>
+</div>
+
+</section>
+  </div>
+  </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-9">
+            <ol class="breadcrumb"><li><a href="/residents">Residents</a></li>
+<li><a href="/residents/council-democracy" title="Council Services">Council &amp; Democracy</a></li>
+<li><a href="/council/elections-voting">Elections and voting</a></li>
+<li>Local Government Elections  - May 2022</li>
+<li class="active">Local Government Elections - May 2022</li>
+</ol>      <a id="main-content"></a>
+                    <h1 class="page-header">Local Government Elections - May 2022</h1>
+                                                          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <article id="node-363211" class="node node-page clearfix" about="/residents/council-democracy/elections-and-voting/local-government-elections-may-2022" typeof="foaf:Document">
+    <header>
+            <span property="dc:title" content="Local Government Elections - May 2022" class="rdf-meta element-hidden"></span>      </header>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>Local Election</h2>
+<p>On 5 May 2022 the constituents of East Dunbartonshire will be invited to vote to elect their local Councillor, 22 Councillors across the 7 wards of East Dunbartonshire. In this election voters will be asked to mark their preferences on the ballot paper - 1 for their first choice, 2 for their second preferred candidate, 3 for the third and so on. Voters can mark their preferences for as many or as few as they like.</p>
+<div id="jquery-ui-filter" class="jquery-ui-filter jquery-ui-filter-accordion jquery-ui-filter-accordion-collapsed">
+<h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Prospective Candidates</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Please find attached the East Dunbartonshire nomination packs for each ward. Completed nominations can be submitted from 10am on Tuesday 15 March 2022 with the nomination process running until 4pm on Wednesday 30 March 2022. Prospective Candidates should submit their nominations for an informal check and should then make an appointment to submit their nomination papers between 10am and 4pm weekdays. Nomination packs for each Ward are attached below.</p>
+<p><strong>Please note,</strong> the candidate packs can take a few minutes to open. If after this time there are any issues please contact the email address below.</p>
+<table style="width:100%;" summary="Election candidate packs">
+<caption>Candidate packs</caption>
+<thead>
+<tr>
+<th scope="col">Electoral Ward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/filedepot_download/363211/3894">Milngavie</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3895">Bearsden North</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3896">Bearsden South</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3897">Bishopbriggs North and Campsie</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3898">Bishopbriggs South</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3899">Lenzie and Kirkintilloch South</a></td>
+</tr>
+<tr>
+<td><a href="/filedepot_download/363211/3900">Kirkintilloch East and North and Twechar</a></td>
+</tr>
+</tbody>
+</table>
+<p>Should you require any assistance or to book an appointment to lodge nomination papers please contact the Election office <a href="mailto:elections@eastdunbarton.gov.uk">elections@eastdunbarton.gov.uk</a></p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Notice of Election</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<h4>East Dunbartonshire Council  - Election of Councillors</h4>
+<p>Councillors are to be elected for each of the 7<i> </i>wards of East Dunbartonshire<i> </i>Council. The number of councillors to be elected for each ward is as follows:</p>
+<table style="width:100%;" summary="EDC Council wards">
+<caption>Council wards</caption>
+<thead>
+<tr>
+<th scope="col">Ward</th>
+<th scope="col">Number of Councillors to be elected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ward 1 - Milngavie</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ward 2 - Bearsden North</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ward 3 - Bearsden South</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ward 4-  Bishopbriggs North &amp; Campsie</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Ward 5 - Bishopbriggs South</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ward 6 - Lenzie &amp; Kirkintilloch South</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ward 7 - Kirkintilloch East &amp; North &amp; Twechar</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<ol>
+<li>Nomination forms can be obtained from the Council Headquarters, 12 Strathkelvin Place, Kirkintilloch G66 1TJ or online in the Prospective candidates tab above. This office is open for the issue and delivery of nomination papers on weekdays from <strong>10am to 4pm.</strong><br />  </li>
+<li value="2">Completed nomination forms <strong>must </strong>be delivered to the Returning Officer at the above address by <strong>4pm</strong><strong> </strong>on Wednesday 30 March 2022.<br /> </li>
+<li value="3">An election will be held in each contested ward and voting will take place between 7am and 10pm on Thursday 5 May 2022.<br /> </li>
+<li value="4">Applications to register to vote <strong>must </strong>reach the Electoral Registration Officer at the address below<font color="#0782c1"> </font>by 12 midnight on Monday 18 April 2022. Applications can be made online on the Government website <a href="https://www.gov.uk/register-to-vote" target="_blank">Register to vote</a>.</li>
+</ol>
+<h4>Postal or proxy voting</h4>
+<ol>
+<li>Any elector may apply for a postal or proxy vote at this election.<br /> </li>
+<li value="2">Applications, amendments or cancellations of postal votes <strong>must</strong> reach the Electoral Registration Officer at the address below by 5pm on Tuesday 19 April 2022.<br /> </li>
+<li value="3">Applications to vote by proxy at this election <strong>must </strong>reach the Electoral Registration Officer at the address below by 5pm on Tuesday 26 April 2022.<br /> </li>
+<li value="4">Applications to amend or cancel existing proxy arrangements <strong>must</strong> reach the Electoral Registration Officer at the address below by 5pm Tuesday 19 April 2022.<br /> </li>
+<li value="5">Applications to vote by emergency proxy at this election, i.e. made after the<strong> 26 April 2022 </strong>deadline on the grounds of; disability suffered after that deadline (or, for applicants who suffered a disability before the deadline, their disability meant that they could not reasonably have made an application in time), work/service reasons, following Scottish Government advice or the advice of a medical professional in relation to coronavirus, being detained in a hospital under the civil sections of the Mental Health (Care and Treatment) (Scotland) Act 2003 or for Scottish prisoners serving a sentence of 12 months or less, must reach the relevant Electoral Registration Officer at the address below <strong>by 5pm on Thursday 5 May 2022</strong>. To apply on the grounds of work/service, the person must have become aware that they cannot go to the polling station in person<strong> after 5pm on Tuesday 26 April 2022</strong>.</li>
+</ol>
+<table style="width:100%;" summary="Contact details of Electoral Registration Officer">
+<caption>Electoral Registration Officer</caption>
+<thead>
+<tr>
+<th colspan="4" scope="col">Contact details of Electoral Registration Officer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dunbartonshire and Argyll &amp; Bute</td>
+<td>East Dunbartonshire</td>
+<td>235 Dumbarton Rd<br />CLYDEBANK<br />G81 4 XJ</td>
+<td>Phone: 0800 980 0471<br />Email: <a href="mailto:ero-edc@dab-vjb.gov.uk ">ero-edc@dab-vjb.gov.uk</a></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Signed            Gerry Cornes, Returning Officer, East Dunbartonshire Council<br />Dated:            14 March 2022     </p></div>
+</div>
+<h2>Notice of Poll</h2>
+<p>Election of Councillors</p>
+<p>1. Polling will take place between the hours of 7am and 10pm on <b>Thursday 5 May 2022</b> for the election of the number of councillors indicated below for each of the electoral wards listed, there remaining in each case more validly nominated candidates than the number of councillors to be elected.</p>
+<p>2. The name, description (if any) and address of each candidate remaining validly nominated are as follows:</p>
+<div id="jquery-ui-filter--2" class="jquery-ui-filter jquery-ui-filter-accordion jquery-ui-filter-accordion-collapsed">
+<h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 1 - Milngavie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3</p>
+<table summary="Ward 1 - Milngavie">
+<thead>
+<tr>
+<th scope="col">
+<p>Candidate's Surname* (including present name if appropriate</p>
+</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Duncan</p>
+</td>
+<td>Julie</td>
+<td>Independent</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>Gibbons</td>
+<td>Jim</td>
+<td>Scottish National Party (SNP)</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>Mathieson</td>
+<td>Alix</td>
+<td>Scottish Conservative and Unionist</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>Polson</td>
+<td>Aileen</td>
+<td>Scottish Liberal Democrats</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>Shepherd</td>
+<td>Thomas</td>
+<td>Scottish Labour Party</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>Sheppard</td>
+<td>Emma</td>
+<td>Scottish Greens – Think Global Act Local</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 2 - Bearsden North </h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3 </p>
+<table summary="Ward 2 - Bearsden North ">
+<thead>
+<tr>
+<th scope="col">Candidate's Surname* (including present name if appropriate</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cumming</p>
+</td>
+<td>Duncan</td>
+<td>Independent</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>Evans</td>
+<td>Duncan</td>
+<td>Scottish Conservative and Unionist</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Muncie</p>
+</td>
+<td>Craig</td>
+<td>Scottish Labour Party</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>Reid</td>
+<td>Alan</td>
+<td>Scottish Liberal Democrat Focus Team</td>
+<td>23 Elderbank, Bearsden G61 1ND</td>
+</tr>
+<tr>
+<td>Simpson</td>
+<td>Neill John</td>
+<td>Scottish Greens – Think Global Act Local</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Smith</p>
+</td>
+<td>Calum</td>
+<td>Scottish National Party (SNP)</td>
+<td>East Dunbartonshire</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 3 - Bearsden South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3 </p>
+<table summary="Ward 2 - Bearsden South" width="0">
+<thead>
+<tr>
+<th scope="col">
+<p>Candidate's Surname* (including present name if appropriate</p>
+</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dougall</td>
+<td>
+<p>Lorna</p>
+</td>
+<td>Labour and Co-operative Party</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Ferguson</p>
+</td>
+<td>
+<p>Scott</p>
+</td>
+<td>
+<p>Scottish Greens – Think Global Act Local</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gallagher</p>
+</td>
+<td>
+<p>Ian</p>
+</td>
+<td>
+<p>Scottish National Party (SNP)</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Malcolm</p>
+</td>
+<td>
+<p>Duncan</p>
+</td>
+<td>
+<p>Independent</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mechan</p>
+</td>
+<td>
+<p>Sheila</p>
+</td>
+<td>
+<p>Independent</p>
+</td>
+<td>
+<p>64 Maxwell Avenue, Bearsden G61 1NZ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Moody</p>
+</td>
+<td>
+<p>Vaughan</p>
+</td>
+<td>
+<p>Scottish Liberal Democrats</p>
+</td>
+<td>
+<p>3 Stirling Drive, Bearsden G61 4NX</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Polson</p>
+</td>
+<td>
+<p>Andrew</p>
+</td>
+<td>
+<p>Scottish Conservative and Unionist</p>
+</td>
+<td>
+<p>80A Iain Road, Bearsden G61 4JA</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 4 - Bishopbriggs North &amp; Campsie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 4</p>
+<table summary="Ward 4 - Bishopbriggs North &amp; Campsie" width="0">
+<thead>
+<tr>
+<th scope="col">
+<p>Candidate's Surname* (including present name if appropriate</p>
+</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ferretti</p>
+</td>
+<td>
+<p>Paul</p>
+</td>
+<td>
+<p>Scottish National Party (SNP)</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gallacher</p>
+</td>
+<td>
+<p>Paul</p>
+</td>
+<td>
+<p>Scottish Family Party:Pro-Family, Pro-Marriage, Pro-Life</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Harris</p>
+</td>
+<td>
+<p>Alan</p>
+</td>
+<td>
+<p>Alba Party for Independence</p>
+</td>
+<td>
+<p>2 Elizabeth Avenue, Milton of Campsie G66 8HT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Hendry</p>
+</td>
+<td>
+<p>Billy</p>
+</td>
+<td>
+<p>Scottish Conservative and Unionist</p>
+</td>
+<td>
+<p>15 Martyrs Place, Bishopbriggs G64 1UF</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>McDiarmid</p>
+</td>
+<td>
+<p>Colette</p>
+</td>
+<td>
+<p>Labour and Co-operative Party</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Pews</p>
+</td>
+<td>
+<p>Gary</p>
+</td>
+<td>
+<p>Scottish Liberal Democrats</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Rowan</p>
+</td>
+<td>
+<p>Elizabeth</p>
+</td>
+<td>
+<p>Scottish Greens – Think Global Act Local</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Williamson</p>
+</td>
+<td>
+<p>Lynda</p>
+</td>
+<td>
+<p>Scottish National Party (SNP)</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 5 - Bishopbriggs South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3</p>
+<table summary="Ward 5 - Bishopbriggs South" width="0">
+<thead>
+<tr>
+<th scope="col">
+<p>Candidate's Surname* (including present name if appropriate</p>
+</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Bach</p>
+</td>
+<td>
+<p>Jesper</p>
+</td>
+<td>
+<p>Scottish Greens – Think Global Act Local</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Brown</p>
+</td>
+<td>
+<p>Catherine</p>
+</td>
+<td>
+<p>Scottish Conservative and Unionist</p>
+</td>
+<td>
+<p>4 Croftwood, Bishopbriggs G64 3DX</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gallagher</p>
+</td>
+<td>
+<p>Eamonn</p>
+</td>
+<td>
+<p>Alba Party for Independence</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Low</p>
+</td>
+<td>
+<p>Gordan</p>
+</td>
+<td>
+<p>Scottish National Party (SNP)</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Moir</p>
+</td>
+<td>
+<p>Alan</p>
+</td>
+<td>
+<p>Labour and Co-operative Party</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Rose</p>
+</td>
+<td>
+<p>Ben</p>
+</td>
+<td>
+<p>Scottish Liberal Democrats</p>
+</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.*</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 6 - Lenzie &amp; Kirkintilloch South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3</p>
+<table summary="Ward 6 - Lenzie &amp; Kirkintilloch South">
+<thead>
+<tr>
+<th scope="col">Candidate's Surname* (including present name if appropriate</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>McNally</p>
+</td>
+<td>Callum</td>
+<td>Labour and Co-operative Party</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Paterson</p>
+</td>
+<td>Willie</td>
+<td>Scottish Liberal Democrats</td>
+<td>5 Kirksyde Avenue, Kirkintilloch G66 3DP</td>
+</tr>
+<tr>
+<td>Renwick</td>
+<td>Gillian</td>
+<td>
+<p>Scottish National Party (SNP)</p>
+</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Scrimgeour</p>
+</td>
+<td>Carolynn</td>
+<td>Scottish Greens – Think Global Act Local</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Thornton</p>
+</td>
+<td>Sandra</td>
+<td>Scottish Conservative and Unionist</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>
+<p>Watson</p>
+</td>
+<td>James Raymond</td>
+<td>Freedom Alliance.  Leave our Children Alone.</td>
+<td>East Dunbartonshire</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</p>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 7 - Kirkintilloch East &amp; North &amp; Twechar</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<p>Number of councillors to be elected: 3 </p>
+<table summary="Ward 7 - Kirkintilloch East &amp; North &amp; Twechar">
+<thead>
+<tr>
+<th scope="col">Candidate's Surname* (including present name if appropriate</th>
+<th scope="col"><b>Other names in full* </b>(including present names if appropriate)</th>
+<th scope="col"><b>Description (if any)</b></th>
+<th scope="col"><b>Candidate’s address (or relevant area or country)**</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>MacDonald</p>
+</td>
+<td>Stewart</td>
+<td>Scottish Labour Party</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>MacLeod</td>
+<td>Josephine</td>
+<td>Scottish Conservative and Unionist</td>
+<td>
+<p>6 Lynn Drive, Milngavie G62 8HN</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Marshall</p>
+</td>
+<td>Pamela</td>
+<td>Scottish National Party (SNP)</td>
+<td>East Dunbartonshire</td>
+</tr>
+<tr>
+<td>McManus</td>
+<td>Alan</td>
+<td>Freedom Alliance. Leave our Children Alone.</td>
+<td>
+<p>East Dunbartonshire</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Murray</p>
+</td>
+<td>Susan</td>
+<td>Scottish Liberal Democrats</td>
+<td>59 Waverley Park, Kirkintilloch G66 2BL</td>
+</tr>
+</tbody>
+</table>
+<p>* Note to Returning Officers: where the candidate has given a commonly used surname and/or forename on that candidate’s nomination form, it is that commonly used surname and/or forename (instead of any other name) that will appear on the Notice of Poll.</p>
+<p>** The candidate’s address will appear on the notice of poll in accordance with what has been provided by the candidate on the home address form. The address shall appear where the candidate has made a signed statement that they require the address to be made public. The relevant area (as defined in rule 4(12)) or the country outside the UK where the candidate’s home address is located shall appear where the candidate has not made a signed statement that they require the address to be made public.</div></div></p>
+<p>3. The persons entitled to vote as electors at this election are the persons registered in the register of electors for the respective electoral wards, but a person whose name is so registered may not vote if the entry in the said register gives as the date on which the person will become of voting age a date later than the day fixed for the poll.</p>
+<h2>Situation of Polling Places</h2>
+<p>The poll for this election will take place between the hours of <strong>7am </strong>and <strong>10pm. </strong>Notice is hereby given that the polling stations and the voters assigned to each in this election shall be as follows.</p>
+<div id="jquery-ui-filter--3" class="jquery-ui-filter jquery-ui-filter-accordion jquery-ui-filter-accordion-collapsed">
+<h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 1 - Milngavie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="polling stations">
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>EC50</p>
+</td>
+<td>
+<p>Milngavie Town Hall,</p>
+<p>71 Station Road, Milngavie G62 8BZ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALLANDER ROAD, AUCHENCRUIVE, AUCHENHOWIE ROAD, BALDERNOCK ROAD, BALFLEURS STREET, BANK AVENUE, BARLOCH AVENUE, BIRRELL ROAD, BLACKWOOD ROAD, BLANE DRIVE, BRIARWELL LANE, BRIARWELL ROAD, BRIDGEGAIT, BUCHANAN STREET, CAIRNS DRIVE, CAMPSIE DRIVE, CLAREMONT DRIVE, CLAREMONT GARDENS, CLOBER ROAD, CLOBERFIELD GARDENS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC50</p>
+</td>
+<td>
+<p>Milngavie Town Hall,</p>
+<p>71 Station Road, Milngavie G62 8BZ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>COCHRANE COURT, CONNELL CRESCENT, CRAIGALLIAN AVENUE, CRAIGMILLAR AVENUE, CRAWFORD ROAD, CROSSVEGGATE, DOUGALSTON AVENUE, DOUGALSTON CRESCENT, DOUGALSTON GARDENS NORTH, DOUGALSTON GARDENS SOUTH, DRUMCLOG AVENUE, DUNLOP PLACE, DUNMORE DRIVE, ELLANGOWAN COURT, EWING WALK, FINLAY RISE, GARWHITTER DRIVE, GLASGOW ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC50</p>
+</td>
+<td>
+<p>Milngavie Town Hall,</p>
+<p>71 Station Road, Milngavie G62 8BZ</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>GLASSFORD STREET, GRANGE AVENUE, HEATHFIELD DRIVE, HIGHLAND ROAD, HILLCREST STREET, HILLHEAD STREET, IDDESLEIGH AVENUE, KERSLAND DRIVE, LADYWOOD, LAWN PARK, LOCH ROAD, LYNN DRIVE, MARCHFIELD, MCGRIGOR ROAD, MIDDLETON DRIVE, MITCHELL DRIVE, MONTROSE GARDENS, MOOR ROAD, MOSSPARK AVENUE, MOSSPARK ROAD, MOSSWELL ROAD, MUGDOCK ROAD, MURDOCH DRIVE, OSWALD WALK</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC50</p>
+</td>
+<td>
+<p>Milngavie Town Hall,</p>
+<p>71 Station Road, Milngavie G62 8BZ</p>
+</td>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>ROSELEA DRIVE, SANDFIELD AVENUE, SINCLAIR STREET, SOUTH GLASSFORD STREET, ST EDMUNDS GROVE, ST EDMUNDS LANE, STABLE PLACE, STABLE ROAD, STATION ROAD, STRATHBLANE ROAD, TANNOCH DRIVE, THE RIGGS, TOWER PLACE, VICTORIA PLACE, VIEWPARK, VIRGINIA GARDENS, WATT PLACE, WOODLANDS GROVE, WOODLANDS STREET, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC51</p>
+</td>
+<td>
+<p>Clober Primary School,</p>
+<p>Kirk Street, Milngavie G62 7PN</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ACHRAY PLACE, ARDLUI GARDENS, ASHBURN ROAD, AULDMURROCH DRIVE, BALLAGAN PLACE, BALVIE CRESCENT, BALVIE GROVE, BALVIE ROAD, CAIRNLEA ROAD, CARBETH ROAD, CARNEDDANS ROAD, CARNOCK GARDENS, CASTLE MAINS ROAD, CATTER GARDENS, CAULDSTREAM PLACE, CLOBER FARM LANE, CLOCHBAR AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC51</p>
+</td>
+<td>
+<p>Clober Primary School,</p>
+<p>Kirk Street, Milngavie G62 7PN</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>CLOCHBAR GARDENS, CORBIE PLACE, CRAIGASH QUADRANT, CRAIGASH ROAD, CRAIGBARNET ROAD, CRAIGEND CRESCENT, CRAIGEND DRIVE WEST, CRAIGHEAD DRIVE, CRAIGHIRST ROAD, CRAIGIELEA CRESCENT, CRAIGTON AVENUE, CRAIGTON GARDENS, CRAIGTON ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC51</p>
+</td>
+<td>
+<p>Clober Primary School,</p>
+<p>Kirk Street, Milngavie G62 7PN</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>DALNAIR PLACE, DOUGLAS MUIR DRIVE, DOUGLAS MUIR GARDENS, DOUGLAS MUIR PLACE, DRUMBEG TERRACE, DUMBROCK ROAD, DUMGOYNE AVENUE, DUNCOLM PLACE, DUNELLAN ROAD, DUNGLASS PLACE, EARLS VIEW, ENDRICK GARDENS, FALLOCH ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC51</p>
+</td>
+<td>
+<p>Clober Primary School,</p>
+<p>Kirk Street, Milngavie G62 7PN</p>
+</td>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>FINGLEN GARDENS, GARVEL PLACE, GARVEL ROAD, GRAHAM DRIVE, HIGH CRAIGTON, HILTON PARK GOLF COURSE, HILTON ROAD, HUNTER ROAD, JAMES WATT ROAD, KELVIN ROAD, KER ROAD, KILMANNAN GARDENS, KIRK STREET, LEARMONT PLACE, LYLE SQUARE, MUIRLEES CRESCENT, NORTH DUMGOYNE AVENUE, STOCKIEMUIR ROAD, TAMBOWIE, TAMBOWIE AVENUE, TAMBOWIE CRESCENT, THE LOAN, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC52</p>
+</td>
+<td>
+<p>Milngavie Guide Hall,</p>
+<p>38 Oakburn Ave, Milngavie G62 7NR</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ASHBURN GARDENS, ASHBURN ROAD, ASHFIELD ROAD, BALVIE ROAD, BRAEFOOT AVENUE, BRAEHEAD AVENUE, BRAESIDE AVENUE, BREADIE DRIVE, CAMPBELL AVENUE, CARBETH ROAD, CHESTNUT LANE, CLOBER ROAD, CRAIGDHU AVENUE, CRAIGDHU ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC52</p>
+</td>
+<td>
+<p>Milngavie Guide Hall,</p>
+<p>38 Oakburn Ave, Milngavie G62 7NR</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>CROSSBURN AVENUE, DOUGLAS STREET, DRUMCARN DRIVE, DRUMLIN DRIVE, DUMGOYNE AVENUE, DUMGOYNE GARDENS, FERGUSON AVENUE, GALBRAITH DRIVE, HUNTER PLACE, HUNTER ROAD, KEYSTONE AVENUE, KEYSTONE QUADRANT, KEYSTONE ROAD, KNOWE STREET, LENNOX AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC52</p>
+</td>
+<td>
+<p>Milngavie Guide Hall,</p>
+<p>38 Oakburn Ave, Milngavie G62 7NR</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>MAIN STREET, NETHERMAINS ROAD, NORTH CAMPBELL AVENUE, OAKBURN AVENUE, OAKBURN CRESCENT, PARK AVENUE, PARK ROAD, PRESTONFIELD, QUEENS COURT, SHAW ROAD, SOUTH MAINS ROAD, SOUTHGATE, STEWART STREET, THE CRESCENT, VIVIAN AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 2 - Bearsden North</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="polling stations">
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>EC53</p>
+</td>
+<td>
+<p>Baljaffray Primary School,</p>
+<p>Grampian Way, Bearsden, G61 4RA</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ABERCROMBIE DRIVE, ALSTON GARDENS, ALVA GARDENS, AUCHINEDEN COURT, BALJAFFRAY ROAD, BURNCROOKS AVENUE, CAIRD TERRACE, CAIRNSMORE DRIVE, CHEVIOT GARDENS, CLEISH AVENUE, COCHNO ROAD EAST, CORREEN GARDENS, CRAIGDHU ROAD, CROMALT CRESCENT, CULLOCH ROAD, CULVAIN AVENUE, DUNTOCHER ROAD, ETTRICK DRIVE, FINAVEN GARDENS, FINTRY GARDENS, FORREST DRIVE, GRAMPIAN COURT, GRAMPIAN WAY, GREENSIDE PLACE, KILBRECK GARDENS, KILPATRICK DRIVE, KINNOUL GARDENS, LAMMERMUIR GARDENS, LOCHNAGAR DRIVE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC53</p>
+</td>
+<td>
+<p>Baljaffray Primary School,</p>
+<p>Grampian Way, Bearsden, G61 4RA</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>LOUDON TERRACE, LOWTHER AVENUE, LOYAL GARDENS, LUBNAIG GARDENS, MENTEITH GARDENS, MERRICK GARDENS, MOORFOOT WAY, MORGAN WYND, MUIRHOUSE PARK, MURRAY GROVE, NASMYTH AVENUE, PATERSON PLACE, PETERS GATE, RUTHERFORD AVENUE, ST ANDREWS DRIVE, ST ANDREWS WAY, THE POPLARS, TORRIDON GARDENS, VORLICH GARDENS, WYVIS AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC54</p>
+</td>
+<td>
+<p>Mosshead Primary School,</p>
+<p>Stockiemuir Avenue, Bearsden, G61 3LZ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>AIRLIE AVENUE, ARGYLL ROAD, ATHOLL GARDENS, BAILIE DRIVE, BRANDON DRIVE, BUCCLEUCH DRIVE, CAMPSIE DRIVE, CROMARTY CRESCENT, DUMGOYNE DRIVE, ELGIN ROAD, HAMILTON CRESCENT, HEATHER AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC54</p>
+</td>
+<td>
+<p>Mosshead Primary School,</p>
+<p>Stockiemuir Avenue, Bearsden, G61 3LZ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>HUNTLY DRIVE, LOVAT AVENUE, MAR DRIVE, MONTROSE DRIVE, QUEENSBERRY AVENUE, ROXBURGH DRIVE, SEAFIELD AVENUE, STOCKIEMUIR AVENUE, STOCKIEMUIR ROAD, SUTHERLAND AVENUE, TWEEDSMUIR CRESCENT, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC55</p>
+</td>
+<td>
+<p>Bearsden Hub, Main Hall,</p>
+<p>69 Drymen Road, Bearsden G61 3QT</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ACADEMY GARDENS, ALEXANDER GROVE, BARHILL WAY, BEECH AVENUE, BENNIE PLACE, BRIGHT CLOSE, BURNBRAE AVENUE, CARSEVIEW DRIVE, COBDEN CRESCENT, COURTHILL, DALGLEISH DRIVE, DISRAELI CRESCENT, DOUGLAS PARK CRESCENT, DRYMEN ROAD, EDGEHILL ROAD, ELM GARDENS, ELM WALK, GARTCONNELL DRIVE, GARTCONNELL GARDENS, GARTCONNELL ROAD, GRANT PLACE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC55</p>
+</td>
+<td>
+<p>Bearsden Hub, Main Hall,</p>
+<p>69 Drymen Road, Bearsden G61 3QT</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>HAWTHORN AVENUE, HAZEL AVENUE, KATRINE COURT, KILMARDINNY AVENUE, KILMARDINNY CRESCENT, KILMARDINNY DRIVE, KILMARDINNY GATE, KILMARDINNY GROVE, LENNOX DRIVE, MANSE ROAD, MILNGAVIE ROAD, MORRISON WAY, MORVEN COURT, MORVEN ROAD, MOSSHEAD ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC55</p>
+</td>
+<td>
+<p>Bearsden Hub, Main Hall,</p>
+<p>69 Drymen Road, Bearsden G61 3QT</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>NORMAN MACLEOD CRESCENT, NORTH GRANGE ROAD, OAK AVENUE, RALSTON ROAD, REID AVENUE, ROBERT BURNS DRIVE, ROSE DENE DRIVE, ROWAN DRIVE, RUSSELL DRIVE, SCHAW DRIVE, SINCLAIR AVENUE, THOMSON DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC56</p>
+</td>
+<td>
+<p>Bearsden Hub, Main Hall,</p>
+<p>69 Drymen Road, Bearsden G61 3QT</p>
+</td>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>BAIRD DRIVE, BURNMOUTH PLACE, CAMPBELL DRIVE, COLQUHOUN DRIVE, DOUGLAS PLACE, DRYMEN ROAD, GLENBURN ROAD, GRANGE ROAD, HILLFOOT AVENUE, HILLFOOT DRIVE, HILLNEUK AVENUE, HILLNEUK DRIVE, HILLSIDE AVENUE, HILLSIDE DRIVE, KIRK ROAD, MANSE AVENUE, MANSE ROAD, MANSE ROAD GARDENS, MILNGAVIE ROAD, NEW KIRK ROAD, NORTH ERSKINE PARK, ROMAN AVENUE, ROMAN COURT, ROMAN DRIVE, ROMAN GARDENS, ROMAN ROAD, SOUTH ERSKINE PARK, THORN DRIVE, UPPER GLENBURN ROAD, WESTBOURNE DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC57</p>
+</td>
+<td>
+<p>St, Nicholas' Primary School,</p>
+<p>Duntocher Road, Bearsden  G61 4QL</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BONNAUGHTON ROAD, BURNSIDE, BURNSIDE COURT, BURNSIDE WALK, CAIRNGORM CRESCENT, COLLEGE GATE, CRAIGMORE ROAD, CRUACHAN ROAD, DUNTOCHER ROAD, LAWERS DRIVE, LEDI DRIVE, NEVIS ROAD, OCHIL ROAD, PENTLAND PLACE, SIDLAW ROAD, TINTO ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC58</p>
+</td>
+<td>
+<p>Castlehill Primary School,</p>
+<p>Rosslyn Road, Bearsden G61 4DL</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ABBOTSFORD ROAD, ANTONINE ROAD, BALLAIG AVENUE, CASTLEHILL ROAD, DRYBURGH ROAD, DRYMEN ROAD, DUNTOCHER ROAD, EAGLE CRESCENT, FAIRWAY, GOLFVIEW, IAIN DRIVE, IAIN ROAD, KENILWORTH CRESCENT, LAURENCE DRIVE, LEWIS GARDENS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>EC58</p>
+</td>
+<td>
+<p>Castlehill Primary School,</p>
+<p>Rosslyn Road, Bearsden G61 4DL</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>MILVERTON AVENUE, NITHSDALE CRESCENT, PARK CRESCENT, ROSSLYN ROAD, SCOTT DRIVE, SKYE GARDENS, SOUTHVIEW DRIVE, SOUTHVIEW GROVE, STIRLING DRIVE, THORN DRIVE, TIREE GARDENS, WESTBOURNE CRESCENT, WHITEHURST, WHITEHURST PARK, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 3 - Bearsden South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="polling stations">
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ES50</p>
+</td>
+<td>
+<p>Bearsden Primary School,</p>
+<p>Roman Road, Bearsden G61 2SY</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BEECHWOOD COURT, BEECHWOOD LANE, BOCLAIR AVENUE, CAMSTRADDEN DRIVE EAST, CAMSTRADDEN DRIVE WEST, CANNIESBURN COURT, CANNIESBURN ROAD, CANNIESBURN TOLL, CARRICKARDEN ROAD, CHAPELTON AVENUE, CHAPELTON GARDENS, CHESTERS MEWS, CHESTERS ROAD, COLLYLINN ROAD, DOUGLAS GARDENS, DRYMEN ROAD, DRYMEN WYND, ELLERGREEN ROAD, ENDRICK DRIVE, FERGUSTON ROAD, GRAY DRIVE, GREENHEAD ROAD, HILLCREST ROAD, HORSESHOE LANE, HORSESHOE ROAD, JUBILEE GARDENS, LEDCAMEROCH CRESCENT, LEDCAMEROCH PARK, LEDCAMEROCH ROAD, LEVEN DRIVE, LOCHSIDE, MACFARLANE ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES50</p>
+</td>
+<td>
+<p>Bearsden Primary School,</p>
+<p>Roman Road, Bearsden G61 2SY</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>MANNOFIELD, MILNGAVIE ROAD, MOORE DRIVE, NORWOOD PARK, ROMAN ROAD, ROSEVALE ROAD, ST GERMAINS, STATION ROAD, THORN DRIVE, THORN GROVE, THORN HEIGHTS, THORN ROAD, WEST CHAPELTON AVENUE, WEST CHAPELTON CRESCENT, WEST CHAPELTON DRIVE, WEST CHAPELTON LANE, WHISTLEFIELD COURT, WHITEHILL LANE, WHITEHILL ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES51</p>
+</td>
+<td>
+<p>Colquhoun Park Primary School,</p>
+<p>Canniesburn Road, Bearsden Road G61 1HD</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALLANDER ROAD, ANNAN DRIVE, ANNICK DRIVE, CANNIESBURN ROAD, CARRON CRESCENT, CONON AVENUE, DEVERON ROAD, DOON CRESCENT, DORNOCH ROAD, ESKDALE ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES51</p>
+</td>
+<td>
+<p>Colquhoun Park Primary School,</p>
+<p>Canniesburn Road, Bearsden Road G61 1HD</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>ESKDALE ROAD, FALLOCH ROAD, FORTH ROAD, KINGLAS ROAD, LOCHEND CRESCENT, LOCHEND DRIVE, LOCHEND ROAD, LOCHVIEW ROAD, PENDICLE CRESCENT, PENDICLE ROAD, RUBISLAW DRIVE, SPEY ROAD, STATION ROAD, TAY ROAD, TEITH DRIVE, TEVIOT CRESCENT, TWEED DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES52</p>
+</td>
+<td>
+<p>Westerton Public Hall,</p>
+<p>84 Maxwell Avenue, Bearsden G61 1NZ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALMOND ROAD, ASCOG ROAD, BALLATER DRIVE, BALMORAL DRIVE, BANCHORY CRESCENT, BIRKHALL DRIVE, BRAEMAR CRESCENT, BUTE CRESCENT, CAIRNHILL COURT, CAIRNHILL ROAD, CAIRNHILL VIEW, CANNIESBURN DRIVE, CANNIESBURN QUADRANT, CANNIESBURN ROAD, CANNIESBURN SQUARE, CORONATION WAY, CRARAE AVENUE, DEEPDENE ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES52</p>
+</td>
+<td>
+<p>Westerton Public Hall,</p>
+<p>84 Maxwell Avenue, Bearsden G61 1NZ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>DIRLETON GATE, DRYMEN ROAD, ELDERBANK, FERNLEA, HENDERLAND DRIVE, HENDERLAND ROAD, HOLLYMOUNT, JACKSON PLACE, KELVIN CRESCENT, KINELLAN ROAD, LARCHFIELD ROAD, LOMOND ROAD, MARYHILL ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES52</p>
+</td>
+<td>
+<p>Westerton Public Hall,</p>
+<p>84 Maxwell Avenue, Bearsden G61 1NZ</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>MAXWELL AVENUE, MONREITH AVENUE, MURRAYFIELD DRIVE, NETHERTON FARM LANE, NORTH VIEW, ORCHY CRESCENT, RAVELSTON ROAD, SOMERFORD ROAD, STIRLING AVENUE, SWITCHBACK ROAD, WARDLAW ROAD, WEST END, WESTERTON FARM LANE, WESTFIELD DRIVE, WHEATFIELD ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES53</p>
+</td>
+<td>
+<p>Killermont Parish Church Hall,</p>
+<p>Rannoch Drive, Bearsden G61 2LD</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>AFTON CRESCENT, ALBERT DRIVE, ARDOCH ROAD, ARISAIG DRIVE, AVIEMORE GARDENS, AVON AVENUE, BIRCH VIEW, BIRNAM CRESCENT, BOCLAIR BRAE, BOCLAIR CRESCENT, BOCLAIR ROAD, BORLAND ROAD, BRORA DRIVE, BUCHANAN DRIVE, CAMERON DRIVE, CLATHIC AVENUE, CLUNY AVENUE, CLUNY DRIVE, CRIEFF AVENUE, DUNKELD DRIVE, DURNESS AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES53</p>
+</td>
+<td>
+<p>Killermont Parish Church Hall,</p>
+<p>Rannoch Drive, Bearsden G61 2LD</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>EARN AVENUE, ETIVE AVENUE, FIRST AVENUE, GARRY AVENUE, GLENDARUEL AVENUE, GLENFARG CRESCENT, GLENFINNAN DRIVE, GREENWOOD DRIVE, HUTCHISON DRIVE, INVERORAN DRIVE, KENMORE GARDENS, KESSINGTON DRIVE, KESSINGTON FARM WAY, KESSINGTON ROAD, KESSINGTON SQUARE, KILLERMONT AVENUE, KILLERMONT ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES53</p>
+</td>
+<td>
+<p>Killermont Parish Church Hall,</p>
+<p>Rannoch Drive, Bearsden G61 2LD</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>KINNAIRD CRESCENT, LOCHABER ROAD, MACFARLANE ROAD, MARYHILL ROAD, METHVEN AVENUE, MILNGAVIE ROAD, MORAR DRIVE, ORONSAY , CRESCENT, POLLOCK ROAD, RANNOCH DRIVE, SECOND AVENUE, SPEIRS ROAD, STRATHYRE GARDENS, TEMPLEHILL VIEW, WOODVALE AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 4 – Bishopbriggs North &amp; Campsie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table>
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CS52</p>
+</td>
+<td>
+<p>Milton of Campsie Parish Church Hall,</p>
+<p>Lochiel Drive, Milton of Campsie G66 8EX</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALDER ROAD, ANTERMONY ROAD, ARCHIBALD TERRACE, ASHEN DRIVE, BALDORAN DRIVE, BALDORAN WAY, BEECHTREE TERRACE, BIRDSTON ROAD, BLAIR DRIVE, BRIAR BANK, CAIRNVIEW ROAD, CAMPSIE ROAD, CANNERTON CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS52</p>
+</td>
+<td>
+<p>Milton of Campsie Parish Church Hall,</p>
+<p>Lochiel Drive, Milton of Campsie G66 8EX</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>CANNERTON PARK, CEDAR DRIVE, CHARLES DRIVE, CHERRY PLACE, CHESTNUT COURT, CORTMALAW AVENUE, COTTONMILL DRIVE, CRAIGHEAD AVENUE, CRAIGHEAD ROAD, CRICHTONS CAIRN DRIVE, DERRYWOOD ROAD, DYKE FARM ROAD, ELIZABETH AVENUE, FELLS VIEW, FERGUSSON TERRACE, GARDEN HOUSE, GLAZERT PLACE, GLENBURN CRESCENT, GRETA MEEK LANE, HARKNESS AVENUE, HAWTHORN WAY, HAZEL BANK, HILLSIDE TERRACE, HOLLY AVENUE, IRVINE GARDENS, JAMES BOYLE SQUARE, JAMES LEESON COURT, JUNIPER DRIVE, KILSYTH ROAD, KINCAID FIELD, KINCAID WAY, KIRKTON CRESCENT, LABURNUM DRIVE, LARCH GROVE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS52</p>
+</td>
+<td>
+<p>Milton of Campsie Parish Church Hall,</p>
+<p>Lochiel Drive, Milton of Campsie G66 8EX</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>LIMETREE WALK, LINDEN LEA, LOCHALSH CRESCENT, LOCHIEL DRIVE, MAPLE AVENUE, MARGUERITE PLACE, MARLEY WAY, MONTGOMERY TERRACE, MOUNT PLEASANT CRESCENT, MUNRO DRIVE, MURRAY GARDENS, POPLAR DRIVE, ROWAN AVENUE, RUNDELL DRIVE, SCHOOL LANE, SCOTT AVENUE, SKIMMERS HILL, STIRLING MEWS, SYCAMORE WAY, VALLEYFIELD, VIEWFIELD AVENUE, WALNUT COURT, WILLOW DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS51</p>
+</td>
+<td>
+<p>Haughhead  Hall,</p>
+<p>Kirkton Crescent , Campsie Glen, G66 7AL</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>CAMPSIE GLEN, CASTLE VIEW, CROSSHOUSE ROAD, GLEN ROAD, KIRKTON TERRACE, KNOWEHEAD ROAD, LENNOX CASTLE, STATION ROAD, STRATHBLANE ROAD, THE CLACHAN, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS50</p>
+</td>
+<td>
+<p>Lennoxtown Primary School,</p>
+<p>School Lane, Lennoxtown  G66 7LX</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ARGYLE GARDENS, ASHCROFT AVENUE, BENCLOICH AVENUE, BENCLOICH CRESCENT, BENCLOICH PLACE, BENCLOICH ROAD, BENVUE ROAD, BLUEBELL WAY, BOLTON TERRACE, BRAMBLE COURT, CALICO WAY, CARLINS PLACE, CASTLE CIRCLE, CHAPEL STREET, CHESTNUT WALK, CRAIGHTON GARDENS, CROFTHEAD DRIVE, CROSSHILL STREET, CROW ROAD, CUMROCH ROAD, DRUMALING TERRACE, ELM STREET, FERN LANE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS50</p>
+</td>
+<td>
+<p>Lennoxtown Primary School,</p>
+<p>School Lane, Lennoxtown  G66 7LX</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>GEELONG GARDENS, GLAZERT MEADOW, GLAZERT PARK DRIVE, GLAZERTBANK, GLEN ROAD, GLENGYLE DRIVE, GLENWARD AVENUE, GLORAT AVENUE, GREENHEAD ROAD, HEATHER VIEW, HILLVIEW AVENUE, HOLLYTREE GARDENS, HOLYKNOWE CRESCENT, HOLYKNOWE ROAD, IVY LEAF PLACE, JAMES HEMPHILL COURT, JANEFIELD PLACE, KINCAID DRIVE, LENNOX CASTLE, LENNOX ROAD, LENNOXMILL LANE, LINDSAY TERRACE, LINN GLEN, MACCABE GARDENS, MAIN STREET</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS50</p>
+</td>
+<td>
+<p>Lennoxtown Primary School,</p>
+<p>School Lane, Lennoxtown  G66 7LX</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>MARGARET COURT, MEIKLEBIN BRAE, MILLBURN STREET, MILTON ROAD, MORRISON DRIVE, NEWBRIDGE, NORTH BIRBISTON ROAD, ORCHID PLACE, PINE STREET, PRINTERS LEA, QUARRY LANE, REDHILLS VIEW, ROWANBERRY COURT, ROWANTREE PLACE, SCHOOL LANE, SERVICE STREET, SLATEFIELD, ST MACHANS WAY, STATION COURT, STATION ROAD, STIRLING PLACE, THE FELLS, VILLAGE GREEN, WARREN WALK, WATERHEAD, WELL LANE, WESTERTON, WHITEFIELD, WHITEFIELD TERRACE, WINSTON CRESCENT, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES55</p>
+</td>
+<td>
+<p>Baldernock Church Hall,</p>
+<p>Glenorchard Road, Balmore, G64 4AJ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALLANDER AVENUE, AUCHENHOWIE ROAD, BACK O HILL ROAD, BALDERNOCK, BALMORE, BALMORE ROAD, BALMUILDY ROAD, BARDOWIE, BARRASTON ROAD, CRAIGMADDIE, CRAIGMADDIE ROAD, CROFT ROAD, DOWAN ROAD, FLEUCHTER ROAD, FLUCHTER ROAD, GLENORCHARD ROAD, GOLF COURSE ROAD, OLD BALMORE ROAD, PATERSONS LAUN, STATION ROAD, STRATHBLANE ROAD, TOWER ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES57</p>
+</td>
+<td>
+<p>Balmuildy Primary School,</p>
+<p>Stirling Drive, Bishopbriggs G64 3AJ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ASHFIELD, ATHOLL GARDENS, BALMUILDY ROAD, BROADLEYS AVENUE, DARNLEY CRESCENT, DEVON GARDENS, FASKALLY AVENUE, GLENEAGLES DRIVE, GLENEAGLES GARDENS, HILTON ROAD, KEIR DRIVE, KIRKINTILLOCH ROAD, LOMOND DRIVE, MARCHFIELD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES57</p>
+</td>
+<td>
+<p>Balmuildy Primary School,</p>
+<p>Stirling Drive, Bishopbriggs G64 3AJ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>MARCHMONT GARDENS, MELVILLE GARDENS, MIDCROFT, MORAR CRESCENT,  MUIRTON DRIVE, MURRAYFIELD, NORFOLK CRESCENT, PARKLEA, SOUTHESK AVENUE, SOUTHESK GARDENS, STIRLING DRIVE, STIRLING GARDENS, TOFTHILL AVENUE, TOFTHILL GARDENS, WESTFIELDS, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES56</p>
+</td>
+<td>
+<p>Balmuildy Primary School,</p>
+<p>Stirling Drive, Bishopbriggs G64 3AJ</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>BALMUILDY ROAD, CARROUR GARDENS, DALHOUSIE GARDENS, GLENBURN GARDENS, KEIR DRIVE, KIRKINTILLOCH ROAD, MELVILLE GARDENS, MORAR CRESCENT, THE ROWANS, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES58</p>
+</td>
+<td>
+<p>St Matthew’s Primary School,</p>
+<p>Park Road, Bishopbriggs G64 2NP</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BELVIDERE CRESCENT, BENARTY GARDENS, BENVIE GARDENS, BIRKHILL AVENUE, BIRKHILL GARDENS, BIRNAM AVENUE, BIRNAM GARDENS, BOCLAIR CRESCENT, BOCLAIR ROAD, CLEDDENS COURT, COWDEN DRIVE, DUNKELD GARDENS, HILLSIDE DRIVE, KELVIN DRIVE, KIRKINTILLOCH ROAD, PARK AVENUE, PARK COURT, PARK CRESCENT, PARK ROAD, SOUTH CROSSHILL ROAD, SPRINGFIELD ROAD, STANLEY DRIVE, WESTER CLEDDENS ROAD, WHITELAW GARDENS, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES59</p>
+</td>
+<td>
+<p>Meadowburn Primary School,</p>
+<p>Lendale Lane, Bishopbriggs G64 3LL</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALLAN GLEN GARDENS, ALLANDER GARDENS, ARUNDEL DRIVE, BALMUILDY ROAD, BARNARD GARDENS, BOWMONT HILL, CADDER COURT, CADDER ROAD, CADDER WAY, CADDERBURN DRIVE, CALDER EAST DRIVE, CALDER GATE, CANDER RIGG, CARISBROOKE CRESCENT, CAWDER PLACE, CLOAN CRESCENT, CORBEIL PLACE, CROFTWOOD, CROSSHILL ROAD, DALKEITH AVENUE, DOUNE CRESCENT, DUNSTER GARDENS, DUNVEGAN DRIVE, ENDRICK BANK, FRIAR AVENUE, HERIOT CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES59</p>
+</td>
+<td>
+<p>Meadowburn Primary School,</p>
+<p>Lendale Lane, Bishopbriggs G64 3LL</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>HIGH MOSS GROVE, HILTON GARDENS, HILTON PARK, HILTON TERRACE, HORNDEAN COURT, INVERARY DRIVE, JEAN MACLEAN PLACE, JOCELIN AVENUE, KIRKINTILLOCH ROAD, KIRKSTALL GARDENS, LENDALE LANE, LYNE CROFT, MEADOWBURN, MENNOCK DRIVE, MOUNT ANNAN COURT, PINELANDS, PLANTATION DRIVE, PLANTATION PARKWAY, RICHMOND DRIVE, SMEATON DRIVE, TEVIOT AVENUE, TOWING DRIVE, VILLAFIELD AVENUE, VILLAFIELD DRIVE, VILLAFIELD LOAN, WESTERHILL ROAD, WILLIAM URE PLACE, YARROW ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES62</p>
+</td>
+<td>
+<p>Torrance Community Centre,</p>
+<p>School Road, Torrance G64 4BZ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ACRE VALLEY ROAD, ALLANDER DRIVE, ATHOLL AVENUE, BALMORE ROAD, BLAIR GARDENS, BUCHANAN PLACE, CAMPBELL PLACE, CAMPSIE ROAD, CHARLOTTE AVENUE, CLARK PLACE, CLYDE AVENUE, CORMACK AVENUE, CRAIGBARNET AVENUE, CRAIGMADDIE GARDENS, CRAIGMARLOCH AVENUE, DALRIADA DRIVE, DUNDAS AVENUE, FIRBANK AVENUE, FORTH ROAD, GUTHRIE PLACE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES62</p>
+</td>
+<td>
+<p>Torrance Community Centre,</p>
+<p>School Road, Torrance G64 4BZ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>HAWTHORN PLACE, HAWTHORN STREET, JOHN MCEWAN WAY, KELVIN VIEW, KELVINDALE, KINGS PARK, MACGILLIVRAY AVENUE, MAIN STREET, MAITLAND DRIVE, MEADOWBANK FARM ROAD, MICHAEL MCPARLAND DRIVE, MILL CRESCENT, MORAY DRIVE, MORRISON GARDENS, NEVIS DRIVE, PARK CRESCENT, ROSEHILL ROAD, SCHOOL ROAD, SMEATON AVENUE, TORRANCE ROAD, TOWER ROAD, VIOLA PLACE, WALLACE GARDENS, WARDEND ROAD, WEAVERS DRIVE, WEST BALGROCHAN ROAD, WEST ROAD, WOODMILL DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 5 – Bishopbriggs South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="polling stations">
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ES56A</p>
+</td>
+<td>
+<p>Kenmure Parish Church Hall,</p>
+<p>Viewfield Avenue, Bishopbriggs, G64 2AG</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BARDRILL DRIVE, BEAUFORT GARDENS, BISHOP GARDENS, BRACKENBRAE AVENUE, BRACKENBRAE ROAD, CLOVERGATE, DUNCRUB DRIVE, ELDON GARDENS, GORSEWOOD, HEATHERBRAE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES56A</p>
+</td>
+<td>
+<p>Kenmure Parish Church Hall,</p>
+<p> </p>
+<p>Viewfield Avenue, Bishopbriggs, G64 2AG</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>KENMURE AVENUE, KENMURE CRESCENT, KENMURE DRIVE, KENMURE GARDENS, KENMURE LANE, KIRKINTILLOCH ROAD, NOVAR GARDENS, POLLOK DRIVE, ST ANDREWS AVENUE, ST MARYS ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES60,ES61</p>
+</td>
+<td>
+<p>Kenmure Parish Church Hall,</p>
+<p> </p>
+<p>Viewfield Avenue, Bishopbriggs, G64 2AG</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>BUCHLYVIE GARDENS, COLSTON DRIVE, COLSTON GARDENS, COLSTON PATH, COLSTON PLACE, COLSTON ROAD, COLTMUIR CRESCENT, COLTMUIR DRIVE, COLTMUIR GARDENS, COLTPARK AVENUE, COLTPARK LANE, DUNCRYNE PLACE, HILLCROFT TERRACE, JOHN MARSHALL DRIVE, KIRKINTILLOCH ROAD, MILTON DRIVE, SPRINGBURN ROAD, STUART DRIVE, VIEWFIELD AVENUE, VIEWFIELD DRIVE, VIEWFIELD ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES63</p>
+</td>
+<td>
+<p>St Helen’s Primary School,</p>
+<p>Wester Cleddens Road, Bishopbriggs G64 1EH</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ABBOTSFORD, AILSA ROAD, BEAULY PLACE, BEMERSYDE, BURRA GARDENS, COLLA GARDENS, CROMARTY AVENUE, DORNOCH PLACE, EILEEN GARDENS, ELSPETH GARDENS, FLORA GARDENS, HARLAW GARDENS, KINTESSACK PLACE, LORNE CRESCENT, MAILING AVENUE, MONYMUSK GARDENS, MOORFOOT, MYRIE GARDENS, PENTLAND DRIVE, PITMEDDEN ROAD, RONALDSAY DRIVE, SANDRA ROAD, SELLA ROAD, SOLWAY ROAD, SPYNIE PLACE, STRONSAY PLACE, TWEEDSMUIR, WESTERHILL ROAD, WESTRAY PLACE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES64</p>
+</td>
+<td>
+<p>Thomas Muir Primary School,</p>
+<p>Kirriemuir Road, Bishopbriggs G64 1DL</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ANGUS AVENUE, ARDBEG AVENUE, AUCHINAIRN GARDENS, AUCHINAIRN ROAD, BALMERINO PLACE, BALRUDDERY PLACE, BRECHIN ROAD, BROOKFIELD DRIVE, BROOKFIELD ROAD, CARESTON PLACE, CARNOUSTIE CRESCENT, CARRADALE GARDENS, CARRICK ROAD, CERES GARDENS, CLAIR ROAD, CORTACHY PLACE, CREE AVENUE, CRINAN GARDENS, CRINAN ROAD, DAIRSIE GARDENS, DUNNICHEN GARDENS, DUNNOTTAR STREET, EDZELL GARDENS, FALKLAND CRESCENT, FETTERCAIRN GARDENS, FIFE WAY, FINTRY CRESCENT, FORFAR CRESCENT, FORGAN GARDENS, GANNOCHY DRIVE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES64</p>
+</td>
+<td>
+<p>Thomas Muir Primary School,</p>
+<p>Kirriemuir Road, Bishopbriggs G64 1DL</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>GRAINGER ROAD, HANNAH GARDENS, HARNETT WYND, HILLVIEW GARDENS, HURLY HAWKIN, KIRRIEMUIR GARDENS, KIRRIEMUIR ROAD, LEECHMAN GARDENS, LETHAM OVAL, LIFF GARDENS, LINNHE AVENUE, LOCHY GARDENS, LUMLOCH COURT, LUMLOCH DRIVE, LUMLOCH GARDENS, LUMLOCH WAY, LUNAN DRIVE, LUNDIE GARDENS, MAREE GARDENS, MEARNS WAY, MENTEITH AVENUE, MILLER CLOSE, MILLER DRIVE, MILLER GARDENS, MILLER PLACE, MILLER WALK, MONIKIE GARDENS, MORAY PLACE, MORVEN AVENUE, MUIR CLOSE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES64, GS06</p>
+</td>
+<td>
+<p>Thomas Muir Primary School,</p>
+<p>Kirriemuir Road, Bishopbriggs G64 1DL</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>BROOKFIELD DRIVE, MUIRHEAD WAY, MURRIN AVENUE, NESS GARDENS, NEWTYLE PLACE, OCHIL ROAD, PALMER COURT, RANNOCH AVENUE, RANNOCH GARDENS, ROSSIE CRESCENT, RYAN ROAD, SMITH CLOSE, SMITH GARDENS, SMITH GROVE, SMITH WAY, ST CYRUS GARDENS, ST CYRUS ROAD, STREAMFIELD LEA, SUNART GARDENS, SUNART ROAD, THRUMS AVENUE, THRUMS GARDENS, TINTO ROAD, TORR ROAD, WALLACE DRIVE, WALLACE GATE, WALLACE PLACE, WARDEN DRIVE, WESTER CLEDDENS ROAD, WESTERHILL CLOSE, WESTERHILL COURT, WESTERHILL DRIVE, WESTERHILL GARDENS, WESTERHILL PLACE, WOODHILL ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES65</p>
+</td>
+<td>
+<p>Auchinairn Community and Early Years Centre,</p>
+<p>Beech Road</p>
+<p>Bishopbriggs G64 1NE</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>AUCHINAIRN ROAD, BEECH PLACE, BEECH ROAD, BRODICK SQUARE, BUCHANAN CRESCENT, BUCHANAN DRIVE, CALLIEBURN ROAD, CARGILL SQUARE, CEDAR ROAD, CHERRY PLACE, CLELLAND AVENUE, DENE WALK, EAST SPRINGFIELD TERRACE, FERN AVENUE, FERN GROVE, FIRPARK ROAD, GLENDALE CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES65</p>
+</td>
+<td>
+<p>Auchinairn Community and Early Years Centre,</p>
+<p>Beech Road</p>
+<p>Bishopbriggs G64 1NE</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>GLENDALE DRIVE, GLENDALE PLACE, GRAHAM TERRACE, GREENHILL, HAWTHORN AVENUE, HEATH AVENUE, HUNTLY COURT, JAMES DUNLOP GARDENS, KENTIGERN TERRACE, KINCARDINE DRIVE, KINCARDINE PLACE, KINNAIRD PLACE, LARCH AVENUE, LIDDELLS COURT, LILAC GARDENS, MARTYRS PLACE, MONTROSE TERRACE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES65</p>
+</td>
+<td>
+<p>Auchinairn Community and Early Years Centre,</p>
+<p>Beech Road</p>
+<p>Bishopbriggs G64 1NE</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>MYRTLE SQUARE, ONEILL AVENUE, RUTHVEN PLACE, SINCLAIR GARDENS, SOUTHVIEW TERRACE, SPRINGFIELD AVENUE, ST MUNGO STREET, THOMAS MUIR AVENUE, VALE WALK, WHEATLEY LOAN, WILLOW AVENUE, WOODHILL ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES65a</p>
+</td>
+<td>
+<p>Springfield Cambridge Church Hall,</p>
+<p>49 Springfield Road, Bishopbriggs G64 1PN</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ARNOLD AVENUE, ASH GROVE, AVON ROAD, BIRCH KNOWE, BRIAR NEUK, BRORA GARDENS, BRORA ROAD, CALLIEBURN ROAD, CARRON CRESCENT, CROWHILL QUADRANT, CROWHILL ROAD, DONOHOE COURT, ELM BANK, EMERSON ROAD, EMERSON ROAD WEST, ETIVE CRESCENT, FORRESTER COURT, HAZEL DENE, HUNTERSHILL ROAD, KATRINE AVENUE, KEIR HARDIE COURT, LAGGAN ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES65a</p>
+</td>
+<td>
+<p>Springfield Cambridge Church Hall,</p>
+<p>49 Springfield Road, Bishopbriggs G64 1PN</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>LEE CRESCENT, LENNOX CRESCENT, LEVEN AVENUE, MAVIS BANK, MENTEITH AVENUE, MUIR STREET, MUIRPARK DRIVE, MUIRPARK TERRACE, OAK PARK, ROSE DALE, RUSKIN SQUARE, SHIEL ROAD, SPRINGFIELD CRESCENT, SPRINGFIELD ROAD, SPRINGFIELD SQUARE, TAY CRESCENT, THE LEYS, WOODFIELD AVENUE, YOUNGER QUADRANT, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 6 – Lenzie &amp; Kirkintilloch South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table>
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ES66 CS60</p>
+</td>
+<td>
+<p>Millersneuk Primary School,</p>
+<p>Lindseybeg Road, Lenzie G66 5HZ</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALBERT ROAD, ALEXANDRA AVENUE, ALEXANDRA GARDENS, ALEXANDRA PARK, ALEXANDRA ROAD, ALVA PLACE, ANDREW AVENUE, ANNE CRESCENT, AUCHINLOCH ROAD, BEECHMOUNT ROAD, BIRKEN ROAD, BLACKLANDS PLACE, BRAMLEY PLACE, BROOMKNOWES AVENUE, BUCHANAN DRIVE, BURNBRAE ROAD, CARRON CRESCENT, CHARLES CRESCENT, CLADDENS PLACE, CLADDENS WYND, CORRIE PLACE, CRAIGENBAY CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES66 CS60</p>
+</td>
+<td>
+<p>Millersneuk Primary School,</p>
+<p>Lindseybeg Road, Lenzie G66 5HZ</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>CRAIGENBAY ROAD, CRAIGIE PARK, CRAWFORD AVENUE, CROSSHILL ROAD, CULT ROAD, CYPRIAN COURT, CYPRIAN DRIVE, DAVIDSTON PLACE, DRYMEN PLACE, DUMBRECK PLACE, DUNGOIL ROAD, EARLSBURN ROAD, EASTER GARNGABER ROAD, FAIR WIND WAY, FARM PARK, FOXES GROVE, GADLOCH GARDENS, GLENBANK AVENUE, GLENBANK ROAD, GLENHEAD ROAD, GROVE PARK, HAYSTACK PLACE, HERIOT ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES66 CS60</p>
+</td>
+<td>
+<p>Millersneuk Primary School,</p>
+<p>Lindseybeg Road, Lenzie G66 5HZ</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>JUBILEE BANK, LAXTON DRIVE, LINDSAY PLACE, LINDSAYBEG LANE, LINDSAYBEG ROAD, MEADOWBURN AVENUE, MILL RISE, MILLERS PLACE, MILLERSNEUK AVENUE, MILLERSNEUK DRIVE, MILLERSNEUK ROAD, NETHERHOUSE AVENUE, NEWTON ROAD, ORCHARD FIELD, REGENT SQUARE, ROBROYSTON ROAD, SILVER BIRCH DRIVE, THISTLE BANK, VICTORIA ROAD, WATERMILL AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES70</p>
+</td>
+<td>
+<p>Lenzie Meadow Primary School,</p>
+<p>Myrtle Avenue, Lenzie G66 4HW</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALDER AVENUE, ALMOND DRIVE, BEECH ROAD, BOGHEAD ROAD, CHESTNUT DRIVE, CHURCH DRIVE, CYPRESS COURT, ELM AVENUE, GALLOWHILL AVENUE, GALLOWHILL ROAD, GOWANBRAE, INGLESIDE, KIRKINTILLOCH ROAD, LARCH AVENUE, LARCH CRESCENT, MARGUERITE AVENUE, MARGUERITE DRIVE, MARGUERITE GARDENS, MARGUERITE GROVE, MOSS ROAD, MYRTLE AVENUE, OAK DRIVE, OAK GARDENS, REDWOOD PLACE, WALNUT DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES69</p>
+</td>
+<td>
+<p>Lenzie Meadow Primary School,</p>
+<p>Myrtle Avenue, Lenzie G66 4HW</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>ASH GROVE, BLACKTHORN AVENUE, BLACKTHORN GROVE, BOGHEAD ROAD, CHERRY BANK, FOREST GARDENS, FOREST PLACE, HEATHER DRIVE, HEATHER GARDENS, HEATHER PLACE, JUNIPER COURT, LABURNUM GARDENS, LABURNUM GROVE, MAPLE DRIVE, OAK DRIVE, POPLAR DRIVE, SPRUCE DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES71</p>
+</td>
+<td>
+<p>Lenzie Union Parish Church Hall,</p>
+<p>65 Kirkintilloch Road, Lenzie G66 4LD</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BIRCH DRIVE, CEDAR DRIVE, DONALD MACKINNON AVENUE, DOUGLAS AVENUE, DOUGLAS COURT, DOUGLAS GARDENS, DOUGLAS PLACE, EASTER GARNGABER ROAD, FERN AVENUE, GARNGABER AVENUE, GARNGABER COURT, HAWTHORN AVENUE, HAZEL AVENUE, HAZEL GROVE, HEATH AVENUE, KIRKINTILLOCH ROAD, LARKFIELD ROAD, LAUREL AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES71 ES71a</p>
+</td>
+<td>
+<p>Lenzie Union Parish Church Hall,</p>
+<p>65 Kirkintilloch Road, Lenzie G66 4LD</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>BOTHLIN COURT, CLOUDBERRY PLACE, COTTONGRASS COURT, CRAMOND DRIVE, FOXGLOVE GARDENS, LIME GROVE, MC GAVIGANS DRIVE, MIDDLEMUIR AVENUE, MIDDLEMUIR ROAD, MONCRIEFF AVENUE, MONCRIEFF GARDENS, PLANTAIN GROVE, QUEENS GROVE, ROWAN CRESCENT, RUTHERFORD DRIVE, RUTHERFORD GRANGE, RUTHERFORD ROAD, SALTMARSH DRIVE, SEVEN SISTERS, SPIDER BRIDGE COURT, SYCAMORE AVENUE, THE ARCHES VIEW, VIEWFIELD AVENUE, WILLOW AVENUE, WOODILEE, WOODILEE ROAD, WOODLANDS WAY, WOODSIDE AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES72</p>
+</td>
+<td>
+<p>St Cyprian's Scottish Episcopal Church,</p>
+<p>Beech Road, Lenzie  G66 4HN</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BOGHEAD ROAD, BROOM GARDENS, CAMPSIE COURT, CONIFER PLACE, GALLOWHILL GROVE, GALLOWHILL ROAD, GREENS AVENUE, GREENS CRESCENT, LENZIE ROAD, MCARTHUR PARK, MCCASH PLACE, PARKBURN AVENUE, SCOTSBLAIR AVENUE, THE LOANING, TOM JOHNSTON PLACE, WESTERGREENS AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES68</p>
+</td>
+<td>
+<p>St Cyprian's Scottish Episcopal Church,</p>
+<p>Beech Road, Lenzie  G66 4HN</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>BOGHEAD ROAD, CROSSHILL ROAD, ELMWOOD GARDENS, GLENWOOD COURT, GLENWOOD GARDENS, GLENWOOD PLACE, GLENWOOD ROAD, KIRKINTILLOCH ROAD, PINEWOOD AVENUE, PINEWOOD COURT, PINEWOOD PLACE, THORNWOOD AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES73</p>
+</td>
+<td>
+<p>Kirkintilloch Miners Welfare,</p>
+<p>Townhead, Kirkintilloch G66</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BACK O LOCH ROAD, 1BELMONT COURT, BOTHLYN AVENUE, BROOMFIELD WALK, CASTLE COURT, CRAIGMOUNT STREET, CRAWRIGGS AVENUE, CROSSHILL AVENUE, DONALDSON CRESCENT, DONALDSON PLACE, DONALDSON STREET, DROMORE STREET, EASTERGREENS AVENUE, FREELAND PLACE, GLENBURN COURT, GLENCAIRN STREET, INDUSTRY STREET, KIRKSYDE AVENUE, LENZIE ROAD, LITHGOW AVENUE, LOCH ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES73 CS54</p>
+</td>
+<td>
+<p>Kirkintilloch Miners Welfare,</p>
+<p>Townhead, Kirkintilloch G66</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>INDUSTRY STREET, LUGGIEBANK ROAD, MONKLAND AVENUE, MUIRHEAD STREET, OXGANG PLACE, PARKVIEW AVENUE, PARKVIEW COURT, ROSE STREET, SHAMROCK STREET, SOUTHBANK DRIVE, SOUTHBANK ROAD, STRATHALLAN GARDENS, STRATHKELVIN PLACE, THISTLE STREET, TOWNHEAD, WATERSIDE ROAD, WILLOWBANK GARDENS, WOODHEAD AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES74 ES74a</p>
+</td>
+<td>
+<p>Oxgang Primary School,</p>
+<p>Lammermoor Road, Kirkintilloch G66 2AB</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>BARRHILL COURT, BARRHILL ROAD, BLACKBURN CRESCENT, BRAES O YETTS, BRAES O'YETTS DRIVE, BRIAR ROAD, BRIAR WALK, BROADYETTS DRIVE, BUTE ROAD, GARTCONNER AVENUE, INCHMURRIN AVENUE, IONA WAY, ISLAY ROAD, JURA DRIVE, LAMMERMOOR CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES67 CS62</p>
+</td>
+<td>
+<p>Oxgang Primary School,</p>
+<p>Lammermoor Road, Kirkintilloch G66 2AB</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>BALLANTYNE BRAE, BLAIRHILL AVENUE, CALFMUIR ROAD, CARRESBROOK AVENUE, CARRESBROOK PLACE, CHRYSTON ROAD, CORN MILL ROAD, CROSSDYKES, FARM WYND, FARMERS GATE, FAULDS DRIVE, LINT MILL ROAD, LION MEWS, MARKET ROAD, MILL LADE DRIVE, OLD DUNTIBLAE ROAD, STAR MEWS, TOWER GATE, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 7 – Kirkintilloch East &amp; North &amp; Twechar</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="polling stations">
+<thead>
+<tr>
+<th>
+<p><strong>Polling District</strong></p>
+</th>
+<th>
+<p><strong>Polling station and address</strong></p>
+</th>
+<th>
+<p><strong>Station number</strong></p>
+</th>
+<th>
+<p><strong>Description of voters entitled to vote at the polling station</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CS58</p>
+</td>
+<td>
+<p>Oxgang Primary School,</p>
+<p>Lammermoor Road, Kirkintilloch G66 2AB</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>BARRHILL COURT, BARRHILL ROAD, BLACKBURN CRESCENT, BRAES O YETTS, BRAES O'YETTS DRIVE, BRIAR ROAD, BRIAR WALK, BROADYETTS DRIVE, BUTE ROAD, GARTCONNER AVENUE, INCHMURRIN AVENUE, IONA WAY, ISLAY ROAD, JURA DRIVE, LAMMERMOOR CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES75 ES76</p>
+</td>
+<td>
+<p>Oxgang Primary School,</p>
+<p>Lammermoor Road, Kirkintilloch G66 2AB</p>
+</td>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>BRIDGEND COTTAGES, LAMMERMOOR GARDENS, LAMMERMOOR PLACE, LAMMERMOOR ROAD, LIMEKILNS DRIVE, MEIKLEHILL LOAN, MERKLAND DRIVE, MORVEN WAY, MUIRSIDE AVENUE, QUARRY DRIVE, ROSS AVENUE, ROTARY WAY, STAFFA DRIVE, THOMSON AVENUE, UIST DRIVE, WATERSIDE ROAD, WOODSTOCK AVENUE, YETTS CRESCENT, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS61</p>
+</td>
+<td>
+<p>Oxgang Primary School,</p>
+<p>Lammermoor Road, Kirkintilloch G66 2AB</p>
+</td>
+<td>
+<p>5</p>
+</td>
+<td>
+<p>ALEXANDER PLACE, BACK O DYKES ROAD, BANKHEAD ROAD, BERRYDYKE, BURNBRAE ROAD, CAIRN VIEW, CALFMUIR ROAD, CAURNIE VIEW, CHRYSTON ROAD, CRAIG CRESCENT, GARTSHORE, GLENLUGGIE ROAD, GLENMARE AVENUE, GRAY STREET, GRAYSHILL, LAUCHLIN PLACE, LUGGIE GROVE, MOLLINS ROAD, MOSS ROAD, MUIRHEAD PLACE, PARK STREET, PITT ROAD, ST AGATHA'S GROVE, TAIG GARDENS, TAIG ROAD, WATERSIDE ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS55</p>
+</td>
+<td>
+<p>Twechar Primary School,</p>
+<p>Main Street, Twechar G65 9TA</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALEXANDER AVENUE, ANNIESTON, AUCHENDAVIE STEADING, AUCHINSTARRY ROAD, BAIRD DRIVE, BEVIN COURT, BURNBRAE, COLLIERY PLACE, DAVIDSON CRESCENT, DIFFER AVENUE, DRUMGREW QUADRANT, GARTSHORE, GARTSHORE CRESCENT, GETTER GROVE, GLEN SHIRVA ROAD, HURRIER DRIVE, JOHNSTONE TERRACE, KELVIN TERRACE, KELVIN VIEW, KENNEDY AVENUE, MACDONALD CRESCENT, MAIN STREET, MERRYFLATS, MINERS WAY, PARK AVENUE, ST JOHNS WAY, SUNNYHILL, TINTOCK ROAD, TURNYHILL ROAD, WATERSIDE ROAD, WINDY YETTS, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS56</p>
+</td>
+<td>
+<p>Harestanes Primary School,</p>
+<p>Mauchline Court, Kirkintilloch G66 2SA</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ALLOWAY COURT, ALLOWAY DRIVE, ALLOWAY QUADRANT, ALLOWAY TERRACE, ANTONINE, APPIN COURT, APPLECROSS ROAD, ARMOUR COURT, ARMOUR DRIVE, ARMOUR GARDENS, ARMOUR PLACE, ATHOLL COURT, AUCHENDAVIE ROAD, BADENOCH ROAD, BURNS DRIVE, BURNS ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS56</p>
+</td>
+<td>
+<p>Harestanes Primary School,</p>
+<p>Mauchline Court, Kirkintilloch G66 2SA</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>CARRICK COURT, CLARINDA COURT, COWAL CRESCENT, DAVID GRAY DRIVE, DRUMHILL, EASTERMAINS, ELLISLAND, ELLISLAND DRIVE, FOSSIL GROVE, GAIRLOCH GARDENS, GLENCONNER WAY, GLENELG CRESCENT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS56</p>
+</td>
+<td>
+<p>Harestanes Primary School,</p>
+<p>Mauchline Court, Kirkintilloch G66 2SA</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>HARESTANES GARDENS, KINGSWAY, KINKELL GARDENS, KINTAIL GARDENS, KINTYRE GARDENS, LANGMUIR ROAD, LORN PLACE, MAUCHLINE AVENUE, MAUCHLINE COURT, MERKLAND DRIVE, MOIDART GARDENS, MORAY PLACE, RANNOCH DRIVE, STRATHEARN GROVE, WATERSIDE ROAD, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS59</p>
+</td>
+<td>
+<p>Hillhead Community Centre,</p>
+<p>169 Meiklehill Road, Kirkintilloch  G66 2JT</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>AFTON VIEW, ALLOWAY DRIVE, ALLOWAY GARDENS, ALLOWAY GROVE, ALLOWAY QUADRANT, ALLOWAY TERRACE, BURNS COURT, BURNS DRIVE, BURNS ROAD, DOON PLACE, DOON ROAD, DOON WAY, FELLSVIEW AVENUE, LANGMUIR ROAD, LOCH LEA, MERKLAND COURT, MERKLAND DRIVE, MERKLAND PLACE, MOSSGIEL GARDENS, NEWDYKE ROAD, TINTOCK DRIVE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS57</p>
+</td>
+<td>
+<p>Hillhead Community Centre,</p>
+<p>169 Meiklehill Road, Kirkintilloch  G66 2JT</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>ABBOTSFORD DRIVE, BANKS ROAD, BLACKDYKE ROAD, BORDER WAY, CLEDDANS ROAD, CONWAY COURT, DANIEL MCLAUGHLIN PLACE, DRYBURGH PLACE, DUN PARK, EILDON ROAD, FERNLEA ROAD, FRIARS CROFT, GRAHAMSDYKE PLACE, GRAHAMSDYKE ROAD, HARDMUIR GARDENS, HARDMUIR ROAD, HIGHFIELD AVENUE, HIGHFIELD COURT, HIGHFIELD CRESCENT, HIGHFIELD GROVE, HIGHFIELD ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS57</p>
+</td>
+<td>
+<p>Hillhead Community Centre,</p>
+<p>169 Meiklehill Road, Kirkintilloch  G66 2JT</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>HILLHEAD ROAD, IVANHOE DRIVE, JOHN STREET, KENILWORTH ROAD, LAMMERMOOR ROAD, LANGMUIR AVENUE, LILY GARDENS, MARMION DRIVE, MCFARLANE PLACE, MEIKLEHILL AVENUE, MEIKLEHILL ROAD, MITCHELL GARDENS, NEWDYKE AVENUE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS57</p>
+</td>
+<td>
+<p>Hillhead Community Centre,</p>
+<p>169 Meiklehill Road, Kirkintilloch  G66 2JT</p>
+</td>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>NEWDYKE ROAD, REDBRAE ROAD, ROSEBANK AVENUE, SCOTT WYND, SHELLS ROAD, WATERLOO CLOSE, WATERLOO GARDENS, WAVERLEY CRESCENT, WAVERLEY PARK, WHITEHILL AVENUE, WHITEHILL CRESCENT, WOODSTOCK AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES54</p>
+</td>
+<td>
+<p>St David's Memorial Park Church Hall,</p>
+<p>Alexandra Street, Kirkintilloch G66 1HE</p>
+</td>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>ACHILL PLACE, ADAMSLIE CRESCENT, ADAMSLIE DRIVE, ALEXANDRA STREET, ALFORD AVENUE, BANKVIEW CRESCENT, BANKVIEW DRIVE, BEAUFORT DRIVE, BELLEVUE AVENUE, BELLEVUE ROAD, BELLFIELD ROAD, BURNSIDE AVENUE, BYARS ROAD, CAMPHILL AVENUE, CAMPSIE VIEW, CLAREMONT AVENUE, COWGATE, COXDALE AVENUE, DAVID DONNELLY PLACE, FRASER GARDENS, GLASGOW ROAD, HAYSTON COURT, HAYSTON ROAD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ES54</p>
+</td>
+<td>
+<p>St David's Memorial Park Church Hall,</p>
+<p>Alexandra Street, Kirkintilloch G66 1HE</p>
+</td>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>KELVIN COURT, KELVIN DRIVE, KELVIN WAY, KERR STREET, LOVAT DRIVE, MELFORD AVENUE, NORTHBANK AVENUE, NORTHBANK ROAD, NORWOOD AVENUE, OXFORD STREET, PARK AVENUE, QUEEN STREET, REGENT STREET, ROB ROY GARDENS, ROCHDALE PLACE, ROMAN ROAD, UNION STREET, VICTORIA STREET, WASHINGTON ROAD, WEST HIGH STREET, WESTERMAINS AVENUE, WOODLAND AVENUE, OTHER ELECTORS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>CS53</p>
+</td>
+<td>
+<p>St David's Memorial Park Church Hall,</p>
+<p>Alexandra Street, Kirkintilloch G66 1HE</p>
+</td>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>AILSA DRIVE, ARRAN DRIVE, BRAEHEAD STREET, BROOMHILL COURT, BROOMHILL DRIVE, BROOMHILL FARM MEWS, CANAL LANE, CANAL STREET, CLUGSTON COURT, CORMORANT DRIVE, CROSSGATE, EASTSIDE, ELM BANK, GLENVIEW, HOPKINS BRAE, KELVINVALE, KILSYTH ROAD, LANFINE DRIVE, LEDGATE, LION BANK, PETER D STIRLING ROAD, WYLIE COURT, OTHER ELECTORS</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p><br />The persons entitled to vote as electors at this election are the persons registered in the register of electors for the respective electoral wards, but a person whose name is so registered may not vote if the entry in the said register gives as the date on which the person will become of voting age a date later than the day fixed for the poll.</p>
+<h2>Notice of Election Agents</h2>
+<p>I, Gerry Cornes, Returning Officer hereby give notice that the following names and addresses of election agents of candidates at the Scottish council elections to be held on Thursday 5 May 2022 and the addresses of the offices or places of such election agents to which all claims, notices, legal process, and other documents addressed to them may be sent, have respectively been declared in writing to me as follows:</p>
+<div id="jquery-ui-filter--4" class="jquery-ui-filter jquery-ui-filter-accordion jquery-ui-filter-accordion-collapsed">
+<h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 1 - Milngavie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Julie Duncan</p>
+</td>
+<td>
+<p>Claire Douglas</p>
+</td>
+<td>
+<p>3 Craigdhu Avenue, Milngavie G62 6DX</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Jim Gibbons</p>
+</td>
+<td>
+<p>Lynne Gibbons</p>
+</td>
+<td>
+<p>35 Craigdhu Road, Milngavie G62 7TW</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alix Mathieson</p>
+</td>
+<td>
+<p>Valerie Browning</p>
+</td>
+<td>
+<p>15 Beechwood Court, Bearsden G61 2RY</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Aileen Polson</p>
+</td>
+<td>
+<p>Francis Bowles</p>
+</td>
+<td>
+<p>Suite 6, 13 Main Street, Milngavie G62 6BJ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Thomas Shepherd</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Emma Sheppard</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 2 - Bearsden North</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Duncan Cumming</p>
+</td>
+<td>
+<p>Duncan Cumming</p>
+</td>
+<td>
+<p>25 James Watt Road, Milngavie G62 7JX</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Duncan Evans</p>
+</td>
+<td>
+<p>Valerie Browning</p>
+</td>
+<td>
+<p>15 Beechwood Court, Bearsden G61 2RY</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Craig Muncie</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alan Reid</p>
+</td>
+<td>
+<p>Alan Reid</p>
+</td>
+<td>
+<p>Suite 6, 13 Main Street, Milngavie G62 6BJ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Neill John Simpson</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Calum Smith</p>
+</td>
+<td>
+<p>Anne McNair</p>
+</td>
+<td>
+<p>Station House, Balmore Road, Balmore G64 4AF</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 3 - Bearsden South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Lorna Dougall</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Scott Ferguson</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Ian Gallagher</p>
+</td>
+<td>
+<p>Catherine Hutchison Fisher</p>
+</td>
+<td>
+<p>34 Maxwell Avenue, Bearsden G61 1PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Duncan Malcolm</p>
+</td>
+<td>
+<p>Duncan Malcom</p>
+</td>
+<td>
+<p>Kenovay Cottage, Longrow, Waterside G66 3NJ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Sheila Mechan</p>
+</td>
+<td>
+<p>Sheila Mechan</p>
+</td>
+<td>
+<p>64 Maxwell Avenue, Bearsden G61 1NZ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Vaughan Moody</p>
+</td>
+<td>
+<p>Francis Bowles</p>
+</td>
+<td>
+<p>40 Craigbarnet Road, Milngavie G62 7RA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Andrew Polson</p>
+</td>
+<td>
+<p>Andrew Polson</p>
+</td>
+<td>
+<p>80a Iain Road, Bearsden, G61 4JA</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 4 - Bishopbriggs North &amp; Campsie</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Paul Ferretti</p>
+</td>
+<td>
+<p>Anne McNair</p>
+</td>
+<td>
+<p>Station House, Balmore Road, Balmore G64 4AF</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Paul Gallacher</p>
+</td>
+<td>
+<p>Paul Gallacher</p>
+</td>
+<td>
+<p>55 Southesk Avenue, Bishopbriggs G64 3AD</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alan Harris</p>
+</td>
+<td>
+<p>Raymond Philip James</p>
+</td>
+<td>
+<p>4 Pentland Place, Bearsden G61 4JU</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Billy Hendry</p>
+</td>
+<td>
+<p>Andrew Polson</p>
+</td>
+<td>
+<p>80a Iain Road, Bearsden, G61 4JA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Colette McDiarmid</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gary Pews</p>
+</td>
+<td>
+<p>David Hutchings</p>
+</td>
+<td>
+<p>Suite 6, 13 Main Street, Milngavie G62 6BJ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Elizabeth Rowan</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Lynda Williamson</p>
+</td>
+<td>
+<p>Anne McNair</p>
+</td>
+<td>
+<p>Station House, Balmore Road, Balmore G64 4AF</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 5 - Bishopbriggs South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jesper Bach</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Catherine Brown</p>
+</td>
+<td>
+<p>Andrew Polson</p>
+</td>
+<td>
+<p>80a Iain Road, Bearsden, G61 4JA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Eamonn Gallagher</p>
+</td>
+<td>
+<p>Eamonn Gallagher</p>
+</td>
+<td>
+<p>11 Lyne Croft, Bishopbriggs G64 3LN</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gordan Low</p>
+</td>
+<td>
+<p>Anne McNair</p>
+</td>
+<td>
+<p>Station House, Balmore Road, Balmore G64 4AF</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alan Moir</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Ben Rose</p>
+</td>
+<td>
+<p>David Hutchings</p>
+</td>
+<td>
+<p>Suite 6, 13 Main Street, Milngavie G62 6BJ</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 6 – Lenzie &amp; Kirkintilloch South</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p><strong>Name of Candidate</strong></p>
+</th>
+<th scope="col">
+<p><strong>Name of Agent </strong></p>
+</th>
+<th scope="col">
+<p><strong>Office of Election Agent to which claims etc may be sent</strong></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Callum McNally</p>
+</td>
+<td>
+<p>Christopher Mollins</p>
+</td>
+<td>
+<p>20 Bonnaughton Road, Bearsden G61 4DA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Willie Paterson</p>
+</td>
+<td>
+<p>Rod Ackland</p>
+</td>
+<td>
+<p>Suite 6, 13 Main Street, Milngavie G62 6BJ</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gillian Renwick</p>
+</td>
+<td>
+<p>Thomas Tumilty</p>
+</td>
+<td>
+<p>26 Kirkintilloch Road, Lenzie G66 4RL</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Carolynn Scrimgeour</p>
+</td>
+<td>
+<p>Christopher Cotton</p>
+</td>
+<td>
+<p>97 Mugdock Road, Milngavie G62 8PA</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Sandra Thornton</p>
+</td>
+<td>
+<p>Valerie Browning</p>
+</td>
+<td>
+<p>15 Beechwood Court, Bearsden G61 2RY</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>James Raymond Watson</p>
+</td>
+<td>
+<p>James Raymond Watson</p>
+</td>
+<td>
+<p>17 Rowan Drive, Bearsden G61 3HQ</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div><h3 class="jquery-ui-filter-header jquery-ui-filter-accordion-header">Ward 7 – Kirkintilloch East &amp; North &amp; Twechar</h3><div class="jquery-ui-filter-container jquery-ui-filter-accordion-container">
+<table style="width:100%;" summary="Election Agents">
+<thead>
+<tr>
+<th scope="col">
+<p>Name of Candidate</p>
+</th>
+<th scope="col">Name of Agent</th>
+<th scope="col">Office to which claims etc may be sent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Stewart MacDonald</p>
+</td>
+<td>Christopher Mollins</td>
+<td>20 Bonnaughton Road, Bearsden G61 4DA</td>
+</tr>
+<tr>
+<td>
+<p>Josephine MacLeod</p>
+</td>
+<td>Andrew Polson</td>
+<td>80a Iain Road, Bearsden G61 4JA</td>
+</tr>
+<tr>
+<td>
+<p>Pamela Marshall</p>
+</td>
+<td>Thomas Tumilty</td>
+<td>26 Kirkintilloch Road, Lenzie G66 4RL</td>
+</tr>
+<tr>
+<td>
+<p>Alan McManus</p>
+</td>
+<td>Alan McManus</td>
+<td>52 Alloway Drive, Kirkintilloch G66 2NF</td>
+</tr>
+<tr>
+<td>
+<p>Susan Murray</p>
+</td>
+<td>Rod Ackland</td>
+<td>Suite 6, 13 Main Street, Milngavie G62 6BJ</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div></div></div>    </article>
+
+</section>
+  </div>
+    </section>
+
+          <aside class="col-sm-3" role="complementary">
+          <div class="region region-sidebar-second">
+    <section id="block-menu-block-3" class="block block-menu-block clearfix">
+
+        <h2 class="block-title"><a href="/council/elections-voting" class="active-trail">Elections and voting</a></h2>
+    
+  <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf active-trail active menu-mlid-13505 active"><a href="/residents/council-democracy/elections-and-voting/local-government-elections-may-2022" class="active-trail active">Local Government Elections  - May 2022</a></li>
+<li class="leaf menu-mlid-12360"><a href="/residents/council-democracy/elections-and-voting/scottish-parliamentary-elections-2021-results">Scottish Parliamentary Elections 2021 - Results</a></li>
+<li class="leaf menu-mlid-12221"><a href="/residents/council-democracy/elections-and-voting/scottish-parliamentary-elections-2021">Scottish Parliamentary Elections 2021</a></li>
+<li class="leaf menu-mlid-9870"><a href="/residents/council-democracy/elections-and-voting/uk-parliamentary-general-election-2019">UK Parliamentary General Election 2019</a></li>
+<li class="leaf menu-mlid-5568"><a href="/council/elections-and-voting/local-government-election-results-2017">Local Government election results 2017</a></li>
+<li class="leaf menu-mlid-1624"><a href="/council/elections-voting/members-scottish-parliament">Members of Scottish Parliament</a></li>
+<li class="leaf menu-mlid-3078"><a href="/council/elections-voting/uk-parliamentary-boundary-review">UK Parliamentary Boundary Review</a></li>
+<li class="leaf menu-mlid-11767"><a href="/council/elections-voting/member-parliament">Members of Parliament</a></li>
+<li class="leaf menu-mlid-2568"><a href="/council/elections-voting/scottish-parliamlentary-elections-2016">Scottish Parliamentary elections 2016</a></li>
+<li class="leaf menu-mlid-8806"><a href="/residents/council-democracy/elections-and-voting/milngavie-bid-renewal-ballot">Milngavie BID - Renewal Ballot</a></li>
+<li class="leaf menu-mlid-1622"><a href="/council/elections-voting/political-composition">Political composition</a></li>
+<li class="leaf menu-mlid-1621"><a href="/council/elections-voting/scottish-independence-referendum-2014">Scottish Independence Referendum 2014</a></li>
+<li class="leaf menu-mlid-2660"><a href="/council/elections-voting/how-become-councillor">How to become a councillor</a></li>
+<li class="leaf menu-mlid-2659"><a href="/local-government-election-results-2012">Local Government election results 2012</a></li>
+<li class="leaf menu-mlid-8373"><a href="/residents/council-democracy/elections-and-voting/public-notice-review-polling-district-and-places">Public Notice review of Polling District and Places</a></li>
+<li class="last leaf menu-mlid-3085"><a href="/council/elections-voting/west-scotland-region-election-results">West Scotland Region election results 2016</a></li>
+</ul></div>
+
+</section>
+  </div>
+      </aside>  <!-- /#sidebar-second -->
+    
+  </div>
+</div>
+
+  <footer class="footer container-fluid">
+      <div class="region region-footer">
+    <section id="block-block-35" class="block block-block block-container clearfix">
+
+      
+  <div class="block-row">   </div>
+
+</section>
+<section id="block-block-2" class="block block-block col-md-12 col-sm-12 clearfix">
+
+      
+  <div class="atoz">
+<ul class="nav navbar-nav letters">
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/a">A</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/b">B</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/c">C</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/d">D</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/e">E</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/f">F</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/g">G</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/h">H</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/i">I</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/j">J</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/k">K</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/l">L</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/m">M</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/n">N</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/o">O</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/p">P</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/q">Q</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/r">R</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/s">S</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/t">T</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/u">U</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/v">V</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/w">W</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/x">X</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/y">Y</a></li>
+<li class="az-active"><a href="https://www.eastdunbarton.gov.uk/a-to-z-of-services/z">Z</a></li>
+</ul>
+</div>
+
+</section>
+<section id="block-block-4" class="block block-block col-md-12 col-sm-12 clearfix">
+
+      
+  <div class="council-address col-md-3 col-sm-12">
+<p>East Dunbartonshire Council<br />12 Strathkelvin Place<br />Kirkintilloch<br />G66 1TJ</p>
+<p>Tel: 0300 123 4510</p>
+<p>Email: <a href="mailto:customerservices@eastdunbarton.gov.uk">Customer Services</a></p>
+<p><a href="https://www.accessibility-services.co.uk/certificates/east-dunbartonshire-council/" target="_blank"><img alt="Shaw Trust Accessible Logo" src="https://www.eastdunbarton.gov.uk/sites/default/files/shawtrust_accessible.jpg" style="width: 180px; height: 54px;" /></a></p>
+</div>
+<div class="footer-menu"><section id="block-superfish-1" class="block block-superfish clearfix">
+
+      
+  <ul id="superfish-1" class="menu sf-menu sf-menu-footer-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-0 sf-single-items-7"><li id="menu-1147-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/270" class="sf-depth-1">About our website</a></li><li id="menu-1148-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/232252" class="sf-depth-1">Accessibility</a></li><li id="menu-1149-1" class="middle odd sf-item-3 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/272" class="sf-depth-1">Can&#039;t find it?</a></li><li id="menu-1150-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/273" class="sf-depth-1">Contact us</a></li><li id="menu-1151-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/274" class="sf-depth-1">Copyright and Disclaimer</a></li><li id="menu-1152-1" class="middle even sf-item-6 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/275" class="sf-depth-1">Emergencies</a></li><li id="menu-1153-1" class="last odd sf-item-7 sf-depth-1 sf-no-children"><a href="https://www.eastdunbarton.gov.uk/node/276" class="sf-depth-1">Neighbouring Councils</a></li></ul>
+</section>
+</div>
+<div class="footer-logo col-sm-12"><img alt="East Dunbartonshire Logo" src="https://www.eastdunbarton.gov.uk/sites/default/files/images/landing/icons/EDC%20logo%202010.png" style="height: 59px; width: 261px; float: right;" /></div>
+<div class="footer-planalpha col-md-12 col-sm-12"><section id="block-block-3" class="block block-block clearfix">
+
+      
+  <p style="text-align: center;">Developed and maintained by: <a href="http://www.planalpha.co.uk">Plan Alpha Systems</a> | Powered by <a href="http://drupal.org">Drupal</a></p>
+
+</section>
+</div>
+
+</section>
+  </div>
+  </footer>
+  <script>var eu_cookie_compliance_cookie_name = "";</script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_lftW2kcsGIBavVFjiwiKjGYxB9Ck-v-03eFVKrh4K9M.js"></script>
+<script src="https://www.eastdunbarton.gov.uk/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-45eb218fe15ebfe332c","applicationID":"1083200785","transactionName":"bgBTYxEEXUJVV0MLDFdKcFQXDFxfG1pYBgZmFVBQBjpFWFFD","queueTime":0,"applicationTime":366,"atts":"QkdQFVkeTkw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
