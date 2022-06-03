@@ -46,9 +46,9 @@
 "2019-12-19","Coleman St","Peter Estlin","Yes","No","Peter Estlin",
 "2019-12-19","Dowgate","Alison Gowman","Yes","No","Alison Gowman",
 "2019-12-19","Farringdon Wn","Vincent Keaveny","Yes","No","Vincent Keaveny",
-"2022-05-26","Aldersgate","Nicholas Anstee","TBC","TBC","TBC","By 2023-05-03"
-"2022-05-26","Cordwainer","Sir Roger Gifford","Died","TBC","TBC","Postponed to 2022"
-"2022-05-26","Cornhill","Robert Howard","TBC","TBC","TBC","By 2021-10-13"
+"2022-05-26","Aldersgate","Nicholas Anstee","Retired","Yes","Christopher Makin",
+"2022-05-26","Cordwainer","Sir Roger Gifford","Died","Yes","Alexander Barr",
+"2022-05-26","Cornhill","Robert Howard","Yes","Yes","Robert Howard",
 ,"Cripplegate","David Graves",,,,"By 2020-06-19"
 ,"Bishopsgate","Baroness Scotland of Asthal",,,,"By 2020-12-09"
 ,"Walbrook","John Garbutt",,,,"By 2021-12-02"
@@ -71,6 +71,6 @@
 ,"Coleman St","Peter Estlin",,,,"By 2025-12-19"
 ,"Dowgate","Alison Gowman",,,,"By 2025-12-19"
 ,"Farringdon Wn","Vincent Keaveny",,,,"By 2025-12-19"
-,"Aldersgate",,,,,"By 2028-05-26"
-,"Cordwainer",,,,,"By 2028-05-26"
-,"Cornhill",,,,,"By 2028-05-26"
+,"Aldersgate","Christopher Makin",,,,"By 2028-05-26"
+,"Cordwainer","Alexander Barr",,,,"By 2028-05-26"
+,"Cornhill","Robert Howard",,,,"By 2028-05-26"
