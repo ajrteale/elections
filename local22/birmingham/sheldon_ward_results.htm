@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>          <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+    <head prefix="dcterms: http://purl.org/dc/terms">
+        <meta charset="UTF-8">
+
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.birmingham.gov.uk/rss/news">
+        <link rel="search" type="application/opensearchdescription+xml" title="Birmingham City Council" href="https://www.birmingham.gov.uk/site/scripts/opensearch.php">
+        <link rel="apple-touch-icon" sizes="57x57" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-57x57.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="60x60" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-60x60.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="72x72" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-72x72.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="76x76" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-76x76.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="114x114" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-114x114.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="120x120" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-120x120.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="144x144" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-144x144.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="152x152" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-152x152.png?v=kPP6reKB8a">
+        <link rel="apple-touch-icon" sizes="180x180" href="//www.birmingham.gov.uk/site/favicon/apple-touch-icon-180x180.png?v=kPP6reKB8a">
+        <link rel="icon" type="image/png" href="//www.birmingham.gov.uk/site/favicon/favicon-32x32.png?v=kPP6reKB8a" sizes="32x32">
+        <link rel="icon" type="image/png" href="//www.birmingham.gov.uk/site/favicon/favicon-194x194.png?v=kPP6reKB8a" sizes="194x194">
+        <link rel="icon" type="image/png" href="//www.birmingham.gov.uk/site/favicon/favicon-96x96.png?v=kPP6reKB8a" sizes="96x96">
+        <link rel="icon" type="image/png" href="//www.birmingham.gov.uk/site/favicon/android-chrome-192x192.png?v=kPP6reKB8a" sizes="192x192">
+        <link rel="icon" type="image/png" href="//www.birmingham.gov.uk/site/favicon/favicon-16x16.png?v=kPP6reKB8a" sizes="16x16">
+        <link rel="manifest" href="//www.birmingham.gov.uk/site/favicon/manifest.json?v=kPP6reKB8a">
+        <link rel="mask-icon" href="//www.birmingham.gov.uk/site/favicon/safari-pinned-tab.svg?v=kPP6reKB8a" color="#8b2388">
+        <link rel="shortcut icon" href="//www.birmingham.gov.uk/site/favicon/favicon.ico?v=kPP6reKB8a">
+        <meta name="msapplication-TileColor" content="#9f00a7">
+        <meta name="msapplication-TileImage" content="//www.birmingham.gov.uk/site/favicon/mstile-144x144.png?v=kPP6reKB8a">
+        <meta name="msapplication-config" content="//www.birmingham.gov.uk/site/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <link rel="stylesheet" type="text/css" href="//www.birmingham.gov.uk/site/dist/orbit.css?v=1.64.2">
+        <!--[if lt IE 9]>
+            <link href="//www.birmingham.gov.uk/site/dist/orbit-oldie.css?v=1.64.2" rel="stylesheet" type="text/css">
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="//www.birmingham.gov.uk/site/styles/standard.css">
+ <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-25230515-3', {
+  'storage': 'none'
+});  ga('send', 'pageview');</script>
+<script>
+// Graceful set and read cookie from https://stackoverflow.com/questions/4825683/how-do-i-create-and-read-a-value-from-cookie
+function setCookie(c_name,value,exdays)
+{
+   var exdate=new Date();
+   exdate.setDate(exdate.getDate() + exdays);
+   var c_value=escape(value) + ((exdays==null) ? "" : ("; expires="+exdate.toUTCString()));
+   document.cookie=c_name + "=" + c_value;
+}
+
+function getCookie(c_name)
+{
+   var i,x,y,ARRcookies=document.cookie.split(";");
+   for (i=0; i<ARRcookies.length; i++)
+   {
+      x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+      y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+      x=x.replace(/^\s+|\s+$/g,"");
+      if (x==c_name)
+      {
+        return unescape(y);
+      }
+   }
+}
+
+// Sets a cookie when the user has said they're content to accept analytics cookies and hides the request if they have
+function allowAnalytics() {
+    setCookie("allowAnalytics", "Yes", 365);
+    location.reload();
+}
+</script>        <meta name="author" content="Birmingham City Council">
+        <meta name="revisit-after" content="2 days">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="ROBOTS" content="INDEX,FOLLOW" >
+
+<!-- HTML5 Template -->
+
+	<!-- not HTML5 suppported -->
+	<!-- Dublin Core Metadata -->
+<meta name="dcterms.creator" content="Becky Shergill" >
+<meta name="dc.created" content="2022-04-28" >
+<meta name="dc.modified" content="2022-05-05" >
+<meta name="dc.description" content="Local election results" >
+<meta name="dcterms.format" content="text/html" >
+<meta name="dcterms.identifier" content="https://www.birmingham.gov.uk/site/scripts/directory_record.php?recordID=370773" >
+<meta name="dcterms.language" content="en" >
+<meta name="dcterms.publisher" content="Birmingham City Council" >
+<meta name="dcterms.rights" content="Copyright Birmingham City Council" >
+<meta name="dc.title" content="Sheldon Ward Results" >
+<meta name="dcterms.coverage" content="Birmingham, England, UK, Europe" >
+<meta name="dcterms.subject" content="Local election results" >
+<!-- HTML5 Template -->
+
+<meta name="dcterms.subject" content="Elections and voting" >
+        <meta name="description" content="Local election results">
+        <meta name="keywords" content="Local election results,council website, Birmingham, Birmingham city council, West midlands, waste, UK, England, local authority, council, local government, councillor, leisure, tourism, social services, education, environment, transport, libraries, residents, business, housing, schools">
+ 		<script src="//www.birmingham.gov.uk/site/javascript/swfobject.js?v=1.64.2"></script>
+        <script src="//www.birmingham.gov.uk/site/dist/libs/modernizr.custom.js?v=1.64.2"></script>
+        <!--[if lt IE 9]>
+        <script src="//www.birmingham.gov.uk/site/javascript/libs/index.js?v=1.64.2"></script>
+        <![endif]-->
+        <script>
+            (function (html) {
+                html.className = html.className.replace(/\bno-js\b/, 'js');
+            })(document.getElementsByTagName('html')[0]);
+        </script>
+
+            <!-- Grunticon -->
+        <script>
+        !/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+        !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,a=o+t[d].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),s[a]=c);return s},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(a)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(a)}return r},s=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this)}();
+        grunticon(["//www.birmingham.gov.uk/site/dist/icons/icons.data.svg.css?v=1.64.2", "//www.birmingham.gov.uk/site/dist/icons/icons.data.png.css?v=1.64.2", "//www.birmingham.gov.uk/site/dist/icons/icons.fallback.css?v=1.64.2"], grunticon.svgLoadedCallback);
+        </script>
+        <noscript><link rel="stylesheet" href="//www.birmingham.gov.uk/site/dist/icons/icons.fallback.css?v=1.64.2"></noscript>
+        <script src="//www.birmingham.gov.uk/site/javascript/site.js?v=1.64.2"></script>
+        <title>Sheldon Ward Results | Birmingham City Council</title>
+    </head>
+    <body class="two-column">
+    <div class="site">
+<!-- googleoff: index -->
+        <header class="site-header" id="top" aria-label="General website links and search form">
+            <ul class="list skip-links">
+                <li class="list__item"><a class="skip-links__link" href="https://www.birmingham.gov.uk/directory_record/370773/sheldon_ward_results#content" rel="nofollow">Skip to content</a></li>
+                <li class="list__item"><a class="skip-links__link" href="https://www.birmingham.gov.uk/directory_record/370773/sheldon_ward_results#navigation" rel="nofollow">Skip to main navigation</a></li>
+            </ul>
+            <div class="site-header__main-content">
+                <div class="container">
+                    <a href="https://www.birmingham.gov.uk" class="identity identity--site-header">
+                        <div class="identity__logo icon icon-logo-white" data-grunticon-embed></div>
+                        <span class="identity__heading">Birmingham City Council</span>
+                    </a>
+
+                    <ul class="list list--header-navigation" id="navigation" tabindex="-1">
+                        <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/myaccountpage"><span class="icon icon--inline icon-user-white"></span><span class="icon-description">Sign in<span class="visually-hidden"> to your account</span></span></a><span class="icon-description"> <a href="https://www.birmingham.gov.uk/myaccountpage">Register<span class="visually-hidden"> an account</span></a></span></li>
+
+                        <li class="list__item"><button class="list__link list__link--council-services button button--simple" id="council-services-toggle" type="button" data-a11y-toggle="council-services" aria-expanded="false"><span class="icon icon--inline icon-menu-white"></span><span class="icon-description">Council services</span></button></li>
+                    </ul>
+                </div>
+            </div>
+          <form class="site-search form form--search" action="https://www.birmingham.gov.uk/site_search/results/" method="get">
+
+    <div class="container container--narrow">
+        <div class="form__control form__control--append">
+            <label class="form__label" for="search-site">
+                <span class="form__label-text">Search this site</span>
+                <span class="icon icon-search"></span>
+            </label>
+            <div class="form__control__append-group">
+                <input class="form__field" id="search-site" type="search" size="18" maxlength="80" name="q" value="">
+                <button class="button button--centered" type="submit">Search</button>
+            </div>
+        </div>
+    </div>
+</form>
+        </header>
+<!-- googleon: index -->
+        <main class="site-main">
+        <div class="site-announcement">
+            <div class="container">
+                <div class="site-announcement__content">
+                    <h2 class="site-announcement__heading">Are you struggling with the cost of living?</h2>
+                    <p class="site-announcement__text">You can find help with accessing grants, useful advice and money that you may be entitled to. <a class="site-announcement__link" href="https://www.birmingham.gov.uk/livingsupport">Visit our cost of living support page</a></p>
+                </div>
+            </div>
+        </div>
+            <div class="container">                <div class="site-content">
+
+                    <div class="page-primary">
+                        <div class="page-primary__content">
+                            <header class="page-header" aria-label="Page information">
+
+<!-- googleoff: all -->
+                                <nav class="breadcrumb" aria-label="Breadcrumb">
+                                    <span class="breadcrumb__prefix">You are here:</span>
+                                    <ol class="list list--breadcrumb">
+                                        <li class="list__item">
+                    <a href="https://www.birmingham.gov.uk" rel="home">Home</a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.birmingham.gov.uk/directories">Online directories</a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.birmingham.gov.uk/directory/69/local_election_results">Local election results</a>
+                </li>
+                <li class="list__item">
+                    <span>Sheldon Ward Results</span>
+                </li>                                    </ol>
+                                </nav>
+<!-- googleon: all -->
+                                <div class="page-context">Online directories</div>
+                            </header>
+                            <div class="page-primary__extras">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <article id="content" tabindex="-1">
+                                                    <h1 class="page-heading">Sheldon Ward Results</h1>
+                                        <dl class="list list--definition">
+                    <dt class="list--definition__heading">Ward</dt>
+                    <dd class="list--definition__content">
+Sheldon
+                    </dd>
+                    <dt class="list--definition__heading">Voting results</dt>
+                    <dd class="list--definition__content">
+                        <div class="editor list--definition__editor">
+<table style="height:100%; width:100%" summary="Local election results for the Sheldon Ward.">
+	<thead>
+		<tr>
+			<th scope="col">Candidate</th>
+			<th scope="col">Party</th>
+			<th scope="col">Votes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><strong>Abdi</strong> Isra</td>
+			<td>Labour Party</td>
+			<td>835</td>
+		</tr>
+		<tr>
+			<td><strong>Andews</strong> Mark David</td>
+			<td>Trade Unionist and Socialist Coalition</td>
+			<td>89</td>
+		</tr>
+		<tr>
+			<td><strong>Axford</strong> Susan</td>
+			<td>Local Conservatives</td>
+			<td>564</td>
+		</tr>
+		<tr>
+			<td><strong>Green Colin Francis</strong></td>
+			<td><strong>Liberal Democrats</strong></td>
+			<td><strong>1534</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Harrison</strong> Kevin</td>
+			<td>Green Party</td>
+			<td>218</td>
+		</tr>
+		<tr>
+			<td><strong>Jenkins</strong> Oliver</td>
+			<td>Local Conservatives</td>
+			<td>513</td>
+		</tr>
+		<tr>
+			<td><strong>Piekarz</strong> Joseph</td>
+			<td>Labour Party</td>
+			<td>743</td>
+		</tr>
+		<tr>
+			<td><strong>Tilsley Paul Calvin</strong></td>
+			<td><strong>Liberal Democrats</strong></td>
+			<td><strong>1752</strong></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><strong>Rejected Ballot Papers</strong></td>
+			<td>14</td>
+		</tr>
+	</tbody>
+</table>
+
+                        </div>
+
+                    </dd>
+                    <dt class="list--definition__heading">Candidate(s) elected</dt>
+                    <dd class="list--definition__content">
+                        <div class="editor list--definition__editor">
+<p><strong>Colin Francis Green, Liberal Democrats HOLD<br />
+Paul Calvin Tilsley, Liberal Democrats HOLD</strong></p>
+
+                        </div>
+
+                    </dd>
+                    <dt class="list--definition__heading">Turnout</dt>
+                    <dd class="list--definition__content">
+24.09%
+                    </dd>
+                </dl>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="sidebar sidebar--primary">
+                        <div class="sidebar__content">
+<!-- googleoff: index -->
+    <nav class="sidebar__section sidebar__section--toggle" aria-label="category navigation">
+        <button class="button button--toggle" type="button" data-a11y-callback="sticky" data-a11y-toggle="sidebarCategories">Categories</button>
+        <ul class="list list--sidebar-navigation toggle-target" id="sidebarCategories">
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20057/about_birmingham">About Birmingham</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20018/adult_social_care">Adult social care</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20017/benefits_and_support">Benefits and support</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20016/births_deaths_and_ceremonies">Births, deaths and ceremonies</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20012/business_and_licensing">Business and licensing</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20019/children_young_people_and_families">Children, young people and families</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20015/environment">Environment</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20006/housing">Housing</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20010/parks_leisure_and_wellbeing">Parks, leisure and wellbeing</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20008/planning_and_development">Planning and development</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20013/roads_travel_and_parking">Roads, travel and parking</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20014/schools_and_learning">Schools and learning</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20007/things_to_do">Things to do</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20009/waste_and_recycling">Waste and recycling</a></li>
+            <li class="list__item"><a class="list__link " href="https://www.birmingham.gov.uk/directories/20011/your_council">Your council</a></li>
+        </ul>
+    </nav>
+
+<!-- googleon: index -->
+                        </div>
+                    </div>
+     </div>            </main>
+
+            <section id="council-services" class="council-services is-hidden toggle-target" aria-hidden="true" tabindex="-1">
+                <div class="council-services__content">
+                    <header class="council-service__header" aria-label="Council services menu">
+                        <div class="container">
+                            <div class="identity identity--site-header">
+                                <div class="identity__logo icon icon-logo" data-grunticon-embed></div>
+                                <span class="identity__heading">{{ organisationName }}</span>
+                            </div>
+                        </div>
+                        <button id="council-services-close" class="council-services__close button button--simple" type="button" data-a11y-toggle="council-services"><span class="icon icon--inline icon--large icon-close" data-grunticon-embed></span><span class="icon-description">Close</span><span class="visually-hidden"> Council Services</span></button>
+                    </header>
+                    <div class="container container--narrow">
+                        <h2 class="council-services__heading">Council Services</h2>
+                        <ul class="list list--council-services">
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20057/about_birmingham">About Birmingham</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20018/adult_social_care">Adult social care</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20017/benefits_and_support">Benefits and support</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20016/births_deaths_and_ceremonies">Births, deaths and ceremonies</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20012/business_and_licensing">Business and licensing</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20019/children_and_families">Children and families</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20005/council_tax">Council tax</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20015/environment">Environment</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20006/housing">Housing</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20010/parks_leisure_and_wellbeing">Parks, leisure and wellbeing</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20008/planning_and_development">Planning and development</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20013/roads_travel_and_parking">Roads, travel and parking</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20014/schools_and_learning">Schools and learning</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20007/things_to_do">Things to do </a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20009/waste_and_recycling">Waste and recycling</a></li>
+                                                                <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/info/20011/your_council">Your council</a></li>
+                                                    </ul>
+                    </div>
+                    <div class="callout callout--council-services">
+                        <div class="container container--narrow">
+                            <h3 class="callout__heading">Can’t find the service you are looking for?</h3>
+                            <p class="callout__text">A full list of services can be found on our <a href="https://www.birmingham.gov.uk/a_to_z">A–Z listings page</a>.</p>
+                        </div>
+                    </div>
+                    <button class="focus-jump" type="button" data-href="#council-services-close">Close Council Services</button>
+                </div>
+                <span class="council-services__overlay" role="button" tabindex="0" data-a11y-toggle="council-services"><span class="visually-hidden"> Council Services</span></span>
+            </section>
+
+
+            <section class="site-social-bar" aria-label="Social media links and email sign up">
+    <div class="container">
+        <h2 class="visually-hidden">Social Links</h2>
+        <ul class="list list--social"><li class="list__item">
+                <a href="https://www.birmingham.gov.uk/socialmedia-facebook" class="list__link">
+                    <div class="icon icon--embeded icon-social--facebook" data-grunticon-embed></div>
+                    <span class="icon-alt">Facebook<span class="visually-hidden"> for Birmingham City Council</span></span>
+                </a>
+            </li><li class="list__item">
+                <a href="https://www.birmingham.gov.uk/socialmedia-instagram" class="list__link">
+                    <div class="icon icon--embeded icon-social--instagram" data-grunticon-embed></div>
+                    <span class="icon-alt">Instagram<span class="visually-hidden"> for Birmingham City Council</span></span>
+                </a>
+            </li><li class="list__item">
+                <a href="https://www.birmingham.gov.uk/socialmedia-rss" class="list__link">
+                    <div class="icon icon--embeded icon-social--rss" data-grunticon-embed></div>
+                    <span class="icon-alt">RSS<span class="visually-hidden"> for Birmingham City Council</span></span>
+                </a>
+            </li><li class="list__item">
+                <a href="https://www.birmingham.gov.uk/socialmedia-twitter" class="list__link">
+                    <div class="icon icon--embeded icon-social--twitter" data-grunticon-embed></div>
+                    <span class="icon-alt">Twitter<span class="visually-hidden"> for Birmingham City Council</span></span>
+                </a>
+            </li></ul>
+        <a class="newsletter-link" href="https://www.birmingham.gov.uk/newsletter-signup">Sign up for email updates</a></div>
+</section>
+<!-- googleoff: index -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer__content">
+                    <ul class="list list--inline list--footer-links">
+                        <li class="list__item"><a class="list__link" href="/info/20180/about_our_website/193/using_our_content" title="Copyright and licence">&copy; Birmingham City Council</a></li>
+                                            <li class="list__item"><a class="list__link" href="/about-our-website">About Us</a></li>
+                                            <li class="list__item"><a class="list__link" href="/accessibility">Accessibility</a></li>
+                                            <li class="list__item"><a class="list__link" href="/contactus">Contact</a></li>
+                                            <li class="list__item"><a class="list__link" href="/cookies">Cookies</a></li>
+                                            <li class="list__item"><a class="list__link" href="/privacy">Privacy</a></li>
+                                            <li class="list__item"><a class="list__link" href="https://www.birmingham.gov.uk/languages">Languages</a></li>
+                                            <li class="list__item"><a class="list__link" href="/jobs">Jobs</a></li>
+                                                    </ul>
+
+                    <div class="site-footer__suppliers suppliers">
+                        <h2 class="suppliers__heading">Suppliers</h2>
+                        <p class="suppliers__content">
+                            <a class="suppliers__link suppliers__link--powered-by" href="https://www.jadu.net">Designed and Powered by <strong>Jadu</strong>.</a>
+                        </p>
+                    </div>
+
+					<div id="awards" style="margin-top:20px;">
+					<h2 class="suppliers__heading">Awards</h2>
+                        <p>
+                            <a href="/awards" title="Awards"><img style="display: inline; margin-right: 20px;" src="/site/images/webbys.png" alt="Webby awards honoree 2017" /> <img style="display: inline; margin-right: 20px;" src="/site/images/lovies.png" alt="Lovie award winner 2017" /> <img style="display: inline; margin-right: 20px;" src="/site/images/plain-english-campaign.png" alt="Plain English Campaign award winner 2017" /></a>
+                        </p>
+                    </div>
+                </div>
+                <a href="https://www.birmingham.gov.uk" class="identity identity--site-footer">
+                    <div class="identity__logo icon icon-logo-white" data-grunticon-embed></div>
+                    <span class="identity__heading">Birmingham City Council</span>
+                </a>
+
+                <ul class="skip-links list">
+                    <li class="list__item"><a class="skip-links__link" href="https://www.birmingham.gov.uk/directory_record/370773/sheldon_ward_results#top" rel="nofollow">Back to the top</a></li>
+                </ul>
+
+            </div>
+        </footer>
+<!-- googleon: index -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="//www.birmingham.gov.uk/site/dist/libs/jquery.min.js?v=1.64.2"><\/script>')</script>
+        <script src="//www.birmingham.gov.uk/site/dist/orbit.js?v=1.64.2"></script>
+        <script src="//www.birmingham.gov.uk/site/dist/libs/date-input-polyfill.dist.js?v=1.64.2"></script>
+
+        <script src="//www.birmingham.gov.uk/site/javascript/almond.min.js?v=1.64.2"></script>
+        <script src="//www.birmingham.gov.uk/site/javascript/util.min.js?v=1.64.2"></script>
+<style>.gm_sidebar_cnr a img { display: none !important; }</style><!-- WebMetric snippet starts here --><div class="gm_sidebar gm_sidebar_btm_lft_cnr" style="line-height: 1em; margin-bottom: -2px;">	<a href="https://websurveys2.govmetric.com/theme/gm/2340" target="_blank" class="gm_sidebar_anchor" title="please rate this page" rel="nofollow">		<img src="https://gmsnippet.s3.eu-west-1.amazonaws.com/logos/hambleton/hambleton.png" alt="rating button">	</a></div><link rel="stylesheet" type="text/css" href="https://gmsnippet.s3.eu-west-1.amazonaws.com/logos/hambleton/gm_sidebar_btm_lft.css">			   <script type="text/javascript" src="https://websurveys2.govmetric.com/js/client/gm_sidebar.js"></script><script type="text/javascript" src="https://hitcounter.govmetric.com/2141"></script><!-- WebMetric snippet ends here --><script>if(getCookie("allowAnalytics")) { document.getElementById("allowAnalytics").style.display = "none"; }</script><!-- START SiteImprove Code --><script type="text/javascript">/*<![CDATA[*/(function() {var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_260217.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/</script><!-- END SiteImprove Code --><script type="text/javascript">/*<![CDATA[*/(function() {var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_260217.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/</script>        </div>
+
+
+    </body>
+</html>
