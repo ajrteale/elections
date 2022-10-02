@@ -1,13 +1,4 @@
 "Polling","Council","ID","Ward","ID","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-"2022-09-29","Argyll/Bute",450,"Kintyre/Islands",10487,"Ind","John McAlpine","Death",,"andrewteale.me.uk/i2wk","Hamish Stewart","Gopi Ageer","Kenny Mackenzie","Tom Skinner","Lachlan Macquarie","Alastair Redman (Ind)"
-"2022-09-29","Harborough",262,"Market Harborough – Logan",19834,"LD","Dominic Fosker","Resignation",,"andrewteale.me.uk/ibhu","Robin Cutsforth","Maria Panter","Geraldine Whitmore",,,"Robin Lambert (Ind)"
-"2022-09-29","Newark/Sherwood",306,"Edwinstowe/Clipstone",17240,"C","Michael Brown","Death",,"andrewteale.me.uk/iq3r","Nigel Booth","Andrew Freeman",,,,
-"2022-09-29","Oxford",309,"Hinksey Park",21283,"Lab","Marie Tidball","Resignation","PPC Penistone/Stocksbridge","andrewteale.me.uk/i7tv","Jennifer Saunders","Anna Railton","Rick Tanner","Alex Powell",,"Deborah Glass Woodin (Ind), Callum Joyce (TUSC)"
-"2022-09-29","RhCT",409,"Ynysybwl",22443,"PC","Tony Burnell","Death",,"andrewteale.me.uk/idww","Lloyd Griffiths","Richard Flowerdew",,"Jeffrey Baxter","Paula Evans","Jessica O'Donovan (Gwlad)"
-"2022-09-29","Rossendale",256,"Facit/Shawforth",3549,"C","Lynda Barnes","Resignation",,"andrewteale.me.uk/iujd","Scott Smith","Caitlin Chippendale",,"Alex Vijatov",,"Kim Olaolu (Ind)"
-"2022-09-29","Rossendale",256,"Helmshore",3555,"C","Tony Haworth","Resignation",,"andrewteale.me.uk/i0jd","Ann Hodgkiss","Neil Looker","Steve Nelson","Katrina Brockbank",,"David Stansfield (Ind)"
-"2022-09-29","Warrington",85,"Grappenhall",18046,"LD","Ryan Bate","Resignation","To USA","andrewteale.me.uk/i4us","Moira Dolan","Denis Matthews","Mark Browne","Denise Harris",,
-"2022-09-29","Warrington",85,"Grappenhall",18046,"LD","Mike Biggin","Resignation",,"andrewteale.me.uk/i4us","Phillip Ford",,"Helen Speed",,,
 "2022-10-06","BCP",462,"Highcliffe/Walkford",20948,"Ind","Nick Geary","Death",,"andrewteale.me.uk/i2hv","Christopher van Hagen","David Stokes","Pete Brown",,,"Andy Martin (Christchurch Ind)"
 "2022-10-06","Birmingham",57,"Sparkbrook/Balsall Heath E",18743,"Lab","Mohammed Azim","Death",,"andrewteale.me.uk/i8gt","Zhor Malik","Saima Ahmed","Shaukat Khan","Michael Harrison",,"Phil Bevin (Workers Party)"
 "2022-10-06","Ceredigion",418,"Lampeter",22744,"Lab","Hag Harris","Death",,"andrewteale.me.uk/i5hw",,"Dinah Mulholland","Sandra Jervis",,"Ann Morgan","Lee Cowles (Ind)"
@@ -26,23 +17,31 @@
 "2022-10-20","St Helens",45,"Moss Bank",23316,"Lab","Zeena Begum","Resignation",,"andrewteale.me.uk/iupx",,,,,,
 "2022-10-27","Derbys CC",377,"Long Eaton",12411,"C","Alan Griffiths","Death",,"andrewteale.me.uk/idpm",,,,,,
 "2022-10-27","Sandwell",60,"Wednesbury S",1258,"Lab","Kirat Singh","Resignation",,"andrewteale.me.uk/iefb",,,,,,
+"2022-11-03","City of London",459,"Bridge/Bridge Wt",12931,"Ind","Timothy Levene","Aldermanic",,"andrewteale.me.uk/i44m",,,,,,
+"2022-11-03","Croydon",23,"Selsdon Vale/Forestdale",19812,"C","Badsha Quadir","Death",,"andrewteale.me.uk/ingu",,,,,,
 "2022-11-03","Moray",452,"Buckie",18454,"LD","Christopher Price","Resignation",,"andrewteale.me.uk/ih7s",,,,,,
+"2022-11-03","Notts CC",394,"Eastwood",18092,"C","Eddie Cubley","Death",,"andrewteale.me.uk/ijws",,,,,,
+"2022-11-03","S Cambs",144,"Longstanton",19322,"LD","Sarah Cheung Johnson","Resignation",,"andrewteale.me.uk/it0t",,,,,,
+"2022-11-03","S Cambs",144,"Longstanton",19322,"LD","Alex Malyon","Resignation",,"andrewteale.me.uk/it0t",,,,,,
 "2022-11-03","Wilts",122,"Sailsbury St Paul's",22048,"C","Mary Webb","Death",,"andrewteale.me.uk/iejw",,,,,,
+"2022-11-10","Cannock Chase",323,"Cannock W",5058,"C","Doug Smith","Death",,"andrewteale.me.uk/ikxe",,,,,,
 "2022-11-17","Shetland",455,"Shetland W",22956,"Ind","John Leask","Resignation",,"andrewteale.me.uk/ixcx",,,,,,
+,"Amber Valley",163,"Wingfield",6742,"C","Valerie Thorpe","Death",,"andrewteale.me.uk/ilgg",,,,,,
 ,"Arun",355,"Arundel/Walberton",16936,"Grn","Faye Catterson","Disqualification","Non-attendance","andrewteale.me.uk/ihur",,,,,,
 ,"Ashfield",301,"Hucknall C",17699,"Ashfield Ind","Jim Blagden","Death",,"andrewteale.me.uk/imjs",,,,,,
 ,"Barrow-in-Furness",158,"Dalton S",5723,"Lab","Shaun Blezard","Resignation",,"andrewteale.me.uk/iqjf",,,,,,
 ,"Blackpool",83,"Greenlands",1921,"C","Bernard Wing","Death",,"andrewteale.me.uk/ih1b",,,,,,
 ,"Bolsover",164,"Pinxton",19868,"Lab","Stan Fox","Resignation",,"andrewteale.me.uk/icju",,,,,,
+,"Braintree",198,"Braintree S",16595,"C","Dean Wallace","Resignation","Now Ind","andrewteale.me.uk/i5hr",,,,,,
+,"Brighton/Hove",86,"Wish",2048,"C","Garry Peltzer Dunn","Death",,"andrewteale.me.uk/ic5b",,,,,,
 ,"Broxtowe",303,"Greasley",17563,"C","Eddie Cubley","Death",,"andrewteale.me.uk/ihes",,,,,,
 ,"Burnley",248,"Rosehill/Burnley Wood",3393,"C","Phil Chamberlain","Resignation",,"andrewteale.me.uk/i3dd",,,,,,
-,"Cannock Chase",323,"Cannock W",5058,"C","Doug Smith","Death",,"andrewteale.me.uk/ikxe",,,,,,
 ,"Carlisle",159,"Botcherby/Harraby N",21163,"Ind","Jack Paton","Resignation",,"andrewteale.me.uk/ilqv",,,,,,
-,"City of London",459,"Bridge/Bridge Wt",12931,"Ind","Timothy Levene","Aldermanic",,"andrewteale.me.uk/i44m",,,,,,
 ,"City of London",459,"Cripplegate",12937,"Ind","Susan Pearson","Aldermanic",,"andrewteale.me.uk/ib5m",,,,,,
-,"Croydon",23,"Selsdon Vale/Forestdale",19812,"C","Badsha Quadir","Death",,"andrewteale.me.uk/ingu",,,,,,
+,"Copeland",160,"Millom",20865,"C","Fred Gleaves","Death",,"andrewteale.me.uk/ikfv",,,,,,
 ,"Cumbria CC",376,"Dearham/Broughton",13666,"C","Hugo Graham","Resignation",,"andrewteale.me.uk/ieun",,,,,,
 ,"Cumbria CC",376,"Longtown",13701,"C","Val Tarbitt","Death",,"andrewteale.me.uk/igvn",,,,,,
+,"Dumfries/Galloway",432,"Mid Galloway/Wigtown W",18309,"Lab","Sandy Whitelaw","Resignation",,"andrewteale.me.uk/i32s",,,,,,
 ,"E Devon",171,"Newton Poppleford/Harpford",19995,"EDevon","Val Ranger","Death",,"andrewteale.me.uk/i6mu",,,,,,
 ,"E Lindsey",268,"Mablethorpe",17189,"Lab","Claire Arnold","Resignation","Elected as Claire Newman","andrewteale.me.uk/i51r",,,,,,
 ,"Glasgow",436,"Linn",18395,"Lab","Malcolm Cunning","Death",,"andrewteale.me.uk/iq5s",,,,,,
@@ -50,13 +49,13 @@
 ,"High Peak",168,"Whaley Bridge",17670,"Lab","Kath Thomson","Resignation",,"andrewteale.me.uk/irhs",,,,,,
 ,"High Peak",168,"Whaley Bridge",17670,"Lab","Shannon-Kate Thomson","Resignation",,"andrewteale.me.uk/irhs",,,,,,
 ,"House of Commons",,"W Lancs",,"Lab","Rosie Cooper","Resignation",,,,,,,,
+,"Kingston (Thames)",25,"Green Ln/St James",22081,"LD","Tim Corbett","Resignation",,"andrewteale.me.uk/iekw",,,,,,
 ,"KLWN",277,"Gaywood Clock",20622,"Lab","John Collop","Death",,"andrewteale.me.uk/i66u",,,,,,
 ,"Lancaster",252,"University/Scotforth Rural",16670,"Lab","Katie Whearty","Resignation",,"andrewteale.me.uk/iflr",,,,,,
 ,"Lancaster",252,"Westgate",16673,"MBI","Merv Evans","Resignation",,"andrewteale.me.uk/ijlr",,,,,,
 ,"Lichfield",325,"Chasetown",17679,"C","Samuel Tapper","Resignation","To Japan","andrewteale.me.uk/i0hs",,,,,,
 ,"Lincs CC",389,"Spalding W",18977,"Ind","Angela Newton","Death",,"andrewteale.me.uk/icqt",,,,,,
 ,"Melton",264,"Long Clawson/Stathern",7582,"C","Melanie Steadman","Death",,"andrewteale.me.uk/i17g",,,,,,
-,"Notts CC",394,"Eastwood",18092,"C","Eddie Cubley","Death",,"andrewteale.me.uk/ijws",,,,,,
 ,"Oldham",42,"Hollinwood",701,"Lab","Jean Stretton","Resignation",,"andrewteale.me.uk/ijxa",,,,,,
 ,"Ryedale",298,"Ampleforth",8261,"C","Jim Bailey","Resignation",,"andrewteale.me.uk/imvh",,,,,,
 ,"Ryedale",298,"Pickering W",8272,"Lib","Carrie Brackstone","Resignation",,"andrewteale.me.uk/iyvh",,,,,,
@@ -68,6 +67,7 @@
 ,"Sefton",46,"Linacre",917,"Lab","Gordon Friel","Death",,"andrewteale.me.uk/i23a",,,,,,
 ,"Southampton",91,"Bitterne",2152,"C","Terry Streets","Death",,"andrewteale.me.uk/ih8b",,,,,,
 ,"Staffs Moorlands",329,"Biddulph W",5197,"Ind","Hilda Sheldon","Death",,"andrewteale.me.uk/is1e",,,,,,
+,"Suffolk CC",399,"Beccles",7193,"Grn","Peggy McGregor","Resignation",,"andrewteale.me.uk/i8vg",,,,,,
 ,"Surrey CC",400,"Sunbury Common/Ashford Common",12290,"C","Alison Todd","Death","Elected as Alison Griffiths","andrewteale.me.uk/iqkm",,,,,,
 ,"W Lothian",449,"Broxburn/Uphall/Winchburgh",10537,"Lab","Ann Davidson","Death",,"andrewteale.me.uk/ilyk",,,,,,
 ,"W Suffolk",460,"Haverhill N",21060,"C","Elaine McManus","Resignation","Bribery conviction","andrewteale.me.uk/igmv",,,,,,
