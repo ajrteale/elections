@@ -221,13 +221,13 @@
     <text
        xml:space="preserve"
        style="font-size:12px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:center;text-anchor:middle"
-       x="287.72897"
-       y="89.540802"
+       x="264.22543"
+       y="86.137505"
        id="text32541"><tspan
          sodipodi:role="line"
          id="tspan32539"
-         x="287.72897"
-         y="89.540802">BW</tspan></text>
+         x="264.22543"
+         y="86.137505">BW</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 307.6907,81.217963 9.84918,-10.250902"
@@ -374,5 +374,9 @@
          id="tspan61397"
          x="214.87903"
          y="471.30917">Broadheath</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 284.2909,86.433815 -9.60112,-3.977054"
+       id="path62823" />
   </g>
 </svg>
