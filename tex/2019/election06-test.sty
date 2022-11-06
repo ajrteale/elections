@@ -1,5 +1,5 @@
 % Herewith a package designed to typeset the election results books.
-% 
+%
 % A Teale, December 2006
 
 % Letterspacing
@@ -68,11 +68,11 @@
 }
 
 % Here are the ward... environments for typesetting ward results.
-% 
+%
 % All these environments print the ward name (the optional argument)
 % as a new unnumbered subsubsection and then the results in typewriter
 % style text.
-% 
+%
 % The generic ``ward'' environment, for a ward with one councillor to
 % be elected:
 \newenvironment{ward}[1][Ward Name]{
@@ -84,7 +84,7 @@
 %     -ii   A two-seat ward; the number ``(2)'' will be printed at the
 %     end of the ward name.
 %     -iii  A three-seat ward; see -ii above.
-%     -a    A ward with a name which is to have another form in the index, 
+%     -a    A ward with a name which is to have another form in the index,
 %     for example if it contains an ampersand (\&) or ends in a compass point
 %     (eg Radcliffe North to Radcliffe N.)
 %     -m    A ward with a name which is the same as another ward
@@ -112,7 +112,7 @@
 	\end{tabular*}}
 
 \newenvironment{wardas}[3][Ward Name]{
-  \subsubsection*{#1 
+  \subsubsection*{#1
     \hspace*{\fill}\nolinebreak[1]%
     \enspace\hspace*{\fill}
     \finalhyphendemerits=0
@@ -206,7 +206,7 @@
   \subsubsection*{#1 (2)}\index{#2@#1}
   \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
 	\end{tabular*}}
-	
+
 \newenvironment{wardiistc}[3][Ward Name]{
   \subsubsection*{#1 (2)\\ \itshape #2}\index{#3@#1}
   \VerbatimEnvironment\begin{Verbatim}}{
@@ -440,7 +440,7 @@
 \hrule
 \end{table}}
 
-% Environment for the ward maps.  This uses conditional code so that the 
+% Environment for the ward maps.  This uses conditional code so that the
 % ward maps can appear optionally as required.
 
 \newenvironment{wardmap}[1][Council Name]{
@@ -608,6 +608,7 @@
 \hyphenation{Coch-rane}
 \hyphenation{Cor-ser}
 \hyphenation{Cots-wold}
+\hyphenation{Craig-av-on}
 \hyphenation{Craig-ends}
 \hyphenation{Cra-v-en}
 \hyphenation{Crook-ham}
@@ -789,6 +790,7 @@
 \hyphenation{Mit-ch-ell}
 \hyphenation{Monk-ton}
 \hyphenation{Mont-gom-e-ry}
+\hyphenation{Moo-n-ey}
 \hyphenation{Mo-r-e-no}
 \hyphenation{Mount-ness-ing}
 \hyphenation{Mul-grave}
@@ -868,6 +870,7 @@
 \hyphenation{Swee-ney}
 \hyphenation{Tand-ridge}
 \hyphenation{Tap-low}
+\hyphenation{Taun-ton}
 \hyphenation{Tel-ford}
 \hyphenation{Than-et}
 \hyphenation{Theo-bald}
@@ -889,6 +892,7 @@
 \hyphenation{Wang-a-soo-ri-ya}
 \hyphenation{Weald-en}
 \hyphenation{Well-ing-bor-ough}
+\hyphenation{Weth-er-den}
 \hyphenation{Whal-ley}
 \hyphenation{Wharfe-dale}
 \hyphenation{Whee-l-er}
@@ -942,4 +946,3 @@
 \makeatletter
 \renewcommand\l@section{\@dottedtocline{2}{1.5em}{3em}}
 \makeatother
-
