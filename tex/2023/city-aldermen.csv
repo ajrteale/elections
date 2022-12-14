@@ -53,9 +53,9 @@
 2022-07-07,"Walbrook","John Garbutt","Retired","Yes","Jennette Newman",
 2022-09-15,"Bishopsgate","Baroness Scotland of Asthal","Retired","Yes","Kawsar Zaman",
 2022-09-15,"Cripplegate","David Graves","Retired","Yes","Susan Pearson",
-2022-12-08,"Aldgate","Susan Langley",,,,"By 2024-07-12"
-2022-12-08,"Farringdon Wt","Greg Jones",,,,"By 2023-02-09"
-2022-12-08,"Queenhithe","Alistair King",,,,"By 2022-11-21"
+2022-12-08,"Aldgate","Susan Langley","Yes","Yes","Susan Langley",
+2022-12-08,"Farringdon Wt","Greg Jones","Yes","No","Greg Jones","Elected as ""Temple and Farringdon Together"""
+2022-12-08,"Queenhithe","Alistair King","Yes","No","Alistair King",
 ,"Castle Baynard","Sir Ian Luder",,,,"By 2023-03-22"
 ,"Langbourn","Sir David Wootton",,,,"By 2023-09-11"
 ,"Tower","Nicholas Lyons",,,,"By 2023-09-12"
@@ -78,6 +78,6 @@
 ,"Walbrook","Jennette Newman",,,,"By 2028-07-07"
 ,"Bishopsgate","Kawsar Zaman",,,,"By 2028-09-15"
 ,"Cripplegate","Susan Pearson",,,,"By 2028-09-15"
-,"Aldgate",,,,,"By 2028-12-08"
-,"Farringdon Wt",,,,,"By 2028-12-08"
-,"Queenhithe",,,,,"By 2028-12-08"
+,"Aldgate","Susan Langley",,,,"By 2028-12-08"
+,"Farringdon Wt","Greg Jones",,,,"By 2028-12-08"
+,"Queenhithe","Alistair King",,,,"By 2028-12-08"
