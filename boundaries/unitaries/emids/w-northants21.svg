@@ -36,7 +36,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.99374992"
-     inkscape:cx="305.91197"
+     inkscape:cx="306.91826"
      inkscape:cy="400.00003"
      inkscape:window-width="1920"
      inkscape:window-height="1012"
@@ -608,5 +608,15 @@
          x="533.16138"
          y="109.22344"
          id="tspan83032">T = Talavera</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:1;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:center;text-anchor:middle"
+       x="540.39398"
+       y="393.58954"
+       id="text88392"><tspan
+         sodipodi:role="line"
+         id="tspan88390"
+         x="540.39398"
+         y="393.58954">NORTHAMPTON</tspan></text>
   </g>
 </svg>
