@@ -1,0 +1,1416 @@
+
+
+
+    <!-- debug code to clear cookies -->
+    <!--
+    var c = new HttpCookie("cookieNotice");
+    c.Expires = DateTime.Now.AddDays(-1);
+    Response.Cookies.Add(c);
+
+    c = new HttpCookie("GToptout");
+    c.Expires = DateTime.Now.AddDays(-1);
+    Response.Cookies.Add(c);
+
+    c = new HttpCookie("CMoptout");
+    c.Expires = DateTime.Now.AddDays(-1);
+    Response.Cookies.Add(c);
+        
+    c = new HttpCookie("Poptin");
+    c.Expires = DateTime.Now.AddDays(-1);
+    Response.Cookies.Add(c); 
+
+    c = new HttpCookie("SelectedProperty");
+    c.Expires = DateTime.Now.AddDays(-1);
+    Response.Cookies.Add(c); 
+    -->
+
+
+<!DOCTYPE html>
+
+<html lang="en" class="nojs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="msvalidate.01" content="DFDE7D0E1445BAF7FBDDC7DEECC7CD90" >
+
+    <meta name="apple-mobile-web-app-title" content="Salford City Council">
+    <meta name="application-name" content="Salford City Council">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    
+    <meta name="google-site-verification" content="2OAlw4FVsW3fqat9U30QR3VdZiSBHknKe4b7a_hAYNs">
+
+    <title>
+Election results            &bull;
+Salford City Council    </title>
+    <!-- PageID 12872 //-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ef2c8d">
+
+    
+
+    
+    <link href="/assets/lib/bootstrap3.3.6/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/mobile.min.css" rel="stylesheet" media="screen"  />
+    <link href="/assets/css/print.min.css" rel="stylesheet" media="print" />
+
+    <!-- 05/09/2017 - PDF - added as part of the change to Examine search from Google-->
+    <link href="/assets/css/searchautocompleteexamine.css" rel="stylesheet" media="screen" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script>
+        (function (n, t) { function p(n, t) { var i = n.createElement("p"), r = n.getElementsByTagName("head")[0] || n.documentElement; return i.innerHTML = "x<div><style>" + t + "<\/style><\/div>", r.insertBefore(i.lastChild, r.firstChild) } function l() { var n = i.elements; return typeof n == "string" ? n.split(" ") : n } function w(n, t) { var r = i.elements; typeof r != "string" && (r = r.join(" ")); typeof n != "string" && (n = n.join(" ")); i.elements = r + " " + n; s(t) } function o(n) { var t = c[n[h]]; return t || (t = {}, e++, n[h] = e, c[e] = t), t } function a(n, i, u) { if (i || (i = t), r) return i.createElement(n); u || (u = o(i)); var f; return f = u.cache[n] ? u.cache[n].cloneNode() : y.test(n) ? (u.cache[n] = u.createElem(n)).cloneNode() : u.createElem(n), f.canHaveChildren && !v.test(n) && !f.tagUrn ? u.frag.appendChild(f) : f } function b(n, i) { if (n || (n = t), r) return n.createDocumentFragment(); i = i || o(n); for (var f = i.frag.cloneNode(), u = 0, e = l(), s = e.length; u < s; u++) f.createElement(e[u]); return f } function k(n, t) { t.cache || (t.cache = {}, t.createElem = n.createElement, t.createFrag = n.createDocumentFragment, t.frag = t.createFrag()); n.createElement = function (r) { return i.shivMethods ? a(r, n, t) : t.createElem(r) }; n.createDocumentFragment = Function("h,f", "return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(" + l().join().replace(/[\w\-:]+/g, function (n) { return t.createElem(n), t.frag.createElement(n), 'c("' + n + '")' }) + ");return n}")(i, t.frag) } function s(n) { n || (n = t); var u = o(n); return !i.shivCSS || f || u.hasCSS || (u.hasCSS = !!p(n, "article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")), r || k(n, u), n } var u = n.html5 || {}, v = /^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i, y = /^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i, f, h = "_html5shiv", e = 0, c = {}, r, i; (function () { try { var n = t.createElement("a"); n.innerHTML = "<xyz><\/xyz>"; f = "hidden" in n; r = n.childNodes.length == 1 || function () { t.createElement("a"); var n = t.createDocumentFragment(); return typeof n.cloneNode == "undefined" || typeof n.createDocumentFragment == "undefined" || typeof n.createElement == "undefined" }() } catch (i) { f = !0; r = !0 } })(); i = { elements: u.elements || "abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video", version: "3.7.3", shivCSS: u.shivCSS !== !1, supportsUnknownElements: r, shivMethods: u.shivMethods !== !1, type: "default", shivDocument: s, createElement: a, createDocumentFragment: b, addElements: w }; n.html5 = i; s(t); typeof module == "object" && module.exports && (module.exports = i) })(typeof window != "undefined" ? window : this, document);
+    </script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic" type="text/css">
+    
+<script>NS_CSM_td=306332935;NS_CSM_pd=275116665;NS_CSM_u="/clm10";NS_CSM_col="af_collector_10.199.0.202";</script><script type="text/javascript">function sendTimingInfoInit(){setTimeout(sendTimingInfo,0)}function sendTimingInfo(){var wp=window.performance;if(wp){var c1,c2,t;c1=wp.timing;if(c1){var cm={};cm.ns=c1.navigationStart;if((t=c1.unloadEventStart)>0)cm.us=t;if((t=c1.unloadEventEnd)>0)cm.ue=t;if((t=c1.redirectStart)>0)cm.rs=t;if((t=c1.redirectEnd)>0)cm.re=t;cm.fs=c1.fetchStart;cm.dls=c1.domainLookupStart;cm.dle=c1.domainLookupEnd;cm.cs=c1.connectStart;cm.ce=c1.connectEnd;if((t=c1.secureConnectionStart)>0)cm.scs=t;cm.rqs=c1.requestStart;cm.rss=c1.responseStart;cm.rse=c1.responseEnd;cm.dl=c1.domLoading;cm.di=c1.domInteractive;cm.dcls=c1.domContentLoadedEventStart;cm.dcle=c1.domContentLoadedEventEnd;cm.dc=c1.domComplete;if((t=c1.loadEventStart)>0)cm.ls=t;if((t=c1.loadEventEnd)>0)cm.le=t;cm.tid=NS_CSM_td;cm.pid=NS_CSM_pd;cm.ac=NS_CSM_col;var xhttp=new XMLHttpRequest();if(xhttp){var JSON=JSON||{};JSON.stringify=JSON.stringify||function(ob){var t=typeof(ob);if(t!="object"||ob===null){if(t=="string")ob='"'+ob+'"';return String(ob);}else{var n,v,json=[],arr=(ob&&ob.constructor==Array);for(n in ob){v=ob[n];t=typeof(v);if(t=="string")v='"'+v+'"';else if(t=="object"&&v!==null)v=JSON.stringify(v);json.push((arr?"":'"'+n+'":')+String(v));}return(arr?"[":"{")+String(json)+(arr?"]":"}");}};xhttp.open("POST",NS_CSM_u,true);xhttp.send(JSON.stringify(cm));}}}}if(window.addEventListener)window.addEventListener("load",sendTimingInfoInit,false);else if(window.attachEvent)window.attachEvent("onload",sendTimingInfoInit);else window.onload=sendTimingInfoInit;</script></head>
+<body style="zoom: 1" class="ContentPage yourcouncil">
+
+    <div class="cookie-notice">
+        <form method="post" action="/your-council/elections-and-voting/elections/election-results/">
+            <p>Salford City Council uses cookies which are essential for this site to work. We also use non-essential cookies to help us improve our digital services.</p>
+            <div class="row">
+                <div class="col-sm-3">
+                    <input class="cookie-notice-button" type="submit" name="cookiesubmit" value="Accept cookies" />
+                </div>
+                <div class="col-sm-9">
+                    <input class="cookie-notice-button" type="button" name="cookiemanage" value="Manage cookies" onclick="window.location.href='/legal-notices/privacy-statement/cookies/'" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        //In the absence of the google analytics cookie disable ga
+        //https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
+        window['ga-disable-UA-416788-16'] = true;
+        window['ga-disable-UA-416788-17'] = true;
+    </script>
+    
+
+<nav id="main-navigation">
+
+    <div>
+        <p><a id="skiplink" class="skip" href="#breadcrumbs">Skip to the content</a></p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 site-title">
+                <a href="/">
+                                    <img src="/assets/images/scc.png" alt="Go to Salford City Council homepage">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <button class="btn btn-block btn-account" data-toggle="collapse" data-target="#sca-form">My account <span class="toggle"></span></button>
+            </div>
+            <div class="hidden-xxs hidden-xs hidden-sm col-md-6">
+                <form action="/search-results/" method="GET" id="custom-search">
+                    <div class="input-group">
+                        <label for="query" class="sr-only">Search site</label>
+                        <input id="query" name="query" type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit" title="Search site" aria-label="Search site"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        </span>
+                    </div><!-- /input-group -->
+                </form>
+            </div>
+            <div id="sca-form" class="col-xs-12 collapse">
+                <p>Sign in to access your Salford customer account, or <a href="/myaccounts">see our other accounts</a>.</p>
+                
+
+                            <a role="button" href="https://youraccount.salford.gov.uk/myaccount2.aspx" title="Sign in to your Salford customer account" class="btn btn-sign-in">Sign in <span class="glyphicon glyphicon-chevron-right"></span></a>
+ or                             <a href="https://youraccount.salford.gov.uk/register.aspx" title="Register for a Salford customer account">register for an account</a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container-fluid" role="region" aria-label="Site wide alert">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="alert  alert-danger site-wide-alert " aria-atomic="true">
+                    <ul>
+<li><a data-udi="umb://document/218c8ecbc7af4a79b64f1f1e1ffa912b" href="/your-council/elections-and-voting/elections/election-results/" title="Election results">See the local election results</a></li>
+<li><a data-udi="umb://document/5f4c9f9f77444609b6a98a506737a70c" href="/advice-and-support/support-with-the-cost-of-living/" title="Support with the Cost of Living">Help and support with cost of living</a></li>
+</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid hidden-xs">
+        <div id="breadcrumbs" class="breadcrumbs" role="navigation">
+            <strong>You are here:</strong>
+                <a href="/">Home</a>
+                /
+                <a href="/your-council/">Your council</a>
+                /
+                <a href="/your-council/elections-and-voting/">Elections and voting</a>
+                /
+                <a href="/your-council/elections-and-voting/elections/">Elections</a>
+                /
+            Election results
+        </div>
+    </div>
+
+
+
+    <div class="page-title">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Election results</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                    <div class="container-fluid" id="section-alert">
+                        <div class=" row">
+                            <div class="col-xs-12">
+                                <div class="alert alert-danger" role="alert" aria-atomic="true">
+                                    
+                                    <p><a data-udi="umb://document/a1c6b94c18cd4f40b311b8e2a24c0d7b" href="/your-council/elections-and-voting/voter-id/" title="Voter ID"><span>New government requirement to show ID at polling stations</span></a></p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+<div class="container-fluid" id="standard-page">
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            
+
+
+            <p><span class="firstline">The Local Government elections will take place on Thursday 4 May 2023.</span></p>
+<p>The count for the local election took place at the AJ Bell Stadium, 1 Stadium Way, Eccles, M30 7EY.</p>
+<p>The city council is controlled by the Labour party, the political composition of the city council is now:</p>
+<table>
+<thead>
+<tr>
+<th>Party</th>
+<th>Councillors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Labour</td>
+<td>49</td>
+</tr>
+<tr>
+<td>Conservative</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Liberal Democrat</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Independent</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p class="centre"><img src="https://chart.googleapis.com/chart?cht=p3&amp;chs=650x250&amp;chd=t:49,8,2,1&amp;chl=Labour (49)|Conservative (8)|Liberal Democrat (2)|Independent (1)&amp;chco=cc0000|000099|FAA61A|cccccc" border="0" alt="Labour 49 councillors, Conservative 8 councillors, Liberal Democrat 2 councillors, Independent 1 councillor"></p>
+<h2>Watch a replay of the count and results</h2>
+<div class="embed-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/aFw9uEaU4bs" title="Video" allowfullscreen></iframe>
+        </div>
+<h2>Local election results</h2>
+<p><strong>Page last updated: 2.59am</strong></p>
+<p><strong>* denotes an existing councillor standing for re-election</strong></p>
+<p>Overall turn out figure is: 45,707 which is 24.20%</p>
+<h3>Barton and Winton</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>DUKE, Antony</td>
+<td>Liberal Democrats</td>
+<td>135</td>
+</tr>
+<tr>
+<td>GOLDFINE, Bernard</td>
+<td>Conservative Party</td>
+<td>320</td>
+</tr>
+<tr>
+<td><strong>LANCASTER, David Anthony *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,561</strong></td>
+</tr>
+<tr>
+<td><span>TOWERS, Daniel</span></td>
+<td>Green Party</td>
+<td>262</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> David Anthony Lancaster</li>
+<li><strong>Electorate:</strong> 10,666</li>
+<li><strong>Percentage poll:</strong> 21.48%</li>
+<li><strong>Void votes:</strong> 13</li>
+<li><strong>Total votes:</strong> 2,291</li>
+<li><strong>Majority:</strong> 1,241</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Blackfriars and Trinity</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td><strong>CAMMELL, Emma Louise</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,025</strong></td>
+</tr>
+<tr>
+<td>JONES, David</td>
+<td>Green Party</td>
+<td>455</td>
+</tr>
+<tr>
+<td>NG, Charlie</td>
+<td>Conservative Party</td>
+<td>150</td>
+</tr>
+<tr>
+<td>TURNER-PREECE, Scott James</td>
+<td>Liberal Democrats</td>
+<td>62</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Emma Louise Cammell</li>
+<li><strong>Electorate:</strong> 8,772</li>
+<li><strong>Percentage poll:</strong> 19.46%</li>
+<li><strong>Void votes:</strong> 15</li>
+<li><strong>Total votes:</strong> 1,707</li>
+<li><strong>Majority:</strong> 570</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Boothstown and Ellenbrook</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>BATTERSBY, Diana Joy</td>
+<td>Green Party</td>
+<td>180</td>
+</tr>
+<tr>
+<td>CHISNALL, Ian Leslie</td>
+<td>Liberal Democrats</td>
+<td>222</td>
+</tr>
+<tr>
+<td>MATTHEWS, Su</td>
+<td>Labour Party</td>
+<td>1,065</td>
+</tr>
+<tr>
+<td><strong>WARD, Darren *</strong></td>
+<td><strong>Conservative Party</strong></td>
+<td><strong>1,874</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Darren Ward</li>
+<li><strong>Electorate: </strong>9,691</li>
+<li><strong>Percentage poll:</strong> 34.6%</li>
+<li><strong>Void votes:</strong> 12</li>
+<li><strong>Total votes:</strong> 3,353</li>
+<li><strong>Majority: </strong>809</li>
+<li><strong>Status: </strong>Conservative hold</li>
+</ul>
+<h3>Broughton</h3>
+<table style="height: 100px;">
+<tbody>
+<tr style="height: 20px;">
+<th class="thirds" style="height: 20px;">Candidate</th>
+<th class="thirds" style="height: 20px;">Party</th>
+<th class="thirds" style="height: 20px;">Votes cast</th>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">ASSAM, Patience</td>
+<td style="height: 20px;">Conservative Party</td>
+<td style="height: 20px;">273</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">HENRY, David Joseph</td>
+<td style="height: 20px;">Green Party</td>
+<td style="height: 20px;">194</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;"><strong>KING, Jim *</strong></td>
+<td style="height: 20px;"><strong>Labour Party</strong></td>
+<td style="height: 20px;"><strong>1,333</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">WEB, Ben</td>
+<td style="height: 20px;">Liberal Democrats</td>
+<td style="height: 20px;">83</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Jim King</li>
+<li><strong>Electorate: </strong>9,714</li>
+<li><strong>Percentage poll:</strong> 19.59%</li>
+<li><strong>Void votes: </strong>20</li>
+<li><strong>Total votes: </strong>1,903</li>
+<li><strong>Majority: </strong>1,060</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Cadishead and Lower Irlam</h3>
+<table style="height: 84px;">
+<tbody>
+<tr style="height: 21px;">
+<th class="thirds" style="height: 21px;">Candidate</th>
+<th class="thirds" style="height: 21px;">Party</th>
+<th class="thirds" style="height: 21px;">Votes cast</th>
+</tr>
+<tr style="height: 21px;">
+<td style="height: 21px;">MOUNTAINE, Jackie</td>
+<td style="height: 21px;">Conservative Party</td>
+<td style="height: 21px;">424 </td>
+</tr>
+<tr style="height: 21px;">
+<td style="height: 21px;">OAK, Ninad Vivek</td>
+<td style="height: 21px;">Liberal Democrats</td>
+<td style="height: 21px;">120</td>
+</tr>
+<tr style="height: 21px;">
+<td style="height: 21px;"><strong>ROBINSON-SMITH, Hannah Jane *</strong></td>
+<td style="height: 21px;"><strong>Labour Party</strong></td>
+<td style="height: 21px;"><strong>1,562</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Hannah Jane Robinson-Smith</li>
+<li><strong>Electorate: </strong>9,399</li>
+<li><strong>Percentage poll:</strong> 22.64%</li>
+<li><strong>Void votes: </strong>22</li>
+<li><strong>Total votes: </strong>2,128</li>
+<li><strong>Majority:</strong> 1,138</li>
+<li><strong>Status: </strong>Labour hold</li>
+</ul>
+<h3>Claremont</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>MCKINLAY, Ian Alexander</td>
+<td>Liberal Democrats</td>
+<td>279</td>
+</tr>
+<tr>
+<td><strong>PEVITT, Michael Thomas *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,606</strong></td>
+</tr>
+<tr>
+<td>SAUNDERS, Myrella</td>
+<td>Conservative Party</td>
+<td>397</td>
+</tr>
+<tr>
+<td>SEED, Christopher</td>
+<td>Green Party</td>
+<td>316</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Michael Thomas Pevitt</li>
+<li><strong>Electorate: </strong>9,748</li>
+<li><strong>Percentage poll:</strong> 26.77%</li>
+<li><strong>Void votes: </strong>12</li>
+<li><strong>Total votes: </strong>2,610</li>
+<li><strong>Majority: </strong>1,209</li>
+<li><strong>Status: </strong>Labour hold</li>
+</ul>
+<h3>Eccles</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>BENZE, Karim</td>
+<td>Conservative Party</td>
+<td>482</td>
+</tr>
+<tr>
+<td>BRIDGES, John Richard</td>
+<td>Liberal Democrats</td>
+<td>92</td>
+</tr>
+<tr>
+<td>GRIFFITHS, Sally</td>
+<td>Trade Unionist and Socialist Coalition</td>
+<td>93</td>
+</tr>
+<tr>
+<td><strong>MCCUSKER, Mike *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>2,022</strong></td>
+</tr>
+<tr>
+<td>SMITH, Nicola</td>
+<td>Green Party</td>
+<td>373</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Mike McCusker</li>
+<li><strong>Electorate:</strong> 10,983</li>
+<li><strong>Percentage poll:</strong> 28.09%</li>
+<li><strong>Void votes: </strong>23</li>
+<li><strong>Total votes: </strong>3,085</li>
+<li><strong>Majority: </strong>1,540</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Higher Irlam and Peel Green</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>FAIRBROTHER, Spencer Martin</td>
+<td>Liberal Democrats</td>
+<td>116</td>
+</tr>
+<tr>
+<td>SMITH, Jack</td>
+<td>Green Party</td>
+<td>193</td>
+</tr>
+<tr>
+<td><strong>WALSH, John David</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,280</strong></td>
+</tr>
+<tr>
+<td>WORCESTER, Paul</td>
+<td>Conservative Party</td>
+<td>357</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> John David Walsh</li>
+<li><strong>Electorate: </strong>9,670</li>
+<li><strong>Percentage poll: </strong>20.27%</li>
+<li><strong>Void votes:</strong> 14</li>
+<li><strong>Total votes: </strong>1,960</li>
+<li><strong>Majority: </strong>923</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Kersal and Broughton Park</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>BULLEN, James Thomas</td>
+<td>Green Party</td>
+<td>137</td>
+</tr>
+<tr>
+<td>HARARI, Yirmiyahu</td>
+<td><span>Independent</span></td>
+<td>157</td>
+</tr>
+<tr>
+<td><strong>LEITNER, Ari *</strong></td>
+<td><strong>Conservative Party</strong></td>
+<td><strong>1,629</strong></td>
+</tr>
+<tr>
+<td>TWELLS, Jamie</td>
+<td>Liberal Democrats</td>
+<td>102</td>
+</tr>
+<tr>
+<td>WILSON-MARKS, Philip</td>
+<td>Labour Party </td>
+<td>756</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Ari Leitner</li>
+<li><strong>Electorate:</strong> 9,491</li>
+<li><strong>Percentage poll:</strong> 29.47%</li>
+<li><strong>Void votes:</strong> 16</li>
+<li><strong>Total votes: </strong>2,797</li>
+<li><strong>Majority: </strong>873</li>
+<li><strong>Status:</strong> Conservative hold</li>
+</ul>
+<h3>Little Hulton</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>CHAPMAN, Dorothy</td>
+<td>Conservative Party</td>
+<td>304</td>
+</tr>
+<tr>
+<td>OXBROW, Stuart</td>
+<td>Green Party</td>
+<td>100</td>
+</tr>
+<tr>
+<td>ROBBINS, Stuart Michael</td>
+<td>Liberal Democrats</td>
+<td>79</td>
+</tr>
+<tr>
+<td><strong>SHARPE, Robert Andrew *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,048</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Robert Andrew Sharpe</li>
+<li><strong>Electorate:</strong> 9,164</li>
+<li><strong>Percentage poll:</strong> 16.83%</li>
+<li><strong>Void votes: </strong>11</li>
+<li><strong>Total votes: </strong>1,542</li>
+<li><strong>Majority: </strong>744</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Ordsall</h3>
+<table style="height: 100px;">
+<tbody>
+<tr style="height: 20px;">
+<th class="thirds" style="height: 20px;">Candidate</th>
+<th class="thirds" style="height: 20px;">Party</th>
+<th class="thirds" style="height: 20px;">Votes cast</th>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;"><strong>GROGAN, Benjamin</strong></td>
+<td style="height: 20px;"><strong>Labour Party</strong></td>
+<td style="height: 20px;"><strong>931</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">HEILBRON, Paul Darren</td>
+<td style="height: 20px;">Liberal Democrats</td>
+<td style="height: 20px;">695</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">RANSLEY, Jane</td>
+<td style="height: 20px;">Green Party</td>
+<td style="height: 20px;">195</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">WADE-GLEDHILL, Emma</td>
+<td style="height: 20px;">Conservative Party</td>
+<td style="height: 20px;">105</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Benjamin Grogan</li>
+<li><strong>Electorate:</strong> 8,618</li>
+<li><strong>Percentage poll:</strong> 22.48%</li>
+<li><strong>Void votes:</strong> 11</li>
+<li><strong>Total votes:</strong> 1,937</li>
+<li><strong>Majority:</strong> 236</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Pendlebury and Clifton</h3>
+<p>There are two vacancies to be filled in this ward.</p>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>ALLEN, Kathleen Frances</td>
+<td>Green Party</td>
+<td>245</td>
+</tr>
+<tr>
+<td>CARNEY, Adam</td>
+<td>Conservative Party </td>
+<td>499</td>
+</tr>
+<tr>
+<td>CUNLIFFE, Chris</td>
+<td>Conservative Party </td>
+<td>334</td>
+</tr>
+<tr>
+<td><strong>MGBEOKWERE, Chioma</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,071</strong></td>
+</tr>
+<tr>
+<td>REILLY, Tamara</td>
+<td>Green Party</td>
+<td>180</td>
+</tr>
+<tr>
+<td>THOMPSON, Kenneth William</td>
+<td>Liberal Democrats</td>
+<td>161</td>
+</tr>
+<tr>
+<td><strong>WARNER, Barry *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,234</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> 
+<ul>
+<li>1: Barry Warner (will serve a four year term until May 2027)</li>
+<li>2: Chioma Mgbeokwere (will serve a three year term until May 2026)</li>
+</ul>
+</li>
+<li><strong>Electorate:</strong> 9,039</li>
+<li><strong>Percentage poll:</strong> 23.17%</li>
+<li><strong>Void votes:</strong> 3</li>
+<li><strong>Unused votes: </strong>458</li>
+<li><strong>Status:</strong>
+<ul>
+<li>1: Labour hold</li>
+<li>2: Labour gain</li>
+</ul>
+</li>
+</ul>
+<h3>Pendleton and Charlestown </h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>GOODMAN, Martin Christopher</td>
+<td>Conservative Party</td>
+<td>248</td>
+</tr>
+<tr>
+<td><strong>NKURUNZIZA, Wilson *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,134</strong></td>
+</tr>
+<tr>
+<td>SMITHSON, Adam John</td>
+<td>Green Party</td>
+<td>210</td>
+</tr>
+<tr>
+<td>THOMAS, Benjamin James</td>
+<td>Liberal Democrats</td>
+<td>131</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Wilson Nkurunziza</li>
+<li><strong>Electorate:</strong> 9,388</li>
+<li><strong>Percentage poll:</strong> 18.59%</li>
+<li><strong>Void votes:</strong> 22</li>
+<li><strong>Total votes:</strong> 1,745</li>
+<li><strong>Majority:</strong> 886</li>
+<li><strong>Status: </strong>Labour hold</li>
+</ul>
+<h3>Quays</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>MOORE, Jonathan</td>
+<td>Liberal Democrats</td>
+<td>613</td>
+</tr>
+<tr>
+<td>NADIN, Andrew</td>
+<td>Green Party</td>
+<td>150</td>
+</tr>
+<tr>
+<td><strong>ROWLAND, Jake *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>741</strong></td>
+</tr>
+<tr>
+<td>SWIFT, Dan</td>
+<td>Conservative Party</td>
+<td>135</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Jake Rowland</li>
+<li><strong>Electorate:</strong> 7,456</li>
+<li><strong>Percentage poll:</strong> 22.1%</li>
+<li><strong>Void votes:</strong> 9</li>
+<li><strong>Total votes:</strong> 1,648</li>
+<li><strong>Majority:</strong> 128</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Swinton and Wardley</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td><strong>HINDS, Bill *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,621</strong></td>
+</tr>
+<tr>
+<td>O`NEILL, Joe</td>
+<td>Independent</td>
+<td>254</td>
+</tr>
+<tr>
+<td>WAITE, Liam James Cantona</td>
+<td>Green Party</td>
+<td>180</td>
+</tr>
+<tr>
+<td>WANJIKU, Sarah</td>
+<td>Conservative Party</td>
+<td>361</td>
+</tr>
+<tr>
+<td>WATKINS, Gareth Joseph</td>
+<td>Liberal Democrats</td>
+<td>120</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Bill Hinds</li>
+<li><strong>Electorate: </strong>9,383</li>
+<li><strong>Percentage poll:</strong> 27.17%</li>
+<li><strong>Void votes:</strong> 13</li>
+<li><strong>Total votes:</strong> 2,549</li>
+<li><strong>Majority:</strong> 1,260</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Swinton Park</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td><strong>CAMMELL Jim *</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,590</strong></td>
+</tr>
+<tr>
+<td>FRIEDMAN Miranda</td>
+<td>Conservative Party</td>
+<td>459</td>
+</tr>
+<tr>
+<td>MCLELLAN John Howard</td>
+<td>Liberal Democrats</td>
+<td>236</td>
+</tr>
+<tr>
+<td>SWARBRICK Lisa</td>
+<td>Green Party</td>
+<td>216</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Jim Cammell</li>
+<li><strong>Electorate: </strong>9,418</li>
+<li><strong>Percentage poll: </strong>26.7%</li>
+<li><strong>Void votes: </strong>14</li>
+<li><strong>Total votes: </strong>2,515</li>
+<li><strong>Majority: </strong>1,131</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Walkden North</h3>
+<table style="height: 140px;">
+<tbody>
+<tr style="height: 20px;">
+<th class="thirds" style="height: 20px;">Candidate</th>
+<th class="thirds" style="height: 20px;">Party</th>
+<th class="thirds" style="height: 20px;">Votes cast</th>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">BATTERSBY, Frederick Roy</td>
+<td style="height: 20px;">Green Party</td>
+<td style="height: 20px;">162</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;"><strong>BELLAMY, Sammie *</strong></td>
+<td style="height: 20px;"><strong>Labour Party</strong></td>
+<td style="height: 20px;"><strong>1,244</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">BIRTWISTLE, Craig</td>
+<td style="height: 20px;">Reform UK</td>
+<td style="height: 20px;">68</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">LEWIS, Susan Vanessa</td>
+<td style="height: 20px;">Liberal Democrats</td>
+<td style="height: 20px;">113</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">MEADES, Derek Barry</td>
+<td style="height: 20px;">Conservative Party</td>
+<td style="height: 20px;">238</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px;">SIMON, Ashlea</td>
+<td style="height: 20px;">Britain First - Housing For Locals</td>
+<td style="height: 20px;">405</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Sammie Bellamy</li>
+<li><strong>Electorate: </strong>9,490</li>
+<li><strong>Percentage poll: </strong>23.6%</li>
+<li><strong>Void votes:</strong> 10</li>
+<li><strong>Total votes: </strong>2,240</li>
+<li><strong>Majority: </strong>839</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Walkden South</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td><strong>ASUMU, Hilaria</strong></td>
+<td><strong>Labour and Co-Operative Party</strong></td>
+<td><strong>1,318</strong></td>
+</tr>
+<tr>
+<td>BLESSING, Rowan Cerys</td>
+<td>Liberal Democrats</td>
+<td>178</td>
+</tr>
+<tr>
+<td>HAINEY, Janet</td>
+<td>Conservative Party </td>
+<td>754</td>
+</tr>
+<tr>
+<td>TOTTERDILL, Anna Elizabeth Mackinlay</td>
+<td>Green Party</td>
+<td>257</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected: </strong>Hilaria Asumu</li>
+<li><strong>Electorate: </strong>9,001</li>
+<li><strong>Percentage poll:</strong> 28.13%</li>
+<li><strong>Void votes: </strong>25</li>
+<li><strong>Total votes:</strong> 2,532</li>
+<li><strong>Majority:</strong> 564</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Weaste and Seedley</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>GRANT, John</td>
+<td>Liberal Democrats</td>
+<td>169</td>
+</tr>
+<tr>
+<td>HUMPHERY, Donna-Maree Louise</td>
+<td>Women's Equality Party</td>
+<td>109</td>
+</tr>
+<tr>
+<td>LEDERBERGER, Alan</td>
+<td>Conservative Party</td>
+<td>244</td>
+</tr>
+<tr>
+<td>LEWTHWAITE, Stephen James</td>
+<td>Social Democratic Party</td>
+<td>40</td>
+</tr>
+<tr>
+<td>ROMERO O`BRIEN, Andrea</td>
+<td>Green Party</td>
+<td>170</td>
+</tr>
+<tr>
+<td><strong>YOUD, Charlotte</strong></td>
+<td><strong>Labour Party</strong></td>
+<td><strong>1,438</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Charlotte Youd</li>
+<li><strong>Electorate: </strong>10,842</li>
+<li><strong>Percentage poll: </strong>20.14%</li>
+<li><strong>Void votes:</strong> 14</li>
+<li><strong>Total votes:</strong> 2,184</li>
+<li><strong>Majority:</strong> 1,194</li>
+<li><strong>Status:</strong> Labour hold</li>
+</ul>
+<h3>Worsley and Westwood Park</h3>
+<table>
+<tbody>
+<tr>
+<th class="thirds">Candidate</th>
+<th class="thirds">Party</th>
+<th class="thirds">Votes cast</th>
+</tr>
+<tr>
+<td>BERTENSHAW, Christopher</td>
+<td>Green Party</td>
+<td>193</td>
+</tr>
+<tr>
+<td>BLESSING, James Karl</td>
+<td>Liberal Democrats</td>
+<td>124</td>
+</tr>
+<tr>
+<td><strong>GARRIDO, Robin John *</strong></td>
+<td><strong>Conservative Party</strong></td>
+<td><strong>1,392</strong></td>
+</tr>
+<tr>
+<td>MULLEN, Michelle</td>
+<td>Labour Party</td>
+<td>1,166</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Elected:</strong> Robin John Garrido</li>
+<li><strong>Electorate: </strong>8,922</li>
+<li><strong>Percentage poll:</strong> 32.36%</li>
+<li><strong>Void votes:</strong> 12</li>
+<li><strong>Total votes:</strong> 2,887</li>
+<li><strong>Majority:</strong> 226</li>
+<li><strong>Status:</strong> Conservative hold</li>
+</ul>
+<h2>Useful links</h2>
+<ul>
+<li><a href="/people-communities-and-local-information/about-salford/">About Salford</a> - a city in transformation, and moving into an exciting future  </li>
+</ul>
+<div class="box info"  style="">
+<p>Please use our <a href="https://contactus.salford.gov.uk/?formtype=EL_CONTACT">enquiry form</a> if you need to contact us.</p>
+</div>
+<p>To view the details of your local councillors, you can see a list of <a href="https://sccdemocracy.salford.gov.uk/mgMemberIndex.aspx?FN=PARTY&amp;VW=LIST&amp;PIC=0">councillors by political party</a>, <a href="https://sccdemocracy.salford.gov.uk/mgMemberIndex.aspx?FN=ALPHA&amp;VW=LIST&amp;PIC=0">by name</a> or <a href="https://sccdemocracy.salford.gov.uk/mgMemberIndex.aspx?FN=WARD&amp;VW=LIST&amp;PIC=0">by electoral ward</a>.</p>
+
+
+
+
+
+        </div>
+
+        
+        <div class="col-xs-12 col-md-4">
+            <form action="/search-results" method="GET" id="custom-search-mobile" class="hidden-md hidden-lg hidden-xl">
+                <div class="input-group">
+                    <label for="mq" class="sr-only">Search site</label>
+                    <input id="mq" name="query" type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit" title="Search site" aria-label="Search site"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
+
+            <div class="hide-for-print">
+		<h2>Elections</h2>
+		<nav id="side-navigation">
+
+            <ul class="list-group">
+ <li class="list-group-item"><a href="/your-council/elections-and-voting/elections/election-results/archived-results/">Archived results</a></li>   <li class="list-group-item"><a href="/your-council/elections-and-voting/elections/election-results/uk-parliament/">UK Parliament</a></li>              </ul>
+        </nav>
+
+                
+
+
+                
+
+
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+<div class="row rate">
+
+	<div class="col-xs-12">
+
+<form action="/your-council/elections-and-voting/elections/election-results/" enctype="multipart/form-data" id="frmPageRating" method="post">			<fieldset>
+                <legend id="page-rating-heading"><a aria-expanded="true" href="#pageRating" data-toggle="collapse">Rate this page</a></legend>
+
+                <div class="collapse" aria-label="Page Rating" id="pageRating" aria-expanded="false">
+
+                    <h2>How do you rate the quality and content of this page? (required)</h2>
+
+                    <div id="ratingOptions" class="row form-group">
+                        <div class="col-sm-2"><label class="radio" for="radVeryGood"><input id="radVeryGood" name="rating" type="radio" value="Very good" onclick='set4RatingOption(false);' /> Very good</label></div>
+                        <div class="col-sm-2"><label class="radio" for="radGood"><input id="radGood" name="rating" type="radio" value="Good" onclick='set4RatingOption(false);' /> Good</label></div>
+                        <div class="col-sm-2"><label class="radio" for="radOK"><input id="radOK" name="rating" type="radio" value="OK" onclick='set4RatingOption(false);' /> OK</label></div>
+                        <div class="col-sm-2"><label class="radio" for="radPoor"><input id="radPoor" name="rating" type="radio" value="Poor" onclick='set4RatingOption(true);' /> Poor</label></div>
+                        <div class="col-sm-4"><label class="radio" for="radVeryPoor"><input id="radVeryPoor" name="rating" type="radio" value="Very poor" onclick='set4RatingOption(true);' /> Very poor</label></div>
+                    </div>
+
+                    <div id="ratingComments" class="collapse">
+
+                        <p>
+                            <label for="ratecomments">Your comments</label><br>
+                            This form allows you to give us your opinion on the <strong>quality of the content on this page</strong>. If you'd like to comment or complain about a council service, please use our <a href="/your-council/have-your-say/complaints/make-a-comment-or-compliment/">complaints, comments and compliments</a> form.<br />
+                            <textarea name="ratecomments" id="ratecomments" rows="4" cols="60" class="form-control"></textarea>
+                        </p>
+
+                        <p>Your comments will not be published on this website and are subject to our <a href="/your-council/council-and-decision-making/data-protection-legislation/">privacy statement</a>.</p>
+
+                    </div>
+
+                    <p><button type="submit" class="ratestandout" onclick="return validatePageRating()">Submit</button></p>
+
+                    <p class="offscreen"><label for="emptyfield">Do not type in this box</label> <input type="text" id="emptyfield" name="emptyfield"></p>
+
+                    <input type="hidden" name="PageName" value="Election results"><input type="hidden" name="PageUrl" value="https://www.salford.gov.uk/your-council/elections-and-voting/elections/election-results/">
+                </div>
+
+            </fieldset>
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" data-dismiss="modal" class="close">&times;</button>
+                            <h4 class="modal-title">Thank you</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Your page rating has been successfully submitted.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-dismiss="modal" class="standout">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+<input name='ufprt' type='hidden' value='9A47D0DE522C35B1233E28C7FA76AA519051541BC1437D6A2D1DA4559BD59761E167BB0446B0928D6F17C65F26EBE2A22E86187744CAFCC28B93919969D2B4D41F7D86C328C90CE0947570DC34C104C45027C55642D82D5F9986FDEF16BA02A7C02A70D565C3B2A225190466720919C5A278530D6E3ECF6C53B27361ABB2818D4BB928EAA4503A0986C6D42BE6FE59B9' /></form>
+	</div>
+
+</div>
+<script type="text/javascript">
+    function set4RatingOption(addComments) {
+        $("#ratingOptions").removeClass("has-error");
+        $("#pageRating h2").removeClass("text-danger");
+
+        if (addComments) $("#ratingComments").collapse("show");
+        else { $("#ratingComments").collapse("hide"); document.getElementById("ratecomments").value = ""; }
+    }
+
+    function validatePageRating() {
+        if (!document.getElementById("radVeryGood").checked && !document.getElementById("radGood").checked && !document.getElementById("radOK").checked && !document.getElementById("radPoor").checked && !document.getElementById("radVeryPoor").checked) {
+            $("#ratingOptions").addClass("has-error");
+            $("#pageRating h2").addClass("text-danger");
+        }
+        else {
+            $("#pageRating").collapse("hide");
+
+            var form = jQuery($("#frmPageRating"));
+            var postData = form.serialize();
+            var antiForgeryToken = 'S39wRN4WuaLne4fZF5q9nVwPngr9Bdah6rWi7xjhfxd3k6RGg2dwrpmSDZHazWPHz1pDpgHV1OX4J0PGWtwXkx3tRYgl5-q70mAQY-5HR2I1';
+            jQuery.ajax({
+                url: 'https://www.salford.gov.uk/umbraco/api/SalfordAPI/Feedback',
+                type: 'POST',
+                data: postData,
+                headers: {
+                    'SCC-RequestVerificationToken': antiForgeryToken
+                },
+                success: function (ajaxData) {
+                    if (ajaxData != "Success")
+                    {
+                        $("#myModal .modal-dialog").addClass("text-danger");
+                        $("#myModal .modal-title").html("Error");
+                        $("#myModal .modal-body").html("<p>Unfortunately an error has occured submitting your page rating.</p><p>Please try again later.</p>");
+                    }
+                    $("#myModal").modal('show');
+                }
+            });
+        }
+        return false;
+    }
+
+
+</script>
+
+</div>
+
+
+
+
+
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="our-services">
+    <h2>Our services</h2>
+    <ul>
+        <li><a href="/council-tax/" onclick="ga('send', 'event', 'Our services links', 'click', 'Council tax');">Council tax<span class="sr-only"> information</span></a></li>
+        <li><a href="/benefits/" onclick="ga('send', 'event', 'Our services links', 'click', 'Benefits');">Benefits<span class="sr-only"> information</span></a></li>
+        <li><a href="/bins-and-recycling/" onclick="ga('send', 'event', 'Our services links', 'click', 'Bins and recycling');">Bins and recycling<span class="sr-only"> information</span></a></li>
+        <li><a href="/schools-and-learning/" onclick="ga('send', 'event', 'Our services links', 'click', 'Schools and learning');">Schools and learning<span class="sr-only"> information</span></a></li>
+        <li><a href="/planning-building-and-regeneration/" onclick="ga('send', 'event', 'Our services links', 'click', 'Planning, building and regeneration');">Planning, building and regeneration<span class="sr-only"> information</span></a></li>
+        <li><a href="/jobs-skills-and-work/" onclick="ga('send', 'event', 'Our services links', 'click', 'Jobs, skills and work');">Jobs, skills and work<span class="sr-only"> information</span></a></li>
+        <li><a href="/your-council/" onclick="ga('send', 'event', 'Our services links', 'click', 'Your council');"><span class="sr-only">Information about </span>Your council</a></li>
+        <li><a href="/housing/" onclick="ga('send', 'event', 'Our services links', 'click', 'Housing');">Housing<span class="sr-only"> information</span></a></li>
+        <li><a href="/health-and-social-care/" onclick="ga('send', 'event', 'Our services links', 'click', 'Health and social care');">Health and social care<span class="sr-only"> information</span></a></li>
+        <li><a href="/parking-roads-and-travel/" onclick="ga('send', 'event', 'Our services links', 'click', 'Parking, roads and travel');">Parking, roads and travel<span class="sr-only"> information</span></a></li>
+        <li><a href="/children-and-families/" onclick="ga('send', 'event', 'Our services links', 'click', 'Children and families');">Children and families<span class="sr-only"> information</span></a></li>
+        <li><a href="/births-marriages-and-deaths/" onclick="ga('send', 'event', 'Our services links', 'click', 'Births, marriages and deaths');">Birth, marriages and deaths<span class="sr-only"> information</span></a></li>
+        <li><a href="/more-council-services/" onclick="ga('send', 'event', 'Our services links', 'click', 'More council services');">More council services</a></li>
+    </ul>
+</div>
+
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-push-8">
+                <div class="follow">
+                    <h2>Find us on</h2>
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/SalfordCouncil" onclick="ga('send', 'event', 'Social media links', 'click', 'Facebook');"><img src="/assets/images/wfacebook.png" alt="Salford City Council on Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/salford_council" onclick="ga('send', 'event', 'Social media links', 'click', 'Instagram');"><img src="/assets/images/instagram-symbol.png" alt="Salford City Council on Instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/company/salford-city-council" onclick="ga('send', 'event', 'Social media links', 'click', 'LinkedIn');"><img src="/assets/images/linkedIn-symbol.png" alt="Salford City Council on LinkedIn"></a></li>
+                        <li><a href="https://twitter.com/SalfordCouncil" onclick="ga('send', 'event', 'Social media links', 'click', 'Twitter');"><img src="/assets/images/wtwitter.png" alt="Salford City Council on Twitter"></a></li>
+                        <li><a href="https://www.youtube.com/user/SalfordCityCouncil" onclick="ga('send', 'event', 'Social media links', 'click', 'YouTube');"><img src="/assets/images/wyoutube.png" alt="Salford City Council on YouTube"></a></li>
+                        <li><a href="https://nextdoor.co.uk" onclick="ga('send', 'event', 'Social media links', 'click', 'Nextdoor');"><img src="/assets/images/nextdoor-symbol.png" alt="Salford City Council on Nextdoor"></a></li>
+                        <li><a href="/contacts/rss-feeds/" onclick="ga('send', 'event', 'Social media links', 'click', 'RSS');"><img src="/assets/images/wrss.png" alt="RSS"></a></li>
+                    </ul>
+
+                    <a href="/contacts/our-social-media-channels/" onclick="ga('send', 'event', 'Social media links', 'click', 'What are these?');">What are these?</a>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-8 col-md-pull-4">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="/help/accessibility-statement/" onclick="ga('send', 'event', 'Footer links', 'click', 'Accessibility');">Accessibility</a></li>
+                    <li class="list-group-item"><a href="/contacts/" onclick="ga('send', 'event', 'Footer links', 'click', 'Contact us');">Contact us</a></li>
+                    <li class="list-group-item"><a href="/legal-notices/privacy-statement/cookies/" onclick="ga('send', 'event', 'Footer links', 'click', 'Cookies');">Cookies</a></li>
+                    <li class="list-group-item"><a href="/legal-notices/" onclick="ga('send', 'event', 'Footer links', 'click', 'Legal notices');">Legal notices</a></li>
+                    <li class="list-group-item"><a href="/site-map/" onclick="ga('send', 'event', 'Footer links', 'click', 'Site map');">Site map</a></li>
+                    <li class="list-group-item"><a href="/help/translate-this-site/" onclick="ga('send', 'event', 'Footer links', 'click', 'Translate');">Translate</a></li>
+                </ul>
+
+                <div class="scc-address vcard"><strong><span class="fn org">Salford City Council</span></strong>, <span class="adr work"><span class="street-address">Salford Civic Centre, Chorley Road</span>, <span class="locality">Swinton, Salford</span>, <span class="postal-code">M27 5AW</span></span></div>
+
+                <div class="govuk">
+                    <a href="https://www.gov.uk/" onclick="ga('send', 'event', 'Footer links', 'click', 'GOV.UK');"><img src="/assets/images/govuk.png" alt="GOV.UK - the place to find government services and information"></a>
+                </div>
+
+                <a href="#main-navigation" class="cd-top">Back to top</a>
+            </div>
+        </div>
+    </div>
+
+    
+</footer>
+
+
+
+<script src="/assets/lib/modernizr/modernizr.custom.js"></script>
+<script src="/assets/lib/jquery/jquery-1.12.4.min.js"></script>
+<script src="/assets/lib/jquery/jquery.slicknav.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/js/sitefunctions.min.js"></script>
+<script src="/assets/lib/share42/share42.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- 30/08/2017 - PDF - Remove google autocomplete and include jquery autocomplete as part of change to examine search -->
+<!-- <script src="~/assets/js/google.customsearch.v1.autocomplete.min.js"></script> -->
+<script src="/assets/lib/jquery.autocomplete-1.2.24/jquery.autocomplete.min.js"></script>
+
+<script src="/assets/js/slimmage.settings.min.js"></script>
+<script src="/assets/js/slimmage.min.js"></script>
+
+<!-- 05/09/2017 - PDF - jquery needed for autocomplete as part of change to examine search -->
+<script>
+    $('#query')
+        .autocomplete({
+            serviceUrl: '/umbraco/api/searchautocompleteexamine/getsuggestions',
+            minChars: 2,
+            preventBadQueries: false,
+            onSelect: function(suggestion) {
+                console.log("selected: " + suggestion.value);
+                $("form#custom-search").submit();
+            }
+        });
+
+    $('#mq').autocomplete({
+        serviceUrl: '/umbraco/api/searchautocompleteexamine/getsuggestions',
+        minChars: 2,
+        preventBadQueries: false,
+        onSelect: function(suggestion) {
+            console.log("selected: " + suggestion.value);
+            $("form#custom-search-mobile").submit();
+        }
+    });
+</script>
+
+                <script>
+                    (function(i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r;
+                        i[r] = i[r] ||
+                            function() {
+                                (i[r].q = i[r].q || []).push(arguments)
+                            }, i[r].l = 1 * new Date();
+                        a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                        a.async = 1;
+                        a.src = g;
+                        m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                    ga('create', 'UA-416788-16', 'auto');
+                    ga('send', 'pageview');
+                </script>
+
+
+<script>
+    var $buoop = {
+        c: 2,
+        text: "",
+        reminder: 168,
+        reminderClosed: 336
+    };
+
+    function $buo_f() {
+        var e = document.createElement("script");
+        e.src = "//browser-update.org/update.min.js";
+        document.body.appendChild(e);
+    };
+
+    try {
+        document.addEventListener("DOMContentLoaded", $buo_f, false)
+    } catch (e) {
+        window.attachEvent("onload", $buo_f)
+    }
+</script>
+
+        <script>
+            function InitialiseC4A() {
+                /* Chat Tool */
+                var Tool2 = new C4A.Tools(2);
+                C4A.Run('01f5914a-4480-4004-ab8c-a8da81b814d8');
+            }
+        </script>
+        <noscript><a href="//click4assistance.co.uk/add-live-chat-software-click4assistance-uk" target="_blank" aria-label="Click To Chat" style="font-size: 10px; position: fixed; bottom: 2px; right: 2px;">Click4Assistance UK Live Chat Software</a></noscript>
+        <script src="https://v4in1-si.click4assistance.co.uk/SI.js" type="text/javascript" defer="defer"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
