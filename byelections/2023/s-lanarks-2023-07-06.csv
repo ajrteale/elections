@@ -1,0 +1,21 @@
+"Election for","Ward 9 - East Kilbride West"
+"Date","07 Jul 2023"
+"Number to be elected",3
+"Valid votes",3423
+"Invalid votes",0
+"Quota",856.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Kirsty WILLIAMS (Lab)",,"Bill DORRIAN (C)",,"Jonathan Jack RICHARDSON (ScFam)",,"Jake STEVENSON (LD)",,"Kristofer KEANE (Ind)",,"Cameron EADIE (Grn)",
+"Bill DORRIAN (C)",904,,904.00000,-48.00000,856.00000,,856.00000,,856.00000,,856.00000,,856.00000,"Elected"
+"Cameron EADIE (Grn)",131,,131.00000,+0.95562,131.95562,,131.95562,+8.05309,140.00871,+19.10618,159.11489,-159.11489,"-",
+"Robert GILLIES (SNP)",778,,778.00000,+1.06180,779.06180,+1.05309,780.11489,+8.05309,788.16798,+22.00000,810.16798,+93.31854,903.48652,"Elected"
+"Kristofer KEANE (Ind)",99,,99.00000,+4.99046,103.99046,+14.42472,118.41518,+13.11489,131.53007,-131.53007,"-",,"-",
+"Jonathan Jack RICHARDSON (ScFam)",42,,42.00000,+1.64579,43.64579,-43.64579,"-",,"-",,"-",,"-",
+"Jake STEVENSON (LD)",83,,83.00000,+4.67192,87.67192,+3.05309,90.72501,-90.72501,"-",,"-",,"-",
+"Kirsty WILLIAMS (Lab)",1386,-530.00000,856.00000,,856.00000,,856.00000,,856.00000,,856.00000,,856.00000,"Elected"
+"Lab 2",0,+529.99254,529.99254,+16.93571,546.92825,+9.53090,556.45915,+47.07051,603.52966,+39.69888,643.22854,+35.42472,678.65326,
+"Non-transferable", ,+0.00746,0.00746,+17.73870,17.74616,+15.58399,33.33015,+14.43343,47.76358,+50.72501,98.48859,+30.37163,128.86022,
+"Totals",3423,,3423.00000,,3423.00000,,3423.00000,,3423.00000,,3423.00000,,3423.00000
