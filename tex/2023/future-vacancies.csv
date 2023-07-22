@@ -1,10 +1,4 @@
 "Polling","Council","ID","Ward","ID","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-2023-07-20,"Ceredigion",418,"Llanfarian",22751,"LD","Geraint Hughes","Resignation",,"andrewteale.me.uk/iq5w","Jack Parker",,"David Evans",,"Karen Deakin",
-2023-07-20,"House of Commons",,"Selby/Ainsty",,"C","Nigel Adams","Resignation",,,"Claire Holmes","Keir Mather","Matt Walker","Arnold Warneken",,"Andrew Gray (Ind), Mike Jordan (Yorks Party), Dave Kent (Reform UK), Nick Palmer (Ind), Guy Phoenix (Heritage Party), Sir Archibald Stanton (Loony), John Waterston (SDP), Luke Wellock (Climate Party), Tyler Wilson-Kerr (Ind)"
-2023-07-20,"House of Commons",,"Somerton/Frome",,"C","David Warburton","Resignation",,,"Faye Purbrick","Neil Guild","Sarah Dyke","Martin Dimery",,"Lorna Corke (CPA), Bruce Evans (Reform UK), Rosie Mitchell (Ind), Peter Richardson (UKIP)"
-2023-07-20,"House of Commons",,"Uxbridge/S Ruislip",,"C","Boris Johnson","Resignation",,,"Steve Tuckwell","Danny Beales","Blaise Baquiche","Sarah Green",,"Kingsley Hamilton Anti Ulez (Ind), Cameron Bell (Ind), Count Binface (Count Binface Party), Piers Corbyn (Let London Live), Laurence Fox (Reclaim), Steve Gardner (SDP), Ed Gemmell (Climate Party), Richard Hewison (Rejoin EU), Howling Laud Hope (Loony), Rebecca Jane (UKIP), 77 Joseph (Ind), Enomfon Ntefon (CPA), No Ulez Leo Phaure (Ind)"
-2023-07-20,"Swindon",105,"St Margaret/S Marston",12209,"Lab","Pamela Adams","Death",,"andrewteale.me.uk/i8gm","Matthew Vallender","Joseph Polson",,,,
-2023-07-20,"Worcester",368,"Nunnery",5566,"Lab","Simon Cronin","Death",,"andrewteale.me.uk/iydf","Allah Ditta","Elaine Willmore","Scott Butler",,,"David Carney (Ind)"
 2023-07-27,"Bucks",465,"Denham",21899,"C","Paul Bass","Resignation",,"andrewteale.me.uk/iwdw",,,,,,
 2023-07-27,"E Sussex CC ",381,"Heathfield/Mayfield",19077,"C","Rupert Simmons","Death",,"andrewteale.me.uk/idtt",,,,,,
 2023-07-27,"Plymouth",102,"Plymstock Dunstone",2430,"C","Vivien Pengelly","Death",,"andrewteale.me.uk/ixhc",,,,,,
@@ -20,19 +14,23 @@
 2023-08-17,"Middlesbrough",79,"Ayresome",17155,"Lab","Antony High","Resignation",,"andrewteale.me.uk/i40r",,,,,,
 2023-08-17,"St Albans",231,"Marshalswick E/Jersey Farm",22259,"LD","Elissa Dacosta-Waldman","Resignation",,"andrewteale.me.uk/itqw",,,,,,
 2023-08-24,"Bristol",100,"Bishopston/Ashley Down",16327,"Grn","Lily Fitzgibbon","Resignation",,"andrewteale.me.uk/i18q",,,,,,
+2023-08-24,"Dudley",59,"St James's",1230,"C","Wayne Sullivan","Resignation",,"andrewteale.me.uk/ikeb",,,,,,
+2023-08-24,"Isle of Wight",87,"Wootton Bridge",2089,"Vectis","Daryll Pitcher","Resignation","Imprisonment","andrewteale.me.uk/icyv",,,,,,
 2023-09-28,"Highland",451,"Tain/Easter Ross",18424,"LD","Sarah Rawlings","Resignation",,"andrewteale.me.uk/il6s",,,,,,
 ,"Barking/Dagenham",1,"Mayesbrook",23341,"Lab","Nashitha Choudhury","Resignation",,"andrewteale.me.uk/ilqx",,,,,,
 ,"Broadland",275,"Thorpe St Andrew NW",7261,"Lab","Drew Moore","Resignation",,"andrewteale.me.uk/ibyg",,,,,,
 ,"Caerphilly",413,"Penmaen",23002,"Lab","Jim Sadler","Death",,"andrewteale.me.uk/ibex",,,,,,
 ,"Chorley",249,"Croston/Mawdesley/Euxton S",21341,"C","Keith Iddon","Death",,"andrewteale.me.uk/izvv",,,,,,
 ,"Derbys CC",377,"Swadlincote S",12436,"C","Roger Redfern","Death",,"andrewteale.me.uk/i4pm",,,,,,
-,"Dudley",59,"St James's",1230,"C","Wayne Sullivan","Resignation",,"andrewteale.me.uk/ikeb",,,,,,
 ,"Herefs",107,"Golden Valley S",16992,"Ind","Peter Jinman","Death",,"andrewteale.me.uk/i6vr",,,,,,
 ,"House of Commons",,"M Beds",,"C","Nadine Dorries","Resignation",,,,,,,,
-,"Isle of Wight",87,"Wootton Bridge",2089,"Vectis","Daryll Pitcher","Resignation","Imprisonment","andrewteale.me.uk/icyv",,,,,,
 ,"Lancs CC",387,"Chorley Rural W",18569,"C","Keith Iddon","Death",,"andrewteale.me.uk/izbt",,,,,,
 ,"N Somerset",101,"Wrington",16894,"Ind","Steve Hogg","Resignation",,"andrewteale.me.uk/i7sr",,,,,,
+,"N Yorks",469,"Hutton Rudby/Osmotherley",23467,"C","Bridget Fortune","Resignation",,"andrewteale.me.uk/ieux",,,,,,
+,"Newcastle (Lyme)",326,"Audley",19642,"Lab","Sue Moffat","Resignation",,"andrewteale.me.uk/ihbu",,,,,,
 ,"Newcastle (Lyme)",326,"Knutton",19650,"Lab","Steph Talbot","Resignation",,"andrewteale.me.uk/irbu",,,,,,
+,"Salop",125,"Worfield",2941,"C","Richard Marshall","Resignation",,"andrewteale.me.uk/iezc",,,,,,
+,"Spelthorne",344,"Ashford Tn",4527,"Grn","Andrew McLuskey","Resignation",,"andrewteale.me.uk/igfe",,,,,,
 ,"Suffolk CC",399,"Woodbridge",7192,"LD","Caroline Page","Death",,"andrewteale.me.uk/i7vg",,,,,,
 ,"Swale",244,"Minster Cliffs",19384,"C","Ken Ingleton","Death",,"andrewteale.me.uk/ip2t",,,,,,
 ,"Wolverhampton",63,"Bushbury S/Low Hill",24016,"Lab","Ian Brookfield","Death","Leader of the Council","andrewteale.me.uk/i1by",,,,,,
