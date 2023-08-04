@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 8 - East Kilbride Central North"
+"Date","02 Aug 2023"
+"Number to be elected",3
+"Valid votes",5705
+"Invalid votes",0
+"Quota",1426.25000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Grant Ferguson (SNP)",,"Joe Fagan (Lab)",,"Kristofer Keane (Ind)+Tom Bryson (LD)",,"Tam Mitchell (Lab)",
+"Alex Brown (C)",694,+2.04072,696.04072,+17.08074,713.12146,+58.76289,771.88435,+108.00000,879.88435,
+"Tom Bryson (LD)",187,+10.20360,197.20360,+13.62825,210.83185,-210.83185,"-",,"-",
+"Joe Fagan (Lab)",1709,,1709.00000,-282.75000,1426.25000,,1426.25000,,1426.25000,"Elected"
+"Grant Ferguson (SNP)",1889,-462.75000,1426.25000,,1426.25000,,1426.25000,,1426.25000,"Elected"
+"Kristofer Keane (Ind)",194,+9.18324,203.18324,+8.35866,211.54190,-211.54190,"-",,"-",
+"Hugh Macdonald (SNP)",612,+433.14282,1045.14282,+18.53442,1063.67724,+97.14710,1160.82434,+77.00000,1237.82434,"Elected"
+"Tam Mitchell (Lab)",420,+8.16288,428.16288,+225.13869,653.30157,+118.41626,771.71783,-527.00000,244.71783,
+"Non-transferable", ,+0.01674,0.01674,+0.00924,0.02598,+148.04750,148.07348,+342.00000,490.07348,
+"Totals",5705,,5705.00000,,5705.00000,,5705.00000,,5705.00000

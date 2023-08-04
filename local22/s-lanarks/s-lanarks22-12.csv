@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 12 - Rutherglen Central And North"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",5076
+"Invalid votes",0
+"Quota",1270.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Alex McRae (Grn)",,"Gloria Adebo (LD)",,"Janine Calikes (SNP)",,"Jack McGinty (Lab)",,"Libby Fox (C)",
+"Gloria Adebo (LD)",517,+27.00000,544.00000,-544.00000,"-",,"-",,"-",,"-",
+"Janine Calikes (SNP)",1188,+77.00000,1265.00000,+73.00000,1338.00000,-68.00000,1270.00000,,1270.00000,,1270.00000,"Elected"
+"Andrea Cowan (SNP)",725,+71.00000,796.00000,+44.00000,840.00000,+59.56104,899.56104,+129.66066,1029.22170,+134.05082,1163.27252,"Elected"
+"Libby Fox (C)",609,+3.00000,612.00000,+118.00000,730.00000,+0.40656,730.40656,+151.05082,881.45738,-881.45738,"-",
+"Martin Lennon (Lab)",1245,+25.00000,1270.00000,,1270.00000,,1270.00000,,1270.00000,,1270.00000,"Elected"
+"Jack McGinty (Lab)",531,+36.00000,567.00000,+149.00000,716.00000,+1.88034,717.88034,-717.88034,"-",,"-",
+"Alex McRae (Grn)",261,-261.00000,"-",,"-",,"-",,"-",,"-",
+"Non-transferable", ,+22.00000,22.00000,+160.00000,182.00000,+6.15206,188.15206,+437.16886,625.32092,+747.40656,1372.72748,
+"Totals",5076,,5076.00000,,5076.00000,,5076.00000,,5076.00000,,5076.00000

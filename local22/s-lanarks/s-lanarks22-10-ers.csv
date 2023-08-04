@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 10 - East Kilbride East"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",4921
+"Invalid votes",0
+"Quota",1230.25000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Gladys Ferguson-Miller (SNP)",,"Jim Wardhaugh (Ind)+Lorna Gall (LD)",,"Robert Gillies (SNP)",
+"Gladys Ferguson-Miller (SNP)",1420,-189.75000,1230.25000,,1230.25000,,1230.25000,"Elected"
+"Lorna Gall (LD)",126,+3.50600,129.50600,-129.50600,"-",,"-",
+"Robert Gillies (SNP)",420,+158.89192,578.89192,+79.80480,658.69672,-658.69672,"-",
+"Graeme Mullin (C)",664,+1.40240,665.40240,+115.00000,780.40240,+21.94504,802.34744,
+"Kirsten Robb (Grn)",626,+22.15792,648.15792,+122.26216,770.42008,+359.87552,1130.29560,"Elected"
+"Graham Scott (Lab)",1329,,1329.00000,,1329.00000,,1329.00000,"Elected"
+"Jim Wardhaugh (Ind)",336,+3.78648,339.78648,-339.78648,"-",,"-",
+"Non-transferable", ,+0.00528,0.00528,+152.22552,152.23080,+276.87616,429.10696,
+"Totals",4921,,4921.00000,,4921.00000,,4921.00000

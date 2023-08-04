@@ -1,0 +1,18 @@
+"Election for","South Lanarkshire May 2022 - Ward 19 - Hamilton South"
+"Date","04 Aug 2023"
+"Number to be elected",4
+"Valid votes",7306
+"Invalid votes",0
+"Quota",1462.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","John Ross (SNP)",
+"Celine Handibode (Lab)",1632,,1632.00000,"Elected"
+"Gavin Keatt (Lab)",1688,,1688.00000,"Elected"
+"Lynne Nailon (C)",960,+7.64576,967.64576,
+"John Ross (SNP)",1921,-459.00000,1462.00000,"Elected"
+"Helen Toner (SNP)",1105,+420.99466,1525.99466,"Elected"
+"Non-transferable", ,+30.35958,30.35958,
+"Totals",7306,,7306.00000

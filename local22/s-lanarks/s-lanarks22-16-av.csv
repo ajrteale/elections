@@ -1,0 +1,19 @@
+"Election for","South Lanarkshire May 2022- Ward 16 - Bothwell and Uddingston"
+"Date","04 Aug 2023"
+"Number to be elected",1
+"Valid votes",5381
+"Invalid votes",0
+"Quota",2269.50
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","John Stubbs (Grn)+Troy Davidson (LD)",,"Jim McGuigan (SNP)",,"Kenny McCreary (C)",
+"Troy Davidson (LD)",285,-285.00,"-",,"-",,"-",
+"Cal Dempsey (SNP)",924,+77.00,1001.00,+685.00,1686.00,+42.00,1728.00,
+"Maureen Devlin (Lab)",1633,+190.00,1823.00,+116.00,1939.00,+872.00,2811.00,"Elected"
+"Kenny McCreary (C)",1485,+81.00,1566.00,+29.00,1595.00,-1595.00,"-",
+"Jim McGuigan (SNP)",811,+91.00,902.00,-902.00,"-",,"-",
+"John Stubbs (Grn)",243,-243.00,"-",,"-",,"-",
+"Non-transferable", ,+89.00,89.00,+72.00,161.00,+681.00,842.00,
+"Totals",5381,,5381.00,,5381.00,,5381.00

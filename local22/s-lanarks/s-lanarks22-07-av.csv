@@ -1,0 +1,22 @@
+"Election for","South Lanarkshire May 2022 - Ward 7 - East Kilbride Central South"
+"Date","02 Aug 2023"
+"Number to be elected",1
+"Valid votes",5202
+"Invalid votes",0
+"Quota",2325.00
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Alan Cresswell (Grn)+David Mackay (UKIP)+Lorna Cammock (LD)+Rita Baillie (Alba)",,"Alan Fraser (C)",,"Elaine McDougall (SNP)+Lisa Quarrell (Lab)",
+"John Anderson (SNP)",1570,+113.00,1683.00,+20.00,1703.00,+779.00,2482.00,"Elected"
+"Rita Baillie (Alba)",66,-66.00,"-",,"-",,"-",
+"Lorna Cammock (LD)",138,-138.00,"-",,"-",,"-",
+"Gerry Convery (Lab)",1387,+75.00,1462.00,+139.00,1601.00,+567.00,2168.00,
+"Alan Cresswell (Grn)",202,-202.00,"-",,"-",,"-",
+"Alan Fraser (C)",473,+35.00,508.00,-508.00,"-",,"-",
+"David Mackay (UKIP)",30,-30.00,"-",,"-",,"-",
+"Elaine McDougall (SNP)",713,+74.00,787.00,+1.00,788.00,-788.00,"-",
+"Lisa Quarrell (Lab)",623,+45.00,668.00,+108.00,776.00,-776.00,"-",
+"Non-transferable", ,+94.00,94.00,+240.00,334.00,+218.00,552.00,
+"Totals",5202,,5202.00,,5202.00,,5202.00

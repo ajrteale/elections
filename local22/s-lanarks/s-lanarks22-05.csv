@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 5 - Avondale and Stonehouse"
+"Date","02 Aug 2023"
+"Number to be elected",3
+"Valid votes",6869
+"Invalid votes",0
+"Quota",1718.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+,"First","Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Colin Maclaren (Alba)",,"Erica Bradley-Young (Grn)",,"Margaret Cooper (Ind)",,"Leigh Payne (SNP)",,"Elise Frame (SNP)",,"Gary Burns (C)",
+"Erica Bradley-Young (Grn)",437,+7.00000,444.00000,-444.00000,"-",,"-",,"-",,"-",,"-",
+"Gary Burns (C)",1416,+4.00000,1420.00000,+20.00000,1440.00000,+5.23296,1445.23296,+7.03792,1452.27088,+10.53298,1462.80386,-1462.80386,"-",
+"Margaret Cooper (Ind)",1629,+10.00000,1639.00000,+101.00000,1740.00000,-22.00000,1718.00000,,1718.00000,,1718.00000,,1718.00000,"Elected"
+"Elise Frame (SNP)",1454,+17.00000,1471.00000,+161.00000,1632.00000,+3.82992,1635.82992,+487.06176,2122.89168,-404.89168,1718.00000,,1718.00000,"Elected"
+"Susan Kerr (Lab)",1363,+4.00000,1367.00000,+72.00000,1439.00000,+5.96608,1444.96608,+35.22752,1480.19360,+139.12131,1619.31491,+671.30875,2290.62366,"Elected"
+"Colin Maclaren (Alba)",75,-75.00000,"-",,"-",,"-",,"-",,"-",,"-",
+"Leigh Payne (SNP)",495,+20.00000,515.00000,+51.00000,566.00000,+1.70640,567.70640,-567.70640,"-",,"-",,"-",
+"Non-transferable", ,+13.00000,13.00000,+39.00000,52.00000,+5.26464,57.26464,+38.37920,95.64384,+255.23739,350.88123,+791.49511,1142.37634,
+"Totals",6869,,6869.00000,,6869.00000,,6869.00000,,6869.00000,,6869.00000,,6869.00000

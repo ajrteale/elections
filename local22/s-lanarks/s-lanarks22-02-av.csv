@@ -1,0 +1,18 @@
+"Election for","South Lanarkshire May 2022 - Ward 2 - Clydesdale North"
+"Date","02 Aug 2023"
+"Number to be elected",1
+"Valid votes",5686
+"Invalid votes",0
+"Quota",2425.00
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2
+,"First","Exclusion of",
+"Candidates","Preferences","John Scott (Ind)+Richard Eliott-Lockhart (C)+Ronald Logan (Ind)",
+"Richard Eliott-Lockhart (C)",1530,-1530.00,"-",
+"Ronald Logan (Ind)",277,-277.00,"-",
+"Julia Marrs (SNP)",1898,+171.00,2069.00,
+"Catherine McClymont (Lab)",1920,+861.00,2781.00,"Elected"
+"John Scott (Ind)",61,-61.00,"-",
+"Non-transferable", ,+836.00,836.00,
+"Totals",5686,,5686.00

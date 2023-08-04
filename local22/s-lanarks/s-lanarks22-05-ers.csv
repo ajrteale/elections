@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 5 - Avondale and Stonehouse"
+"Date","02 Aug 2023"
+"Number to be elected",3
+"Valid votes",6869
+"Invalid votes",0
+"Quota",1696.50000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3
+,"First","Exclusion of",,"Surplus of",
+"Candidates","Preferences","Colin Maclaren (Alba)+Erica Bradley-Young (Grn)+Leigh Payne (SNP)",,"Elise Frame (SNP)",
+"Erica Bradley-Young (Grn)",437,-437.00000,"-",,"-",
+"Gary Burns (C)",1416,+30.00000,1446.00000,+21.00000,1467.00000,
+"Margaret Cooper (Ind)",1629,+143.00000,1772.00000,,1772.00000,"Elected"
+"Elise Frame (SNP)",1454,+645.00000,2099.00000,-402.50000,1696.50000,"Elected"
+"Susan Kerr (Lab)",1363,+106.00000,1469.00000,+226.00000,1695.00000,"Elected"
+"Colin Maclaren (Alba)",75,-75.00000,"-",,"-",
+"Leigh Payne (SNP)",495,-495.00000,"-",,"-",
+"Non-transferable", ,+83.00000,83.00000,+155.50000,238.50000,
+"Totals",6869,,6869.00000,,6869.00000

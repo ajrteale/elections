@@ -1,0 +1,19 @@
+"Election for","South Lanarkshire May 2022 - Ward 13 - Cambuslang West"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",5735
+"Invalid votes",0
+"Quota",1433.75000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Tom Lauckner (Grn)",,"Margaret Walker (Lab)",,"Ann le Blond (C)",
+"John Bradley (SNP)",1382,+85.00000,1467.00000,,1467.00000,,1467.00000,"Elected"
+"Tom Lauckner (Grn)",301,-301.00000,"-",,"-",,"-",
+"Ann le Blond (C)",739,+11.00000,750.00000,+69.29353,819.29353,-750.00000,69.29353,
+"Norman Rae (LD)",730,+51.00000,781.00000,+161.84475,942.84475,+487.00000,1429.84475,"Elected"
+"Gillian Sutherland (SNP)",856,+114.00000,970.00000,+62.10043,1032.10043,+16.00000,1048.10043,
+"Margaret Walker (Lab)",1727,,1727.00000,-293.25000,1433.75000,,1433.75000,"Elected"
+"Non-transferable", ,+40.00000,40.00000,+0.01129,40.01129,+247.00000,287.01129,
+"Totals",5735,,5735.00000,,5735.00000,,5735.00000

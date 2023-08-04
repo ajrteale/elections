@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 15 - Blantyre"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",5206
+"Invalid votes",0
+"Quota",1301.50000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Surplus of",,"Exclusion of",
+"Candidates","Preferences","Maureen Chalmers (SNP)",,"Mo Razzaq (Lab)",,"Calum Nimmo (C)+David McClemont (Grn)+Stephen Reid (LD)",
+"Maureen Chalmers (SNP)",1652,-350.50000,1301.50000,,1301.50000,,1301.50000,"Elected"
+"Gerry Chambers (SNP)",542,+324.77572,866.77572,+10.51364,877.28936,+109.00000,986.28936,
+"David McClemont (Grn)",169,+10.98700,179.98700,+4.23684,184.22384,-169.00000,15.22384,
+"Calum Nimmo (C)",399,+0.87896,399.87896,+9.25828,409.13724,-399.00000,10.13724,
+"Mo Razzaq (Lab)",1519,,1519.00000,-217.50000,1301.50000,,1301.50000,"Elected"
+"Stephen Reid (LD)",110,+1.97766,111.97766,+5.80604,117.78370,-110.00000,7.78370,
+"Bert Thomson (Lab)",815,+11.86596,826.86596,+187.67632,1014.54228,+299.00000,1313.54228,"Elected"
+"Non-transferable", ,+0.01470,0.01470,+0.00888,0.02358,+270.00000,270.02358,
+"Totals",5206,,5206.00000,,5206.00000,,5206.00000
