@@ -1,0 +1,22 @@
+"Election for","South Lanarkshire May 2022 - Ward 6 - East Kilbride South"
+"Date","02 Aug 2023"
+"Number to be elected",3
+"Valid votes",5274
+"Invalid votes",0
+"Quota",1318.50000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Archie Buchanan (SNP)",,"Iain Leckenby (Alba)+John McKechnie (Grn)+Jonathan Richardson (ScFam)+Ross Gibson (Libtn)",,"Patrick Nailon (C)",
+"Archie Buchanan (SNP)",1948,-629.50000,1318.50000,,1318.50000,,1318.50000,"Elected"
+"Mathew Buchanan (Lab)",1215,+60.46838,1275.46838,+59.00000,1334.46838,,1334.46838,"Elected"
+"Ross Gibson (Libtn)",31,+3.39710,34.39710,-34.39710,"-",,"-",
+"Geri Gray (SNP)",621,+507.52674,1128.52674,+119.10028,1247.62702,+11.00000,1258.62702,"Elected"
+"Iain Leckenby (Alba)",57,+6.45449,63.45449,-63.45449,"-",,"-",
+"Paul McGarry (LD)",722,+17.66492,739.66492,+44.05739,783.72231,+253.00000,1036.72231,
+"John McKechnie (Grn)",154,+27.51651,181.51651,-181.51651,"-",,"-",
+"Patrick Nailon (C)",458,+4.07652,462.07652,+28.67942,490.75594,-486.00000,4.75594,
+"Jonathan Richardson (ScFam)",68,+2.37797,70.37797,-70.37797,"-",,"-",
+"Non-transferable", ,+0.01737,0.01737,+98.90898,98.92635,+222.00000,320.92635,
+"Totals",5274,,5274.00000,,5274.00000,,5274.00000

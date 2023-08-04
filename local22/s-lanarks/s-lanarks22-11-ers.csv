@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 11 - Rutherglen South"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",5729
+"Invalid votes",0
+"Quota",1432.25000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2
+,"First","Surplus of",
+"Candidates","Preferences","Carol Nugent (SNP)",
+"Robert Brown (LD)",1686,,1686.00000,"Elected"
+"Margaret Cowie (Lab)",1331,+133.55568,1464.55568,"Elected"
+"Alexandra Herdman (C)",489,+7.92048,496.92048,
+"Carol Nugent (SNP)",1825,-392.75000,1432.25000,"Elected"
+"Michael O'Hara (ScFam)",73,+15.29472,88.29472,
+"Spencer Pryor (Ind)",62,+15.02160,77.02160,
+"Emma Smith (Grn)",263,+220.95408,483.95408,
+"Non-transferable", ,+0.00344,0.00344,
+"Totals",5729,,5729.00000

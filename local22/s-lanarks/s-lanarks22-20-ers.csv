@@ -1,0 +1,22 @@
+"Election for","South Lanarkshire May 2022 - Ward 20 - Larkhall"
+"Date","04 Aug 2023"
+"Number to be elected",4
+"Valid votes",6193
+"Invalid votes",0
+"Quota",1238.60000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Andy Carmichael (Lab)",,"Richard Nelson (C)",,"Ross Clark (SNP)",,"David Laird (Libtn)+Donald Mackay (UKIP)+Jake Stevenson (LD)",,"George Sutherland (SNP)",
+"Jackie Burns (Ind)",639,+48.84516,687.84516,+66.08790,753.93306,+8.00676,761.93982,+70.39876,832.33858,+91.97699,924.31557,
+"Andy Carmichael (Lab)",1580,-341.40000,1238.60000,,1238.60000,,1238.60000,,1238.60000,,1238.60000,"Elected"
+"Ross Clark (SNP)",1389,,1389.00000,,1389.00000,-150.40000,1238.60000,,1238.60000,,1238.60000,"Elected"
+"David Laird (Libtn)",36,+6.71944,42.71944,+4.83570,47.55514,+0.69624,48.25138,-48.25138,"-",,"-",
+"Donald Mackay (UKIP)",21,+5.16880,26.16880,+45.13320,71.30200,+0.58020,71.88220,-71.88220,"-",,"-",
+"Lesley McDonald (Lab)",463,+258.18156,721.18156,+98.05725,819.23881,+7.65864,826.89745,+89.92460,916.82205,+147.39438,1064.21643,"Elected"
+"Richard Nelson (C)",1518,,1518.00000,-279.40000,1238.60000,,1238.60000,,1238.60000,,1238.60000,"Elected"
+"Jake Stevenson (LD)",148,+10.85448,158.85448,+62.05815,220.91263,+2.90100,223.81363,-223.81363,"-",,"-",
+"George Sutherland (SNP)",399,+11.62980,410.62980,+3.22380,413.85360,+130.54500,544.39860,+18.17460,562.57320,-562.57320,"-",
+"Non-transferable", ,+0.00076,0.00076,+0.00400,0.00476,+0.01216,0.01692,+165.44925,165.46617,+323.20183,488.66800,
+"Totals",6193,,6193.00000,,6193.00000,,6193.00000,,6193.00000,,6193.00000

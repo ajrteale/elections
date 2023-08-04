@@ -1,0 +1,21 @@
+"Election for","South Lanarkshire May 2022 - Ward 9 - East Kilbride West"
+"Date","04 Aug 2023"
+"Number to be elected",3
+"Valid votes",6709
+"Invalid votes",0
+"Quota",1677.25000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Exclusion of",,"Surplus of",,"Exclusion of",,"Surplus of",
+"Candidates","Preferences","Denise Hay (ScFam)+Huaiquan Zhang (LD)+Yvonne Mackay (UKIP)",,"Monique McAdams (Lab)",,"Craig Sloan (SNP)",,"Ali Salamati (SNP)",
+"Ian Harrow (C)",1339,+65.00000,1404.00000,+34.38981,1438.38981,+14.94809,1453.33790,+11.78580,1465.12370,
+"Denise Hay (ScFam)",110,-110.00000,"-",,"-",,"-",,"-",
+"Yvonne Mackay (UKIP)",18,-18.00000,"-",,"-",,"-",,"-",
+"Monique McAdams (Lab)",1780,,1780.00000,-102.75000,1677.25000,,1677.25000,,1677.25000,"Elected"
+"Ali Salamati (SNP)",1031,+32.00000,1063.00000,+14.73849,1077.73849,+886.00000,1963.73849,-286.48849,1677.25000,"Elected"
+"Craig Sloan (SNP)",1041,+19.00000,1060.00000,+12.49755,1072.49755,-1072.49755,"-",,"-",
+"David Watson (Ind)",1248,+90.00000,1338.00000,+41.11263,1379.11263,+94.75808,1473.87071,+274.69980,1748.57051,"Elected"
+"Huaiquan Zhang (LD)",142,-142.00000,"-",,"-",,"-",,"-",
+"Non-transferable", ,+64.00000,64.00000,+0.01152,64.01152,+76.79138,140.80290,+0.00289,140.80579,
+"Totals",6709,,6709.00000,,6709.00000,,6709.00000,,6709.00000

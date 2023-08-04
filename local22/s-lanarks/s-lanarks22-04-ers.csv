@@ -1,0 +1,21 @@
+"Election for","South Lanarkshire May 2022 - Ward 4 - Clydesdale South"
+"Date","02 Aug 2023"
+"Number to be elected",3
+"Valid votes",5260
+"Invalid votes",0
+"Quota",1315.00000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Mark Horsham (SNP)",,"Imogen Walker (Lab)+Janice Mackay (UKIP)",,"Ross Gowland (Lab)",,"Colin McGavigan (Ind)",,"Ann McGuinness (Grn)",
+"Ross Gowland (Lab)",1144,+73.99743,1217.99743,+172.00000,1389.99743,-74.99743,1315.00000,,1315.00000,,1315.00000,"Elected"
+"George Greenshields (Ind)",635,+62.94804,697.94804,+21.68762,719.63566,+24.02829,743.66395,+155.16426,898.82821,+143.39764,1042.22585,
+"Mark Horsham (SNP)",1762,-447.00000,1315.00000,,1315.00000,,1315.00000,,1315.00000,,1315.00000,"Elected"
+"Ross Lambie (C)",986,+10.04490,996.04490,+27.33932,1023.38422,+21.84390,1045.22812,+63.46075,1108.68887,+27.08990,1135.77877,"Elected"
+"Janice Mackay (UKIP)",52,+7.36626,59.36626,-59.36626,"-",,"-",,"-",,"-",
+"Colin McGavigan (Ind)",298,+41.51892,339.51892,+17.35279,356.87171,+15.29073,372.16244,-372.16244,"-",,"-",
+"Ann McGuinness (Grn)",164,+211.94739,375.94739,+27.72354,403.67093,+13.83447,417.50540,+43.45616,460.96156,-460.96156,"-",
+"Imogen Walker (Lab)",219,+39.17511,258.17511,-258.17511,"-",,"-",,"-",,"-",
+"Non-transferable", ,+0.00195,0.00195,+51.43810,51.44005,+0.00004,51.44009,+110.08127,161.52136,+290.47402,451.99538,
+"Totals",5260,,5260.00000,,5260.00000,,5260.00000,,5260.00000,,5260.00000

@@ -1,0 +1,19 @@
+"Election for","South Lanarkshire May 2022 - Ward 17 - Hamilton North And East"
+"Date","04 Aug 2023"
+"Number to be elected",1
+"Valid votes",4757
+"Invalid votes",0
+"Quota",2093.50
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3
+,"First","Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Andrew Reynolds (LD)+Balarabe Baba (Ind)+Phil Sykes (SNP)",,"Martin Hose (C)",
+"Balarabe Baba (Ind)",124,-124.00,"-",,"-",
+"Colin Dewar (SNP)",1442,+508.00,1950.00,+31.00,1981.00,
+"Martin Hose (C)",902,+74.00,976.00,-976.00,"-",
+"Davie McLachlan (Lab)",1539,+155.00,1694.00,+512.00,2206.00,"Elected"
+"Andrew Reynolds (LD)",249,-249.00,"-",,"-",
+"Phil Sykes (SNP)",501,-501.00,"-",,"-",
+"Non-transferable", ,+137.00,137.00,+433.00,570.00,
+"Totals",4757,,4757.00,,4757.00

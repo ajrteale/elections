@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 1 - Clydesdale West"
+"Date","02 Aug 2023"
+"Number to be elected",1
+"Valid votes",7393
+"Invalid votes",0
+"Quota",3175.50
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Neil Barton (Grn)+Peter Meehan (LD)",,"Andrew Wilson (SNP)",,"Lynsey Hamilton (Lab)",,"Poppy Corbet (C)",
+"Neil Barton (Grn)",230,-230.00,"-",,"-",,"-",,"-",
+"Poppy Corbet (C)",1742,+55.00,1797.00,+6.00,1803.00,+92.00,1895.00,-1895.00,"-",
+"Lynsey Hamilton (Lab)",1082,+63.00,1145.00,+14.00,1159.00,-1159.00,"-",,"-",
+"Eileen Logan (Lab)",1743,+93.00,1836.00,+35.00,1871.00,+911.00,2782.00,+964.00,3746.00,"Elected"
+"Peter Meehan (LD)",181,-181.00,"-",,"-",,"-",,"-",
+"David Shearer (SNP)",1678,+96.00,1774.00,+698.00,2472.00,+65.00,2537.00,+68.00,2605.00,
+"Andrew Wilson (SNP)",737,+38.00,775.00,-775.00,"-",,"-",,"-",
+"Non-transferable", ,+66.00,66.00,+22.00,88.00,+91.00,179.00,+863.00,1042.00,
+"Totals",7393,,7393.00,,7393.00,,7393.00,,7393.00

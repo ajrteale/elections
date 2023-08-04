@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 8 - East Kilbride Central North"
+"Date","02 Aug 2023"
+"Number to be elected",1
+"Valid votes",5705
+"Invalid votes",0
+"Quota",2561.00
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Kristofer Keane (Ind)+Tom Bryson (LD)",,"Tam Mitchell (Lab)",,"Alex Brown (C)+Hugh Macdonald (SNP)",
+"Alex Brown (C)",694,+45.00,739.00,+27.00,766.00,-766.00,"-",
+"Tom Bryson (LD)",187,-187.00,"-",,"-",,"-",
+"Joe Fagan (Lab)",1709,+101.00,1810.00,+353.00,2163.00,+375.00,2538.00,
+"Grant Ferguson (SNP)",1889,+63.00,1952.00,+12.00,1964.00,+620.00,2584.00,"Elected"
+"Kristofer Keane (Ind)",194,-194.00,"-",,"-",,"-",
+"Hugh Macdonald (SNP)",612,+37.00,649.00,+20.00,669.00,-669.00,"-",
+"Tam Mitchell (Lab)",420,+42.00,462.00,-462.00,"-",,"-",
+"Non-transferable", ,+93.00,93.00,+50.00,143.00,+440.00,583.00,
+"Totals",5705,,5705.00,,5705.00,,5705.00

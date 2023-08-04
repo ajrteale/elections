@@ -1,0 +1,21 @@
+"Election for","South Lanarkshire May 2022 - Ward 3 - Clydesdale East"
+"Date","02 Aug 2023"
+"Number to be elected",1
+"Valid votes",5289
+"Invalid votes",0
+"Quota",2263.00
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Claire Watson (Grn)+Gareth Kirk (ScFam)+John McLatchie (SNP)+Nicholas Tucker (LD)",,"Eric Holford (C)",,"Ralph Barker (Lab)",
+"Alex Allison (C)",1364,+54.00,1418.00,+681.00,2099.00,+259.00,2358.00,"Elected"
+"Ralph Barker (Lab)",869,+149.00,1018.00,+58.00,1076.00,-1076.00,"-",
+"Eric Holford (C)",794,+46.00,840.00,-840.00,"-",,"-",
+"Gareth Kirk (ScFam)",49,-49.00,"-",,"-",,"-",
+"Ian McAllan (SNP)",1513,+384.00,1897.00,+35.00,1932.00,+236.00,2168.00,
+"John McLatchie (SNP)",260,-260.00,"-",,"-",,"-",
+"Nicholas Tucker (LD)",162,-162.00,"-",,"-",,"-",
+"Claire Watson (Grn)",278,-278.00,"-",,"-",,"-",
+"Non-transferable", ,+116.00,116.00,+66.00,182.00,+581.00,763.00,
+"Totals",5289,,5289.00,,5289.00,,5289.00
