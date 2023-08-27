@@ -1,18 +1,15 @@
 "Polling","Council","ID","Ward","ID","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-2023-08-24,"Bristol",100,"Bishopston/Ashley Down",16327,"Grn","Lily Fitzgibbon","Resignation",,"andrewteale.me.uk/i18q","Roddy Jaques","Andrew Milton","Barry Cash","James Crawford",,"Amy Sage (TUSC)"
-2023-08-24,"Dudley",59,"St James's",1230,"C","Wayne Sullivan","Resignation",,"andrewteale.me.uk/ikeb","Rab Rana","Caroline Reid","Abdul Qadus","Christian Kiever",,"Richard Tasker (Ind)"
-2023-08-24,"Isle of Wight",87,"Wootton Bridge",2089,"Vectis","Daryll Pitcher","Resignation","Imprisonment","andrewteale.me.uk/icyv","Ed Hopper",,"Sarah Redrup","Michael Smith",,"Linda Pitcher (Vectis Party)"
-2023-08-31,"Caerphilly",413,"Penmaen",23002,"Lab","Jim Sadler","Death",,"andrewteale.me.uk/ibex",,,,,,
-2023-08-31,"Derbys CC",377,"Swadlincote S",12436,"C","Roger Redfern","Death",,"andrewteale.me.uk/i4pm",,,,,,
-2023-08-31,"Kirklees",66,"Batley E",1366,"Lab","Fazila Loonat","Resignation","Imprisonment","andrewteale.me.uk/ipjb",,,,,,
-2023-09-06,"Spelthorne",344,"Ashford Tn",4527,"Grn","Andrew McLuskey","Resignation",,"andrewteale.me.uk/igfe",,,,,,
-2023-09-07,"Broadland",275,"Thorpe St Andrew NW",7261,"Lab","Drew Moore","Resignation",,"andrewteale.me.uk/ibyg",,,,,,
-2023-09-07,"City of London (Aldermen)",468,"Bread St",21585,"Ind","Sir William Russell","Resignation",,"andrewteale.me.uk/id3v",,,,,,
-2023-09-07,"Herefs",107,"Golden Valley S",16992,"Ind","Peter Jinman","Death",,"andrewteale.me.uk/i6vr",,,,,,
-2023-09-07,"Manchester",35,"Brooklands",19554,"Lab","Julia Baker-Smith","Resignation",,"andrewteale.me.uk/iu7t",,,,,,
-2023-09-07,"Newcastle (Lyme)",326,"Audley",19642,"Lab","Sue Moffat","Resignation",,"andrewteale.me.uk/ihbu",,,,,,
-2023-09-07,"Newcastle (Lyme)",326,"Knutton",19650,"Lab","Steph Talbot","Resignation",,"andrewteale.me.uk/irbu",,,,,,
-2023-09-07,"Salop",125,"Worfield",2941,"C","Richard Marshall","Resignation",,"andrewteale.me.uk/iezc",,,,,,
+2023-08-31,"Caerphilly",413,"Penmaen",23002,"Lab","Jim Sadler","Death",,"andrewteale.me.uk/ibex","Imogen Martin","Elizabeth Davies","Jonathan Errington",,"Andrew Short","George Edwards-Etheridge (Ind), Clayton Jones (Gwlad)"
+2023-08-31,"Derbys CC",377,"Swadlincote S",12436,"C","Roger Redfern","Death",,"andrewteale.me.uk/i4pm","Jacqueline Geddes","Alan Haynes",,,,
+2023-08-31,"Kirklees",66,"Batley E",1366,"Lab","Fazila Loonat","Resignation","Imprisonment","andrewteale.me.uk/ipjb","Beverley Smith","Ebrahim Dockrat","Stephen Long","Simon Duffy",,"Bikatshi Katenga (Yorkshire Party), Mark Steele (SDP)"
+2023-09-06,"Spelthorne",344,"Ashford Tn",4527,"Grn","Andrew McLuskey","Resignation",,"andrewteale.me.uk/igfe","Paul Woodward","Mark Kluth",,"Stuart Whitmore",,"Paul Couchman (TUSC), John Enright (Ind), Rory O'Brien (Reform UK)"
+2023-09-07,"Broadland",275,"Thorpe St Andrew NW",7261,"Lab","Drew Moore","Resignation",,"andrewteale.me.uk/ibyg","Peter Berry","Carol Ferris","Victor Morgan",,,
+2023-09-07,"City of London (Aldermen)",468,"Bread St",21585,"Ind","Sir William Russell","Resignation",,"andrewteale.me.uk/id3v",,,,,,"Sarah Loveday (Ind), *William Russell (Ind)"
+2023-09-07,"Herefs",107,"Golden Valley S",16992,"Ind","Peter Jinman","Death",,"andrewteale.me.uk/i6vr","Dave Greenow","Sandy Grenar","Cat Hornsey",,,"Mike Jones (Ind), Toby Murcott (Ind)"
+2023-09-07,"Manchester",35,"Brooklands",19554,"Lab","Julia Baker-Smith","Resignation",,"andrewteale.me.uk/iu7t","Norman Decent","Dave Marsh","Euan Stewart","Grace Buczkowska",,"Dylan Evans (Reform UK)"
+2023-09-07,"Newcastle (Lyme)",326,"Audley",19642,"Lab","Sue Moffat","Resignation",,"andrewteale.me.uk/ihbu","Sally Rudd","Rebekah Lewis","Andrew Wemyss",,,"Duran O'Dwyer (Ind)"
+2023-09-07,"Newcastle (Lyme)",326,"Knutton",19650,"Lab","Steph Talbot","Resignation",,"andrewteale.me.uk/irbu","Derrick Huckfield","Robert Moss","Aidan Jenkins",,,
+2023-09-07,"Salop",125,"Worfield",2941,"C","Richard Marshall","Resignation",,"andrewteale.me.uk/iezc","Michael Wood","Shanthi Flynn","Andrew Sherrington",,,
 2023-09-14,"Barking/Dagenham",1,"Mayesbrook",23341,"Lab","Nashitha Choudhury","Resignation",,"andrewteale.me.uk/ilqx",,,,,,
 2023-09-14,"Chorley",249,"Croston/Mawdesley/Euxton S",21341,"C","Keith Iddon","Death",,"andrewteale.me.uk/izvv",,,,,,
 2023-09-14,"Lancs CC",387,"Chorley Rural W",18569,"C","Keith Iddon","Death",,"andrewteale.me.uk/izbt",,,,,,
@@ -24,15 +21,21 @@
 2023-09-21,"Milton Keynes",89,"Newport Pagnell S",12812,"C","Scot Balazs","Resignation",,"andrewteale.me.uk/ij1m",,,,,,
 2023-09-21,"S Ayrs",431,"Girvan/S Carrick",18522,"SNP","Peter Henderson","Resignation",,"andrewteale.me.uk/ik9s",,,,,,
 2023-09-28,"Highland",451,"Tain/Easter Ross",18424,"LD","Sarah Rawlings","Resignation",,"andrewteale.me.uk/il6s",,,,,,
+2023-09-28,"N Yorks",469,"Hutton Rudby/Osmotherley",23467,"C","Bridget Fortune","Resignation",,"andrewteale.me.uk/ieux",,,,,,
+2023-09-28,"S Norfolk",280,"Mulbarton/Stoke Holy Cross",19678,"LD","Julian Fulcher","Resignation",,"andrewteale.me.uk/ilcu",,,,,,
+2023-09-28,"S Norfolk",280,"S Wymondham",19685,"LD","Julian Halls","Death",,"andrewteale.me.uk/itcu",,,,,,
+2023-09-28,"Wolverhampton",63,"Bushbury S/Low Hill",24016,"Lab","Ian Brookfield","Death","Leader of the Council","andrewteale.me.uk/i1by",,,,,,
+2023-10-04,"Haringey",9,"S Tottenham",21731,"Lab","Charles Adje","Resignation",,"andrewteale.me.uk/it7v",,,,,,
+2023-10-04,"Haringey",9,"White Hart Lane",21736,"Lab","Yvonne Say","Resignation",,"andrewteale.me.uk/iy7v",,,,,,
+2023-10-05,"Tamworth",330,"Amington",5218,"Lab","Liam Bone","Resignation",,"andrewteale.me.uk/ie2e",,,,,,
+,"Cheltenham",209,"Prestbury",5998,"PABG","John Payne","Resignation",,"andrewteale.me.uk/i1sf",,,,,,
 ,"City of London",459,"Cripplegate",12939,"Ind","(Richard) Mark Bostock","Resignation",,"andrewteale.me.uk/id5m",,,,,,
 ,"City of London",459,"Farringdon Wt",12942,"TFT","Caroline Addy","Resignation",,"andrewteale.me.uk/ig5m",,,,,,
 ,"Elmbridge",338,"Molesey E",18067,"Molesey","Peter Pope","Resignation",,"andrewteale.me.uk/isvs",,,,,,
 ,"House of Commons",,"Rutherglen/Hamilton W",,"SNP","Margaret Ferrier","Recall petition",,,,,,,,
+,"Lambeth",26,"Vauxhall",23370,"Lab","Liam Jarnecki","Death",,"andrewteale.me.uk/igrx",,,,,,
+,"N Lanarks",438,"Motherwell SE/Ravenscraig",18488,"SNP","Agnes Magowan","Resignation",,"andrewteale.me.uk/ij8s",,,,,,
 ,"N Somerset",101,"Wrington",16894,"Ind","Steve Hogg","Resignation",,"andrewteale.me.uk/i7sr",,,,,,
-,"N Yorks",469,"Hutton Rudby/Osmotherley",23467,"C","Bridget Fortune","Resignation",,"andrewteale.me.uk/ieux",,,,,,
-,"S Norfolk",280,"Mulbarton/Stoke Holy Cross",19678,"LD","Julian Fulcher","Resignation",,"andrewteale.me.uk/ilcu",,,,,,
-,"S Norfolk",280,"S Wymondham",19685,"LD","Julian Halls","Death",,"andrewteale.me.uk/itcu",,,,,,
 ,"Suffolk CC",399,"Woodbridge",7192,"LD","Caroline Page","Death",,"andrewteale.me.uk/i7vg",,,,,,
-,"Wolverhampton",63,"Bushbury S/Low Hill",24016,"Lab","Ian Brookfield","Death","Leader of the Council","andrewteale.me.uk/i1by",,,,,,
 ,"Worcester",368,"Warndon Parish S",5574,"C","Andy Roberts","Death",,"andrewteale.me.uk/i6df",,,,,,
 ,"Worcs CC",404,"Warndon Parish",5654,"C","Andy Roberts","Death",,"andrewteale.me.uk/imgf",,,,,,
