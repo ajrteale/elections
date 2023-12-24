@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 18 - Hamilton West And Earnock"
+"Date","04 Aug 2023"
+"Number to be elected",4
+"Valid votes",5823
+"Invalid votes",0
+"Quota",1164.60000
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Mary Donnelly (SNP)",,"Allan Falconer (Lab)",,"Leonard Gingell (Grn)",,"Jim Lee (Lab)",
+"Mary Donnelly (SNP)",1731,-566.40000,1164.60000,,1164.60000,,1164.60000,,1164.60000,"Elected"
+"Allan Falconer (Lab)",1404,,1404.00000,-239.40000,1164.60000,,1164.60000,,1164.60000,"Elected"
+"Graham Fisher (C)",753,+9.37035,762.37035,+19.65763,782.02798,+6.58283,788.61081,+80.47249,869.08330,
+"Leonard Gingell (Grn)",179,+44.76945,223.76945,+8.17446,231.94391,-231.94391,"-",,"-",
+"Graeme Horne (SNP)",680,+488.29935,1168.29935,,1168.29935,,1168.29935,,1168.29935,"Elected"
+"Jim Lee (Lab)",385,+7.28805,392.28805,+199.49575,591.78380,+57.15380,648.93760,-648.93760,"-",
+"Mark McGeever (LD)",691,+16.65840,707.65840,+12.06706,719.72546,+64.76173,784.48719,+231.49297,1015.98016,"Elected"
+"Non-transferable", ,+0.01440,0.01440,+0.00510,0.01950,+103.44555,103.46505,+336.97214,440.43719,
+"Totals",5823,,5823.00000,,5823.00000,,5823.00000,,5823.00000

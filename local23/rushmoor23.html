@@ -1,0 +1,1737 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+RRRRRRRRRRRRRRRRR                                      hhhhhhh
+R::::::::::::::::R                                     h:::::h
+R::::::RRRRRR:::::R                                    h:::::h
+RR:::::R     R:::::R                                   h:::::h
+  R::::R     R:::::Ruuuuuu    uuuuuu      ssssssssss    h::::h hhhhh          mmmmmmm    mmmmmmm      ooooooooooo      ooooooooooo   rrrrr   rrrrrrrrr
+  R::::R     R:::::Ru::::u    u::::u    ss::::::::::s   h::::hh:::::hhh     mm:::::::m  m:::::::mm  oo:::::::::::oo  oo:::::::::::oo r::::rrr:::::::::r
+  R::::RRRRRR:::::R u::::u    u::::u  ss:::::::::::::s  h::::::::::::::hh  m::::::::::mm::::::::::mo:::::::::::::::oo:::::::::::::::or:::::::::::::::::r
+  R:::::::::::::RR  u::::u    u::::u  s::::::ssss:::::s h:::::::hhh::::::h m::::::::::::::::::::::mo:::::ooooo:::::oo:::::ooooo:::::orr::::::rrrrr::::::r
+  R::::RRRRRR:::::R u::::u    u::::u   s:::::s  ssssss  h::::::h   h::::::hm:::::mmm::::::mmm:::::mo::::o     o::::oo::::o     o::::o r:::::r     r:::::r
+  R::::R     R:::::Ru::::u    u::::u     s::::::s       h:::::h     h:::::hm::::m   m::::m   m::::mo::::o     o::::oo::::o     o::::o r:::::r     rrrrrrr
+  R::::R     R:::::Ru::::u    u::::u        s::::::s    h:::::h     h:::::hm::::m   m::::m   m::::mo::::o     o::::oo::::o     o::::o r:::::r
+  R::::R     R:::::Ru:::::uuuu:::::u  ssssss   s:::::s  h:::::h     h:::::hm::::m   m::::m   m::::mo::::o     o::::oo::::o     o::::o r:::::r
+RR:::::R     R:::::Ru:::::::::::::::uus:::::ssss::::::s h:::::h     h:::::hm::::m   m::::m   m::::mo:::::ooooo:::::oo:::::ooooo:::::o r:::::r
+R::::::R     R:::::R u:::::::::::::::us::::::::::::::s  h:::::h     h:::::hm::::m   m::::m   m::::mo:::::::::::::::oo:::::::::::::::o r:::::r
+R::::::R     R:::::R  uu::::::::uu:::u s:::::::::::ss   h:::::h     h:::::hm::::m   m::::m   m::::m oo:::::::::::oo  oo:::::::::::oo  r:::::r
+RRRRRRRR     RRRRRRR    uuuuuuuu  uuuu  sssssssssss     hhhhhhh     hhhhhhhmmmmmm   mmmmmm   mmmmmm   ooooooooooo      ooooooooooo    rrrrrrr
+BBBBBBBBBBBBBBBBB                                                                                               hhhhhhh
+B::::::::::::::::B                                                                                              h:::::h
+B::::::BBBBBB:::::B                                                                                             h:::::h
+BB:::::B     B:::::B                                                                                            h:::::h
+  B::::B     B:::::B   ooooooooooo   rrrrr   rrrrrrrrr      ooooooooooo   uuuuuu    uuuuuu     ggggggggg   ggggg h::::h hhhhh
+  B::::B     B:::::B oo:::::::::::oo r::::rrr:::::::::r   oo:::::::::::oo u::::u    u::::u    g:::::::::ggg::::g h::::hh:::::hhh
+  B::::BBBBBB:::::B o:::::::::::::::or:::::::::::::::::r o:::::::::::::::ou::::u    u::::u   g:::::::::::::::::g h::::::::::::::hh
+  B:::::::::::::BB  o:::::ooooo:::::orr::::::rrrrr::::::ro:::::ooooo:::::ou::::u    u::::u  g::::::ggggg::::::gg h:::::::hhh::::::h
+  B::::BBBBBB:::::B o::::o     o::::o r:::::r     r:::::ro::::o     o::::ou::::u    u::::u  g:::::g     g:::::g  h::::::h   h::::::h
+  B::::B     B:::::Bo::::o     o::::o r:::::r     rrrrrrro::::o     o::::ou::::u    u::::u  g:::::g     g:::::g  h:::::h     h:::::h
+  B::::B     B:::::Bo::::o     o::::o r:::::r            o::::o     o::::ou::::u    u::::u  g:::::g     g:::::g  h:::::h     h:::::h
+  B::::B     B:::::Bo::::o     o::::o r:::::r            o::::o     o::::ou:::::uuuu:::::u  g::::::g    g:::::g  h:::::h     h:::::h
+BB:::::BBBBBB::::::Bo:::::ooooo:::::o r:::::r            o:::::ooooo:::::ou:::::::::::::::uug:::::::ggggg:::::g  h:::::h     h:::::h
+B:::::::::::::::::B o:::::::::::::::o r:::::r            o:::::::::::::::o u:::::::::::::::u g::::::::::::::::g  h:::::h     h:::::h
+B::::::::::::::::B   oo:::::::::::oo  r:::::r             oo:::::::::::oo   uu::::::::uu:::u  gg::::::::::::::g  h:::::h     h:::::h
+BBBBBBBBBBBBBBBBB      ooooooooooo    rrrrrrr               ooooooooooo       uuuuuuuu  uuuu    gggggggg::::::g  hhhhhhh     hhhhhhh
+                                                                                                        g:::::g
+                                                                                            gggggg      g:::::g
+                                                                                            g:::::gg   gg:::::g
+                                                                                             g::::::ggg:::::::g
+                                                                                              gg:::::::::::::g
+                                                                                                ggg::::::ggg
+                                                                                                   gggggg
+        CCCCCCCCCCCCC                                                                           iiii  lllllll
+     CCC::::::::::::C                                                                          i::::i l:::::l
+   CC:::::::::::::::C                                                                           iiii  l:::::l
+  C:::::CCCCCCCC::::C                                                                                 l:::::l
+ C:::::C       CCCCCC   ooooooooooo   uuuuuu    uuuuuu  nnnn  nnnnnnnn        cccccccccccccccciiiiiii  l::::l
+C:::::C               oo:::::::::::oo u::::u    u::::u  n:::nn::::::::nn    cc:::::::::::::::ci:::::i  l::::l
+C:::::C              o:::::::::::::::ou::::u    u::::u  n::::::::::::::nn  c:::::::::::::::::c i::::i  l::::l
+C:::::C              o:::::ooooo:::::ou::::u    u::::u  nn:::::::::::::::nc:::::::cccccc:::::c i::::i  l::::l
+C:::::C              o::::o     o::::ou::::u    u::::u    n:::::nnnn:::::nc::::::c     ccccccc i::::i  l::::l
+C:::::C              o::::o     o::::ou::::u    u::::u    n::::n    n::::nc:::::c              i::::i  l::::l
+C:::::C              o::::o     o::::ou::::u    u::::u    n::::n    n::::nc:::::c              i::::i  l::::l
+ C:::::C       CCCCCCo::::o     o::::ou:::::uuuu:::::u    n::::n    n::::nc::::::c     ccccccc i::::i  l::::l
+  C:::::CCCCCCCC::::Co:::::ooooo:::::ou:::::::::::::::uu  n::::n    n::::nc:::::::cccccc:::::ci::::::il::::::l
+   CC:::::::::::::::Co:::::::::::::::o u:::::::::::::::u  n::::n    n::::n c:::::::::::::::::ci::::::il::::::l
+     CCC::::::::::::C oo:::::::::::oo   uu::::::::uu:::u  n::::n    n::::n  cc:::::::::::::::ci::::::il::::::l
+        CCCCCCCCCCCCC   ooooooooooo       uuuuuuuu  uuuu  nnnnnn    nnnnnn    cccccccccccccccciiiiiiiillllllll
+-->
+
+    
+
+    <title>Local election results - 4 May 2023 - Rushmoor Borough Council</title>
+
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1' http-equiv='X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="description" content="Results of the Rushmoor Borough Council elections on Thursday 4 May 2023.">
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NHQD589');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="stylesheet" href="/css/vendor/font-awesome/all.css" />
+<link rel="stylesheet" href="/vendor/mmenu/dist/mmenu.css" />
+<link rel="stylesheet" href="/css/RTE.css" />
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="shortcut icon" href="/assets/Images/favicon.ico" type="image/x-icon" />
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+<script type="text/javascript" src="/scripts/script.js"></script>
+<script type="text/javascript" src="/scripts/accessible-menu.js"></script>
+<script type="text/javascript" src="/scripts/carousel.js"></script>
+<script type="text/javascript" src="/scripts/gallery.js"></script>
+<script type="text/javascript" src="/scripts/custom-date-picker.js"></script>
+<script type="text/javascript" src="/scripts/jquery-dateFormat.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css">
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+</head>
+<body id="body">
+    
+
+<a href="#main" class="skip-link">Skip to main content</a>
+<a href="#header" class="skip-link">Skip to header</a>
+<a href="#nav" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+    <a href="#contact-details" class="skip-link">Skip to contact details</a>
+
+    <div class="site-page" id="site-page">
+        
+
+
+
+        
+
+<header id="header" class="header">
+    <div class="primary-header fw-container">
+        <div class="primary-header__wrapper constrain">
+            <div class="header__container">
+                <div class="header__container--split">
+                    <div class="header__logo">
+                            <a href="/" class="header__logo-link" id="header__logo-link">
+                                <img class="header__logo-image" src="/media/bsujprfx/rushmoor-borough-council.png" alt="Rushmoor Borough Council" />
+                            </a>
+                    </div>
+                </div>
+                <div class="header__container--split">
+                        <div class="search search__header teal">
+                            
+
+
+<form action="/search-results" method="get" class="teal">
+    <div class="search__header-container icon">
+        <label for="site-search__main" class="visuallyhidden">Search</label>
+        <input type="text" class="search-bar search-bar--header" placeholder="Search Rushmoor Borough Council" id="site-search__main" name="keyword" title="Search">
+    </div>
+</form>
+                        </div>
+                    <div class="nav nav-container">
+                        
+
+<div class="hamburger">
+    <section class="other-mobile-navigation">
+        <button aria-expanded="false" class="mburger nav__button other-trigger" aria-label="Main Navigation Button" id="nav">
+            <b></b>
+            <b></b>
+            <b></b>
+            <span class="other-trigger-status screenreader-text closed">Open</span>
+            Menu
+        </button>
+    </section>
+</div>
+
+
+
+
+<nav aria-label="Mobile Accessibility Navigation Dropdown" class="primary-navigation" id="menu" role="navigation" >
+        <ul class="nav__list" id="nav__list">
+            <li class="nav__search teal">
+                
+
+
+<form action="/search-results" method="get" class="teal">
+    <div class="search__header-container icon">
+        <label for="site-search__menu" class="visuallyhidden">Search</label>
+        <input type="text" class="search-bar search-bar--header" placeholder="Search Rushmoor Borough Council" id="site-search__menu" name="keyword" title="Search" aria-label="Search">
+    </div>
+</form>
+            </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/your-council/" class="nav__link" target="_self">Your council</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Your council sub menu">
+                                <span class="visuallyhidden">Open Your council sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/contact-us/">Contact us</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/elections-and-voting/">Elections and voting</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/councillors-and-the-mayor/">Councillors and the Mayor</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/meetings-agendas-and-minutes/">Meetings, agendas and minutes</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/about-rushmoor-borough-council/">About Rushmoor Borough Council</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/news-and-your-views/">News and your views</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/council-job-opportunities/">Council job opportunities</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/council-departments-and-management-team/">Council departments and management team</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/the-cabinet-and-leader-of-the-council/">The Cabinet and Leader of the Council</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/council-budgets-and-spending/">Council budgets and spending</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/legal-information/">Legal information</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/facts-and-figures-about-rushmoor/">Facts and figures about Rushmoor</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/our-international-partner-towns/">Our international partner towns</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/our-priorities/">Our priorities</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/your-council/your-future-your-place-a-vision-for-aldershot-and-farnborough-2030/">Your future, your place - a vision for Aldershot and Farnborough 2030</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/council-tax/" class="nav__link" target="_self">Council tax</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Council tax sub menu">
+                                <span class="visuallyhidden">Open Council tax sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/view-your-council-tax-account-online/">View your council tax account online</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/paying-your-council-tax/">Paying your council tax</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/council-tax-support/">Council tax support</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/tell-us-you-are-moving-home/">Tell us you are moving home</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/get-money-off-your-council-tax-bill/">Get money off your council tax bill</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/council-tax/council-tax-energy-rebate/">Council tax energy rebate</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/recycling-rubbish-and-environment/" class="nav__link" target="_self">Recycling, rubbish and environment</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Recycling, rubbish and environment sub menu">
+                                <span class="visuallyhidden">Open Recycling, rubbish and environment sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/bins-and-recycling/">Bins and recycling</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/keeping-rushmoor-clean/">Keeping Rushmoor clean</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/problems-with-animals-and-pests/">Problems with animals and pests</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/water-flooding-and-drainage/">Water, flooding and drainage</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/noise-and-air-pollution/">Noise and air pollution</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/climate-change-and-biodiversity/">Climate change and biodiversity</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/grass-hedges-and-trees/">Grass, hedges and trees</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/waste-cleaning-and-landscaping-services-for-local-businesses/">Waste, cleaning and landscaping services for local businesses</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/recycling-rubbish-and-environment/environmental-ambassadors/">Environmental ambassadors</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/housing-benefits-and-support/" class="nav__link" target="_self">Housing, benefits and support</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Housing, benefits and support sub menu">
+                                <span class="visuallyhidden">Open Housing, benefits and support sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/cost-of-living-help/">Cost of living help</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/claiming-support-and-benefits/">Claiming support and benefits</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/looking-for-a-home/">Looking for a home</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/housing-problems/">Housing problems</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/help-and-advice-for-landlords/">Help and advice for landlords</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/homelessness-and-urgent-housing-need/">Homelessness and urgent housing need</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/council-tax-support/">Council tax support</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/local-housing-allowance-lha-for-private-tenants/">Local Housing Allowance (LHA) for private tenants</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/changes-that-could-affect-your-benefits/">Changes that could affect your benefits</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/benefits-advice-and-support/">Benefits advice and support</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/help-to-adapt-or-improve-your-home/">Help to adapt or improve your home</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/benefit-and-housing-fraud/">Benefit and housing fraud</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/bringing-empty-properties-back-into-use/">Bringing empty properties back into use</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/housing-and-homelessness-strategy/">Housing and Homelessness Strategy</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/welfare-reform-and-benefits-changes/">Welfare reform and benefits changes</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/housing-benefits-and-support/published-data-about-housing-benefit-council-tax-support-and-welfare-reform/">Published data about housing benefit, council tax support and welfare reform</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/community-parks-and-leisure/" class="nav__link" target="_self">Community, parks and leisure</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Community, parks and leisure sub menu">
+                                <span class="visuallyhidden">Open Community, parks and leisure sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/arts-and-events/">Arts and events</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/parks-and-outdoors/">Parks and outdoors</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/sports-and-leisure/">Sports and leisure</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/community-facilities/">Community facilities</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/theatres-and-heritage/">Theatres and heritage</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/heart-of-farnborough-group/">Heart of Farnborough Group</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/aldershot-community-together/">Aldershot Community Together</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/rushmoor-community-lottery/">Rushmoor Community Lottery</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/grants-for-community-organisations/">Grants for community organisations</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/community-safety/">Community safety</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/street-parties/">Street parties</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/community-parks-and-leisure/volunteering/">Volunteering</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/planning-and-building-control/" class="nav__link" target="_self">Planning and building control</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Planning and building control sub menu">
+                                <span class="visuallyhidden">Open Planning and building control sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/planning-permission-and-applications/">Planning permission and applications</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/building-control/">Building control</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/conservation-and-heritage-assets/">Conservation and heritage assets</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/protected-trees/">Protected trees</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/planning-policies/">Planning policies</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/planning-enforcement/">Planning enforcement</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/thames-basin-heaths-special-protection-area/">Thames Basin Heaths Special Protection Area</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/farnborough-airport/">Farnborough airport</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/planning-and-building-control/aldershot-urban-extension-wellesley/">Aldershot Urban Extension (Wellesley)</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/business-licensing-and-skills/" class="nav__link" target="_self">Business, licensing and skills</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Business, licensing and skills sub menu">
+                                <span class="visuallyhidden">Open Business, licensing and skills sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/business-rates/">Business rates</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/business-support-and-advice/">Business support and advice</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/jobs-and-careers/">Jobs and careers</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/licensing-and-registration/">Licensing and registration</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/food-safety-and-your-business/">Food safety and your business</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/health-and-safety-in-the-workplace/">Health and safety in the workplace</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/business-in-rushmoor/">Business in Rushmoor</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/running-an-apprenticeship-scheme/">Running an apprenticeship scheme</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/business-licensing-and-skills/doing-business-with-the-council/">Doing business with the council</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/town-centres-and-regeneration/" class="nav__link" target="_self">Town centres and regeneration</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Town centres and regeneration sub menu">
+                                <span class="visuallyhidden">Open Town centres and regeneration sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/aldershot-town-centre/">Aldershot town centre</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/farnborough-town-centre/">Farnborough town centre</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/union-yard/">Union Yard</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/farnborough-civic-quarter/">Farnborough civic quarter</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/the-galleries/">The Galleries</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/rushmoor-development-partnership/">Rushmoor Development Partnership</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/town-centres-and-regeneration/farnborough-leisure-centre-and-farnborough-bowl/">Farnborough Leisure Centre and Farnborough Bowl</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/parking-and-roads/" class="nav__link" target="_self">Parking and roads</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Parking and roads sub menu">
+                                <span class="visuallyhidden">Open Parking and roads sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/parking-and-roads/parking/">Parking</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/parking-and-roads/traffic-management-and-roadworks/">Traffic management and roadworks</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/parking-and-roads/cycle-routes/">Cycle routes</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/parking-and-roads/taxis/">Taxis</a>
+                                    </li>
+                            </ul>
+
+                </li>
+                <li class="nav__item heading__l nav--primary">
+                    <a href="/death-and-bereavement/" class="nav__link" target="_self">Death and bereavement</a>
+                            <button class="nav__button--next primary-navigation__button heading__l" aria-expanded="false" aria-label="Open Death and bereavement sub menu">
+                                <span class="visuallyhidden">Open Death and bereavement sub menu</span>
+                            </button>
+                            <ul class="nav__list primary-navigation__sub" aria-hidden="true">
+                                <li class="nav__item">
+                                    <button class="nav__button--back primary-navigation__back heading__l" aria-label="Back to main menu">Back</button>
+                                </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/about-the-crematorium/">About the crematorium</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/cemeteries/">Cemeteries</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/crematorium-diary/">Crematorium diary</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/arranging-a-funeral-at-the-crematorium/">Arranging a funeral at the crematorium</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/crematorium-facilities/">Crematorium facilities</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/crematorium-memorials/">Crematorium memorials</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/book-of-remembrance/">Book of Remembrance</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/memorial-fees/">Memorial fees</a>
+                                    </li>
+                                    <li class="nav__item heading__l">
+                                        <a class="nav__link" href="/death-and-bereavement/cremation-fees/">Cremation fees</a>
+                                    </li>
+                            </ul>
+
+                </li>
+            <li class="nav__break">
+                <hr class="hr__nav" />
+            </li>
+        </ul>
+    </nav>
+
+                    </div>
+                </div>
+            </div>
+                <div class="header__title-container">
+                    <h1 class="header__title">Local election results - 4 May 2023</h1>
+                    <hr class="hr__banner" />
+                </div>
+            </div>
+    </div>
+</header>
+
+        <main class="main-container constrain constrain--narrow content content-template">
+
+
+<aside class="content__side side-nav teal">
+    <nav class="side-nav__container" role="navigation" aria-label="Side navigation for Election results">
+            <span class="side-nav__parent side-nav__parent--span heading__l">Election results</span>
+            <button class="side-nav__parent side-nav__parent--button heading__l" aria-expanded="false">Election results</button>
+        <ul class="side-nav__list side-nav__list--parent" aria-hidden="false">
+                        <li class="side-nav__item side-nav__item--active icon">
+
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-4-may-2023/" class="side-nav__current" aria-current="page">Local election results - 4 May 2023</a>
+
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-5-may-2022/" class="side-nav__link">Local election results - 5 May 2022</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-6-may-2021/" class="side-nav__link">Local election results - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/hampshire-county-council-elections-6-may-2021/" class="side-nav__link">Hampshire County Council elections - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/police-and-crime-commissioner-election-6-may-2021/" class="side-nav__link">Police and Crime Commissioner election - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/parliamentary-election-results-12-december-2019/" class="side-nav__link">Parliamentary election results - 12 December 2019</a>
+                        </li>
+
+        </ul>
+    </nav>
+</aside>            <div class="content__area content__area--with-side">
+                
+
+<section class="breadcrumb">
+    <div class="breadcrumb__container constrain constrain--padding constrain--narrow mobile-padding">
+        <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="/" class="breadcrumb__link heading__s--bold">Home</a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="/your-council/" class="breadcrumb__link heading__s--bold">Your council</a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="/your-council/elections-and-voting/" class="breadcrumb__link heading__s--bold">Elections and voting</a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="/your-council/elections-and-voting/election-results/" class="breadcrumb__link heading__s--bold">Election results</a>
+                </li>
+            <li class="breadcrumb__item">
+                <span class="breadcrumb__link heading__s--bold">Local election results - 4 May 2023</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+                <div class="constrain--padding constrain--narrow main-shadow" id="main">
+                    
+<div class="content__wrapper mobile-padding">
+    <div class="content__container">
+            <div class="content__inside">
+                
+
+<aside class="content__side side-nav teal">
+    <nav class="side-nav__container" role="navigation" aria-label="Side navigation for Election results">
+            <span class="side-nav__parent side-nav__parent--span heading__l">Election results</span>
+            <button class="side-nav__parent side-nav__parent--button heading__l" aria-expanded="false">Election results</button>
+        <ul class="side-nav__list side-nav__list--parent" aria-hidden="false">
+                        <li class="side-nav__item side-nav__item--active icon">
+
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-4-may-2023/" class="side-nav__current" aria-current="page">Local election results - 4 May 2023</a>
+
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-5-may-2022/" class="side-nav__link">Local election results - 5 May 2022</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/local-election-results-6-may-2021/" class="side-nav__link">Local election results - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/hampshire-county-council-elections-6-may-2021/" class="side-nav__link">Hampshire County Council elections - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/police-and-crime-commissioner-election-6-may-2021/" class="side-nav__link">Police and Crime Commissioner election - 6 May 2021</a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="/your-council/elections-and-voting/election-results/parliamentary-election-results-12-december-2019/" class="side-nav__link">Parliamentary election results - 12 December 2019</a>
+                        </li>
+
+        </ul>
+    </nav>
+</aside>
+            </div>
+                        <p class="heading__m--bold">Results of the Rushmoor Borough Council elections on Thursday 4 May 2023.</p>
+        
+    <div class="umb-grid">
+                <div class="grid-section">
+    <div >
+            <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div >
+                            
+    
+<h2>Aldershot Park Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 10px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">ARMITAGE<br />David Anthony</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 10px;">298</td>
+</tr>
+<tr>
+<td style="width: 131px;">MORRELL<br />Sam</td>
+<td style="width: 242px;">Liberal Democrat</td>
+<td style="width: 10px;">85</td>
+</tr>
+<tr>
+<td style="width: 131px;">PORTER<br />Sophie Lee'Ann</td>
+<td style="width: 242px;">Labour Party</td>
+<td style="width: 10px;">987 (ELECTED)</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 27.3%.</p>
+<h2>Cherrywood Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 10px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">GUINNESS<br />Christine Avril</td>
+<td style="width: 242px;">Labour Party</td>
+<td style="width: 10px;">994 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 131px;">PUN<br />Suman</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 10px;">470</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 28.9%.</span></p>
+<h2>Cove and Southwood Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 10px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">CAWSEY<br />Paul Andrew</td>
+<td style="width: 242px;">Green Party</td>
+<td style="width: 10px;">117</td>
+</tr>
+<tr>
+<td style="width: 131px;">GRINTER<br />Kieran James</td>
+<td style="width: 242px;">Labour Party</td>
+<td style="width: 10px;">489</td>
+</tr>
+<tr>
+<td style="width: 131px;">MASTERSON<br />Steve</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 10px;">794 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 131px;">MITCHELL<br />Emily Rebecca</td>
+<td style="width: 242px;">Liberal Democrats</td>
+<td style="width: 10px;">246</td>
+</tr>
+</tbody>
+</table>
+<p><span class="heading__m">Turnout: 30.5%</span><span class="heading__m">.</span></p>
+<h2>Empress Ward</h2>
+<table border="0">
+<tbody>
+<tr style="height: 54px;">
+<th style="width: 154px; height: 54px;">Candidate name</th>
+<th style="width: 242px; height: 54px;">Description of candidate</th>
+<th style="width: 10px; height: 54px;">Number of votes</th>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 154px; height: 36px;">CARD<br />Leola Jane</td>
+<td style="width: 242px; height: 36px;">Liberal Democrat</td>
+<td style="width: 10px; height: 36px;">372</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 154px; height: 36px;">DALE<br />Helen</td>
+<td style="width: 242px; height: 36px;">The Conservative Party Candidate</td>
+<td style="width: 10px; height: 36px;">593</td>
+</tr>
+<tr style="height: 54px;">
+<td style="width: 154px; height: 54px;">SIMPSON<br />Ian Michael Brumwell</td>
+<td style="width: 242px; height: 54px;">Reform UK</td>
+<td style="width: 10px; height: 54px;">82</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 154px; height: 36px;">WILLIAMS<br />Gareth Idris</td>
+<td style="width: 242px; height: 36px;">Labour Party</td>
+<td style="width: 10px; height: 36px;">707 (ELECTED)</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 37.8%.</span></p>
+<h2>Fernhill Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">ALLEN<br />Abe Michael Terry</td>
+<td style="width: 242px;">Labour Party</td>
+<td style="width: 4px;">822 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 131px;">AMOS<br />Len</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">583</td>
+</tr>
+<tr>
+<td style="width: 131px;">WHYMAN<br />Jill</td>
+<td style="width: 242px;">Liberal Democrats</td>
+<td style="width: 4px;">
+<p>151</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 30.5%.</span></p>
+<h2>Knellwood Ward</h2>
+<table border="0">
+<tbody>
+<tr style="height: 36px;">
+<th style="width: 131px; height: 36px;">Candidate name</th>
+<th style="width: 242px; height: 36px;">Description of candidate</th>
+<th style="width: 10px; height: 36px;">Number of votes</th>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">CRAGG<br />Tad</td>
+<td style="width: 242px; height: 36px;">Labour and Co-operative Party</td>
+<td style="width: 10px; height: 36px;">636</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">JOYCE<br />Kevin Robert</td>
+<td style="width: 242px; height: 36px;">Heritage Party</td>
+<td style="width: 10px; height: 36px;">115</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">STEWART<br />Calum James</td>
+<td style="width: 242px; height: 36px;">The Conservative Party Candidate</td>
+<td style="width: 10px; height: 36px;">863 (ELECTED)</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">TROTTER<br />Mark</td>
+<td style="width: 242px; height: 36px;">Liberal Democrats</td>
+<td style="width: 10px; height: 36px;">623</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 40.1%.</span></p>
+<h2>Manor Park Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">CRERAR<br />Peter Ian Charles</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">921</td>
+</tr>
+<tr>
+<td style="width: 131px;">WILLIAMS<br />Becky</td>
+<td style="width: 242px;">Labour Party</td>
+<td style="width: 4px;">1103 (ELECTED)</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 37%.</span></p>
+<h2>North Town Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">AUSTIN<br />Gaynor Frances</td>
+<td style="width: 242px;">Labour and Co-operative Party</td>
+<td style="width: 4px;">1022 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 131px;">BROWN<br />Dick</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">301</td>
+</tr>
+<tr>
+<td style="width: 131px;">CHRISTODOULOU<br />Glenn Alexander</td>
+<td style="width: 242px;">Liberal Democrats</td>
+<td style="width: 4px;">67</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 27.97%.</span></p>
+<h2>Rowhill Ward</h2>
+<table border="0">
+<tbody>
+<tr style="height: 36px;">
+<th style="width: 131px; height: 36px;">Candidate name</th>
+<th style="width: 242px; height: 36px;">Description of candidate</th>
+<th style="width: 4px; height: 36px;">Number of votes</th>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">HILLIAR<br />Alan Richard</td>
+<td style="width: 242px; height: 36px;">Liberal Democrats</td>
+<td style="width: 4px; height: 36px;">254</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">KOOHESTANI<br />Halleh</td>
+<td style="width: 242px; height: 36px;">Labour Party</td>
+<td style="width: 4px; height: 36px;">866 (ELECTED)</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">NEWELL<br />Adrian Robert</td>
+<td style="width: 242px; height: 36px;">The Conservative Party Candidate</td>
+<td style="width: 4px; height: 36px;">660</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 35.98%.</span></p>
+<h2>St John's Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 277px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 277px;">CULLUM<br />Peter James Gordon Edward McGready</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">747 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 277px;">O'DOWD-BOOTH<br />Olive Jane</td>
+<td style="width: 242px;">Liberal Democrats</td>
+<td style="width: 4px;">165</td>
+</tr>
+<tr>
+<td style="width: 277px;">WARNER<br />Julia Louise</td>
+<td style="width: 242px;">Labour and Co-operative Party</td>
+<td style="width: 4px;">733</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 33.4%.</span></p>
+<h2>St Mark's Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 153px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 153px;">JONES<br />Barry</td>
+<td style="width: 242px;">Labour and Co-operative Party</td>
+<td style="width: 4px;">268</td>
+</tr>
+<tr>
+<td style="width: 153px;">KOHER CHOWDHURY<br />Abul</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">554</td>
+</tr>
+<tr>
+<td style="width: 153px;">MITCHELL<br />Thomas William</td>
+<td style="width: 242px;">Liberal Democrats</td>
+<td style="width: 4px;">774 (ELECTED)</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 30.43%.</span></p>
+<h2>Wellington Ward</h2>
+<table border="0">
+<tbody>
+<tr style="height: 54px;">
+<th style="width: 131px; height: 54px;">Candidate name</th>
+<th style="width: 264px; height: 54px;">Description of candidate</th>
+<th style="width: 4px; height: 54px;">Number of votes</th>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">HARTLEY<br />Mary Ann</td>
+<td style="width: 264px; height: 36px;">The Conservative Party Candidate</td>
+<td style="width: 4px; height: 36px;">414</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">LUNN<br />Aidan David</td>
+<td style="width: 264px; height: 36px;">Liberal Democrats</td>
+<td style="width: 4px; height: 36px;">66</td>
+</tr>
+<tr style="height: 54px;">
+<td style="width: 131px; height: 54px;">LYDDALL<br />Ryan Christopher</td>
+<td style="width: 264px; height: 54px;">Trade Unionist and Socialist Coalition</td>
+<td style="width: 4px; height: 54px;">22</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 131px; height: 36px;">SARKI<br />Dhan Bahadur</td>
+<td style="width: 264px; height: 36px;">Labour Party</td>
+<td style="width: 4px; height: 36px;">652 (ELECTED)</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 16px;">Turnout: 25.46%.</span></p>
+<h2>West Heath Ward</h2>
+<table border="0">
+<tbody>
+<tr>
+<th style="width: 131px;">Candidate name</th>
+<th style="width: 242px;">Description of candidate</th>
+<th style="width: 4px;">Number of votes</th>
+</tr>
+<tr>
+<td style="width: 131px;">FRANCIS<br />Gavin Raymond</td>
+<td style="width: 242px;">Labour and Co-operative Party</td>
+<td style="width: 4px;">607</td>
+</tr>
+<tr>
+<td style="width: 131px;">FRASER-FLEMING<br />Charlie</td>
+<td style="width: 242px;">Liberal Democrat</td>
+<td style="width: 4px;">194</td>
+</tr>
+<tr>
+<td style="width: 131px;">LYON<br />Gareth Benjamin</td>
+<td style="width: 242px;">The Conservative Party Candidate</td>
+<td style="width: 4px;">634 (ELECTED)</td>
+</tr>
+<tr>
+<td style="width: 131px;">NEVILLE<br />Edward John</td>
+<td style="width: 242px;">Green Party</td>
+<td style="width: 4px;">77</td>
+</tr>
+</tbody>
+</table>
+<p>Turnout: 31.9%.</p>
+<p>Total turnout for Rushmoor: 32.18%.</p>
+<p>These tables are a summary of the full <span class="rte__link--pdf"><a rel="noopener" href="/media/alcpkyqo/declaration-of-results.pdf" target="_blank">declaration of the results</a></span>.</p>
+<h2>Political balance of the council</h2>
+<p>Please visit our <a href="/your-council/councillors-and-the-mayor/political-balance-of-the-council/" title="Political balance of the council">political balance of the council page</a> to see an update following these elections.</p>
+<p> </p>
+
+
+                            
+    
+
+    
+        <div class="cta-box">
+                    <a href="/your-council/news-and-your-views/council-news/sign-up-for-news-from-the-council/" class="cta-box__link">
+                        <div class="cta-box__container pod--white green">
+                                <div class="cta-box__icon-area">
+                                    <i class="fad fa-paper-plane cta-box__icon icon" aria-hidden="true"></i>
+                                </div>
+
+                            <div class="cta-box__details">
+                                    <h3>Email news</h3>
+
+                                    <p>Keep up-to-date about council news and events taking place in Aldershot and Farnborough.</p>
+                            </div>
+                                <div class="cta-box__bottom">
+                                    <hr class="hr__Grey" />
+                                    <span class="cta-box__fake-link">Sign up for email news <i class="fas fa-long-arrow-right"></i></span>
+                                </div>
+                        </div>
+                    </a>
+        </div>
+    
+
+
+                </div>
+            </div>        </div>
+            </div>
+    </div>
+                </div>
+    </div>
+
+
+
+        
+
+
+    <hr class="hr__Teal" />
+    <p class="heading__2xl">Contact us</p>
+    <div id="contact-details">
+        <section class="contact-card pod--white">
+                <div class="contact-card__items teal">
+                    <div class="contact-card__icon heading__xl">
+                            <i class="fad fa-address-book icon"></i>
+                                                    <p class="contact-card__title heading__xl">Elections and electoral registration</p>
+
+                    </div>
+                    <div class="contact-card__details teal">
+                            <span class="contact-card__email">
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:elections@rushmoor.gov.uk">elections@rushmoor.gov.uk</a>
+                            </span>
+                        <br /><br />
+                            <span class="contact-card__phone">
+                                <i class="far fa-phone"></i>
+                                <a href="tel:01252 398 824">01252 398 824</a>
+                            </span>
+                    </div>
+                    <hr class="hr__Grey" />
+                </div>
+        </section>
+    </div>
+
+
+    </div>
+</div>
+
+                </div>
+            </div>
+        </main>
+
+
+    <section class="feedback">
+        <div class="feedback__gradient"></div>
+        <div class="constrain constrain--padding constrain--narrow mobile-padding">
+            <div class="feedback__container">
+                <div class="feedback__holder pod">
+                        <div id="umbraco_form_4d7149ea3aca47718795645b32bfaa90" class="umbraco-forms-form websitefeedback umbraco-forms-">
+
+<form action="/your-council/elections-and-voting/election-results/local-election-results-4-may-2023/" enctype="multipart/form-data" method="post"><input name="__RequestVerificationToken" type="hidden" value="TMYrV9Q4IDxPzw7nLLeVCwWSEPqVQBh7G17WXtgMT7l6qZBVXUQCqkXh9cpIZjcQGj8QIf9mZoBIOQ28YuW0LMunxUCBwLVgcxLJ2feQZNc1" /><input data-val="true" data-val-required="The FormId field is required." name="FormId" type="hidden" value="4d7149ea-3aca-4771-8795-645b32bfaa90" /><input name="FormName" type="hidden" value="Website feedback" /><input data-val="true" data-val-required="The RecordId field is required." name="RecordId" type="hidden" value="00000000-0000-0000-0000-000000000000" /><input name="PreviousClicked" type="hidden" value="" /><input name="Theme" type="hidden" value="" />            <input type="hidden" name="FormStep" value="0" />
+            <input type="hidden" name="RecordState" value="QkEzNDUwNUJBOUY4RDdBODI4QzMxRkM3NEExNzZDNjY3MUU4RTJDN0E0REE3RjgzQkI0NDE4QTUzMUE4RDFDMDM3MDRFNjFCQUVBRDg4NThDRUI1M0Y2QzlGNDVDRTMzRTg4NEZCNjVCOTA0RjEzNzI2RDBBRTMwREM5OUQ3RTA1NzU2NTYwNzg2RTc4NUU2ODgxOEU0M0FBOTVBRkE2NzYxNzIzQ0E2NDM4QjY4MEFGMzlCMjNDQUE3ODEwMzNCN0IzMkM0MjExMkRGNjUxNzI5QjI2NkI0MUZDNTBDOUE5NEVBM0VDMkI0RjlENTNGMUMzMkJCRkRFRTNFN0FFMDMxMjRBNjhBNzA3RUUzNDE2Qzk5MEI3RUY3REM1NTlDQzc0RURGQkEwOTk5RDFBMDU2RDYzQjE2OTk2MzdERjA1RTA0OERGMDZCQTg2RUIxMTk0QTZDOTdEQjQ5MERCM0E1NzZGNTc0QzMzNzY0NzlCNjJBQ0YyNEUzQUZEMTVDQUM2RTU4NkM3RjlGMTcxRENBNjE2M0IyQ0IyQUJBNzYyRjc3OThFMkUyODMxQTRBM0ZCQTk4MzZFMDI3QTA3M0FBODVEMkJDNzY0NzU5Q0M5MUM3M0RFRjFFRDlFRDMyNUMzMkFFQ0QzMTU3ODg5Q0ZENEM3RTU3Rjc1NjRBNEI1OTI3NzA4QTEzNTQyNTAzREIzQzAwNzMyMzZEQkU1MDBENURDM0FBNjgwNzQzRUY5RUIxOEJENDQ1MzAxOUYzQjU0RDdCNUIxOEExOTNFOTgyMjg4MzNCOUVCOTIxOEU3MDA5QTE2NzMyNDhBQ0U5QkEyODQ1REI1QkU4OUYwRjQyMjVFNUJDQkQ4RDEwNzU3QzNDRDI1QTMxMTQ2NzM2RjgyNDhGRjM0MjdBNzkxN0VENzkwOENCMTkzNkYyQUU4Q0IyOEVBODU0NUY3RTJGQ0JGNzZCMjdBRDRBRjlFNTc0MEU0NDlGNEM1RUFDQ0ZDRDlDRkY0ODQzM0VCQTIyRjg5NEM2Qjc4MDhFMDRBQTlBQzAzMzU2NDE4MUFDNzFDNDY5RERDQkY5MzYzQzBGQzFDNzRGNzJCRTY2NEQ2NzhEMjcxMUZCNzVENzdBRTk1Qjk3MTQxODc0OEE1QjM2NzJBOEMwNDQ2MDcyQjMzNUQ1MUM4MkNCNTQ0RUVBNTI1QUVDRjZDN0ZCREU0NzQ0MEVGOUE4RUY2QjMxMUI5MTM5M0I1MURBNTIyNzc1MDlBRTQ3Q0E1MDQwMDkwMzg1NzE5MUZENDM4OTE2QUNCNjY0NTU1MEMyQzFDQ0VFQjQzRjUyNzEwMjRENEFDMDFDMzUzRjA2QjQ1QjY3QUU3NkFGRDA5NDI0MEJDQ0Q2ODAxQjYyODI3MDc2NDYwOEYyNEJDODE3NUVFQ0QxOUREQTA4NTMyODA1NDk5RkIzQUI1RkRGODY1RTg4MkFFNjA5QUY1NTU0MTg3RkUyRTU0RkE0NEQ3RjFDMEYyNEVEOEU2MjczNDQzODdCNjhDRTM0RDI0OUVDMENFQzQ4Njk0NEJGQzcyMzJBRDkzMTY5NkY3MzYyRDg5MkFDOTM4QzlCMkFFOTE1RTM5RUFERDUxM0IxNDg1MDM2MEVBMkJENjkyREJBNDY2RjgzODRCODZFOUY3QUQxNDBFQjlCMjg1QTE4NUQxOUFCRTM0NTM4NzgwM0U1NURDMENCMjVDN0E2RUUyRkMyRDk3NzJFQTlFRjM5MEQzMzRFMDY5RTQ5NjNDREY5QTQ0RkIyODJBQjYzMkJCODM4NjI0MUE1RkRFNjQxRkY5QzFCQTczNjEwNjYyNDNFQTBGQzM0QUIyNTU3Q0U4NDc4RDkwODI3NDU2NUNCRjVDQzFCMDIxNTJBRDdEQkU3QjJCRjA2QzlEQTY1NzUwOEMxQkZEMTk0NjU0OTE4MjdEQTI4REJFQUREODk5NkVCMEM4NUVGMzJBQzEzQ0EzOTEzMUM4NTg2NzJEOTc3QjI3ODgwNTgxMzg4Rjc1RUFFRDNERURDQjIyRDk1OTMzM0FGRTlCRkExMTY0NDc4RUI4OEFDMDhEOENBQzk4NjIwOTM0RTVFQ0M3MjREQTYzNEQ3ODJDRDVFQTcyM0Q0OTRERjQ4N0ZFRTBEOEQyQTUyREJDQUM1NzBGQTE5RTI4Q0EwMDAzQTNFNUU2ODMzNTk1OTFEMDlDOTAzOUJFODM5NzgwMzg3RjIxMjdCMTRDMTQ4MUE1QkIyMUY0QTlBODFERDM1NzVBMkEyNzg5NjJCM0Q3Mjc0Mzc2NzJBNjBBN0RFNjJBMzU5M0FDNzc2QUZGRkZEQTg4NkVGREQ2N0U3REJEMzFGQTZFRERFOEY1QjIxNkJBMjg5NTc3NkRBNEU5REE1MjgxREM2MEVFMjgwNkEyODMwQUUxNzhFODVCQkZCMjE2QUQyRjBBNUZGNUM3MDA4QUQ2RDBFQzJCQUYxQTExNTBDREY5OTg4N0I0RkM5REY1QkU2NUNBMUMwNzM4NTA4NzgxRkY4MUMxRDM0QUQxMDFEQTU0QjBENTU1MkM0MjVFNTYxRkRFOTFGOTFGQzAzQjdENTVFMzRENjhCQjVBQjA3NTE3OEM4NDE5QzU4MkVCREE2MDhFRkQyMUEyRkM5RTUyMjk4RDcxODVDODI1M0Q3MjQ4RUVBNDI1QzU0RjI1MDNCNzMxNkEyNENCOTYzM0RCQzYyN0Y0MjI0ODNGRkM3MThFNERBQUEwRDk2Nzg4MEFFQzg2NjY4NkU4NTVFMkQ5OUJBM0ZCQkIyQjg1MkI0QzJCOTg0N0UyQzlDMDJGMzc3NTY5N0I0NDczNjRCRDMzODcwREE0QTRGM0RDNUI0MTQyQ0Q4Q0Y2MUYwQTA5N0REMzkzOA0KOTREQzk0MUZBNjZEMzIxNERDODEwRDVEMDk5MTBDNUQ5MDQ5NkY5MTU1NkQyRDJERjYxNTBGQjdFMTEzRkZCNzM1RkEwMzM3MjFFMDQyOTFBNjRCQjNBRjdCNTdGMzFBMjgyMEQ2MkE4QzY2REEwMzAxRTg4RkJFOTkwODM3OTk4Q0Y0MDZFMkFDQ0RENjRDRTZCQzczNUIxRjU4ODZCMUM0REVCM0Q0NjkwQjgyRTNGMkIzQTM1MjdFMUUzQzM0QTQwNDE0RDFCN0M3RENCNTY0MkU4MkNEREEyMjk2ODlGNkI5NTdFNDgwRDVBNkE1MjJENzkyQ0QyODIxQzI4NUM3RjJFMTU5MDZCRENFRTgyN0M2NjcxMjM5NkE2NkY2RUMzM0I5Qzk2NjExM0JDOUU1NkU2QTA2RDc0N0ZFODcwNUQ3NjQzRjkzNEFCMzBBQUYzMzI0MjkxNDU4MDg0MTEzMzUxMUIwOEU0RDNBOERBRjJCOURGMTdFNkNBODg2NEE3OTgxNDYyNjg0NkQ4QUVCRDkxRkI1OTRFMEQ5RjBEOUEzQTdCNzUxMjhDQjAyRjMxMzk1MDZGNjY1RDhCMkE5OTM0NzBFMUMyNkEyRDQzMUU4Mzk5Nzc3RUY2RUZDNTNENDM1QzY1NDY1QTZENUVFOUI5Q0I3RUZGMzYwRDUwODc1RDFEOEM4NTFCN0RDNzg5NDk2NUM5ODU5RDYzNjA5ODc4RkQ5OEVCRUQzMUFBRUE3OTBERjZGQTg2QzBCRTUxMEFGNTFDMkIwQzgxNUI1NDEzNTc1NDAzRTg5MDEzQkVCQ0IxNzU1RjFGMjFDMjM3NjYzM0IxRUVFRTI1MTVFNzhBOTQ0OEIyQzBBOTYyOTc1QkQyRUI2MzMxRDc4RTc4NEExOTc5NTExRUJCNkY2MkRGQ0Y2QTRBMTdDNTdGRjhCQjZDMjFFMEMxNEQyOTAyOTI3N0U2RTM5RDAwOThGOThGMTNCQ0FCNEZGRTYzQkJCQkRDOTREQkEyNTIzRTJCMjU0RDU1OTExRDAyOUNGMDQ0NTgxM0IyRDcyMjlFRTkzMTlERTQyMDcwQkMxQUUyRUNEMTQ5MTRBRjc4OTZGN0Y2MDBERjY3NDY4MDFCMDJDNjhBODJCRkQ1MDkwMTI0QkE4RUIzOUIxMjgwMDcxOUUyRkZEQTQ2NUExODEwMTEyRTdBMEU1NzEyMUVDRTE2MDU4MTA5Q0VGMTFEMEVFRjBERjMyMjc1QTBFOUVFMDFGRkI3RTdGRkJBQjM1" />
+
+
+
+
+
+<div class="umbraco-forms-page" id="0b656526-5cd9-4629-bdc9-44a4ce255741">
+
+
+
+
+        <fieldset class="umbraco-forms-fieldset" id="647ca23a-4f74-461e-8554-713df3e5ed6b">
+
+                <legend>We would like your feedback</legend>
+
+            <div class="row-fluid">
+
+                    <div class="umbraco-forms-container col-md-12">
+
+                            <div class=" umbraco-forms-field uref hidden" >
+
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    <input type="hidden" name="ebd62d6e-f5c7-4256-cea7-ad18006d8bd2" id="ebd62d6e-f5c7-4256-cea7-ad18006d8bd2" data-umb="ebd62d6e-f5c7-4256-cea7-ad18006d8bd2" class="hidden" value=""/>
+
+
+
+
+<span class="field-validation-valid" data-valmsg-for="ebd62d6e-f5c7-4256-cea7-ad18006d8bd2" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field webpage urltracker alternating" >
+
+                                    <label for="717b22c6-684a-4213-de5b-a7abd45fff74" class="umbraco-forms-label">
+                                        Web page:                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    <input type="text" name="717b22c6-684a-4213-de5b-a7abd45fff74" id="717b22c6-684a-4213-de5b-a7abd45fff74" class="text hidden" value="www.rushmoor.gov.uk/your-council/elections-and-voting/election-results/local-election-results-4-may-2023/" maxlength="500"
+       
+
+
+ />
+
+<span class="field-validation-valid" data-valmsg-for="717b22c6-684a-4213-de5b-a7abd45fff74" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field hp honeypot" >
+
+                                    <label for="d0ae062e-bb60-48df-d2e5-429b1d4d8e7e" class="umbraco-forms-label">
+                                        HP                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    <input type="text" name="d0ae062e-bb60-48df-d2e5-429b1d4d8e7e" id="d0ae062e-bb60-48df-d2e5-429b1d4d8e7e" class="text hidden winnie" value="" maxlength="500"
+       
+
+
+ />
+
+<script>
+    // Honeypot trap
+    $(document).ready(function () {
+        var myInput = document.getElementsByClassName("winnie");
+
+        const input = document.querySelector('.winnie');
+
+        input.addEventListener('change', updateValue);
+
+        function updateValue(e) {
+            $("form").submit(function (e) {
+                e.preventDefault(e);
+            });
+        }
+    });
+</script>
+
+<span class="field-validation-valid" data-valmsg-for="d0ae062e-bb60-48df-d2e5-429b1d4d8e7e" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field howdidwedotoday singlechoice alternating" >
+
+                                    <label for="e83987aa-7d20-4e54-dd87-a510c65c8688" class="umbraco-forms-label">
+                                        How did we do today?                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                      
+
+   
+<div class="  radiobuttonlist" id="e83987aa-7d20-4e54-dd87-a510c65c8688" data-umb="e83987aa-7d20-4e54-dd87-a510c65c8688">
+    <div class="radioitem">
+        <input type="radio" name="e83987aa-7d20-4e54-dd87-a510c65c8688" id="e83987aa-7d20-4e54-dd87-a510c65c8688_0" data-umb="e83987aa-7d20-4e54-dd87-a510c65c8688_0" value="happy"
+                               />
+        <label for="e83987aa-7d20-4e54-dd87-a510c65c8688_0">happy</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="e83987aa-7d20-4e54-dd87-a510c65c8688" id="e83987aa-7d20-4e54-dd87-a510c65c8688_1" data-umb="e83987aa-7d20-4e54-dd87-a510c65c8688_1" value="ok"
+                               />
+        <label for="e83987aa-7d20-4e54-dd87-a510c65c8688_1">ok</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="e83987aa-7d20-4e54-dd87-a510c65c8688" id="e83987aa-7d20-4e54-dd87-a510c65c8688_2" data-umb="e83987aa-7d20-4e54-dd87-a510c65c8688_2" value="sad"
+                               />
+        <label for="e83987aa-7d20-4e54-dd87-a510c65c8688_2">sad</label>
+        <br />
+    </div>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="e83987aa-7d20-4e54-dd87-a510c65c8688" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field thanksdoyouhaveanymorefeedback singlechoice"   style="display: none"    >
+
+                                    <label for="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9" class="umbraco-forms-label">
+                                        Thanks. Do you have any more feedback?                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                      
+
+   
+<div class="  radiobuttonlist" id="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9" data-umb="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9">
+    <div class="radioitem">
+        <input type="radio" name="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9" id="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_0" data-umb="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_0" value="Yes"
+                               />
+        <label for="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_0">Yes</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9" id="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_1" data-umb="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_1" value="No"
+                               />
+        <label for="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9_1">No</label>
+        <br />
+    </div>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="b9889b8e-5da6-47e6-ad73-a7d2fb6890b9" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+
+                    </div>
+            </div>
+
+        </fieldset>
+        <fieldset class="umbraco-forms-fieldset" id="2cb76828-5755-4876-8d9d-d86771a90970">
+
+
+            <div class="row-fluid">
+
+                    <div class="umbraco-forms-container col-md-12">
+
+                            <div class=" umbraco-forms-field whatisyourfeedbackabout singlechoice alternating" >
+
+                                    <label for="852cb07d-ce8b-46db-ac8c-4f3a937b8616" class="umbraco-forms-label">
+                                        What is your feedback about?                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                      
+
+   
+<div class="  radiobuttonlist" id="852cb07d-ce8b-46db-ac8c-4f3a937b8616" data-umb="852cb07d-ce8b-46db-ac8c-4f3a937b8616">
+    <div class="radioitem">
+        <input type="radio" name="852cb07d-ce8b-46db-ac8c-4f3a937b8616" id="852cb07d-ce8b-46db-ac8c-4f3a937b8616_0" data-umb="852cb07d-ce8b-46db-ac8c-4f3a937b8616_0" value="The website"
+                               />
+        <label for="852cb07d-ce8b-46db-ac8c-4f3a937b8616_0">The website</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="852cb07d-ce8b-46db-ac8c-4f3a937b8616" id="852cb07d-ce8b-46db-ac8c-4f3a937b8616_1" data-umb="852cb07d-ce8b-46db-ac8c-4f3a937b8616_1" value="A service we provide"
+                               />
+        <label for="852cb07d-ce8b-46db-ac8c-4f3a937b8616_1">A service we provide</label>
+        <br />
+    </div>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="852cb07d-ce8b-46db-ac8c-4f3a937b8616" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field serviceresponse titleanddescription"   style="display: none"    >
+
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+
+
+<div id="9660aff3-85f4-42e8-fa2a-4bfbda0220dc" data-umb="9660aff3-85f4-42e8-fa2a-4bfbda0220dc" class="">
+            <p>If you have a question or comment about one of our services, we'd like to hear from you.
+
+Please visit our <a href="https://www.rushmoor.gov.uk/your-council/contact-us/getting-in-touch/?utm_source=website-feedback&utm_medium=referral&utm_campaign=website-feedback-link">getting in touch</a> page to give us your feedback or ask a question.</p>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="9660aff3-85f4-42e8-fa2a-4bfbda0220dc" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+
+                    </div>
+            </div>
+
+        </fieldset>
+        <fieldset class="umbraco-forms-fieldset" id="ac140ca1-0e95-4fef-f721-c2ec2220f52b">
+
+
+            <div class="row-fluid">
+
+                    <div class="umbraco-forms-container col-md-12">
+
+                            <div class=" umbraco-forms-field whatisyourmainreasonforvisitingourwebsite singlechoice alternating" >
+
+                                    <label for="dfd98041-ec17-4c71-ca24-e89cffe68771" class="umbraco-forms-label">
+                                        What is your main reason for visiting our website?                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                      
+
+   
+<div class="  radiobuttonlist" id="dfd98041-ec17-4c71-ca24-e89cffe68771" data-umb="dfd98041-ec17-4c71-ca24-e89cffe68771">
+    <div class="radioitem">
+        <input type="radio" name="dfd98041-ec17-4c71-ca24-e89cffe68771" id="dfd98041-ec17-4c71-ca24-e89cffe68771_0" data-umb="dfd98041-ec17-4c71-ca24-e89cffe68771_0" value="To find information"
+                               />
+        <label for="dfd98041-ec17-4c71-ca24-e89cffe68771_0">To find information</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="dfd98041-ec17-4c71-ca24-e89cffe68771" id="dfd98041-ec17-4c71-ca24-e89cffe68771_1" data-umb="dfd98041-ec17-4c71-ca24-e89cffe68771_1" value="To report something"
+                               />
+        <label for="dfd98041-ec17-4c71-ca24-e89cffe68771_1">To report something</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="dfd98041-ec17-4c71-ca24-e89cffe68771" id="dfd98041-ec17-4c71-ca24-e89cffe68771_2" data-umb="dfd98041-ec17-4c71-ca24-e89cffe68771_2" value="To apply for or request a service"
+                               />
+        <label for="dfd98041-ec17-4c71-ca24-e89cffe68771_2">To apply for or request a service</label>
+        <br />
+    </div>
+    <div class="radioitem">
+        <input type="radio" name="dfd98041-ec17-4c71-ca24-e89cffe68771" id="dfd98041-ec17-4c71-ca24-e89cffe68771_3" data-umb="dfd98041-ec17-4c71-ca24-e89cffe68771_3" value="To make a payment"
+                               />
+        <label for="dfd98041-ec17-4c71-ca24-e89cffe68771_3">To make a payment</label>
+        <br />
+    </div>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="dfd98041-ec17-4c71-ca24-e89cffe68771" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+
+                    </div>
+            </div>
+
+        </fieldset>
+        <fieldset class="umbraco-forms-fieldset" id="9fa58ec9-3584-46cf-852e-23d055133a74">
+
+
+            <div class="row-fluid">
+
+                    <div class="umbraco-forms-container col-md-12">
+
+                            <div class=" umbraco-forms-field comment longanswer" >
+
+                                    <label for="1370370d-2f65-48cf-8466-f0a7c43f63fd" class="umbraco-forms-label">
+                                        Comment                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+<textarea class=""
+          name="1370370d-2f65-48cf-8466-f0a7c43f63fd"
+          id="1370370d-2f65-48cf-8466-f0a7c43f63fd"
+          data-umb="1370370d-2f65-48cf-8466-f0a7c43f63fd"
+          rows="5"
+          cols="20"
+          
+
+
+
+
+></textarea>
+
+
+
+<span class="field-validation-valid" data-valmsg-for="1370370d-2f65-48cf-8466-f0a7c43f63fd" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field statement titleanddescription alternating" >
+
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+
+
+<div id="df2f4815-1d54-43c0-d856-474f028e73d2" data-umb="df2f4815-1d54-43c0-d856-474f028e73d2" class="">
+            <p>You can fill in this form anonymously, but if you'd like us to get back to you, please provide your contact details.</p>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="df2f4815-1d54-43c0-d856-474f028e73d2" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field firstname shortanswer" >
+
+                                    <label for="a880597a-ba53-415d-c545-4f9b4cfe0b4c" class="umbraco-forms-label">
+                                        First name                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+<input type="text" name="a880597a-ba53-415d-c545-4f9b4cfe0b4c" id="a880597a-ba53-415d-c545-4f9b4cfe0b4c" data-umb="a880597a-ba53-415d-c545-4f9b4cfe0b4c" class="text " value="" maxlength="255"
+       
+
+
+
+ />
+
+
+
+
+
+<span class="field-validation-valid" data-valmsg-for="a880597a-ba53-415d-c545-4f9b4cfe0b4c" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field lastname shortanswer alternating" >
+
+                                    <label for="1db152a8-6f72-4543-f057-32d561146ccb" class="umbraco-forms-label">
+                                        Last name                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+<input type="text" name="1db152a8-6f72-4543-f057-32d561146ccb" id="1db152a8-6f72-4543-f057-32d561146ccb" data-umb="1db152a8-6f72-4543-f057-32d561146ccb" class="text " value="" maxlength="255"
+       
+
+
+
+ />
+
+
+
+
+
+<span class="field-validation-valid" data-valmsg-for="1db152a8-6f72-4543-f057-32d561146ccb" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field emailaddress shortanswer" >
+
+                                    <label for="abb39b38-61f9-4f88-8dd0-c14897395157" class="umbraco-forms-label">
+                                        Email address                                     </label>
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+<input type="email" name="abb39b38-61f9-4f88-8dd0-c14897395157" id="abb39b38-61f9-4f88-8dd0-c14897395157" data-umb="abb39b38-61f9-4f88-8dd0-c14897395157" class="text " value="" maxlength="255"
+       
+
+  data-val="true"   
+
+  data-val-regex="Please provide a valid value for Email address" data-val-regex-pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"    />
+
+
+
+
+
+<span class="field-validation-valid" data-valmsg-for="abb39b38-61f9-4f88-8dd0-c14897395157" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+                            <div class=" umbraco-forms-field privacy titleanddescription alternating" >
+
+
+
+                                <div class="umbraco-forms-field-wrapper">
+
+                                    
+
+
+<div id="96eee35f-d25f-4b3b-dc89-98aafefed73d" data-umb="96eee35f-d25f-4b3b-dc89-98aafefed73d" class="">
+            <p><a href="https://www.rushmoor.gov.uk/websitefeedbackprivacynotice">Read about the information you send to us and what we will use it for.</a></p>
+</div>
+
+
+<span class="field-validation-valid" data-valmsg-for="96eee35f-d25f-4b3b-dc89-98aafefed73d" data-valmsg-replace="true"></span>
+                                </div>
+
+                            </div>
+
+                    </div>
+            </div>
+
+        </fieldset>
+
+    <div style="display: none" aria-hidden="true">
+        <input type="text" name="4d7149ea3aca47718795645b32bfaa90" />
+    </div>
+
+
+    <div class="umbraco-forms-navigation row-fluid">
+
+        <div class="col-md-12">
+                <input type="submit" 
+                       class="btn primary" 
+                       value="Submit" 
+                       name="__next"
+                       data-umb="submit-forms-form" />
+        </div>
+    </div>
+</div>
+
+
+
+<input name="ufprt" type="hidden" value="0A0693F2A2D020952C0F760A6BDD978001748DD93DB588A542281F57F4776869686284F6CC7C9C845CC8F24D546C5EBBDD22D211DA7564263ADEBEEAB5F0F3B7BFAE8E56987B1BC914B35542E7962050C126E1EFCD2233CD42C16DAA889EC8E14E4C3F77BC8CF0E88F4A4648223998D099A4BCE9B56FB185C401540207D87E8B6B346386924EC2FCE6E76E14C5C4F97E" /></form>
+
+        
+
+
+
+<div class="umbraco-forms-form-config"
+     style="display: none"
+     data-id="4d7149ea3aca47718795645b32bfaa90"
+     data-serialized-page-button-conditions="{&quot;0b656526-5cd9-4629-bdc9-44a4ce255741&quot;:{&quot;id&quot;:&quot;98b94724-7a6b-4180-a9ff-bc80208dcc58&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;Any&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;647ca23a-4f74-461e-8554-713df3e5ed6b&quot;,&quot;field&quot;:&quot;b9889b8e-5da6-47e6-ad73-a7d2fb6890b9&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;No&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To find information&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To report something&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To apply for or request a service&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To make a payment&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;2cb76828-5755-4876-8d9d-d86771a90970&quot;,&quot;field&quot;:&quot;852cb07d-ce8b-46db-ac8c-4f3a937b8616&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;A service we provide&quot;}]}}"
+     data-serialized-fieldset-conditions="{&quot;2cb76828-5755-4876-8d9d-d86771a90970&quot;:{&quot;id&quot;:&quot;98a2c249-44f2-495c-8c60-561a5cda6294&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;All&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;647ca23a-4f74-461e-8554-713df3e5ed6b&quot;,&quot;field&quot;:&quot;b9889b8e-5da6-47e6-ad73-a7d2fb6890b9&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;Yes&quot;}]},&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;:{&quot;id&quot;:&quot;0898fc1f-e760-4298-b483-9a5664c55142&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;All&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;2cb76828-5755-4876-8d9d-d86771a90970&quot;,&quot;field&quot;:&quot;852cb07d-ce8b-46db-ac8c-4f3a937b8616&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;The website&quot;}]},&quot;9fa58ec9-3584-46cf-852e-23d055133a74&quot;:{&quot;id&quot;:&quot;8f768451-99ac-44c5-8340-1456439ba19d&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;Any&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To find information&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To report something&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To apply for or request a service&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;ac140ca1-0e95-4fef-f721-c2ec2220f52b&quot;,&quot;field&quot;:&quot;dfd98041-ec17-4c71-ca24-e89cffe68771&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;To make a payment&quot;}]}}"
+     data-serialized-field-conditions="{&quot;b9889b8e-5da6-47e6-ad73-a7d2fb6890b9&quot;:{&quot;id&quot;:&quot;81c1fe7d-8200-4447-9cbe-a6b0c6ff3825&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;Any&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;647ca23a-4f74-461e-8554-713df3e5ed6b&quot;,&quot;field&quot;:&quot;e83987aa-7d20-4e54-dd87-a510c65c8688&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;happy&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;647ca23a-4f74-461e-8554-713df3e5ed6b&quot;,&quot;field&quot;:&quot;e83987aa-7d20-4e54-dd87-a510c65c8688&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;ok&quot;},{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;647ca23a-4f74-461e-8554-713df3e5ed6b&quot;,&quot;field&quot;:&quot;e83987aa-7d20-4e54-dd87-a510c65c8688&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;sad&quot;}]},&quot;9660aff3-85f4-42e8-fa2a-4bfbda0220dc&quot;:{&quot;id&quot;:&quot;4a8201f0-fa92-4562-9c9e-af2766e60311&quot;,&quot;actionType&quot;:&quot;Show&quot;,&quot;logicType&quot;:&quot;All&quot;,&quot;rules&quot;:[{&quot;id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;fieldsetId&quot;:&quot;2cb76828-5755-4876-8d9d-d86771a90970&quot;,&quot;field&quot;:&quot;852cb07d-ce8b-46db-ac8c-4f3a937b8616&quot;,&quot;operator&quot;:&quot;Is&quot;,&quot;value&quot;:&quot;A service we provide&quot;}]}}"
+     data-serialized-fields-not-displayed="{}"
+     data-trigger-conditions-check-on="change"></div>
+
+
+<script type='application/javascript' src='/App_Plugins/UmbracoForms/Assets/Themes/Default/umbracoforms.js' defer='defer'></script><link rel='stylesheet' href='/App_Plugins/UmbracoForms/Assets/Themes/Default/style.css' />    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+<footer id="footer" class="footer">
+    <div class="footer footer__gradient"></div>
+    <div class="constrain constrain--padding footer__container">
+        <address class="footer__left">
+                <img src="/media/bsujprfx/rushmoor-borough-council.png" class="footer__logo" alt="Rushmoor Borough Council" />
+            <hr class="hr__footer" />
+            <span class="footer__address"><p>Council Offices,</p>
+<p>Farnborough Road,</p>
+<p>Farnborough,</p>
+<p>GU14 7JU</p></span>
+            <p>
+                <a href="tel:01252 398 399" class="footer__phone">01252 398 399</a>
+            </p>
+            
+
+<ul class="btn-social social__list">
+    <li class="social__item">
+            <a href="https://www.facebook.com/rushmoorboroughcouncil" target="_blank" class="social__link social__facebook">
+                <i class="fab fa-facebook-f social__icon"></i> <span class="visuallyhidden">Link to Facebook</span>
+            </a>
+    </li>
+    <li class="social__item">
+            <a href="https://www.instagram.com/rushmoorcouncil/" target="_blank" class="social__link social__instagram">
+                <i class="fab fa-instagram social__icon"></i> <span class="visuallyhidden">Link to Instagram</span>
+            </a>
+    </li>
+    <li class="social__item">
+            <a href="https://twitter.com/RushmoorCouncil" target="_blank" class="social__link social__twitter">
+                <i class="fab fa-twitter social__icon"></i> <span class="visuallyhidden">Link to Twitter</span>
+            </a>
+    </li>
+    <li class="social__item">
+            <a href="https://www.youtube.com/user/RushmoorCouncil" target="_blank" class="social__link social__youtube">
+                <i class="fab fa-youtube social__icon"></i> <span class="visuallyhidden">Link to YouTube</span>
+            </a>
+    </li>
+</ul>
+
+        </address>
+        <div class="footer__right">
+            <div class="footer__inner footer__links">
+                    <div class="footer__sections">
+                            <p class="heading__l">Popular links</p>
+                        <ul class="footer__sections-list">
+                                <li class="footer__sections-item">
+                                    <a href="/council-tax/paying-your-council-tax/" class="footer__sections-link">Paying your council tax</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="/business-licensing-and-skills/jobs-and-careers/" class="footer__sections-link">Jobs and careers</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="/recycling-rubbish-and-environment/bins-and-recycling/" class="footer__sections-link">Bins and recycling</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="/planning-and-building-control/planning-permission-and-applications/planning-applications/" class="footer__sections-link">Planning applications</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="/your-council/elections-and-voting/register-to-vote/" class="footer__sections-link">Register to vote</a>
+                                </li>
+                        </ul>
+                    </div>
+                                    <div class="footer__sections">
+                            <p class="heading__l">Other websites</p>
+                        <ul class="footer__sections-list">
+                                <li class="footer__sections-item">
+                                    <a href="http://www.gov.uk/" class="footer__sections-link">GOV.UK</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="http://www.hants.gov.uk/" class="footer__sections-link">Hampshire County Council</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="http://www.princeshall.com/" class="footer__sections-link">Princes Hall</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="http://citizensadvicerushmoor.org.uk/links" class="footer__sections-link">Citizens Advice Rushmoor</a>
+                                </li>
+                                <li class="footer__sections-item">
+                                    <a href="https://www.rvs.org.uk" class="footer__sections-link" target="_blank">Rushmoor Voluntary Services</a>
+                                </li>
+                        </ul>
+                    </div>
+                            </div>
+            <div class="footer__inner">
+                <div class="footer__inner house-keeping">
+                        <ul class="house-keeping__list">
+                                <li class="house-keeping__item">
+                                    <a href="/our-policy-on-privacy/" class="house-keeping__link">Our policy on privacy</a>
+                                </li>
+                                <li class="house-keeping__item">
+                                    <a href="/accessibility-statement/" class="house-keeping__link">Accessibility statement</a>
+                                </li>
+                                <li class="house-keeping__item">
+                                    <a href="/cookies/" class="house-keeping__link">Cookies</a>
+                                </li>
+                                <li class="house-keeping__item">
+                                    <a href="/disclaimer/" class="house-keeping__link">Disclaimer</a>
+                                </li>
+                            <li class="house-keeping__item">
+                                <p class="house-keeping__copy">&copy; 2023 Rushmoor Borough Council</p>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+<div class="scrollTop">
+    <a href="" class="btn">
+        <i class="fas fa-chevron-circle-up"></i> <span class="visuallyhidden">Scroll to the top of the page</span>
+    </a>
+</div>
+    </div>
+</body>
+</html>

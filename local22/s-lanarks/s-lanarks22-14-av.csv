@@ -1,0 +1,21 @@
+"Election for","South Lanarkshire May 2022 - Ward 14 - Cambuslang East"
+"Date","04 Aug 2023"
+"Number to be elected",1
+"Valid votes",5104
+"Invalid votes",0
+"Quota",2333.00
+"OpenSTV","1.7"
+"Election rules","ERS97 STV"
+,,"Stage",2,"Stage",3,"Stage",4
+,"First","Exclusion of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Marie Gallagher (Grn)+Muhammad Khuzaima (Alba)+Robert Bell (LD)",,"Amy Fraioli (Lab)+Jamie Logan (C)",,"Katy Loudon (SNP)",
+"Robert Bell (LD)",147,-147.00,"-",,"-",,"-",
+"Walter Brogan (Lab)",1486,+78.00,1564.00,+754.00,2318.00,+63.00,2381.00,"Elected"
+"Amy Fraioli (Lab)",524,+63.00,587.00,-587.00,"-",,"-",
+"Alistair Fulton (SNP)",1123,+82.00,1205.00,+40.00,1245.00,+1040.00,2285.00,
+"Marie Gallagher (Grn)",204,-204.00,"-",,"-",,"-",
+"Muhammad Khuzaima (Alba)",94,-94.00,"-",,"-",,"-",
+"Jamie Logan (C)",489,+38.00,527.00,-527.00,"-",,"-",
+"Katy Loudon (SNP)",1037,+113.00,1150.00,+58.00,1208.00,-1208.00,"-",
+"Non-transferable", ,+71.00,71.00,+262.00,333.00,+105.00,438.00,
+"Totals",5104,,5104.00,,5104.00,,5104.00

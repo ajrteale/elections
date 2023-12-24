@@ -1,0 +1,20 @@
+"Election for","South Lanarkshire May 2022 - Ward 1 - Clydesdale West"
+"Date","02 Aug 2023"
+"Number to be elected",4
+"Valid votes",7393
+"Invalid votes",0
+"Quota",1479.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+"Candidates","Preferences","Eileen Logan (Lab)",,"Poppy Corbet (C)",,"David Shearer (SNP)",,"Neil Barton (Grn)",,"Peter Meehan (LD)",
+"Neil Barton (Grn)",230,+6.36132,236.36132,+7.09559,243.45691,+5.69232,249.14923,-249.14923,"-",,"-",
+"Poppy Corbet (C)",1742,,1742.00000,-263.00000,1479.00000,,1479.00000,,1479.00000,,1479.00000,"Elected"
+"Lynsey Hamilton (Lab)",1082,+182.35784,1264.35784,+91.33685,1355.69469,+5.45514,1361.14983,+36.89970,1398.04953,+130.82443,1528.87396,"Elected"
+"Eileen Logan (Lab)",1743,-264.00000,1479.00000,,1479.00000,,1479.00000,,1479.00000,,1479.00000,"Elected"
+"Peter Meehan (LD)",181,+19.23542,200.23542,+57.97248,258.20790,+1.89744,260.10534,+50.83004,310.93538,-310.93538,"-",
+"David Shearer (SNP)",1678,,1678.00000,,1678.00000,-199.00000,1479.00000,,1479.00000,,1479.00000,"Elected"
+"Andrew Wilson (SNP)",737,+14.54016,751.54016,+5.28395,756.82411,+179.54526,936.36937,+98.73651,1035.10588,+25.27545,1060.38133,
+"Non-transferable", ,+41.50526,41.50526,+101.31113,142.81639,+6.40984,149.22623,+62.68298,211.90921,+154.83550,366.74471,
+"Totals",7393,,7393.00000,,7393.00000,,7393.00000,,7393.00000,,7393.00000
