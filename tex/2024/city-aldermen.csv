@@ -60,7 +60,7 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 2023-09-07,Bread St,Sir William Russell,Yes,Yes,Sir William Russell,
 2023-11-02,Langbourn,Sir David Wootton,Retired,Yes,Simon Pryke,
 2023-11-30,Portsoken,Prem Goyal,Yes,Yes,Prem Goyal,
-2024-02-01,Candlewick,Emma Edhem,,,,By 2024-07-05
+2024-02-01,Candlewick,Emma Edhem,Yes,No,Emma Edhem,By 2024-07-05
 2024-02-01,Cheap,Robert Hughes-Penney,,,,By 2024-07-05
 ,Tower,Nicholas Lyons,,,,By 2023-09-12
 ,Broad St,Michael Mainelli,,,,By 2024-12-13
@@ -85,5 +85,5 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 ,Bread St,Sir William Russell,,,,By 2029-09-07
 ,Langbourn,Simon Pryke,,,,By 2029-11-02
 ,Portsoken,Prem Goyal,,,,By 2029-11-30
-,Candlewick,,,,,By 2030-02-01
+,Candlewick,Emma Edhem,,,,By 2030-02-01
 ,Cheap,,,,,By 2030-02-01
