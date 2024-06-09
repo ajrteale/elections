@@ -1,1 +1,977 @@
-/home/andrewteale/eln/tex/2019/election06-test.sty
+% Herewith a package designed to typeset the election results books.
+%
+% A Teale, December 2006
+
+% Letterspacing
+\usepackage{soulutf8}
+
+% We are using the T1 font enconding and Latin Modern fonts.  The
+% input encoding is cp1252.
+
+%\usepackage[marginwidth=3cm]{savetrees}
+
+\usepackage[lmargin=3cm,rmargin=3cm,tmargin=3cm,bmargin=3cm,includefoot,footskip=1.5em]{geometry}
+
+%\usepackage[T1]{fontenc}
+%\usepackage[cp1252]{inputenc}
+\usepackage{textcomp}
+%\usepackage{lmodern}
+%\usepackage[osf]{mathpazo}
+\usepackage{array}
+%\usepackage{mathptmx}
+
+% Don't use mathptmx as LaTeX can't find the typewriter fonts for some reason...
+
+\usepackage{longtable}
+
+\usepackage{fancyvrb}
+
+% The fancyvrb package allows us to type out multiple paragraphs of
+% typewriter style text.
+
+% Conditional code for use in the wardmap environment:
+
+\usepackage{ifthen}
+% \usepackage{comment} % Switched off for compatability reasons at present
+\newboolean{maps}
+
+% We define a new environment ``results'' which typesets in two
+% balanced columns with the default size set to \footnotesize.  We are
+% not made of paper!
+
+\usepackage{multicol}
+\newenvironment{results}{%
+	% This modification of the \subsubsection command is there
+	% as I want all wards to be on the same page.  I've therefore increased
+	% the stretchability of the beforeskip parameter from +3.25ex-0.2ex.
+	\renewcommand\subsubsection{
+	\@startsection{subsubsection}{3}{\z@}%
+    {-3.25ex\@plus -5ex \@minus -.5ex}%
+    {1.5ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+  \begin{multicols}{2}\footnotesize}{
+  \end{multicols}
+}
+
+% Same as above but with three columns
+\newenvironment{resultsiii}{%
+	% This modification of the \subsubsection command is there
+	% as I want all wards to be on the same page.  I've therefore increased
+	% the stretchability of the beforeskip parameter from +3.25ex-0.2ex.
+	\renewcommand\subsubsection{
+	\@startsection{subsubsection}{3}{\z@}%
+    {-3.25ex\@plus -5ex \@minus -.5ex}%
+    {1.5ex \@plus .2ex}%
+    {\normalfont\normalsize\bfseries}}
+  \begin{multicols}{3}\footnotesize}{
+  \end{multicols}
+}
+
+% Here are the ward... environments for typesetting ward results.
+%
+% All these environments print the ward name (the optional argument)
+% as a new unnumbered subsubsection and then the results in typewriter
+% style text.
+%
+% The generic ``ward'' environment, for a ward with one councillor to
+% be elected:
+\newenvironment{ward}[1][Ward Name]{
+  \subsubsection*{#1}\index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+% Further environments in the same vein.  The suffixes denote:
+%     -ii   A two-seat ward; the number ``(2)'' will be printed at the
+%     end of the ward name.
+%     -iii  A three-seat ward; see -ii above.
+%     -a    A ward with a name which is to have another form in the index,
+%     for example if it contains an ampersand (\&) or ends in a compass point
+%     (eg Radcliffe North to Radcliffe N.)
+%     -m    A ward with a name which is the same as another ward
+%     elsewhere in the country.  As they have to be differentiated in
+%     the index, the council name should be entered in the [first]
+%     mandatory argument.
+%     -s    A ward in Scotland.  Scottish wards are given both a name
+%     and a number.  As the number is prominently used and not
+%     allocated alphabetically, the number is listed in the ward name
+%     (right-aligned as follows: ``[94]''.  This hack is based on
+%     The LaTeX Companion, 2nd edition, example A-1-8.  As all
+%     Scottish wards are single-member, environments relating to
+%     multi-member wards have not been defined.
+%     -st   A ward with a name which has to go into the index in an
+%     unusual place.  The most common application for this is in wards
+%     named after saints, where ``St Mary's'' should be indexed as
+%     ``Saint Mary's''.  The place where the ward name should be
+%     indexed should be entered in the [second] mandatory argument.
+%     -*    No entry printed in the index.
+% These suffixes can be combined.
+
+\newenvironment{warda}[2][Ward Name]{
+  \subsubsection*{#1}\index{#1@#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardas}[3][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#3]}
+  \index{#1@#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardc}[2][Ward Name]{
+  \subsubsection*{#1\\ \itshape #2}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardcm}[3][Ward Name]{
+  \subsubsection*{#1\\ \itshape #2}\index{#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardcst}[3][Ward Name]{
+  \subsubsection*{#1\\ \itshape #2}\index{#3@#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardcstm}[4][Ward Name]{
+  \subsubsection*{#1\\ \itshape #2}\index{#3@#1!#4}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiic}[2][Ward Name]{
+  \subsubsection*{#1 (2)\\ \itshape #2}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiicm}[3][Ward Name]{
+  \subsubsection*{#1 (2)\\ \itshape #2}\index{#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiiic}[2][Ward Name]{
+  \subsubsection*{#1 (3)\\ \itshape #2}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiiicm}[3][Ward Name]{
+  \subsubsection*{#1 (3)\\ \itshape #2}\index{#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardivc}[2][Ward Name]{
+  \subsubsection*{#1 (4)\\ \itshape #2}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardivcm}[3][Ward Name]{
+  \subsubsection*{#1 (4)\\ \itshape #2}\index{#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardvc}[2][Ward Name]{
+  \subsubsection*{#1 (5)\\ \itshape #2}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+
+\newenvironment{wardii}[1][Ward Name]{
+  \subsubsection*{#1 (2)}\index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiia}[2][Ward Name]{
+  \subsubsection*{#1 (2)}\index{#1@#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiim}[2][Ward Name]{
+  \subsubsection*{#1 (2)}\index{#1!#2}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiis}[2][Ward Name]{
+  \subsubsection*{#1 (2)
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}
+  \index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiist}[2][Ward Name]{
+  \subsubsection*{#1 (2)}\index{#2@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiistc}[3][Ward Name]{
+  \subsubsection*{#1 (2)\\ \itshape #2}\index{#3@#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiistm}[3][Ward Name]{
+  \subsubsection*{#1 (2)}\index{#2@#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiii}[1][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiia}[2][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#1@#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiias}[3][Ward Name]{
+  \subsubsection*{#1 (3)
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#3]}
+  \index{#1@#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiim}[2][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#1!#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiis}[2][Ward Name]{
+  \subsubsection*{#1 (3)
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}
+  \index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiisst}[3][Ward Name]{
+  \subsubsection*{#1 (3)
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#3]}
+  \index{#2@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiist}[2][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#2@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiista}[3][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#2@#3}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiistas}[4][Ward Name]{
+  \subsubsection*{#1 (3)    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#4]}
+  \index{#2@#3}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardiiistm}[3][Ward Name]{
+  \subsubsection*{#1 (3)}\index{#2@#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardiv}[1][Ward Name]{
+  \subsubsection*{#1 (4)}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardivm}[2][Ward Name]{
+  \subsubsection*{#1 (4)}\index{#1!#2}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardivst}[2][Ward Name]{
+  \subsubsection*{#1 (4)}\index{#2@#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardivstm}[3][Ward Name]{
+  \subsubsection*{#1 (4)}\index{#2@#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardm}[2][Ward Name]{
+  \subsubsection*{#1}\index{#1!#2}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wards}[2][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}
+  \index{#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardsm}[3][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enskip\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}\index{#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardsst}[3][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enskip\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}
+  \index{#3@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardsstm}[4][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enskip\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#2]}
+  \index{#3@#1!#4}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardst}[2][Ward Name]{
+  \subsubsection*{#1}\index{#2@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardsta}[3][Ward Name]{
+  \subsubsection*{#1}\index{#2@#3}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardstas}[4][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enspace\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#4]}
+  \index{#2@#3}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardstc}[3][Ward Name]{
+  \subsubsection*{#1\\ \itshape #2}\index{#3@#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardstm}[3][Ward Name]{
+  \subsubsection*{#1}\index{#2@#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardsts}[3][Ward Name]{
+  \subsubsection*{#1
+    \hspace*{\fill}\nolinebreak[1]%
+    \enskip\hspace*{\fill}
+    \finalhyphendemerits=0
+    [#3]}
+  \index{#2@#1}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r} }{
+	\end{tabular*}}
+
+\newenvironment{wardv}[1][Ward Name]{
+  \subsubsection*{#1 (5)}\index{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardvm}[2][Ward Name]{
+  \subsubsection*{#1 (5)}\index{#1!#2}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardvst}[2][Ward Name]{
+  \subsubsection*{#1 (5)}\index{#2@#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{wardvstm}[3][Ward Name]{
+  \subsubsection*{#1 (5)}\index{#2@#1!#3}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+\newenvironment{ward*}[1][Ward Name]{
+  \subsubsection*{#1}
+  \VerbatimEnvironment\begin{Verbatim}}{
+\end{Verbatim}}
+
+% Environment for showing STV transfers
+
+\newenvironment{transfers}[2]{
+  \subsubsection*{Transfers (Quota = #1)}\footnotesize
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} #2 @{\extracolsep{\fill}}}
+}{\end{tabular*}}
+
+% Command for identifying elected candidates
+
+\newcommand\el{\hspace{-5pt}\makebox[2.5pt][r]{*}\hspace{2.5pt}\itshape}
+
+% The environment for the consolidated results table.  Similar to the
+% ward- environments except that the table is typeset in normal size.
+
+% There is a bug in this: if the optional argument is left out the
+% first line of the table disappears.
+
+\newenvironment{consolidatedresults}[1][Council Name]{
+\begin{table}
+	\subsubsection{Consolidated Results --- #1}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{0.47\textwidth}<{\dotfill} r r<{\%} p{0.25\textwidth} }}{
+	\end{tabular*}
+\hrule
+\end{table}}
+
+% Environment for the ward maps.  This uses conditional code so that the
+% ward maps can appear optionally as required.
+
+\newenvironment{wardmap}[1][Council Name]{
+\ifthenelse{\boolean{maps}}{
+  \begin{figure}
+  \centering}{\begin{comment}}}
+{  \ifthenelse{\boolean{maps}}{\end{figure}}{\end{comment}}}
+
+% Code for the running headers:
+
+\newcommand\resultsyear{2006}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[RE]{\itshape ELECTION RESULTS \resultsyear}
+\fancyhead[LO]{\itshape \rightmark}
+
+% Set the index up.
+
+\usepackage{makeidx}
+\makeindex
+
+% The index should appear on three columns (see The LaTeX Companion
+% 2nd ed, page 680:
+
+\renewenvironment{theindex}{%
+  \begin{multicols}{3}[\chapter*{\indexname}][10\baselineskip]%
+  \addcontentsline{toc}{chapter}{\indexname}%
+  \setlength\parindent{0pt}\pagestyle{plain}\let\item\@idxitem%
+  \small\sloppy%
+%  \raggedright
+}
+  {\end{multicols}
+}
+
+\renewcommand\indexname{Index of Wards}
+
+% \usepackage{ragged2e}
+
+% Here's a little experiment: load the repeatindex package:
+
+% \usepackage{repeatindex}
+
+% Hmm, that didn't work.  I'll do it manually.
+
+% Sectioning command: \council writes the council name to the index
+% with the page number appearing in bold type.
+
+\newcommand\council[1]{
+\section{#1}
+\index{#1|textbf}
+}
+
+% First entry in a chapter:
+
+\newcommand\councilf[1]{
+\section{#1}
+\index{#1|textbf}
+}
+
+\newcommand\councila[2]{
+\section{#1}
+\index{#1@#2|textbf}-
+}
+
+\newcommand\councilfa[2]{
+\section{#1}
+\index{#1@#2|textbf}
+}
+
+\newcommand\councilc[2]{\section[#1]{#2}\index{#1|textbf}}
+
+% Similar to \council, but set up for electoral regions.  Page number
+% does not appear in bold type in the index.  Second argument covers
+% the number of seats up for grabs.
+
+\newcommand\region[1]{
+\section{#1}
+\index{#1}
+}
+
+\newcommand\regionm[2]{
+\section{#1}
+\index{#1!#2}
+}
+
+\newcommand\regionr[2]{
+\section[#1]{#1 (#2)}
+\index{#1}
+}
+
+\newcommand\regionrm[3]{
+\section[#1]{#1 (#2)}
+\index{#1!#3}
+}
+
+%\setcounter{secnumdepth}{-2}
+
+% Various hyphenation exceptions which have been found necessary.
+
+\hyphenation{Ab-er-deen}
+\hyphenation{Ab-er-non}
+\hyphenation{Ad-ams}
+\hyphenation{Ad-e-to-kun-bo}
+\hyphenation{Al-i-pir}
+\hyphenation{All-ing-ton}
+\hyphenation{Al-mei-da}
+\hyphenation{Arch-i-bald}
+\hyphenation{Ar-thur-lie}
+\hyphenation{Ar-thurs}
+\hyphenation{Ash-ford}
+\hyphenation{Ba-bergh}
+\hyphenation{Bal-dhu}
+\hyphenation{Ban-stead}
+\hyphenation{Bas-ing-stoke}
+\hyphenation{Beb-ing-ton}
+\hyphenation{Bells-hill}
+\hyphenation{Ben-ar-ty}
+\hyphenation{Bents-wood}
+\hyphenation{Ber-ken-he-ger}
+\hyphenation{Ber-monds-ey}
+\hyphenation{Ber-wick-shire}
+\hyphenation{Bish-ops-wood}
+\hyphenation{Bla-don}
+\hyphenation{Bol-so-ver}
+\hyphenation{Bol-ton}
+\hyphenation{Bos-ton}
+\hyphenation{Bos-worth}
+\hyphenation{Bou-cher}
+\hyphenation{Bound-stone}
+\hyphenation{Bourne-mouth}
+\hyphenation{Brad-ley}
+\hyphenation{Brigh-ton}
+\hyphenation{Brough-ton}
+\hyphenation{Broad-ley}
+\hyphenation{Broad-way}
+\hyphenation{Brol-ly}
+\hyphenation{Brom-hall}
+\hyphenation{Broom-haugh}
+\hyphenation{Bu-ch-a-n-an}
+\hyphenation{Buck-fast-leigh}
+\hyphenation{Buck-ing-ham-shire}
+\hyphenation{Bur-gess}
+\hyphenation{Cald-beck}
+\hyphenation{Cal-der-dale}
+\hyphenation{Cam-bridge-shire}
+\hyphenation{Cam-er-on}
+\hyphenation{Car-harr-ack}
+\hyphenation{Carle-ton}
+\hyphenation{Car-mi-ch-ael}
+\hyphenation{Cart-wright}
+\hyphenation{Chelms-ford}
+\hyphenation{Chel-sea}
+\hyphenation{Chel-sham}
+\hyphenation{Ches-ter}
+\hyphenation{Chip-per-field}
+\hyphenation{Chil-tern}
+\hyphenation{Chil-terns}
+\hyphenation{Christ-church}
+\hyphenation{Chris-t-i-na}
+\hyphenation{Chris-to-dou-lou}
+\hyphenation{Chui-lin}
+\hyphenation{Church-o-ver}
+\hyphenation{Clar-ence}
+\hyphenation{Clo-cher-ty}
+\hyphenation{Co-a-li-tion}
+\hyphenation{Coast-al}
+\hyphenation{Coch-rane}
+\hyphenation{Cor-inth-i-an}
+\hyphenation{Cor-ser}
+\hyphenation{Cots-wold}
+\hyphenation{Craig-av-on}
+\hyphenation{Craig-ends}
+\hyphenation{Cra-v-en}
+\hyphenation{Crook-ham}
+\hyphenation{Cross-house}
+\hyphenation{Cul-len}
+\hyphenation{Cym-ru}
+\hyphenation{Cyn-on}
+\hyphenation{Dag-en-ham}
+\hyphenation{Dav-ies}
+\hyphenation{De-la-val}
+\hyphenation{Den-bigh-shire}
+\hyphenation{Der-by-shire}
+\hyphenation{Dev-lin}
+\hyphenation{Dev-on}
+\hyphenation{Dhil-lon}
+\hyphenation{Do-ch-er-ty}
+\hyphenation{Donn-ghai-le}
+\hyphenation{Don-o-ghue}
+\hyphenation{Dor-set}
+\hyphenation{Do-sanjh}
+\hyphenation{Do-ver}
+\hyphenation{Dud-ley}
+\hyphenation{Duf-fy}
+\hyphenation{Dun-thorne}
+\hyphenation{Dur-ham}
+\hyphenation{Ea-ton}
+\hyphenation{El-aa-hi}
+\hyphenation{el-ec-t-ed}
+\hyphenation{el-i-m-i-n-a-ted}
+\hyphenation{Elm-bridge}
+\hyphenation{Elm-ton}
+\hyphenation{Elt-ham}
+\hyphenation{En-cin-i-as}
+\hyphenation{Ew-shot}
+\hyphenation{Eynes-bury}
+\hyphenation{Fair-wea-ther}
+\hyphenation{Fal-kirk}
+\hyphenation{Fan-et}
+\hyphenation{Farm-er}
+\hyphenation{Fighel-dean}
+\hyphenation{Fin-ne-gan}
+\hyphenation{Fran-chet-ti}
+\hyphenation{Fra-ser}
+\hyphenation{Gan-cza-kow-ski}
+\hyphenation{Gan-esh-a-ling-am}
+\hyphenation{Gates-head}
+\hyphenation{Ged-ling}
+\hyphenation{Geoff-rey}
+\hyphenation{Gil-bert}
+\hyphenation{Gil-der-new}
+\hyphenation{Gil-lies}
+\hyphenation{Gil-mour}
+\hyphenation{Giu-sep-pe}
+\hyphenation{Glass-hough-ton}
+\hyphenation{Glen-ny}
+\hyphenation{Gol-d-ie}
+\hyphenation{Great-er}
+\hyphenation{Green-slade}
+\hyphenation{Green-wich}
+\hyphenation{Gwy-dd-el-wern}
+\hyphenation{Gwy-nedd}
+\hyphenation{Ha-m-eed}
+\hyphenation{Hands-comb}
+\hyphenation{Han-slope}
+\hyphenation{Har-bo-rough}
+\hyphenation{Har-greaves}
+\hyphenation{Har-un}
+\hyphenation{Har-well}
+\hyphenation{Ha-th-er-ley}
+\hyphenation{Haw-thorne}
+\hyphenation{Hay-thorn-thwaite}
+\hyphenation{Hell-ing-ly}
+\hyphenation{Herts-mere}
+\hyphenation{Hol-land}
+\hyphenation{Hol-ling-hurst}
+\hyphenation{Hor-an}
+\hyphenation{Hor-sham}
+\hyphenation{Hos-sain}
+\hyphenation{Hough-ton}
+\hyphenation{Houns-low}
+\hyphenation{How-arth}
+\hyphenation{Hut-ch-ens}
+\hyphenation{Hut-ch-i-son}
+\hyphenation{Hut-ch-in-son}
+\hyphenation{Il-en-do}
+\hyphenation{Imp-ing-ton}
+\hyphenation{Ir-vine}
+\hyphenation{Is-mail}
+\hyphenation{Je-re-my}
+\hyphenation{Ji-me-n-ez}
+\hyphenation{Ju-lie}
+\hyphenation{Kam-pou-r-o-p-oul-os}
+\hyphenation{Kel-ly}
+\hyphenation{Ken-ne-dy}
+\hyphenation{Kes-te-ven}
+\hyphenation{Kes-ton}
+\hyphenation{Kings-wear}
+\hyphenation{Kings-wood}
+\hyphenation{Kirk-lees}
+\hyphenation{Knock-en-ti-ber}
+\hyphenation{Knows-ley}
+\hyphenation{Lan-cas-ter}
+\hyphenation{Law-rence}
+\hyphenation{Lea-field}
+\hyphenation{Lei-ces-ter}
+\hyphenation{Lei-ces-ter-shire}
+\hyphenation{Leics}
+\hyphenation{Leo-n-ards}
+\hyphenation{Lew-is}
+\hyphenation{Lincs-Ind}
+\hyphenation{Li-m-on-ci}
+\hyphenation{Lind-ford}
+\hyphenation{Llan-ell-tyd}
+\hyphenation{Llan-gyn-ha-f-al}
+\hyphenation{Loch-ab-er}
+\hyphenation{Long-hors-ley}
+\hyphenation{Long-staff}
+\hyphenation{Lor-na}
+\hyphenation{Lou-d-en}
+\hyphenation{Loud-water}
+\hyphenation{Lough-ton}
+\hyphenation{Love-dean}
+\hyphenation{Lowes-toft}
+\hyphenation{Lyd-brook}
+\hyphenation{Mc-Ad-am}
+\hyphenation{Mc-Al-eer}
+\hyphenation{Mc-Al-lis-ter}
+\hyphenation{Mc-An-ul-ty}
+\hyphenation{Mc-Augh-trie}
+\hyphenation{Mac-au-l-ay}
+\hyphenation{Mac-au-l-ey}
+\hyphenation{Mc-Bride}
+\hyphenation{Mc-Clos-key}
+\hyphenation{Mc-Conn-a-ch-ie}
+\hyphenation{Mc-Cor-mick}
+\hyphenation{Mc-Cutch-eon}
+\hyphenation{Mac-Ea-ch-en}
+\hyphenation{Mc-El-duff}
+\hyphenation{Mc-Fad-zean}
+\hyphenation{Mc-Ghee}
+\hyphenation{Mc-Gimp-s-ey}
+\hyphenation{Mc-Gui-gan}
+\hyphenation{Mac-In-nes}
+\hyphenation{Mac-kay}
+\hyphenation{Mc-Kel-vie}
+\hyphenation{Mc-Ken-na}
+\hyphenation{Mac-ken-zie}
+\hyphenation{Mc-Ken-zie}
+\hyphenation{Mc-Kev-itt}
+\hyphenation{Mc-Kimm}
+\hyphenation{Mc-Kin-ney}
+\hyphenation{Mc-Kin-non}
+\hyphenation{Mc-Kin-stry}
+\hyphenation{Mc-Lach-lan}
+\hyphenation{Mc-Lar-en}
+\hyphenation{Mc-Lean}
+\hyphenation{Mc-Lea-ry}
+\hyphenation{Mc-Leish}
+\hyphenation{Mc-Len-nan}
+\hyphenation{Mac-Leod}
+\hyphenation{Mc-Mee-kin}
+\hyphenation{Mac-mer-ry}
+\hyphenation{Mac-mil-lan}
+\hyphenation{Mac-phail}
+\hyphenation{Mc-Pha-ter}
+\hyphenation{Mac-pher-son}
+\hyphenation{Mc-Phil-lips}
+\hyphenation{Mc-Rey-n-olds}
+\hyphenation{Mc-Rob-ert}
+\hyphenation{Mc-Will-i-ams}
+\hyphenation{Mai-den-bow-er}
+\hyphenation{Mall-ing}
+\hyphenation{Man-ches-ter}
+\hyphenation{Mar-ga}
+\hyphenation{Mar-ra}
+\hyphenation{Mas-s-ie}
+\hyphenation{Ma-th-e-son}
+\hyphenation{Matth-ews}
+\hyphenation{Max-well}
+\hyphenation{Me-chan}
+\hyphenation{Mei-kle}
+\hyphenation{Mel-ton}
+\hyphenation{Men-dip}
+\hyphenation{Mer-th-yr}
+\hyphenation{Mi-ah}
+\hyphenation{Mi-ch-an-it-z-is}
+\hyphenation{Mich-el-mersh}
+\hyphenation{Mick-le-wright}
+\hyphenation{Mil-czan-ow-ski}
+\hyphenation{Miln-gavie}
+\hyphenation{Miln-thorpe}
+\hyphenation{Mir-za}
+\hyphenation{Mit-ch-ell}
+\hyphenation{Monk-ton}
+\hyphenation{Mont-gom-e-ry}
+\hyphenation{Moo-n-ey}
+\hyphenation{Mo-r-e-no}
+\hyphenation{Mount-ness-ing}
+\hyphenation{Mu-gh-al}
+\hyphenation{Mul-grave}
+\hyphenation{Nad-eem}
+\hyphenation{Nan-ette}
+\hyphenation{New-church}
+\hyphenation{New-thorpe}
+\hyphenation{Nich-o-las}
+\hyphenation{Nich-ol}
+\hyphenation{Nich-ol-son}
+\hyphenation{Nim-mo}
+\hyphenation{Nko-lo-mo-ni}
+\hyphenation{Nor-th-amp-ton}
+\hyphenation{Nor-th-ants}
+\hyphenation{Not-t-ing-ham-shire}
+\hyphenation{Oad-by}
+\hyphenation{Oak-ridge}
+\hyphenation{Os-wald-twi-stle}
+\hyphenation{Ov-er-end}
+\hyphenation{Ow-ens}
+\hyphenation{Pains-wick}
+\hyphenation{Par-ish-es}
+\hyphenation{Paul-ine}
+\hyphenation{Pem-broke-shire}
+\hyphenation{Phil-lips}
+\hyphenation{Ple-v-in}
+\hyphenation{Pol-an-ski}
+\hyphenation{Ports-mouth}
+\hyphenation{Prest-bury}
+\hyphenation{Prime-thorpe}
+\hyphenation{Qai-sar}
+\hyphenation{Ra-leigh}
+\hyphenation{Ran-a-ghan}
+\hyphenation{Ra-v-ens-craig}
+\hyphenation{Reh-man}
+\hyphenation{Rei-gate}
+\hyphenation{Rey-nolds}
+\hyphenation{Rich-ard-son}
+\hyphenation{Ris-ing-hurst}
+\hyphenation{Riv-ers}
+\hyphenation{Roar-ty}
+\hyphenation{Rob-ert}
+\hyphenation{Rob-erts}
+\hyphenation{Rob-ert-son}
+\hyphenation{Rob-in-son}
+\hyphenation{Roch-dale}
+\hyphenation{Roch-ford}
+\hyphenation{Rod-g-ers}
+\hyphenation{Ros-a-mund}
+\hyphenation{Ross-en-dale}
+\hyphenation{Roth-er-ham}
+\hyphenation{Row-ledge}
+\hyphenation{Rug-by}
+\hyphenation{Run-ny-mede}
+\hyphenation{Ruth-er-glen}
+\hyphenation{Sand-bach}
+\hyphenation{Sand-ford}
+\hyphenation{Sand-well}
+\hyphenation{Scho-field}
+\hyphenation{Sev-en-oaks}
+\hyphenation{Shan-mu-ga-n-a-than}
+\hyphenation{Shef-field}
+\hyphenation{Shen-ley}
+\hyphenation{Shev-lin}
+\hyphenation{Short-lanes-end}
+\hyphenation{Siev-wright}
+\hyphenation{Sleight-holme}
+\hyphenation{Som-er-set}
+\hyphenation{Som-er-ville}
+\hyphenation{South-town}
+\hyphenation{Spel-thorne}
+\hyphenation{Spruy-ten-burg}
+\hyphenation{Staf-ford}
+\hyphenation{Staf-ford-shire}
+\hyphenation{Steph-an-ie}
+\hyphenation{Ste-phen}
+\hyphenation{Ste-phen-son}
+\hyphenation{Ste-ven-ton}
+\hyphenation{Stif-ford}
+\hyphenation{Stru-an}
+\hyphenation{Swale-dale}
+\hyphenation{Swan-ley}
+\hyphenation{Swee-ney}
+\hyphenation{Tand-ridge}
+\hyphenation{Tap-low}
+\hyphenation{Taun-ton}
+\hyphenation{Tel-ford}
+\hyphenation{Than-et}
+\hyphenation{Theo-bald}
+\hyphenation{The-o-phan-i-des}
+\hyphenation{Thom-as}
+\hyphenation{Thorn-ton}
+\hyphenation{To-ni}
+\hyphenation{Towns-end}
+\hyphenation{Trim-ley}
+\hyphenation{Tur-bett}
+\hyphenation{Twy-ford}
+\hyphenation{Tyne-side}
+\hyphenation{up-on}
+\hyphenation{Val-ley}
+\hyphenation{Wad-d-ing-ton}
+\hyphenation{Wa-dh-wa}
+\hyphenation{Wal-tham}
+\hyphenation{Wands-worth}
+\hyphenation{Wang-a-soo-ri-ya}
+\hyphenation{Weald-en}
+\hyphenation{Well-ing-bor-ough}
+\hyphenation{Well-ing-bor-ough}
+\hyphenation{Wes-ton}
+\hyphenation{Whal-ley}
+\hyphenation{Wharfe-dale}
+\hyphenation{Whee-l-er}
+\hyphenation{Whit-well}
+\hyphenation{Wi-cz-yn-ski}
+\hyphenation{Wig-an}
+\hyphenation{Wig-ston}
+\hyphenation{Will-i-am}
+\hyphenation{Will-i-ams}
+\hyphenation{Will-i-am-son}
+\hyphenation{Will-i-am-wood}
+\hyphenation{Win-ches-ter}
+\hyphenation{Wink-leigh}
+\hyphenation{Wir-ral}
+\hyphenation{Wol-ver-hamp-ton}
+\hyphenation{Wood-bury}
+\hyphenation{Wood-man-sterne}
+\hyphenation{Wood-thorpe}
+\hyphenation{Wood-ville}
+\hyphenation{Wough-ton}
+\hyphenation{Wre-kin}
+\hyphenation{Wrib-ben-hall}
+\hyphenation{Wych-avon}
+\hyphenation{Wy-combe}
+\hyphenation{Wy-lye}
+\hyphenation{Wyt-ham}
+\hyphenation{Yar-mouth}
+\hyphenation{Zaj-acz-kow-ska}
+
+% Unopposed:
+
+\newcommand\unop{\emph{Unop.}}
+
+\newenvironment{wideconsolidatedresults}[1][Council Name]{
+\begin{table}
+	\subsubsection{Consolidated Results --- #1}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{0.47\textwidth}<{\dotfill} r r<{\%} p{0.23\textwidth} }}{
+	\end{tabular*}
+\hrule
+\end{table}}
+
+
+\flushbottom
+
+\title{Local Election Results 2003}
+
+\date{5th May 2003}
+
+\author{Andrew Teale}
+
+% More space for section numbers in the table of contents
+\makeatletter
+\renewcommand\l@section{\@dottedtocline{2}{1.5em}{3em}}
+\makeatother
