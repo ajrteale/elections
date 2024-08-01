@@ -1,0 +1,21 @@
+"Election for","Highland 2022 - Ward 19 - Inverness South"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",5543
+"Invalid votes",0
+"Quota",1109.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Ken GOWANS (SNP)",,"Duncan MACPHERSON (Ind)",,"Jimmy DUNCAN (Alba)",,"David JARDINE (Lab)",,"Claire FILER (Grn)",
+ "Colin AITKEN (LD)",478,+71.97533,549.97533,+68.28785,618.26318,+22.53273,640.79591,+227.42917,868.22508,+360.36548,1228.59056,"Elected"
+ "Jimmy DUNCAN (Alba)",104,+112.48839,216.48839,+9.09215,225.58054,-225.58054,"-",,"-",,"-",
+ "Claire FILER (Grn)",299,+298.24508,597.24508,+31.14545,628.39053,+96.13413,724.52466,+116.73510,841.25976,-841.25976,"-",
+ "Ken GOWANS (SNP)",1949,-840.00000,1109.00000,,1109.00000,,1109.00000,,1109.00000,,1109.00000,"Elected"
+ "David JARDINE (Lab)",402,+99.98968,501.98968,+34.43410,536.42378,+21.15606,557.57984,-557.57984,"-",,"-",
+ "Duncan MACPHERSON (Ind)",1375,,1375.00000,-266.00000,1109.00000,,1109.00000,,1109.00000,,1109.00000,"Elected"
+ "Andrew SINCLAIR (C)",936,+13.79168,949.79168,+57.84155,1007.63323,+9.59728,1017.23051,+56.63832,1073.86883,+22.19456,1096.06339,"Elected"
+ "Non-transferable", ,+243.50984,243.50984,+65.19890,308.70874,+76.16034,384.86908,+156.77725,541.64633,+458.69972,1000.34605,
+ "Totals",5543,,5543.00000,,5543.00000,,5543.00000,,5543.00000,,5543.00000
+ 

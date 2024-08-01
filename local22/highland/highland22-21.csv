@@ -1,0 +1,19 @@
+"Election for","Highland 2022 - Ward 21 - Fort William and Ardnamurchan"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",4003
+"Invalid votes",0
+"Quota",801.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Angus MACDONALD (LD)",,"Sarah FANET (SNP)",,"Fiona FAWCETT (C)",
+ "Sarah FANET (SNP)",1341,,1341.00000,-540.00000,801.00000,,801.00000,"Elected"
+ "Fiona FAWCETT (C)",404,+147.72200,551.72200,+18.92596,570.64796,-570.64796,"-",
+ "Angus MACDONALD (LD)",1500,-699.00000,801.00000,,801.00000,,801.00000,"Elected"
+ "Thomas MACLENNAN (Ind)",373,+267.48400,640.48400,+84.16012,724.64412,+332.79824,1057.44236,"Elected"
+ "Kate WILLIS (Grn)",385,+115.56800,500.56800,+297.98320,798.55120,+39.00680,837.55800,"Elected"
+ "Non-transferable", ,+168.22600,168.22600,+138.93072,307.15672,+198.84292,505.99964,
+ "Totals",4003,,4003.00000,,4003.00000,,4003.00000
+ 

@@ -1,0 +1,20 @@
+"Election for","Highland 2022 - Ward 3 - Wick and East Caithness"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",4180
+"Invalid votes",0
+"Quota",837.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Jan MCEWAN (LD)",,"Raymond BREMNER (SNP)",,"Neil MACDONALD (Lab)",,"Bill FERNIE (Ind)",
+ "Raymond BREMNER (SNP)",1059,,1059.00000,-222.00000,837.00000,,837.00000,,837.00000,"Elected"
+ "Bill FERNIE (Ind)",438,+80.94437,518.94437,+52.19787,571.14224,+98.18750,669.32974,-669.32974,"-",
+ "Andrew JARVIE (C)",632,+68.16368,700.16368,+5.03112,705.19480,+50.11315,755.30795,+118.08645,873.39440,"Elected"
+ "Neil MACDONALD (Lab)",272,+75.70101,347.70101,+37.31414,385.01515,-385.01515,"-",,"-",
+ "A.I. Willie MACKAY (Ind)",534,+101.59010,635.59010,+64.35641,699.94651,+101.98033,801.92684,+323.52142,1125.44826,"Elected"
+ "Jan MCEWAN (LD)",1245,-408.00000,837.00000,,837.00000,,837.00000,,837.00000,"Elected"
+ "Non-transferable", ,+81.60084,81.60084,+63.10046,144.70130,+134.73417,279.43547,+227.72187,507.15734,
+ "Totals",4180,,4180.00000,,4180.00000,,4180.00000,,4180.00000
+ 

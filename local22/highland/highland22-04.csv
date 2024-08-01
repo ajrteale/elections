@@ -1,0 +1,19 @@
+"Election for","Highland 2022 - Ward 4 - East Sutherland and Edderton"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",3214
+"Invalid votes",0
+"Quota",804.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Richard GALE (LD)",,"Leslie-Anne NIVEN (SNP)",,"Harry CHRISTIAN (Libtn)",
+ "Max BANNERMAN (C)",546,+67.83075,613.83075,+1.55088,615.38163,+19.69480,635.07643,
+ "Harry CHRISTIAN (Libtn)",53,+27.43377,80.43377,+4.13568,84.56945,-84.56945,"-",
+ "Richard GALE (LD)",1151,-347.00000,804.00000,,804.00000,,804.00000,"Elected"
+ "Jim MCGILLIVRAY (Ind)",611,+164.60262,775.60262,+20.96560,796.56822,+37.51911,834.08733,"Elected"
+ "Leslie-Anne NIVEN (SNP)",853,,853.00000,-49.00000,804.00000,,804.00000,"Elected"
+ "Non-transferable", ,+87.13286,87.13286,+22.34784,109.48070,+27.35554,136.83624,
+ "Totals",3214,,3214.00000,,3214.00000,,3214.00000
+ 

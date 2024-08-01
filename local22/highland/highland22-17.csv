@@ -1,0 +1,21 @@
+"Election for","Highland 2022 - Ward 17 - Culloden and Ardersier"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",4100
+"Invalid votes",0
+"Quota",1026.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Glynis CAMPBELL-SINCLAIR (SNP)",,"MEL ROBERTSON (Ind)",,"Mya CHEMONGES-MURZYNOWSKA (Alba)",,"Steven CALVERT (Lab)",,"Mary SCANLON (C)",
+ "Steven CALVERT (Lab)",413,+92.35788,505.35788,+1.66926,507.02714,+38.06224,545.08938,-545.08938,"-",,"-",
+ "Glynis CAMPBELL-SINCLAIR (SNP)",1542,-516.00000,1026.00000,,1026.00000,,1026.00000,,1026.00000,,1026.00000,"Elected"
+ "Mya CHEMONGES-MURZYNOWSKA (Alba)",137,+107.41623,244.41623,+0.66926,245.08549,-245.08549,"-",,"-",,"-",
+ "Morven REID (Ind)",626,+95.03492,721.03492,+19.35019,740.38511,+90.82486,831.20997,+128.76651,959.97648,+188.00778,1147.98426,"Elected"
+ "MEL ROBERTSON (Ind)",24,+7.36186,31.36186,-31.36186,"-",,"-",,"-",,"-",
+ "TRISH ROBERTSON (LD)",626,+67.92989,693.92989,+2.00389,695.93378,+31.72372,727.65750,+204.13226,931.78976,+366.35019,1298.13995,"Elected"
+ "Mary SCANLON (C)",732,+11.04279,743.04279,+2.00000,745.04279,+8.33852,753.38131,+51.68093,805.06224,-805.06224,"-",
+ "Non-transferable", ,+134.85643,134.85643,+5.66926,140.52569,+76.13615,216.66184,+160.50968,377.17152,+250.70427,627.87579,
+ "Totals",4100,,4100.00000,,4100.00000,,4100.00000,,4100.00000,,4100.00000
+ 

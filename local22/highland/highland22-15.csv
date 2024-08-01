@@ -1,0 +1,21 @@
+"Election for","Highland 2022 - Ward 15 - Inverness Ness-side"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",4346
+"Invalid votes",0
+"Quota",1087.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Alasdair CHRISTIE (LD)",,"Jackie HENDRY (SNP)",,"Calum Mark LIPTROT (Libtn)",,"Claire MACLEAN (Grn)",,"Ron MACWILLIAM (Ind)",,"Ric SCOTT (C)",
+ "Alasdair CHRISTIE (LD)",1934,-847.00000,1087.00000,,1087.00000,,1087.00000,,1087.00000,,1087.00000,,1087.00000,"Elected"
+ "Jackie HENDRY (SNP)",1270,,1270.00000,-183.00000,1087.00000,,1087.00000,,1087.00000,,1087.00000,,1087.00000,"Elected"
+ "Calum Mark LIPTROT (Libtn)",18,+11.82465,29.82465,+3.45816,33.28281,-33.28281,"-",,"-",,"-",,"-",
+ "Andrew MACKINTOSH (Lab)",276,+177.36975,453.36975,+28.67391,482.04366,+8.21837,490.26203,+116.24827,606.51030,+175.85169,782.36199,+233.95957,1016.32156,"Elected"
+ "Claire MACLEAN (Grn)",226,+94.15925,320.15925,+85.30128,405.46053,+5.03430,410.49483,-410.49483,"-",,"-",,"-",
+ "Ron MACWILLIAM (Ind)",243,+161.16560,404.16560,+20.60487,424.77047,+6.79178,431.56225,+101.10735,532.66960,-532.66960,"-",,"-",
+ "Ric SCOTT (C)",379,+183.06310,562.06310,+2.01726,564.08036,+2.87590,566.95626,+7.52654,574.48280,+97.54112,672.02392,-672.02392,"-",
+ "Non-transferable", ,+219.41765,219.41765,+42.94452,262.36217,+10.36246,272.72463,+185.61267,458.33730,+259.27679,717.61409,+438.06435,1155.67844,
+ "Totals",4346,,4346.00000,,4346.00000,,4346.00000,,4346.00000,,4346.00000,,4346.00000
+ 

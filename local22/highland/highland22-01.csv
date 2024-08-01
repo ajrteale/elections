@@ -1,0 +1,21 @@
+"Election for","Highland 2022 - Ward 1 - North West and Central Sutherland"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",2756
+"Invalid votes",0
+"Quota",690.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Marianne HUTCHISON (SNP)",,"Michael BAIRD (LD)",,"Robert Alan JARDINE (FdmAll)",,"Philipp TANZER (ScFam)",,"Clive SOLEY (Lab)",
+ "Michael BAIRD (LD)",773,,773.00000,-83.00000,690.00000,,690.00000,,690.00000,,690.00000,"Elected"
+ "Charlotte GIBSON (C)",302,+7.17975,309.17975,+24.48036,333.66011,+4.29105,337.95116,+16.14615,354.09731,+29.45003,383.54734,
+ "Marianne HUTCHISON (SNP)",968,-278.00000,690.00000,,690.00000,,690.00000,,690.00000,,690.00000,"Elected"
+ "Robert Alan JARDINE (FdmAll)",48,+10.33884,58.33884,+3.11373,61.45257,-61.45257,"-",,"-",,"-",
+ "Hugh MORRISON (Ind)",477,+96.49584,573.49584,+21.36663,594.86247,+24.06330,618.92577,+38.69980,657.62557,+56.77586,714.40143,"Elected"
+ "Clive SOLEY (Lab)",108,+56.00205,164.00205,+15.03180,179.03385,+2.00386,181.03771,+16.65069,197.68840,-197.68840,"-",
+ "Philipp TANZER (ScFam)",80,+12.34917,92.34917,+4.08006,96.42923,+10.78912,107.21835,-107.21835,"-",,"-",
+ "Non-transferable", ,+95.63435,95.63435,+14.92742,110.56177,+20.30524,130.86701,+35.72171,166.58872,+111.46251,278.05123,
+ "Totals",2756,,2756.00000,,2756.00000,,2756.00000,,2756.00000,,2756.00000
+ 

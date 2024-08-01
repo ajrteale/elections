@@ -1,0 +1,21 @@
+"Election for","Highland 2022 - Ward 8 - Dingwall and Seaforth"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",4640
+"Invalid votes",0
+"Quota",929.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+ ,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Graham Alexander MACKENZIE (SNP)",,"Les HOOD (Lab)",,"Angela MACLEAN (LD)",,"Thomas WIDROW (Grn)",,"Margaret PATERSON (Ind)",,"Gavin BERKENHEGER (C)",
+ "Gavin BERKENHEGER (C)",650,+9.45425,659.45425,+28.51268,687.96693,+3.08023,691.04716,+10.26630,701.31346,+13.92131,715.23477,-715.23477,"-",
+ "Les HOOD (Lab)",216,+33.65713,249.65713,-249.65713,"-",,"-",,"-",,"-",,"-",
+ "Sean Edward KENNEDY (Ind)",599,+64.28890,663.28890,+30.78170,694.07060,+3.00466,697.07526,+44.23125,741.30651,+48.92729,790.23380,+346.15003,1136.38383,"Elected"
+ "Graham Alexander MACKENZIE (SNP)",1494,-565.00000,929.00000,,929.00000,,929.00000,,929.00000,,929.00000,,929.00000,"Elected"
+ "Angela MACLEAN (LD)",773,+80.92838,853.92838,+93.83242,947.76080,-18.76080,929.00000,,929.00000,,929.00000,,929.00000,"Elected"
+ "Margaret PATERSON (Ind)",698,+135.38486,833.38486,+30.53804,863.92290,+7.42954,871.35244,+161.69999,1033.05243,-104.05243,929.00000,,929.00000,"Elected"
+ "Thomas WIDROW (Grn)",210,+156.18421,366.18421,+32.80706,398.99127,+2.06893,401.06020,-401.06020,"-",,"-",,"-",
+ "Non-transferable", ,+85.10227,85.10227,+33.18523,118.28750,+3.17744,121.46494,+184.86266,306.32760,+41.20383,347.53143,+369.08474,716.61617,
+ "Totals",4640,,4640.00000,,4640.00000,,4640.00000,,4640.00000,,4640.00000,,4640.00000
+ 

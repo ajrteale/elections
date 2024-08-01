@@ -1,0 +1,18 @@
+"Election for","Highland 2022 - Ward 16 - Inverness Millburn"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",3508
+"Invalid votes",0
+"Quota",878.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Ian BROWN (SNP)",,"David GREGG (LD)",,"Lewis WHYTE (Lab)",
+ "Ian BROWN (SNP)",1430,-552.00000,878.00000,,878.00000,,878.00000,"Elected"
+ "David GREGG (LD)",835,+174.09051,1009.09051,-131.09051,878.00000,,878.00000,"Elected"
+ "Isabelle MACKENZIE (C)",757,+24.70464,781.70464,+36.85984,818.56448,+282.84626,1101.41074,"Elected"
+ "Lewis WHYTE (Lab)",486,+171.77445,657.77445,+64.57494,722.34939,-722.34939,"-",
+ "Non-transferable", ,+181.43040,181.43040,+29.65573,211.08613,+439.50313,650.58926,
+ "Totals",3508,,3508.00000,,3508.00000,,3508.00000
+ 

@@ -1,0 +1,20 @@
+"Election for","Highland 2022 - Ward 2 - Thurso and Northwest Caithness"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",5139
+"Invalid votes",0
+"Quota",1028.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Ron GUNN (LD)",,"Matthew REISS (Ind)",,"Struan MACKIE (C)",,"Alexander GLASGOW (Ind)",
+ "Alexander GLASGOW (Ind)",151,+23.07155,174.07155,+1.50075,175.57230,+1.45868,177.03098,-177.03098,"-",
+ "Iain GREGORY (Ind)",660,+105.31484,765.31484,+10.74537,776.06021,+6.58148,782.64169,+86.91014,869.55183,
+ "Ron GUNN (LD)",1411,-383.00000,1028.00000,,1028.00000,,1028.00000,,1028.00000,"Elected"
+ "Struan MACKIE (C)",921,+122.95779,1043.95779,,1043.95779,-15.95779,1028.00000,,1028.00000,"Elected"
+ "Matthew REISS (Ind)",1049,,1049.00000,-21.00000,1028.00000,,1028.00000,,1028.00000,"Elected"
+ "Karl ROSIE (SNP)",947,+57.00030,1004.00030,+3.72186,1007.72216,+1.09196,1008.81412,+47.62346,1056.43758,"Elected"
+ "Non-transferable", ,+74.65552,74.65552,+5.03202,79.68754,+6.82567,86.51321,+42.49738,129.01059,
+ "Totals",5139,,5139.00000,,5139.00000,,5139.00000,,5139.00000
+ 

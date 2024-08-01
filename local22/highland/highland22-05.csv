@@ -1,0 +1,19 @@
+"Election for","Highland 2022 - Ward 5 - Wester Ross, Strathpeffer and Lochalsh"
+"Date","01 Aug 2024"
+"Number to be elected",4
+"Valid votes",5411
+"Invalid votes",0
+"Quota",1083.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Biz CAMPBELL (Ind)",,"Liz KRAFT (SNP)",,"Chris BIRT (SNP)",,"Margot KERR (LD)",
+ "Chris BIRT (SNP)",988,+104.55774,1092.55774,,1092.55774,-9.55774,1083.00000,,1083.00000,"Elected"
+ "Biz CAMPBELL (Ind)",1552,-469.00000,1083.00000,,1083.00000,,1083.00000,,1083.00000,"Elected"
+ "Margot KERR (LD)",700,+182.52276,882.52276,+74.02780,956.55056,+4.27346,960.82402,-960.82402,"-",
+ "Liz KRAFT (SNP)",1234,,1234.00000,-151.00000,1083.00000,,1083.00000,,1083.00000,"Elected"
+ "Patrick LOGUE (C)",937,+92.16795,1029.16795,+2.93664,1032.10459,+0.27722,1032.38181,+446.85725,1479.23906,"Elected"
+ "Non-transferable", ,+89.75155,89.75155,+74.03556,163.78711,+5.00706,168.79417,+513.96677,682.76094,
+ "Totals",5411,,5411.00000,,5411.00000,,5411.00000,,5411.00000
+ 

@@ -1,0 +1,19 @@
+"Election for","Highland 2022 - Ward 7 - Tain and Easter Ross"
+"Date","01 Aug 2024"
+"Number to be elected",3
+"Valid votes",3434
+"Invalid votes",0
+"Quota",859.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3
+ ,"First","Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Derek LOUDEN (SNP)",,"Veronica MORRISON (C)",
+ "Derek LOUDEN (SNP)",1051,-192.00000,859.00000,,859.00000,"Elected"
+ "Veronica MORRISON (C)",364,+4.56700,368.56700,-368.56700,"-",
+ "Sarah RAWLINGS (LD)",739,+41.65104,780.65104,+141.37484,922.02588,"Elected"
+ "Alasdair RHIND (Ind)",726,+50.23700,776.23700,+100.09608,876.33308,"Elected"
+ "Fiona ROBERTSON (Ind)",554,+50.78504,604.78504,+63.73072,668.51576,
+ "Non-transferable", ,+44.75992,44.75992,+63.36536,108.12528,
+ "Totals",3434,,3434.00000,,3434.00000
+ 
