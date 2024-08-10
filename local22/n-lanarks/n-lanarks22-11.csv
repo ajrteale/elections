@@ -1,0 +1,21 @@
+"Election for","North Lanarkshire 2022 - Ward 11 - Coatbridge South"
+"Date","10 Aug 2024"
+"Number to be elected",4
+"Valid votes",4849
+"Invalid votes",0
+"Quota",970.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Tracy CARRAGHER (SNP)",,"Fergus MACGREGOR (SNP)",,"Andrew BUSTARD (Lab)",,"Tony GRIMASON (Ind)",,"Graham James KERR (Grn)",
+ "Andrew BUSTARD (Lab)",1100,,1100.00000,,1100.00000,-130.00000,970.00000,,970.00000,,970.00000,"Elected"
+ "Tracy CARRAGHER (SNP)",1384,-414.00000,970.00000,,970.00000,,970.00000,,970.00000,,970.00000,"Elected"
+ "Tony GRIMASON (Ind)",149,+31.40865,180.40865,+22.78188,203.19053,+4.13630,207.32683,-207.32683,"-",,"-",
+ "Graham James KERR (Grn)",101,+127.42938,228.42938,+63.45036,291.87974,+5.08174,296.96148,+54.73960,351.70108,-351.70108,"-",
+ "Fergus MACGREGOR (SNP)",1195,,1195.00000,-225.00000,970.00000,,970.00000,,970.00000,,970.00000,"Elected"
+ "Peter MURRAY (C)",327,+5.98260,332.98260,+2.07108,335.05368,+9.45440,344.50808,+29.40679,373.91487,+24.04583,397.96070,
+ "Geraldine WOODS (Lab)",593,+82.55988,675.55988,+43.86924,719.42912,+94.30764,813.73676,+52.06183,865.79859,+115.67601,981.47460,"Elected"
+ "Non-transferable", ,+166.61949,166.61949,+92.82744,259.44693,+17.01992,276.46685,+71.11861,347.58546,+211.97924,559.56470,
+ "Totals",4849,,4849.00000,,4849.00000,,4849.00000,,4849.00000,,4849.00000
+ 

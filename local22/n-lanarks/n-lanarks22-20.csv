@@ -1,0 +1,21 @@
+"Election for","North Lanarkshire 2022 - Ward 20 - Murdostoun"
+"Date","10 Aug 2024"
+"Number to be elected",4
+"Valid votes",5689
+"Invalid votes",0
+"Quota",1138.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Robert John MCKENDRICK (Ind)",,"Cameron MCMANUS (SNP)",,"Robert Livingston ARTHUR (Ind)",,"Linsey MCKAY (C)",,"Louise ROARTY (Lab)",,"Julia STACHURSKA (SNP)",
+ "Robert Livingston ARTHUR (Ind)",305,+88.51248,393.51248,+0.52966,394.04214,-394.04214,"-",,"-",,"-",,"-",
+ "Linsey MCKAY (C)",518,+26.60643,544.60643,+0.15758,544.76401,+78.97163,623.73564,-623.73564,"-",,"-",,"-",
+ "Robert John MCKENDRICK (Ind)",1545,-407.00000,1138.00000,,1138.00000,,1138.00000,,1138.00000,,1138.00000,,1138.00000,"Elected"
+ "Cameron MCMANUS (SNP)",1106,+61.37919,1167.37919,-29.37919,1138.00000,,1138.00000,,1138.00000,,1138.00000,,1138.00000,"Elected"
+ "Louise ROARTY (Lab)",853,+60.58890,913.58890,+2.12136,915.71026,+70.41816,986.12842,+205.09584,1191.22426,-53.22426,1138.00000,,1138.00000,"Elected"
+ "Nicky SHEVLIN (Lab)",778,+56.37402,834.37402,+1.13748,835.51150,+56.70353,892.21503,+115.16955,1007.38458,+41.67721,1049.06179,+267.84862,1316.91041,"Elected"
+ "Julia STACHURSKA (SNP)",584,+21.86469,605.86469,+23.57346,629.43815,+61.48771,690.92586,+14.36747,705.29333,+2.53611,707.82944,-707.82944,"-",
+ "Non-transferable", ,+91.67429,91.67429,+1.85965,93.53394,+126.46111,219.99505,+289.10278,509.09783,+9.01094,518.10877,+439.98082,958.08959,
+ "Totals",5689,,5689.00000,,5689.00000,,5689.00000,,5689.00000,,5689.00000,,5689.00000
+ 

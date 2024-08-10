@@ -1,0 +1,20 @@
+"Election for","North Lanarkshire 2022 - Ward 16 - Mossend and Holytown"
+"Date","10 Aug 2024"
+"Number to be elected",3
+"Valid votes",3796
+"Invalid votes",0
+"Quota",950.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Frank MCNALLY (Lab)",,"Beth BAUDO (SNP)",,"John MARSHALL (Alba)",,"Sheila CAMERON (C)",,"Michael CLARKSON (SNP)",
+ "Beth BAUDO (SNP)",974,,974.00000,-24.00000,950.00000,,950.00000,,950.00000,,950.00000,"Elected"
+ "Sheila CAMERON (C)",486,+10.28928,496.28928,+0.24640,496.53568,+15.18541,511.72109,-511.72109,"-",,"-",
+ "Michael CLARKSON (SNP)",642,+8.36004,650.36004,+21.80640,672.16644,+90.38253,762.54897,+19.46938,782.01835,-782.01835,"-",
+ "John MARSHALL (Alba)",198,+1.44693,199.44693,+0.36960,199.81653,-199.81653,"-",,"-",,"-",
+ "Frank MCNALLY (Lab)",1132,-182.00000,950.00000,,950.00000,,950.00000,,950.00000,,950.00000,"Elected"
+ "Jim REDDIN (Lab)",364,+147.58686,511.58686,+0.41888,512.00574,+31.50695,543.51269,+274.27003,817.78272,+277.42418,1095.20690,"Elected"
+ "Non-transferable", ,+14.31689,14.31689,+1.15872,15.47561,+62.74164,78.21725,+217.98168,296.19893,+504.59417,800.79310,
+ "Totals",3796,,3796.00000,,3796.00000,,3796.00000,,3796.00000,,3796.00000
+ 

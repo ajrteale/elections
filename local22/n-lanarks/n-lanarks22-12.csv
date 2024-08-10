@@ -1,0 +1,19 @@
+"Election for","North Lanarkshire 2022 - Ward 12 - Airdrie South"
+"Date","10 Aug 2024"
+"Number to be elected",4
+"Valid votes",6015
+"Invalid votes",0
+"Quota",1204.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Michael Joseph COYLE (SNP)",,"Paul DI MASCIO (SNP)",,"Michael MCBRIDE (Lab)",,"Ian MCNEIL (Lab)",
+ "Michael Joseph COYLE (SNP)",1847,-643.00000,1204.00000,,1204.00000,,1204.00000,,1204.00000,"Elected"
+ "Paul DI MASCIO (SNP)",1015,+566.40751,1581.40751,-377.40751,1204.00000,,1204.00000,,1204.00000,"Elected"
+ "Michael MCBRIDE (Lab)",1386,,1386.00000,,1386.00000,-182.00000,1204.00000,,1204.00000,"Elected"
+ "Ian MCNEIL (Lab)",739,+17.40650,756.40650,+134.14112,890.54762,+163.08702,1053.63464,-1053.63464,"-",
+ "Sandy WATSON (C)",1028,+9.74764,1037.74764,+16.86599,1054.61363,+6.17157,1060.78520,+531.49417,1592.27937,"Elected"
+ "Non-transferable", ,+49.43835,49.43835,+226.40040,275.83875,+12.74141,288.58016,+522.14047,810.72063,
+ "Totals",6015,,6015.00000,,6015.00000,,6015.00000,,6015.00000
+ 

@@ -1,0 +1,19 @@
+"Election for","North Lanarkshire 2022 - Ward 14 - Thorniewood"
+"Date","10 Aug 2024"
+"Number to be elected",3
+"Valid votes",4468
+"Invalid votes",0
+"Quota",1118.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Barry MCCLUSKEY (SNP)",,"Helen LOUGHRAN (Lab)",,"Jeanie BURGESS (C)",,"Joseph BUDD (Ind)",
+ "Margaret BOYD (Lab)",760,+142.96576,902.96576,+46.91822,949.88398,+132.84880,1082.73278,+375.26744,1458.00022,"Elected"
+ "Joseph BUDD (Ind)",568,+200.08824,768.08824,+5.41162,773.49986,+80.71660,854.21646,-854.21646,"-",
+ "Jeanie BURGESS (C)",318,+9.25448,327.25448,+2.83716,330.09164,-330.09164,"-",,"-",
+ "Helen LOUGHRAN (Lab)",1180,,1180.00000,-62.00000,1118.00000,,1118.00000,,1118.00000,"Elected"
+ "Barry MCCLUSKEY (SNP)",1642,-524.00000,1118.00000,,1118.00000,,1118.00000,,1118.00000,"Elected"
+ "Non-transferable", ,+171.69152,171.69152,+6.83300,178.52452,+116.52624,295.05076,+478.94902,773.99978,
+ "Totals",4468,,4468.00000,,4468.00000,,4468.00000,,4468.00000
+ 

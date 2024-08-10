@@ -1,0 +1,21 @@
+"Election for","North Lanarkshire 2022 - Ward 13 - Fortissat"
+"Date","10 Aug 2024"
+"Number to be elected",4
+"Valid votes",4559
+"Invalid votes",0
+"Quota",912.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",
+ "Candidates","Preferences","Martin MCCULLOCH (Lab)",,"Margaret HUGHES (SNP)",,"Emma Rachel CUTHBERTSON (Grn)",,"Ben CALLAGHAN (C)",,"John Jo LECKIE (BUP)",
+ "Ben CALLAGHAN (C)",512,+2.48248,514.48248,+0.31184,514.79432,+8.00000,522.79432,-522.79432,"-",,"-",
+ "Emma Rachel CUTHBERTSON (Grn)",118,+1.24124,119.24124,+1.40328,120.64452,-120.64452,"-",,"-",,"-",
+ "Margaret HUGHES (SNP)",949,,949.00000,-37.00000,912.00000,,912.00000,,912.00000,,912.00000,"Elected"
+ "John Jo LECKIE (BUP)",859,+4.73928,863.73928,+0.46776,864.20704,+6.07796,870.28500,+265.75500,1136.04000,-224.04000,912.00000,"Elected"
+ "Martin MCCULLOCH (Lab)",1028,-116.00000,912.00000,,912.00000,,912.00000,,912.00000,,912.00000,"Elected"
+ "Sarah QUINN (SNP)",457,+5.64200,462.64200,+31.61278,494.25478,+53.01348,547.26826,+13.34262,560.61088,+10.29026,570.90114,
+ "Kenneth STEVENSON (Lab)",636,+92.86732,728.86732,+0.93552,729.80284,+22.82886,752.63170,+114.46692,867.09862,+89.58696,956.68558,"Elected"
+ "Non-transferable", ,+9.02768,9.02768,+2.26882,11.29650,+30.72422,42.02072,+129.22978,171.25050,+124.16278,295.41328,
+ "Totals",4559,,4559.00000,,4559.00000,,4559.00000,,4559.00000,,4559.00000
+ 

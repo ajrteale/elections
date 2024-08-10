@@ -1,0 +1,20 @@
+"Election for","North Lanarkshire 2022 - Ward 6 - Gartcosh, Glenboig and Moodiesburn"
+"Date","10 Aug 2024"
+"Number to be elected",3
+"Valid votes",4472
+"Invalid votes",0
+"Quota",1119.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Greg LENNON (SNP)",,"Patrick Pearse MCALEER (Grn)",,"Norma RAESIDE (C)",,"Joseph BEEKMAN (Lab)",
+ "Joseph BEEKMAN (Lab)",826,+6.30735,832.30735,+27.98231,860.28966,+107.00000,967.28966,-967.28966,"-",
+ "Joanne Katy KELTIE (SNP)",728,+196.78932,924.78932,+113.27197,1038.06129,+21.08126,1059.14255,+75.06357,1134.20612,"Elected"
+ "Greg LENNON (SNP)",1365,-246.00000,1119.00000,,1119.00000,,1119.00000,,1119.00000,"Elected"
+ "Patrick Pearse MCALEER (Grn)",203,+16.39911,219.39911,-219.39911,"-",,"-",,"-",
+ "Michael MCPAKE (Lab)",929,+11.35323,940.35323,+32.44168,972.79491,+138.54063,1111.33554,+770.06357,1881.39911,"Elected"
+ "Norma RAESIDE (C)",421,+3.42399,424.42399,+12.18021,436.60420,-436.60420,"-",,"-",
+ "Non-transferable", ,+11.72700,11.72700,+33.52294,45.24994,+169.98231,215.23225,+122.16252,337.39477,
+ "Totals",4472,,4472.00000,,4472.00000,,4472.00000,,4472.00000
+ 
