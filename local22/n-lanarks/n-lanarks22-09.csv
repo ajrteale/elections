@@ -1,20 +1,20 @@
-"Election for","North Lanarkshire 2022 - Ward 9 - Airdrie Central"
-"Date","10 Aug 2024"
-"Number to be elected",4
-"Valid votes",4679
-"Invalid votes",0
-"Quota",936.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2
- ,"First","Surplus of",
- "Candidates","Preferences","Lesley JARVIE (SNP)",
- "Chris COSTELLO (Lab)",988,,988.00000,"Elected"
- "Trevor DOUGLAS (C)",642,+4.34868,646.34868,
- "Lesley JARVIE (SNP)",1468,-532.00000,936.00000,"Elected"
- "Jim LOGUE (Lab)",986,,986.00000,"Elected"
- "Julie MARSHALL (Alba)",117,+15.94516,132.94516,
- "Janice Catherine TONER (SNP)",478,+472.55656,950.55656,"Elected"
- "Non-transferable", ,+39.14960,39.14960,
- "Totals",4679,,4679.00000
- 
+Election for,North Lanarkshire 2022 - Ward 9 - Airdrie Central,,,
+Date,10 Aug 2024,,,
+Number to be elected,4,,,
+Valid votes,4679,,,
+Invalid votes,0,,,
+Quota,936,,,
+OpenSTV,1.7,,,
+Election rules,Scottish STV,,,
+ ,,Stage,2,
+ ,First,Surplus of,,
+Candidates,Preferences,Lesley JARVIE (SNP),,
+Lesley JARVIE (SNP),1468,-532,936,Elected
+Chris COSTELLO (Lab),988,,988,Elected
+Jim LOGUE (Lab),986,,986,Elected
+Trevor DOUGLAS (C),642,4.34868,646.34868,
+Janice Catherine TONER (SNP),478,472.55656,950.55656,Elected
+Julie MARSHALL (Alba),117,15.94516,132.94516,
+Non-transferable, ,39.1496,39.1496,
+Totals,4679,,4679,
+ ,,,,

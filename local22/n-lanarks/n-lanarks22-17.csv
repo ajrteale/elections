@@ -1,20 +1,20 @@
-"Election for","North Lanarkshire 2022 - Ward 17 - Motherwell West"
-"Date","10 Aug 2024"
-"Number to be elected",3
-"Valid votes",4596
-"Invalid votes",0
-"Quota",1150.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
- ,"First","Surplus of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
- "Candidates","Preferences","David CRICHTON (SNP)",,"Megan MCCANN (Lab)",,"Paul KELLY (Lab)",,"Gordon Thomas MILLER (Grn)",,"Lindsey EVANS (SNP)",
- "David CRICHTON (SNP)",1261,-111.00000,1150.00000,,1150.00000,,1150.00000,,1150.00000,,1150.00000,"Elected"
- "Lindsey EVANS (SNP)",626,+95.50170,721.50170,+15.61614,737.11784,+30.08208,767.19992,+233.92867,1001.12859,-1001.12859,"-",
- "Paul KELLY (Lab)",1105,+4.48902,1109.48902,+254.26406,1363.75308,-213.75308,1150.00000,,1150.00000,,1150.00000,"Elected"
- "Megan MCCANN (Lab)",363,+1.49634,364.49634,-364.49634,"-",,"-",,"-",,"-",
- "Gordon Thomas MILLER (Grn)",372,+5.98536,377.98536,+23.44010,401.42546,+43.96210,445.38756,-445.38756,"-",,"-",
- "Lorraine NOLAN (C)",869,+0.17604,869.17604,+27.08802,896.26406,+46.73312,942.99718,+60.44524,1003.44242,+267.70947,1271.15189,"Elected"
- "Non-transferable", ,+3.35154,3.35154,+44.08802,47.43956,+92.97578,140.41534,+151.01365,291.42899,+733.41912,1024.84811,
- "Totals",4596,,4596.00000,,4596.00000,,4596.00000,,4596.00000,,4596.00000
- 
+Election for,North Lanarkshire 2022 - Ward 17 - Motherwell West,,,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,,,
+Number to be elected,3,,,,,,,,,,,
+Valid votes,4596,,,,,,,,,,,
+Invalid votes,0,,,,,,,,,,,
+Quota,1150,,,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,Stage,6,
+ ,First,Surplus of,,Exclusion of,,Surplus of,,Exclusion of,,Exclusion of,,
+Candidates,Preferences,David CRICHTON (SNP),,Megan MCCANN (Lab),,Paul KELLY (Lab),,Gordon Thomas MILLER (Grn),,Lindsey EVANS (SNP),,
+David CRICHTON (SNP),1261,-111,1150,,1150,,1150,,1150,,1150,Elected
+Paul KELLY (Lab),1105,4.48902,1109.48902,254.26406,1363.75308,-213.75308,1150,,1150,,1150,Elected
+Lorraine NOLAN (C),869,0.17604,869.17604,27.08802,896.26406,46.73312,942.99718,60.44524,1003.44242,267.70947,1271.15189,Elected
+Lindsey EVANS (SNP),626,95.5017,721.5017,15.61614,737.11784,30.08208,767.19992,233.92867,1001.12859,-1001.12859,-,
+Gordon Thomas MILLER (Grn),372,5.98536,377.98536,23.4401,401.42546,43.9621,445.38756,-445.38756,-,,-,
+Megan MCCANN (Lab),363,1.49634,364.49634,-364.49634,-,,-,,-,,-,
+Non-transferable, ,3.35154,3.35154,44.08802,47.43956,92.97578,140.41534,151.01365,291.42899,733.41912,1024.84811,
+Totals,4596,,4596,,4596,,4596,,4596,,4596,
+ ,,,,,,,,,,,,

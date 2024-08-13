@@ -1,20 +1,20 @@
-"Election for","North Lanarkshire 2022 - Ward 18 - Motherwell North"
-"Date","10 Aug 2024"
-"Number to be elected",4
-"Valid votes",5202
-"Invalid votes",0
-"Quota",1041.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
- ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
- "Candidates","Preferences","Gerry BRENNAN (SNP)",,"Andrew DUFFY-LAWSON (Lab)",,"Anne THOMAS (SNP)",,"Shahid FAROOQ (Alba)",
- "Oyebola AJALA (C)",574,+1.83775,575.83775,+24.61459,600.45234,+5.67638,606.12872,+33.60928,639.73800,
- "Gerry BRENNAN (SNP)",1646,-605.00000,1041.00000,,1041.00000,,1041.00000,,1041.00000,"Elected"
- "Andrew DUFFY-LAWSON (Lab)",1427,,1427.00000,-386.00000,1041.00000,,1041.00000,,1041.00000,"Elected"
- "Shahid FAROOQ (Alba)",262,+26.09605,288.09605,+6.22127,294.31732,+52.58727,346.90459,-346.90459,"-",
- "Ayeshah KHAN (Lab)",513,+27.56625,540.56625,+299.16194,839.72819,+72.90445,912.63264,+134.90224,1047.53488,"Elected"
- "Anne THOMAS (SNP)",780,+502.07330,1282.07330,,1282.07330,-241.07330,1041.00000,,1041.00000,"Elected"
- "Non-transferable", ,+47.42665,47.42665,+56.00220,103.42885,+109.90520,213.33405,+178.39307,391.72712,
- "Totals",5202,,5202.00000,,5202.00000,,5202.00000,,5202.00000
- 
+Election for,North Lanarkshire 2022 - Ward 18 - Motherwell North,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,
+Number to be elected,4,,,,,,,,,
+Valid votes,5202,,,,,,,,,
+Invalid votes,0,,,,,,,,,
+Quota,1041,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,
+ ,First,Surplus of,,Surplus of,,Surplus of,,Exclusion of,,
+Candidates,Preferences,Gerry BRENNAN (SNP),,Andrew DUFFY-LAWSON (Lab),,Anne THOMAS (SNP),,Shahid FAROOQ (Alba),,
+Gerry BRENNAN (SNP),1646,-605,1041,,1041,,1041,,1041,Elected
+Andrew DUFFY-LAWSON (Lab),1427,,1427,-386,1041,,1041,,1041,Elected
+Anne THOMAS (SNP),780,502.0733,1282.0733,,1282.0733,-241.0733,1041,,1041,Elected
+Oyebola AJALA (C),574,1.83775,575.83775,24.61459,600.45234,5.67638,606.12872,33.60928,639.738,
+Ayeshah KHAN (Lab),513,27.56625,540.56625,299.16194,839.72819,72.90445,912.63264,134.90224,1047.53488,Elected
+Shahid FAROOQ (Alba),262,26.09605,288.09605,6.22127,294.31732,52.58727,346.90459,-346.90459,-,
+Non-transferable, ,47.42665,47.42665,56.0022,103.42885,109.9052,213.33405,178.39307,391.72712,
+Totals,5202,,5202,,5202,,5202,,5202,
+ ,,,,,,,,,,

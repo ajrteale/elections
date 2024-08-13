@@ -1,20 +1,20 @@
-"Election for","North Lanarkshire 2022 - Ward 10 - Coatbridge West"
-"Date","10 Aug 2024"
-"Number to be elected",3
-"Valid votes",3894
-"Invalid votes",0
-"Quota",974.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
- ,"First","Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",
- "Candidates","Preferences","Lesley MITCHELL (SNP)",,"Kevin DOCHERTY (Lab)",,"Laraine SHIELDS (C)",,"Robert SLAVIN (Alba)",
- "Kevin DOCHERTY (Lab)",1159,,1159.00000,-185.00000,974.00000,,974.00000,,974.00000,"Elected"
- "Mary GOURLAY (Lab)",374,+6.25184,380.25184,+150.20242,530.45426,+118.23468,648.68894,+60.08552,708.77446,
- "Lesley MITCHELL (SNP)",1254,-280.00000,974.00000,,974.00000,,974.00000,,974.00000,"Elected"
- "Gary ROBINSON (SNP)",613,+255.87888,868.87888,+7.18290,876.06178,+9.22328,885.28506,+153.04042,1038.32548,"Elected"
- "Laraine SHIELDS (C)",240,+0.22328,240.22328,+3.99050,244.21378,-244.21378,"-",,"-",
- "Robert SLAVIN (Alba)",254,+8.03808,262.03808,+6.06556,268.10364,+19.47886,287.58250,-287.58250,"-",
- "Non-transferable", ,+9.60792,9.60792,+17.55862,27.16654,+97.27696,124.44350,+74.45656,198.90006,
- "Totals",3894,,3894.00000,,3894.00000,,3894.00000,,3894.00000
- 
+Election for,North Lanarkshire 2022 - Ward 10 - Coatbridge West,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,
+Number to be elected,3,,,,,,,,,
+Valid votes,3894,,,,,,,,,
+Invalid votes,0,,,,,,,,,
+Quota,974,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,
+ ,First,Surplus of,,Surplus of,,Exclusion of,,Exclusion of,,
+Candidates,Preferences,Lesley MITCHELL (SNP),,Kevin DOCHERTY (Lab),,Laraine SHIELDS (C),,Robert SLAVIN (Alba),,
+Lesley MITCHELL (SNP),1254,-280,974,,974,,974,,974,Elected
+Kevin DOCHERTY (Lab),1159,,1159,-185,974,,974,,974,Elected
+Gary ROBINSON (SNP),613,255.87888,868.87888,7.1829,876.06178,9.22328,885.28506,153.04042,1038.32548,Elected
+Mary GOURLAY (Lab),374,6.25184,380.25184,150.20242,530.45426,118.23468,648.68894,60.08552,708.77446,
+Robert SLAVIN (Alba),254,8.03808,262.03808,6.06556,268.10364,19.47886,287.5825,-287.5825,-,
+Laraine SHIELDS (C),240,0.22328,240.22328,3.9905,244.21378,-244.21378,-,,-,
+Non-transferable, ,9.60792,9.60792,17.55862,27.16654,97.27696,124.4435,74.45656,198.90006,
+Totals,3894,,3894,,3894,,3894,,3894,
+ ,,,,,,,,,,

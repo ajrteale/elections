@@ -1,19 +1,19 @@
-"Election for","North Lanarkshire 2022 - Ward 21 - Wishaw"
-"Date","10 Aug 2024"
-"Number to be elected",4
-"Valid votes",5295
-"Invalid votes",0
-"Quota",1060.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
- ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",
- "Candidates","Preferences","Fiona FOTHERINGHAM (SNP)",,"Jim HUME (SNP)",,"Frank MCKAY (Lab)",,"Martine NOLAN (Lab)",
- "Bob BURGESS (C)",980,+7.80486,987.80486,+12.18032,999.98518,+4.45510,1004.44028,+378.92751,1383.36779,"Elected"
- "Fiona FOTHERINGHAM (SNP)",1687,-627.00000,1060.00000,,1060.00000,,1060.00000,,1060.00000,"Elected"
- "Jim HUME (SNP)",719,+567.15316,1286.15316,-226.15316,1060.00000,,1060.00000,,1060.00000,"Elected"
- "Frank MCKAY (Lab)",1138,,1138.00000,,1138.00000,-78.00000,1060.00000,,1060.00000,"Elected"
- "Martine NOLAN (Lab)",771,+22.67126,793.67126,+86.98740,880.65866,+65.66132,946.31998,-946.31998,"-",
- "Non-transferable", ,+29.37072,29.37072,+126.98544,156.35616,+7.88358,164.23974,+567.39247,731.63221,
- "Totals",5295,,5295.00000,,5295.00000,,5295.00000,,5295.00000
- 
+Election for,North Lanarkshire 2022 - Ward 21 - Wishaw,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,
+Number to be elected,4,,,,,,,,,
+Valid votes,5295,,,,,,,,,
+Invalid votes,0,,,,,,,,,
+Quota,1060,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,
+ ,First,Surplus of,,Surplus of,,Surplus of,,Exclusion of,,
+Candidates,Preferences,Fiona FOTHERINGHAM (SNP),,Jim HUME (SNP),,Frank MCKAY (Lab),,Martine NOLAN (Lab),,
+Fiona FOTHERINGHAM (SNP),1687,-627,1060,,1060,,1060,,1060,Elected
+Frank MCKAY (Lab),1138,,1138,,1138,-78,1060,,1060,Elected
+Bob BURGESS (C),980,7.80486,987.80486,12.18032,999.98518,4.4551,1004.44028,378.92751,1383.36779,Elected
+Martine NOLAN (Lab),771,22.67126,793.67126,86.9874,880.65866,65.66132,946.31998,-946.31998,-,
+Jim HUME (SNP),719,567.15316,1286.15316,-226.15316,1060,,1060,,1060,Elected
+Non-transferable, ,29.37072,29.37072,126.98544,156.35616,7.88358,164.23974,567.39247,731.63221,
+Totals,5295,,5295,,5295,,5295,,5295,
+ ,,,,,,,,,,

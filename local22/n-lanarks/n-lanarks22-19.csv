@@ -1,22 +1,22 @@
-"Election for","North Lanarkshire 2022 - Ward 19 - Motherwell South East and Ravenscraig"
-"Date","10 Aug 2024"
-"Number to be elected",4
-"Valid votes",6063
-"Invalid votes",0
-"Quota",1213.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7,"Stage",8
- ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
- "Candidates","Preferences","Agnes MAGOWAN (SNP)",,"Kenneth DUFFY (Lab)",,"David ROBB (SNP)",,"Neil WILSON (UKIP)",,"James Joseph MITCHELL (ScFam)",,"Derek WATSON (Grn)",,"Michael ROSS (Lab)",
- "Kenneth DUFFY (Lab)",1368,,1368.00000,-155.00000,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,"Elected"
- "Agnes MAGOWAN (SNP)",1941,-728.00000,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,"Elected"
- "James Joseph MITCHELL (ScFam)",54,+7.50120,61.50120,+4.07880,65.58000,+1.39125,66.97125,+3.00000,69.97125,-69.97125,"-",,"-",,"-",
- "David ROBB (SNP)",653,+609.84756,1262.84756,,1262.84756,-49.84756,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,"Elected"
- "Michael ROSS (Lab)",525,+17.62782,542.62782,+113.97980,656.60762,+8.32780,664.93542,+7.12810,672.06352,+16.06427,688.12779,+185.58632,873.71411,-873.71411,"-",
- "Derek WATSON (Grn)",472,+42.38178,514.38178,+7.36450,521.74628,+20.47923,542.22551,+9.01480,551.24031,+11.43043,562.67074,-562.67074,"-",,"-",
- "Nathan WILSON (C)",1010,+14.62734,1024.62734,+7.81770,1032.44504,+0.52789,1032.97293,+6.11330,1039.08623,+9.02960,1048.11583,+42.08178,1090.19761,+225.56113,1315.75874,"Elected"
- "Neil WILSON (UKIP)",40,,40.00000,+0.22660,40.22660,+0.18254,40.40914,-40.40914,"-",,"-",,"-",,"-",
- "Non-transferable", ,+36.01430,36.01430,+21.53260,57.54690,+18.93885,76.48575,+15.15294,91.63869,+33.44695,125.08564,+335.00264,460.08828,+648.15298,1108.24126,
- "Totals",6063,,6063.00000,,6063.00000,,6063.00000,,6063.00000,,6063.00000,,6063.00000,,6063.00000
- 
+Election for,North Lanarkshire 2022 - Ward 19 - Motherwell South East and Ravenscraig,,,,,,,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,,,,,,,
+Number to be elected,4,,,,,,,,,,,,,,,
+Valid votes,6063,,,,,,,,,,,,,,,
+Invalid votes,0,,,,,,,,,,,,,,,
+Quota,1213,,,,,,,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,Stage,6,Stage,7,Stage,8,
+ ,First,Surplus of,,Surplus of,,Surplus of,,Exclusion of,,Exclusion of,,Exclusion of,,Exclusion of,,
+Candidates,Preferences,Agnes MAGOWAN (SNP),,Kenneth DUFFY (Lab),,David ROBB (SNP),,Neil WILSON (UKIP),,James Joseph MITCHELL (ScFam),,Derek WATSON (Grn),,Michael ROSS (Lab),,
+Agnes MAGOWAN (SNP),1941,-728,1213,,1213,,1213,,1213,,1213,,1213,,1213,Elected
+Kenneth DUFFY (Lab),1368,,1368,-155,1213,,1213,,1213,,1213,,1213,,1213,Elected
+Nathan WILSON (C),1010,14.62734,1024.62734,7.8177,1032.44504,0.52789,1032.97293,6.1133,1039.08623,9.0296,1048.11583,42.08178,1090.19761,225.56113,1315.75874,Elected
+David ROBB (SNP),653,609.84756,1262.84756,,1262.84756,-49.84756,1213,,1213,,1213,,1213,,1213,Elected
+Michael ROSS (Lab),525,17.62782,542.62782,113.9798,656.60762,8.3278,664.93542,7.1281,672.06352,16.06427,688.12779,185.58632,873.71411,-873.71411,-,
+Derek WATSON (Grn),472,42.38178,514.38178,7.3645,521.74628,20.47923,542.22551,9.0148,551.24031,11.43043,562.67074,-562.67074,-,,-,
+James Joseph MITCHELL (ScFam),54,7.5012,61.5012,4.0788,65.58,1.39125,66.97125,3,69.97125,-69.97125,-,,-,,-,
+Neil WILSON (UKIP),40,,40,0.2266,40.2266,0.18254,40.40914,-40.40914,-,,-,,-,,-,
+Non-transferable, ,36.0143,36.0143,21.5326,57.5469,18.93885,76.48575,15.15294,91.63869,33.44695,125.08564,335.00264,460.08828,648.15298,1108.24126,
+Totals,6063,,6063,,6063,,6063,,6063,,6063,,6063,,6063,
+ ,,,,,,,,,,,,,,,,

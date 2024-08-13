@@ -1,22 +1,22 @@
-"Election for","North Lanarkshire 2022 - Ward 8 - Airdrie North"
-"Date","10 Aug 2024"
-"Number to be elected",4
-"Valid votes",5565
-"Invalid votes",0
-"Quota",1114.00000
-"OpenSTV","1.7"
-"Election rules","Scottish STV"
- ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7,"Stage",8
- ,"First","Surplus of",,"Surplus of",,"Surplus of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
- "Candidates","Preferences","Sophia COYLE (SNP)",,"Alan BEVERIDGE (Ind)",,"Henry Emerson DUNBAR (Lab)",,"Daryl GARDNER (UKIP)",,"Robert Stewart MCGEORGE (LD)",,"Peter Gerard KELLY (Lab)",,"Graeme MCGINNIGLE (C)",
- "Alan BEVERIDGE (Ind)",1223,,1223.00000,-109.00000,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,"Elected"
- "Sophia COYLE (SNP)",1741,-627.00000,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,"Elected"
- "Henry Emerson DUNBAR (Lab)",1170,,1170.00000,,1170.00000,-56.00000,1114.00000,,1114.00000,,1114.00000,,1114.00000,,1114.00000,"Elected"
- "Daryl GARDNER (UKIP)",25,+2.88104,27.88104,+3.38656,31.26760,+0.71790,31.98550,-31.98550,"-",,"-",,"-",,"-",
- "Peter Gerard KELLY (Lab)",463,+28.45027,491.45027,+25.13184,516.58211,+40.39384,556.97595,+4.00377,560.97972,+24.93340,585.91312,-585.91312,"-",,"-",
- "Robert Stewart MCGEORGE (LD)",71,+6.48234,77.48234,+7.48608,84.96842,+1.05292,86.02134,+8.29341,94.31475,-94.31475,"-",,"-",,"-",
- "Graeme MCGINNIGLE (C)",603,+2.16078,605.16078,+16.66544,621.82622,+6.07822,627.90444,+10.26453,638.16897,+20.06661,658.23558,+98.19537,756.43095,-756.43095,"-",
- "Richard Alan SULLIVAN (SNP)",269,+533.35253,802.35253,+23.52768,825.88021,+0.71790,826.59811,+0.26736,826.86547,+11.35482,838.22029,+104.15587,942.37616,+83.03548,1025.41164,"Elected"
- "Non-transferable", ,+53.67304,53.67304,+32.80240,86.47544,+7.03922,93.51466,+9.15643,102.67109,+37.95992,140.63101,+383.56188,524.19289,+673.39547,1197.58836,
- "Totals",5565,,5565.00000,,5565.00000,,5565.00000,,5565.00000,,5565.00000,,5565.00000,,5565.00000
- 
+Election for,North Lanarkshire 2022 - Ward 8 - Airdrie North,,,,,,,,,,,,,,,
+Date,10 Aug 2024,,,,,,,,,,,,,,,
+Number to be elected,4,,,,,,,,,,,,,,,
+Valid votes,5565,,,,,,,,,,,,,,,
+Invalid votes,0,,,,,,,,,,,,,,,
+Quota,1114,,,,,,,,,,,,,,,
+OpenSTV,1.7,,,,,,,,,,,,,,,
+Election rules,Scottish STV,,,,,,,,,,,,,,,
+ ,,Stage,2,Stage,3,Stage,4,Stage,5,Stage,6,Stage,7,Stage,8,
+ ,First,Surplus of,,Surplus of,,Surplus of,,Exclusion of,,Exclusion of,,Exclusion of,,Exclusion of,,
+Candidates,Preferences,Sophia COYLE (SNP),,Alan BEVERIDGE (Ind),,Henry Emerson DUNBAR (Lab),,Daryl GARDNER (UKIP),,Robert Stewart MCGEORGE (LD),,Peter Gerard KELLY (Lab),,Graeme MCGINNIGLE (C),,
+Sophia COYLE (SNP),1741,-627,1114,,1114,,1114,,1114,,1114,,1114,,1114,Elected
+Alan BEVERIDGE (Ind),1223,,1223,-109,1114,,1114,,1114,,1114,,1114,,1114,Elected
+Henry Emerson DUNBAR (Lab),1170,,1170,,1170,-56,1114,,1114,,1114,,1114,,1114,Elected
+Graeme MCGINNIGLE (C),603,2.16078,605.16078,16.66544,621.82622,6.07822,627.90444,10.26453,638.16897,20.06661,658.23558,98.19537,756.43095,-756.43095,-,
+Peter Gerard KELLY (Lab),463,28.45027,491.45027,25.13184,516.58211,40.39384,556.97595,4.00377,560.97972,24.9334,585.91312,-585.91312,-,,-,
+Richard Alan SULLIVAN (SNP),269,533.35253,802.35253,23.52768,825.88021,0.7179,826.59811,0.26736,826.86547,11.35482,838.22029,104.15587,942.37616,83.03548,1025.41164,Elected
+Robert Stewart MCGEORGE (LD),71,6.48234,77.48234,7.48608,84.96842,1.05292,86.02134,8.29341,94.31475,-94.31475,-,,-,,-,
+Daryl GARDNER (UKIP),25,2.88104,27.88104,3.38656,31.2676,0.7179,31.9855,-31.9855,-,,-,,-,,-,
+Non-transferable, ,53.67304,53.67304,32.8024,86.47544,7.03922,93.51466,9.15643,102.67109,37.95992,140.63101,383.56188,524.19289,673.39547,1197.58836,
+Totals,5565,,5565,,5565,,5565,,5565,,5565,,5565,,5565,
+ ,,,,,,,,,,,,,,,,
