@@ -2,22 +2,22 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3006"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    width="1000"
    height="421.83032"
-   sodipodi:docname="dundee17c.svg"
-   inkscape:export-filename="/home/andrewteale/eln/boundaries/scotland/tay/dundee17c.png"
+   sodipodi:docname="dundee22c.svg"
+   inkscape:export-filename="dundee22c.png"
    inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:export-ydpi="72"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata3012">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1010"
+     inkscape:window-height="1008"
      id="namedview3008"
      showgrid="false"
      fit-margin-top="0"
@@ -51,11 +51,14 @@
      fit-margin-bottom="0"
      inkscape:zoom="1.726"
      inkscape:cx="500"
-     inkscape:cy="210.91516"
+     inkscape:cy="211.18192"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3006" />
+     inkscape:current-layer="svg3006"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <path
      id="path3034"
      style="fill:#000000"
@@ -80,7 +83,7 @@
      id="path3026"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#0000ff"
+     style="fill:#ffff00"
      d="m 877.45686,284.6555 c 4.58784,-2.32484 8.56044,-2.70528 14.15978,-1.35605 2.06303,0.49712 5.17399,0.91302 6.91318,0.92422 4.24359,0.0273 18.91533,-5.50128 21.01062,-7.91728 0.9169,-1.05725 2.97993,-2.57494 4.5845,-3.37264 1.60458,-0.7977 4.26501,-2.53305 5.91201,-3.85634 l 2.9946,-2.40598 12.21762,0.57729 c 8.10265,0.38284 12.21762,0.29181 12.21762,-0.27029 0,-0.46616 -0.75678,-1.80968 -1.68176,-2.98559 -2.10779,-2.67957 -1.63609,-2.99255 6.68637,-4.43679 3.55491,-0.61691 9.4158,-2.31881 13.0242,-3.78199 5.5627,-2.25562 7.6696,-2.67006 13.8492,-2.72416 4.0087,-0.0351 7.2907,-0.27763 7.2936,-0.53895 0,-0.26131 -1.2473,-1.94925 -2.7781,-3.75096 -4.0204,-4.73207 -13.6079,-17.86191 -19.739,-27.0319 -3.67461,-5.49592 -8.64438,-11.17991 -16.24357,-18.57785 -9.75458,-9.49626 -10.91112,-10.91794 -10.60096,-13.03116 0.35584,-2.4246 2.91666,-4.23347 5.99336,-4.23347 3.77989,0 4.15315,-0.6566 2.75954,-4.85459 -0.7116,-2.14371 -1.85989,-4.55085 -2.55173,-5.34922 -1.13988,-1.31538 -0.98375,-1.86289 1.66401,-5.83483 1.60699,-2.41078 7.13632,-8.78927 12.2873,-14.17441 l 9.36535,-9.79116 -3.0847,-5.61195 -3.08467,-5.61195 2.79817,-2.38907 c 1.539,-1.314 4.7674,-3.86559 7.1743,-5.67022 3.9322,-2.94827 4.372,-3.59561 4.3357,-6.38065 -0.046,-3.52939 -5.7803,-17.82081 -7.362,-18.34802 -0.5738,-0.19125 -1.2422,0.41326 -1.4854,1.34336 -0.3135,1.19846 -1.5722,1.95594 -4.3211,2.60027 -7.09444,1.66291 -21.29431,3.35545 -28.28085,3.37092 l -6.89759,0.0153 -0.51447,-2.57229 c -0.2829,-1.41475 -1.11753,-2.76159 -1.85464,-2.99299 -0.7371,-0.2314 -2.13854,-0.80077 -3.11429,-1.26528 -1.24965,-0.59489 -4.32977,-0.4601 -10.41933,0.45599 -4.75488,0.71529 -11.47918,1.54167 -14.9429,1.83641 l -6.29777,0.53588 -1.01801,-4.41045 c -0.55998,-2.425757 -1.46279,-7.931277 -2.00626,-12.234497 -0.71185,-5.63564 -1.36669,-8.02659 -2.34127,-8.54819 -0.89181,-0.47725 -3.88657,0.0889 -8.78374,1.66041 -8.31387,2.66797 -17.33418,4.6411 -25.1736,5.50652 -3.71303,0.40989 -5.46622,1.00148 -6.01686,2.03033 -1.06578,1.99141 -3.88058,2.58924 -5.1259,1.08869 -1.00459,-1.2105 -6.28093,-1.13296 -15.73318,0.23121 -2.72661,0.3935 -3.00068,0.22935 -3.75096,-2.24656 -0.74727,-2.46612 -1.70485,-3.04831 -12.47902,-7.58686 -6.4183,-2.70368 -12.13851,-5.12419 -12.71158,-5.37893 -0.6874,-0.30555 -1.04193,0.28568 -1.04193,1.73761 0,2.64786 -3.45081,9.71075 -6.85848,14.03746 -3.3395,4.24017 -3.72571,8.12152 -1.5159,15.234367 0.99083,3.18921 1.94975,7.77482 2.13094,10.19023 0.18118,2.41541 0.51408,4.69042 0.73975,5.05556 0.22568,0.36515 1.19447,5.25993 2.15289,10.87727 1.17768,6.90249 3.18808,14.18059 6.20165,22.45146 3.02282,8.29614 4.77735,14.65414 5.44727,19.73883 0.54347,4.1254 1.40327,9.05286 1.91065,10.94991 0.86014,3.21589 0.74594,3.72437 -1.68834,7.51784 -2.73597,4.26363 -3.12704,4.4853 -16.02234,9.0822 -16.76525,5.97647 -41.9996,11.21115 -54.04444,11.21115 -3.25369,0 -3.61582,0.18687 -3.22895,1.66626 0.23966,0.91645 0.15141,1.84199 -0.1961,2.05677 -0.34751,0.21477 -0.16906,2.93459 0.39655,6.04403 0.56561,3.10945 1.22556,7.73684 1.46655,10.28307 0.41601,4.39542 0.31573,4.71155 -1.98299,6.2516 -3.08004,2.06349 -3.0499,3.52702 0.1555,7.55066 2.2657,2.84407 2.52146,3.68163 2.09095,6.84766 l -0.4905,3.60725 2.70194,-0.60749 c 1.48607,-0.33411 4.43778,-0.53431 6.55936,-0.44489 2.12158,0.0894 7.74801,-0.64554 12.50319,-1.63325 4.75518,-0.98771 10.33371,-1.76005 12.39674,-1.7163 4.66589,0.0989 14.83044,-1.70341 24.28971,-4.30697 6.49961,-1.78894 7.43449,-1.86519 9.58578,-0.78175 3.68076,1.85371 8.74422,5.29077 12.06465,8.18944 6.68813,5.83869 22.50083,13.44217 30.95449,14.88441 2.47205,0.42174 3.1258,0.26896 3.1258,-0.73046 0,-2.21486 7.7774,2.97082 8.74506,5.83089 0.45453,1.34334 1.48605,2.93259 2.29225,3.53164 0.80621,0.59906 1.46588,2.16196 1.46588,3.47311 0,3.94669 4.5174,4.47445 10.8466,1.26719 z"
      id="path3024" />
   <path
@@ -105,7 +108,7 @@
        id="tspan2400"
        x="285.97104"
        y="331.89999"
-       style="font-size:11.99999809px;line-height:1">West End</tspan></text>
+       style="font-size:12px;line-height:1">West End</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -116,7 +119,7 @@
        id="tspan2388"
        x="566.76038"
        y="229.48462"
-       style="font-size:11.99999809px;line-height:1">Maryfield</tspan></text>
+       style="font-size:12px;line-height:1">Maryfield</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -127,7 +130,7 @@
        id="tspan2372"
        x="417.48828"
        y="217.7216"
-       style="font-size:11.99999809px;line-height:1">Coldside</tspan></text>
+       style="font-size:12px;line-height:1">Coldside</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -138,7 +141,7 @@
        id="tspan2376"
        x="690.82452"
        y="193.56665"
-       style="font-size:11.99999809px;line-height:1">East End</tspan></text>
+       style="font-size:12px;line-height:1">East End</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -149,7 +152,7 @@
        id="tspan2380"
        x="884.17548"
        y="191.98169"
-       style="font-size:11.99999809px;line-height:1">The Ferry</tspan></text>
+       style="font-size:12px;line-height:1">The Ferry</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -160,7 +163,7 @@
        id="tspan2384"
        x="182.58789"
        y="221.05493"
-       style="font-size:11.99999809px;line-height:1">Lochee</tspan></text>
+       style="font-size:12px;line-height:1">Lochee</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -171,7 +174,7 @@
        id="tspan2396"
        x="362.50876"
        y="85.227463"
-       style="font-size:11.99999809px;line-height:1">Strathmartine</tspan></text>
+       style="font-size:12px;line-height:1">Strathmartine</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Palatino Linotype';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -182,5 +185,5 @@
        id="tspan2392"
        x="679.90332"
        y="93.54615"
-       style="font-size:11.99999809px;line-height:1">North East</tspan></text>
+       style="font-size:12px;line-height:1">North East</tspan></text>
 </svg>
