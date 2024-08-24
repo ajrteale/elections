@@ -1,0 +1,21 @@
+"Election for","North Lanarkshire 2022 - Ward 5 - Stepps, Chryston and Muirhead"
+"Date","10 Aug 2024"
+"Number to be elected",3
+"Valid votes",4848
+"Invalid votes",0
+"Quota",1213.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+ ,"First","Surplus of",,"Exclusion of",,"Exclusion of",,"Surplus of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Josh CAIRNS (SNP)",,"Neil K CASEY (LD)",,"Ian MACQUARRIE (SNP)",,"John MCLAREN (Lab)",,"Margaret-Anne SHAW (Lab)",,"Crissy SANDHU (C)",
+ "Josh CAIRNS (SNP)",1299,-86.00000,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,,1213.00000,"Elected"
+ "Neil K CASEY (LD)",154,+1.19160,155.19160,-155.19160,"-",,"-",,"-",,"-",,"-",
+ "Ian MACQUARRIE (SNP)",467,+71.95940,538.95940,+9.33100,548.29040,-548.29040,"-",,"-",,"-",,"-",
+ "John MCLAREN (Lab)",1159,+3.11140,1162.11140,+42.26480,1204.37620,+67.65820,1272.03440,-59.03440,1213.00000,,1213.00000,,1213.00000,"Elected"
+ "Crissy SANDHU (C)",725,+0.39720,725.39720,+32.06620,757.46340,+8.86060,766.32400,+5.39161,771.71561,+97.91290,869.62851,-869.62851,"-",
+ "Margaret-Anne SHAW (Lab)",521,+1.58880,522.58880,+26.13240,548.72120,+54.36920,603.09040,+43.13420,646.22460,-646.22460,"-",,"-",
+ "Claire Louise WILLIAMS (Grn)",523,+5.69320,528.69320,+28.19860,556.89180,+298.99180,855.88360,+2.86689,858.75049,+184.89515,1043.64564,+174.03344,1217.67908,"Elected"
+ "Non-transferable", ,+2.05840,2.05840,+17.19860,19.25700,+118.41060,137.66760,+7.64170,145.30930,+363.41655,508.72585,+695.59507,1204.32092,
+ "Totals",4848,,4848.00000,,4848.00000,,4848.00000,,4848.00000,,4848.00000,,4848.00000
+ 

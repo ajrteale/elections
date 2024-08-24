@@ -1,0 +1,20 @@
+"Election for","Stirling 2024-08-15 - Ward 3 - Dunblane and Bridge of Allan"
+"Date","16 Aug 2024"
+"Number to be elected",1
+"Valid votes",4094
+"Invalid votes",0
+"Quota",2048.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Alastair George MAJURY (Ind)",,"Dick MOERMAN (LD)",,"Andrew ADAM (Grn)",,"John WATSON (SNP)",,"Stuart MCLUCKIE (C)",
+ "Andrew ADAM (Grn)",659,+11.00000,670.00000,+90.00000,760.00000,-760.00000,"-",,"-",,"-",
+ "Alastair George MAJURY (Ind)",225,-225.00000,"-",,"-",,"-",,"-",,"-",
+ "Stuart MCLUCKIE (C)",1143,+71.00000,1214.00000,+70.00000,1284.00000,+44.00000,1328.00000,+33.00000,1361.00000,-1361.00000,"-",
+ "Dick MOERMAN (LD)",345,+37.00000,382.00000,-382.00000,"-",,"-",,"-",,"-",
+ "John WATSON (SNP)",770,+23.00000,793.00000,+33.00000,826.00000,+250.00000,1076.00000,-1076.00000,"-",,"-",
+ "David WILSON (Lab)",952,+29.00000,981.00000,+120.00000,1101.00000,+289.00000,1390.00000,+436.00000,1826.00000,+426.00000,2252.00000,"Elected"
+ "Non-transferable", ,+54.00000,54.00000,+69.00000,123.00000,+177.00000,300.00000,+607.00000,907.00000,+935.00000,1842.00000,
+ "Totals",4094,,4094.00000,,4094.00000,,4094.00000,,4094.00000,,4094.00000
+ 
