@@ -1,0 +1,20 @@
+"Election for","Aberdeenshire 2022 - Ward 8 - Mid Formartine"
+"Date","31 Aug 2024"
+"Number to be elected",4
+"Valid votes",5046
+"Invalid votes",0
+"Quota",1010.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Exclusion of",,"Surplus of",,"Surplus of",,"Exclusion of",
+ "Candidates","Preferences","Kenny HUTCHISON (SNP)",,"Jenny NICOL (SNP)",,"Paul JOHNSTON (Ind)",,"Sheila POWELL (C)",
+ "Andrew John HASSAN (LD)",752,+30.00000,782.00000,+152.16984,934.16984,+65.48538,999.65522,+47.91532,1047.57054,"Elected"
+ "Kenny HUTCHISON (SNP)",728,-728.00000,"-",,"-",,"-",,"-",
+ "Paul JOHNSTON (Ind)",916,+43.00000,959.00000,+172.38564,1131.38564,-121.38564,1010.00000,,1010.00000,"Elected"
+ "Jenny NICOL (SNP)",971,+626.00000,1597.00000,-587.00000,1010.00000,,1010.00000,,1010.00000,"Elected"
+ "Sheila POWELL (C)",803,+6.00000,809.00000,+18.01044,827.01044,+10.30349,837.31393,-837.31393,"-",
+ "Derek RITCHIE (C)",876,+3.00000,879.00000,+18.37800,897.37800,+12.72049,910.09849,+737.99843,1648.09692,"Elected"
+ "Non-transferable", ,+20.00000,20.00000,+226.05608,246.05608,+32.87628,278.93236,+51.40018,330.33254,
+ "Totals",5046,,5046.00000,,5046.00000,,5046.00000,,5046.00000
+ 
