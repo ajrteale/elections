@@ -1,0 +1,22 @@
+"Election for","Fife 2022 - Ward 21 - Leven, Kennoway & Largo"
+"Date","26 Aug 2024"
+"Number to be elected",4
+"Valid votes",6559
+"Invalid votes",0
+"Quota",1312.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3
+ ,"First","Surplus of",,"Surplus of",
+ "Candidates","Preferences","David ALEXANDER (SNP)",,"Colin DAVIDSON (Lab)",
+ "David ALEXANDER (SNP)",2077,-765.00000,1312.00000,,1312.00000,"Elected"
+ "Eugene McDonald CLARKE (LD)",1268,+39.77748,1307.77748,+4.75260,1312.53008,"Elected"
+ "Colin DAVIDSON (Lab)",1348,,1348.00000,-36.00000,1312.00000,"Elected"
+ "Iain Duncan MORRICE (Grn)",156,+43.46058,199.46058,+0.85440,200.31498,
+ "Graham RITCHIE (C)",683,+3.68310,686.68310,+1.84230,688.52540,
+ "Davina Graham SAUNDERS (ScFam)",49,+3.68310,52.68310,+0.26700,52.95010,
+ "Alistair Belford SUTTIE (SNP)",707,+616.18263,1323.18263,,1323.18263,"Elected"
+ "Jacob Stewart WINTON (Lab)",271,+16.20564,287.20564,+23.65620,310.86184,
+ "Non-transferable", ,+42.00747,42.00747,+4.62750,46.63497,
+ "Totals",6559,,6559.00000,,6559.00000
+ 
