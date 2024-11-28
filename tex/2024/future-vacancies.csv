@@ -1,76 +1,48 @@
-"Polling","Council","ID","Ward","ID","Defending","Outgoing councillor","Cause","Remarks","Prev results","C cand","Lab cand","LD cand","Grn cand","SNP/PC cand","Other cand"
-2024-10-24,"BCP",462,"Muscliff/Strouden Park",20953,"Ind","Brian Castle","Death",,"andrewteale.me.uk/i7hv","Toby Slade","Eyyup Kilinc","Richard Blackwell-Whitehead","Roger Mann",,"Julie-Anne Houldey (Ind), Conor O'Luby (Ind), Peter Rogers (Ind)"
-2024-10-24,"Calderdale",65,"Calder",1348,"Lab","Josh Fenton-Glynn MP","Resignation","Calder Valley","andrewteale.me.uk/i4hb","Brian Carter","Jonathan Timbers","Chris Wadsworth","Kieran Turner",,"Scott Borrows (Ind), Jim McNeill (SDP)"
-2024-10-24,"Crawley",357,"Northgate/W Green",21143,"Lab","Peter Lamb MP","Resignation","Crawley","andrewteale.me.uk/izpv","Jonathan Purdy","Khayla Abu Mosa",,"Nick Park",,"Linda Bamieh (Workers), Robin Burnham (TUSC), Tim Charters (RUK)"
-2024-10-24,"Denbighshire",423,"Prestatyn N",22783,"Lab","Gill German MP","Resignation","Clwyd N","andrewteale.me.uk/ip6w","Anton Sampson","Neil Gibson","Keith Kirwan",,"Paul Penlington","Tony Flynn (Ind), Gerry Frobisher (RUK)"
-2024-10-24,"E Lindsey",268,"Croft",17179,"C","Sid Dennis","Death",,"andrewteale.me.uk/iv1r","Carl Drury","Mark Anderson","David Tucker","Phil Gaskell",,"Paul Collins (Ind), Adrian Findley (SUDS)"
-2024-10-24,"Gateshead",52,"Whickham N",1061,"LD","Sonya Hawkins","Resignation",,"andrewteale.me.uk/if8a","Robert Ableson","Jeff Bowe","Susan Craig","Pat Chanse",,
-2024-10-24,"Isle of Anglesey",421,"Talybolion",22605,"PC","Llinos Medi MP","Resignation","Ynys Môn","andrewteale.me.uk/i90w","David Evans",,,"Tomos Barlow","Dafydd Williams","Kenneth Hughes (Ind)"
-2024-10-24,"Middlesbrough",79,"Hemlington",17160,"Lab","Jeanette Walker","Death",,"andrewteale.me.uk/i90r","Lewis Melvin","Tom Mohan","Chris Henderson",,,"Mehmoona Ameen (Workers), Barrie Cooper (Ind)"
-2024-10-24,"Monmouthshire",414,"Town",23265,"Lab","Catherine Fookes MP","Resignation","Monmouth","andrewteale.me.uk/i9mx","Martin Newell","Jackie Atkin","Jez Becker","Paul Rollings",,
-2024-10-24,"New Forest",222,"Barton/Becton",22203,"C","Keith Craze","Death",,"andrewteale.me.uk/i3nw","John Adams",,"Wynford Davies",,,
-2024-10-24,"S Cambs",144,"Histon/Impington",19230,"LD","Pippa Heylings MP","Resignation","S Cambs","andrewteale.me.uk/ir0t","Clive Pelbrough-Power","William Mason","James Rixon","Kathryn Fisher",,"Edd Stonham (Ind)"
-2024-10-24,"S Ribble",257,"Middleforth",17384,"Lab","Will Adams","Resignation",,"andrewteale.me.uk/i27r","Joan Burrows","Laura Crawford-Lane","Clare Burton-Johnson","Ann Moorby",,
-2024-10-24,"Surrey Heath",345,"Old Dean",19929,"C","Lewis Mears","Resignation",,"andrewteale.me.uk/i6ku","Catheirne Gibbard","Charlie Wilson","Dave Hough",,,"Tal Belnik (Ind), Sam Goggin (RUK)"
-2024-10-31,"Charnwood",261,"Sileby/Seagrave",23823,"Grn","Faye Forde","Resignation",,"andrewteale.me.uk/i64x","Sue Gerrard","Kaisra Khan","Alistair Duffy","Steve Bellamy",,"Pete Morris (RUK)"
-2024-10-31,"Hants CC",384,"Bishops Waltham",18855,"C","Rob Humby","Resignation",,"andrewteale.me.uk/inlt","Neil Bolton","Steve Haines","Jonathan Williams","Alex Ellis",,
-2024-10-31,"Rochdale",36,"N Middleton",23281,"Midlton","Peter Allonby","Disqualification","Non-attendance","andrewteale.me.uk/isnx","Sajid Majid","Donna Martin","Iain Donaldson",,,"Keeley O'Mara (Middleton Ind)"
-2024-10-31,"Salford",37,"Eccles",21350,"Lab","Sharmina August","Resignation",,"andrewteale.me.uk/i8vv","Daniel Whitehouse","Lisa Muir","Ian McKinlay","Sara Laing",,"Sally Griffiths (TUSC)"
-2024-10-31,"Stockport",38,"Bramhall S/Woodford",24033,"LD","Ian Powney","Resignation",,"andrewteale.me.uk/ikcy","Peter Crossen","Jake Thomas","Sandeep Singh Kashyap","Andrew Dearden",,"John Kelly (RUK)"
-2024-10-31,"Westmorland/Furness",472,"Kirkby Stephen/Tebay",23642,"C","Phil Dew","Resignation",,"andrewteale.me.uk/iqzx","Pat Bell",,"Adrian Waite",,,
-2024-10-31,"Wolverhampton",63,"Bilston N",24012,"Lab","Susan Roberts","Death",,"andrewteale.me.uk/ixby","Andrew Randle","Luke Guy","Julian Donald","Hardev Singh",,"Anita Stanley (RUK)"
-2024-11-07,"Aberdeenshire",428,"C Buchan",18279,"SNP","David Mair","Resignation",,"andrewteale.me.uk/i61s","Peter Chapman",,"Ian Bailey",,"Sarah Wilken","Andrew Curwen (RUK), Phil Reynolds (Scottish Family Party), Dean Ward (Ind)"
-2024-11-07,"Aberdeenshire",428,"Fraserburgh/District",18278,"SNP","Seamus Logan MP","Resignation","Aberdeenshire N/Moray E","andrewteale.me.uk/i51s","Iain Sutherland",,"Sandy Leslie",,"Mike McDonald","Conrad Ritchie (RUK), Dawn Smith (Scottish Family Party)"
-2024-11-07,"Aberdeenshire",428,"Mearns",18294,"SNP","Kevin Stelfox","Resignation",,"andrewteale.me.uk/in2s","Tracey Smith",,"Isobel Knights","William Linegar","Hannah Scott","Claudia Leith (RUK)"
-2024-11-07,"Blackpool",83,"Bispham",24447,"C","Tony Warne","Resignation",,"andrewteale.me.uk/i3qy","Lynda Watson","Joel McKevitt","Kevan Benfold","Ben Thomas",,"William Banks (RUK), Rick Scott (Ind)"
-2024-11-07,"Bracknell Forest",92,"Great Hollands",22190,"Lab","Naheed Ejaz","Resignation",,"andrewteale.me.uk/iqnw","Sue Housego","Donna Pressland",,,,"Michael Gbadebo (Ind), Jason Reardon (Heritage Party), Colin Wright (RUK)"
-2024-11-07,"Herefs",107,"Bishops Frome/Cradley",16981,"Grn","Ellie Chowns MP","Resignation","N Herefs","andrewteale.me.uk/ivvr","Mark Franklin","Sandy Grenar","Nicki West","Rebecca Tully",,"Dave James (RUK)"
-2024-11-07,"Inverclyde",437,"Inverclyde W",18443,"Lab","Martin McCluskey MP","Resignation","Inverclyde/Renfs W","andrewteale.me.uk/i56s","Ted Runicman","Ian Hellyer",,,"Robert Kirkpatrick","John Burleigh (RUK), Christopher McEleny (Alba)"
-2024-11-07,"Moray",452,"Elgin City S",18458,"SNP","Graham Leadbitter MP","Resignation","Moray W/Nairn/Strathspey","andrewteale.me.uk/im7s","Elaine Kirby","Catriona McBain","Neil Alexander",,"Laura Mitchell",
-2024-11-07,"Wyre",259,"Marsh Mill",17141,"C","Henry Jackson","Resignation",,"andrewteale.me.uk/iq0r","Howard Ballard","James Mason",,"Caroline Montague",,"James Crawford (RUK)"
-2024-11-14,"Derbys Dales",166,"Calver/Longstone",23734,"Grn","Kelda Boothroyd","Resignation",,"andrewteale.me.uk/ih2x",,,,,,
-2024-11-14,"E Ayrs",429,"Doon Valley",18345,"Lab","Elaine Stewart MP","Resignation","Ayr/Carrick/Cumnock","andrewteale.me.uk/i63s",,,,,,
-2024-11-14,"E Ayrs",429,"Kilmarnock W/Crosshouse",18339,"Lab","Lillian Jones MP","Resignation","Kilmarnock/Loudoun","andrewteale.me.uk/i03s",,,,,,
-2024-11-14,"Edinburgh",444,"Colinton/Fairmilehead",18327,"Lab","Scott Arthur MP","Resignation","Edinburgh SW","andrewteale.me.uk/in3s",,,,,,
-2024-11-14,"Greenwich",24,"Shooters Hill",23305,"Lab","Danny Thorpe","Resignation",,"andrewteale.me.uk/ihpx",,,,,,
-2024-11-14,"Milton Keynes",89,"Bradwell",12804,"LD","Robin Bradburn","Death",,"andrewteale.me.uk/i90m",,,,,,
-2024-11-14,"Milton Keynes",89,"Broughton",12805,"LD","Kerrie Bradburn","Resignation",,"andrewteale.me.uk/ib1m",,,,,,
-2024-11-14,"Redbridge",17,"Wanstead Park",19465,"Lab","Bayo Alaba MP","Resignation","Southend E/Rochford","andrewteale.me.uk/i44t",,,,,,
-2024-11-14,"Telford/Wrekin",109,"Hadley/Leegomery",24383,"Lab","Gemma Offland","Resignation",,"andrewteale.me.uk/i5ny",,,,,,
-2024-11-14,"Telford/Wrekin",109,"The Nedge",24392,"Lab","Chris Turley","Death",,"andrewteale.me.uk/ifpy",,,,,,
-2024-11-14,"W Lothian",449,"Whitburn/Blackburn",10542,"Lab","Kirsteen Sullivan MP","Resignation","Bathgate/Linlithgow","andrewteale.me.uk/iryk",,,,,,
-2024-11-14,"W Oxon",312,"Chipping Norton",6484,"Lab","Rizvana Poole","Resignation",,"andrewteale.me.uk/is7f",,,,,,
-2024-11-21,"Dacorum",227,"Bennetts End",3090,"Ind","John Birnie","Death",,"andrewteale.me.uk/ix3c",,,,,,
-2024-11-21,"Dacorum",227,"Hemel Hempstead Town",3099,"LD","Sadie Hobson","Resignation",,"andrewteale.me.uk/i63c",,,,,,
-2024-11-21,"Glasgow",436,"Drumchapel/Anniesland",18408,"Lab","Patricia Ferguson MP","Resignation","Glasgow W","andrewteale.me.uk/i35s",,,,,,
-2024-11-21,"Glasgow",436,"Maryhill",18408,"Lab","Keiran O'Neill","Resignation",,"andrewteale.me.uk/i45s",,,,,,
-2024-11-21,"Glasgow",436,"North East",18415,"Lab","Maureen Burke MP","Resignation","Glasgow NE","andrewteale.me.uk/ib6s",,,,,,
-2024-11-21,"Gosport",219,"Harbourside/Town",23380,"Lab","Alan Durrant","Death",,"andrewteale.me.uk/isrx",,,,,,
-2024-11-21,"Highland",451,"Fort William/Ardnamurchan",18438,"LD","Angus Macdonald MP","Resignation","Inverness/Skye/W Ross-shire","andrewteale.me.uk/i06s",,,,,,
-2024-11-21,"Horsham",358,"Denne",19472,"LD","John Milne MP","Resignation","Horsham","andrewteale.me.uk/ic5t",,,,,,
-2024-11-21,"Kent CC",386,"Swanscombe/Greenhithe",18252,"SGRA","Peter Harman","Death",,"andrewteale.me.uk/id1s",,,,,,
-2024-11-21,"Rutland",76,"Oakham NE",20825,"LD","Hannah Edwards","Death",,"andrewteale.me.uk/icev",,,,,,
-2024-11-21,"Sefton",46,"Litherland",918,"Lab","John Kelly","Resignation",,"andrewteale.me.uk/i33a",,,,,,
-2024-11-21,"Somerset",470,"Blackmoor Vale",23523,"LD","Sarah Dyke MP","Resignation","Glastonbury/Somerton","andrewteale.me.uk/i3vx",,,,,,
-2024-11-21,"Somerset",470,"Rowbarton/Staplegrove",23559,"LD","Dixie Darch","Resignation",,"andrewteale.me.uk/i6wx",,,,,,
-2024-11-21,"Swale",244,"Murston",19385,"Ind","James Hall","Resignation",,"andrewteale.me.uk/iq2t",,,,,,
-2024-11-28,"Fife",446,"W Fife/Coastal Villages",18373,"Lab","Graeme Downie MP","Resignation","Dunfermline/Dollar","andrewteale.me.uk/i14s",,,,,,
-2024-11-28,"W Duns",441,"Kilpatrick",18553,"Lab","Douglas McAllister MP","Resignation","W Duns","andrewteale.me.uk/ihbt",,,,,,
-2024-12-05,"Fylde",250,"Kilgrimol",23682,"Ind","Tim Armit","Resignation",,"andrewteale.me.uk/ix0x",,,,,,
-2025-01-23,"Shetland",455,"Shetland N",22955,"Lab","Tom Morton","Resignation",,"andrewteale.me.uk/iwcx",,,,,,
-,"Barking/Dagenham",1,"Northbury",23342,"Lab","Darren Rodwell","Resignation",,"andrewteale.me.uk/imqx",,,,,,
-,"Barking/Dagenham",1,"Village",23346,"Lab","Margaret Mullane MP","Resignation","Dagenham/Rainham","andrewteale.me.uk/irqx",,,,,,
-,"Barking/Dagenham",1,"Village",23346,"Lab","Lee Waker","Death",,"andrewteale.me.uk/irqx",,,,,,
-,"Cardiff",406,"Splott",22822,"Lab","Jane Henshaw","Death","Lord Mayor","andrewteale.me.uk/iv7w",,,,,,
-,"City of London",459,"Cripplegate",12939,"Ind","Elizabeth King","Aldermanic",,"andrewteale.me.uk/id5m",,,,,,
-,"Dartford",238,"Greenhithe/Knockhall",18252,"SGRA","Peter Harman","Death",,"andrewteale.me.uk/i07u",,,,,,
-,"Derby",73,"Mackworth/New Zealand",24638,"Lab","John Whitby MP","Resignation","Derbys Dales","andrewteale.me.uk/iwwy",,,,,,
-,"Eilean Siar",453,"Barraigh/Bhatarsaigh",22928,"Ind","Kenneth Maclean","Resignation",,"andrewteale.me.uk/i2bx",,,,,,
-,"Glasgow",436,"Partick E/Kelvindale",18417,"SNP","Kenny McLean","Death",,"andrewteale.me.uk/id6s",,,,,,
-,"Islington",14,"Junction",21617,"Lab","Kaya Comer-Schwartz","Resignation",,"andrewteale.me.uk/ic4v",,,,,,
-,"Runnymede",343,"Ottershaw",21132,"Ind","Malcolm Cressey","Death",,"andrewteale.me.uk/inpv",,,,,,
-,"S Glos",104,"Frampton Cotterell",20082,"LD","Claire Young MP","Resignation","Thornbury/Yate","andrewteale.me.uk/iuqu",,,,,,
-,"Sheffield",51,"Woodhouse",16434,"Lab","Paul Wood","Resignation",,"andrewteale.me.uk/i9cr",,,,,,
-,"St Helens",45,"Blackbrook",23312,"Lab","Linda Maloney","Death",,"andrewteale.me.uk/iqpx",,,,,,
-,"Stirling",448,"Stirling E",18548,"Lab","Chris Kane MP","Resignation","Stirling/Strathallan","andrewteale.me.uk/icbt",,,,,,
-,"Wakefield",68,"Featherstone",1425,"Lab","Graham Isherwood","Death",,"andrewteale.me.uk/iglb",,,,,,
+Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev results,C cand,Lab cand,LD cand,Grn cand,RUK cand,SNP/PC cand,Other cand
+2024-11-28,Barking/Dagenham,1,Northbury,23342,Lab,Darren Rodwell,Resignation,,andrewteale.me.uk/imqx,,,,,,,
+2024-11-28,Barking/Dagenham,1,Village,23346,Lab,Margaret Mullane MP,Resignation,Dagenham/Rainham,andrewteale.me.uk/irqx,,,,,,,
+2024-11-28,Barking/Dagenham,1,Village,23346,Lab,Lee Waker,Death,,andrewteale.me.uk/irqx,,,,,,,
+2024-11-28,Enfield,6,Jubilee,21704,Lab,Nesil Caliskan MP,Resignation,Barking,andrewteale.me.uk/iz6v,,,,,,,
+2024-11-28,Fife,446,W Fife/Coastal Villages,18373,Lab,Graeme Downie MP,Resignation,Dunfermline/Dollar,andrewteale.me.uk/i14s,,,,,,,
+2024-11-28,Islington,14,Junction,21617,Lab,Kaya Comer-Schwartz,Resignation,,andrewteale.me.uk/ic4v,,,,,,,
+2024-11-28,S Glos,104,Frampton Cotterell,20082,LD,Claire Young MP,Resignation,Thornbury/Yate,andrewteale.me.uk/iuqu,,,,,,,
+2024-11-28,Sheffield,51,Woodhouse,16434,Lab,Paul Wood,Resignation,,andrewteale.me.uk/i9cr,,,,,,,
+2024-11-28,W Duns,441,Kilpatrick,18553,Lab,Douglas McAllister MP,Resignation,W Duns,andrewteale.me.uk/ihbt,,,,,,,
+2024-11-28,York,114,Haxby/Wigginton,17400,LD,Ed Pearson,Resignation,,andrewteale.me.uk/ik8r,,,,,,,
+2024-12-05,Cardiff,406,Splott,22822,Lab,Jane Henshaw,Death,Lord Mayor,andrewteale.me.uk/iv7w,,,,,,,
+2024-12-05,Fylde,250,Kilgrimol,23682,Ind,Tim Armit,Resignation,,andrewteale.me.uk/ix0x,,,,,,,
+2024-12-05,Glasgow,436,Partick E/Kelvindale,18417,SNP,Kenny McLean,Death,,andrewteale.me.uk/id6s,,,,,,,
+2024-12-05,S Oxon,310,Cholsey,17049,LD,Ben Manning,Resignation,,andrewteale.me.uk/ixxr,,,,,,,
+2024-12-05,Stirling,448,Stirling E,18548,Lab,Chris Kane MP,Resignation,Stirling/Strathallan,andrewteale.me.uk/icbt,,,,,,,
+2024-12-05,Wokingham,97,Shinfield,24918,Lab,Sarah Bell,Resignation,,andrewteale.me.uk/id5y,,,,,,,
+2024-12-12,Barnsley,48,Dodworth,958,LD,Sam Christmas,Resignation,,andrewteale.me.uk/ib5a,,,,,,,
+2024-12-12,Chelmsford,201,S Hanningfield/Stock/Margaretting,3814,C,Ian Grundy,Death,,andrewteale.me.uk/ivsd,,,,,,,
+2024-12-12,Essex CC,382,Stock,4020,C,Ian Grundy,Death,,andrewteale.me.uk/i3yd,,,,,,,
+2024-12-12,Runnymede,343,Ottershaw,21132,Ind,Malcolm Cressey,Death,,andrewteale.me.uk/inpv,,,,,,,
+2024-12-12,St Helens,45,Blackbrook,23312,Lab,Linda Maloney,Death,,andrewteale.me.uk/iqpx,,,,,,,
+2024-12-12,Wakefield,68,Featherstone,1425,Lab,Graham Isherwood,Death,,andrewteale.me.uk/iglb,,,,,,,
+2024-12-19,City of London (Aldermen),468,Bassishaw,21582,Ind,Timothy Hailes,Resignation,,andrewteale.me.uk/i92v,,,,,,,
+2024-12-19,City of London (Aldermen),468,Billingsgate,21583,Ind,Bronek Masojada,Resignation,,andrewteale.me.uk/ib3v,,,,,,,
+2024-12-19,City of London (Aldermen),468,Broad St,21587,Ind,Michael Mainelli,Resignation,,andrewteale.me.uk/if3v,,,,,,,
+2024-12-19,Dudley,59,Brockmoor/Pensnett,25204,Lab,Judy Foster,Resignation,,andrewteale.me.uk/i1ez,,,,,,,
+2024-12-19,Greenwich,24,W Thamesmead,23307,Lab,Chris Lloyd,Resignation,Now LD,andrewteale.me.uk/ikpx,,,,,,,
+2024-12-19,Swale,244,Milton Regis,19383,Lab,Angelica Valls,Resignation,,andrewteale.me.uk/in2t,,,,,,,
+2025-01-23,Edinburgh,444,Colinton/Fairmilehead,18327,SNP,Marco Biagi,Resignation,,andrewteale.me.uk/in3s,,,,,,,
+2025-01-23,Edinburgh,444,Colinton/Fairmilehead,18327,LD,Louise Spence,Resignation,,andrewteale.me.uk/in3s,,,,,,,
+2025-01-23,Shetland,455,Shetland N,22955,Lab,Tom Morton,Resignation,,andrewteale.me.uk/iwcx,,,,,,,
+,Barking/Dagenham,1,Whalebone,23347,Lab,Glenda Paddle,Death,,andrewteale.me.uk/isqx,,,,,,,
+,Chesterfield,165,Hasland,24411,Lab,Stuart Brittain,Resignation,,andrewteale.me.uk/i0py,,,,,,,
+,City of London,459,Cripplegate,12939,Ind,Elizabeth King,Aldermanic,,andrewteale.me.uk/id5m,,,,,,,
+,Colchester,202,Tiptree,17775,C,Roger Mannion,Death,,andrewteale.me.uk/ixls,,,,,,,
+,Derby,73,Mackworth/New Zealand,24638,Lab,John Whitby MP,Resignation,Derbys Dales,andrewteale.me.uk/iwwy,,,,,,,
+,E Ayrs,429,Kilmarnock N,18338,Lab,Maureen McKay,Death,,andrewteale.me.uk/iz3s,,,,,,,
+,Eilean Siar,453,Barraigh/Bhatarsaigh,22928,Ind,Kenneth Maclean,Resignation,,andrewteale.me.uk/i2bx,,,,,,,
+,Herts CC,385,Hatfield N,17817,C,James Bond,Death,,andrewteale.me.uk/i6ms,,,,,,,
+,Hyndburn,251,Baxenden,3439,Lab,Edward Blake,Death,,andrewteale.me.uk/ihfd,,,,,,,
+,N Devon,174,Instow,20702,C,Lucinda Renshaw,Resignation,,andrewteale.me.uk/im9u,,,,,,,
+,Newcastle (Lyme),326,Town,19659,Lab,Wendy Brockie,Resignation,,andrewteale.me.uk/i0bu,,,,,,,
+,Stevenage,232,Manor,24711,LD,Graham Snell,Death,,andrewteale.me.uk/i3yy,,,,,,,
+,Stirling,448,Bannockburn,18459,Lab,Margaret Brisley,Death,,andrewteale.me.uk/idbt,,,,,,,
+,Torfaen,416,Trevethin/Penygarn,22731,Lab,Sue Malson,Resignation,,andrewteale.me.uk/i34w,,,,,,,
+,Westminster,20,Vincent Sq,21753,Lab,Gillian Arrindell,Death,,andrewteale.me.uk/ig8v,,,,,,,
+,Wokingham,97,Winnersh,24924,LD,Paul Fishwick,Death,,andrewteale.me.uk/ik5y,,,,,,,
