@@ -1,0 +1,21 @@
+"Election for","West Lothian 2025-03-13 - Ward 2 - Broxburn, Uphall and Winchburgh"
+"Date","14 Mar 2025"
+"Number to be elected",1
+"Valid votes",4320
+"Invalid votes",0
+"Quota",2161.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6,"Stage",7
+ ,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Frank ANDERSON (Alba)",,"Chris COTTER (Grn)",,"Oliver Thomas FERRARIO (LD)",,"Marnie TAYLOR (C)",,"David MCLENNAN (RUK)",,"June ANDREWS (Lab)",
+ "Frank ANDERSON (Alba)",135,-135.00000,"-",,"-",,"-",,"-",,"-",,"-",
+ "June ANDREWS (Lab)",1263,+10.00000,1273.00000,+37.00000,1310.00000,+87.00000,1397.00000,+94.00000,1491.00000,+164.00000,1655.00000,-1655.00000,"-",
+ "Mike CARLIN (SNP)",1375,+53.00000,1428.00000,+76.00000,1504.00000,+46.00000,1550.00000,+21.00000,1571.00000,+101.00000,1672.00000,+454.00000,2126.00000,"Elected"
+ "Chris COTTER (Grn)",185,+10.00000,195.00000,-195.00000,"-",,"-",,"-",,"-",,"-",
+ "Oliver Thomas FERRARIO (LD)",229,+6.00000,235.00000,+39.00000,274.00000,-274.00000,"-",,"-",,"-",,"-",
+ "David MCLENNAN (RUK)",809,+17.00000,826.00000,+6.00000,832.00000,+19.00000,851.00000,+92.00000,943.00000,-943.00000,"-",,"-",
+ "Marnie TAYLOR (C)",324,+2.00000,326.00000,+4.00000,330.00000,+33.00000,363.00000,-363.00000,"-",,"-",,"-",
+ "Non-transferable", ,+37.00000,37.00000,+33.00000,70.00000,+89.00000,159.00000,+156.00000,315.00000,+678.00000,993.00000,+1201.00000,2194.00000,
+ "Totals",4320,,4320.00000,,4320.00000,,4320.00000,,4320.00000,,4320.00000,,4320.00000
+ 
