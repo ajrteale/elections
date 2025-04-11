@@ -1,0 +1,20 @@
+"Election for","Renfrewshire 2022 - Ward 12 - Erskine and Inchinnan"
+"Date","10 Apr 2025"
+"Number to be elected",4
+"Valid votes",5945
+"Invalid votes",0
+"Quota",1190.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2
+ ,"First","Surplus of",
+ "Candidates","Preferences","Sam MULLIN (Lab)",
+ "Michelle CAMPBELL (SNP)",1213,,1213.00000,"Elected"
+ "Robert IRWIN (ScFam)",112,+54.99840,166.99840,
+ "Alan JELFS (LD)",187,+255.58080,442.58080,
+ "Alec LEISHMAN (C)",1054,+182.78880,1236.78880,"Elected"
+ "Sam MULLIN (Lab)",1998,-808.00000,1190.00000,"Elected"
+ "Iain NICOLSON (SNP)",1381,,1381.00000,"Elected"
+ "Non-transferable", ,+314.63200,314.63200,
+ "Totals",5945,,5945.00000
+ 
