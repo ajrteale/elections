@@ -1,10 +1,4 @@
 Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev results,C cand,Lab cand,LD cand,Grn cand,RUK cand,SNP/PC cand,Other cand
-2025-04-10,Gwynedd,425,Teigl,23168,PC,Linda Jones,Resignation,,andrewteale.me.uk/ickx,Hedd Thomas,,Andrew Joyce,,,Geraint Parry,Marc Griffiths (Ind)
-2025-04-10,Haringey,9,St Ann's,21729,Lab,Tammy Hymas,Resignation,,andrewteale.me.uk/ir7v,Calum McGillivray,Stephen Tawiah,David Beacham,Ruairidh Paton,David Stratford,,"Tony Hunt (Communist League), David Kaplan (TUSC)"
-2025-04-10,Sutton,31,Sutton C,21767,LD,David Bartolucci,Disqualification,Non-attendance,andrewteale.me.uk/iw8v,Maria Arif,Kerrie Peek,Ka Choi,Peter Friel,Joanna Bishop,,"Ashley Dickenson (CPA), Pamela Marsh (Ind)"
-2025-04-10,Tameside,39,Longdendale,23672,Lab,Jacqueline North,Resignation,,andrewteale.me.uk/im0x,Kieron Wild,Francesca Coates,,Amanda Hickling,Allan Hopwood,,Emma Leyla (Ind)
-2025-04-17,Horsham,358,Colgate/Rusper,19470,C,Liz Kitchen,Death,,andrewteale.me.uk/i94t,John Bounds,Gerard Kavanagh,Hannah Butler,Andrew Finnegan,Robert Nye,,
-2025-04-17,Torridge,177,Appledore,19689,Ind,Leonard Ford,Disqualification,18 weeks imprisonment (harassment),andrewteale.me.uk/ixcu,Carrie Woodhouse,,Kerry O'Rourke,Keith Funnell,,,Nigel Johnson (Ind)
 2025-04-24,Arun,355,Marine,16947,Ind,Jim Brooks,Death,,andrewteale.me.uk/iuur,Diana Thas,Alison Terry,Paul Wells,John Erskine,Giuliano Pinnelli,,Phil Woodall (Ind)
 2025-04-24,Fife,446,Glenrothes C/Thornton,18387,SNP,Ross Vettraino,Death,,andrewteale.me.uk/ig5s,Fiona Leslie,Maciej Dokurno,Ed Scotcher,,Ian Smith,Lynda Holton,
 2025-04-24,Suffolk CC,399,St John's,7160,Lab,Sarah Adams,Resignation,,andrewteale.me.uk/i8ug,James Harding,Adele Cook,Kelly Turner,Adria Pittock,Michelle Bevan-Margetts,,
@@ -45,11 +39,12 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 2025-05-01,Forest of Dean,211,Cinderford E,20142,Lab,Matt Bishop MP,Resignation,Forest of Dean,andrewteale.me.uk/insu,,,,,,,
 2025-05-01,Forest of Dean,211,Newent/Taynton,20153,LD,Julie Hudson,Resignation,,andrewteale.me.uk/izsu,,,,,,,
 2025-05-01,Gedling,304,Porchester,16971,Lab,Michelle Welsh MP,Resignation,Sherwood Forest,andrewteale.me.uk/ikvr,,,,,,,
+2025-05-01,Gravesham,240,Rosherville,24199,Lab,Lauren Sullivan MP,Resignation,Gravesham,andrewteale.me.uk/ilhy,,,,,,,
 2025-05-01,Hants CC,384,Winchester Eastgate,18914,LD,Dominic Hiscock,Resignation,,andrewteale.me.uk/ifnt,,,,,,,
 2025-05-01,Hants CC,384,Yateley E/Blackwater,18917,LD,Adrian Collett,Resignation,,andrewteale.me.uk/ijnt,,,,,,,
 2025-05-01,Harlow,204,Mark Hall,24777,Lab,Aiden O'Dell,Resignation,,andrewteale.me.uk/i30y,,,,,,,
 2025-05-01,Hartlepool,78,Throston,21272,Lab,Cameron Sharp,Resignation,,andrewteale.me.uk/iwtv,,,,,,,
-2025-05-01,House of Commons,,Runcorn/Helsby,,Lab,Mike Amesbury,Resignation,,,,,,,,,
+2025-05-01,House of Commons,,Runcorn/Helsby,,Lab,Mike Amesbury,Resignation,,,Sean Houlston,Karen Shore,Paul Duffy,Chris Copeman,Sarah Pochin,,"Catherine Blaiklock (EDP), Dan Clarke (Lib), Peter Ford (Workers), Howling Laud Hope (Loony), Jason Hughes (Volt UK), Alan McKie (Ind), Graham Moore (English Constitution Party), Paul Murphy (SDP), John Stevens (Rejoin EU), Michael Williams (Ind)"
 2025-05-01,Isle of Wight,87,C Rural,17726,C,Suzie Ellis,Resignation,,andrewteale.me.uk/idxv,,,,,,,
 2025-05-01,Isle of Wight,87,Freshwater S,21396,Ind,John Medland,Resignation,,andrewteale.me.uk/inxv,,,,,,,
 2025-05-01,Isle of Wight,87,Lake N,21398,C,Tig Outlaw,Resignation,,andrewteale.me.uk/iqxv,,,,,,,
@@ -107,18 +102,29 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 2025-05-08,Calderdale,65,Skircoat,1359,Lab,Mike Barnes,Resignation,,andrewteale.me.uk/igjb,,,,,,,
 2025-05-08,Eastleigh,217,Eastleigh C,19158,LD,Bhavin Dedhia,Resignation,,andrewteale.me.uk/iuvt,,,,,,,
 2025-05-15,Barnet,2,Whetstone,21648,Lab,Liron Velleman,Resignation,,andrewteale.me.uk/i94v,,,,,,,
+2025-05-15,Broadland,275,Acle,7237,C,Lana Hempsall,Resignation,,andrewteale.me.uk/ilxg,,,,,,,
+2025-05-15,Stoke-on-Trent,108,Birches Head/Northwood,23698,Lab,Steve Blackmore,Disqualification,Employer taken over by council,andrewteale.me.uk/ie1x,,,,,,,
 2025-05-15,W Duns,441,Clydebank Waterfront,18555,SNP,James McElhill,Resignation,,andrewteale.me.uk/ikbt,,,,,,,
 2025-05-22,Eastleigh,217,Hedge End S,19164,LD,Jane Welsh,Death,,andrewteale.me.uk/i0vt,,,,,,,
+2025-05-22,Sutton,31,Carshalton S/Clockhouse,21759,LD,Amy Haldane,Resignation,,andrewteale.me.uk/in8v,,,,,,,
+2025-05-22,W Sussex CC,402,Horsham Riverside,19022,LD,John Milne MP,Resignation,Horsham,andrewteale.me.uk/iqrt,,,,,,,
+2025-06-05,Scottish Parliament,,Hamilton/Larkhall/Stonehouse,,SNP,Christina McKelvie,Death,,,,,,,,,
 ,Adur,354,Buckingham,5287,Lab,Nigel Jenner,Death,,andrewteale.me.uk/ih4e,,,,,,,
 ,Amber Valley,163,Somercotes,23845,Lab,John McCabe,Death,,andrewteale.me.uk/iv5x,,,,,,,
 ,Barking/Dagenham,1,Thames View,23344,Lab,Fatuma Nalule,Resignation,,andrewteale.me.uk/ipqx,,,,,,,
-,Broadland,275,Acle,7237,C,Lana Hempsall,Resignation,,andrewteale.me.uk/ilxg,,,,,,,
-,Carms,417,Lliedi,22542,Lab,Anthony Leyshon,Resignation,,andrewteale.me.uk/idzw,,,,,,,
+,Basildon,197,Wickford Park,24741,Wickford,David Harrison,Death,,andrewteale.me.uk/i0zy,,,,,,,
+,Carms,417,Lliedi,22542,Lab,Anthony Leyshon,Death,,andrewteale.me.uk/idzw,,,,,,,
+,Castle Point,200,Canvey Island Winter Gardens,24787,CIIP,Peter Greig,Death,,andrewteale.me.uk/ie1y,,,,,,,
+,Edinburgh,444,Fountainbridge/Craiglockhart,18328,Lab,Val Walker,Death,,andrewteale.me.uk/ip3s,,,,,,,
+,Gedling,304,Calverton,16957,C,Lorraine Brown,Death,,andrewteale.me.uk/i4ur,,,,,,,
 ,Highland,451,Cromarty Firth,18423,Ind,Maxine Smith,Resignation,Elected as Maxine Morley-Smith,andrewteale.me.uk/ik6s,,,,,,,
 ,Isle of Wight,87,Cowes N,21390,Lab,Richard Quigley MP,Resignation,Isle of Wight W,andrewteale.me.uk/igxv,,,,,,,
+,Leeds,67,Morley S,19608,Morley,Winifred Kidger,Resignation,,andrewteale.me.uk/ig9t,,,,,,,
 ,Lewes,194,Newhaven N,19140,LD,Sean Macleod,Resignation,,andrewteale.me.uk/i9ut,,,,,,,
+,M Devon,173,Crediton Lawrence,22231,LD,Frank Letch,Death,,andrewteale.me.uk/iypw,,,,,,,
 ,M Suffolk,334,Haughley/Stowupland/Wetherden,20884,Grn,Rachel Eburne,Death,,andrewteale.me.uk/i4fv,,,,,,,
 ,Maldon,205,Maldon W,3901,Ind,Flo Shaughnessy,Death,,andrewteale.me.uk/ihvd,,,,,,,
+,Stroud,213,Severn,16548,Lab,Richard Maisey,Death,,andrewteale.me.uk/irgr,,,,,,,
 ,Tendring,207,Frinton,19773,C,Nick Turner,Death,,andrewteale.me.uk/igfu,,,,,,,
 ,W Lothian,449,Whitburn/Blackburn,10542,SNP,Mary Dickson,Resignation,,andrewteale.me.uk/iryk,,,,,,,
 ,Wokingham,97,Maiden Erlegh/Whitegates,24916,C,Norman Jorgensen,Death,,andrewteale.me.uk/ib5y,,,,,,,
