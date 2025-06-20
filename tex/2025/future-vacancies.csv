@@ -1,12 +1,4 @@
 Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev results,C cand,Lab cand,LD cand,Grn cand,RUK cand,SNP/PC cand,Other cand
-2025-06-19,Adur,354,Buckingham,5287,Lab,Nigel Jenner,Death,,andrewteale.me.uk/ih4e,Leila Williams,Kate Davis,Ian Jones,,Mike Mendoza,,David Bamber (Britain First)
-2025-06-19,City of London,468,Dowgate (Alderman),21595,Ind,Alison Gowman,Resignation,Uncontested,andrewteale.me.uk/ip3v,,,,,,,Alison Gowman (Ind)
-2025-06-19,City of London,468,Vintry (Alderman),21603,Ind,Sir Andrew Parmley,Resignation,,andrewteale.me.uk/ix3v,,,,,,,"Sarah Loveday (Ind), Andrew Parmley (Ind), Alpa Raja (Ind), Paul Singh (Ind)"
-2025-06-19,Highland,451,Cromarty Firth,18423,Ind,Maxine Smith,Resignation,Elected as Maxine Morley-Smith,andrewteale.me.uk/ik6s,Ryan Forbes,Michael Perera,Ross Costigane,Anne Thomas,Allan Macdonald,Odette Macdonald,"Steve Chisolm (Alba), Richard Cross (Ind), Martin Rattray (Ind)"
-2025-06-19,Highland,451,Eilean a' Cheò,18427,Ind,Calum Munro,Resignation,,andrewteale.me.uk/ip6s,George Macpherson,,Fay Thomson,Katy Lawrence,John Coupland,Màrtainn Mac a' Bhàillidh,"Campbell Dickson (Ind), Christine Gillies (Ind), Jonathan Macdonald (Ind)"
-2025-06-19,N Yorks,469,Eastfield,23453,Ind,Tony Randerson,Resignation,,andrewteale.me.uk/iztx,Helen Baker,Hazel Smith,Mark Harrison,Kieran Wade,Tom Seston,,Helen Williams (Social Justice Party)
-2025-06-19,Sefton,46,Blundellsands,909,Lab,Natasha Carlin,Resignation,,andrewteale.me.uk/iu3a,Martyn Barber,David Roscoe,Keith Cawdron,Kieran Dams,Irene Davidson,,"Conor O'Neill (TUSC), Ian Smith (Ind)"
-2025-06-19,Spelthorne,344,Ashford Town,4527,C,Olivia Rybinski,Resignation,,andrewteale.me.uk/igfe,Alex Balkan,Rhiannon Lewis,Gregory Neall,,Jason Gelver,,Philip Baldock (Ind)
 2025-06-26,Basildon,197,Wickford Park,24741,Wickford,David Harrison,Death,,andrewteale.me.uk/i0zy,Lewis Hooper,Wayne Milne,Stewart Mott,Penny Wright,Sarah-Jane Shields,,Andrew Carter (Wickford Ind)
 2025-06-26,Chorley,249,Buckshaw/Whittle,21331,Lab,Samantha Martin,Resignation,,andrewteale.me.uk/ipvv,Aidy Riggott,Gillian Sharples,,Amy Coxley,Jonathan Close,,
 2025-06-26,Edinburgh,444,Fountainbridge/Craiglockhart,18328,Lab,Val Walker,Death,,andrewteale.me.uk/ip3s,Mark Hooley,Catriona Munro,Kevin McKay,Q Manivannan,Gary Neill,Murray Visentin,"Bonnie Prince Bob (Ind), Derrick Emms (Ind), Lukasz Furmaniak (Libtn), Richard Lucas (ScFam), Mark Rowbotham (Ind), Steve West (Ind), Marc Wilkinson (Ind)"
@@ -45,18 +37,22 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 2025-07-17,Neath Port Talbot,408,Baglan,22661,Lab,Peter Richards,Death,,andrewteale.me.uk/iz2w,,,,,,,
 2025-07-17,Rhondda Cynon Taf,409,Pontypridd Town,22428,PC,Dawn Wood,Resignation,,andrewteale.me.uk/ixvw,,,,,,,
 2025-07-17,Staffs CC,398,Eccleshall/Gnosall,25632,RUK,Wayne Titley,Resignation,,andrewteale.me.uk/i0tz,,,,,,,
+2025-07-24,Bromley,22,Bromley Common/Holwood,22119,C,Jonathan Laidlaw,Death,,andrewteale.me.uk/iklw,,,,,,,
+2025-07-24,Cardiff,406,Llanrumney,22812,Lab,Heather Joyce,Resignation,,andrewteale.me.uk/ik7w,,,,,,,
+2025-07-24,Dacorum,227,Berkhamsted W,3093,LD,Robert Stewart,Death,,andrewteale.me.uk/i03c,,,,,,,
+2025-07-24,Dorset,463,Swanage,21006,C,William Trite,Death,,andrewteale.me.uk/iukv,,,,,,,
+2025-07-24,Hertsmere,229,Borehamwood Brookmeadow,20103,C,Alan Plancey,Death,,andrewteale.me.uk/igru,,,,,,,
+2025-07-24,Lichfield,325,Alrewas/Fradley,17672,C,Mike Wilcox,Resignation,,andrewteale.me.uk/iths,,,,,,,
 2025-07-24,Rutland,76,Barleythorpe,20816,Grn,Hans Zollinger-Ball,Resignation,,andrewteale.me.uk/i2dv,,,,,,,
 ,Barking/Dagenham,1,Thames View,23344,Lab,Fatuma Nalule,Resignation,,andrewteale.me.uk/ipqx,,,,,,,
-,Bromley,22,Bromley Common/Holwood,22119,C,Jonathan Laidlaw,Death,,andrewteale.me.uk/iklw,,,,,,,
 ,Cannock Chase,323,Hednesford Green Heath,25314,Lab,Fred Prestwood,Death,,andrewteale.me.uk/idjz,,,,,,,
 ,Carmarthenshire,417,Llangennech,22537,Lab,Gary Jones,Death,,andrewteale.me.uk/i7yw,,,,,,,
-,Dorset,463,Swanage,21006,C,William Trite,Death,,andrewteale.me.uk/iukv,,,,,,,
+,Ches E,119,Wilmslow Lacey Green,10972,Wlmslow,Chris Hilliard,Death,,andrewteale.me.uk/iscl,,,,,,,
 ,Durham,117,Easington/Shotton,25278,RUK,John Bailey,Resignation,,andrewteale.me.uk/i9gz,,,,,,,
 ,E Renfs,435,Barrhead/Liboside/Uplawmoor,18359,Lab,Betty Cunningham,Death,,andrewteale.me.uk/im4s,,,,,,,
 ,Gwynedd,425,Abermaw,23115,Ind,Rob Triggs,Death,,andrewteale.me.uk/irhx,,,,,,,
-,Hertsmere,229,Borehamwood Brookmeadow,20103,C,Alan Plancey,Death,,andrewteale.me.uk/igru,,,,,,,
-,Lichfield,325,Alrewas/Fradley,17672,C,Mike Wilcox,Resignation,,andrewteale.me.uk/iths,,,,,,,
 ,N Devon,174,Barnstaple/Westacott,20689,LD,Katrina Stevenson,Resignation,,andrewteale.me.uk/i78u,,,,,,,
 ,Runnymede,343,Addlestone S,21123,C,John Furey,Death,,andrewteale.me.uk/idpv,,,,,,,
 ,Surrey CC,400,Addlestone,12278,C,John Furey,Death,,andrewteale.me.uk/ickm,,,,,,,
 ,Surrey CC,400,Hinchley Wood/Claygate/Oxshott,12241,C,Mark Sugden,Death,,andrewteale.me.uk/i7hm,,,,,,,
+,Warrington,85,Bewsey/Whitecross,18040,Lab,Shireen Mohammed,Resignation,,andrewteale.me.uk/iyus,,,,,,,
