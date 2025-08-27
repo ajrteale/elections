@@ -1,193 +1,3 @@
-\documentclass[a4paper,openany]{book}
-\usepackage[utf8]{inputenc}
-
-% put all the other packages here:
-
-\usepackage{election06-test}
-\usepackage[t]{ebgaramond}
-\usepackage{ebgaramond-maths}
-
-\usepackage{graphicx}
-\usepackage{url}
-\usepackage{microtype}
-
-\usepackage[plainpages=false,pdfpagelabels,pdfauthor={Andrew Teale},pdftitle={Local Election Results 2022},hidelinks]{hyperref}
-
-\renewcommand\resultsyear{2022}
-\setcounter{secnumdepth}{-2}
-
-\setboolean{maps}{false}
-
-\begin{document}
-
-% Title page
-
-\begin{titlepage}
-
-\begin{center}
-
-\Huge Local Election Results
-
-2022
-
-\bigskip
-
-\Large Andrew Teale
-
-\vfill
-
-\newcommand\versionno{0.10.1}
-
-%Version \versionno
-
-\today
-
-\end{center}
-
-\end{titlepage}
-
-% Copyright notice
-
-\begin{center}
-
-%\bigskip
-%
-%Typeset by \LaTeX{}
-
-\bigskip
-
-Compilation and design \textcopyright\ Andrew Teale, 2022.
-
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.3
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- A copy of the license is included in the section entitled ``GNU
- Free Documentation License''.
-
-\bigskip
-
-This file is available for download from
-\url{http://www.andrewteale.me.uk/}
-
-\bigskip
-
-Please advise the author of any corrections which need to be made by
-email: \url{andrewteale@yahoo.co.uk}
-
-\vfill
-\end{center}
-
-\section*{Change Log}
-
-%8 June 2014: Added result for Clydesdale South by-election.
-
-%24 November 2013: Corrected results for Vassall ward, Lambeth (typing error) and Reddish North ward, Stockport (LD candidate incorrectly shown as Labour).
-%
-%21 November 2013: First version.
-
-\tableofcontents
-
-% Introduction
-
-% Introduction
-
-% \chapter*{Introduction and Abbreviations}
-% \addcontentsline{toc}{chapter}{Introduction and Abbreviations}
-% %\markright{INTRODUCTION AND ABBREVIATIONS}
-%
-% Elections were held on 6th May 2010 to all London boroughs and metropolitan boroughs, and some unitary authorities and shire districts in England. These elections were combined with a general election which was held on the same day.
-%
-% The voting system used for all elections covered here was
-% first-past-the-post, with multi-member FPTP being used where more than
-% one seat was up for election.
-%
-%The results of the general election are shown in Part I. The information in Part I is taken from the Electoral Commission.
-%
-% All of the seats on the 32 London borough councils were up for election. The vast majority of London boroughs use multi-member wards electing three councillors each; there are also a handful of single-member and two-member wards. Elections to the London boroughs are covered in Part~II, which has been split into two chapters (North and South London).
-%
-% The 36 metropolitan boroughs are all elected by thirds. Each ward has
-% three councillors, with the winning councillor from the 2006 election being up for
-% election in each ward. In some cases two seats were up for election,
-% due to the death or resignation of another councillor for the ward
-% within six months of the election. Results of these elections are
-% contained in Part~III, which each of the former metropolitan counties
-% constituting a separate chapter.
-%
-% The English unitary authorities and shire districts may have up to
-% three councillors in each ward, and may hold elections either all at
-% once or by thirds.
-% Only those councils which elect by thirds held
-% elections this year; those councils which elect all at once were
-% last elected in 2007 and will next be elected in 2011. A few
-% districts elect by halves every two years; all of these districts held
-% an election this year. Where districts elect by thirds generally not
-% all of the wards in the district hold an election every year. A full explanation of the electoral arrangements is
-% given at the head of each council's entry.
-%
-% Due to a botched attempt at local government reorganisation, the 2010 elections to Exeter and Norwich city councils were held on 9th September. It had originally been intended to change these councils to unitary status, which resulted in the scheduled 2010 elections to these councils being cancelled with the intention that the first elections to the new unitary councils would take place in 2011, the councillors elected in 2006 to have their terms extended until 2011. However, when the unitary plans were abandoned by the coalition government following the general election, the High Court ruled that the councillors elected in 2006 had come to the end of their four-year term and could no longer continue in office.
-%
-% Unitary election results are shown in Part~IV
-% with shire district results in Part~V. Part~IV is
-% divided into eight chapters based on region, while Part~V has one
-% chapter for each county.
-%
-% For the first time in this series, referendums (Part VI) and by-elections (Part VII) held in 2010 are also included. Scottish local by-elections are held using the Alternative Vote; while details of transfers are shown, for reasons of space some elimination stages have been omitted.
-%
-% Finally, at the back you will find an Index of Wards.
-%
-% Where a candidate in an election dies, the election in that ward or division is
-% cancelled and rearranged for a later date. This happened in the
-% following wards or divisions at this election:
-%
-% \begin{results}
-% \begin{itemize}
-% \item Haverstock, Camden\index{Haverstock , Camden@Haverstock, Camden}
-% \item Ore, Hastings\index{Ore , Hastings@Ore, Hastings}
-% \end{itemize}
-% \end{results}
-%
-% Here is a list of abbreviations used in this book for major parties
-% and selected other parties which fought several councils. This list
-% is not exhaustive; parties which put up only a few candidates will
-% generally have their abbreviation listed at the head of the entry for
-% the retant council. Please note that the ``Lab'' label includes
-% candidates who were jointly sponsored by the Labour and Co-operative
-% Parties.
-%
-% \begin{results}
-% BNP - British National Party
-%
-% C - Conservative Party
-%
-% Grn - Green Party
-%
-% Ind - Independent
-%
-% Lab - Labour Party
-%
-% LD - Liberal Democrat
-%
-% Lib - Liberal Party
-%
-% Loony - Monster Raving Loony Party
-%
-% Respect - Respect, the Unity Coalition
-%
-% SocLab - Socialist Labour Party
-%
-% UKIP - UK Independence Party
-%
-% \end{results}
-%
-%Errors in a work of this size are inevitable. I take full responsibility for any errors which may have crept in, undertake to correct any errors which I am made aware of, and hope that any errors which you may spot do not substantially affect any use you may make of this book.
-%
-% I would like to close this section by thanking all those who have
-% supplied me with results and sources of information, most notably David Boothroyd, John Cartwright, James Doyle, Keith Edkins, the Electoral Commission, Tom Harris, Paul Harwood, ``hullenedge'', ``Listener'', ``MaxQue'', Philip Mutton, John Swarbrick, Andrew Stidwell, Pete Whitehead and all the members of the Vote UK Forum, and particularly those scores of council
-% webpages without which this work would not have been possible.
-
-
-
 % Here beginneth the content
 
 % 2019 results to go here
@@ -203,11 +13,11 @@ There were no referendums in 2022.
 
 A referendum was held in Bristol on 5th May on the question of whether the city should abolish the elected mayoralty and move to the committee system of governance.
 
-%\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-%& Mayor & 45960\\
-%& Committee & 36424\\
-%\end{tabular*}
+\noindent
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+& Mayor & 38439\\
+& Committee & 56113\\
+\end{tabular*}
 
 \part{By-elections}
 
@@ -247,7 +57,7 @@ PsychMov = Psychedelic Movement
 Death of Sir David Amess (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Anna Firth & C & 12792\\
 	Jason Pilley & PsychMov & 512\\
 	Steve Laws & UKIP & 400\\
@@ -269,11 +79,11 @@ Death of Sir David Amess (C).
 Death of Jack Dromey (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paulette Hamilton & Lab & 9413\\
 	Robert Alden & C & 6147\\
 	Dave Nellist & TUSC & 360\\
-	Jack Brookes & RfmUK & 293\\
+	Jack Brookes & RUK & 293\\
 	Siobhan Harper-Nunes & Grn & 236\\
 	Michael Lutwyche & Ind & 109\\
 	Lee Dargue & LD & 173\\
@@ -294,12 +104,12 @@ Death of Jack Dromey (Lab).
 Resignation of Neil Parish (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Foord & LD & 22537\\
 	Helen Hurford & C & 16393\\
 	Liz Pole & Lab & 1562\\
 	Gill Westcott & Grn & 1064\\
-	Andy Foan & RfmUK & 481\\
+	Andy Foan & RUK & 481\\
 	Ben Walker & UKIP & 231\\
 	Jordan Donoghue-Morgan & Heritage & 167\\
 	Frankie Rufolo & ForBritn & 146\\
@@ -315,13 +125,13 @@ Resignation of Neil Parish (C).
 Resignation of Imran Ahmad Khan (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Simon Lightwood & Lab & 13166\\
 	Nadeem Ahmed & C & 8241\\
 	Akef Akbar & Ind & 2090\\
 	David Herdson & Yorks & 1182\\
 	Ashley Routh & Grn & 587\\
-	Chris Walsh & RfmUK & 513\\
+	Chris Walsh & RUK & 513\\
 	Jamie Needle & LD & 508\\
 	Ashlea Simon & Brit1st & 311\\
 	Mick Dodgson & FdmAll & 187\\
@@ -343,12 +153,12 @@ Resignation of Imran Ahmad Khan (C).
 %Resignation of Mike Hill (Lab).
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %	Jill Mortimer & C & 15529\\
 %	Paul Williams & Lab & 8589\\
 %	Sam Lee & Ind & 2904\\
 %	Claire Martin & Heritage & 468\\
-%	John Prescott & RfmUK & 368\\
+%	John Prescott & RUK & 368\\
 %	Rachel Featherstone & Grn & 358\\
 %	Andrew Hagon & LD & 349\\
 %	Thelma Walker & Ind & 250\\
@@ -372,12 +182,12 @@ Resignation of Imran Ahmad Khan (C).
 Resignation of Christian Matheson (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Samantha Dixon & Lab & 17309\\
 	Liz Wardlaw & C & 6335\\
 	Rob Herd & LD & 2368\\
 	Paul Bowers & Grn & 987\\
-	Jeanie Barton & RfmUK & 773\\
+	Jeanie Barton & RUK & 773\\
 	Richard Hewison & RjnEU & 277\\
 	Cain Griffiths & UKIP & 179\\
 	Howling Laud Hope & Loony & 156\\
@@ -394,12 +204,12 @@ Resignation of Christian Matheson (Lab).
 Resignation of Kate Green (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Western & Lab & 12828\\
 	Emily Carter-Kandola & C & 2922\\
 	Dan Jerrome & Grn & 789\\
 	Anna Fryer & LD & 659\\
-	Paul Swansborough & RfmUK & 650\\
+	Paul Swansborough & RUK & 650\\
 	Jim Newell & RjnEU & 237\\
 	Hazel Gibb & Ind & 183\\
 	Christina Glancy & FdmAll & 76\\
@@ -414,9 +224,9 @@ There were no by-elections in 2022 to the Greater London Authority.
 
 %Kemi Badenoch (C, London-wide list) resigned in June 2017.  She was replaced from the list by Susan Hall.
 
-\section{National Assembly for Wales}
+\section{Senedd Cymru}
 
-There were no by-elections in 2022 to the National Assembly for Wales.
+There were no by-elections in 2022 to Senedd Cymru.
 
 %Steffan Lewis (PC, South Wales East) died on 11 January 2019.  He was replaced from the list by \emph{to be announced}.
 
@@ -435,7 +245,7 @@ There were no by-elections in 2022 to the Scottish Parliament.
 %Resignation of Tavish Scott (LD).
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %Beatrice Wishart & LD & 5659\\
 %Tom Wills & SNP & 3822\\
 %Ryan Thomson & Ind & 1286\\
@@ -448,7 +258,7 @@ There were no by-elections in 2022 to the Scottish Parliament.
 %Peter Tait & Ind & 31\\
 %\end{tabular*}
 
-Dean Lockhart (C, Mid Scotland and Fife) resigned on 5 September 2022.  He was replaced from the list by Roz McCall.
+Dean Lockhart (C, Mid Scotland and Fife) resigned on 5th September 2022.  He was replaced from the list by Roz McCall.
 %
 %Douglas Ross MP (C, Highlands and Islands) resigned on 9 June 2017.  He was replaced from the list by Jamie Halcro Johnston.
 %
@@ -457,16 +267,14 @@ Dean Lockhart (C, Mid Scotland and Fife) resigned on 5 September 2022.  He was r
 \section{Northern Ireland Assembly}
 
 Vacancies in the Northern Ireland Assembly are filled by co-option.
-No co-options were made in 2022.
+%No co-options were made in 2022.
 %
-%The following members were co-opted to the Assembly in 2017:
-%\begin{itemize}
-%\item Colm Gildernew (SF) replaced Michelle Gildernew MP following her resignation on 8th June (Fermanagh and South Tyrone).
-%\item Trevor Clarke (DUP) replaced Paul Girvan MP following his resignation on 8th June (South Antrim).
-%\item Emma Rogan (SF) replaced Chris Hazzard MP following his resignation on 8th June (South Down).
-%\item Karen Mullan (SF) replaced Elisha McCallion MP following her resignation on 8th June (Foyle).
-%\item Catherine Kelly (SF) replaced Barry McElduff MP following his resignation on 8th June (West Tyrone).
-%\end{itemize}
+The following members were co-opted to the Assembly in 2022:
+\begin{itemize}
+	\item Edwin Poots (DUP) replaced Christopher Stalford following his death on 19th February (Belfast South).
+	\item Paul Rankin (DUP) replaced Edwin Poots following his resignation to be transferred to Belfast South (Lagan Valley).
+	\item Emma Little Pengelly (DUP) replaced Sir Jeffrey Donaldson MP who declined to take his seat following the 6th May election (Lagan Valley).
+\end{itemize}
 
 %\section{European Parliament}
 %
@@ -498,17 +306,17 @@ There were no by-elections in 2022 for vacant police and crime commissioner post
 %Disqualification (previous conviction) of Jonathan Seed (C).
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %	\emph{First preferences}\\
 %	Philip Wilkinson & C & 32564\\
 %	Mike Rees & Ind & 25197\\
 %	Brian Mathew & LD & 17966\\
 %	Junab Ali & Lab & 12971\\
-%	Julian Malins & RfmUK & 1859\\
+%	Julian Malins & RUK & 1859\\
 %\end{tabular*}
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %	\emph{Runoff}\\
 %	Philip Wilkinson & C & 37752\\
 %	Mike Rees & Ind & 34815\\
@@ -538,9 +346,9 @@ There were no by-elections in 2022 for vacant police and crime commissioner post
 \subsection*{City of London Corporation}
 
 At the March 2022 ordinary election there were unfilled vacancies in Aldersgate, Aldgate and Farringdon Within wards due to the resignations of Joyce Nash (Aldersgate), Sylvia Moys and Dhruv Patel (both Aldgate) and Karina Dostalova (Farringdon Within; all Ind).%
-\index{Aldersgate , City of London@Aldersgate, \emph{City of London}}%
-\index{Aldgate , City of London@Aldgate, \emph{City of London}}%
-\index{Farringdon Within , City of London@Farringdon Wn., \emph{City of London}}
+\index{Aldersgate , City of London Corporation@Aldersgate, \emph{City of London}}%
+\index{Aldgate , City of London Corporation@Aldgate, \emph{City of London}}%
+\index{Farringdon Within , City of London Corporation@Farringdon Wn., \emph{City of London}}
 
 TFT = Temple and Farringdon Together
 
@@ -549,12 +357,12 @@ TFT = Temple and Farringdon Together
 	\finalhyphendemerits=0
 	[26th May]}
 
-\index{Aldersgate , City of London@Aldersgate, \emph{City of London}}
+\index{Aldersgate , City of London Corporation@Aldersgate, \emph{City of London}}
 
 Aldermanic election: resignation of Nicholas Anstee (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Christopher Makin & Ind & 369\\
 	Melissa Collett & Ind & 219\\
 \end{tabular*}
@@ -564,12 +372,12 @@ Aldermanic election: resignation of Nicholas Anstee (Ind).
 	\finalhyphendemerits=0
 	[26th May]}
 
-\index{Cordwainer , City of London@Cordwainer, \emph{City of London}}
+\index{Cordwainer , City of London Corporation@Cordwainer, \emph{City of London}}
 
 Aldermanic election: death of Sir Roger Gifford (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alexander Barr & Ind & 65\\
 	Charlotte Crosswell & Ind & 38\\
 	Miranda Brawn & Ind & 15\\
@@ -582,12 +390,12 @@ Aldermanic election: death of Sir Roger Gifford (Ind).
 	\finalhyphendemerits=0
 	[26th May]}
 
-\index{Cornhill , City of London@Cornhill, \emph{City of London}}
+\index{Cornhill , City of London Corporation@Cornhill, \emph{City of London}}
 
 Aldermanic election: resignation of Robert Howard (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Robert Howard & Ind & 113\\
 	Camilia Kaerts & Ind & 22\\
 \end{tabular*}
@@ -597,12 +405,12 @@ Aldermanic election: resignation of Robert Howard (Ind).
 	\finalhyphendemerits=0
 	[7th July]}
 
-\index{Bridge and Bridge Without , City of London@Bridge \& Bridge Wt., \emph{City of London}}
+\index{Bridge and Bridge Without , City of London Corporation@Bridge \& Bridge Wt., \emph{City of London}}
 
 Aldermanic election: resignation of Sir Alan Yarrow (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Timothy Levene & Ind & 142\\
 	Andrew McMurtrie & Ind & 40\\
 \end{tabular*}
@@ -612,12 +420,12 @@ Aldermanic election: resignation of Sir Alan Yarrow (Ind).
 	\finalhyphendemerits=0
 	[7th July]}
 
-\index{Walbrook , City of London@Walbrook, \emph{City of London}}
+\index{Walbrook , City of London Corporation@Walbrook, \emph{City of London}}
 
 Aldermanic election: resignation of John Garbutt (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jennette Newman & Ind & 102\\
 	Philip Palumbo & Ind & 54\\
 	Nigel Biggs & Ind & 19\\
@@ -630,12 +438,12 @@ Aldermanic election: resignation of John Garbutt (Ind).
 	\finalhyphendemerits=0
 	[15th September]}
 
-\index{Bishopsgate , City of London@Bishopsgate, \emph{City of London}}
+\index{Bishopsgate , City of London Corporation@Bishopsgate, \emph{City of London}}
 
 Aldermanic election: resignation of Baroness Scotland of Asthal (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kawsar Zaman & Ind & 118\\
 	Henry Knapman & Ind & 108\\
 \end{tabular*}
@@ -645,12 +453,12 @@ Aldermanic election: resignation of Baroness Scotland of Asthal (Ind).
 	\finalhyphendemerits=0
 	[15th September]}
 
-\index{Cripplegate , City of London@Cripplegate, \emph{City of London}}
+\index{Cripplegate , City of London Corporation@Cripplegate, \emph{City of London}}
 
 Aldermanic election: resignation of David Graves (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Susan Pearson & Ind & 584\\
 	Jeremy Mayhew & Ind & 141\\
 \end{tabular*}
@@ -660,12 +468,12 @@ Aldermanic election: resignation of David Graves (Ind).
 	\finalhyphendemerits=0
 	[15th September]}
 
-\index{Cordwainer , City of London@Cordwainer, \emph{City of London}}
+\index{Cordwainer , City of London Corporation@Cordwainer, \emph{City of London}}
 
 Election of Alexander Barr (Ind) as Alderman.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Amy Horscroft & Ind & 54\\
 	Karina Dostalova & Ind & 15\\
 	Angelika Wagner & Ind & 5\\
@@ -676,12 +484,12 @@ Election of Alexander Barr (Ind) as Alderman.
 	\finalhyphendemerits=0
 	[3rd November]}
 
-\index{Bridge and Bridge Without , City of London@Bridge \& Bridge Wt., \emph{City of London}}
+\index{Bridge and Bridge Without , City of London Corporation@Bridge \& Bridge Wt., \emph{City of London}}
 
 Election of Timothy Levene (Ind) as Alderman.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Hugh Selka & Ind & 75\\
 	Melissa Collett & Ind & 63\\
 	Saif Masood & Ind & 16\\
@@ -694,12 +502,12 @@ Election of Timothy Levene (Ind) as Alderman.
 	\finalhyphendemerits=0
 	[8th December]}
 
-\index{Aldgate , City of London@Aldgate, \emph{City of London}}
+\index{Aldgate , City of London Corporation@Aldgate, \emph{City of London}}
 
 Aldermanic election: resignation of Susan Langley (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Susan Langley & Ind & 230\\
 	Shai Umradia & Ind & 20\\
 	Elizabeth Lange & Ind & 9\\
@@ -710,12 +518,12 @@ Aldermanic election: resignation of Susan Langley (Ind).
 	\finalhyphendemerits=0
 	[8th December]}
 
-\index{Farringdon Without , City of London@Farringdon Wt., \emph{City of London}}
+\index{Farringdon Without , City of London Corporation@Farringdon Wt., \emph{City of London}}
 
 Aldermanic election: resignation of Greg Jones (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Gregory Jones & TFT & \emph{unop.}\\
 \end{tabular*}
 
@@ -724,12 +532,12 @@ Aldermanic election: resignation of Greg Jones (Ind).
 	\finalhyphendemerits=0
 	[8th December]}
 
-\index{Queenhithe , City of London@Queenhithe, \emph{City of London}}
+\index{Queenhithe , City of London Corporation@Queenhithe, \emph{City of London}}
 
 Aldermanic election: resignation of Alistair King (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alistair King & Ind & \emph{unop.}\\
 \end{tabular*}
 
@@ -765,7 +573,7 @@ Housing = National Housing Party
 Resignation of Adrian Cohen (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Linda Chung & LD & 919\\
 	Alex Andrews & C & 620\\
 	Alex Sufit & Lab & 559\\
@@ -778,6 +586,8 @@ Resignation of Adrian Cohen (Lab).
 
 At the May 2022 ordinary election there was an unfilled vacancy in Dormers Wells ward due to the death of Tejinder Singh Dhami (Lab).%
 \index{Dormers Wells , Ealing@Dormers Wells, \emph{Ealing}}
+
+\columnbreak
 
 \subsection*{Hackney}
 
@@ -795,7 +605,7 @@ WEP = Women's Equality Party
 Resignation of Tom Dewey (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.546\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Joe Walker & Lab & 758\\
 	Tyrone Scott & Grn & 731\\
 	Thrusie Maurseth-Cahill & LD & 133\\
@@ -832,17 +642,19 @@ IndNwk = Independent Network
 
 Ordinary election postponed from 5th May: death of candidate Iqbal Singh (C).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-	Jas Athwal & Lab & 2349\\
-	Tanweer Khan & Lab & 2148\\
-	Vanisha Solanki & Lab & 2125\\
-	Carol Corbin & C & 525\\
-	Maria Begum & C & 470\\
-	Masood Khushi Pasha & C & 360\\
-	Sufia Khanam & LD & 229\\
-	Majad Hussain & IndNwk & 218\\
-\end{tabular*}
+See page \pageref{RedbridgeMayfield} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.51\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Jas Athwal & Lab & 2349\\
+%	Tanweer Khan & Lab & 2148\\
+%	Vanisha Solanki & Lab & 2125\\
+%	Carol Corbin & C & 525\\
+%	Maria Begum & C & 470\\
+%	Masood Khushi Pasha & C & 360\\
+%	Sufia Khanam & LD & 229\\
+%	Majad Hussain & IndNwk & 218\\
+%\end{tabular*}
 
 \subsection*{Waltham Forest}
 
@@ -877,7 +689,7 @@ At the May 2022 ordinary election there were unfilled vacancies in Crystal Palac
 Election of Jason Perry (C) as Mayor of Croydon.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Danielle Denton & C & 1306\\
 	Ben Taylor & Lab & 821\\
 	John Jefkins & LD & 448\\
@@ -897,7 +709,7 @@ Election of Jason Perry (C) as Mayor of Croydon.
 Death of Badsha Quadir (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Fatima Zaman & C & 983\\
 	Peter Underwood & Grn & 530\\
 	Tom Bowell & Lab & 372\\
@@ -921,21 +733,23 @@ KIRG = Kingston Independent Residents Group
 
 Ordinary election postponed from 5th May: death of candidate Mary Clark (Ind).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-	Mark Durrant & LD & 1217\\
-	Dongsung Kim & LD & 1184\\
-	Lesley Heap & LD & 1182\\
-	Lucy Howard & Grn & 867\\
-	Richard Hebborn & KIRG & 724\\
-	Marc Tracey & KIRG & 703\\
-	Paul Bedforth & C & 467\\
-	Pat Dobson & Lab & 436\\
-	Sean Casey & Lab & 429\\
-	Stephen Dunkling & Lab & 374\\
-	Philip Cockle & C & 372\\
-	Saad Hindosh & C & 327\\
-\end{tabular*}
+See page \pageref{KingstonThamesNewMaldenVillage} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Mark Durrant & LD & 1217\\
+%	Dongsung Kim & LD & 1184\\
+%	Lesley Heap & LD & 1182\\
+%	Lucy Howard & Grn & 867\\
+%	Richard Hebborn & KIRG & 724\\
+%	Marc Tracey & KIRG & 703\\
+%	Paul Bedforth & C & 467\\
+%	Pat Dobson & Lab & 436\\
+%	Sean Casey & Lab & 429\\
+%	Stephen Dunkling & Lab & 374\\
+%	Philip Cockle & C & 372\\
+%	Saad Hindosh & C & 327\\
+%\end{tabular*}
 
 \subsubsection*{Green Lane and St James \hspace*{\fill}\nolinebreak[1]%
 	\enspace\hspace*{\fill}
@@ -947,7 +761,7 @@ Ordinary election postponed from 5th May: death of candidate Mary Clark (Ind).
 Resignation of Tim Cobbett (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Yvonne Tracey & KIRG & 855\\
 	Mahmood Rafiq & LD & 647\\
 	Nick Draper & Lab & 265\\
@@ -973,7 +787,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Peckham ward 
 \subsection*{Sutton}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Beddington South ward due to the resignation of Manuel Abellan (LD).%
-\index{Beddington South , Sutton@Beddinigton S., \emph{Sutton}}
+\index{Beddington South , Sutton@Beddington S., \emph{Sutton}}
 
 \subsection*{Wandsworth}
 
@@ -990,7 +804,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in East Putney w
 Death of Andy Gibbons (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rex Osborn & Lab & 1429\\
 	Jonathan Iliff & C & 491\\
 	Lisa Osborne & Grn & 285\\
@@ -1013,7 +827,7 @@ RUK/BFC = Reform UK and Bolton for Change
 Resignation of Ebrahim Adia (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.47\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ayyub Patel & C & 1610\\
 	Ismail Patel & Lab & 1102\\
 	Alan Johnson & Grn & 156\\
@@ -1036,7 +850,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Crumpsall war
 Resignation of Marcia Hutchinson (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alan Good & LD & 1113\\
 	Gareth Worthington & Lab & 793\\
 	Chris Perriam & Grn & 119\\
@@ -1068,7 +882,7 @@ Combined with the 2022 ordinary election; see page \pageref{OldhamMedlockVale} f
 Death of Jean Stretton (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Hannah Roberts & Lab & 718\\
 	Kamran Ghafoor & C & 639\\
 	Barbara Whitehead & Ind & 152\\
@@ -1088,7 +902,7 @@ Death of Jean Stretton (Lab).
 Death of Sheila Bailey (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Georgia Lynott & Lab & 1172\\
 	Robbie Cowbury & LD & 840\\
 	Philip Handscomb & Grn & 200\\
@@ -1136,7 +950,7 @@ Combined with the 2022 ordinary election; see page \pageref{WiganLeighEast} for 
 Death of Anthony Sykes (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Bullen & Lab & 294\\
 	Paul Martin & C & 146\\
 	Geoffrey Matthews & LD & 28\\
@@ -1161,7 +975,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Page Moss war
 Resignation of Ian Byrne MP (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ellie Byrne & Lab & 925\\
 	Kevin Robinson-Hale & Grn & 362\\
 	Angela Preston & Lib & 84\\
@@ -1180,7 +994,7 @@ Resignation of Ian Byrne MP (Lab).
 Resignation of Cheryl Didsbury (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sam East & Lab & 912\\
 	Karen Afford & LD & 874\\
 	Rebecca Lawson & Grn & 61\\
@@ -1197,7 +1011,7 @@ Resignation of Cheryl Didsbury (Lab).
 Resignation of Lindsay Melia (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Helen Stephens & Lab & 1365\\
 	Laura Wharton & Ind & 638\\
 	Jack Williams & LD & 290\\
@@ -1219,7 +1033,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Town Centre w
 Resignation of Zeena Begum (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jeanette Banks & Lab & 656\\
 	David Kent & LD & 571\\
 	Samantha Peet & C & 78\\
@@ -1237,7 +1051,7 @@ Resignation of Zeena Begum (Lab).
 Death of Gordon Friel (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Dan McKee & Lab & 636\\
 	Ian Smith & Ind & 144\\
 \end{tabular*}
@@ -1268,12 +1082,14 @@ Combined with the 2022 ordinary election; see page \pageref{WirralBirkenheadTran
 Resignation of David Brennan (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	James Laing & Lab & 1304\\
 	Jane Owens & C & 370\\
 	Nadia Parsons & Grn & 172\\
 	Charlie Houghton & LD & 167\\
 \end{tabular*}
+
+\columnbreak
 
 \section{South Yorkshire}
 
@@ -1291,7 +1107,7 @@ Yorks = Yorkshire Party
 Resignation of Daniel Barwell (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Yetunde Elebuibon & Lab & 827\\
 	Michael Angus & C & 419\\
 	Andy Budden & Yorks & 356\\
@@ -1329,7 +1145,7 @@ Combined with the 2022 ordinary election; see page \pageref{NewcastleTyneBenwell
 Disqualification (non-attendance) of Jim Allan (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Peter Earley & Lab & 873\\
 	Haylee Josendale & C & 388\\
 	Jay Beyer & LD & 124\\
@@ -1362,7 +1178,7 @@ Combined with the 2022 ordinary election; see page \pageref{SouthTynesideHarton}
 Resignation of Keith Jenkins (Ind elected as UKIP).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	John Usher & Lab & 709\\
 	Steven Donkin & LD & 386\\
 	Ian Lines & UKIP & 85\\
@@ -1378,14 +1194,16 @@ Resignation of Keith Jenkins (Ind elected as UKIP).
 
 Ordinary election postponed from 5th May: death of candidate Reg Coulson (UKIP).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-	Tracy Dodds & Lab & 969\\
-	Kathleen Pearson & Ind & 606\\
-	Patricia Francis & C & 384\\
-	Andrew Robertson & Grn & 158\\
-	Mary Boddy & LD & 61\\
-\end{tabular*}
+See page \pageref{SunderlandCoptHill} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Tracy Dodds & Lab & 969\\
+%	Kathleen Pearson & Ind & 606\\
+%	Patricia Francis & C & 384\\
+%	Andrew Robertson & Grn & 158\\
+%	Mary Boddy & LD & 61\\
+%\end{tabular*}
 
 \section{West Midlands}
 
@@ -1400,12 +1218,12 @@ At the May 2022 ordinary election there were an unfilled vacancy in Sparkhill an
 	\finalhyphendemerits=0
 	[6th October]}
 
-\index{Sparkbrook and Balsall Heath East , Birmingham@Sparksbrook \& Balsall Heath E., \emph{Birmingham}}
+\index{Sparkbrook and Balsall Heath East , Birmingham@Sparkbrook \& Balsall Heath E., \emph{Birmingham}}
 
 Death of Mohammed Azim (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.52\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Saima Ahmed & Lab & 2410\\
 	Shaukat Khan & LD & 517\\
 	Zhor Malik & C & 305\\
@@ -1429,7 +1247,7 @@ CovCtzns = Coventry Citizens Party
 Death of John Mutton (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.52\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Seyi Agboola & Lab & 934\\
 	Amarjit Singh Khangura & C & 765\\
 	Paul Cowley & CovCtzns & 746\\
@@ -1447,7 +1265,7 @@ Death of John Mutton (Lab).
 Death of Seamus Walsh (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.5\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jackie Gardiner & C & 1409\\
 	Des Arthur & Lab & 895\\
 	Bruce Tetlow & Grn & 139\\
@@ -1484,7 +1302,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Bristnall war
 Resignation of Kirat Singh (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jenny Chidley & Lab & 854\\
 	Fajli Bibi & C & 654\\
 	Manjit Singh Lall & LD & 77\\
@@ -1525,7 +1343,7 @@ Combined with the 2022 ordinary election; see page \pageref{WalsallWillenhallSou
 Resignation of Harman Singh Banger (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lovinyer Daley & Lab & 783\\
 	Steve Hall & C & 412\\
 \end{tabular*}
@@ -1583,7 +1401,7 @@ Combined with the 2022 ordinary election; see page \pageref{LeedsRoundhay} for t
 Disqualification (sentenced to 8 months' imprisonment, suspended, fraud by abuse of position) of Hannah Adrees (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alia Khan & Lab & 1486\\
 	Basharat Hussain & LD & 1076\\
 	Malik Azad Nikyalvi & C & 154\\
@@ -1609,7 +1427,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Bulmershe and
 Resignation of Helen Godwin Teige (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kye Dudd & Lab & 780\\
 	Edward Burnham & Grn & 728\\
 	Roddy Jaques & C & 279\\
@@ -1631,7 +1449,7 @@ Resignation of Helen Godwin Teige (Lab).
 Resignation of Cameron Branston (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sue Lewin & LD & 1158\\
 	Richard Torpey & Grn & 1030\\
 	David Hughes & C & 723\\
@@ -1641,19 +1459,19 @@ Resignation of Cameron Branston (C).
 \subsection*{Milton Keynes}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Newport Pagnell North and Hanslope ward due to the resignation of Andrew Geary (C).% elected in by-election 2021-05-06
-\index{Neport Pagnell North and Hanslope , Milton Keynes@Newport Pagnell N. \& Hanslope, \emph{Milton Keynes}}
+\index{Newport Pagnell North and Hanslope , Milton Keynes@Newport Pagnell N. \& Hanslope, \emph{Milton Keynes}}
 
 \subsubsection*{Woughton and Fishermead \hspace*{\fill}\nolinebreak[1]%
 	\enspace\hspace*{\fill}
 	\finalhyphendemerits=0
 	[7th July]}
 
-\index{Woughton and Fishermead , Milton Keynes@Woughton \& Fishermead, \emph{Milton Keynes}}
+\index{Woughton and Fishermead , Milton Keynes@\sloppyword{Woughton \& Fishermead, \emph{Milton Keynes}}}
 
 Death of Carol Baume (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Susan Smith & Lab & 1355\\
 	Rafal Brewczynski & C & 340\\
 	Raissa Roy & LD & 154\\
@@ -1695,7 +1513,7 @@ Combined with the 2022 ordinary election; see page \pageref{CambridgeWestChester
 Resignation of Alan Cox (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	David Levien & LD & 1017\\
 	Rahima Ahammed & Lab & 472\\
 	Ceri Galloway & Grn & 298\\
@@ -1735,7 +1553,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Harston and C
 Resignations of Sarah Cheung Johnson and Alex Malyon (both LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Natalie Warren-Green & LD & 578\\
 	Tom Bygott & C & 566\\
 	Lawrence Zeegen & LD & 534\\
@@ -1761,7 +1579,7 @@ Resignations of Sarah Cheung Johnson and Alex Malyon (both LD).
 Resignations of Ryan Bate and Mike Biggin (both LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Helen Speed & LD & 1073\\
 	Mark Browne & LD & 1047\\
 	Moira Dolan & C & 524\\
@@ -1780,7 +1598,7 @@ Resignations of Ryan Bate and Mike Biggin (both LD).
 Resignation of Joshua Dixon (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rob Tynan & C & 648\\
 	Trish Cockayne & Lab & 645\\
 	Brian Meichen & LD & 219\\
@@ -1800,7 +1618,7 @@ Resignation of Joshua Dixon (C).
 Disqualification (non-attendance) of Janet King (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jimmy Grisdale & Lab & 354\\
 	Jacqueline Kirkbride & C & 294\\
 \end{tabular*}
@@ -1815,7 +1633,7 @@ Disqualification (non-attendance) of Janet King (Ind).
 Resignation of Mary Bainbridge (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Barbara Cannon & Lab & 454\\
 	Ralph Hunter & Ind & 278\\
 	John Connell & C & 179\\
@@ -1833,7 +1651,7 @@ Resignation of Mary Bainbridge (Lab).
 Death of Valerie Tarbitt (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Timothy Pickstone & LD & 1247\\
 	Sam Bown & C & 948\\
 \end{tabular*}
@@ -1852,7 +1670,7 @@ Death of Valerie Tarbitt (C).
 Death of Alan Griffiths (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Joel Bryan & Lab & 1104\\
 	Chris Page & C & 723\\
 	Rachel Allen & LD & 239\\
@@ -1871,7 +1689,7 @@ Death of Alan Griffiths (C).
 Death of Valerie Thorpe (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Dawn Harper & C & 242\\
 	Kate Smith & LD & 114\\
 	Dean Watson & Lab & 53\\
@@ -1890,7 +1708,7 @@ Death of Valerie Thorpe (C).
 Resignation of Stan Fox (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mark Hinman & Lab & 376\\
 	Julian Siddle & C & 218\\
 \end{tabular*}
@@ -1907,7 +1725,7 @@ Resignation of Stan Fox (Lab).
 Resignation of Mick Bagshaw (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Debbie Wheeldon & Lab & 747\\
 	Dean Rhodes & Ind & 676\\
 	Louis Hollingworth & Grn & 118\\
@@ -1925,7 +1743,7 @@ Resignation of Mick Bagshaw (Ind).
 Death of Lewis Rose (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Janet Rose & C & 343\\
 	Monty Stuart-Monteith & LD & 274\\
 	Andrew Hartley & Lab & 132\\
@@ -1944,7 +1762,7 @@ Death of Lewis Rose (C).
 Death of Keith Savage (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kev Kirkham & C & 585\\
 	Alan Smith & Lab & 413\\
 	Peter Crook & Grn & 56\\
@@ -1962,7 +1780,7 @@ Death of Keith Savage (Lab).
 Death of Patricia Holmes (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kevin Gillott & Lab & 806\\
 	Dave Sankey & C & 361\\
 	David Kesteven & Grn & 34\\
@@ -1981,7 +1799,7 @@ Death of Patricia Holmes (Lab).
 Resignation of David Angliss (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Louise Mulgrew & Lab & 600\\
 	Barry Appleby & C & 540\\
 \end{tabular*}
@@ -2034,6 +1852,8 @@ Resignation of Alys Martin (Lab).
 
 Combined with the 2022 ordinary election; see page \pageref{ExeterPriory} for the result.
 
+\columnbreak
+
 \subsection*{East Devon}
 
 EDevon = Independent East Devon Alliance
@@ -2048,7 +1868,7 @@ EDevon = Independent East Devon Alliance
 Death of Val Ranger (EDevon).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Chris Burhop & Ind & 560\\
 	Caleb Early & Lab & 162\\
 	Paul Carter & C & 113\\
@@ -2066,7 +1886,7 @@ Death of Val Ranger (EDevon).
 Resignation of Eileen Andrews (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	James Buczkowski & LD & 318\\
 	Rosemary Berry & C & 279\\
 	Jason Chamberlain & Lab & 67\\
@@ -2084,7 +1904,7 @@ Resignation of Eileen Andrews (Ind).
 Resignation of David Luggar (Ind elected as C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Victoria Nel & LD & 374\\
 	David Hoare & C & 237\\
 	Mark Haworth-Booth & Grn & 228\\
@@ -2103,7 +1923,7 @@ Resignation of David Luggar (Ind elected as C).
 Resignation of Steve Hipsey (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	David Turnbull & C & 379\\
 	Peter Squire & LD & 337\\
 	Susan Bamford & Grn & 163\\
@@ -2112,7 +1932,7 @@ Resignation of Steve Hipsey (Ind).
 
 \section{Dorset}
 
-\subsection*{Bournemouth, Christchurch and Poole}
+\subsection*{\sloppyword{Bournemouth, Christchurch and Poole}}
 
 ChCh = Christchurch Independents
 
@@ -2126,7 +1946,7 @@ ChCh = Christchurch Independents
 Death of Nick Geary (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andy Martin & ChCh & 1778\\
 	Pete Brown & LD & 571\\
 	Christopher van Hagen & C & 358\\
@@ -2145,7 +1965,7 @@ Death of Nick Geary (Ind).
 Resignation of Daryl Turner (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Belinda Bawden & Grn & 594\\
 	Vicci Stocqueler & C & 359\\
 	Cheryl Reynolds & Ind & 320\\
@@ -2168,12 +1988,12 @@ FdmAll = Freedom Alliance
 Death of Brian Avery (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Curtis Bihari & Lab & 876\\
 	Glenys Newby & Ind & 528\\
 	David Farry & C & 348\\
 	Joseph Makepeace & Ind & 166\\
-	Rebecca Dixon-McWaters & Grn & 165\\
+	\sloppyword{Rebecca Dixon-McWaters} & Grn & 165\\
 	Kaela Banthorpe & FdmAll & 28\\
 	Bill Thorkildsen & LD & 9\\
 \end{tabular*}
@@ -2188,7 +2008,7 @@ Death of Brian Avery (Ind).
 Death of Mark Roberts (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	George Smith & Lab & 956\\
 	Lyndsey Fox & C & 554\\
 	Nick Brown & Ind & 187\\
@@ -2217,7 +2037,7 @@ Combined with the 2022 ordinary election; see page \pageref{HartlepoolRuralWest}
 Resignation of Stephen Tipton (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Carole Thompson & Lab & 443\\
 	Pamela Shurmer & C & 391\\
 	Connor Stallard & Ind & 126\\
@@ -2234,7 +2054,7 @@ Resignation of Stephen Tipton (Ind).
 Resignation of Amy Prince (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Cameron Sharp & Lab & 450\\
 	Jaime Horton & Ind & 280\\
 	Jack Waterman & C & 124\\
@@ -2255,7 +2075,7 @@ Resignation of Amy Prince (Lab).
 Resignation of Joe Miller (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Robert McIntosh & Lab & 1443\\
 	Stephen White & Ind & 1355\\
 	Lynda Hyde & C & 1185\\
@@ -2274,7 +2094,7 @@ Resignation of Joe Miller (C).
 Death of Garry Peltzer Dunn (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bella Sankey & Lab & 1519\\
 	Peter Revell & C & 756\\
 	Ollie Sykes & Grn & 190\\
@@ -2294,7 +2114,7 @@ Death of Garry Peltzer Dunn (C).
 Resignation of Helen Burton (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Hugh Parker & LD & 972\\
 	Nicholas Ansell & C & 513\\
 	Rachael Norris & Grn & 420\\
@@ -2313,7 +2133,7 @@ Resignation of Helen Burton (LD).
 Resignation of Joe Miller (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ciarron Clarkson & Lab & 641\\
 	Katie Sanderson & C & 477\\
 	Holly Atkins & Grn & 32\\
@@ -2332,7 +2152,7 @@ Resignation of Joe Miller (C).
 Death of Jonathan Johnson (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Neil Gordon & C & 424\\
 	Martin Griffiths & LD & 266\\
 \end{tabular*}
@@ -2349,7 +2169,7 @@ Death of Jonathan Johnson (C).
 Resignation of Kevin Balsdon (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Anne Blake-Coggins & LD & 394\\
 	Chris Bryant & C & 254\\
 	Stephen Gander & SDP & 12\\
@@ -2365,7 +2185,7 @@ Resignation of Kevin Balsdon (C).
 Resignation of Peter Roundell (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ian Tysh & Grn & 651\\
 	Helen Galley & C & 412\\
 \end{tabular*}
@@ -2384,7 +2204,7 @@ Resignation of Peter Roundell (C).
 Death of Vanessa Walker (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Margaret Corless & LD & 1351\\
 	Paul Hopton & C & 907\\
 	Dafydd Taylor & Lab & 110\\
@@ -2401,7 +2221,7 @@ Death of Vanessa Walker (C).
 Death of Chad Chadwick (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jayne Phoenix & LD & 1950\\
 	Jonathan Bibb & C & 1077\\
 	David Butland & Lab & 171\\
@@ -2419,7 +2239,7 @@ Death of Chad Chadwick (C).
 Death of Pauline Greenwood (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Diana Stewart & LD & 1948\\
 	Peter Stevens & C & 1116\\
 	Clare Wildey & Lab & 213\\
@@ -2439,7 +2259,7 @@ Death of Pauline Greenwood (C).
 Death of Craig Cannell (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	James Newport & LD & 1658\\
 	Simon Smith & C & 929\\
 	Jack Lawmon & Ind & 164\\
@@ -2458,12 +2278,12 @@ Death of Craig Cannell (LD).
 Death of Pauline Kettle (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mo Larkin & Ind & 909\\
 	Mark Cottrell & C & 233\\
 	Dylan Wright & Lab & 169\\
 	Stephen Nice & LD & 102\\
-	Michael Kinnane & RfmUK & 37\\
+	Michael Kinnane & RUK & 37\\
 \end{tabular*}
 
 \subsection*{Braintree}
@@ -2478,7 +2298,7 @@ Death of Pauline Kettle (Ind).
 Resignation of Dean Wallace (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Martin Green & Lab & 372\\
 	Stephen Canning & C & 317\\
 	Simon Attwood & Grn & 134\\
@@ -2494,7 +2314,7 @@ Resignation of Dean Wallace (C).
 Resignation of Richard Unsworth (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Dennis Abram & Ind & 576\\
 	Chris Siddall & C & 451\\
 	Robert Powers & Lab & 297\\
@@ -2512,7 +2332,7 @@ Resignation of Richard Unsworth (Ind).
 Death of Bill Dick (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Michael Dixon & C & 502\\
 	John Woodley & Ind & 439\\
 	Bill Emberson & Lab & 178\\
@@ -2530,7 +2350,7 @@ Death of Bill Dick (C).
 Resignation of Bob Shepherd (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Steph Scott & C & 1494\\
 	Sue Baker & LD & 480\\
 	Stephen Capper & Lab & 183\\
@@ -2559,7 +2379,7 @@ Combined with the 2022 ordinary election; see page \pageref{ColchesterNewTownChr
 Resignation of Martin Leatherdale (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sara Naylor & C & 1372\\
 	Kieron Franks & LD & 621\\
 	Catherine Bickersteth & Lab & 161\\
@@ -2575,7 +2395,7 @@ Resignation of Martin Leatherdale (C).
 Resignations of Beverley and Gerard Oxford (both Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Catherine Bickersteth & Lab & 653\\
 	Alison Jay & LD & 618\\
 	Pauline Bacon & Lab & 501\\
@@ -2607,7 +2427,7 @@ Combined with the 2022 ordinary election; see page \pageref{EppingForestWalthamA
 Disqualification (non-attendance) of Dave Plummer (Grn).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Joseph Parsons & C & 260\\
 	Dave Plummer & Grn & 211\\
 \end{tabular*}
@@ -2635,7 +2455,7 @@ Combined with the 2022 ordinary election; see page \pageref{HarlowToddbrook} for
 Resignation of Marco Lorenzini (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kay Morrison & Lab & 594\\
 	Emma Ghaffari & C & 482\\
 	Jennifer Steadman & Grn & 109\\
@@ -2654,7 +2474,7 @@ Resignation of Marco Lorenzini (C).
 Resignation of Karl Jarvis (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Simon Morgan & C & 361\\
 	Lance Peatling & Ind & 161\\
 	Colin Baldy & LD & 80\\
@@ -2671,7 +2491,7 @@ Resignation of Karl Jarvis (C).
 Disqualification (sentenced to eight months imprisonment, suspended, breach of non-molestation order) of Chrisy Morris (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paula Spenceley & LD & 269\\
 	Nigel Miller & C & 107\\
 	Simon Burwood & Ind & 93\\
@@ -2691,7 +2511,7 @@ Disqualification (sentenced to eight months imprisonment, suspended, breach of n
 Death of Craig Cannell (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jim Cripps & LD & 791\\
 	Danielle Belton & C & 265\\
 	Lorraine Ridley & Lab & 51\\
@@ -2709,7 +2529,7 @@ Death of Craig Cannell (LD).
 Resignation of Alex Bright (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Darryl Jones & C & 1025\\
 	Susan Badger & Ind & 294\\
 	Nathaniel Doucette & Lab & 144\\
@@ -2755,7 +2575,7 @@ Combined with the 2022 ordinary election; see page \pageref{CheltenhamCollege} f
 Disqualification (non-attendance) of Mark Annett (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Tom Stowe & C & 1180\\
 	Danny Loveridge & LD & 920\\
 \end{tabular*}
@@ -2772,7 +2592,7 @@ Disqualification (non-attendance) of Mark Annett (C).
 Death of Colin Organ (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lorraine Campbell & C & 502\\
 	Caroline Courtney & LD & 487\\
 	Tracy Millard & Lab & 451\\
@@ -2790,7 +2610,7 @@ Death of Colin Organ (C).
 Resignation of Louise Gerrard (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jason Mills & Ind & 346\\
 	Marc Barwick & C & 76\\
 	Gilbert Yates & LD & 76\\
@@ -2825,12 +2645,12 @@ Combined with the 2022 ordinary election; see page \pageref{BasingstokeDeaneWhit
 Resignation of Jephthe Doguie (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bhavin Dedha & LD & 802\\
 	Josh Constable & Lab & 433\\
 	Simon Payne & C & 362\\
 	Jack Stapleton & Grn & 140\\
-	Clare Fawcett & RfmUK & 64\\
+	Clare Fawcett & RUK & 64\\
 \end{tabular*}
 
 \subsection*{Fareham}
@@ -2847,7 +2667,7 @@ Fareham = Fareham Independent Group
 Resignation of Jean Kelly (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.535\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Harry Davis & C & 957\\
 	Ciaran Urry-Tuttiett & LD & 932\\
 	Dominic Martin & Lab & 379\\
@@ -2866,7 +2686,7 @@ Resignation of Jean Kelly (LD).
 Resignation of Rebecca Clark (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sean Cullen & LD & 559\\
 	Terri Marwood & C & 497\\
 	James Gallagher & Lab & 153\\
@@ -2896,7 +2716,7 @@ Combined with the 2022 ordinary election; see page \pageref{SouthamptonShirley} 
 Death of Terry Streets (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Yvonne Frampton & Lab & 806\\
 	Callum Ford & C & 793\\
 	Ronald Meldrum & Grn & 66\\
@@ -2916,7 +2736,7 @@ Death of Terry Streets (C).
 Resignation of Simon Cross (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Geoff Cooper & LD & 1095\\
 	George McMenemy & C & 618\\
 \end{tabular*}
@@ -2931,7 +2751,7 @@ Resignation of Simon Cross (LD).
 Resignation of Nick Matthews (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jason Sangster & LD & 400\\
 	Katie Brooks & C & 294\\
 \end{tabular*}
@@ -2940,6 +2760,8 @@ Resignation of Nick Matthews (C).
 
 At the May 2022 ordinary election there was an unfilled vacancy in St Michael ward due to the death of Lynda Murphy (LD).
 \index{Saint Michael , Winchester@St Michael, \emph{Winchester}}
+
+\columnbreak
 
 \section{Herefordshire}
 
@@ -2955,7 +2777,7 @@ IOCH = It's Our County (Herefordshire)
 Resignation of Alan Seldon (IOCH).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Clare Davies & Ind & 315\\
 	Nick Ferguson & Ind & 152\\
 	Mark Franklin & C & 100\\
@@ -2975,7 +2797,7 @@ Resignation of Alan Seldon (IOCH).
 Death of Paul Clark (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Keith Hoskins & LD & 2401\\
 	Claire Strong & C & 690\\
 	Deolinda Eltringham & Grn & 223\\
@@ -2994,7 +2816,7 @@ Death of Paul Clark (LD).
 Resignation of Nicky Woolner (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Anne Foster & LD & 924\\
 	Gary Moore & C & 318\\
 	Kevin Fielding & Grn & 130\\
@@ -3011,7 +2833,7 @@ Resignation of Nicky Woolner (LD).
 Resignation of Liz Uttley (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Simy Dhyani & LD & 1319\\
 	Brandon Geary & C & 599\\
 	Cameron Brady-Turner & Lab & 171\\
@@ -3033,7 +2855,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Letchworth Ea
 Death of Paul Clark (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Raj Bhakar & LD & 1238\\
 	Samuel Forsyth & C & 450\\
 	Deolinda Eltringham & Grn & 134\\
@@ -3081,7 +2903,7 @@ Combined with the 2022 ordinary election; see page \pageref{WelwynHatfieldHandsi
 Resignation of Glyn Hayes (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kieran Thorpe & Lab & 599\\
 	Mark Smith & C & 273\\
 	Richard Griffiths & LD & 183\\
@@ -3102,7 +2924,7 @@ Vectis = Vectis Party
 Resignation of Steve Hastings (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Nick Stuart & LD & 526\\
 	Carol Bryan & C & 239\\
 	Doug Alldred & Grn & 153\\
@@ -3124,7 +2946,7 @@ Resignation of Steve Hastings (C).
 Death of Ann Allen (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Av Sandhu & C & 1787\\
 	Darren Povey & Lab & 613\\
 	Amanda Capell & LD & 487\\
@@ -3143,14 +2965,14 @@ Death of Ann Allen (C).
 Death of Ann Allen (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kyle Stealey & C & 334\\
 	Julian Hood & Grn & 76\\
 	Leah Uwaibi & Lab & 65\\
 	Kyle Marsh & LD & 54\\
 \end{tabular*}
 
-\subsubsection*{Wilmington, Sutton-at-Hone and Hawley \hspace*{\fill}\nolinebreak[1]%
+\subsubsection*{\sloppyword{Wilmington, Sutton-at-Hone and Hawley} \hspace*{\fill}\nolinebreak[1]%
 	\enspace\hspace*{\fill}
 	\finalhyphendemerits=0
 	[27th January]}
@@ -3160,7 +2982,7 @@ Death of Ann Allen (C).
 Resignation of Lucas Reynolds (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	George Holt & C & 996\\
 	Maria Perry & Lab & 272\\
 	Jane Hatzimasouras & LD & 200\\
@@ -3178,7 +3000,7 @@ Resignation of Lucas Reynolds (C).
 Death of Mick Pendergast (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	George Crozer & Ind & 1038\\
 	Harold Ogunfemi & C & 371\\
 	Julian Sutton & Grn & 255\\
@@ -3200,7 +3022,7 @@ Death of Mick Pendergast (Ind).
 Resignation of Anna Firth (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Nigel Williams & C & 820\\
 	Clare Coombe & LD & 524\\
 	Theo Michael & Lab & 52\\
@@ -3216,7 +3038,7 @@ Resignation of Anna Firth (C).
 Death of Faye Parkin (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Emily Bulford & C & 892\\
 	Jordan Selvey & Lab & 202\\
 	Tristan Ward & LD & 156\\
@@ -3227,12 +3049,12 @@ Death of Faye Parkin (C).
 	\finalhyphendemerits=0
 	[9th June; LD gain from C]}
 
-\index{Penshurst, Fordcombe and Chiddingstone , Sevenoaks@Penshurst, Fordcombe \& Chiddingstone, \emph{Sevenoaks}}
+\index{Penshurst, Fordcombe and Chiddingstone , Sevenoaks@\sloppyword{Penshurst, Fordcombe \& Chiddingstone, \emph{Sevenoaks}}}
 
 Resignation of Sue Coleman (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Streatfeild & LD & 343\\
 	Ian Butcher & C & 288\\
 \end{tabular*}
@@ -3251,7 +3073,7 @@ Thanet = Thanet Independents
 Disqualification (non-attendance) of Elizabeth Green (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Anne-Marie Nixey & Lab & 505\\
 	John Davis & C & 230\\
 	Claire Tilbrook & Thanet & 175\\
@@ -3287,7 +3109,7 @@ Combined with the 2022 ordinary election; see page \pageref{BlackburnDarwenRoeLe
 Disqualification (non-attendance) of Andrew Walker (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Matt Jackson & Lab & 569\\
 	Janine Crook & C & 562\\
 	Mark Davies & LD & 137\\
@@ -3305,7 +3127,7 @@ Disqualification (non-attendance) of Andrew Walker (C).
 Death of Bernard Wing (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Peter Wright & Lab & 550\\
 	Jane Warne & C & 518\\
 	Kev Benfold & LD & 77\\
@@ -3323,7 +3145,7 @@ Death of Bernard Wing (C).
 Resignation of Phil Chamberlain (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bill Horrocks & Lab & 372\\
 	Russell Neal & LD & 363\\
 	Maison McGowan-Doe & C & 123\\
@@ -3353,11 +3175,11 @@ Combined with the 2022 ordinary election; see page \pageref{HyndburnStOswalds} f
 Resignation of Michael Hindley (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Colin McKenzie & Lab & 773\\
 	Liz McGinley & C & 600\\
 	Michael Miller & Ind & 71\\
-	Richard Oakley & RfmUK & 36\\
+	Richard Oakley & RUK & 36\\
 \end{tabular*}
 
 \subsection*{Lancaster}
@@ -3372,7 +3194,7 @@ Resignation of Michael Hindley (Lab).
 Disqualification (non-attendance) of David Whitworth (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sally Maddocks & Grn & 547\\
 	Lisa Corkerry & Lab & 418\\
 	Janet Walton & C & 377\\
@@ -3389,7 +3211,7 @@ Disqualification (non-attendance) of David Whitworth (C).
 Death of Janice Hanson (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Margaret Pattison & Lab & 555\\
 	Jake Perkins & LD & 479\\
 	Colin Hewitt & C & 124\\
@@ -3405,7 +3227,7 @@ Death of Janice Hanson (Lab).
 Resignation of Adrian de la Mare (elected as Adrian Duggan, C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sue Tyldesley & Grn & 452\\
 	Iain Harbison & C & 169\\
 	Faith Kenrick & Lab & 44\\
@@ -3446,7 +3268,7 @@ Combined with the 2022 ordinary election; see page \pageref{PendleVivaryBridge} 
 Death of Carlo Lionti (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	David Gallear & C & 699\\
 	Susan Nike & Lab & 436\\
 	Allan Vickerman & LD & 84\\
@@ -3477,7 +3299,7 @@ Combined with the 2022 ordinary election; see page \pageref{PrestonBrookfield} f
 Resignation of Lynda Barnes (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Scott Smith & C & 337\\
 	Kim Olaolu & Ind & 214\\
 	Caitlin Chippendale & Lab & 203\\
@@ -3494,7 +3316,7 @@ Resignation of Lynda Barnes (C).
 Resignation of Tony Haworth (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ann Hodgkiss & C & 736\\
 	Neil Looker & Lab & 540\\
 	Katrina Brockbank & Grn & 74\\
@@ -3514,7 +3336,7 @@ Resignation of Tony Haworth (C).
 Death of Bill Evans (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lou Jackson & Lab & 626\\
 	Craige Southern & C & 460\\
 	Simon Thomson & LD & 86\\
@@ -3556,7 +3378,7 @@ Combined with the 2022 ordinary election; see page \pageref{WestLancsWrightingto
 Death of Rita Amos (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Rendell & C & 721\\
 	Wayne Martin & Lab & 621\\
 \end{tabular*}
@@ -3571,7 +3393,7 @@ Death of Rita Amos (C).
 Resignation of Andrew Cropper (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Collette Rushforth & Ind & 595\\
 	Steven Taylor-Royston & C & 495\\
 	William Jackson & Lab & 315\\
@@ -3592,7 +3414,7 @@ Resignation of Andrew Cropper (C).
 Death of Gill Bolton and resignation of Alice Brennan (both Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Beverley Gray & Lab & 709\\
 	Anne Gray & Lab & 654\\
 	Christopher Stewart & C & 311\\
@@ -3615,7 +3437,7 @@ Death of Gill Bolton and resignation of Alice Brennan (both Lab).
 Resignation of Dominic Fosker (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Geraldine Whitmore & LD & 582\\
 	Robin Cutsforth & C & 382\\
 	Maria Panter & Lab & 250\\
@@ -3634,7 +3456,7 @@ Resignation of Dominic Fosker (LD).
 Death of Ratilal Govind (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.5\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Shahid Khan & Lab & 1557\\
 	Jenny Joannou & C & 1382\\
 	Zuffar Haq & LD & 830\\
@@ -3652,7 +3474,7 @@ Death of Ratilal Govind (Lab).
 Resignation of Vandevi Pandya (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sanjay Modhwadia & C & 3441\\
 	Aasiya Bora & Grn & 1790\\
 	Rajul Tejura & Lab & 1563\\
@@ -3672,7 +3494,7 @@ Resignation of Vandevi Pandya (Lab).
 Resignation of Tejpal Singh Bains (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Siggy Atherton & C & 396\\
 	Jim Adcock & LD & 183\\
 	Pip Allnatt & Lab & 165\\
@@ -3690,7 +3512,7 @@ Resignation of Tejpal Singh Bains (C).
 Death of Robert Eaton (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Liz Darling & C & 883\\
 	Michael Phipps & LD & 377\\
 	Joshua Pearman & Grn & 133\\
@@ -3712,7 +3534,7 @@ SHolInd = South Holland Independents
 Death of Bob Adams (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Charlotte Vernon & C & 986\\
 	Harrish Bisnauthsing & LD & 277\\
 	Stuart Fawcett & Lab & 269\\
@@ -3729,7 +3551,7 @@ Death of Bob Adams (C).
 Death of Angela Newton (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Manzur Hasan & SHolInd & 676\\
 	Paul Redgate & C & 393\\
 \end{tabular*}
@@ -3746,7 +3568,7 @@ Death of Angela Newton (Ind).
 Death of Paul Hibbert-Greaves (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Stephen Evans & C & 436\\
 	David Fenton & Ind & 267\\
 \end{tabular*}
@@ -3761,7 +3583,7 @@ Death of Paul Hibbert-Greaves (C).
 Death of Jim Swanson (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Terry Taylor & C & 306\\
 	Keziah Wood & Lab & 156\\
 \end{tabular*}
@@ -3778,7 +3600,7 @@ Death of Jim Swanson (Ind).
 Death of Debbie Woodward (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Marian Boyd & C & 715\\
 	Kevin Shutt & Lab & 578\\
 	Ryan Aisthorpe & LD & 478\\
@@ -3810,7 +3632,7 @@ LincsInd = Lincolnshire Independents
 Resignation of Mike Kent (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.535\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bob Oldershaw & LincsInd & 545\\
 	Mark Smith & C & 539\\
 	Paul Edwards-Shea & Lab & 287\\
@@ -3828,7 +3650,7 @@ Resignation of Mike Kent (C).
 Death of Angela Newton (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Stephen Timewell & C & 375\\
 	Sam Chauhan & SHolInd & 363\\
 \end{tabular*}
@@ -3845,7 +3667,7 @@ Death of Angela Newton (Ind).
 Resignation of Peter Moseley (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Dixon-Warren & C & 373\\
 	Barry Hare & Lab & 142\\
 \end{tabular*}
@@ -3860,7 +3682,7 @@ Resignation of Peter Moseley (C).
 Death of Bob Adams (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ben Green & C & 412\\
 	Andrew Skelton & Ind & 165\\
 	Stuart Fawcett & Lab & 147\\
@@ -3877,7 +3699,7 @@ Death of Bob Adams (C).
 Death of Judith Smith (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Julia Reid & C & 310\\
 	Alex Molyneux & Lab & 154\\
 	Brenda Johnson & Ind & 120\\
@@ -3895,7 +3717,7 @@ Death of Judith Smith (C).
 Resignation of Jacky Smith (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mary Whittington & C & 359\\
 	Tim Harrison & Ind & 307\\
 	Archie Hine & Lab & 174\\
@@ -3912,7 +3734,7 @@ Resignation of Jacky Smith (C).
 Resignation of Jan Hansen (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Murray Turner & LD & 256\\
 	Tony Vaughan & C & 170\\
 \end{tabular*}
@@ -3931,7 +3753,7 @@ Resignation of Jan Hansen (Ind).
 Resignation of Graham Middleton (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	David Sayers & LD & 364\\
 	Richard Johnson & Lab & 356\\
 	Sheila Young & C & 256\\
@@ -3950,7 +3772,7 @@ Resignation of Graham Middleton (C).
 Resignation of Ian Martin (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paul Plummer & C & 539\\
 	Maggie Oechsle & Ind & 486\\
 	Kendra Cogman & Lab & 260\\
@@ -3966,7 +3788,7 @@ Resignation of Ian Martin (C).
 Resignation of Mark Robinson (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Terry Land & Lab & 398\\
 	Mac Macdonald & C & 383\\
 \end{tabular*}
@@ -3983,7 +3805,7 @@ Resignation of Mark Robinson (C).
 Death of Nigel Shaw (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Calix Eden & Lab & 860\\
 	Peter Berry & C & 635\\
 	Brian Howe & LD & 165\\
@@ -4001,7 +3823,7 @@ Death of Nigel Shaw (C).
 Death of John Collop (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alex Ware & Lab & \emph{unop.}\\
 \end{tabular*}
 
@@ -4017,12 +3839,12 @@ Death of John Collop (Lab).
 Resignation of Vivienne Clifford-Jackson (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.51\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ian Spratt & LD & 1202\\
 	Silvia Schmidtova & C & 969\\
 	John Martin & Lab & 402\\
 	Tom Williamson & Grn & 183\\
-	Andrew Pond & RfmUK & 107\\
+	Andrew Pond & RUK & 107\\
 \end{tabular*}
 
 \section{North Yorkshire}
@@ -4041,7 +3863,7 @@ Yorks = Yorkshire Party
 Resignation of Bernard Bateman (C).%
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sam Green & C & 686\\
 	Chris Knight & LD & 321\\
 	Hannah Corlett & Grn & 297\\
@@ -4059,7 +3881,7 @@ Resignation of Bernard Bateman (C).%
 Resignation of Lee Garvey (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ian Blades & Lab & 361\\
 	Steven James & Ind & 204\\
 	John Cooper & C & 53\\
@@ -4079,7 +3901,7 @@ Resignation of Lee Garvey (Ind).
 Death of Christine Foley-McCormack (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paul Salvin & C & 389\\
 	Leanne Reed & Lab & 357\\
 	Rita Richardson & Ind & 143\\
@@ -4099,7 +3921,7 @@ Death of Christine Foley-McCormack (Lab).
 Resignation of David Chance (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	John Nock & C & 268\\
 	Gerald Dennett & Lab & 142\\
 	Linda Wild & Ind & 122\\
@@ -4118,7 +3940,7 @@ Resignation of David Chance (C).
 Resignation of Eleanor Jordan (Yorks).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Georgina Ashton & C & 215\\
 	Matthew Burton & Lab & 207\\
 	Cherry Waters & Grn & 25\\
@@ -4138,7 +3960,7 @@ Resignation of Eleanor Jordan (Yorks).
 Resignation of Annabel de Capell Brooke (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Charlie Best & LD & 1683\\
 	Ollie Curtis & C & 1423\\
 	Harry James & Lab & 337\\
@@ -4157,7 +3979,7 @@ Resignation of Annabel de Capell Brooke (C).
 Death of Paul Scott (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Eve Chicken & C & 702\\
 	Christine Savage & Lab & 511\\
 	Clive Robson & Grn & 29\\
@@ -4178,7 +4000,7 @@ Death of Paul Scott (C).
 Death of Maureen Dobson (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Debbie Darby & Ind & 2009\\
 	Jack Kellas & C & 898\\
 	Jennifer Kaye & Lab & 244\\
@@ -4194,7 +4016,7 @@ Death of Maureen Dobson (Ind).
 Death of Eddie Cubley (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kane Oliver & Ind & 1223\\
 	Milan Radulovic & Lab & 1182\\
 	Mick Brown & C & 431\\
@@ -4214,7 +4036,7 @@ Ashfield = Ashfield Ind
 Death of Jim Blagden (Ashfield).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Nick Parvin & Ashfield & 710\\
 	John Wilkinson & Lab & 397\\
 	Jan Lees & C & 195\\
@@ -4232,7 +4054,7 @@ Death of Jim Blagden (Ashfield).
 Resignation of Denise Depledge (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Darrell Pulk & Lab & 301\\
 	Fraser McFarland & C & 224\\
 	Phil Ray & LD & 13\\
@@ -4250,7 +4072,7 @@ Resignation of Denise Depledge (C).
 Death of Eddie Cubley (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Linsey Ellis & C & 637\\
 	Danny Hall & Lab & 555\\
 	Reece Oliver & LD & 143\\
@@ -4268,7 +4090,7 @@ Death of Eddie Cubley (C).
 Resignation of Gary Gregory (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Dunkin & LD & 344\\
 	John Butterworth & Lab & 303\\
 	Darren Maltby & C & 250\\
@@ -4286,7 +4108,7 @@ Resignation of Gary Gregory (Lab).
 Resignation of Jennifer Hemingway (elected as Jennifer Thomas, Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lynda Pearson & Lab & 693\\
 	Charlie Godwin & C & 544\\
 	Maggie Dunkin & LD & 428\\
@@ -4307,7 +4129,7 @@ MIF = Mansfield Independent Forum
 Death of Vaughan Hopewell (MIF).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paul Henshaw & Lab & 141\\
 	Gemma Canlin & MIF & 91\\
 	Neil Smith & C & 45\\
@@ -4327,7 +4149,7 @@ Death of Vaughan Hopewell (MIF).
 Death of Maureen Dobson (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Emma Davis & C & 982\\
 	Phil Barron & LD & 594\\
 	Matthew Spoors & Lab & 168\\
@@ -4343,7 +4165,7 @@ Death of Maureen Dobson (Ind).
 Resignation of Neal Mitchell (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mike Pringle & Lab & 962\\
 	Kelly Fordham & C & 395\\
 	Jeremy Spry & Ind & 125\\
@@ -4354,12 +4176,12 @@ Resignation of Neal Mitchell (Lab).
 	\finalhyphendemerits=0
 	[29th September; Lab gain from C]}
 
-\index{Edwinstowe and Clipstone , Newark and Sherwood@Edwinstowe \& CLipstone, \emph{Newark \& Sherwood}}
+\index{Edwinstowe and Clipstone , Newark and Sherwood@Edwinstowe \& Clipstone, \emph{Newark \& Sherwood}}
 
 Death of Michael Brown (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Freeman & Lab & 804\\
 	Nigel Booth & C & 540\\
 \end{tabular*}
@@ -4391,7 +4213,7 @@ Combined with the 2022 ordinary election; see page \pageref{CherwellLauntonOtmoo
 Resignation of Marie Tidball (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Anna Railton & Lab & 801\\
 	Alex Powell & Grn & 305\\
 	Deborah Glass Woodin & Ind & 270\\
@@ -4412,7 +4234,7 @@ Resignation of Marie Tidball (Lab).
 Resignation of Matthew Barber (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sally Povolotsky & LD & 878\\
 	Louise Brown & C & 517\\
 	David Corps & Ind & 199\\
@@ -4430,7 +4252,7 @@ Resignation of Matthew Barber (C).
 Resignation of Richard Coleman (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rick Wilson & Grn & 281\\
 	Richard Foster & C & 268\\
 \end{tabular*}
@@ -4445,11 +4267,11 @@ Resignation of Richard Coleman (C).
 Resignation of Miranda Jones (Grn).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Stephen Lambert & LD & 661\\
 	Dave Ainslie & Ind & 327\\
 	Giles Clifton & C & 205\\
-	Phil Bourqui & RfmUK & 36\\
+	Phil Bourqui & RUK & 36\\
 \end{tabular*}
 
 \subsubsection*{Oakham South \hspace*{\fill}\nolinebreak[1]%
@@ -4462,7 +4284,7 @@ Resignation of Miranda Jones (Grn).
 Resignation of Ian Razzell (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Raymond Payne & LD & \emph{unop.}\\
 \end{tabular*}
 
@@ -4480,7 +4302,7 @@ Resignation of Ian Razzell (C).
 Resignation of David Tremellen (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mark Williams & LD & 630\\
 	Naomi Waterson & C & 279\\
 	Liam Atwal & Lab & 239\\
@@ -4497,7 +4319,7 @@ Resignation of David Tremellen (Ind).
 Death of Leslie Winwood (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rachel Connolly & Lab & 887\\
 	Jonathan Holland & C & 480\\
 	Richard Stilwell & LD & 176\\
@@ -4516,7 +4338,7 @@ Death of Leslie Winwood (C).
 Death of Jackie Loveridge (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jim Loveridge & Lab & 531\\
 	Chris Leach & C & 318\\
 	Paul Howard & LD & 54\\
@@ -4542,7 +4364,7 @@ At the May 2022 ordinary election there were unfilled vacancies in Chard North a
 Death of Nigel Woollcombe-Adams (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ken Maddock & C & 393\\
 	Claire Sully & LD & 389\\
 \end{tabular*}
@@ -4559,7 +4381,7 @@ Death of Nigel Woollcombe-Adams (C).
 Disqualification (non-attendance) of Paul Bolton (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Nicole Hawkins & LD & 259\\
 	Craig Coleman & C & 223\\
 	Shanti Roos & Lab & 21\\
@@ -4578,7 +4400,7 @@ Disqualification (non-attendance) of Paul Bolton (Ind).
 Resignation of Linda Vijeh (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ray Buckler & LD & 390\\
 	Kate Wylie-Carrick & C & 315\\
 	Lynsey Arscott & Grn & 19\\
@@ -4595,13 +4417,15 @@ Resignation of Linda Vijeh (C).
 Death of Alan Smith (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Barbara Appleby & LD & 582\\
 	Tony Power & C & 251\\
 	Alan Flint & Grn & 71\\
 	Terry Ledlie & Lab & 61\\
 	Ashley Richards & Ind & 29\\
 \end{tabular*}
+
+\columnbreak
 
 \section{Staffordshire}
 
@@ -4619,11 +4443,11 @@ ChaseCIG = Chase Community Independents Group
 Resignation of Matt McCall (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.5\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Pam Johnson & Lab & 290\\
 	Darrell Mawle & ChaseCIG & 228\\
 	Laura Harrison & C & 208\\
-	Christopher Harborow & Ind & 35\\
+	\sloppyword{Christopher Harborow} & Ind & 35\\
 \end{tabular*}
 
 \subsubsection*{Cannock West \hspace*{\fill}\nolinebreak[1]%
@@ -4636,7 +4460,7 @@ Resignation of Matt McCall (C).
 Resignation of Doug Smith (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bill Kenny & C & 688\\
 	Steven Thornley & Lab & 430\\
 	Eloise Cropp & Grn & 124\\
@@ -4654,7 +4478,7 @@ Resignation of Doug Smith (C).
 Resignation of Samuel Tapper (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paul Taylor & Lab & 318\\
 	Norma Bacon & C & 116\\
 \end{tabular*}
@@ -4671,7 +4495,7 @@ Resignation of Samuel Tapper (C).
 Death of Isabel Ford (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andy Adams & C & 388\\
 	Sam Harper-Wallis & LD & 378\\
 	Norman Smallwood & Lab & 45\\
@@ -4689,7 +4513,7 @@ Death of Isabel Ford (C).
 Death of Richard Alcock (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Zenobia Routledge & C & 348\\
 	Matthew Spooner & Lab & 325\\
 	Abigail Wilkinson & Ind & 137\\
@@ -4709,7 +4533,7 @@ CityInd = City Independents
 Resignation of Stephen Funnell (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lynn Watkins & Lab & 469\\
 	Sharon Edwards & CityInd & 143\\
 	Matthew Bridger & C & 138\\
@@ -4727,7 +4551,7 @@ Resignation of Stephen Funnell (Lab).
 Resignation of Paul Brindley (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Christian Cooke & C & 613\\
 	Huw Loxton & Ind & 482\\
 	Dave Foster & Lab & 311\\
@@ -4747,7 +4571,7 @@ Resignation of Paul Brindley (C).
 Resignation of Peggy McGregor (Grn).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ash Lever & Grn & 2114\\
 	Letitia Smith & C & 624\\
 	Christian Newsome & Lab & 260\\
@@ -4779,7 +4603,7 @@ Combined with the 2022 ordinary election; see page \pageref{IpswichStJohns} for 
 Resignation of Sarah Barber (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Roxanne Downes & Lab & 653\\
 	Gregor McNie & C & 314\\
 	Trevor Powell & LD & 123\\
@@ -4797,7 +4621,7 @@ Resignation of Sarah Barber (Lab).
 Resignation of Wendy Turner (Grn).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Austin Davies & Grn & 845\\
 	Philippa Wilding & C & 399\\
 	Timothy Glenton & LD & 37\\
@@ -4818,13 +4642,15 @@ Resignation of Wendy Turner (Grn).
 Death of Alison Todd (elected as Alison Griffiths, C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Harry Boparai & LD & 735\\
 	Naz Islam & C & 720\\
 	Khalid Mustafa & Lab & 383\\
-	Rory O'Brien & RfmUK & 144\\
+	Rory O'Brien & RUK & 144\\
 	Helen Couchman & TUSC & 63\\
 \end{tabular*}
+
+\columnbreak
 
 \subsection*{Epsom and Ewell}
 
@@ -4840,7 +4666,7 @@ RAEE = Residents Associations of Epsom and Ewell
 Death of Clive Smitherham (RAEE).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alan Williamson & RAEE & 549\\
 	Mark Todd & Lab & 395\\
 	Kieran Persand & C & 205\\
@@ -4861,7 +4687,7 @@ RGV = Residents for Guildford and Villages
 Death of Richard Billington (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Morris & LD & 636\\
 	Justin Offord & C & 293\\
 	Clare Price & RGV & 185\\
@@ -4881,7 +4707,7 @@ Death of Richard Billington (C).
 Resignation of Charles Yarwood (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.64\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Lisa Scott & Grn & 284\\
 	Mike Ward & LD & 210\\
 	Corinna Osborne-Patterson & C & 166\\
@@ -4905,7 +4731,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in New Haw ward 
 Resignation of Jim McIlroy (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jon Button & Lab & 605\\
 	Michael Zenonos & C & 567\\
 	Paul Couchman & TUSC & 69\\
@@ -4921,7 +4747,7 @@ Resignation of Jim McIlroy (C).
 Death of Mary Madams (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Stuart Whitmore & Grn & 903\\
 	Karen Howkins & C & 775\\
 	Paul Couchman & TUSC & 69\\
@@ -4937,7 +4763,7 @@ Death of Mary Madams (C).
 Death of Richard Smith-Ainsley (Ind elected as C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Karen Howkins & C & 810\\
 	John Thesiger & LD & 578\\
 	Paul Couchman & TUSC & 71\\
@@ -4955,7 +4781,7 @@ Death of Richard Smith-Ainsley (Ind elected as C).
 Resignation of David Mansfield (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Liz Noble & LD & 1286\\
 	Tony Henderson & C & 662\\
 \end{tabular*}
@@ -4972,7 +4798,7 @@ Resignation of David Mansfield (C).
 Death of Brian Adams (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	David Munro & Ind & 492\\
 	Susan Ryland & Grn & 354\\
 	Nabeel Nasir & C & 323\\
@@ -4988,7 +4814,7 @@ Death of Brian Adams (C).
 Death of Peter Isherwood (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Julian Spence & LD & 537\\
 	Ged Hall & C & 446\\
 \end{tabular*}
@@ -5003,7 +4829,7 @@ Death of Peter Isherwood (C).
 Death of John Gray (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Dave Busby & LD & 652\\
 	Ian Mitchell & C & 297\\
 	Rebecca Aitken & Lab & 30\\
@@ -5023,7 +4849,7 @@ Death of John Gray (C).
 Death of John Horner (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ian Shenton & C & 1609\\
 	Thom Holmes & LD & 854\\
 	Bryn Turner & Lab & 251\\
@@ -5041,7 +4867,7 @@ Death of John Horner (C).
 Death of Barry Lees (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Marli Parker & C & 351\\
 	Elinor Parsons & Lab & 307\\
 \end{tabular*}
@@ -5063,11 +4889,11 @@ At the May 2022 ordinary election there was an unfilled vacancy in Bilton ward d
 Death of Jonathan Nicholls (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Christopher King & Lab & 1064\\
 	Justine Ragany & LD & 612\\
 	Frances Lasok & C & 365\\
-	Ignaty Dyakov-Richmond & Grn & 105\\
+	\sloppyword{Ignaty Dyakov-Richmond} & Grn & 105\\
 	Gerald Smith & UKIP & 24\\
 \end{tabular*}
 
@@ -5085,7 +4911,7 @@ Death of Jonathan Nicholls (Lab).
 Resignation of Beccy Cooper (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Graham McKnight & Lab & 1262\\
 	Michael Cloake & C & 795\\
 	Hazel Thorpe & LD & 235\\
@@ -5102,7 +4928,7 @@ Resignation of Beccy Cooper (Lab).
 Death of John Charles (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Jaine Wild & Ind & 803\\
 	David Darling & C & 733\\
 	David Meagher & Lab & 217\\
@@ -5121,7 +4947,7 @@ Death of John Charles (C).
 Death of John Charles (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sue Wallsgrove & Grn & 786\\
 	Graham Jones & C & 641\\
 	Alan Butcher & Lab & 116\\
@@ -5137,7 +4963,7 @@ Death of John Charles (C).
 Disqualification (non-attendance) of Faye Catterson (Grn).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Stephen McAuliffe & Grn & 873\\
 	Mario Trabucco & C & 549\\
 	Michael Ward & Lab & 407\\
@@ -5155,7 +4981,7 @@ Disqualification (non-attendance) of Faye Catterson (Grn).
 Disqualification (non-attendance) of Mike Pickett (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Bob Noyce & Lab & 938\\
 	Jan Tarrant & C & 790\\
 	Richard Kail & Grn & 144\\
@@ -5173,7 +4999,7 @@ Disqualification (non-attendance) of Mike Pickett (Lab).
 Resignation of Frances Haigh (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Clive Trott & LD & 832\\
 	David Walbank & C & 628\\
 	Kevin O'Sullivan & Lab & 241\\
@@ -5190,7 +5016,7 @@ Resignation of Frances Haigh (LD).
 Resignation of James Sanson (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Joan Grech & Grn & 1281\\
 	Daniel Hall & C & 943\\
 	Pascal Roberts & LD & 453\\
@@ -5208,7 +5034,7 @@ Resignation of James Sanson (C).
 Resignation of Judith Llewellyn-Burke (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Kristy Adams & C & 301\\
 	Fiona Jackson & LD & 163\\
 	Andrew Foster & Lab & 66\\
@@ -5244,7 +5070,7 @@ Combined with the 2022 ordinary election; see page \pageref{WorthingCastle} for 
 Death of Mary Webb (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Sam Charleston & LD & 830\\
 	Tony Mears & Lab & 237\\
 	Katrina Sale & C & 213\\
@@ -5264,7 +5090,7 @@ Death of Mary Webb (C).
 Resignation of Aled Evans (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Fry & Lab & 1342\\
 	Gemma Monaco & C & 893\\
 	Glen Theobald & Grn & 146\\
@@ -5294,10 +5120,10 @@ Combined with the 2022 ordinary election; see page \pageref{RedditchGreenlands} 
 Resignation of Aled Evans (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Juliet Barker Smith & Lab & 767\\
 	Helen Sanders & C & 686\\
-	Andrew Fieldsend-Roxborough & LD & 274\\
+	\sloppyword{Andrew Fieldsend-Roxborough} & LD & 274\\
 	Alistair Waugh & Grn & 102\\
 \end{tabular*}
 
@@ -5326,7 +5152,7 @@ Combined with the 2022 ordinary election; see page \pageref{WorcesterNunnery} fo
 Death of Richard Lasota (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
     Hannah Robson & Grn & 291\\
     Mary Smith & C & 274\\
     David Quayle & LD & 179\\
@@ -5342,7 +5168,7 @@ Death of Richard Lasota (C).
 Resignation of Laurence Smith (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rick Deller & C & 199\\
 	Susan Howarth & Grn & 176\\
 	John Littlechild & LD & 32\\
@@ -5350,7 +5176,7 @@ Resignation of Laurence Smith (C).
 
 \subsection*{Wyre Forest}
 
-ICHC = Independent Community and Health Concern
+\sloppyword{ICHC = Independent Community and Health Concern}
 
 \subsubsection*{Franche and Habberley North \hspace*{\fill}\nolinebreak[1]%
 	\enspace\hspace*{\fill}
@@ -5362,7 +5188,7 @@ ICHC = Independent Community and Health Concern
 Resignation of Anna l'Huillier (ICHC).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ben Brookes & C & 826\\
 	Kate Sewell & Lab & 656\\
 	Oliver Walker & LD & 347\\
@@ -5382,7 +5208,7 @@ Resignation of Anna l'Huillier (ICHC).
 Resignation of Stuart Baldwin (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Steven Easterbrook & Ind & 716\\
 	Ceri Evans & Lab & 590\\
 	Thomas Dwyer & C & 150\\
@@ -5406,17 +5232,19 @@ At the May 2022 ordinary election there was an unfilled vacancy in Vaynor ward d
 
 Ordinary election postponed from 5th May: death of candidate Andrew Tutton (Ind).
 
-\noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
-	Saifur Rahaman & Lab & 914\\
-	Sharon Freeguard & Lab & 898\\
-	Nigel Hunt & PC & 367\\
-	John Davies & Ind & 246\\
-	Melissa Stanford-Roberts & PC & 244\\
-	Kimberley Isherwood & Ind & 171\\
-	Bethany Payne & Grn & 46\\
-	Jan Dowden & Grn & 25\\
-\end{tabular*}
+See page \pageref{NeathPortTalbotPortTalbot} for the result.
+
+%\noindent
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.6\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%	Saifur Rahaman & Lab & 914\\
+%	Sharon Freeguard & Lab & 898\\
+%	Nigel Hunt & PC & 367\\
+%	John Davies & Ind & 246\\
+%	Melissa Stanford-Roberts & PC & 244\\
+%	Kimberley Isherwood & Ind & 171\\
+%	Bethany Payne & Grn & 46\\
+%	Jan Dowden & Grn & 25\\
+%\end{tabular*}
 
 \subsection*{Rhondda Cynon Taf}
 
@@ -5433,7 +5261,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Cymmer ward d
 Death of Tony Burnell (PC).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Paula Evans & PC & 435\\
 	Richard Flowerdew & Lab & 246\\
 	Lloyd Griffiths & C & 34\\
@@ -5451,7 +5279,7 @@ Death of Tony Burnell (PC).
 Resignation of Marcia Rees-Jones (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Andrew Dennis & Lab & 520\\
 	Adam Robinson & C & 56\\
 	Matt Skinner & PC & 56\\
@@ -5463,7 +5291,7 @@ Resignation of Marcia Rees-Jones (Lab).
 \subsection*{Monmouthshire}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Llangybi Fawr ward due to the death of Peter Clarke (C).%
-\index{Llangybi Fawr , Monmouthshire@Llangbyi Fawr, \emph{Mons.}}
+\index{Llangybi Fawr , Monmouthshire@Llangybi Fawr, \emph{Monmouthshire}}
 
 \subsubsection*{Devauden \hspace*{\fill}\nolinebreak[1]%
 	\enspace\hspace*{\fill}
@@ -5475,7 +5303,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Llangybi Fawr
 Death of Bob Greenland (C).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Rachel Buckler & C & 268\\
 	Jim Mactaggart & Lab & 210\\
 	Ed Webb & Ind & 119\\
@@ -5507,7 +5335,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in St Ishmael wa
 Death of Hag Harris (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Ann Morgan & PC & 291\\
 	Sandra Jervis & LD & 268\\
 	Dinah Mulholland & Lab & 160\\
@@ -5533,7 +5361,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Gwernyfed war
 Resignation of Alan Evans (PC).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Alan Evans & PC & 368\\
 	Anne Williams & LD & 16\\
 \end{tabular*}
@@ -5552,7 +5380,7 @@ Resignation of Alan Evans (PC).
 %Resignation of Karen Adam MSP (SNP).
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %	\emph{First preferences}\\
 %	Sheila Powell & C & 1480\\
 %	Jenny Nicol & SNP & 1205\\
@@ -5563,7 +5391,7 @@ Resignation of Alan Evans (PC).
 %\emph{Kennedy eliminated}: Powell 1484 Nicol 1281 Goodhall 451
 %
 %\noindent
-%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+%\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 %	\emph{Goodhall eliminated}\\
 %	Sheila Powell & C & 1645\\
 %	Jenny Nicol & SNP & 1409\\
@@ -5574,7 +5402,7 @@ Resignation of Alan Evans (PC).
 \subsection*{South Ayrshire}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Ayr West ward due to the resignation of Siobhan Brown MSP (SNP).%
-\index{Ayr West , South Ayrshire@Ayr W., \emph{S. Ayrs.}}
+\index{Ayr West , South Ayrshire@Ayr W., \emph{S. Ayrshire}}
 
 \section{Border Councils}
 
@@ -5590,7 +5418,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Ayr West ward
 Resignation of Sandy Whitelaw (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Richard Marsh & C & 1787\\
 	Ian Gibson & SNP & 879\\
 	John McCutcheon & Lab & 326\\
@@ -5603,7 +5431,7 @@ Resignation of Sandy Whitelaw (Lab).
 \subsection*{East Dunbartonshire}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Bishopbriggs South ward due to the death of Alan Brown (C).%
-\index{Bishopbridggs South , East Dunbartonshire@Bishopbriggs S., \emph{E. Duns.}}
+\index{Bishopbriggs South , East Dunbartonshire@Bishopbriggs S., \emph{E. Duns.}}
 
 \subsection*{Glasgow}
 
@@ -5638,7 +5466,7 @@ Death of Malcolm Cunning (Lab).
 \emph{McCauley eliminated}: Carson 2381 Lang-Tait 1777 Bell 482 Sutherland 374
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Sutherland eliminated}\\
 	John Carson & Lab & 2524\\
 	Chris Lang-Tait & SNP & 1789\\
@@ -5664,7 +5492,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Paisley South
 Death of Willie Innes (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	Colin Yorkston & Lab & 1793\\
 	Janis Wilson & SNP & 1217\\
@@ -5677,7 +5505,7 @@ Death of Willie Innes (Lab).
 \emph{Porteus, Morse and Miller eliminated}: Yorkston 1927 Wilson 1391 Ovens 1212
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Ovens eliminated}\\
 	Colin Yorkston & Lab & 2390\\
 	Janis Wilson & SNP & 1458\\
@@ -5686,7 +5514,7 @@ Death of Willie Innes (Lab).
 \subsection*{Edinburgh}
 
 At the May 2022 ordinary election there was an unfilled vacancy in Fountainbridge\slash Craiglockhart ward due to the resignation of Gavin Corbett (Grn).%
-\index{Fountainbridge/Craiglockhart , Edinburgh@\sloppyword{Fountainbridge/Craiglockhart, \emph{Edinburgh}}}
+\index{Fountainbridge/Craiglockhart , Edinburgh@\sloppyword{Fountainbridge\slash Craiglockhart, \emph{Edinburgh}}}
 
 \subsection*{Fife}
 
@@ -5705,7 +5533,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in St Andrews wa
 Death of Ann Davidson (Lab).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	Tony Boyle & Lab & 1783\\
 	Thomas Ullathorne & SNP & 1576\\
@@ -5728,7 +5556,7 @@ Death of Ann Davidson (Lab).
 \emph{Horne eliminated}: Boyle 2016 Ullathorne 1772 Smith 458
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Smith eliminated}\\
 	Tony Boyle & Lab & 2191\\
 	Thomas Ullathorne & SNP & 1792\\
@@ -5743,12 +5571,12 @@ Death of Ann Davidson (Lab).
 	\finalhyphendemerits=0
 	[29th September]}
 
-\index{Kintyre and Islands , Argyll and Bute@Kintyre \& the Islands, \emph{Argyll \& Bute}}
+\index{Kintyre and the Islands , Argyll and Bute@Kintyre \& the Islands, \emph{Argyll \& Bute}}
 
 Death of John McAlpine (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	Alastair Redman & Ind & 591\\
 	Lachie Macquarie & SNP & 525\\
@@ -5763,7 +5591,7 @@ Death of John McAlpine (Ind).
 \emph{Skinner eliminated}: Macquarie 623 Redman 618 Mackenzie 313 Stewart 207
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Mackenzie and Stewart eliminated}\\
 	Alastair Redman & Ind & 826\\
 	Lachie Macquarie & SNP & 694\\
@@ -5790,7 +5618,7 @@ At the May 2022 ordinary election there was an unfilled vacancy in Elgin City No
 Resignation of Christopher Price (LD).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	John Stuart & SNP & 1172\\
 	Tim Eagle & C & 879\\
@@ -5802,7 +5630,7 @@ Resignation of Christopher Price (LD).
 \emph{Houlden eliminated}: Stuart 1181 Eagle 884 Goude 247 Tarr 78
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Tarr eliminated}\\
 	John Stuart & SNP & 1192\\
 	Tim Eagle & C & 904\\
@@ -5822,11 +5650,12 @@ At the May 2022 ordinary election there was an unfilled vacancy in Steòrnabhagh
 	[30th June]}
 
 \index{Barraigh agus Bhatarsaigh , Eilean Siar@Barraigh \& Bhatarsaigh, \emph{Eilean Siar}}
+\label{EileanSiarBarraighBhatarsaigh}
 
 Insufficient candidates in the 2022 ordinary election.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	Iain Macneil & Ind & 189\\
 	Gerard Macdonald & Ind & 181\\
@@ -5834,7 +5663,7 @@ Insufficient candidates in the 2022 ordinary election.
 \end{tabular*}
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Macmillan eliminated}\\
 	Iain Macneil & Ind & 197\\
 	Gerard Macdonald & Ind & 182\\
@@ -5845,12 +5674,12 @@ Insufficient candidates in the 2022 ordinary election.
 	\finalhyphendemerits=0
 	[30th June]}
 
-\index{Sgìr’ Ùige agus Càrlabhagh , Eilean Siar@Sgìr’ Ùige \& Càrlabhagh, \emph{Eilean Siar}}
+\index{Sgìr' Ùige agus Càrlabhagh , Eilean Siar@Sgìr' Ùige \& Càrlabhagh, \emph{Eilean Siar}}
 
 Insufficient candidates in the 2022 ordinary election.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{First preferences}\\
 	Norman Macdonald & Ind & 222\\
 	Jamie Dobson & LD & 128\\
@@ -5866,7 +5695,7 @@ Insufficient candidates in the 2022 ordinary election.
 \emph{Cameron-Lewis eliminated}: Macdonald 256 Dobson 159 Brown 149
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	\emph{Brown eliminated}\\
 	Norman Macdonald & Ind & 278\\
 	Jamie Dobson & LD & 220\\
@@ -5880,11 +5709,12 @@ Insufficient candidates in the 2022 ordinary election.
 	[4th August]}
 
 \index{North Isles , Shetland@North Isles, \emph{Shetland}}
+\label{ShetlandNorthIsles}
 
 Insufficient candidates in the 2022 ordinary election.
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Robert Thomson & Ind & 680\\
 	Sonia Robertson & Ind & 106\\
 	Gary Cleaver & Ind & 100\\
@@ -5902,7 +5732,7 @@ Insufficient candidates in the 2022 ordinary election.
 Resignation of John Leask (Ind).
 
 \noindent
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.53\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} p{0.545\columnwidth} >{\itshape}l r @{\extracolsep{\fill}}}
 	Mark Robinson & Ind & 375\\
 	Debra Nicolson & Grn & 67\\
 	Zara Pennington & SNP & 49\\
@@ -5916,472 +5746,3 @@ At the May 2022 ordinary election there was an unfilled vacancy in Montrose and 
 \index{Montrose and District , Angus@Montrose \& District, \emph{Angus}}
 
 \end{resultsiii}
-
-% Index:
-\clearpage
-\phantomsection
-%\addcontentsline{toc}{chapter}{Index of Wards}
-{\scriptsize%\raggedright
-\frenchspacing\printindex}
-\thispagestyle{plain}
-
-%% GNU Free Documentation License
-\chapter*{{GNU Free Documentation License}}
-\phantomsection % so hyperref creates bookmarks
-\addcontentsline{toc}{chapter}{GNU Free Documentation License}
-%\label{label_fdl}
-\pagestyle{plain}
-
- Version 1.3, 3 November 2008
-
-
- Copyright \copyright{} 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
-
- \bigskip
-
- <\url{http://fsf.org/}>
-
- \bigskip
-
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-\begin{results}
-\tiny
-
-\subsubsection*{Preamble}
-
-The purpose of this License is to make a manual, textbook, or other
-functional and useful document ``free'' in the sense of freedom: to
-assure everyone the effective freedom to copy and redistribute it,
-with or without modifying it, either commercially or noncommercially.
-Secondarily, this License preserves for the author and publisher a way
-to get credit for their work, while not being considered responsible
-for modifications made by others.
-
-This License is a kind of ``copyleft'', which means that derivative
-works of the document must themselves be free in the same sense. It
-complements the GNU General Public License, which is a copyleft
-license designed for free software.
-
-We have designed this License in order to use it for manuals for free
-software, because free software needs free documentation: a free
-program should come with manuals providing the same freedoms that the
-software does. But this License is not limited to software manuals;
-it can be used for any textual work, regardless of subject matter or
-whether it is published as a printed book. We recommend this License
-principally for works whose purpose is instruction or reference.
-
-\subsubsection*{1. Applicability and definitions}
-
-This License applies to any manual or other work, in any medium, that
-contains a notice placed by the copyright holder saying it can be
-distributed under the terms of this License. Such a notice grants a
-world-wide, royalty-free license, unlimited in duration, to use that
-work under the conditions stated herein. The ``\emph{Document}'', below,
-refers to any such manual or work. Any member of the public is a
-licensee, and is addressed as ``\emph{you}''. You accept the license if you
-copy, modify or distribute the work in a way requiring permission
-under copyright law.
-
-A ``\emph{Modified Version}'' of the Document means any work containing the
-Document or a portion of it, either copied verbatim, or with
-modifications and/or translated into another language.
-
-A ``\emph{Secondary Section}'' is a named appendix or a front-matter section of
-the Document that deals exclusively with the relationship of the
-publishers or authors of the Document to the Document's overall subject
-(or to related matters) and contains nothing that could fall directly
-within that overall subject. (Thus, if the Document is in part a
-textbook of mathematics, a Secondary Section may not explain any
-mathematics.) The relationship could be a matter of historical
-connection with the subject or with related matters, or of legal,
-commercial, philosophical, ethical or political position regarding
-them.
-
-The ``\emph{Invariant Sections}'' are certain Secondary Sections whose titles
-are designated, as being those of Invariant Sections, in the notice
-that says that the Document is released under this License. If a
-section does not fit the above definition of Secondary then it is not
-allowed to be designated as Invariant. The Document may contain zero
-Invariant Sections. If the Document does not identify any Invariant
-Sections then there are none.
-
-The ``\emph{Cover Texts}'' are certain short passages of text that are listed,
-as Front-Cover Texts or Back-Cover Texts, in the notice that says that
-the Document is released under this License. A Front-Cover Text may
-be at most 5 words, and a Back-Cover Text may be at most 25 words.
-
-A ``\emph{Transparent}'' copy of the Document means a machine-readable copy,
-represented in a format whose specification is available to the
-general public, that is suitable for revising the document
-straightforwardly with generic text editors or (for images composed of
-pixels) generic paint programs or (for drawings) some widely available
-drawing editor, and that is suitable for input to text formatters or
-for automatic translation to a variety of formats suitable for input
-to text formatters. A copy made in an otherwise Transparent file
-format whose markup, or absence of markup, has been arranged to thwart
-or discourage subsequent modification by readers is not Transparent.
-An image format is not Transparent if used for any substantial amount
-of text. A copy that is not ``Transparent'' is called ``\emph{Opaque}''.
-
-Examples of suitable formats for Transparent copies include plain
-ASCII without markup, Texinfo input format, \LaTeX{} input format, SGML
-or XML using a publicly available DTD, and standard-conforming simple
-HTML, PostScript or PDF designed for human modification. Examples of
-transparent image formats include PNG, XCF and JPG. Opaque formats
-include proprietary formats that can be read and edited only by
-proprietary word processors, SGML or XML for which the DTD and/or
-processing tools are not generally available, and the
-machine-generated HTML, PostScript or PDF produced by some word
-processors for output purposes only.
-
-The ``\emph{Title Page}'' means, for a printed book, the title page itself,
-plus such following pages as are needed to hold, legibly, the material
-this License requires to appear in the title page. For works in
-formats which do not have any title page as such, ``Title Page'' means
-the text near the most prominent appearance of the work's title,
-preceding the beginning of the body of the text.
-
-The ``\emph{publisher}'' means any person or entity that distributes
-copies of the Document to the public.
-
-A section ``\emph{Entitled XYZ}'' means a named subunit of the Document whose
-title either is precisely XYZ or contains XYZ in parentheses following
-text that translates XYZ in another language. (Here XYZ stands for a
-specific section name mentioned below, such as ``\emph{Acknowledgements}'',
-``\emph{Dedications}'', ``\emph{Endorsements}'', or ``\emph{History}''.)
-To ``\emph{Preserve the Title}''
-of such a section when you modify the Document means that it remains a
-section ``Entitled XYZ'' according to this definition.
-
-The Document may include Warranty Disclaimers next to the notice which
-states that this License applies to the Document. These Warranty
-Disclaimers are considered to be included by reference in this
-License, but only as regards disclaiming warranties: any other
-implication that these Warranty Disclaimers may have is void and has
-no effect on the meaning of this License.
-
-\subsubsection*{2. Verbatim copying}
-
-You may copy and distribute the Document in any medium, either
-commercially or noncommercially, provided that this License, the
-copyright notices, and the license notice saying this License applies
-to the Document are reproduced in all copies, and that you add no other
-conditions whatsoever to those of this License. You may not use
-technical measures to obstruct or control the reading or further
-copying of the copies you make or distribute. However, you may accept
-compensation in exchange for copies. If you distribute a large enough
-number of copies you must also follow the conditions in section~3.
-
-You may also lend copies, under the same conditions stated above, and
-you may publicly display copies.
-
-\subsubsection*{3. Copying in quantity}
-
-If you publish printed copies (or copies in media that commonly have
-printed covers) of the Document, numbering more than 100, and the
-Document's license notice requires Cover Texts, you must enclose the
-copies in covers that carry, clearly and legibly, all these Cover
-Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on
-the back cover. Both covers must also clearly and legibly identify
-you as the publisher of these copies. The front cover must present
-the full title with all words of the title equally prominent and
-visible. You may add other material on the covers in addition.
-Copying with changes limited to the covers, as long as they preserve
-the title of the Document and satisfy these conditions, can be treated
-as verbatim copying in other respects.
-
-If the required texts for either cover are too voluminous to fit
-legibly, you should put the first ones listed (as many as fit
-reasonably) on the actual cover, and continue the rest onto adjacent
-pages.
-
-If you publish or distribute Opaque copies of the Document numbering
-more than 100, you must either include a machine-readable Transparent
-copy along with each Opaque copy, or state in or with each Opaque copy
-a computer-network location from which the general network-using
-public has access to download using public-standard network protocols
-a complete Transparent copy of the Document, free of added material.
-If you use the latter option, you must take reasonably prudent steps,
-when you begin distribution of Opaque copies in quantity, to ensure
-that this Transparent copy will remain thus accessible at the stated
-location until at least one year after the last time you distribute an
-Opaque copy (directly or through your agents or retailers) of that
-edition to the public.
-
-It is requested, but not required, that you contact the authors of the
-Document well before redistributing any large number of copies, to give
-them a chance to provide you with an updated version of the Document.
-
-\subsubsection*{4. Modifications}
-
-You may copy and distribute a Modified Version of the Document under
-the conditions of sections 2 and 3 above, provided that you release
-the Modified Version under precisely this License, with the Modified
-Version filling the role of the Document, thus licensing distribution
-and modification of the Modified Version to whoever possesses a copy
-of it. In addition, you must do these things in the Modified Version:
-
-\begin{itemize}
-\item[A.]
- Use in the Title Page (and on the covers, if any) a title distinct
- from that of the Document, and from those of previous versions
- (which should, if there were any, be listed in the History section
- of the Document). You may use the same title as a previous version
- if the original publisher of that version gives permission.
-
-\item[B.]
- List on the Title Page, as authors, one or more persons or entities
- responsible for authorship of the modifications in the Modified
- Version, together with at least five of the principal authors of the
- Document (all of its principal authors, if it has fewer than five),
- unless they release you from this requirement.
-
-\item[C.]
- State on the Title page the name of the publisher of the
- Modified Version, as the publisher.
-
-\item[D.]
- Preserve all the copyright notices of the Document.
-
-\item[E.]
- Add an appropriate copyright notice for your modifications
- adjacent to the other copyright notices.
-
-\item[F.]
- Include, immediately after the copyright notices, a license notice
- giving the public permission to use the Modified Version under the
- terms of this License, in the form shown in the Addendum below.
-
-\item[G.]
- Preserve in that license notice the full lists of Invariant Sections
- and required Cover Texts given in the Document's license notice.
-
-\item[H.]
- Include an unaltered copy of this License.
-
-\item[I.]
- Preserve the section Entitled ``History'', Preserve its Title, and add
- to it an item stating at least the title, year, new authors, and
- publisher of the Modified Version as given on the Title Page. If
- there is no section Entitled ``History'' in the Document, create one
- stating the title, year, authors, and publisher of the Document as
- given on its Title Page, then add an item describing the Modified
- Version as stated in the previous sentence.
-
-\item[J.]
- Preserve the network location, if any, given in the Document for
- public access to a Transparent copy of the Document, and likewise
- the network locations given in the Document for previous versions
- it was based on. These may be placed in the ``History'' section.
- You may omit a network location for a work that was published at
- least four years before the Document itself, or if the original
- publisher of the version it refers to gives permission.
-
-\item[K.]
- For any section Entitled ``Acknowledgements'' or ``Dedications'',
- Preserve the Title of the section, and preserve in the section all
- the substance and tone of each of the contributor acknowledgements
- and/or dedications given therein.
-
-\item[L.]
- Preserve all the Invariant Sections of the Document,
- unaltered in their text and in their titles. Section numbers
- or the equivalent are not considered part of the section titles.
-
-\item[M.]
- Delete any section Entitled ``Endorsements''. Such a section
- may not be included in the Modified Version.
-
-\item[N.]
- Do not retitle any existing section to be Entitled ``Endorsements''
- or to conflict in title with any Invariant Section.
-
-\item[O.]
- Preserve any Warranty Disclaimers.
-\end{itemize}
-
-If the Modified Version includes new front-matter sections or
-appendices that qualify as Secondary Sections and contain no material
-copied from the Document, you may at your option designate some or all
-of these sections as invariant. To do this, add their titles to the
-list of Invariant Sections in the Modified Version's license notice.
-These titles must be distinct from any other section titles.
-
-You may add a section Entitled ``Endorsements'', provided it contains
-nothing but endorsements of your Modified Version by various
-parties---for example, statements of peer review or that the text has
-been approved by an organization as the authoritative definition of a
-standard.
-
-You may add a passage of up to five words as a Front-Cover Text, and a
-passage of up to 25 words as a Back-Cover Text, to the end of the list
-of Cover Texts in the Modified Version. Only one passage of
-Front-Cover Text and one of Back-Cover Text may be added by (or
-through arrangements made by) any one entity. If the Document already
-includes a cover text for the same cover, previously added by you or
-by arrangement made by the same entity you are acting on behalf of,
-you may not add another; but you may replace the old one, on explicit
-permission from the previous publisher that added the old one.
-
-The author(s) and publisher(s) of the Document do not by this License
-give permission to use their names for publicity for or to assert or
-imply endorsement of any Modified Version.
-
-\subsubsection*{5. Combining documents}
-
-You may combine the Document with other documents released under this
-License, under the terms defined in section~4 above for modified
-versions, provided that you include in the combination all of the
-Invariant Sections of all of the original documents, unmodified, and
-list them all as Invariant Sections of your combined work in its
-license notice, and that you preserve all their Warranty Disclaimers.
-
-The combined work need only contain one copy of this License, and
-multiple identical Invariant Sections may be replaced with a single
-copy. If there are multiple Invariant Sections with the same name but
-different contents, make the title of each such section unique by
-adding at the end of it, in parentheses, the name of the original
-author or publisher of that section if known, or else a unique number.
-Make the same adjustment to the section titles in the list of
-Invariant Sections in the license notice of the combined work.
-
-In the combination, you must combine any sections Entitled ``History''
-in the various original documents, forming one section Entitled
-``History''; likewise combine any sections Entitled ``Acknowledgements'',
-and any sections Entitled ``Dedications''. You must delete all sections
-Entitled ``Endorsements''.
-
-\subsubsection*{6. Collections of documents}
-
-You may make a collection consisting of the Document and other documents
-released under this License, and replace the individual copies of this
-License in the various documents with a single copy that is included in
-the collection, provided that you follow the rules of this License for
-verbatim copying of each of the documents in all other respects.
-
-You may extract a single document from such a collection, and distribute
-it individually under this License, provided you insert a copy of this
-License into the extracted document, and follow this License in all
-other respects regarding verbatim copying of that document.
-
-\subsubsection*{7. Aggregation with independent works}
-
-A compilation of the Document or its derivatives with other separate
-and independent documents or works, in or on a volume of a storage or
-distribution medium, is called an ``aggregate'' if the copyright
-resulting from the compilation is not used to limit the legal rights
-of the compilation's users beyond what the individual works permit.
-When the Document is included in an aggregate, this License does not
-apply to the other works in the aggregate which are not themselves
-derivative works of the Document.
-
-If the Cover Text requirement of section~3 is applicable to these
-copies of the Document, then if the Document is less than one half of
-the entire aggregate, the Document's Cover Texts may be placed on
-covers that bracket the Document within the aggregate, or the
-electronic equivalent of covers if the Document is in electronic form.
-Otherwise they must appear on printed covers that bracket the whole
-aggregate.
-
-\subsubsection*{8. Translation}
-
-Translation is considered a kind of modification, so you may
-distribute translations of the Document under the terms of section~4.
-Replacing Invariant Sections with translations requires special
-permission from their copyright holders, but you may include
-translations of some or all Invariant Sections in addition to the
-original versions of these Invariant Sections. You may include a
-translation of this License, and all the license notices in the
-Document, and any Warranty Disclaimers, provided that you also include
-the original English version of this License and the original versions
-of those notices and disclaimers. In case of a disagreement between
-the translation and the original version of this License or a notice
-or disclaimer, the original version will prevail.
-
-If a section in the Document is Entitled ``Acknowledgements'',
-``Dedications'', or ``History'', the requirement (section~4) to Preserve
-its Title (section~1) will typically require changing the actual
-title.
-
-\subsubsection*{9. Termination}
-
-You may not copy, modify, sublicense, or distribute the Document
-except as expressly provided under this License. Any attempt
-otherwise to copy, modify, sublicense, or distribute it is void, and
-will automatically terminate your rights under this License.
-
-However, if you cease all violation of this License, then your license
-from a particular copyright holder is reinstated (a) provisionally,
-unless and until the copyright holder explicitly and finally
-terminates your license, and (b) permanently, if the copyright holder
-fails to notify you of the violation by some reasonable means prior to
-60 days after the cessation.
-
-Moreover, your license from a particular copyright holder is
-reinstated permanently if the copyright holder notifies you of the
-violation by some reasonable means, this is the first time you have
-received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
-
-Termination of your rights under this section does not terminate the
-licenses of parties who have received copies or rights from you under
-this License. If your rights have been terminated and not permanently
-reinstated, receipt of a copy of some or all of the same material does
-not give you any rights to use it.
-
-\subsubsection*{10. Future revisions of this License}
-
-The Free Software Foundation may publish new, revised versions
-of the GNU Free Documentation License from time to time. Such new
-versions will be similar in spirit to the present version, but may
-differ in detail to address new problems or concerns. See
-\url{http://www.gnu.org/copyleft/}.
-
-Each version of the License is given a distinguishing version number.
-If the Document specifies that a particular numbered version of this
-License ``or any later version'' applies to it, you have the option of
-following the terms and conditions either of that specified version or
-of any later version that has been published (not as a draft) by the
-Free Software Foundation. If the Document does not specify a version
-number of this License, you may choose any version ever published (not
-as a draft) by the Free Software Foundation. If the Document
-specifies that a proxy can decide which future versions of this
-License can be used, that proxy's public statement of acceptance of a
-version permanently authorizes you to choose that version for the
-Document.
-
-\subsubsection*{11. Relicensing}
-
-``Massive Multiauthor Collaboration Site'' (or ``MMC Site'') means any
-World Wide Web server that publishes copyrightable works and also
-provides prominent facilities for anybody to edit those works. A
-public wiki that anybody can edit is an example of such a server. A
-``Massive Multiauthor Collaboration'' (or ``MMC'') contained in the
-site means any set of copyrightable works thus published on the MMC
-site.
-
-``CC-BY-SA'' means the Creative Commons Attribution-Share Alike 3.0
-license published by Creative Commons Corporation, a not-for-profit
-corporation with a principal place of business in San Francisco,
-California, as well as future copyleft versions of that license
-published by that same organization.
-
-``Incorporate'' means to publish or republish a Document, in whole or
-in part, as part of another Document.
-
-An MMC is ``eligible for relicensing'' if it is licensed under this
-License, and if all works that were first published under this License
-somewhere other than this MMC, and subsequently incorporated in whole
-or in part into the MMC, (1) had no cover texts or invariant sections,
-and (2) were thus incorporated prior to November 1, 2008.
-
-The operator of an MMC Site may republish an MMC contained in the site
-under CC-BY-SA on the same site at any time before August 1, 2009,
-provided the MMC is eligible for relicensing.
-
-\end{results}
-
-\end{document}
