@@ -1,0 +1,20 @@
+"Election for","Highland 2025-09-25 - Ward 7 - Tain and Easter Ross"
+"Date","26 Sep 2025"
+"Number to be elected",1
+"Valid votes",2412
+"Invalid votes",0
+"Quota",1207.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5,"Stage",6
+ ,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Manuel ANDROULAKAKIS (C)",,"Andrew BARNETT (Grn)",,"Stuart WILSON (RUK)",,"Peter NEWMAN (SNP)",,"Eric NIMMONS (Ind)",
+ "Manuel ANDROULAKAKIS (C)",45,-45.00000,"-",,"-",,"-",,"-",,"-",
+ "Andrew BARNETT (Grn)",78,+4.00000,82.00000,-82.00000,"-",,"-",,"-",,"-",
+ "Peter NEWMAN (SNP)",356,+3.00000,359.00000,+33.00000,392.00000,+13.00000,405.00000,-405.00000,"-",,"-",
+ "Eric NIMMONS (Ind)",686,+18.00000,704.00000,+8.00000,712.00000,+100.00000,812.00000,+112.00000,924.00000,-924.00000,"-",
+ "Connie RAMSAY (LD)",935,+9.00000,944.00000,+27.00000,971.00000,+71.00000,1042.00000,+99.00000,1141.00000,+443.00000,1584.00000,"Elected"
+ "Stuart WILSON (RUK)",312,+7.00000,319.00000,+3.00000,322.00000,-322.00000,"-",,"-",,"-",
+ "Non-transferable", ,+4.00000,4.00000,+11.00000,15.00000,+138.00000,153.00000,+194.00000,347.00000,+481.00000,828.00000,
+ "Totals",2412,,2412.00000,,2412.00000,,2412.00000,,2412.00000,,2412.00000
+ 
