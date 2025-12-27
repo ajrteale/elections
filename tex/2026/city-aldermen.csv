@@ -66,9 +66,9 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 2024-12-19,Bassishaw,Timothy Hailes,Yes,Yes,Timothy Hailes,
 2024-12-19,Billingsgate,Bronek Masojada,Yes,Yes,Bronek Masojada,
 2024-12-19,Broad St,Michael Mainelli,Yes,Yes,Michael Mainelli,
-2025-06-19,Dowgate,Alison Gowman,Yes,No,Alison Gowman,By 2025-12-19
-2025-06-19,Vintry,Sir Andrew Parmley,Yes,Yes,,By 2025-08-07
-,Coleman St,Peter Estlin,,,,By 2025-12-19
+2025-06-19,Dowgate,Alison Gowman,Yes,No,Alison Gowman,
+2025-06-19,Vintry,Sir Andrew Parmley,Yes,Yes,Sir Andrew Parmley,
+2026-02-05,Coleman St,Sir Peter Estlin,,,,By 2025-12-19
 ,Lime St,Sir Charles Bowman,,,,By 2025-08-07
 ,Farringdon Wn,Vincent Keaveny,,,,By 2025-12-19
 ,Aldersgate,Christopher Makin,,,,By 2028-05-26
@@ -92,4 +92,5 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 ,Billingsgate,Bronek Masojada,,,,By 2030-12-19
 ,Broad St,Michael Mainelli,,,,By 2030-12-19
 ,Dowgate,Alison Gowman,,,,By 2031-06-19
-,Vintry,,,,,By 2031-06-19
+,Vintry,Sir Andrew Parmley,,,,By 2031-06-19
+,Coleman St,,,,,By 2032-02-05
