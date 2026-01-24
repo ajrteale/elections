@@ -1,0 +1,20 @@
+"Election for","Fife 2026-01-22 - Ward 13 - Glenrothes West and Kinglassie"
+"Date","23 Jan 2026"
+"Number to be elected",1
+"Valid votes",2637
+"Invalid votes",0
+"Quota",1319.00000
+"OpenSTV","1.7"
+"Election rules","Scottish STV"
+ ,,"Stage",2,"Stage",3,"Stage",4,"Stage",5
+ ,"First","Exclusion of",,"Exclusion of",,"Exclusion of",,"Exclusion of",
+ "Candidates","Preferences","Danny SMITH (ScFam)",,"Ed SCOTCHER (LD)",,"Andrew BUTCHART (C)",,"Jacob WINTON (Lab)",
+ "Andrew BUTCHART (C)",182,+1.00000,183.00000,+19.00000,202.00000,-202.00000,"-",,"-",
+ "Zoe HISBENT (SNP)",1167,+4.00000,1171.00000,+30.00000,1201.00000,+24.00000,1225.00000,+157.00000,1382.00000,"Elected"
+ "Ed SCOTCHER (LD)",125,+4.00000,129.00000,-129.00000,"-",,"-",,"-",
+ "Danny SMITH (ScFam)",25,-25.00000,"-",,"-",,"-",,"-",
+ "Romano VALENTE (RUK)",725,+5.00000,730.00000,+11.00000,741.00000,+46.00000,787.00000,+47.00000,834.00000,
+ "Jacob WINTON (Lab)",413,+4.00000,417.00000,+35.00000,452.00000,+44.00000,496.00000,-496.00000,"-",
+ "Non-transferable", ,+7.00000,7.00000,+34.00000,41.00000,+88.00000,129.00000,+292.00000,421.00000,
+ "Totals",2637,,2637.00000,,2637.00000,,2637.00000,,2637.00000
+ 
