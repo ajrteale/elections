@@ -1,18 +1,15 @@
 Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev results,C cand,Lab cand,LD cand,Grn cand,RUK cand,SNP/PC cand,Other cand
-2026-04-02,Bury,34,Tottington,23402,C,Luis McBriar,Resignation,Now “Together for Bury”,andrewteale.me.uk/ifsx,Emma Lee,Drew Bell,,Chloe King,George Martin,,Greg Keeley (Together for Bury)
-2026-04-02,Luton,69,Wigmore,23962,LD,Alan Skepelhorn,Disqualification,Non-attendance,andrewteale.me.uk/ie9x,Sam Choudhury,Georgia Marcantonio,George Neculaiu,Carolyn Cottier,James Fletcher,,Marc Scheimann (Ind)
-2026-04-02,N Devon,174,Fremington,20698,Ind,Neil Denton,Death,,andrewteale.me.uk/ih9u,Susan Kingdom,Douglas McLynn,Jayne Mackie,Jules Credgington,Derek Sargent,,
-2026-04-02,Rossendale,256,Hareholme/Waterfoot,24964,Lab,Thomas Belli,Resignation,,andrewteale.me.uk/is6y,Matthew Littler,Cathy Tinston,Keith Bardsley,Laura Diamond,Clive Balchin,,
 2026-04-09,Kent CC,386,Cliftonville,18204,RUK,Daniel Taylor,Disqualification,"12 months imprisonment, controlling or coercive behaviour",andrewteale.me.uk/ixzs,Charlie Leys,Joanne Bright,Mo Shafaei,Rob Yates,Marc Rattigan,,Lucy Gray (Ind)
-2026-04-16,Leics CC,388,Narborough/Whetstone,18676,RUK,Andrew Thorp,Resignation,,andrewteale.me.uk/i7et,,,,,,,
-2026-04-16,Northumberland,118,Cramlington SW,25118,RUK,Shaun Knowles,Resignation,,andrewteale.me.uk/ifcz,,,,,,,
-2026-04-22,Salford,37,Barton/Winton,21344,Lab,David Lancaster,Death,,andrewteale.me.uk/i2vv,,,,,,,
-2026-04-23,Cornwall,121,Newquay Porth/Tretherras,21218,RUK,Kevin Towill,Death,,andrewteale.me.uk/i8rv,,,,,,,
+2026-04-16,Leics CC,388,Narborough/Whetstone,18676,RUK,Andrew Thorp,Resignation,,andrewteale.me.uk/i7et,Les Phillimore,Lisa Pendery-Hunt,Ande Savage,Mike Jelfs,Dee North,,Martin Garfoot (Advance UK)
+2026-04-16,Northumberland,118,Cramlington SW,25118,RUK,Shaun Knowles,Resignation,,andrewteale.me.uk/ifcz,Neil Graham,Lynne Robinson,Nick Cott,Alex Phimister,Bridget Byrne,,Dawn Furness (Ind)
+2026-04-22,Salford,37,Barton/Winton,21344,Lab,David Lancaster,Death,,andrewteale.me.uk/i2vv,Holly Muldoon,Catherine Goodyer,Antony Duke,Jack Groom,Michael Felse,,Kirsty Downie (Ind)
+2026-04-23,Cornwall,121,Newquay Porth/Tretherras,21218,RUK,Kevin Towill,Death,,andrewteale.me.uk/i8rv,Oli Kimber,Suzanne Featherstone,Sandy Carter,Abigail Hubbucks,Lyndon Harrison,,Topher Chard (Ind)
 2026-04-30,Malvern Hills,366,Tenbury,24525,C,John Willmott,Resignation,,andrewteale.me.uk/igty,,,,,,,
 2026-05-07,Chelmsford,201,Broomfield/Walthams,3800,LD,Nicola Bugbee,Resignation,,andrewteale.me.uk/ifsd,,,,,,,
 2026-05-07,Chesterfield,165,Staveley N,24416,LD,Paul Jacobs,Death,,andrewteale.me.uk/i5py,,,,,,,
 2026-05-07,Chesterfield,165,Staveley N,24416,Lab,Steve Lismore,Death,,andrewteale.me.uk/i5py,,,,,,,
 2026-05-07,E Herts,228,Little Hadham/Pelhams,24605,C,Geoffrey Williamson,Resignation,,andrewteale.me.uk/iwvy,,,,,,,
+2026-05-07,Glos CC,383,St Mark’s/St Peter’s,25851,LD,David Willingham,Resignation,,andrewteale.me.uk/in0z,,,,,,,
 2026-05-07,Great Yarmouth,276,Caister S,7267,C,Michael Bird,Death,,andrewteale.me.uk/ihyg,,,,,,,
 2026-05-07,Guildford,340,Onslow,24215,LD,James Jones,Resignation,,andrewteale.me.uk/i2hy,,,,,,,
 2026-05-07,Herts CC,385,Flamstead End/Turnford,17809,RUK,Tony Hill,Resignation,,andrewteale.me.uk/iyms,,,,,,,
@@ -29,11 +26,11 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 2026-05-07,Stratford-on-Avon,352,Bishop’s Itchington/Fenny Compton/Napton,24081,LD,Nigel Rock,Resignation,,andrewteale.me.uk/i0dy,,,,,,,
 2026-05-07,Surrey CC,400,Warlingham,12302,C,Becky Rush,Resignation,,andrewteale.me.uk/i2km,,,,,,,
 2026-05-07,W Northants,469,Hackleton/Roade,24987,RUK,Adam Smith,Resignation,,andrewteale.me.uk/ig7y,,,,,,,
+2026-05-07,W Suffolk,460,Abbeygate,21047,C,Joanna Rayner,Resignation,,andrewteale.me.uk/i2lv,,,,,,,
+2026-05-21,Fylde,250,Kirkham,23684,Ind,Damian Buckley,Resignation,,andrewteale.me.uk/iz0x,,,,,,,
 ,Aberdeen,427,George St/Harbour,18270,LD,Desmond Bouse,Resignation,Now Desmond Buchanan,andrewteale.me.uk/ix1s,,,,,,,
 ,City of London,459,Coleman St,12936,Ind,Sushil Saluja,Aldermanic,,andrewteale.me.uk/i94m,,,,,,,
 ,Denbighshire,423,Rhyl S,22787,Lab,Jeanette Chamberlain-Jones,Death,,andrewteale.me.uk/it6w,,,,,,,
 ,Dorset,463,Bridport,20970,LD,Dave Bolwell,Death,,andrewteale.me.uk/irjv,,,,,,,
-,Fylde,250,Kirkham,23684,Ind,Damian Buckley,Resignation,,andrewteale.me.uk/iz0x,,,,,,,
-,Glos CC,383,St Mark’s/St Peter’s,25851,LD,David Willingham,Resignation,,andrewteale.me.uk/in0z,,,,,,,
-,Reading,93,Caversham Heights,21858,Lab,Sam Juthani,Resignation,,andrewteale.me.uk/incw,,,,,,,
 ,Swansea,410,Fairwood,22374,C,Paxton Hood-Williams,Death,,andrewteale.me.uk/i9tw,,,,,,,
+,Teignbridge,176,Dawlish SW,19715,LD,Mike James,Death,,andrewteale.me.uk/iqdu,,,,,,,
