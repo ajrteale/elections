@@ -68,13 +68,13 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 2024-12-19,Broad St,Michael Mainelli,Yes,Yes,Michael Mainelli,
 2025-06-19,Dowgate,Alison Gowman,Yes,No,Alison Gowman,
 2025-06-19,Vintry,Sir Andrew Parmley,Yes,Yes,Sir Andrew Parmley,
+2025-09-10,Farringdon Wn,Vincent Keaveny,Yes,No,Vincent Keaveny,
+2025-09-10,Lime St,Sir Charles Bowman,Yes,No,Sir Charles Bowman,
 2026-02-05,Coleman St,Sir Peter Estlin,No,Yes,Sushil Saluja,
-,Lime St,Sir Charles Bowman,,,,By 2025-08-07
-,Farringdon Wn,Vincent Keaveny,,,,By 2025-12-19
+2026-09-09,Bridge/Bridge Wt,Timothy Levene,Yes,No,Timothy Levene,
+2026-09-09,Cordwainer,Alexander Barr,Yes,No,Alex Barr,
 ,Aldersgate,Christopher Makin,,,,By 2028-05-26
-,Cordwainer,Alexander Barr,,,,By 2028-05-26
 ,Cornhill,Robert Howard,,,,By 2028-05-26
-,Bridge/Bridge Wt,Timothy Levene,,,,By 2028-07-07
 ,Walbrook,Jennette Newman,,,,By 2028-07-07
 ,Bishopsgate,Kawsar Zaman,,,,By 2028-09-15
 ,Cripplegate,Susan Pearson,,,,By 2028-09-15
@@ -93,4 +93,8 @@ Date,Ward,Outgoing alderman,Sought re-election?,Contested?,New alderman,Remarks
 ,Broad St,Michael Mainelli,,,,By 2030-12-19
 ,Dowgate,Alison Gowman,,,,By 2031-06-19
 ,Vintry,Sir Andrew Parmley,,,,By 2031-06-19
+,Farringdon Wn,Vincent Keaveny,,,,By 2031-09-10
+,Lime St,Sir Charles Bowman,,,,By 2031-09-10
 ,Coleman St,Sushil Saluja,,,,By 2032-02-05
+,Bridge/Bridge Wt,Timothy Levene,,,,By 2032-09-09
+,Cordwainer,Alex Barr,,,,By 2032-09-09
