@@ -1,13 +1,4 @@
 Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev results,C cand,Lab cand,LD cand,Grn cand,RUK cand,SNP/PC cand,Other cand
-2026-11-19,Caerphilly,413,Risca E,23005,Lab,Nigel George,Death,,andrewteale.me.uk/ieex,Ceithin Dennes,Marcus Leonard,,Tracy Barrington,Darren Crandon,Brandon Ham,Peter Heathcote (Ind)
-2026-11-19,Conwy,422,Bryn,22841,C,Jacob Williams,Resignation,,andrewteale.me.uk/if8w,Rodney Davies,,Leena Farhat,,Robert Craven,,"Rhys Griffiths (Ind), Nia Jones (Ind), Tony Priestley (Restore Britain)"
-2026-11-19,Durham,117,Craghead/South Moor,25272,RUK,Aaron Hillam,Resignation,,andrewteale.me.uk/i3gz,Dorothy Luckhurst,Les Timbey,Victoria Aymard,Callum Hutchinson,Mark Taylor,,Jean Thomson (Restore Britain)
-2026-11-19,Fareham,218,Portchester Wicor,24764,LD,Rob Turner,Resignation,,andrewteale.me.uk/iq0y,Harry Davis,Lorraine Drinkwater,Steve Shaw,,Paul Kimber,,George Ponsford (Restore Britain)
-2026-11-19,Havant,221,Emsworth,24616,Grn,Charles Robert,Resignation,,andrewteale.me.uk/i7vy,Andrew Proctor,Simon Hagan,Iain Sutherland,Katharine Hulls,Lucy Lawrence,,
-2026-11-19,Herts CC,385,Letchworth N,17836,Lab,Tina Bhartwas,Resignation,,andrewteale.me.uk/isns,Simon Bloxham,Laura Williams,Claire Winchester,Brett Dietrich,Garry Warren,,Neil Almond (Restore Britain)
-2026-11-19,N Herts,230,Letchworth Norton,24849,Lab,Tina Bhartwas,Resignation,,andrewteale.me.uk/i92y,Simon Bloxham,Indie Sunner,Timothy Oughton,Hannah Tattersall,Steven Adelantado,,Neil Almond (Restore Britain)
-2026-11-19,Rotherham,50,Anston/Woodsetts,20047,C,John Blackham,Death,,andrewteale.me.uk/ispu,Mike Hemingway,Ashley Gregory,Bev Thornley,Annie Blench,Andy Damms,,Paul Vernon (Restore Britain)
-2026-11-19,S Staffs,327,Huntington/Hatherton,24158,Lab,Jeff Ashley,Death,,andrewteale.me.uk/icgy,Nathaniel Williams,Daniel Costigan,,,Craig Humphreyson,,
 2026-11-26,Birmingham,57,Shard End,18738,RUK,Alan Feeney,Resignation,,andrewteale.me.uk/i3gt,Clifton Welch,Gerald Dickson,,Shaun Allen-Dooley,Sarah Myers,,"Jack Brookes (Restore Britain), Fahad Hussain (Workers), Duncan Riley (Ind)"
 2026-11-26,Bromsgrove,365,Marlbrook,16768,C,Helen Jones,Resignation,,andrewteale.me.uk/iepr,Cathy Perruzza,Geraint Lewis,Kim Routley,Lockie Carbery,Nik Price,,
 2026-11-26,Flints,424,Mold: Broncoed,23216,Lab,Teresa Carberry,Death,,andrewteale.me.uk/itlx,Kathy Cracknell,Laura Murton,Nanette Davies,Emily Hart,Richard Clarke,,"Ted Jenkins (Restore Britain), Kristina Renshaw (Heritage Party)"
@@ -25,7 +16,7 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 2026-12-10,E Ayrs,429,Cumnock/New Cumnock,18344,Lab,Billy Crawford,Death,,andrewteale.me.uk/i53s,,,,,,,
 2026-12-10,E Surrey,474,Dorking Rural,26281,LD,Jo Farrar-Astrop,Resignation,,andrewteale.me.uk/ipe0a,,,,,,,
 2026-12-10,Leeds,67,Cross Gates/Whinmoor,19592,RUK,Paula-Jane Thackray,Resignation,,andrewteale.me.uk/iz8t,,,,,,,
-2026-12-10,M Sussex,359,Haywards Heath Bentswood/Heath,23867,LD,Anthony Platts,Resignation,,andrewteale.me.uk/ij6x,,,,,,,
+2026-12-10,M Sussex,359,Haywards Heath Bentswood/Heath,23867,LD,Anthony Platts,Death,,andrewteale.me.uk/ij6x,,,,,,,
 2026-12-10,Redcar/Cleveland,80,Hutton,20670,LD,Graham Jeffery,Resignation,,andrewteale.me.uk/in8u,,,,,,,
 2026-12-10,Sefton,46,Netherton N,25471,Lab,Helen Duerden,Resignation,,andrewteale.me.uk/i4nz,,,,,,,
 2026-12-10,Southend-on-Sea,71,Leigh,1489,Grn,Stuart Allen,Resignation,,andrewteale.me.uk/ienb,,,,,,,
@@ -41,6 +32,7 @@ Polling,Council,ID,Ward,ID,Defending,Outgoing councillor,Cause,Remarks,Prev resu
 ,NE Lincs,112,Sidney Sussex,3000,Lab,Janet Haggis,Death,,andrewteale.me.uk/i60c,,,,,,,
 ,Runnymede,343,Englefield Green E,21128,Ind,Andrea Berardi,Resignation,,andrewteale.me.uk/ijpv,,,,,,,
 ,Salford,37,Cadishead/Lr Irlam,21348,Lab,Hannah Robinson-Smith,Resignation,,andrewteale.me.uk/i6vv,,,,,,,
+,Southwark,30,Camberwell Green,18761,Lab,Dora Dixon-Fyle,Resignation,,andrewteale.me.uk/itht,,,,,,,
 ,W Lancs,258,Up Holland,24240,Lab,Gaynar Owen,Death,,andrewteale.me.uk/iujy,,,,,,,
 ,Waverley,347,Western Commons,24076,C,James Staunton,Resignation,,andrewteale.me.uk/ivdy,,,,,,,
 ,Woking,348,Hoe Valley,17732,LD,Thomas Bonsundy-O'Bryan,Resignation,,andrewteale.me.uk/imks,,,,,,,
